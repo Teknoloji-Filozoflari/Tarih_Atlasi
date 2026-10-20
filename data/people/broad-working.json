@@ -1,0 +1,1138 @@
+{
+  "status": "unverified-editorial-working",
+  "synthetic": false,
+  "representation": "browser-editorial-structured-fact-extraction-not-api-response",
+  "people": [
+    {
+      "qid": "Q39246",
+      "title": "Richard Feynman",
+      "url": "https://www.wikidata.org/wiki/Q39246",
+      "lines": 3937,
+      "revision": "2549568012",
+      "birth": "11 May 1918^{Gregorian}",
+      "death": "15 February 1988",
+      "place": {
+        "link": 101,
+        "name": "Queens"
+      },
+      "trwiki": {
+        "link": 823,
+        "title": "Richard Feynman"
+      },
+      "description": "American theoretical physicist (1918–1988)",
+      "birthPlaceQid": "Q18424",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Richard_Feynman"
+    },
+    {
+      "qid": "Q9130",
+      "title": "Erwin Schrödinger",
+      "url": "https://www.wikidata.org/wiki/Q9130",
+      "lines": 3070,
+      "revision": "2557874321",
+      "birth": "12 August 1887^{Gregorian}",
+      "death": "4 January 1961",
+      "place": {
+        "link": 97,
+        "name": "Vienna"
+      },
+      "trwiki": {
+        "link": 743,
+        "title": "Erwin Schrödinger"
+      },
+      "description": "Austrian physicist (1887–1961)",
+      "birthPlaceQid": "Q1741",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger"
+    },
+    {
+      "qid": "Q65989",
+      "title": "Wolfgang Pauli",
+      "url": "https://www.wikidata.org/wiki/Q65989",
+      "lines": 3261,
+      "revision": "2550332977",
+      "birth": "25 April 1900^{Gregorian}",
+      "death": "15 December 1958",
+      "place": {
+        "link": 92,
+        "name": "Vienna"
+      },
+      "trwiki": {
+        "link": 673,
+        "title": "Wolfgang Pauli"
+      },
+      "description": "physicist, Nobel prize winner (1900–1958)",
+      "birthPlaceQid": "Q1741",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Wolfgang_Pauli"
+    },
+    {
+      "qid": "Q58978",
+      "title": "Max Born",
+      "url": "https://www.wikidata.org/wiki/Q58978",
+      "lines": 3782,
+      "revision": "2550435917",
+      "birth": "11 December 1882^{Gregorian}",
+      "death": "5 January 1970",
+      "place": {
+        "link": 98,
+        "name": "Wrocław"
+      },
+      "trwiki": {
+        "link": 720,
+        "title": "Max Born"
+      },
+      "description": "German-Jewish physicist and mathematician (1882–1970)",
+      "birthPlaceQid": "Q1799",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Max_Born"
+    },
+    {
+      "qid": "Q9312",
+      "title": "Immanuel Kant",
+      "url": "https://www.wikidata.org/wiki/Q9312",
+      "lines": 5013,
+      "revision": "2557930183",
+      "birth": "22 April 1724^{Gregorian}",
+      "death": "12 February 1804^{Gregorian}",
+      "place": {
+        "link": 92,
+        "name": "Königsberg"
+      },
+      "trwiki": {
+        "link": 1080,
+        "title": "Immanuel Kant"
+      },
+      "description": "German philosopher (1724-1804)",
+      "birthPlaceQid": "Q4120832",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Immanuel_Kant"
+    },
+    {
+      "qid": "Q9235",
+      "title": "Georg Wilhelm Friedrich Hegel",
+      "url": "https://www.wikidata.org/wiki/Q9235",
+      "lines": 4494,
+      "revision": "2557891466",
+      "birth": "27 August 1770^{Gregorian}",
+      "death": "14 November 1831^{Gregorian}",
+      "place": {
+        "link": 105,
+        "name": "Stuttgart"
+      },
+      "trwiki": {
+        "link": 1009,
+        "title": "Georg Wilhelm Friedrich Hegel"
+      },
+      "description": "German philosopher and theologian (1770–1831)",
+      "birthPlaceQid": "Q1022",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel"
+    },
+    {
+      "qid": "Q9358",
+      "title": "Friedrich Nietzsche",
+      "url": "https://www.wikidata.org/wiki/Q9358",
+      "lines": 6973,
+      "revision": "2555113828",
+      "birth": "15 October 1844^{Gregorian}",
+      "death": "25 August 1900^{Gregorian}",
+      "place": {
+        "link": 139,
+        "name": "Röcken"
+      },
+      "trwiki": {
+        "link": 1252,
+        "title": "Friedrich Nietzsche"
+      },
+      "description": "German philosopher (1844-1900)",
+      "birthPlaceQid": "Q529879",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Friedrich_Nietzsche"
+    },
+    {
+      "qid": "Q9397",
+      "title": "Zhu Xi",
+      "url": "https://www.wikidata.org/wiki/Q9397",
+      "lines": 2230,
+      "revision": "2558287751",
+      "birth": "18 October 1130",
+      "death": "23 April 1200",
+      "place": {
+        "link": 75,
+        "name": "Youxi County"
+      },
+      "trwiki": {
+        "link": 498,
+        "title": "Zhu Xi"
+      },
+      "description": "Chinese historian, neo-Confucian philosopher, poet, and politician during the Song dynasty (1130–1200)",
+      "birthPlaceQid": "Q1198112",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Zhu_Xi"
+    },
+    {
+      "qid": "Q38111",
+      "title": "Leonardo DiCaprio",
+      "url": "https://www.wikidata.org/wiki/Q38111",
+      "lines": 3756,
+      "revision": "2558116752",
+      "birth": "11 November 1974",
+      "death": null,
+      "place": {
+        "link": 92,
+        "name": "Los Angeles"
+      },
+      "trwiki": {
+        "link": 864,
+        "title": "Leonardo DiCaprio"
+      },
+      "description": "American actor and producer (born 1974)",
+      "birthPlaceQid": "Q65",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Leonardo_DiCaprio"
+    },
+    {
+      "qid": "Q9047",
+      "title": "Gottfried Wilhelm Leibniz",
+      "url": "https://www.wikidata.org/wiki/Q9047",
+      "lines": 5412,
+      "revision": "2557898536",
+      "birth": "21 June 1646^{Julian}",
+      "death": "14 November 1716^{Gregorian}",
+      "place": {
+        "link": 98,
+        "name": "Leipzig"
+      },
+      "trwiki": {
+        "link": 1150,
+        "title": "Gottfried Leibniz"
+      },
+      "description": "German mathematician and philosopher (1646–1716)",
+      "birthPlaceQid": "Q2079",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Gottfried_Leibniz"
+    },
+    {
+      "qid": "Q37160",
+      "title": "David Hume",
+      "url": "https://www.wikidata.org/wiki/Q37160",
+      "lines": 3521,
+      "revision": "2547676880",
+      "birth": "26 April 1711^{Julian}",
+      "death": "25 August 1776^{Gregorian}",
+      "place": {
+        "link": 80,
+        "name": "Edinburgh"
+      },
+      "trwiki": {
+        "link": 816,
+        "title": "David Hume"
+      },
+      "description": "Scottish philosopher, economist, and historian (1711-1776)",
+      "birthPlaceQid": "Q23436",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/David_Hume"
+    },
+    {
+      "qid": "Q81244",
+      "title": "Karl Popper",
+      "url": "https://www.wikidata.org/wiki/Q81244",
+      "lines": 4545,
+      "revision": "2553483715",
+      "birth": "28 July 1902^{Gregorian}",
+      "death": "17 September 1994",
+      "place": {
+        "link": 131,
+        "name": "Vienna"
+      },
+      "trwiki": {
+        "link": 893,
+        "title": "Karl Popper"
+      },
+      "description": "Austrian-British philosopher of science and social and política e falsificationism and for criticism of Plato, Hegel and Marx as totalitarian opponents of open society (1902-1994)",
+      "birthPlaceQid": "Q1741",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Karl_Popper"
+    },
+    {
+      "qid": "Q9364",
+      "title": "Jean-Paul Sartre",
+      "url": "https://www.wikidata.org/wiki/Q9364",
+      "lines": 4480,
+      "birth": null,
+      "death": null,
+      "place": null,
+      "trwiki": null,
+      "description": "French existentialist philosopher (1905–1980)"
+    },
+    {
+      "qid": "Q8440",
+      "title": "Hugo Chávez",
+      "url": "https://www.wikidata.org/wiki/Q8440",
+      "lines": 3507,
+      "revision": "2556269633",
+      "birth": "28 July 1954",
+      "death": "5 March 2013",
+      "place": {
+        "link": 96,
+        "name": "Sabaneta"
+      },
+      "trwiki": {
+        "link": 707,
+        "title": "Hugo Chávez"
+      },
+      "description": "president of Venezuela (1999–2013); revolutionary and military officer",
+      "birthPlaceQid": "Q728412",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Hugo_Ch%C3%A1vez"
+    },
+    {
+      "qid": "Q8027",
+      "title": "Martin Luther King Jr.",
+      "url": "https://www.wikidata.org/wiki/Q8027",
+      "lines": 4677,
+      "revision": "2555638791",
+      "birth": "15 January 1929^{Gregorian}",
+      "death": "4 April 1968",
+      "place": {
+        "link": 116,
+        "name": "Atlanta"
+      },
+      "trwiki": {
+        "link": 1063,
+        "title": "Martin Luther King Jr."
+      },
+      "description": "American Baptist minister and civil rights leader (1929–1968)",
+      "birthPlaceQid": "Q23556",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Martin_Luther_King_Jr."
+    },
+    {
+      "qid": "Q30547",
+      "title": "Mother Teresa",
+      "url": "https://www.wikidata.org/wiki/Q30547",
+      "lines": 3162,
+      "revision": "2536645535",
+      "birth": "26 August 1910^{Gregorian}",
+      "death": "5 September 1997",
+      "place": {
+        "link": 98,
+        "name": "Skopje"
+      },
+      "trwiki": {
+        "link": 768,
+        "title": "Rahibe Teresa"
+      },
+      "description": "Albanian-Indian Catholic nun and missionary (1910–1997)",
+      "birthPlaceQid": "Q384",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Rahibe_Teresa"
+    },
+    {
+      "qid": "Q32732",
+      "title": "Malala Yousafzai",
+      "url": "https://www.wikidata.org/wiki/Q32732",
+      "lines": 2532,
+      "revision": "2529424679",
+      "birth": "12 July 1997",
+      "death": null,
+      "place": {
+        "link": 84,
+        "name": "Mingora"
+      },
+      "trwiki": {
+        "link": 628,
+        "title": "Malala Yusufzay"
+      },
+      "description": "Pakistani children's education activist",
+      "birthPlaceQid": "Q31356",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Malala_Yusufzay"
+    },
+    {
+      "qid": "Q444",
+      "title": "Lech Wałęsa",
+      "url": "https://www.wikidata.org/wiki/Q444",
+      "lines": 2747,
+      "revision": "2557176271",
+      "birth": "29 September 1943",
+      "death": null,
+      "place": {
+        "link": 93,
+        "name": "Popowo"
+      },
+      "trwiki": {
+        "link": 711,
+        "title": "Lech Wałęsa"
+      },
+      "description": "President of Poland from 1990 to 1995 (born 1943)",
+      "birthPlaceQid": "Q4700601",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Lech_Wa%C5%82%C4%99sa"
+    },
+    {
+      "qid": "Q34211",
+      "title": "Yasser Arafat",
+      "url": "https://www.wikidata.org/wiki/Q34211",
+      "lines": 2928,
+      "revision": "2553820760",
+      "birth": "4 August 1929^{Gregorian}",
+      "death": "11 November 2004",
+      "place": {
+        "link": 78,
+        "name": "Cairo"
+      },
+      "trwiki": {
+        "link": 722,
+        "title": "Yaser Arafat"
+      },
+      "description": "Palestinian political leader (1929-2004) and Former President of the Palestinian National Authority (1994-2004)",
+      "birthPlaceQid": "Q85",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Yaser_Arafat"
+    },
+    {
+      "qid": "Q989",
+      "title": "John Paul II",
+      "url": "https://www.wikidata.org/wiki/Q989",
+      "lines": 6252,
+      "revision": "2557977010",
+      "birth": "18 May 1920^{Gregorian}",
+      "death": "2 April 2005",
+      "place": {
+        "link": 138,
+        "name": "Holy Father John Paul II Family Home in Wadowice"
+      },
+      "trwiki": {
+        "link": 1269,
+        "title": "II. Ioannes Paulus"
+      },
+      "description": "pope, cardinal, bishop, priest, author",
+      "birthPlaceQid": "Q5885537",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/II._Ioannes_Paulus"
+    },
+    {
+      "qid": "Q450675",
+      "title": "Pope Francis",
+      "url": "https://www.wikidata.org/wiki/Q450675",
+      "lines": 4670,
+      "revision": "2553358177",
+      "birth": "17 December 1936",
+      "death": "21 April 2025",
+      "place": {
+        "link": 103,
+        "name": "Flores"
+      },
+      "trwiki": {
+        "link": 991,
+        "title": "Franciscus"
+      },
+      "description": "266th pope of the Catholic Church from 2013 to 2025 (1936–2025)",
+      "birthPlaceQid": "Q643907",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Franciscus"
+    },
+    {
+      "qid": "Q2494",
+      "title": "Benedict XVI",
+      "url": "https://www.wikidata.org/wiki/Q2494",
+      "lines": 4995,
+      "revision": "2550452084",
+      "birth": "16 April 1927^{Gregorian}",
+      "death": "31 December 2022",
+      "place": {
+        "link": 114,
+        "name": "Birth house of Benedict XVI"
+      },
+      "trwiki": {
+        "link": 1115,
+        "title": "XVI. Benedictus"
+      },
+      "description": "265 th pope of the Catholic Church (2005–2013)",
+      "birthPlaceQid": "Q2348968",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/XVI._Benedictus"
+    },
+    {
+      "qid": "Q17293",
+      "title": "Tenzin Gyatso",
+      "url": "https://www.wikidata.org/wiki/Q17293",
+      "lines": 3543,
+      "revision": "2558253665",
+      "birth": "6 July 1935",
+      "death": null,
+      "place": {
+        "link": 104,
+        "name": "Taktser"
+      },
+      "trwiki": {
+        "link": 790,
+        "title": "Tenzin Gyatso"
+      },
+      "description": "14th Dalai Lama, the spiritual and temporal leader of Tibetans",
+      "birthPlaceQid": "Q426534",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Tenzin_Gyatso"
+    },
+    {
+      "qid": "Q39837",
+      "title": "Averroes",
+      "url": "https://www.wikidata.org/wiki/Q39837",
+      "lines": 2899,
+      "revision": "2556849695",
+      "birth": "14 April 1126",
+      "death": "10 December 1198",
+      "place": {
+        "link": 68,
+        "name": "Córdoba"
+      },
+      "trwiki": {
+        "link": 742,
+        "title": "İbn Rüşd"
+      },
+      "description": "Arab Andalusian Muslim writer and philosopher (1126–1198)",
+      "birthPlaceQid": "Q5818",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/%C4%B0bn_R%C3%BC%C5%9Fd"
+    },
+    {
+      "qid": "Q9546",
+      "title": "Al-Ghazali",
+      "url": "https://www.wikidata.org/wiki/Q9546",
+      "lines": 2675,
+      "revision": "2555317930",
+      "birth": "1058",
+      "death": "19 December 1111",
+      "place": {
+        "link": 68,
+        "name": "Tus"
+      },
+      "trwiki": {
+        "link": 670,
+        "title": "Gazzâlî"
+      },
+      "description": "Persian Sunni Muslim scholar and mystic (c.1058–1111)",
+      "birthPlaceQid": "Q681427",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Gazz%C3%A2l%C3%AE"
+    },
+    {
+      "qid": "Q43347",
+      "title": "Rumi",
+      "url": "https://www.wikidata.org/wiki/Q43347",
+      "lines": 2784,
+      "revision": "2557040000",
+      "birth": "30 September 1207^{Gregorian}",
+      "death": "17 December 1273^{Gregorian}",
+      "place": {
+        "link": 85,
+        "name": "Balkh"
+      },
+      "trwiki": {
+        "link": 688,
+        "title": "Mevlânâ Celâleddîn-i Rûmî"
+      },
+      "description": "Iranian poet",
+      "birthPlaceQid": "Q182159",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Mevl%C3%A2n%C3%A2_Cel%C3%A2ledd%C3%AEn-i_R%C3%BBm%C3%AE"
+    },
+    {
+      "qid": "Q9038",
+      "title": "Muḥammad ibn Musa al-Khwarizmi",
+      "url": "https://www.wikidata.org/wiki/Q9038",
+      "lines": 1914,
+      "revision": "2553826463",
+      "birth": "8. century",
+      "death": "846",
+      "place": {
+        "link": 86,
+        "name": "Khwarazm"
+      },
+      "trwiki": {
+        "link": 516,
+        "title": "Hârizmî"
+      },
+      "description": "9th-century Persian mathematician and astronomer",
+      "birthPlaceQid": "Q182647",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/H%C3%A2rizm%C3%AE"
+    },
+    {
+      "qid": "Q7200",
+      "title": "Alexander Pushkin",
+      "url": "https://www.wikidata.org/wiki/Q7200",
+      "lines": 5272,
+      "revision": "2557643887",
+      "birth": "26 May 1799^{Julian}",
+      "death": "29 January 1837^{Julian}",
+      "place": {
+        "link": 117,
+        "name": "Moscow"
+      },
+      "trwiki": {
+        "link": 1208,
+        "title": "Aleksandr Puşkin"
+      },
+      "description": "Russian poet, playwright, and novelist (1799–1837)",
+      "birthPlaceQid": "Q649",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Aleksandr_Pu%C5%9Fkin"
+    },
+    {
+      "qid": "Q36322",
+      "title": "Jane Austen",
+      "url": "https://www.wikidata.org/wiki/Q36322",
+      "lines": 4317,
+      "revision": "2555119493",
+      "birth": "16 December 1775^{Gregorian}",
+      "death": "18 July 1817^{Gregorian}",
+      "place": {
+        "link": 84,
+        "name": "Steventon"
+      },
+      "trwiki": {
+        "link": 1067,
+        "title": "Jane Austen"
+      },
+      "description": "author, novelist, writer (1775–1817)",
+      "birthPlaceQid": "Q1231836",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Jane_Austen"
+    },
+    {
+      "qid": "Q10261",
+      "title": "Pythagoras",
+      "url": "https://www.wikidata.org/wiki/Q10261",
+      "lines": 3654,
+      "revision": "2554728891",
+      "birth": "6. century BCE",
+      "death": "490s BCE",
+      "place": {
+        "link": 46,
+        "name": "Samos"
+      },
+      "trwiki": {
+        "link": 883,
+        "title": "Pisagor"
+      },
+      "description": "Greek philosopher and mathematician (c. 570 – c. 495 BC)",
+      "birthPlaceQid": "Q13580795",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Pisagor"
+    },
+    {
+      "qid": "Q5264",
+      "title": "Hippocrates",
+      "url": "https://www.wikidata.org/wiki/Q5264",
+      "lines": 2749,
+      "revision": "2551430515",
+      "birth": "460 BCE",
+      "death": "370 BCE",
+      "place": {
+        "link": 62,
+        "name": "Kos"
+      },
+      "trwiki": {
+        "link": 759,
+        "title": "Hipokrat"
+      },
+      "description": "Ancient Greek physician (c. 460 – c. 370 BCE)",
+      "birthPlaceQid": "Q187027",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Hipokrat"
+    },
+    {
+      "qid": "Q83375",
+      "title": "Empedocles",
+      "url": "https://www.wikidata.org/wiki/Q83375",
+      "lines": 2486,
+      "revision": "2537924768",
+      "birth": "490 BCE",
+      "death": "430 BCE^{Gregorian}",
+      "place": {
+        "link": 49,
+        "name": "Akragas"
+      },
+      "trwiki": {
+        "link": 610,
+        "title": "Empedokles"
+      },
+      "description": "5th century BC Greek philosopher",
+      "birthPlaceQid": "Q3607380",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Empedokles"
+    },
+    {
+      "qid": "Q41155",
+      "title": "Heraclitus",
+      "url": "https://www.wikidata.org/wiki/Q41155",
+      "lines": 2502,
+      "revision": "2553821012",
+      "birth": "535 BCE^{Gregorian}",
+      "death": "470s BCE",
+      "place": {
+        "link": 45,
+        "name": "Ephesus"
+      },
+      "trwiki": {
+        "link": 677,
+        "title": "Heraklitos"
+      },
+      "description": "Greek philosopher (late 6th/early 5th-century BC)",
+      "birthPlaceQid": "Q47611",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Heraklitos"
+    },
+    {
+      "qid": "Q392",
+      "title": "Bob Dylan",
+      "url": "https://www.wikidata.org/wiki/Q392",
+      "lines": 6066,
+      "revision": "2555598159",
+      "birth": "24 May 1941",
+      "death": null,
+      "place": {
+        "link": 115,
+        "name": "Duluth"
+      },
+      "trwiki": {
+        "link": 1239,
+        "title": "Bob Dylan"
+      },
+      "description": "American singer-songwriter (born 1941)",
+      "birthPlaceQid": "Q485708",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Bob_Dylan"
+    },
+    {
+      "qid": "Q47480",
+      "title": "Paul Dirac",
+      "url": "https://www.wikidata.org/wiki/Q47480",
+      "lines": 3953,
+      "revision": "2533008254",
+      "birth": "8 August 1902^{Gregorian}",
+      "death": "20 October 1984",
+      "place": {
+        "link": 108,
+        "name": "Bristol"
+      },
+      "trwiki": {
+        "link": 718,
+        "title": "Paul Dirac"
+      },
+      "description": "British theoretical physicist (1902–1984)",
+      "birthPlaceQid": "Q23154",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Paul_Dirac"
+    },
+    {
+      "qid": "Q57065",
+      "title": "Otto Hahn",
+      "url": "https://www.wikidata.org/wiki/Q57065",
+      "lines": 3015,
+      "revision": "2546343034",
+      "birth": "8 March 1879^{Gregorian}",
+      "death": "28 July 1968",
+      "place": {
+        "link": 89,
+        "name": "Frankfurt"
+      },
+      "trwiki": {
+        "link": 590,
+        "title": "Otto Hahn"
+      },
+      "description": "German chemist and physicist (1879-1968)",
+      "birthPlaceQid": "Q1794",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Otto_Hahn"
+    },
+    {
+      "qid": "Q37463",
+      "title": "Pierre Curie",
+      "url": "https://www.wikidata.org/wiki/Q37463",
+      "lines": 2857,
+      "revision": "2558780512",
+      "birth": "15 May 1859^{Gregorian}",
+      "death": "19 April 1906^{Gregorian}",
+      "place": {
+        "link": 100,
+        "name": "Paris"
+      },
+      "trwiki": {
+        "link": 652,
+        "title": "Pierre Curie"
+      },
+      "description": "French physicist and chemist (1859–1906)",
+      "birthPlaceQid": "Q90",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Pierre_Curie"
+    },
+    {
+      "qid": "Q199654",
+      "title": "Barbara McClintock",
+      "url": "https://www.wikidata.org/wiki/Q199654",
+      "lines": 2202,
+      "revision": "2517006923",
+      "birth": "16 June 1902^{Gregorian}",
+      "death": "2 September 1992",
+      "place": {
+        "link": 95,
+        "name": "Hartford"
+      },
+      "trwiki": {
+        "link": 463,
+        "title": "Barbara McClintock"
+      },
+      "description": "American scientist and cytogeneticist",
+      "birthPlaceQid": "Q33486",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Barbara_McClintock"
+    },
+    {
+      "qid": "Q60025",
+      "title": "Hannah Arendt",
+      "url": "https://www.wikidata.org/wiki/Q60025",
+      "lines": 4492,
+      "revision": "2535996345",
+      "birth": "14 October 1906^{Gregorian}",
+      "death": "4 December 1975",
+      "place": {
+        "link": 135,
+        "name": "Lindener Marktplatz 2, Hannover"
+      },
+      "trwiki": {
+        "link": 940,
+        "title": "Hannah Arendt"
+      },
+      "description": "German-American political theorist and philosopher (1906–1975)",
+      "birthPlaceQid": "Q18023391",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Hannah_Arendt"
+    },
+    {
+      "qid": "Q7197",
+      "title": "Simone de Beauvoir",
+      "url": "https://www.wikidata.org/wiki/Q7197",
+      "lines": 4297,
+      "revision": "2549536819",
+      "birth": "9 January 1908^{Gregorian}",
+      "death": "14 April 1986",
+      "place": {
+        "link": 86,
+        "name": "Paris"
+      },
+      "trwiki": {
+        "link": 952,
+        "title": "Simone de Beauvoir"
+      },
+      "description": "French philosopher, social theorist and activist (1908–1986)",
+      "birthPlaceQid": "Q90",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Simone_de_Beauvoir"
+    },
+    {
+      "qid": "Q33760",
+      "title": "Bertrand Russell",
+      "url": "https://www.wikidata.org/wiki/Q33760",
+      "lines": 5387,
+      "revision": "2556593497",
+      "birth": "18 May 1872^{Gregorian}",
+      "death": "2 February 1970",
+      "place": {
+        "link": 125,
+        "name": "Trellech"
+      },
+      "trwiki": {
+        "link": 1057,
+        "title": "Bertrand Russell"
+      },
+      "description": "British philosopher and logician (1872–1970)",
+      "birthPlaceQid": "Q3057926",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Bertrand_Russell"
+    },
+    {
+      "qid": "Q28189",
+      "title": "Abdus Salam",
+      "url": "https://www.wikidata.org/wiki/Q28189",
+      "lines": 2858,
+      "revision": "2527158655",
+      "birth": "29 January 1926^{Gregorian}",
+      "death": "21 November 1996",
+      "place": {
+        "link": 92,
+        "name": "Jhang"
+      },
+      "trwiki": {
+        "link": 619,
+        "title": "Muhammed Abdüsselam"
+      },
+      "description": "theoretical physicist, and Nobel Prize in Physics recipient",
+      "birthPlaceQid": "Q1026616",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Muhammed_Abd%C3%BCsselam"
+    },
+    {
+      "qid": "Q60429",
+      "title": "Chandrasekhara Venkata Raman",
+      "url": "https://www.wikidata.org/wiki/Q60429",
+      "lines": 2103,
+      "revision": "2553293814",
+      "birth": "7 November 1888^{Gregorian}",
+      "death": "21 November 1970",
+      "place": {
+        "link": 89,
+        "name": "Tiruchirappalli"
+      },
+      "trwiki": {
+        "link": 472,
+        "title": "C. V. Raman"
+      },
+      "description": "Indian physicist (1888–1970)",
+      "birthPlaceQid": "Q207754",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/C._V._Raman"
+    },
+    {
+      "qid": "Q317877",
+      "title": "Abdulrazak Gurnah",
+      "url": "https://www.wikidata.org/wiki/Q317877",
+      "lines": 1899,
+      "revision": "2553589021",
+      "birth": "1948",
+      "death": null,
+      "place": {
+        "link": 82,
+        "name": "Zanzibar City"
+      },
+      "trwiki": {
+        "link": 419,
+        "title": "Abdulrazak Gurnah"
+      },
+      "description": "Tanzanian-born British writer, winner of the Nobel Prize in Literature (2021) (born 1948)",
+      "birthPlaceQid": "Q2222874",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Abdulrazak_Gurnah"
+    },
+    {
+      "qid": "Q72334",
+      "title": "Toni Morrison",
+      "url": "https://www.wikidata.org/wiki/Q72334",
+      "lines": 3891,
+      "revision": "2555118095",
+      "birth": "18 February 1931",
+      "death": "5 August 2019",
+      "place": {
+        "link": 122,
+        "name": "Lorain"
+      },
+      "trwiki": {
+        "link": 843,
+        "title": "Toni Morrison"
+      },
+      "description": "African American novelist, essayist, and academic (1931–2019)",
+      "birthPlaceQid": "Q609698",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Toni_Morrison"
+    },
+    {
+      "qid": "Q241248",
+      "title": "Orhan Pamuk",
+      "url": "https://www.wikidata.org/wiki/Q241248",
+      "lines": 2725,
+      "revision": "2548391208",
+      "birth": "7 June 1952",
+      "death": null,
+      "place": {
+        "link": 99,
+        "name": "Istanbul"
+      },
+      "trwiki": {
+        "link": 675,
+        "title": "Orhan Pamuk"
+      },
+      "description": "Turkish novelist, academic and Nobel laureate (born 1952)",
+      "birthPlaceQid": "Q406",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Orhan_Pamuk"
+    },
+    {
+      "qid": "Q272855",
+      "title": "Kazuo Ishiguro",
+      "url": "https://www.wikidata.org/wiki/Q272855",
+      "lines": 3185,
+      "revision": "2553096507",
+      "birth": "8 November 1954",
+      "death": null,
+      "place": {
+        "link": 106,
+        "name": "Nagasaki"
+      },
+      "trwiki": {
+        "link": 670,
+        "title": "Kazuo Ishiguro"
+      },
+      "description": "British novelist (born 1954)",
+      "birthPlaceQid": "Q38234",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Kazuo_Ishiguro"
+    },
+    {
+      "qid": "Q43033",
+      "title": "Desmond Tutu",
+      "url": "https://www.wikidata.org/wiki/Q43033",
+      "lines": 3031,
+      "revision": "2536499008",
+      "birth": "7 October 1931",
+      "death": "26 December 2021",
+      "place": {
+        "link": 88,
+        "name": "Munsieville"
+      },
+      "trwiki": {
+        "link": 688,
+        "title": "Desmond Tutu"
+      },
+      "description": "South African churchman, politician, archbishop, Nobel Prize winner (1931–2021)",
+      "birthPlaceQid": "Q6936880",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Desmond_Tutu"
+    },
+    {
+      "qid": "Q25973",
+      "title": "Hermann Hesse",
+      "url": "https://www.wikidata.org/wiki/Q25973",
+      "lines": 4982,
+      "revision": "2554684284",
+      "birth": "2 July 1877^{Gregorian}",
+      "death": "9 August 1962",
+      "place": {
+        "link": 146,
+        "name": "Calw"
+      },
+      "trwiki": {
+        "link": 1031,
+        "title": "Hermann Hesse"
+      },
+      "description": "Nobel Prize winning German-Swiss poet, novelist and painter (1877–1962)",
+      "birthPlaceQid": "Q487921",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Hermann_Hesse"
+    },
+    {
+      "qid": "Q80884",
+      "title": "James Chadwick",
+      "url": "https://www.wikidata.org/wiki/Q80884",
+      "lines": 2354,
+      "revision": "2557948898",
+      "birth": "20 October 1891^{Gregorian}",
+      "death": "24 July 1974",
+      "place": {
+        "link": 98,
+        "name": "Bollington"
+      },
+      "trwiki": {
+        "link": 485,
+        "title": "James Chadwick"
+      },
+      "description": "English physicist (1891-1974), who discovered the neutron in 1932",
+      "birthPlaceQid": "Q2247131",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/James_Chadwick"
+    },
+    {
+      "qid": "Q5878",
+      "title": "Gabriel García Márquez",
+      "url": "https://www.wikidata.org/wiki/Q5878",
+      "lines": 4024,
+      "revision": "2557889008",
+      "birth": "6 March 1927^{Gregorian}",
+      "death": "17 April 2014",
+      "place": {
+        "link": 106,
+        "name": "Aracataca"
+      },
+      "trwiki": {
+        "link": 916,
+        "title": "Gabriel García Márquez"
+      },
+      "description": "Colombian writer and Nobel laureate (1927–2014)",
+      "birthPlaceQid": "Q624492",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Gabriel_Garc%C3%ADa_M%C3%A1rquez"
+    },
+    {
+      "qid": "Q6279",
+      "title": "Joe Biden",
+      "url": "https://www.wikidata.org/wiki/Q6279",
+      "lines": 7236,
+      "revision": "2558257498",
+      "birth": "20 November 1942",
+      "death": null,
+      "place": {
+        "link": 109,
+        "name": "St. Mary's Hospital"
+      },
+      "trwiki": {
+        "link": 1311,
+        "title": "Joe Biden"
+      },
+      "description": "46th President of the United States (2021–2025)",
+      "birthPlaceQid": "Q100276507",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Joe_Biden"
+    },
+    {
+      "qid": "Q22686",
+      "title": "Donald Trump",
+      "url": "https://www.wikidata.org/wiki/Q22686",
+      "lines": 9619,
+      "revision": "2558542446",
+      "birth": "14 June 1946",
+      "death": null,
+      "place": {
+        "link": 144,
+        "name": "Jamaica Hospital Medical Center"
+      },
+      "trwiki": {
+        "link": 1876,
+        "title": "Donald Trump"
+      },
+      "description": "President of the United States (2017–2021; since 2025)",
+      "birthPlaceQid": "Q97354861",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Donald_Trump"
+    },
+    {
+      "qid": "Q23505",
+      "title": "George H. W. Bush",
+      "url": "https://www.wikidata.org/wiki/Q23505",
+      "lines": 4239,
+      "revision": "2549561665",
+      "birth": "12 June 1924^{Gregorian}",
+      "death": "30 November 2018",
+      "place": {
+        "link": 91,
+        "name": "Milton"
+      },
+      "trwiki": {
+        "link": 939,
+        "title": "George H. W. Bush"
+      },
+      "description": "41st President of the United States (1989–1993)",
+      "birthPlaceQid": "Q739428",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/George_H._W._Bush"
+    },
+    {
+      "qid": "Q317521",
+      "title": "Elon Musk",
+      "url": "https://www.wikidata.org/wiki/Q317521",
+      "lines": 5261,
+      "revision": "2557867701",
+      "birth": "28 June 1971",
+      "death": null,
+      "place": {
+        "link": 98,
+        "name": "Pretoria"
+      },
+      "trwiki": {
+        "link": 1131,
+        "title": "Elon Musk"
+      },
+      "description": "American businessman (born 1971)",
+      "birthPlaceQid": "Q3926",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Elon_Musk"
+    },
+    {
+      "qid": "Q23530",
+      "title": "Dmitry Medvedev",
+      "url": "https://www.wikidata.org/wiki/Q23530",
+      "lines": 2811,
+      "revision": "2558022497",
+      "birth": "14 September 1965",
+      "death": null,
+      "place": {
+        "link": 96,
+        "name": "Saint Petersburg"
+      },
+      "trwiki": {
+        "link": 673,
+        "title": "Dmitri Medvedev"
+      },
+      "description": "President of Russia from 2008 to 2012, Prime Minister of Russia (2012-2020) and Deputy Chairman of the Security Council of Russia since 2020",
+      "birthPlaceQid": "Q656",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Dmitri_Medvedev"
+    },
+    {
+      "qid": "Q76",
+      "title": "Barack Obama",
+      "url": "https://www.wikidata.org/wiki/Q76",
+      "lines": 7171,
+      "revision": "2557807078",
+      "birth": "4 August 1961",
+      "death": null,
+      "place": {
+        "link": 134,
+        "name": "Kapiolani Medical Center for Women and Children"
+      },
+      "trwiki": {
+        "link": 1549,
+        "title": "Barack Obama"
+      },
+      "description": "44th President of the United States (2009–2017)",
+      "birthPlaceQid": "Q6366688",
+      "trwikiUrl": "https://tr.wikipedia.org/wiki/Barack_Obama"
+    }
+  ]
+}

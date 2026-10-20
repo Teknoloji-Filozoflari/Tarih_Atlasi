@@ -1,0 +1,1913 @@
+{
+  "status": "PARTIAL",
+  "source": "Wikidata structured CC0 editorial extraction; not independent historical validation",
+  "version": "1.4.0-births",
+  "inputs": {
+    "browserReview": "a767071e8d99e82faf3068ba38740fb007e72b2036b6d590d7b15a0fc663ed66",
+    "decisions": "4323ad3a51c18fe177536c32eb06f55eefe0b3758dabb50f1d2be24deb8433b3"
+  },
+  "profilesAdded": 56,
+  "annualBirthsAdded": 36,
+  "biographicalOnlyAdded": 10,
+  "unlocatedAdded": 10,
+  "eventsAdded": 23,
+  "eventPointsAdded": 7,
+  "unlocatedEventsAdded": 16,
+  "totalProfiles": 234,
+  "totalEvents": 36,
+  "birthReleaseProfiles": 233,
+  "annualBirths": 147,
+  "birthReleaseBiographical": 47,
+  "birthReleaseUnlocated": 39,
+  "combinedExtensionRecords": 710,
+  "unchangedExtensionBudget": 800,
+  "productionBytes": 708546,
+  "pending": [
+    {
+      "name": "Jean-Paul Sartre",
+      "aliases": [
+        "Jean-Paul Sartre"
+      ],
+      "wikidataId": "Q9364",
+      "reason": "immutable-source-revision-unavailable"
+    }
+  ],
+  "people": [
+    {
+      "id": "births:person-q39246",
+      "qid": "Q39246",
+      "name": "Richard Feynman",
+      "birth": [
+        1918,
+        1918
+      ],
+      "death": [
+        1988,
+        1988
+      ],
+      "sourceRevision": "2549568012",
+      "place": "Queens",
+      "placeQid": "Q18424",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q9130",
+      "qid": "Q9130",
+      "name": "Erwin Schrödinger",
+      "birth": [
+        1887,
+        1887
+      ],
+      "death": [
+        1961,
+        1961
+      ],
+      "sourceRevision": "2557874321",
+      "place": "Vienna",
+      "placeQid": "Q1741",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q65989",
+      "qid": "Q65989",
+      "name": "Wolfgang Pauli",
+      "birth": [
+        1900,
+        1900
+      ],
+      "death": [
+        1958,
+        1958
+      ],
+      "sourceRevision": "2550332977",
+      "place": "Vienna",
+      "placeQid": "Q1741",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q58978",
+      "qid": "Q58978",
+      "name": "Max Born",
+      "birth": [
+        1882,
+        1882
+      ],
+      "death": [
+        1970,
+        1970
+      ],
+      "sourceRevision": "2550435917",
+      "place": "Wrocław",
+      "placeQid": "Q1799",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q9312",
+      "qid": "Q9312",
+      "name": "Immanuel Kant",
+      "birth": [
+        1724,
+        1724
+      ],
+      "death": [
+        1804,
+        1804
+      ],
+      "sourceRevision": "2557930183",
+      "place": "Königsberg",
+      "placeQid": "Q4120832",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q9235",
+      "qid": "Q9235",
+      "name": "Georg Wilhelm Friedrich Hegel",
+      "birth": [
+        1770,
+        1770
+      ],
+      "death": [
+        1831,
+        1831
+      ],
+      "sourceRevision": "2557891466",
+      "place": "Stuttgart",
+      "placeQid": "Q1022",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q9358",
+      "qid": "Q9358",
+      "name": "Friedrich Nietzsche",
+      "birth": [
+        1844,
+        1844
+      ],
+      "death": [
+        1900,
+        1900
+      ],
+      "sourceRevision": "2555113828",
+      "place": "Röcken",
+      "placeQid": "Q529879",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q9397",
+      "qid": "Q9397",
+      "name": "Zhu Xi",
+      "birth": [
+        1130,
+        1130
+      ],
+      "death": [
+        1200,
+        1200
+      ],
+      "sourceRevision": "2558287751",
+      "place": "Youxi County",
+      "placeQid": "Q1198112",
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "region-not-a-point",
+      "note": "Kaynakta zaman, alternatif yer veya tarihî yapı evresi belirsizliği tam çözümlenmedi. Bu incelemedeki yer bağı yalnız biyografiktir; tek yıl veya yaşam boyu kesin konum üretilmedi."
+    },
+    {
+      "id": "births:person-q38111",
+      "qid": "Q38111",
+      "name": "Leonardo DiCaprio",
+      "birth": [
+        1974,
+        1974
+      ],
+      "death": null,
+      "sourceRevision": "2558116752",
+      "place": "Los Angeles",
+      "placeQid": "Q65",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q9047",
+      "qid": "Q9047",
+      "name": "Gottfried Leibniz",
+      "birth": [
+        1646,
+        1646
+      ],
+      "death": [
+        1716,
+        1716
+      ],
+      "sourceRevision": "2557898536",
+      "place": "Leipzig",
+      "placeQid": "Q2079",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q37160",
+      "qid": "Q37160",
+      "name": "David Hume",
+      "birth": [
+        1711,
+        1711
+      ],
+      "death": [
+        1776,
+        1776
+      ],
+      "sourceRevision": "2547676880",
+      "place": "Edinburgh",
+      "placeQid": "Q23436",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q81244",
+      "qid": "Q81244",
+      "name": "Karl Popper",
+      "birth": [
+        1902,
+        1902
+      ],
+      "death": [
+        1994,
+        1994
+      ],
+      "sourceRevision": "2553483715",
+      "place": "Vienna",
+      "placeQid": "Q1741",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q8440",
+      "qid": "Q8440",
+      "name": "Hugo Chávez",
+      "birth": [
+        1954,
+        1954
+      ],
+      "death": [
+        2013,
+        2013
+      ],
+      "sourceRevision": "2556269633",
+      "place": "Sabaneta",
+      "placeQid": "Q728412",
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "place-or-coordinate-not-verified",
+      "note": "Doğum yeri veya yer koordinatının kaynak incelemesi tamamlanmadı; bu kayda harita noktası atanmadı. Tarihsel bilginin hiç bulunmadığı anlamına gelmez."
+    },
+    {
+      "id": "births:person-q8027",
+      "qid": "Q8027",
+      "name": "Martin Luther King Jr.",
+      "birth": [
+        1929,
+        1929
+      ],
+      "death": [
+        1968,
+        1968
+      ],
+      "sourceRevision": "2555638791",
+      "place": "Atlanta",
+      "placeQid": "Q23556",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q30547",
+      "qid": "Q30547",
+      "name": "Rahibe Teresa",
+      "birth": [
+        1910,
+        1910
+      ],
+      "death": [
+        1997,
+        1997
+      ],
+      "sourceRevision": "2536645535",
+      "place": "Skopje",
+      "placeQid": "Q384",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q32732",
+      "qid": "Q32732",
+      "name": "Malala Yusufzay",
+      "birth": [
+        1997,
+        1997
+      ],
+      "death": null,
+      "sourceRevision": "2529424679",
+      "place": "Mingora",
+      "placeQid": "Q31356",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q444",
+      "qid": "Q444",
+      "name": "Lech Wałęsa",
+      "birth": [
+        1943,
+        1943
+      ],
+      "death": null,
+      "sourceRevision": "2557176271",
+      "place": "Popowo",
+      "placeQid": "Q4700601",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q34211",
+      "qid": "Q34211",
+      "name": "Yaser Arafat",
+      "birth": [
+        1929,
+        1929
+      ],
+      "death": [
+        2004,
+        2004
+      ],
+      "sourceRevision": "2553820760",
+      "place": "Cairo",
+      "placeQid": "Q85",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q989",
+      "qid": "Q989",
+      "name": "II. Ioannes Paulus",
+      "birth": [
+        1920,
+        1920
+      ],
+      "death": [
+        2005,
+        2005
+      ],
+      "sourceRevision": "2557977010",
+      "place": "Holy Father John Paul II Family Home in Wadowice",
+      "placeQid": "Q5885537",
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "place-or-coordinate-not-verified",
+      "note": "Kaynakta zaman, alternatif yer veya tarihî yapı evresi belirsizliği tam çözümlenmedi. Bu incelemedeki yer bağı yalnız biyografiktir; tek yıl veya yaşam boyu kesin konum üretilmedi."
+    },
+    {
+      "id": "births:person-q450675",
+      "qid": "Q450675",
+      "name": "Franciscus",
+      "birth": [
+        1936,
+        1936
+      ],
+      "death": [
+        2025,
+        2025
+      ],
+      "sourceRevision": "2553358177",
+      "place": "Flores",
+      "placeQid": "Q643907",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q2494",
+      "qid": "Q2494",
+      "name": "XVI. Benedictus",
+      "birth": [
+        1927,
+        1927
+      ],
+      "death": [
+        2022,
+        2022
+      ],
+      "sourceRevision": "2550452084",
+      "place": "Birth house of Benedict XVI",
+      "placeQid": "Q2348968",
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "place-or-coordinate-not-verified",
+      "note": "Kaynakta zaman, alternatif yer veya tarihî yapı evresi belirsizliği tam çözümlenmedi. Bu incelemedeki yer bağı yalnız biyografiktir; tek yıl veya yaşam boyu kesin konum üretilmedi."
+    },
+    {
+      "id": "births:person-q17293",
+      "qid": "Q17293",
+      "name": "Tenzin Gyatso",
+      "birth": [
+        1935,
+        1935
+      ],
+      "death": null,
+      "sourceRevision": "2558253665",
+      "place": "Taktser",
+      "placeQid": "Q426534",
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "place-or-coordinate-not-verified",
+      "note": "Doğum yeri veya yer koordinatının kaynak incelemesi tamamlanmadı; bu kayda harita noktası atanmadı. Tarihsel bilginin hiç bulunmadığı anlamına gelmez."
+    },
+    {
+      "id": "births:person-q39837",
+      "qid": "Q39837",
+      "name": "İbn Rüşd",
+      "birth": [
+        1126,
+        1126
+      ],
+      "death": [
+        1198,
+        1198
+      ],
+      "sourceRevision": "2556849695",
+      "place": "Córdoba",
+      "placeQid": "Q5818",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "Kaynakta zaman, alternatif yer veya tarihî yapı evresi belirsizliği tam çözümlenmedi. Bu incelemedeki yer bağı yalnız biyografiktir; tek yıl veya yaşam boyu kesin konum üretilmedi."
+    },
+    {
+      "id": "births:person-q9546",
+      "qid": "Q9546",
+      "name": "Gazzâlî",
+      "birth": [
+        1058,
+        1058
+      ],
+      "death": [
+        1111,
+        1111
+      ],
+      "sourceRevision": "2555317930",
+      "place": "Tus",
+      "placeQid": "Q681427",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "Kaynakta zaman, alternatif yer veya tarihî yapı evresi belirsizliği tam çözümlenmedi. Bu incelemedeki yer bağı yalnız biyografiktir; tek yıl veya yaşam boyu kesin konum üretilmedi."
+    },
+    {
+      "id": "births:person-q43347",
+      "qid": "Q43347",
+      "name": "Mevlânâ Celâleddîn-i Rûmî",
+      "birth": [
+        1207,
+        1207
+      ],
+      "death": [
+        1273,
+        1273
+      ],
+      "sourceRevision": "2557040000",
+      "place": "Balkh",
+      "placeQid": "Q182159",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "Kaynakta zaman, alternatif yer veya tarihî yapı evresi belirsizliği tam çözümlenmedi. Bu incelemedeki yer bağı yalnız biyografiktir; tek yıl veya yaşam boyu kesin konum üretilmedi."
+    },
+    {
+      "id": "births:person-q9038",
+      "qid": "Q9038",
+      "name": "Hârizmî",
+      "birth": null,
+      "death": [
+        846,
+        846
+      ],
+      "sourceRevision": "2553826463",
+      "place": "Khwarazm",
+      "placeQid": "Q182647",
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "region-not-a-point",
+      "note": "Kaynakta zaman, alternatif yer veya tarihî yapı evresi belirsizliği tam çözümlenmedi. Bu incelemedeki yer bağı yalnız biyografiktir; tek yıl veya yaşam boyu kesin konum üretilmedi."
+    },
+    {
+      "id": "births:person-q7200",
+      "qid": "Q7200",
+      "name": "Aleksandr Puşkin",
+      "birth": [
+        1799,
+        1799
+      ],
+      "death": [
+        1837,
+        1837
+      ],
+      "sourceRevision": "2557643887",
+      "place": "Moscow",
+      "placeQid": "Q649",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q36322",
+      "qid": "Q36322",
+      "name": "Jane Austen",
+      "birth": [
+        1775,
+        1775
+      ],
+      "death": [
+        1817,
+        1817
+      ],
+      "sourceRevision": "2555119493",
+      "place": "Steventon",
+      "placeQid": "Q1231836",
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "place-or-coordinate-not-verified",
+      "note": "Doğum yeri veya yer koordinatının kaynak incelemesi tamamlanmadı; bu kayda harita noktası atanmadı. Tarihsel bilginin hiç bulunmadığı anlamına gelmez."
+    },
+    {
+      "id": "births:person-q10261",
+      "qid": "Q10261",
+      "name": "Pisagor",
+      "birth": null,
+      "death": null,
+      "sourceRevision": "2554728891",
+      "place": "Samos",
+      "placeQid": "Q13580795",
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "region-not-a-point",
+      "note": "Kaynakta zaman, alternatif yer veya tarihî yapı evresi belirsizliği tam çözümlenmedi. Bu incelemedeki yer bağı yalnız biyografiktir; tek yıl veya yaşam boyu kesin konum üretilmedi."
+    },
+    {
+      "id": "births:person-q5264",
+      "qid": "Q5264",
+      "name": "Hipokrat",
+      "birth": [
+        -460,
+        -460
+      ],
+      "death": [
+        -370,
+        -370
+      ],
+      "sourceRevision": "2551430515",
+      "place": "Kos",
+      "placeQid": "Q187027",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "Kaynakta zaman, alternatif yer veya tarihî yapı evresi belirsizliği tam çözümlenmedi. Bu incelemedeki yer bağı yalnız biyografiktir; tek yıl veya yaşam boyu kesin konum üretilmedi."
+    },
+    {
+      "id": "births:person-q83375",
+      "qid": "Q83375",
+      "name": "Empedokles",
+      "birth": [
+        -490,
+        -490
+      ],
+      "death": [
+        -430,
+        -430
+      ],
+      "sourceRevision": "2537924768",
+      "place": "Akragas",
+      "placeQid": "Q3607380",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "Kaynakta zaman, alternatif yer veya tarihî yapı evresi belirsizliği tam çözümlenmedi. Bu incelemedeki yer bağı yalnız biyografiktir; tek yıl veya yaşam boyu kesin konum üretilmedi."
+    },
+    {
+      "id": "births:person-q41155",
+      "qid": "Q41155",
+      "name": "Heraklitos",
+      "birth": [
+        -535,
+        -535
+      ],
+      "death": null,
+      "sourceRevision": "2553821012",
+      "place": "Ephesus",
+      "placeQid": "Q47611",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "Kaynakta zaman, alternatif yer veya tarihî yapı evresi belirsizliği tam çözümlenmedi. Bu incelemedeki yer bağı yalnız biyografiktir; tek yıl veya yaşam boyu kesin konum üretilmedi."
+    },
+    {
+      "id": "births:person-q392",
+      "qid": "Q392",
+      "name": "Bob Dylan",
+      "birth": [
+        1941,
+        1941
+      ],
+      "death": null,
+      "sourceRevision": "2555598159",
+      "place": "Duluth",
+      "placeQid": "Q485708",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q47480",
+      "qid": "Q47480",
+      "name": "Paul Dirac",
+      "birth": [
+        1902,
+        1902
+      ],
+      "death": [
+        1984,
+        1984
+      ],
+      "sourceRevision": "2533008254",
+      "place": "Bristol",
+      "placeQid": "Q23154",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q57065",
+      "qid": "Q57065",
+      "name": "Otto Hahn",
+      "birth": [
+        1879,
+        1879
+      ],
+      "death": [
+        1968,
+        1968
+      ],
+      "sourceRevision": "2546343034",
+      "place": "Frankfurt",
+      "placeQid": "Q1794",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q37463",
+      "qid": "Q37463",
+      "name": "Pierre Curie",
+      "birth": [
+        1859,
+        1859
+      ],
+      "death": [
+        1906,
+        1906
+      ],
+      "sourceRevision": "2558780512",
+      "place": "Paris",
+      "placeQid": "Q90",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q199654",
+      "qid": "Q199654",
+      "name": "Barbara McClintock",
+      "birth": [
+        1902,
+        1902
+      ],
+      "death": [
+        1992,
+        1992
+      ],
+      "sourceRevision": "2517006923",
+      "place": "Hartford",
+      "placeQid": "Q33486",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q60025",
+      "qid": "Q60025",
+      "name": "Hannah Arendt",
+      "birth": [
+        1906,
+        1906
+      ],
+      "death": [
+        1975,
+        1975
+      ],
+      "sourceRevision": "2535996345",
+      "place": "Lindener Marktplatz 2, Hannover",
+      "placeQid": "Q18023391",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "Kaynakta zaman, alternatif yer veya tarihî yapı evresi belirsizliği tam çözümlenmedi. Bu incelemedeki yer bağı yalnız biyografiktir; tek yıl veya yaşam boyu kesin konum üretilmedi."
+    },
+    {
+      "id": "births:person-q7197",
+      "qid": "Q7197",
+      "name": "Simone de Beauvoir",
+      "birth": [
+        1908,
+        1908
+      ],
+      "death": [
+        1986,
+        1986
+      ],
+      "sourceRevision": "2549536819",
+      "place": "Paris",
+      "placeQid": "Q90",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q33760",
+      "qid": "Q33760",
+      "name": "Bertrand Russell",
+      "birth": [
+        1872,
+        1872
+      ],
+      "death": [
+        1970,
+        1970
+      ],
+      "sourceRevision": "2556593497",
+      "place": "Trellech",
+      "placeQid": "Q3057926",
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "place-or-coordinate-not-verified",
+      "note": "Doğum yeri veya yer koordinatının kaynak incelemesi tamamlanmadı; bu kayda harita noktası atanmadı. Tarihsel bilginin hiç bulunmadığı anlamına gelmez."
+    },
+    {
+      "id": "births:person-q28189",
+      "qid": "Q28189",
+      "name": "Muhammed Abdüsselam",
+      "birth": [
+        1926,
+        1926
+      ],
+      "death": [
+        1996,
+        1996
+      ],
+      "sourceRevision": "2527158655",
+      "place": "Jhang",
+      "placeQid": "Q1026616",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q60429",
+      "qid": "Q60429",
+      "name": "C. V. Raman",
+      "birth": [
+        1888,
+        1888
+      ],
+      "death": [
+        1970,
+        1970
+      ],
+      "sourceRevision": "2553293814",
+      "place": "Tiruchirappalli",
+      "placeQid": "Q207754",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q317877",
+      "qid": "Q317877",
+      "name": "Abdulrazak Gurnah",
+      "birth": [
+        1948,
+        1948
+      ],
+      "death": null,
+      "sourceRevision": "2553589021",
+      "place": "Zanzibar City",
+      "placeQid": "Q2222874",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q72334",
+      "qid": "Q72334",
+      "name": "Toni Morrison",
+      "birth": [
+        1931,
+        1931
+      ],
+      "death": [
+        2019,
+        2019
+      ],
+      "sourceRevision": "2555118095",
+      "place": "Lorain",
+      "placeQid": "Q609698",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q241248",
+      "qid": "Q241248",
+      "name": "Orhan Pamuk",
+      "birth": [
+        1952,
+        1952
+      ],
+      "death": null,
+      "sourceRevision": "2548391208",
+      "place": "Istanbul",
+      "placeQid": "Q406",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q272855",
+      "qid": "Q272855",
+      "name": "Kazuo Ishiguro",
+      "birth": [
+        1954,
+        1954
+      ],
+      "death": null,
+      "sourceRevision": "2553096507",
+      "place": "Nagasaki",
+      "placeQid": "Q38234",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q43033",
+      "qid": "Q43033",
+      "name": "Desmond Tutu",
+      "birth": [
+        1931,
+        1931
+      ],
+      "death": [
+        2021,
+        2021
+      ],
+      "sourceRevision": "2536499008",
+      "place": "Munsieville",
+      "placeQid": "Q6936880",
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "place-or-coordinate-not-verified",
+      "note": "Doğum yeri veya yer koordinatının kaynak incelemesi tamamlanmadı; bu kayda harita noktası atanmadı. Tarihsel bilginin hiç bulunmadığı anlamına gelmez."
+    },
+    {
+      "id": "births:person-q25973",
+      "qid": "Q25973",
+      "name": "Hermann Hesse",
+      "birth": [
+        1877,
+        1877
+      ],
+      "death": [
+        1962,
+        1962
+      ],
+      "sourceRevision": "2554684284",
+      "place": "Calw",
+      "placeQid": "Q487921",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q80884",
+      "qid": "Q80884",
+      "name": "James Chadwick",
+      "birth": [
+        1891,
+        1891
+      ],
+      "death": [
+        1974,
+        1974
+      ],
+      "sourceRevision": "2557948898",
+      "place": "Bollington",
+      "placeQid": "Q2247131",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q5878",
+      "qid": "Q5878",
+      "name": "Gabriel García Márquez",
+      "birth": [
+        1927,
+        1927
+      ],
+      "death": [
+        2014,
+        2014
+      ],
+      "sourceRevision": "2557889008",
+      "place": "Aracataca",
+      "placeQid": "Q624492",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q6279",
+      "qid": "Q6279",
+      "name": "Joe Biden",
+      "birth": [
+        1942,
+        1942
+      ],
+      "death": null,
+      "sourceRevision": "2558257498",
+      "place": "St. Mary's Hospital",
+      "placeQid": "Q100276507",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "Kaynakta zaman, alternatif yer veya tarihî yapı evresi belirsizliği tam çözümlenmedi. Bu incelemedeki yer bağı yalnız biyografiktir; tek yıl veya yaşam boyu kesin konum üretilmedi."
+    },
+    {
+      "id": "births:person-q22686",
+      "qid": "Q22686",
+      "name": "Donald Trump",
+      "birth": [
+        1946,
+        1946
+      ],
+      "death": null,
+      "sourceRevision": "2558542446",
+      "place": "Jamaica Hospital Medical Center",
+      "placeQid": "Q97354861",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "Kaynakta zaman, alternatif yer veya tarihî yapı evresi belirsizliği tam çözümlenmedi. Bu incelemedeki yer bağı yalnız biyografiktir; tek yıl veya yaşam boyu kesin konum üretilmedi."
+    },
+    {
+      "id": "births:person-q23505",
+      "qid": "Q23505",
+      "name": "George H. W. Bush",
+      "birth": [
+        1924,
+        1924
+      ],
+      "death": [
+        2018,
+        2018
+      ],
+      "sourceRevision": "2549561665",
+      "place": "Milton",
+      "placeQid": "Q739428",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q317521",
+      "qid": "Q317521",
+      "name": "Elon Musk",
+      "birth": [
+        1971,
+        1971
+      ],
+      "death": null,
+      "sourceRevision": "2557867701",
+      "place": "Pretoria",
+      "placeQid": "Q3926",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q23530",
+      "qid": "Q23530",
+      "name": "Dmitri Medvedev",
+      "birth": [
+        1965,
+        1965
+      ],
+      "death": null,
+      "sourceRevision": "2558022497",
+      "place": "Saint Petersburg",
+      "placeQid": "Q656",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q76",
+      "qid": "Q76",
+      "name": "Barack Obama",
+      "birth": [
+        1961,
+        1961
+      ],
+      "death": null,
+      "sourceRevision": "2557807078",
+      "place": "Kapiolani Medical Center for Women and Children",
+      "placeQid": "Q6366688",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "Kaynakta zaman, alternatif yer veya tarihî yapı evresi belirsizliği tam çözümlenmedi. Bu incelemedeki yer bağı yalnız biyografiktir; tek yıl veya yaşam boyu kesin konum üretilmedi."
+    }
+  ],
+  "events": [
+    {
+      "id": "broad:event-q48314",
+      "name": "Waterloo Muharebesi",
+      "wikidataId": "Q48314",
+      "type": "BATTLE",
+      "start": {
+        "kind": "known",
+        "date": {
+          "year": 1815,
+          "month": null,
+          "day": null
+        }
+      },
+      "end": {
+        "kind": "known",
+        "date": {
+          "year": 1815,
+          "month": null,
+          "day": null
+        }
+      },
+      "uncertain": false,
+      "sourceDate": {
+        "text": "P585 18 June 1815^{Gregorian}; Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. P625 yaklaşık temsil noktasıdır, tüm muharebe alanı değildir.",
+        "calendar": "Source calendar retained in text; no unverified day conversion",
+        "yearNumbering": "historical-no-zero"
+      },
+      "geometryAvailable": true,
+      "source": [
+        {
+          "id": "source:people-broad-q48314",
+          "revision": "2553231867"
+        }
+      ]
+    },
+    {
+      "id": "broad:event-q74623",
+      "name": "Osmanlı-Kutsal İttifak savaşları",
+      "wikidataId": "Q74623",
+      "type": "WAR",
+      "start": {
+        "kind": "known",
+        "date": {
+          "year": 1683,
+          "month": null,
+          "day": null
+        }
+      },
+      "end": {
+        "kind": "known",
+        "date": {
+          "year": 1699,
+          "month": null,
+          "day": null
+        }
+      },
+      "uncertain": false,
+      "sourceDate": {
+        "text": "P580 1683; P582 1699; Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+        "calendar": "Source calendar retained in text; no unverified day conversion",
+        "yearNumbering": "historical-no-zero"
+      },
+      "geometryAvailable": false,
+      "source": [
+        {
+          "id": "source:people-broad-q74623",
+          "revision": "2538307764"
+        }
+      ]
+    },
+    {
+      "id": "broad:event-q2487",
+      "name": "Otuz Yıl Savaşı",
+      "wikidataId": "Q2487",
+      "type": "WAR",
+      "start": {
+        "kind": "known",
+        "date": {
+          "year": 1618,
+          "month": null,
+          "day": null
+        }
+      },
+      "end": {
+        "kind": "known",
+        "date": {
+          "year": 1648,
+          "month": null,
+          "day": null
+        }
+      },
+      "uncertain": false,
+      "sourceDate": {
+        "text": "P580 1618; P582 1648; Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+        "calendar": "Source calendar retained in text; no unverified day conversion",
+        "yearNumbering": "historical-no-zero"
+      },
+      "geometryAvailable": false,
+      "source": [
+        {
+          "id": "source:people-broad-q2487",
+          "revision": "2543178530"
+        }
+      ]
+    },
+    {
+      "id": "broad:event-q6271",
+      "name": "İkinci Pön Savaşı",
+      "wikidataId": "Q6271",
+      "type": "WAR",
+      "start": {
+        "kind": "known",
+        "date": {
+          "year": -218,
+          "month": null,
+          "day": null
+        }
+      },
+      "end": {
+        "kind": "known",
+        "date": {
+          "year": -201,
+          "month": null,
+          "day": null
+        }
+      },
+      "uncertain": false,
+      "sourceDate": {
+        "text": "P580 218 BCE; P582 201 BCE; Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+        "calendar": "Source calendar retained in text; no unverified day conversion",
+        "yearNumbering": "historical-no-zero"
+      },
+      "geometryAvailable": false,
+      "source": [
+        {
+          "id": "source:people-broad-q6271",
+          "revision": "2530805085"
+        }
+      ]
+    },
+    {
+      "id": "broad:event-q33132",
+      "name": "Gettysburg Muharebesi",
+      "wikidataId": "Q33132",
+      "type": "BATTLE",
+      "start": {
+        "kind": "known",
+        "date": {
+          "year": 1863,
+          "month": null,
+          "day": null
+        }
+      },
+      "end": {
+        "kind": "known",
+        "date": {
+          "year": 1863,
+          "month": null,
+          "day": null
+        }
+      },
+      "uncertain": false,
+      "sourceDate": {
+        "text": "P580 1 July 1863; P582 3 July 1863^{Gregorian}; Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. P625 yaklaşık temsil noktasıdır, tüm muharebe alanı değildir.",
+        "calendar": "Source calendar retained in text; no unverified day conversion",
+        "yearNumbering": "historical-no-zero"
+      },
+      "geometryAvailable": true,
+      "source": [
+        {
+          "id": "source:people-broad-q33132",
+          "revision": "2516859704"
+        }
+      ]
+    },
+    {
+      "id": "broad:event-q8736",
+      "name": "Versay Barış Antlaşması",
+      "wikidataId": "Q8736",
+      "type": "TREATY",
+      "start": {
+        "kind": "known",
+        "date": {
+          "year": 1919,
+          "month": null,
+          "day": null
+        }
+      },
+      "end": {
+        "kind": "known",
+        "date": {
+          "year": 1919,
+          "month": null,
+          "day": null
+        }
+      },
+      "uncertain": false,
+      "sourceDate": {
+        "text": "P585 28 June 1919^{Gregorian}; P580 10 January 1920 yürürlüğe giriş; Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+        "calendar": "Source calendar retained in text; no unverified day conversion",
+        "yearNumbering": "historical-no-zero"
+      },
+      "geometryAvailable": false,
+      "source": [
+        {
+          "id": "source:people-broad-q8736",
+          "revision": "2544182115"
+        }
+      ]
+    },
+    {
+      "id": "broad:event-q12551",
+      "name": "Yüz Yıl Savaşı",
+      "wikidataId": "Q12551",
+      "type": "WAR",
+      "start": {
+        "kind": "known",
+        "date": {
+          "year": 1337,
+          "month": null,
+          "day": null
+        }
+      },
+      "end": {
+        "kind": "known",
+        "date": {
+          "year": 1453,
+          "month": null,
+          "day": null
+        }
+      },
+      "uncertain": true,
+      "sourceDate": {
+        "text": "P580 24 May 1337; P582 9 October 1453; P582 latest date 1455; Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+        "calendar": "Source calendar retained in text; no unverified day conversion",
+        "yearNumbering": "historical-no-zero"
+      },
+      "geometryAvailable": false,
+      "source": [
+        {
+          "id": "source:people-broad-q12551",
+          "revision": "2537061208"
+        }
+      ]
+    },
+    {
+      "id": "broad:event-q184425",
+      "name": "Pasifik Cephesi (II. Dünya Savaşı)",
+      "wikidataId": "Q184425",
+      "type": "WAR",
+      "start": {
+        "kind": "known",
+        "date": {
+          "year": 1941,
+          "month": null,
+          "day": null
+        }
+      },
+      "end": {
+        "kind": "known",
+        "date": {
+          "year": 1945,
+          "month": null,
+          "day": null
+        }
+      },
+      "uncertain": false,
+      "sourceDate": {
+        "text": "P580 7 December 1941; P582 2 September 1945; Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+        "calendar": "Source calendar retained in text; no unverified day conversion",
+        "yearNumbering": "historical-no-zero"
+      },
+      "geometryAvailable": false,
+      "source": [
+        {
+          "id": "source:people-broad-q184425",
+          "revision": "2504064701"
+        }
+      ]
+    },
+    {
+      "id": "broad:event-q173077",
+      "name": "Puvatya Muharebesi",
+      "wikidataId": "Q173077",
+      "type": "BATTLE",
+      "start": {
+        "kind": "known",
+        "date": {
+          "year": 732,
+          "month": null,
+          "day": null
+        }
+      },
+      "end": {
+        "kind": "known",
+        "date": {
+          "year": 732,
+          "month": null,
+          "day": null
+        }
+      },
+      "uncertain": true,
+      "sourceDate": {
+        "text": "P585 10 October 732; Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. P625 yaklaşık temsil noktasıdır, tüm muharebe alanı değildir.",
+        "calendar": "Source calendar retained in text; no unverified day conversion",
+        "yearNumbering": "historical-no-zero"
+      },
+      "geometryAvailable": true,
+      "source": [
+        {
+          "id": "source:people-broad-q173077",
+          "revision": "2515155232"
+        }
+      ]
+    },
+    {
+      "id": "broad:event-q6534",
+      "name": "Fransız Devrimi",
+      "wikidataId": "Q6534",
+      "type": "OTHER",
+      "start": {
+        "kind": "known",
+        "date": {
+          "year": 1789,
+          "month": null,
+          "day": null
+        }
+      },
+      "end": {
+        "kind": "known",
+        "date": {
+          "year": 1799,
+          "month": null,
+          "day": null
+        }
+      },
+      "uncertain": true,
+      "sourceDate": {
+        "text": "P580 14 July 1789; P582 9 November 1799; P585 5 May 1789 alternatif başlangıç bağlamı; Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+        "calendar": "Source calendar retained in text; no unverified day conversion",
+        "yearNumbering": "historical-no-zero"
+      },
+      "geometryAvailable": false,
+      "source": [
+        {
+          "id": "source:people-broad-q6534",
+          "revision": "2556487552"
+        }
+      ]
+    },
+    {
+      "id": "broad:event-q154697",
+      "name": "Fransız-Kızılderili Savaşı",
+      "wikidataId": "Q154697",
+      "type": "WAR",
+      "start": {
+        "kind": "known",
+        "date": {
+          "year": 1754,
+          "month": null,
+          "day": null
+        }
+      },
+      "end": {
+        "kind": "known",
+        "date": {
+          "year": 1763,
+          "month": null,
+          "day": null
+        }
+      },
+      "uncertain": false,
+      "sourceDate": {
+        "text": "P580 28 May 1754; P582 7 October 1763^{Gregorian}; Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+        "calendar": "Source calendar retained in text; no unverified day conversion",
+        "yearNumbering": "historical-no-zero"
+      },
+      "geometryAvailable": false,
+      "source": [
+        {
+          "id": "source:people-broad-q154697",
+          "revision": "2538319703"
+        }
+      ]
+    },
+    {
+      "id": "broad:event-q134114",
+      "name": "Austerlitz Muharebesi",
+      "wikidataId": "Q134114",
+      "type": "BATTLE",
+      "start": {
+        "kind": "known",
+        "date": {
+          "year": 1805,
+          "month": null,
+          "day": null
+        }
+      },
+      "end": {
+        "kind": "known",
+        "date": {
+          "year": 1805,
+          "month": null,
+          "day": null
+        }
+      },
+      "uncertain": false,
+      "sourceDate": {
+        "text": "P585 2 December 1805^{Gregorian}; Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. P625 yaklaşık temsil noktasıdır, tüm muharebe alanı değildir.",
+        "calendar": "Source calendar retained in text; no unverified day conversion",
+        "yearNumbering": "historical-no-zero"
+      },
+      "geometryAvailable": true,
+      "source": [
+        {
+          "id": "source:people-broad-q134114",
+          "revision": "2549935995"
+        }
+      ]
+    },
+    {
+      "id": "broad:event-q192769",
+      "name": "Amerikan Devrimi",
+      "wikidataId": "Q192769",
+      "type": "OTHER",
+      "start": {
+        "kind": "known",
+        "date": {
+          "year": 1775,
+          "month": null,
+          "day": null
+        }
+      },
+      "end": {
+        "kind": "known",
+        "date": {
+          "year": 1783,
+          "month": null,
+          "day": null
+        }
+      },
+      "uncertain": true,
+      "sourceDate": {
+        "text": "P580 1775; P582 1783; Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+        "calendar": "Source calendar retained in text; no unverified day conversion",
+        "yearNumbering": "historical-no-zero"
+      },
+      "geometryAvailable": false,
+      "source": [
+        {
+          "id": "source:people-broad-q192769",
+          "revision": "2507703175"
+        }
+      ]
+    },
+    {
+      "id": "broad:event-q78994",
+      "name": "Napolyon Savaşları",
+      "wikidataId": "Q78994",
+      "type": "WAR",
+      "start": {
+        "kind": "known",
+        "date": {
+          "year": 1803,
+          "month": null,
+          "day": null
+        }
+      },
+      "end": {
+        "kind": "known",
+        "date": {
+          "year": 1815,
+          "month": null,
+          "day": null
+        }
+      },
+      "uncertain": false,
+      "sourceDate": {
+        "text": "P580 1803; P582 1815; Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+        "calendar": "Source calendar retained in text; no unverified day conversion",
+        "yearNumbering": "historical-no-zero"
+      },
+      "geometryAvailable": false,
+      "source": [
+        {
+          "id": "source:people-broad-q78994",
+          "revision": "2517494320"
+        }
+      ]
+    },
+    {
+      "id": "broad:event-q165425",
+      "name": "İnebahtı Deniz Muharebesi",
+      "wikidataId": "Q165425",
+      "type": "BATTLE",
+      "start": {
+        "kind": "known",
+        "date": {
+          "year": 1571,
+          "month": null,
+          "day": null
+        }
+      },
+      "end": {
+        "kind": "known",
+        "date": {
+          "year": 1571,
+          "month": null,
+          "day": null
+        }
+      },
+      "uncertain": false,
+      "sourceDate": {
+        "text": "P585 7 October 1571; Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. P625 yaklaşık temsil noktasıdır, tüm muharebe alanı değildir.",
+        "calendar": "Source calendar retained in text; no unverified day conversion",
+        "yearNumbering": "historical-no-zero"
+      },
+      "geometryAvailable": true,
+      "source": [
+        {
+          "id": "source:people-broad-q165425",
+          "revision": "2555948907"
+        }
+      ]
+    },
+    {
+      "id": "broad:event-q40949",
+      "name": "Amerikan Bağımsızlık Savaşı",
+      "wikidataId": "Q40949",
+      "type": "WAR",
+      "start": {
+        "kind": "known",
+        "date": {
+          "year": 1775,
+          "month": null,
+          "day": null
+        }
+      },
+      "end": {
+        "kind": "known",
+        "date": {
+          "year": 1783,
+          "month": null,
+          "day": null
+        }
+      },
+      "uncertain": false,
+      "sourceDate": {
+        "text": "P580 19 April 1775; P582 3 September 1783^{Gregorian}; Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+        "calendar": "Source calendar retained in text; no unverified day conversion",
+        "yearNumbering": "historical-no-zero"
+      },
+      "geometryAvailable": false,
+      "source": [
+        {
+          "id": "source:people-broad-q40949",
+          "revision": "2558301562"
+        }
+      ]
+    },
+    {
+      "id": "broad:event-q8676",
+      "name": "Amerikan İç Savaşı",
+      "wikidataId": "Q8676",
+      "type": "WAR",
+      "start": {
+        "kind": "known",
+        "date": {
+          "year": 1861,
+          "month": null,
+          "day": null
+        }
+      },
+      "end": {
+        "kind": "known",
+        "date": {
+          "year": 1865,
+          "month": null,
+          "day": null
+        }
+      },
+      "uncertain": true,
+      "sourceDate": {
+        "text": "P580 12 April 1861; P582 9 April 1865^{Gregorian}; Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+        "calendar": "Source calendar retained in text; no unverified day conversion",
+        "yearNumbering": "historical-no-zero"
+      },
+      "geometryAvailable": false,
+      "source": [
+        {
+          "id": "source:people-broad-q8676",
+          "revision": "2541996953"
+        }
+      ]
+    },
+    {
+      "id": "broad:event-q200855",
+      "name": "II. Viyana Kuşatması",
+      "wikidataId": "Q200855",
+      "type": "BATTLE",
+      "start": {
+        "kind": "known",
+        "date": {
+          "year": 1683,
+          "month": null,
+          "day": null
+        }
+      },
+      "end": {
+        "kind": "known",
+        "date": {
+          "year": 1683,
+          "month": null,
+          "day": null
+        }
+      },
+      "uncertain": false,
+      "sourceDate": {
+        "text": "P585 12 September 1683^{Gregorian}; Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. P625 yaklaşık temsil noktasıdır, tüm muharebe alanı değildir.",
+        "calendar": "Source calendar retained in text; no unverified day conversion",
+        "yearNumbering": "historical-no-zero"
+      },
+      "geometryAvailable": true,
+      "source": [
+        {
+          "id": "source:people-broad-q200855",
+          "revision": "2517740306"
+        }
+      ]
+    },
+    {
+      "id": "broad:event-q8729",
+      "name": "Rus Devrimi (1917)",
+      "wikidataId": "Q8729",
+      "type": "OTHER",
+      "start": {
+        "kind": "known",
+        "date": {
+          "year": 1917,
+          "month": null,
+          "day": null
+        }
+      },
+      "end": {
+        "kind": "known",
+        "date": {
+          "year": 1917,
+          "month": null,
+          "day": null
+        }
+      },
+      "uncertain": false,
+      "sourceDate": {
+        "text": "P585 1917; Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+        "calendar": "Source calendar retained in text; no unverified day conversion",
+        "yearNumbering": "historical-no-zero"
+      },
+      "geometryAvailable": false,
+      "source": [
+        {
+          "id": "source:people-broad-q8729",
+          "revision": "2521226000"
+        }
+      ]
+    },
+    {
+      "id": "broad:event-q8663",
+      "name": "Kore Savaşı",
+      "wikidataId": "Q8663",
+      "type": "WAR",
+      "start": {
+        "kind": "known",
+        "date": {
+          "year": 1950,
+          "month": null,
+          "day": null
+        }
+      },
+      "end": {
+        "kind": "known",
+        "date": {
+          "year": 1953,
+          "month": null,
+          "day": null
+        }
+      },
+      "uncertain": false,
+      "sourceDate": {
+        "text": "P580 25 June 1950; P582 27 July 1953; Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+        "calendar": "Source calendar retained in text; no unverified day conversion",
+        "yearNumbering": "historical-no-zero"
+      },
+      "geometryAvailable": false,
+      "source": [
+        {
+          "id": "source:people-broad-q8663",
+          "revision": "2531404543"
+        }
+      ]
+    },
+    {
+      "id": "broad:event-q207576",
+      "name": "I. Viyana Kuşatması",
+      "wikidataId": "Q207576",
+      "type": "BATTLE",
+      "start": {
+        "kind": "known",
+        "date": {
+          "year": 1529,
+          "month": null,
+          "day": null
+        }
+      },
+      "end": {
+        "kind": "known",
+        "date": {
+          "year": 1529,
+          "month": null,
+          "day": null
+        }
+      },
+      "uncertain": false,
+      "sourceDate": {
+        "text": "P580 27 September 1529; P582 15 October 1529; Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. P625 yaklaşık temsil noktasıdır, tüm muharebe alanı değildir.",
+        "calendar": "Source calendar retained in text; no unverified day conversion",
+        "yearNumbering": "historical-no-zero"
+      },
+      "geometryAvailable": true,
+      "source": [
+        {
+          "id": "source:people-broad-q207576",
+          "revision": "2527977134"
+        }
+      ]
+    },
+    {
+      "id": "broad:event-q184928",
+      "name": "Rus Devrimi (1905)",
+      "wikidataId": "Q184928",
+      "type": "OTHER",
+      "start": {
+        "kind": "known",
+        "date": {
+          "year": 1905,
+          "month": null,
+          "day": null
+        }
+      },
+      "end": {
+        "kind": "known",
+        "date": {
+          "year": 1907,
+          "month": null,
+          "day": null
+        }
+      },
+      "uncertain": false,
+      "sourceDate": {
+        "text": "P580 22 January 1905^{Gregorian}; P582 16 June 1907^{Gregorian}; Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+        "calendar": "Source calendar retained in text; no unverified day conversion",
+        "yearNumbering": "historical-no-zero"
+      },
+      "geometryAvailable": false,
+      "source": [
+        {
+          "id": "source:people-broad-q184928",
+          "revision": "2478256355"
+        }
+      ]
+    },
+    {
+      "id": "broad:event-q8740",
+      "name": "Vietnam Savaşı",
+      "wikidataId": "Q8740",
+      "type": "WAR",
+      "start": {
+        "kind": "known",
+        "date": {
+          "year": 1955,
+          "month": null,
+          "day": null
+        }
+      },
+      "end": {
+        "kind": "known",
+        "date": {
+          "year": 1975,
+          "month": null,
+          "day": null
+        }
+      },
+      "uncertain": false,
+      "sourceDate": {
+        "text": "P580 1 November 1955; P582 30 April 1975; Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+        "calendar": "Source calendar retained in text; no unverified day conversion",
+        "yearNumbering": "historical-no-zero"
+      },
+      "geometryAvailable": false,
+      "source": [
+        {
+          "id": "source:people-broad-q8740",
+          "revision": "2549643027"
+        }
+      ]
+    }
+  ]
+}

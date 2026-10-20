@@ -1,0 +1,42 @@
+{
+  "representation": "editorial-fact-extraction-not-http-response",
+  "synthetic": false,
+  "reviewedAt": "2026-10-16T06:16:58.000Z",
+  "method": "Browser review of structured Wikidata statements at the listed page revisions; original entity JSON could not be downloaded (DNS failure). Not a raw API response. No article text, images, guessed sitelinks or statement GUIDs copied.",
+  "person": {
+    "id": "Q5582",
+    "revision": "2556738621",
+    "url": "https://www.wikidata.org/w/index.php?title=Q5582&oldid=2556738621",
+    "name": "Vincent van Gogh",
+    "birth": "1853-03-30",
+    "death": "1890-07-29",
+    "occupationFact": "painter",
+    "location": {
+      "property": "P551",
+      "place": "Q3280282",
+      "start": "1879-08",
+      "end": "1880-10",
+      "qualifiers": ["P580", "P582"],
+      "referenceUrl": "https://www.maisonvangogh.mons.be/historique",
+      "referenceRetrievedByWikidata": "2023-02-19",
+      "independentReferenceFetched": false,
+      "crossCheck": "Same place/month interval also listed under P937 in the reviewed Wikidata page; not an independent source."
+    }
+  },
+  "place": {
+    "id": "Q3280282",
+    "revision": "2460715196",
+    "url": "https://www.wikidata.org/w/index.php?title=Q3280282&oldid=2460715196",
+    "name": "Maison Van Gogh",
+    "property": "P625",
+    "latitudeDMS": [50, 26, 25],
+    "longitudeDMS": [3, 55, 17],
+    "scope": "Present-day historic house museum, not the city centre or the person's precise position within the building.",
+    "reference": "Imported from English Wikipedia; no survey accuracy claimed."
+  },
+  "rights": {
+    "licenseId": "CC0-1.0",
+    "url": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+    "scope": "Structured statements only; linked institutional text and Wikimedia media not redistributed."
+  }
+}

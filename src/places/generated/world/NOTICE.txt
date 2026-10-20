@@ -1,0 +1,9 @@
+GeoNames geographical database — https://www.geonames.org/
+License: Creative Commons Attribution 4.0 — https://creativecommons.org/licenses/by/4.0/
+Source: https://download.geonames.org/export/dump/
+Source snapshot acquired: 2026-10-18T08:49:41.136Z
+Catalog version: c0972addaf25d13ab7c1fa1b1ade254f2c3c7ca50003be9c78c964df98f03d29
+Changes: filtered contemporary P features and ADM1–ADM4 points; WGS84 lon/lat preserved; joined admin names by source codes; split by 2-degree cells/LOD; omitted other features.
+Original source names retained; no machine translations, historical validity or district boundary polygons supplied.
+Provided as is, without completeness/accuracy/timeliness warranty. Population is only a label ranking hint.
+Source receipts and SHA256 values: see catalog.ts inputs.

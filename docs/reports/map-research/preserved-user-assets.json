@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-10-16T19:59:07.234Z",
+  "files": [
+    {
+      "path": "package-lock.json",
+      "bytes": 443906,
+      "sha256": "d0c3b532fd3abd3ed8841a3b53f94be1dcf9a264e652975ca99e2ec08c53ef20",
+      "unchanged": true
+    },
+    {
+      "path": "assets/licenses/detail-land-provenance.json",
+      "bytes": 658,
+      "sha256": "b45a1b8c5bdb14217234368ee78bbf54dc173fc5a163e9a9250eca2e73d9c394",
+      "unchanged": true
+    },
+    {
+      "path": "src/map/globe/generated/detail-land.ts",
+      "bytes": 2470733,
+      "sha256": "a4fb512a36e804a19cd049b21feb95925284719b66640c11376433872173d476",
+      "unchanged": true
+    },
+    {
+      "path": "src/map/globe/generated/detail-status.ts",
+      "bytes": 125,
+      "sha256": "0fd7810324f5254eff710465acb51b1dc9a094284dca563c84d6309d9e29bf98",
+      "unchanged": true
+    },
+    {
+      "path": "src/map/globe/generated/natural-earth-v5.1.2-50m-land.geojson",
+      "bytes": 1636166,
+      "sha256": "e874b27a51d146452be360cafb3cc50c86001074a67d534113e6534682f9826b",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/generated/pilot.ts",
+      "bytes": 91918,
+      "sha256": "2c944e901354679fbe0bf9dab5892bfcec8e06d59073bf50c847d5d6919b52e4",
+      "unchanged": true
+    }
+  ]
+}

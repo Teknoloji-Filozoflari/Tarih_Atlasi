@@ -1,0 +1,27 @@
+# Build context is source + reviewed, required data only.
+.git
+.agents
+.codex
+.aws
+.github
+node_modules
+.expo
+android
+ios
+dist
+dist-android
+.release
+.publish
+coverage
+test-results
+playwright-report
+data/staging
+docs/**
+!docs/release-blockers.md
+*.log
+.env
+.env.*
+*.jks
+*.keystore
+local.properties
+expo-env.d.ts

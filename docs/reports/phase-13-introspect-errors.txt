@@ -1,0 +1,2 @@
+npm notice run tarih-atlasi@0.1.0 npx
+npm notice run 'expo' config --type introspect --json

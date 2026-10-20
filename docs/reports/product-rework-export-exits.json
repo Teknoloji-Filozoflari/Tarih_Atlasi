@@ -1,0 +1,22 @@
+[
+  {
+    "command": "npm run web:export",
+    "exitCode": 0,
+    "log": "docs/reports/product-rework-web-export.log"
+  },
+  {
+    "command": "npm run android:bundle",
+    "exitCode": 0,
+    "log": "docs/reports/product-rework-android-export.log"
+  },
+  {
+    "command": "node scripts/performance/sizes.mjs docs/reports/product-rework-sizes.json",
+    "exitCode": 0,
+    "log": "docs/reports/product-rework-sizes.log"
+  },
+  {
+    "command": "npm run test:web -- --list",
+    "exitCode": 0,
+    "log": "docs/reports/product-rework-web-list.log"
+  }
+]

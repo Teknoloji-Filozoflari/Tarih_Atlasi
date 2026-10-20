@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-17",
+  "scope": "Country-data research continuation; no real CShapes input",
+  "productionDataChanged": false,
+  "realCShapesInspected": false,
+  "android": "UNVERIFIED ON DEVICE",
+  "screenshots": 0,
+  "checks": [
+    {
+      "command": "git status --short",
+      "status": "BLOCKED",
+      "exitCode": 128,
+      "reason": "No Git worktree visible; no reset/checkout used"
+    },
+    {
+      "command": "curl -fsSI --max-time 15 https://icr.ethz.ch/data/cshapes/",
+      "status": "BLOCKED",
+      "exitCode": 6,
+      "reason": "Terminal DNS failure"
+    },
+    {
+      "command": "npm run lint (initial)",
+      "status": "FAIL_FIXED",
+      "exitCode": 1,
+      "reason": "11 no-undef Buffer errors; explicit node:buffer imports added",
+      "log": "lint-initial.log"
+    },
+    {
+      "command": "npm run lint",
+      "status": "PASS",
+      "exitCode": 0,
+      "log": "lint.log"
+    },
+    {
+      "command": "npm run typecheck",
+      "status": "PASS",
+      "exitCode": 0,
+      "log": "typecheck.log"
+    },
+    {
+      "command": "npm test",
+      "status": "PASS",
+      "exitCode": 0,
+      "tests": 291,
+      "failed": 0,
+      "skipped": 0,
+      "log": "unit.log"
+    },
+    {
+      "command": "npm run test:worker",
+      "status": "PASS",
+      "exitCode": 0,
+      "tests": 5,
+      "failed": 0,
+      "log": "worker.log"
+    },
+    {
+      "command": "npm run world:check",
+      "status": "PASS",
+      "exitCode": 0,
+      "sourceRows": 13379,
+      "assets": 374,
+      "bytes": 120664555,
+      "log": "world-check.log"
+    },
+    {
+      "command": "npm run format:check",
+      "status": "PASS",
+      "exitCode": 0,
+      "log": "format.log"
+    },
+    {
+      "command": "npm run cshapes:inspect",
+      "status": "EXPECTED_BLOCKED",
+      "exitCode": 2,
+      "reason": "CSHAPES_SOURCE_NOT_FOUND; no real source or report",
+      "log": "missing-source.log"
+    },
+    {
+      "command": "npm run cshapes:inspect -- --help",
+      "status": "PASS",
+      "exitCode": 0,
+      "log": "help.log"
+    },
+    {
+      "command": "Nested child-process CLI harness attempts",
+      "status": "FAILED_HARNESS",
+      "exitCode": 1,
+      "reason": "spawnSync EPERM / empty stdout; direct CLI rerun used; synthetic orphan reports verified then removed",
+      "logs": [
+        "cli-nested-process-initial.log",
+        "cli-nested-process-second.log"
+      ]
+    },
+    {
+      "command": "node scripts/inspect-cshapes.mjs --file /tmp/atlas-review-SYNTHETIC-1NoysK/SYNTHETIC.geojson (twice); Node assertions; owned fixture/report cleanup",
+      "status": "PASS",
+      "exitCode": 0,
+      "syntheticOnly": true,
+      "log": "cli-synthetic-proof.json"
+    },
+    {
+      "command": "Web/Android build, browser E2E, screenshots and physical-device measurements",
+      "status": "NOT_TESTED",
+      "reason": "Research-only scripts/docs change; no platform success claimed"
+    }
+  ]
+}

@@ -1,0 +1,3855 @@
+{
+  "archiveSha256": "e10a4e429fca708788ff9e7572a95fce801fae55852d217cffabc1c59cd4eed4",
+  "sourceRows": 13797,
+  "relationRows": 385,
+  "outOfRangeRows": 27,
+  "polityRows": 13379,
+  "accepted": 12933,
+  "legacy": 16,
+  "withheld": [
+    {
+      "index": 256,
+      "name": "Greek City-States",
+      "start": -550,
+      "end": -541,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 277,
+      "name": "Greek City-States",
+      "start": -540,
+      "end": -531,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 280,
+      "name": "Greek City-States",
+      "start": -530,
+      "end": -501,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 288,
+      "name": "Greek City-States",
+      "start": -500,
+      "end": -481,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 297,
+      "name": "Roman Kingdom",
+      "start": -500,
+      "end": -481,
+      "reason": "HISTORICAL_DATE_REQUIRES_INDEPENDENT_REVIEW"
+    },
+    {
+      "index": 383,
+      "name": "Carthage",
+      "start": -383,
+      "end": -338,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 387,
+      "name": "Greek City-States",
+      "start": -383,
+      "end": -367,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 410,
+      "name": "Sacred Band of Thebes",
+      "start": -366,
+      "end": -351,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 421,
+      "name": "Greek City-States",
+      "start": -350,
+      "end": -338,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 446,
+      "name": "Carthage",
+      "start": -337,
+      "end": -332,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 572,
+      "name": "Greek City-States",
+      "start": -281,
+      "end": -280,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 585,
+      "name": "Greek City-States",
+      "start": -279,
+      "end": -278,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 600,
+      "name": "Greek City-States",
+      "start": -277,
+      "end": -276,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 605,
+      "name": "Greek City-States",
+      "start": -275,
+      "end": -273,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 608,
+      "name": "Greek City-States",
+      "start": -272,
+      "end": -272,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 616,
+      "name": "Greek Colonies",
+      "start": -271,
+      "end": -265,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 622,
+      "name": "Greek Colonies",
+      "start": -264,
+      "end": -257,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 630,
+      "name": "Greek Colonies",
+      "start": -256,
+      "end": -248,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 648,
+      "name": "Greek Colonies",
+      "start": -247,
+      "end": -240,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 668,
+      "name": "Greek Colonies",
+      "start": -239,
+      "end": -231,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 688,
+      "name": "Greek Colonies",
+      "start": -230,
+      "end": -226,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 706,
+      "name": "Greek City-States",
+      "start": -225,
+      "end": -224,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 710,
+      "name": "Greek City-States",
+      "start": -223,
+      "end": -211,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 754,
+      "name": "Greek City-States",
+      "start": -210,
+      "end": -209,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 760,
+      "name": "Greek City-States",
+      "start": -208,
+      "end": -207,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 808,
+      "name": "Greek City-States",
+      "start": -206,
+      "end": -203,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 826,
+      "name": "Greek City-States",
+      "start": -202,
+      "end": -198,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 841,
+      "name": "Greek City-States",
+      "start": -197,
+      "end": -189,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 853,
+      "name": "Greek City-States",
+      "start": -188,
+      "end": -171,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 862,
+      "name": "Greek City-States",
+      "start": -170,
+      "end": -165,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 1901,
+      "name": "Vandal Kingdom",
+      "start": 490,
+      "end": 522,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 1962,
+      "name": "Scandinavian minor kingdoms",
+      "start": 523,
+      "end": 792,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 2077,
+      "name": "Eastern Roman Empire",
+      "start": 555,
+      "end": 560,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 2427,
+      "name": "(Brythonic Kingdoms)",
+      "start": 638,
+      "end": 643,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 2465,
+      "name": "(Brythonic Kingdoms)",
+      "start": 644,
+      "end": 646,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 2554,
+      "name": "Byzantine Empire",
+      "start": 666,
+      "end": 673,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 2619,
+      "name": "Byzantine Empire",
+      "start": 692,
+      "end": 704,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 2626,
+      "name": "Tang Dynasty",
+      "start": 692,
+      "end": 704,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 2644,
+      "name": "Umayyad Caliphate",
+      "start": 705,
+      "end": 709,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 2652,
+      "name": "(Brythonic Kingdoms)",
+      "start": 705,
+      "end": 709,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 2667,
+      "name": "Umayyad Caliphate",
+      "start": 710,
+      "end": 717,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 2670,
+      "name": "(Brythonic Kingdoms)",
+      "start": 710,
+      "end": 740,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 2676,
+      "name": "Umayyad Caliphate",
+      "start": 718,
+      "end": 723,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 2741,
+      "name": "(Brythonic Kingdoms)",
+      "start": 741,
+      "end": 749,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 2767,
+      "name": "(Brythonic Kingdoms)",
+      "start": 750,
+      "end": 754,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 2822,
+      "name": "(Brythonic Kingdoms)",
+      "start": 755,
+      "end": 787,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 2908,
+      "name": "Abbasid Caliphate",
+      "start": 778,
+      "end": 782,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 2955,
+      "name": "(Brythonic Kingdoms)",
+      "start": 788,
+      "end": 805,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 2980,
+      "name": "Scandinavian minor kingdoms",
+      "start": 793,
+      "end": 799,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3005,
+      "name": "Scandinavian minor kingdoms",
+      "start": 800,
+      "end": 805,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3017,
+      "name": "(Brythonic Kingdoms)",
+      "start": 806,
+      "end": 829,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3026,
+      "name": "Scandinavian minor kingdoms",
+      "start": 806,
+      "end": 813,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3047,
+      "name": "Scandinavian minor kingdoms",
+      "start": 814,
+      "end": 824,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3079,
+      "name": "Scandinavian minor kingdoms",
+      "start": 825,
+      "end": 865,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3099,
+      "name": "(Brythonic Kingdoms)",
+      "start": 830,
+      "end": 839,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3124,
+      "name": "(Brythonic Kingdoms)",
+      "start": 840,
+      "end": 859,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3183,
+      "name": "Abbasid Caliphate",
+      "start": 860,
+      "end": 865,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3194,
+      "name": "Aghlabid Dynasty",
+      "start": 860,
+      "end": 865,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3225,
+      "name": "Abbasid Caliphate",
+      "start": 866,
+      "end": 869,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3231,
+      "name": "Aghlabid Dynasty",
+      "start": 866,
+      "end": 874,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3236,
+      "name": "Scandinavian minor kingdoms",
+      "start": 866,
+      "end": 869,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3265,
+      "name": "(Brythonic Kingdoms)",
+      "start": 870,
+      "end": 874,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3274,
+      "name": "Abbasid Caliphate",
+      "start": 870,
+      "end": 874,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3279,
+      "name": "Old Kingdom of Norway",
+      "start": 870,
+      "end": 874,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3283,
+      "name": "Old Kingdom of Norway",
+      "start": 875,
+      "end": 898,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3306,
+      "name": "(Brythonic Kingdoms)",
+      "start": 875,
+      "end": 877,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3353,
+      "name": "(Brythonic Kingdoms)",
+      "start": 878,
+      "end": 883,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3400,
+      "name": "(Carolingian Empire)",
+      "start": 884,
+      "end": 885,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3401,
+      "name": "West Franks",
+      "start": 884,
+      "end": 885,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3406,
+      "name": "(Brythonic Kingdoms)",
+      "start": 884,
+      "end": 897,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3432,
+      "name": "(Carolingian Empire)",
+      "start": 886,
+      "end": 886,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3433,
+      "name": "West Franks",
+      "start": 886,
+      "end": 886,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3448,
+      "name": "(Carolingian Empire)",
+      "start": 887,
+      "end": 887,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3449,
+      "name": "West Franks",
+      "start": 887,
+      "end": 887,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3527,
+      "name": "(Brythonic Kingdoms)",
+      "start": 898,
+      "end": 898,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3550,
+      "name": "(Brythonic Kingdoms)",
+      "start": 899,
+      "end": 899,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3556,
+      "name": "Old Kingdom of Norway",
+      "start": 899,
+      "end": 946,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3588,
+      "name": "(Brythonic Kingdoms)",
+      "start": 900,
+      "end": 910,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3611,
+      "name": "(Brythonic Kingdoms)",
+      "start": 911,
+      "end": 921,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3674,
+      "name": "(Brythonic Kingdoms)",
+      "start": 922,
+      "end": 925,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3717,
+      "name": "West Franks",
+      "start": 926,
+      "end": 935,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3718,
+      "name": "(Carolingian Empire)",
+      "start": 926,
+      "end": 935,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3727,
+      "name": "(Brythonic Kingdoms)",
+      "start": 926,
+      "end": 935,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3758,
+      "name": "(Brythonic Kingdoms)",
+      "start": 936,
+      "end": 946,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3799,
+      "name": "(Brythonic Kingdoms)",
+      "start": 947,
+      "end": 959,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3810,
+      "name": "(Kingdom of England)",
+      "start": 947,
+      "end": 959,
+      "reason": "WORLD_UNCLOSED_OR_EMPTY_RING"
+    },
+    {
+      "index": 3834,
+      "name": "Old Kingdom of Norway",
+      "start": 947,
+      "end": 969,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3860,
+      "name": "(Brythonic Kingdoms)",
+      "start": 960,
+      "end": 979,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3940,
+      "name": "Old Kingdom of Norway",
+      "start": 970,
+      "end": 979,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3969,
+      "name": "Old Kingdom of Norway",
+      "start": 980,
+      "end": 989,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 3987,
+      "name": "(Brythonic Kingdoms)",
+      "start": 980,
+      "end": 1033,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 4052,
+      "name": "Old Kingdom of Norway",
+      "start": 990,
+      "end": 999,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 4063,
+      "name": "County of Osona",
+      "start": 990,
+      "end": 999,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 4088,
+      "name": "Old Kingdom of Norway",
+      "start": 1000,
+      "end": 1002,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 4089,
+      "name": "County of Osona",
+      "start": 1000,
+      "end": 1002,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 4112,
+      "name": "Old Kingdom of Norway",
+      "start": 1003,
+      "end": 1014,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 4203,
+      "name": "Old Kingdom of Norway",
+      "start": 1015,
+      "end": 1039,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 4257,
+      "name": "North Sea Empire",
+      "start": 1028,
+      "end": 1033,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 4310,
+      "name": "North Sea Empire",
+      "start": 1034,
+      "end": 1039,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 4324,
+      "name": "(Brythonic Kingdoms)",
+      "start": 1034,
+      "end": 1039,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 4330,
+      "name": "Taifa of Algeciras",
+      "start": 1040,
+      "end": 1065,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 4332,
+      "name": "(Taifas of Iberia)",
+      "start": 1040,
+      "end": 1045,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 4339,
+      "name": "Old Kingdom of Norway",
+      "start": 1040,
+      "end": 1045,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 4399,
+      "name": "(Taifas of Iberia)",
+      "start": 1046,
+      "end": 1055,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 4403,
+      "name": "Norway-Denmark",
+      "start": 1046,
+      "end": 1055,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 4485,
+      "name": "(Taifas of Iberia)",
+      "start": 1056,
+      "end": 1065,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 4488,
+      "name": "Old Kingdom of Norway",
+      "start": 1056,
+      "end": 1065,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 4529,
+      "name": "Old Kingdom of Norway",
+      "start": 1066,
+      "end": 1187,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 4565,
+      "name": "(Kingdom of France)",
+      "start": 1066,
+      "end": 1084,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 4588,
+      "name": "Kingdom of Polonnaruwa",
+      "start": 1072,
+      "end": 1249,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 4655,
+      "name": "(Brythonic Kingdoms)",
+      "start": 1085,
+      "end": 1098,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 4678,
+      "name": "(Kingdom of France)",
+      "start": 1085,
+      "end": 1110,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 5161,
+      "name": "Old Kingdom of Norway",
+      "start": 1188,
+      "end": 1271,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 5558,
+      "name": "Kingdom of Gwynedd",
+      "start": 1236,
+      "end": 1278,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 5586,
+      "name": "Hafsid Dynasty",
+      "start": 1236,
+      "end": 1293,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 5605,
+      "name": "Principality of Achaea",
+      "start": 1236,
+      "end": 1259,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 5606,
+      "name": "(Brythonic Kingdoms)",
+      "start": 1236,
+      "end": 1278,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 5772,
+      "name": "(Kingdom of France)",
+      "start": 1260,
+      "end": 1271,
+      "reason": "WORLD_ZERO_AREA"
+    },
+    {
+      "index": 5783,
+      "name": "House of Wittelsbach",
+      "start": 1260,
+      "end": 1271,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 5794,
+      "name": "Principality of Achaea",
+      "start": 1260,
+      "end": 1278,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 5816,
+      "name": "Patriarchate of Aquileia",
+      "start": 1260,
+      "end": 1271,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 5823,
+      "name": "(Kingdom of France)",
+      "start": 1272,
+      "end": 1278,
+      "reason": "WORLD_ZERO_AREA"
+    },
+    {
+      "index": 5836,
+      "name": "House of Wittelsbach",
+      "start": 1272,
+      "end": 1278,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 5848,
+      "name": "Old Kingdom of Norway",
+      "start": 1272,
+      "end": 1313,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 5860,
+      "name": "Patriarchate of Aquileia",
+      "start": 1272,
+      "end": 1293,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 5876,
+      "name": "House of Anjou-Sicily",
+      "start": 1279,
+      "end": 1284,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 5877,
+      "name": "Kingdom of Gwynedd",
+      "start": 1279,
+      "end": 1284,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 5880,
+      "name": "(Kingdom of France)",
+      "start": 1279,
+      "end": 1284,
+      "reason": "WORLD_UNCLOSED_OR_EMPTY_RING"
+    },
+    {
+      "index": 5898,
+      "name": "(Brythonic Kingdoms)",
+      "start": 1279,
+      "end": 1284,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 5920,
+      "name": "House of Anjou-Sicily",
+      "start": 1285,
+      "end": 1293,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 5967,
+      "name": "Patriarchate of Aquileia",
+      "start": 1294,
+      "end": 1313,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 6031,
+      "name": "(Kingdom of France)",
+      "start": 1294,
+      "end": 1304,
+      "reason": "WORLD_UNCLOSED_OR_EMPTY_RING"
+    },
+    {
+      "index": 6073,
+      "name": "Byzantine Empire",
+      "start": 1305,
+      "end": 1313,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 6101,
+      "name": "(Kingdom of France)",
+      "start": 1305,
+      "end": 1313,
+      "reason": "WORLD_UNCLOSED_OR_EMPTY_RING"
+    },
+    {
+      "index": 6141,
+      "name": "(Kingdom of France)",
+      "start": 1314,
+      "end": 1325,
+      "reason": "WORLD_UNCLOSED_OR_EMPTY_RING"
+    },
+    {
+      "index": 6156,
+      "name": "Patriarchate of Aquileia",
+      "start": 1314,
+      "end": 1343,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 6166,
+      "name": "Old Kingdom of Norway",
+      "start": 1314,
+      "end": 1325,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 6202,
+      "name": "(Kingdom of France)",
+      "start": 1326,
+      "end": 1332,
+      "reason": "WORLD_UNCLOSED_OR_EMPTY_RING"
+    },
+    {
+      "index": 6229,
+      "name": "Old Kingdom of Norway",
+      "start": 1326,
+      "end": 1332,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 6293,
+      "name": "(Kingdom of France)",
+      "start": 1333,
+      "end": 1343,
+      "reason": "WORLD_UNCLOSED_OR_EMPTY_RING"
+    },
+    {
+      "index": 6326,
+      "name": "Old Kingdom of Norway",
+      "start": 1333,
+      "end": 1343,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 6370,
+      "name": "(Kingdom of France)",
+      "start": 1344,
+      "end": 1351,
+      "reason": "WORLD_UNCLOSED_OR_EMPTY_RING"
+    },
+    {
+      "index": 6388,
+      "name": "Patriarchate of Aquileia",
+      "start": 1344,
+      "end": 1362,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 6410,
+      "name": "Old Kingdom of Norway",
+      "start": 1344,
+      "end": 1362,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 6437,
+      "name": "(Kingdom of England)",
+      "start": 1352,
+      "end": 1362,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 6475,
+      "name": "(Kingdom of France)",
+      "start": 1352,
+      "end": 1362,
+      "reason": "WORLD_UNCLOSED_OR_EMPTY_RING"
+    },
+    {
+      "index": 6479,
+      "name": "(Holy Roman Empire)",
+      "start": 1352,
+      "end": 1362,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 6509,
+      "name": "(Holy Roman Empire)",
+      "start": 1363,
+      "end": 1374,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 6510,
+      "name": "(Kingdom of France)",
+      "start": 1363,
+      "end": 1374,
+      "reason": "WORLD_UNCLOSED_OR_EMPTY_RING"
+    },
+    {
+      "index": 6529,
+      "name": "Patriarchate of Aquileia",
+      "start": 1363,
+      "end": 1384,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 6549,
+      "name": "Old Kingdom of Norway",
+      "start": 1363,
+      "end": 1394,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 6565,
+      "name": "(Kingdom of England)",
+      "start": 1363,
+      "end": 1374,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 6613,
+      "name": "(Kingdom of England)",
+      "start": 1375,
+      "end": 1384,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 6643,
+      "name": "(Kingdom of France)",
+      "start": 1375,
+      "end": 1384,
+      "reason": "WORLD_UNCLOSED_OR_EMPTY_RING"
+    },
+    {
+      "index": 6644,
+      "name": "(Holy Roman Empire)",
+      "start": 1375,
+      "end": 1384,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 6688,
+      "name": "Patriarchate of Aquileia",
+      "start": 1385,
+      "end": 1406,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 6781,
+      "name": "Old Kingdom of Norway",
+      "start": 1395,
+      "end": 1401,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 6804,
+      "name": "(Kalmar Union)",
+      "start": 1402,
+      "end": 1406,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 6868,
+      "name": "Kalmar Union",
+      "start": 1402,
+      "end": 1406,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 6875,
+      "name": "Patriarchate of Aquileia",
+      "start": 1407,
+      "end": 1421,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 6877,
+      "name": "Kalmar Union",
+      "start": 1407,
+      "end": 1414,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 6923,
+      "name": "(Kalmar Union)",
+      "start": 1407,
+      "end": 1414,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 6937,
+      "name": "Kalmar Union",
+      "start": 1415,
+      "end": 1421,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 6959,
+      "name": "Kingdom of Hungary",
+      "start": 1415,
+      "end": 1421,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 6979,
+      "name": "(Kalmar Union)",
+      "start": 1415,
+      "end": 1421,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7009,
+      "name": "(Kalmar Union)",
+      "start": 1422,
+      "end": 1428,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7033,
+      "name": "Kalmar Union",
+      "start": 1422,
+      "end": 1428,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7050,
+      "name": "Kingdom of Hungary",
+      "start": 1422,
+      "end": 1439,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7143,
+      "name": "(Holy Roman Empire)",
+      "start": 1440,
+      "end": 1449,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7144,
+      "name": "(Kingdom of France)",
+      "start": 1440,
+      "end": 1449,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7187,
+      "name": "Byzantine Empire",
+      "start": 1440,
+      "end": 1467,
+      "reason": "HISTORICAL_DATE_REQUIRES_INDEPENDENT_REVIEW"
+    },
+    {
+      "index": 7197,
+      "name": "Holy Roman Empire Minor States",
+      "start": 1440,
+      "end": 1449,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7207,
+      "name": "House of Habsburg",
+      "start": 1450,
+      "end": 1452,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7230,
+      "name": "(Holy Roman Empire)",
+      "start": 1450,
+      "end": 1452,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7231,
+      "name": "(Kingdom of France)",
+      "start": 1450,
+      "end": 1452,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7277,
+      "name": "(Kingdom of France)",
+      "start": 1453,
+      "end": 1458,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7278,
+      "name": "(Holy Roman Empire)",
+      "start": 1453,
+      "end": 1458,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7290,
+      "name": "Holy Roman Empire Minor States",
+      "start": 1453,
+      "end": 1458,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7303,
+      "name": "House of Habsburg",
+      "start": 1453,
+      "end": 1458,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7313,
+      "name": "(Kingdom of France)",
+      "start": 1459,
+      "end": 1462,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7337,
+      "name": "Kingdom of Hungary",
+      "start": 1459,
+      "end": 1462,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7354,
+      "name": "Kingdom of Hungary",
+      "start": 1463,
+      "end": 1467,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7386,
+      "name": "(Kingdom of France)",
+      "start": 1463,
+      "end": 1474,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7397,
+      "name": "Kingdom of Hungary",
+      "start": 1468,
+      "end": 1474,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7456,
+      "name": "(Kingdom of France)",
+      "start": 1475,
+      "end": 1481,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7480,
+      "name": "Kingdom of Hungary",
+      "start": 1475,
+      "end": 1481,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7506,
+      "name": "(Kingdom of France)",
+      "start": 1482,
+      "end": 1486,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7534,
+      "name": "Kingdom of Hungary",
+      "start": 1482,
+      "end": 1486,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7573,
+      "name": "Kingdom of Hungary",
+      "start": 1487,
+      "end": 1491,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7600,
+      "name": "Kingdom of Hungary",
+      "start": 1492,
+      "end": 1520,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7768,
+      "name": "Ayutthaya Kingdom",
+      "start": 1507,
+      "end": 1511,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7919,
+      "name": "Kingdom of Hungary",
+      "start": 1521,
+      "end": 1525,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7967,
+      "name": "Kingdom of Hungary",
+      "start": 1526,
+      "end": 1528,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 7988,
+      "name": "Kingdom of Hungary",
+      "start": 1529,
+      "end": 1533,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8042,
+      "name": "Kingdom of Hungary",
+      "start": 1534,
+      "end": 1539,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8071,
+      "name": "(Spanish Empire)",
+      "start": 1540,
+      "end": 1546,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8075,
+      "name": "Kingdom of Spain",
+      "start": 1540,
+      "end": 1546,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8140,
+      "name": "Kingdom of Spain",
+      "start": 1547,
+      "end": 1555,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8144,
+      "name": "(Spanish Empire)",
+      "start": 1547,
+      "end": 1551,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8173,
+      "name": "(Spanish Empire)",
+      "start": 1552,
+      "end": 1555,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8193,
+      "name": "(Holy Roman Empire)",
+      "start": 1556,
+      "end": 1563,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8194,
+      "name": "(Habsburg Monarchy)",
+      "start": 1556,
+      "end": 1563,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8202,
+      "name": "Tsardom of Russia",
+      "start": 1556,
+      "end": 1563,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8209,
+      "name": "Habsburg Monarchy",
+      "start": 1556,
+      "end": 1563,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8226,
+      "name": "Holy Roman Empire Minor States",
+      "start": 1556,
+      "end": 1563,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8237,
+      "name": "Habsburg Monarchy",
+      "start": 1564,
+      "end": 1571,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8242,
+      "name": "Electorate of Saxony",
+      "start": 1564,
+      "end": 1578,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8246,
+      "name": "Tsardom of Russia",
+      "start": 1564,
+      "end": 1571,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8267,
+      "name": "(Habsburg Monarchy)",
+      "start": 1564,
+      "end": 1571,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8316,
+      "name": "Habsburg Monarchy",
+      "start": 1572,
+      "end": 1587,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8324,
+      "name": "Tsardom of Russia",
+      "start": 1572,
+      "end": 1578,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8340,
+      "name": "(Habsburg Monarchy)",
+      "start": 1572,
+      "end": 1587,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8366,
+      "name": "Tsardom of Russia",
+      "start": 1579,
+      "end": 1581,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8373,
+      "name": "Electorate of Saxony",
+      "start": 1579,
+      "end": 1587,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8406,
+      "name": "Tsardom of Russia",
+      "start": 1582,
+      "end": 1587,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8408,
+      "name": "Holy Roman Empire Minor States",
+      "start": 1588,
+      "end": 1594,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8427,
+      "name": "Tsardom of Russia",
+      "start": 1588,
+      "end": 1594,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8435,
+      "name": "Habsburg Monarchy",
+      "start": 1588,
+      "end": 1594,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8440,
+      "name": "(Habsburg Monarchy)",
+      "start": 1588,
+      "end": 1594,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8443,
+      "name": "(Holy Roman Empire)",
+      "start": 1588,
+      "end": 1594,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8456,
+      "name": "Habsburg Monarchy",
+      "start": 1595,
+      "end": 1599,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8464,
+      "name": "Tsardom of Russia",
+      "start": 1595,
+      "end": 1599,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8475,
+      "name": "(Habsburg Monarchy)",
+      "start": 1595,
+      "end": 1599,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8477,
+      "name": "(Holy Roman Empire)",
+      "start": 1595,
+      "end": 1599,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8487,
+      "name": "Holy Roman Empire Minor States",
+      "start": 1595,
+      "end": 1599,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8501,
+      "name": "Habsburg Monarchy",
+      "start": 1600,
+      "end": 1618,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8505,
+      "name": "Tsardom of Russia",
+      "start": 1600,
+      "end": 1601,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8514,
+      "name": "(Holy Roman Empire)",
+      "start": 1600,
+      "end": 1601,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8517,
+      "name": "(Habsburg Monarchy)",
+      "start": 1600,
+      "end": 1618,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8522,
+      "name": "Warring States Japan",
+      "start": 1600,
+      "end": 1601,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8528,
+      "name": "Holy Roman Empire Minor States",
+      "start": 1600,
+      "end": 1601,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8542,
+      "name": "Holy Roman Empire Minor States",
+      "start": 1602,
+      "end": 1608,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8551,
+      "name": "Tsardom of Russia",
+      "start": 1602,
+      "end": 1608,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8559,
+      "name": "(Holy Roman Empire)",
+      "start": 1602,
+      "end": 1608,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8565,
+      "name": "Holy Roman Empire Minor States",
+      "start": 1609,
+      "end": 1618,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8589,
+      "name": "(Holy Roman Empire)",
+      "start": 1609,
+      "end": 1618,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8599,
+      "name": "Tsardom of Russia",
+      "start": 1612,
+      "end": 1618,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8627,
+      "name": "Habsburg Monarchy",
+      "start": 1619,
+      "end": 1621,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8634,
+      "name": "Tsardom of Russia",
+      "start": 1619,
+      "end": 1628,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8643,
+      "name": "(Habsburg Monarchy)",
+      "start": 1619,
+      "end": 1621,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8671,
+      "name": "Holy Roman Empire Minor States",
+      "start": 1622,
+      "end": 1625,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8675,
+      "name": "(Holy Roman Empire)",
+      "start": 1622,
+      "end": 1625,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8680,
+      "name": "(Habsburg Monarchy)",
+      "start": 1622,
+      "end": 1625,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8685,
+      "name": "Habsburg Monarchy",
+      "start": 1622,
+      "end": 1625,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8691,
+      "name": "(Habsburg Monarchy)",
+      "start": 1626,
+      "end": 1628,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8701,
+      "name": "Habsburg Monarchy",
+      "start": 1626,
+      "end": 1628,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8703,
+      "name": "Electorate of Saxony",
+      "start": 1626,
+      "end": 1628,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8735,
+      "name": "(Habsburg Monarchy)",
+      "start": 1629,
+      "end": 1631,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8743,
+      "name": "Tsardom of Russia",
+      "start": 1629,
+      "end": 1631,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8745,
+      "name": "Electorate of Saxony",
+      "start": 1629,
+      "end": 1631,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8747,
+      "name": "Habsburg Monarchy",
+      "start": 1629,
+      "end": 1631,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8753,
+      "name": "(Habsburg Monarchy)",
+      "start": 1632,
+      "end": 1635,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8763,
+      "name": "Habsburg Monarchy",
+      "start": 1632,
+      "end": 1635,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8814,
+      "name": "(Habsburg Monarchy)",
+      "start": 1636,
+      "end": 1639,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8820,
+      "name": "Habsburg Monarchy",
+      "start": 1636,
+      "end": 1639,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8822,
+      "name": "Electorate of Saxony",
+      "start": 1636,
+      "end": 1639,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8858,
+      "name": "Habsburg Monarchy",
+      "start": 1640,
+      "end": 1641,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8860,
+      "name": "Electorate of Saxony",
+      "start": 1640,
+      "end": 1641,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8874,
+      "name": "(Habsburg Monarchy)",
+      "start": 1640,
+      "end": 1641,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8876,
+      "name": "Electorate of Saxony",
+      "start": 1642,
+      "end": 1644,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8879,
+      "name": "Habsburg Monarchy",
+      "start": 1642,
+      "end": 1644,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8887,
+      "name": "(Habsburg Monarchy)",
+      "start": 1642,
+      "end": 1644,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8915,
+      "name": "(Habsburg Monarchy)",
+      "start": 1645,
+      "end": 1647,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8924,
+      "name": "Habsburg Monarchy",
+      "start": 1645,
+      "end": 1647,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8926,
+      "name": "Electorate of Saxony",
+      "start": 1645,
+      "end": 1647,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8948,
+      "name": "(Habsburg Monarchy)",
+      "start": 1648,
+      "end": 1652,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8956,
+      "name": "Habsburg Monarchy",
+      "start": 1648,
+      "end": 1652,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 8959,
+      "name": "Electorate of Saxony",
+      "start": 1648,
+      "end": 1682,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9007,
+      "name": "(Habsburg Monarchy)",
+      "start": 1653,
+      "end": 1669,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9024,
+      "name": "Habsburg Monarchy",
+      "start": 1653,
+      "end": 1669,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9096,
+      "name": "(Habsburg Monarchy)",
+      "start": 1670,
+      "end": 1672,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9113,
+      "name": "Habsburg Monarchy",
+      "start": 1670,
+      "end": 1672,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9165,
+      "name": "Habsburg Monarchy",
+      "start": 1673,
+      "end": 1682,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9175,
+      "name": "(Habsburg Monarchy)",
+      "start": 1673,
+      "end": 1682,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9182,
+      "name": "Golconda Sultanate",
+      "start": 1677,
+      "end": 1682,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9195,
+      "name": "Kingdom of Spain",
+      "start": 1677,
+      "end": 1682,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9200,
+      "name": "(Spanish Empire)",
+      "start": 1677,
+      "end": 1682,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9256,
+      "name": "Principality of Upper Hungary",
+      "start": 1683,
+      "end": 1686,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9260,
+      "name": "Electorate of Saxony",
+      "start": 1683,
+      "end": 1699,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9263,
+      "name": "Golconda Sultanate",
+      "start": 1683,
+      "end": 1686,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9274,
+      "name": "(Habsburg Monarchy)",
+      "start": 1687,
+      "end": 1690,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9283,
+      "name": "Habsburg Monarchy",
+      "start": 1687,
+      "end": 1690,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9327,
+      "name": "(Habsburg Monarchy)",
+      "start": 1691,
+      "end": 1695,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9334,
+      "name": "Habsburg Monarchy",
+      "start": 1691,
+      "end": 1695,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9359,
+      "name": "Habsburg Monarchy",
+      "start": 1696,
+      "end": 1699,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9365,
+      "name": "(Habsburg Monarchy)",
+      "start": 1696,
+      "end": 1699,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9396,
+      "name": "Habsburg Monarchy",
+      "start": 1700,
+      "end": 1701,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9397,
+      "name": "Polish-Lithuanian Commonwealth",
+      "start": 1700,
+      "end": 1701,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9400,
+      "name": "(Habsburg Monarchy)",
+      "start": 1700,
+      "end": 1701,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9412,
+      "name": "Habsburg Monarchy",
+      "start": 1702,
+      "end": 1705,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9414,
+      "name": "Polish-Lithuanian Commonwealth",
+      "start": 1702,
+      "end": 1705,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9418,
+      "name": "(Habsburg Monarchy)",
+      "start": 1702,
+      "end": 1705,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9458,
+      "name": "Habsburg Monarchy",
+      "start": 1706,
+      "end": 1708,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9469,
+      "name": "Polish-Lithuanian Commonwealth",
+      "start": 1706,
+      "end": 1708,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9475,
+      "name": "(Habsburg Monarchy)",
+      "start": 1706,
+      "end": 1708,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9479,
+      "name": "Habsburg Monarchy",
+      "start": 1709,
+      "end": 1712,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9495,
+      "name": "(Habsburg Monarchy)",
+      "start": 1709,
+      "end": 1712,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9501,
+      "name": "Polish-Lithuanian Commonwealth",
+      "start": 1709,
+      "end": 1712,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9543,
+      "name": "Polish-Lithuanian Commonwealth",
+      "start": 1713,
+      "end": 1720,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9547,
+      "name": "(Habsburg Monarchy)",
+      "start": 1713,
+      "end": 1717,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9555,
+      "name": "Habsburg Monarchy",
+      "start": 1713,
+      "end": 1717,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9576,
+      "name": "(Habsburg Monarchy)",
+      "start": 1718,
+      "end": 1720,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9591,
+      "name": "Habsburg Monarchy",
+      "start": 1718,
+      "end": 1720,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9617,
+      "name": "Habsburg Monarchy",
+      "start": 1721,
+      "end": 1733,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9620,
+      "name": "Polish-Lithuanian Commonwealth",
+      "start": 1721,
+      "end": 1733,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9628,
+      "name": "(Habsburg Monarchy)",
+      "start": 1721,
+      "end": 1733,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9693,
+      "name": "Polish-Lithuanian Commonwealth",
+      "start": 1734,
+      "end": 1740,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9699,
+      "name": "(Habsburg Monarchy)",
+      "start": 1734,
+      "end": 1737,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9713,
+      "name": "Habsburg Monarchy",
+      "start": 1734,
+      "end": 1737,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9742,
+      "name": "Habsburg Monarchy",
+      "start": 1738,
+      "end": 1740,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9746,
+      "name": "(Habsburg Monarchy)",
+      "start": 1738,
+      "end": 1740,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9752,
+      "name": "(Habsburg Monarchy)",
+      "start": 1741,
+      "end": 1743,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9755,
+      "name": "(Holy Roman Empire)",
+      "start": 1741,
+      "end": 1743,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9765,
+      "name": "Habsburg Monarchy",
+      "start": 1741,
+      "end": 1743,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9777,
+      "name": "Holy Roman Empire Minor States",
+      "start": 1741,
+      "end": 1743,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9810,
+      "name": "Mughal Empire",
+      "start": 1744,
+      "end": 1747,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9813,
+      "name": "Habsburg Monarchy",
+      "start": 1744,
+      "end": 1747,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9825,
+      "name": "(Habsburg Monarchy)",
+      "start": 1744,
+      "end": 1747,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9849,
+      "name": "(Habsburg Monarchy)",
+      "start": 1748,
+      "end": 1756,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9855,
+      "name": "Habsburg Monarchy",
+      "start": 1748,
+      "end": 1756,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9858,
+      "name": "Mughal Empire",
+      "start": 1748,
+      "end": 1756,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9926,
+      "name": "(Habsburg Monarchy)",
+      "start": 1757,
+      "end": 1761,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9930,
+      "name": "Beylik of Tunis",
+      "start": 1757,
+      "end": 1761,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9944,
+      "name": "Mughal Empire",
+      "start": 1757,
+      "end": 1761,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9948,
+      "name": "Habsburg Monarchy",
+      "start": 1757,
+      "end": 1761,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9976,
+      "name": "(Habsburg Monarchy)",
+      "start": 1762,
+      "end": 1762,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9994,
+      "name": "Mughal Empire",
+      "start": 1762,
+      "end": 1762,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 9997,
+      "name": "Habsburg Monarchy",
+      "start": 1762,
+      "end": 1762,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 10023,
+      "name": "Habsburg Monarchy",
+      "start": 1763,
+      "end": 1768,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 10027,
+      "name": "Mughal Empire",
+      "start": 1763,
+      "end": 1768,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 10030,
+      "name": "(Habsburg Monarchy)",
+      "start": 1763,
+      "end": 1768,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 10070,
+      "name": "(Habsburg Monarchy)",
+      "start": 1769,
+      "end": 1771,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 10076,
+      "name": "Mughal Empire",
+      "start": 1769,
+      "end": 1771,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 10078,
+      "name": "Habsburg Monarchy",
+      "start": 1769,
+      "end": 1771,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 10314,
+      "name": "Maratha Empire",
+      "start": 1791,
+      "end": 1791,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 10413,
+      "name": "Beylik of Tunis",
+      "start": 1796,
+      "end": 1829,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 11129,
+      "name": "First Hellenic Republic",
+      "start": 1824,
+      "end": 1824,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 11145,
+      "name": "First Hellenic Republic",
+      "start": 1825,
+      "end": 1827,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 11222,
+      "name": "Beylik of Tunis",
+      "start": 1830,
+      "end": 1839,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 11277,
+      "name": "Sokoto Caliphate",
+      "start": 1834,
+      "end": 1835,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 11298,
+      "name": "Sokoto Caliphate",
+      "start": 1836,
+      "end": 1839,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 11317,
+      "name": "Beylik of Tunis",
+      "start": 1840,
+      "end": 1845,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 11325,
+      "name": "Sokoto Caliphate",
+      "start": 1840,
+      "end": 1894,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 11412,
+      "name": "Beylik of Tunis",
+      "start": 1846,
+      "end": 1858,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 11956,
+      "name": "Netherlands Antilles",
+      "start": 1877,
+      "end": 2023,
+      "reason": "SOURCE_IDENTITY_DATE_OR_POLITY_SCOPE_REVIEW"
+    },
+    {
+      "index": 12087,
+      "name": "British Colonial Empire",
+      "start": 1890,
+      "end": 1894,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12098,
+      "name": "(British Empire)",
+      "start": 1890,
+      "end": 1894,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12140,
+      "name": "Sokoto Caliphate",
+      "start": 1895,
+      "end": 1899,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12180,
+      "name": "Sokoto Caliphate",
+      "start": 1900,
+      "end": 1904,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12437,
+      "name": "Kuomintang",
+      "start": 1917,
+      "end": 1917,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12443,
+      "name": "Kuomintang",
+      "start": 1918,
+      "end": 1919,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12514,
+      "name": "Kuomintang",
+      "start": 1920,
+      "end": 1921,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12568,
+      "name": "Kuomintang",
+      "start": 1922,
+      "end": 1923,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12709,
+      "name": "Italian Africa",
+      "start": 1932,
+      "end": 1935,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12713,
+      "name": "(French Third Republic)",
+      "start": 1932,
+      "end": 1935,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12724,
+      "name": "French Africa",
+      "start": 1932,
+      "end": 1935,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12740,
+      "name": "(British Empire)",
+      "start": 1936,
+      "end": 1937,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12741,
+      "name": "(French Third Republic)",
+      "start": 1936,
+      "end": 1937,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12758,
+      "name": "French Africa",
+      "start": 1936,
+      "end": 1939,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12769,
+      "name": "Kingdom of Great Britain",
+      "start": 1936,
+      "end": 1939,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12782,
+      "name": "Italian Africa",
+      "start": 1936,
+      "end": 1939,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12799,
+      "name": "(British Empire)",
+      "start": 1938,
+      "end": 1938,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12804,
+      "name": "(French Third Republic)",
+      "start": 1938,
+      "end": 1938,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12816,
+      "name": "(British Empire)",
+      "start": 1939,
+      "end": 1939,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12820,
+      "name": "(French Third Republic)",
+      "start": 1939,
+      "end": 1939,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12834,
+      "name": "French Africa",
+      "start": 1940,
+      "end": 1940,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12841,
+      "name": "(Vichy France)",
+      "start": 1940,
+      "end": 1940,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12845,
+      "name": "Italian Africa",
+      "start": 1940,
+      "end": 1940,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12861,
+      "name": "(Vichy France)",
+      "start": 1941,
+      "end": 1941,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12867,
+      "name": "French Africa",
+      "start": 1941,
+      "end": 1941,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12870,
+      "name": "Nazi Germany",
+      "start": 1941,
+      "end": 1941,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12890,
+      "name": "French Africa",
+      "start": 1942,
+      "end": 1942,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12898,
+      "name": "(Vichy France)",
+      "start": 1942,
+      "end": 1942,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12902,
+      "name": "Nazi Germany",
+      "start": 1943,
+      "end": 1943,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12909,
+      "name": "(British Empire)",
+      "start": 1943,
+      "end": 1943,
+      "reason": "WORLD_HOLE_CONTACT_NETWORK_REVIEW"
+    },
+    {
+      "index": 12918,
+      "name": "British Africa",
+      "start": 1943,
+      "end": 1943,
+      "reason": "WORLD_HOLE_CONTACT_NETWORK_REVIEW"
+    },
+    {
+      "index": 12932,
+      "name": "French Africa",
+      "start": 1944,
+      "end": 1944,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12934,
+      "name": "British Africa",
+      "start": 1944,
+      "end": 1944,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12941,
+      "name": "(Vichy France)",
+      "start": 1944,
+      "end": 1944,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12943,
+      "name": "(British Empire)",
+      "start": 1944,
+      "end": 1944,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12965,
+      "name": "(British Empire)",
+      "start": 1945,
+      "end": 1945,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12969,
+      "name": "French Africa",
+      "start": 1945,
+      "end": 1945,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12970,
+      "name": "(French Fourth Republic)",
+      "start": 1945,
+      "end": 1945,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12976,
+      "name": "British Africa",
+      "start": 1945,
+      "end": 1945,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12981,
+      "name": "French Africa",
+      "start": 1946,
+      "end": 1952,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12986,
+      "name": "(French Fourth Republic)",
+      "start": 1946,
+      "end": 1946,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12988,
+      "name": "British Colonial Empire",
+      "start": 1946,
+      "end": 1946,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12990,
+      "name": "British Africa",
+      "start": 1946,
+      "end": 1952,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 12998,
+      "name": "(British Empire)",
+      "start": 1946,
+      "end": 1946,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 13023,
+      "name": "(British Empire)",
+      "start": 1947,
+      "end": 1947,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 13031,
+      "name": "(French Fourth Republic)",
+      "start": 1947,
+      "end": 1947,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 13042,
+      "name": "Kingdom of Great Britain",
+      "start": 1947,
+      "end": 1947,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 13070,
+      "name": "(British Empire)",
+      "start": 1948,
+      "end": 1952,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 13074,
+      "name": "State of Israel",
+      "start": 1948,
+      "end": 1948,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 13080,
+      "name": "(French Fourth Republic)",
+      "start": 1948,
+      "end": 1948,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 13090,
+      "name": "State of Israel",
+      "start": 1949,
+      "end": 1952,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 13098,
+      "name": "(French Fourth Republic)",
+      "start": 1949,
+      "end": 1949,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 13114,
+      "name": "(French Fourth Republic)",
+      "start": 1950,
+      "end": 1952,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 13135,
+      "name": "French Africa",
+      "start": 1953,
+      "end": 1955,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 13137,
+      "name": "(French Fourth Republic)",
+      "start": 1953,
+      "end": 1955,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 13157,
+      "name": "Republic of Tunisia",
+      "start": 1956,
+      "end": 1957,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 13199,
+      "name": "Republic of Tunisia",
+      "start": 1958,
+      "end": 1962,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 13215,
+      "name": "Federal Republic of Somalia",
+      "start": 1960,
+      "end": 2023,
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW"
+    },
+    {
+      "index": 13234,
+      "name": "Mali Federation",
+      "start": 1961,
+      "end": 2023,
+      "reason": "SOURCE_IDENTITY_DATE_OR_POLITY_SCOPE_REVIEW"
+    },
+    {
+      "index": 13239,
+      "name": "Republic of Chad",
+      "start": 1961,
+      "end": 2023,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 13254,
+      "name": "Republic of Tunisia",
+      "start": 1963,
+      "end": 1972,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 13305,
+      "name": "Kingdom of Great Britain",
+      "start": 1969,
+      "end": 2023,
+      "reason": "SOURCE_IDENTITY_DATE_OR_POLITY_SCOPE_REVIEW"
+    },
+    {
+      "index": 13315,
+      "name": "Eswatini",
+      "start": 1969,
+      "end": 1972,
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW"
+    },
+    {
+      "index": 13324,
+      "name": "Eswatini",
+      "start": 1973,
+      "end": 1975,
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW"
+    },
+    {
+      "index": 13327,
+      "name": "Kingdom of Bahrain",
+      "start": 1973,
+      "end": 2023,
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW"
+    },
+    {
+      "index": 13369,
+      "name": "People's Republic of Angola",
+      "start": 1976,
+      "end": 2023,
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW"
+    },
+    {
+      "index": 13370,
+      "name": "Libyan Arab Republic",
+      "start": 1976,
+      "end": 2005,
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW"
+    },
+    {
+      "index": 13374,
+      "name": "Republic of Tunisia",
+      "start": 1976,
+      "end": 2023,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 13400,
+      "name": "Eswatini",
+      "start": 1976,
+      "end": 2023,
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW"
+    },
+    {
+      "index": 13406,
+      "name": "Estado Novo",
+      "start": 1979,
+      "end": 2023,
+      "reason": "SOURCE_IDENTITY_DATE_OR_POLITY_SCOPE_REVIEW"
+    },
+    {
+      "index": 13496,
+      "name": "Serbia-Montenegro",
+      "start": 1992,
+      "end": 1995,
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW"
+    },
+    {
+      "index": 13539,
+      "name": "Serbia-Montenegro",
+      "start": 1996,
+      "end": 1999,
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW"
+    },
+    {
+      "index": 13558,
+      "name": "(Commonwealth of Nations)",
+      "start": 2000,
+      "end": 2023,
+      "reason": "SOURCE_IDENTITY_DATE_OR_POLITY_SCOPE_REVIEW"
+    },
+    {
+      "index": 13565,
+      "name": "Serbia-Montenegro",
+      "start": 2000,
+      "end": 2005,
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW"
+    },
+    {
+      "index": 13580,
+      "name": "Libyan Arab Republic",
+      "start": 2006,
+      "end": 2013,
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW"
+    },
+    {
+      "index": 13601,
+      "name": "Mujahideen",
+      "start": 2014,
+      "end": 2023,
+      "reason": "SOURCE_IDENTITY_DATE_OR_POLITY_SCOPE_REVIEW"
+    },
+    {
+      "index": 13605,
+      "name": "Republic of Tunisia",
+      "start": 2024,
+      "end": 2024,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 13613,
+      "name": "Republic of Chad",
+      "start": 2024,
+      "end": 2024,
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 13622,
+      "name": "Mujahideen",
+      "start": 2024,
+      "end": 2024,
+      "reason": "SOURCE_IDENTITY_DATE_OR_POLITY_SCOPE_REVIEW"
+    },
+    {
+      "index": 13642,
+      "name": "Netherlands Antilles",
+      "start": 2024,
+      "end": 2024,
+      "reason": "SOURCE_IDENTITY_DATE_OR_POLITY_SCOPE_REVIEW"
+    },
+    {
+      "index": 13659,
+      "name": "People's Republic of Angola",
+      "start": 2024,
+      "end": 2024,
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW"
+    },
+    {
+      "index": 13684,
+      "name": "Kingdom of Great Britain",
+      "start": 2024,
+      "end": 2024,
+      "reason": "SOURCE_IDENTITY_DATE_OR_POLITY_SCOPE_REVIEW"
+    },
+    {
+      "index": 13708,
+      "name": "(Commonwealth of Nations)",
+      "start": 2024,
+      "end": 2024,
+      "reason": "SOURCE_IDENTITY_DATE_OR_POLITY_SCOPE_REVIEW"
+    },
+    {
+      "index": 13753,
+      "name": "Estado Novo",
+      "start": 2024,
+      "end": 2024,
+      "reason": "SOURCE_IDENTITY_DATE_OR_POLITY_SCOPE_REVIEW"
+    },
+    {
+      "index": 13773,
+      "name": "Mali Federation",
+      "start": 2024,
+      "end": 2024,
+      "reason": "SOURCE_IDENTITY_DATE_OR_POLITY_SCOPE_REVIEW"
+    }
+  ],
+  "invalidMetadata": [
+    {
+      "index": 1034,
+      "name": "Yuezhi",
+      "from": -50,
+      "to": 0,
+      "reason": "SOURCE_METADATA_INVALID_OR_YEAR_ZERO"
+    },
+    {
+      "index": 1075,
+      "name": "Parthian Empire",
+      "from": -36,
+      "to": 0,
+      "reason": "SOURCE_METADATA_INVALID_OR_YEAR_ZERO"
+    },
+    {
+      "index": 1077,
+      "name": "Indo-Greeks",
+      "from": -31,
+      "to": 0,
+      "reason": "SOURCE_METADATA_INVALID_OR_YEAR_ZERO"
+    },
+    {
+      "index": 1090,
+      "name": "Indo-Scythians",
+      "from": -27,
+      "to": 0,
+      "reason": "SOURCE_METADATA_INVALID_OR_YEAR_ZERO"
+    },
+    {
+      "index": 1102,
+      "name": "Judea",
+      "from": -19,
+      "to": 0,
+      "reason": "SOURCE_METADATA_INVALID_OR_YEAR_ZERO"
+    },
+    {
+      "index": 1106,
+      "name": "Roman Empire",
+      "from": -14,
+      "to": 0,
+      "reason": "SOURCE_METADATA_INVALID_OR_YEAR_ZERO"
+    }
+  ],
+  "tangentHoleRows": [
+    {
+      "index": 494,
+      "name": "(Macedonian Empire)",
+      "start": -323,
+      "end": -319,
+      "pairs": 1,
+      "geometrySha256": "ad6eed06a6b0924e368bf2a83e90cb7e9cc9985237290d1502be7ea6718b264b"
+    },
+    {
+      "index": 496,
+      "name": "Macedonian Empire",
+      "start": -323,
+      "end": -319,
+      "pairs": 1,
+      "geometrySha256": "efd767fbd57cb7eefe61980a1911805731d93fc312f8a9c4bca4a7702780a570"
+    },
+    {
+      "index": 499,
+      "name": "(Macedonian Empire)",
+      "start": -318,
+      "end": -316,
+      "pairs": 1,
+      "geometrySha256": "72b2afe750f208d0e2da8bfddb363b79a07d204cd48f95c77d5b52848746e17c"
+    },
+    {
+      "index": 502,
+      "name": "Macedonian Empire",
+      "start": -318,
+      "end": -316,
+      "pairs": 1,
+      "geometrySha256": "72b2afe750f208d0e2da8bfddb363b79a07d204cd48f95c77d5b52848746e17c"
+    },
+    {
+      "index": 509,
+      "name": "(Macedonian Empire)",
+      "start": -315,
+      "end": -308,
+      "pairs": 1,
+      "geometrySha256": "5bdeb95760237b09c47299d263f6edc3be4e4f75163f788a13e9098c98508a08"
+    },
+    {
+      "index": 510,
+      "name": "Macedonian Empire",
+      "start": -315,
+      "end": -308,
+      "pairs": 1,
+      "geometrySha256": "5bdeb95760237b09c47299d263f6edc3be4e4f75163f788a13e9098c98508a08"
+    },
+    {
+      "index": 1914,
+      "name": "Eastern Roman Empire",
+      "start": 490,
+      "end": 509,
+      "pairs": 2,
+      "geometrySha256": "7e6e779d24c16aab802d7a1fb503419460217c536b688e4b3d2753ed6ebb43fa"
+    },
+    {
+      "index": 1942,
+      "name": "Eastern Roman Empire",
+      "start": 510,
+      "end": 522,
+      "pairs": 2,
+      "geometrySha256": "eca3086afde8a49fc9e7c45b1f47656f24e742428d23a6a94a260ec61cadf133"
+    },
+    {
+      "index": 2017,
+      "name": "(Brythonic Kingdoms)",
+      "start": 540,
+      "end": 554,
+      "pairs": 1,
+      "geometrySha256": "bba22a2531afe5e7de1b30816050ca17db7b85a949e10efc30a5c3eb4a9826ad"
+    },
+    {
+      "index": 2069,
+      "name": "(Brythonic Kingdoms)",
+      "start": 555,
+      "end": 568,
+      "pairs": 1,
+      "geometrySha256": "1343b7f0f8268957aeaabd44b18b167c6d91144bbe1ca5b067ee23dda53d1ea2"
+    },
+    {
+      "index": 2141,
+      "name": "(Brythonic Kingdoms)",
+      "start": 569,
+      "end": 576,
+      "pairs": 1,
+      "geometrySha256": "f701252762cc52e4ef0cc00b33a8e40ba7c61b107ee0588a076b0c9238be7395"
+    },
+    {
+      "index": 2653,
+      "name": "Byzantine Empire",
+      "start": 705,
+      "end": 717,
+      "pairs": 2,
+      "geometrySha256": "a68d02e2e86ffdbc1496ef5a99ffd9b08e16f5cb6318f6224ad64c4a1401c041"
+    },
+    {
+      "index": 2685,
+      "name": "Byzantine Empire",
+      "start": 718,
+      "end": 723,
+      "pairs": 2,
+      "geometrySha256": "14345c91f28fa28121e7634fe63cb0f5e1266cf45e4efd58ad1940bc8203c355"
+    },
+    {
+      "index": 2918,
+      "name": "Byzantine Empire",
+      "start": 778,
+      "end": 782,
+      "pairs": 2,
+      "geometrySha256": "4c39b29b243da13239bc31c0e77a6bb249221a5bd3fe8eed1b7368aa5cf5e790"
+    },
+    {
+      "index": 3202,
+      "name": "Byzantine Empire",
+      "start": 860,
+      "end": 865,
+      "pairs": 2,
+      "geometrySha256": "5168bb7cdf1f434f3a9e021e18870f43538785fe310dff7fcbfbf16b316a19b0"
+    },
+    {
+      "index": 3208,
+      "name": "(Brythonic Kingdoms)",
+      "start": 860,
+      "end": 865,
+      "pairs": 1,
+      "geometrySha256": "3f0c43f8fa6684f6141b493e2a1ad0f1f98c7cf65b27d40dee72b1db0a6e595e"
+    },
+    {
+      "index": 3241,
+      "name": "Byzantine Empire",
+      "start": 866,
+      "end": 869,
+      "pairs": 2,
+      "geometrySha256": "90f56ab967963e720a463af2ee0caaa0a61ed074d40b2ed22cc4c4a42d2382ff"
+    },
+    {
+      "index": 3254,
+      "name": "(Brythonic Kingdoms)",
+      "start": 866,
+      "end": 869,
+      "pairs": 1,
+      "geometrySha256": "c48beaf824af93a6e31fccc7963ec7566dcdbf1e8af12e2a07113d62a238cdf3"
+    },
+    {
+      "index": 3256,
+      "name": "Byzantine Empire",
+      "start": 870,
+      "end": 874,
+      "pairs": 2,
+      "geometrySha256": "306cd04592cf97e748866841a571052621fa759cea04e4452b62f5aa0fd87183"
+    },
+    {
+      "index": 4192,
+      "name": "(Taifas of Iberia)",
+      "start": 1015,
+      "end": 1017,
+      "pairs": 1,
+      "geometrySha256": "1012039e3ef04bf4231a8019a397550c7ac5ac8cc6fc55e10c1a42239a55caf6"
+    },
+    {
+      "index": 4232,
+      "name": "(Taifas of Iberia)",
+      "start": 1018,
+      "end": 1027,
+      "pairs": 1,
+      "geometrySha256": "0c639ffee39f323a3f313904f9e61b05b1eaa0d89380a116a3d60394053b1819"
+    },
+    {
+      "index": 4248,
+      "name": "(Taifas of Iberia)",
+      "start": 1028,
+      "end": 1033,
+      "pairs": 1,
+      "geometrySha256": "1bc99d18865ea25b32ffbce74c3ffb7e7c2d5c0151ebf9a30434e9c0b6057b06"
+    },
+    {
+      "index": 4341,
+      "name": "(Brythonic Kingdoms)",
+      "start": 1040,
+      "end": 1045,
+      "pairs": 1,
+      "geometrySha256": "f18672d1842392ad3dff43e1fab32a93fe47df68cd4f91234ffe4c1ecb76afb9"
+    },
+    {
+      "index": 4390,
+      "name": "(Brythonic Kingdoms)",
+      "start": 1046,
+      "end": 1055,
+      "pairs": 1,
+      "geometrySha256": "d35fcffbba23952127467069ca05fc5887d024d2758ac95680c8a8d51cb2f8a2"
+    },
+    {
+      "index": 5767,
+      "name": "(Holy Roman Empire)",
+      "start": 1260,
+      "end": 1271,
+      "pairs": 1,
+      "geometrySha256": "3683543a1346f4adc03fbcf6cd9ef5794b69cfe83ede6b6e56c22d3f765f828d"
+    },
+    {
+      "index": 8158,
+      "name": "Warring States Japan",
+      "start": 1552,
+      "end": 1555,
+      "pairs": 1,
+      "geometrySha256": "a81e779628318d7006e91acb103ee5d2f631188b6e2ee2a9f673bc43c51587ac"
+    },
+    {
+      "index": 9952,
+      "name": "Ottoman Empire",
+      "start": 1757,
+      "end": 1761,
+      "pairs": 2,
+      "geometrySha256": "0ae97d4cbff2f0bf5de4d162357195079d45236a37a91951b4d5a597b3315285"
+    },
+    {
+      "index": 10398,
+      "name": "Ottoman Empire",
+      "start": 1796,
+      "end": 1796,
+      "pairs": 2,
+      "geometrySha256": "d073e3f60c3bdc8618196cdc61ba5c56fb1dabd22364c45d7f5fe47a15d9e69c"
+    },
+    {
+      "index": 10454,
+      "name": "Ottoman Empire",
+      "start": 1797,
+      "end": 1798,
+      "pairs": 2,
+      "geometrySha256": "84a61e2e1b0e539707f76f023c715d4bd94b89574a081085a643623f54a5552b"
+    },
+    {
+      "index": 10502,
+      "name": "Ottoman Empire",
+      "start": 1799,
+      "end": 1799,
+      "pairs": 2,
+      "geometrySha256": "035bb639c9e928e34bf565bccf1f3f0089772aeca12c8f241475bafff7d893ce"
+    },
+    {
+      "index": 10562,
+      "name": "Ottoman Empire",
+      "start": 1800,
+      "end": 1802,
+      "pairs": 2,
+      "geometrySha256": "14e4765d0aa19fe5ff239161f5c4e073d83d0025e93684b32d35599bf1aa6284"
+    },
+    {
+      "index": 10578,
+      "name": "Ottoman Empire",
+      "start": 1803,
+      "end": 1804,
+      "pairs": 2,
+      "geometrySha256": "125570c9a7f5f130cb645629375d89b139bbff33a38928d0268d37d150ce9e74"
+    },
+    {
+      "index": 10629,
+      "name": "Ottoman Empire",
+      "start": 1805,
+      "end": 1805,
+      "pairs": 2,
+      "geometrySha256": "7f50526ff84a5c743005f68aac7b492d79bf2781ac68a13aa16c2886494a0a76"
+    },
+    {
+      "index": 10641,
+      "name": "Russian Empire",
+      "start": 1805,
+      "end": 1805,
+      "pairs": 1,
+      "geometrySha256": "c28c77c377977b8f1697b536d804556c41cdf3501054c2d79bc45817e52535cf"
+    },
+    {
+      "index": 10695,
+      "name": "Russian Empire",
+      "start": 1806,
+      "end": 1806,
+      "pairs": 1,
+      "geometrySha256": "5408fc72a7ffd4275b00bcc3856ccc9be77dbba19d7820839842b19f95462c6f"
+    },
+    {
+      "index": 10705,
+      "name": "Ottoman Empire",
+      "start": 1806,
+      "end": 1806,
+      "pairs": 2,
+      "geometrySha256": "22159de3dbf3c49b84b0fe45b8e9bd3a396410de31675d588e4c3c2998d98334"
+    },
+    {
+      "index": 10729,
+      "name": "Ottoman Empire",
+      "start": 1807,
+      "end": 1808,
+      "pairs": 2,
+      "geometrySha256": "4e7aceacd4e3703c3ee8d502efad0f19ad3079695e50e3645355ba553d701cad"
+    },
+    {
+      "index": 10741,
+      "name": "Russian Empire",
+      "start": 1807,
+      "end": 1808,
+      "pairs": 1,
+      "geometrySha256": "6845f7b2582ae807a487ce17be8fc798156a8f395bbc1eea5ed453efd6247bc0"
+    },
+    {
+      "index": 10759,
+      "name": "Russian Empire",
+      "start": 1809,
+      "end": 1810,
+      "pairs": 1,
+      "geometrySha256": "9c853fef5a3af0392fe0587568cc42282caec0299eed319ec8cd6c145a11a894"
+    },
+    {
+      "index": 10760,
+      "name": "Ottoman Empire",
+      "start": 1809,
+      "end": 1810,
+      "pairs": 2,
+      "geometrySha256": "bf0fe3180345e053746bfb28d42e4fe2e5cc79c2f2ce5b102585415e6c115b9a"
+    },
+    {
+      "index": 10800,
+      "name": "Ottoman Empire",
+      "start": 1811,
+      "end": 1811,
+      "pairs": 2,
+      "geometrySha256": "5726bc462e7c59d9ca38f9a6bd59255d4790ad0a0f4508b7106c541810048618"
+    },
+    {
+      "index": 10822,
+      "name": "Russian Empire",
+      "start": 1811,
+      "end": 1811,
+      "pairs": 1,
+      "geometrySha256": "9ebf8912722dbae8f9c0518183585f6da298ac97c4b606752d32465c825ec7b6"
+    },
+    {
+      "index": 10872,
+      "name": "Russian Empire",
+      "start": 1812,
+      "end": 1813,
+      "pairs": 1,
+      "geometrySha256": "144a81fd67d99e91a214db72a2db6cbc097f1f749f75f45e7c275404dc233795"
+    },
+    {
+      "index": 10878,
+      "name": "Ottoman Empire",
+      "start": 1812,
+      "end": 1813,
+      "pairs": 2,
+      "geometrySha256": "7d1367c61c0807a777fe7e5602615ba8c8182a26e81b995a85340ed2cbc2aec0"
+    },
+    {
+      "index": 10908,
+      "name": "Confederation of the Rhine",
+      "start": 1814,
+      "end": 1814,
+      "pairs": 1,
+      "geometrySha256": "747ba2b283839677fed1f652fc1a32b9f48ecfa0b8487845b13a94690117cd8d"
+    },
+    {
+      "index": 10921,
+      "name": "Russian Empire",
+      "start": 1814,
+      "end": 1814,
+      "pairs": 1,
+      "geometrySha256": "0ac04c125269f9dbba790d882b7e57e92efb43bb049ef9cf7d0e6fbfbeaab983"
+    },
+    {
+      "index": 10946,
+      "name": "Ottoman Empire",
+      "start": 1814,
+      "end": 1814,
+      "pairs": 2,
+      "geometrySha256": "11c9f067cef467ae6a35719728abf91537e9f13501d66510033b7bd54e47f46d"
+    },
+    {
+      "index": 10988,
+      "name": "Ottoman Empire",
+      "start": 1815,
+      "end": 1819,
+      "pairs": 2,
+      "geometrySha256": "ea4e52e893b7d76effab458b793841742995fcd039d20927c767ac7c9d50e0b5"
+    },
+    {
+      "index": 10997,
+      "name": "Russian Empire",
+      "start": 1815,
+      "end": 1823,
+      "pairs": 1,
+      "geometrySha256": "50d8712ec9c2ea5c218bb2cb087ea9e58aa0fda4dad4191481d7dd7b4745b1c8"
+    },
+    {
+      "index": 11002,
+      "name": "German Confederation",
+      "start": 1815,
+      "end": 1819,
+      "pairs": 1,
+      "geometrySha256": "45f6d898ac61e2ad4f0d0870a0614bde82e5f3756a1ec3e66101df9afcc54c02"
+    },
+    {
+      "index": 11055,
+      "name": "Ottoman Empire",
+      "start": 1820,
+      "end": 1821,
+      "pairs": 2,
+      "geometrySha256": "1cad503c8fe37498e1b26c2dc60335c7c66ac8dbdb80c828ca8b672f98d3d7ad"
+    },
+    {
+      "index": 11099,
+      "name": "First Hellenic Republic",
+      "start": 1822,
+      "end": 1823,
+      "pairs": 2,
+      "geometrySha256": "4c61271e116c0fc30584b2c36618feaa2cf9bde94eff62176d193e3e3b85d7ec"
+    },
+    {
+      "index": 11131,
+      "name": "Russian Empire",
+      "start": 1824,
+      "end": 1827,
+      "pairs": 1,
+      "geometrySha256": "f3a9083a95fe3457d8939a70f714983e4c0ef7cbd42b06f15a4bcfb6fe385d83"
+    },
+    {
+      "index": 11166,
+      "name": "First Hellenic Republic",
+      "start": 1828,
+      "end": 1829,
+      "pairs": 2,
+      "geometrySha256": "bb0c74f84520dc3293270394ba3b017fba883ccf303ec3d95183f46986e702e6"
+    },
+    {
+      "index": 11215,
+      "name": "First Hellenic Republic",
+      "start": 1830,
+      "end": 1833,
+      "pairs": 2,
+      "geometrySha256": "b2b81e9535c533d5a5c84820e56dc92fd520172e43f710dedfc0c612d24c45e7"
+    },
+    {
+      "index": 11275,
+      "name": "First Hellenic Republic",
+      "start": 1834,
+      "end": 1858,
+      "pairs": 2,
+      "geometrySha256": "2a2fc078814be544d7e57b79812e351748a6273b6885f347f1e84e5ea2c039ad"
+    },
+    {
+      "index": 11783,
+      "name": "German Confederation",
+      "start": 1866,
+      "end": 1867,
+      "pairs": 1,
+      "geometrySha256": "fcd66b102e8c2e36c24145ce043f8ec7ee8cbcb7737d49b125ccf7493f2f5343"
+    },
+    {
+      "index": 11832,
+      "name": "North German Confederation",
+      "start": 1868,
+      "end": 1869,
+      "pairs": 1,
+      "geometrySha256": "255be36bc6741597e38bd88ad5b99765a3f67bfea52d843110586be6199e5c39"
+    },
+    {
+      "index": 11885,
+      "name": "North German Confederation",
+      "start": 1870,
+      "end": 1870,
+      "pairs": 1,
+      "geometrySha256": "47dd5afd37fae5aae6e4663ed0519a66e2aac9fdbb148cf3b55ccb9593dbe668"
+    },
+    {
+      "index": 12711,
+      "name": "First Hellenic Republic",
+      "start": 1932,
+      "end": 1935,
+      "pairs": 2,
+      "geometrySha256": "859888fc05186f98761719f94a19cec60ef1600f57b6d47745144cb4e6c399bb"
+    },
+    {
+      "index": 12775,
+      "name": "First Hellenic Republic",
+      "start": 1936,
+      "end": 1939,
+      "pairs": 2,
+      "geometrySha256": "79e3757b20333440dd061bcfe73b5bcf7bc86e8b3981ac1136a5255a90238cff"
+    },
+    {
+      "index": 12839,
+      "name": "Union of Soviet Socialist Republics",
+      "start": 1940,
+      "end": 1940,
+      "pairs": 2,
+      "geometrySha256": "53857ef7889fc5dda7b416604ac2a5019c7457d369c38c3e5198a51a21d4dccf"
+    },
+    {
+      "index": 12842,
+      "name": "First Hellenic Republic",
+      "start": 1940,
+      "end": 1940,
+      "pairs": 2,
+      "geometrySha256": "b1198061c280097bbe2f5b506f827a56e05b4253c27366ca47d1e50ec1299e36"
+    },
+    {
+      "index": 12852,
+      "name": "Nazi Germany",
+      "start": 1940,
+      "end": 1940,
+      "pairs": 1,
+      "geometrySha256": "03272e3dabfd12e9a81d8b74bb132e46b629693c3a856aea5c14085053468e90"
+    },
+    {
+      "index": 12859,
+      "name": "Union of Soviet Socialist Republics",
+      "start": 1941,
+      "end": 1941,
+      "pairs": 2,
+      "geometrySha256": "5bbbc7d512d50c500797bbd267b41b127ddb6774755e9b5027cff317eb44d58e"
+    },
+    {
+      "index": 12882,
+      "name": "Nazi Germany",
+      "start": 1942,
+      "end": 1942,
+      "pairs": 1,
+      "geometrySha256": "d1b3fd1e8687bdcf6e5ba4f02d2ca8b8d16c1e2e93704d8940d638d00617d57a"
+    },
+    {
+      "index": 12883,
+      "name": "Kingdom of Italy",
+      "start": 1942,
+      "end": 1942,
+      "pairs": 2,
+      "geometrySha256": "6f4635e3bbbd1499cf00e12baa9423b18c866a974d88686bed84054cbda10a8f"
+    },
+    {
+      "index": 12901,
+      "name": "Kingdom of Italy",
+      "start": 1943,
+      "end": 1943,
+      "pairs": 2,
+      "geometrySha256": "7018bf63ea95d786686ec176fd3a61fa8243d88192a9b3378ba1cbc2a63593d8"
+    },
+    {
+      "index": 12928,
+      "name": "Nazi Germany",
+      "start": 1944,
+      "end": 1944,
+      "pairs": 3,
+      "geometrySha256": "cb9e6e10d825b611ecfc8590f78e7df10e70666af129bba4b37cca8619bdda34"
+    },
+    {
+      "index": 12961,
+      "name": "Kingdom of Greece",
+      "start": 1945,
+      "end": 1945,
+      "pairs": 2,
+      "geometrySha256": "31b987acef07b74eae583d306fb4d5eaea9a53a122d3654c5c2890e79d2d5378"
+    },
+    {
+      "index": 12966,
+      "name": "Union of Soviet Socialist Republics",
+      "start": 1945,
+      "end": 1945,
+      "pairs": 1,
+      "geometrySha256": "2580a447715e3cb243018bd404eea3ada1716c2145525047f6c8bde2a36a8341"
+    },
+    {
+      "index": 12997,
+      "name": "Kingdom of Greece",
+      "start": 1946,
+      "end": 1946,
+      "pairs": 2,
+      "geometrySha256": "5933f83caf88555464cf746ac807798af18016065993c547111a8c77ca9050e2"
+    },
+    {
+      "index": 13004,
+      "name": "Union of Soviet Socialist Republics",
+      "start": 1946,
+      "end": 1946,
+      "pairs": 1,
+      "geometrySha256": "1a91c32e2f280b8c3d9767602211aec138c37a9e50ce2a262403011cd4910b67"
+    },
+    {
+      "index": 13021,
+      "name": "Kingdom of Greece",
+      "start": 1947,
+      "end": 1947,
+      "pairs": 2,
+      "geometrySha256": "997b5a8a83ae3a5b1a838c2e8b38e091c822de5db28afeea9afa8e01b18b1c5f"
+    },
+    {
+      "index": 13029,
+      "name": "Union of Soviet Socialist Republics",
+      "start": 1947,
+      "end": 1947,
+      "pairs": 1,
+      "geometrySha256": "375824d9d239775bc9f07b4f2db014fa3fc081754e6f26e068e87c20825b9bbf"
+    },
+    {
+      "index": 13063,
+      "name": "Kingdom of Greece",
+      "start": 1948,
+      "end": 1948,
+      "pairs": 2,
+      "geometrySha256": "acaa1a11f710834aefef93c240766487f799391783c5e8bbaef31e879179cc0c"
+    },
+    {
+      "index": 13066,
+      "name": "Union of Soviet Socialist Republics",
+      "start": 1948,
+      "end": 1948,
+      "pairs": 1,
+      "geometrySha256": "a2f8f1d4afc3683a4862237144e8c340ced4032c6b1236de1a3246ddacab1d13"
+    },
+    {
+      "index": 13099,
+      "name": "Kingdom of Greece",
+      "start": 1949,
+      "end": 1962,
+      "pairs": 2,
+      "geometrySha256": "31b987acef07b74eae583d306fb4d5eaea9a53a122d3654c5c2890e79d2d5378"
+    },
+    {
+      "index": 13104,
+      "name": "Union of Soviet Socialist Republics",
+      "start": 1949,
+      "end": 1949,
+      "pairs": 1,
+      "geometrySha256": "5a39ba8f6d3be229529f725a82b57448902182f01f2d85afb34d121e5ab39887"
+    },
+    {
+      "index": 13124,
+      "name": "Union of Soviet Socialist Republics",
+      "start": 1950,
+      "end": 1952,
+      "pairs": 1,
+      "geometrySha256": "e4e596b97fb7fbc1bea63135996569a5b9370335d928a817d63b710392b38362"
+    },
+    {
+      "index": 13130,
+      "name": "Union of Soviet Socialist Republics",
+      "start": 1953,
+      "end": 1968,
+      "pairs": 1,
+      "geometrySha256": "cc7063c07d84c35161e92ef1a4bb053969bb7f3e25e6d0fe2bf3037132a9f4b1"
+    },
+    {
+      "index": 13270,
+      "name": "Kingdom of Greece",
+      "start": 1963,
+      "end": 1966,
+      "pairs": 2,
+      "geometrySha256": "31b987acef07b74eae583d306fb4d5eaea9a53a122d3654c5c2890e79d2d5378"
+    },
+    {
+      "index": 13291,
+      "name": "Greek junta",
+      "start": 1967,
+      "end": 1972,
+      "pairs": 2,
+      "geometrySha256": "31b987acef07b74eae583d306fb4d5eaea9a53a122d3654c5c2890e79d2d5378"
+    },
+    {
+      "index": 13312,
+      "name": "Union of Soviet Socialist Republics",
+      "start": 1969,
+      "end": 1972,
+      "pairs": 1,
+      "geometrySha256": "fcf49d576fed4a013f2654d664160513170741e5a90e8c7bb98c2583479844ed"
+    },
+    {
+      "index": 13366,
+      "name": "Third Hellenic Republic",
+      "start": 1976,
+      "end": 1991,
+      "pairs": 2,
+      "geometrySha256": "31b987acef07b74eae583d306fb4d5eaea9a53a122d3654c5c2890e79d2d5378"
+    },
+    {
+      "index": 13383,
+      "name": "Union of Soviet Socialist Republics",
+      "start": 1976,
+      "end": 1978,
+      "pairs": 1,
+      "geometrySha256": "0c94821759a7a5098d01341f2a3305062ae4116c2be09dc1a7a33c30b980595d"
+    },
+    {
+      "index": 13401,
+      "name": "Union of Soviet Socialist Republics",
+      "start": 1979,
+      "end": 1982,
+      "pairs": 1,
+      "geometrySha256": "65ce7bc6b47e4c1ffc88bca67f8fe97222b9a78406dd74432b99c1b3063e2025"
+    },
+    {
+      "index": 13419,
+      "name": "Union of Soviet Socialist Republics",
+      "start": 1983,
+      "end": 1986,
+      "pairs": 1,
+      "geometrySha256": "c2691cbe316836d34440a3085fc390600e3e3c02fab4af80d582b3201d2160c5"
+    },
+    {
+      "index": 13444,
+      "name": "Union of Soviet Socialist Republics",
+      "start": 1987,
+      "end": 1989,
+      "pairs": 1,
+      "geometrySha256": "24b1a390a7fb5e14f0016e805a2c29a8c9f6c9029dd21ed3745e042db3043ae2"
+    },
+    {
+      "index": 13502,
+      "name": "Third Hellenic Republic",
+      "start": 1992,
+      "end": 2023,
+      "pairs": 2,
+      "geometrySha256": "72e9bf539749c5e60edc23a5e3a93bf750385d627943b6a1b28254a6dc862577"
+    },
+    {
+      "index": 13698,
+      "name": "Third Hellenic Republic",
+      "start": 2024,
+      "end": 2024,
+      "pairs": 2,
+      "geometrySha256": "72e9bf539749c5e60edc23a5e3a93bf750385d627943b6a1b28254a6dc862577"
+    }
+  ],
+  "removedDuplicatePositions": 923,
+  "uniqueGeometries": 10647,
+  "packBytes": 120664555,
+  "years": {
+    "1": {
+      "source": 45,
+      "renderable": 45,
+      "withheld": 0
+    },
+    "500": {
+      "source": 58,
+      "renderable": 57,
+      "withheld": 1
+    },
+    "1000": {
+      "source": 132,
+      "renderable": 129,
+      "withheld": 3
+    },
+    "1453": {
+      "source": 135,
+      "renderable": 130,
+      "withheld": 5
+    },
+    "1800": {
+      "source": 130,
+      "renderable": 129,
+      "withheld": 1
+    },
+    "1900": {
+      "source": 88,
+      "renderable": 86,
+      "withheld": 2
+    },
+    "2000": {
+      "source": 192,
+      "renderable": 179,
+      "withheld": 13
+    },
+    "2024": {
+      "source": 195,
+      "renderable": 186,
+      "withheld": 9
+    },
+    "2026": {
+      "source": 0,
+      "renderable": 0,
+      "withheld": 0
+    },
+    "-2000": {
+      "source": 4,
+      "renderable": 4,
+      "withheld": 0
+    },
+    "-500": {
+      "source": 48,
+      "renderable": 46,
+      "withheld": 2
+    }
+  }
+}

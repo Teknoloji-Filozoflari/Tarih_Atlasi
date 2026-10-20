@@ -1,0 +1,811 @@
+{
+  "kind": "user-request-roster",
+  "note": "IDs corrected by official source identity review; no invented dates or locations.",
+  "requests": [
+    {
+      "name": "Hz. Muhammed",
+      "aliases": [
+        "Muhammed",
+        "Muhammad"
+      ],
+      "candidateWikidataId": "Q9458",
+      "status": "unverified"
+    },
+    {
+      "name": "Isaac Newton",
+      "aliases": [
+        "Isacc Newton"
+      ],
+      "candidateWikidataId": "Q935",
+      "status": "unverified"
+    },
+    {
+      "name": "Hz. İsa",
+      "aliases": [
+        "Jesus",
+        "İsa"
+      ],
+      "candidateWikidataId": "Q302",
+      "status": "unverified"
+    },
+    {
+      "name": "Buda",
+      "aliases": [
+        "Buddha",
+        "Siddhartha Gautama"
+      ],
+      "candidateWikidataId": "Q9441",
+      "status": "unverified"
+    },
+    {
+      "name": "Konfüçyüs",
+      "aliases": [
+        "Confucius"
+      ],
+      "candidateWikidataId": "Q4604",
+      "status": "unverified"
+    },
+    {
+      "name": "Aziz Pavlus",
+      "aliases": [
+        "Aziz Paul",
+        "Paul the Apostle"
+      ],
+      "candidateWikidataId": "Q9200",
+      "status": "unverified"
+    },
+    {
+      "name": "Ts’ai Lun",
+      "aliases": [
+        "Ts'ai Lun",
+        "Cai Lun"
+      ],
+      "candidateWikidataId": "Q229235",
+      "status": "unverified"
+    },
+    {
+      "name": "Johann Gutenberg",
+      "aliases": [
+        "Johan Gutenberg",
+        "Johannes Gutenberg"
+      ],
+      "candidateWikidataId": "Q8958",
+      "status": "unverified"
+    },
+    {
+      "name": "Kristof Kolomb",
+      "aliases": [
+        "Christopher Columbus"
+      ],
+      "candidateWikidataId": "Q7322",
+      "status": "unverified"
+    },
+    {
+      "name": "Albert Einstein",
+      "aliases": [],
+      "candidateWikidataId": "Q937",
+      "status": "unverified"
+    },
+    {
+      "name": "Louis Pasteur",
+      "aliases": [],
+      "candidateWikidataId": "Q529",
+      "status": "unverified"
+    },
+    {
+      "name": "Galileo Galilei",
+      "aliases": [
+        "Galile"
+      ],
+      "candidateWikidataId": "Q307",
+      "status": "unverified"
+    },
+    {
+      "name": "Aristoteles",
+      "aliases": [
+        "Aristotle"
+      ],
+      "candidateWikidataId": "Q868",
+      "status": "unverified"
+    },
+    {
+      "name": "Öklid",
+      "aliases": [
+        "Euclid"
+      ],
+      "candidateWikidataId": "Q8747",
+      "status": "unverified"
+    },
+    {
+      "name": "Hz. Musa",
+      "aliases": [
+        "Moses"
+      ],
+      "candidateWikidataId": "Q9077",
+      "status": "unverified"
+    },
+    {
+      "name": "Charles Darwin",
+      "aliases": [],
+      "candidateWikidataId": "Q1035",
+      "status": "unverified"
+    },
+    {
+      "name": "Qin Shi Huang",
+      "aliases": [
+        "Shih Huang Ti"
+      ],
+      "candidateWikidataId": "Q7192",
+      "status": "unverified"
+    },
+    {
+      "name": "Augustus",
+      "aliases": [
+        "Augustus Caesar"
+      ],
+      "candidateWikidataId": "Q1405",
+      "status": "unverified"
+    },
+    {
+      "name": "Nicolaus Copernicus",
+      "aliases": [
+        "Kopernik"
+      ],
+      "candidateWikidataId": "Q619",
+      "status": "unverified"
+    },
+    {
+      "name": "Antoine Lavoisier",
+      "aliases": [
+        "Antoine Laurent Lavoisier"
+      ],
+      "candidateWikidataId": "Q39607",
+      "status": "unverified"
+    },
+    {
+      "name": "Büyük Konstantin",
+      "aliases": [
+        "Constantine the Great"
+      ],
+      "candidateWikidataId": "Q8413",
+      "status": "unverified"
+    },
+    {
+      "name": "James Watt",
+      "aliases": [],
+      "candidateWikidataId": "Q9041",
+      "status": "unverified"
+    },
+    {
+      "name": "Michael Faraday",
+      "aliases": [],
+      "candidateWikidataId": "Q8750",
+      "status": "unverified"
+    },
+    {
+      "name": "James Clerk Maxwell",
+      "aliases": [],
+      "candidateWikidataId": "Q9095",
+      "status": "unverified"
+    },
+    {
+      "name": "Martin Luther",
+      "aliases": [],
+      "candidateWikidataId": "Q9554",
+      "status": "unverified"
+    },
+    {
+      "name": "George Washington",
+      "aliases": [],
+      "candidateWikidataId": "Q23",
+      "status": "unverified"
+    },
+    {
+      "name": "Karl Marx",
+      "aliases": [],
+      "candidateWikidataId": "Q9061",
+      "status": "unverified"
+    },
+    {
+      "name": "Orville Wright",
+      "aliases": [
+        "Wright kardeşler",
+        "Orville Wright & Wilbur Wright"
+      ],
+      "candidateWikidataId": "Q494455",
+      "status": "unverified"
+    },
+    {
+      "name": "Wilbur Wright",
+      "aliases": [
+        "Wright kardeşler",
+        "Orville Wright & Wilbur Wright"
+      ],
+      "candidateWikidataId": "Q1396131",
+      "status": "unverified"
+    },
+    {
+      "name": "Cengiz Han",
+      "aliases": [
+        "Genghis Khan"
+      ],
+      "candidateWikidataId": "Q720",
+      "status": "unverified"
+    },
+    {
+      "name": "Adam Smith",
+      "aliases": [],
+      "candidateWikidataId": "Q9381",
+      "status": "unverified"
+    },
+    {
+      "name": "Edward de Vere",
+      "aliases": [],
+      "candidateWikidataId": "Q374210",
+      "status": "unverified"
+    },
+    {
+      "name": "William Shakespeare",
+      "aliases": [],
+      "candidateWikidataId": "Q692",
+      "status": "unverified"
+    },
+    {
+      "name": "John Dalton",
+      "aliases": [],
+      "candidateWikidataId": "Q41284",
+      "status": "unverified"
+    },
+    {
+      "name": "Büyük İskender",
+      "aliases": [
+        "Alexander the Great"
+      ],
+      "candidateWikidataId": "Q8409",
+      "status": "unverified"
+    },
+    {
+      "name": "Napolyon Bonapart",
+      "aliases": [
+        "Napoleon Bonaparte"
+      ],
+      "candidateWikidataId": "Q517",
+      "status": "unverified"
+    },
+    {
+      "name": "Thomas Edison",
+      "aliases": [],
+      "candidateWikidataId": "Q8743",
+      "status": "unverified"
+    },
+    {
+      "name": "Antonie van Leeuwenhoek",
+      "aliases": [],
+      "candidateWikidataId": "Q43522",
+      "status": "unverified"
+    },
+    {
+      "name": "William T. G. Morton",
+      "aliases": [
+        "William Thomas Green Morton"
+      ],
+      "candidateWikidataId": "Q319689",
+      "status": "unverified"
+    },
+    {
+      "name": "Guglielmo Marconi",
+      "aliases": [],
+      "candidateWikidataId": "Q36488",
+      "status": "unverified"
+    },
+    {
+      "name": "Adolf Hitler",
+      "aliases": [],
+      "candidateWikidataId": "Q352",
+      "status": "unverified"
+    },
+    {
+      "name": "Platon",
+      "aliases": [
+        "Plato"
+      ],
+      "candidateWikidataId": "Q859",
+      "status": "unverified"
+    },
+    {
+      "name": "Oliver Cromwell",
+      "aliases": [],
+      "candidateWikidataId": "Q44279",
+      "status": "unverified"
+    },
+    {
+      "name": "Alexander Graham Bell",
+      "aliases": [],
+      "candidateWikidataId": "Q34286",
+      "status": "unverified"
+    },
+    {
+      "name": "Alexander Fleming",
+      "aliases": [],
+      "candidateWikidataId": "Q37064",
+      "status": "unverified"
+    },
+    {
+      "name": "John Locke",
+      "aliases": [],
+      "candidateWikidataId": "Q9353",
+      "status": "unverified"
+    },
+    {
+      "name": "Ludwig van Beethoven",
+      "aliases": [],
+      "candidateWikidataId": "Q255",
+      "status": "unverified"
+    },
+    {
+      "name": "Werner Heisenberg",
+      "aliases": [],
+      "candidateWikidataId": "Q40904",
+      "status": "unverified"
+    },
+    {
+      "name": "Louis Daguerre",
+      "aliases": [],
+      "candidateWikidataId": "Q131405",
+      "status": "unverified"
+    },
+    {
+      "name": "Simón Bolívar",
+      "aliases": [
+        "Simon Bolivar"
+      ],
+      "candidateWikidataId": "Q8605",
+      "status": "unverified"
+    },
+    {
+      "name": "René Descartes",
+      "aliases": [
+        "Rene Descartes"
+      ],
+      "candidateWikidataId": "Q9191",
+      "status": "unverified"
+    },
+    {
+      "name": "Michelangelo",
+      "aliases": [],
+      "candidateWikidataId": "Q5592",
+      "status": "unverified"
+    },
+    {
+      "name": "Papa II. Urban",
+      "aliases": [
+        "Pope Urban II"
+      ],
+      "candidateWikidataId": "Q30578",
+      "status": "unverified"
+    },
+    {
+      "name": "Hz. Ömer",
+      "aliases": [
+        "Ömer bin Hattab",
+        "Umar"
+      ],
+      "candidateWikidataId": "Q8467",
+      "status": "unverified"
+    },
+    {
+      "name": "Aşoka",
+      "aliases": [
+        "Asoka",
+        "Ashoka"
+      ],
+      "candidateWikidataId": "Q8589",
+      "status": "unverified"
+    },
+    {
+      "name": "Aziz Augustinus",
+      "aliases": [
+        "Augustine of Hippo"
+      ],
+      "candidateWikidataId": "Q8018",
+      "status": "unverified"
+    },
+    {
+      "name": "William Harvey",
+      "aliases": [],
+      "candidateWikidataId": "Q93128",
+      "status": "unverified"
+    },
+    {
+      "name": "Ernest Rutherford",
+      "aliases": [],
+      "candidateWikidataId": "Q9123",
+      "status": "unverified"
+    },
+    {
+      "name": "John Calvin",
+      "aliases": [
+        "Jean Calvin"
+      ],
+      "candidateWikidataId": "Q37577",
+      "status": "unverified"
+    },
+    {
+      "name": "Gregor Mendel",
+      "aliases": [],
+      "candidateWikidataId": "Q37970",
+      "status": "unverified"
+    },
+    {
+      "name": "Max Planck",
+      "aliases": [],
+      "candidateWikidataId": "Q9021",
+      "status": "unverified"
+    },
+    {
+      "name": "Joseph Lister",
+      "aliases": [],
+      "candidateWikidataId": "Q155768",
+      "status": "unverified"
+    },
+    {
+      "name": "Nikolaus August Otto",
+      "aliases": [],
+      "candidateWikidataId": "Q75782",
+      "status": "unverified"
+    },
+    {
+      "name": "Francisco Pizarro",
+      "aliases": [],
+      "candidateWikidataId": "Q44741",
+      "status": "unverified"
+    },
+    {
+      "name": "Hernando Cortés",
+      "aliases": [
+        "Hernán Cortés",
+        "Hernando Cortes"
+      ],
+      "candidateWikidataId": "Q7326",
+      "status": "unverified"
+    },
+    {
+      "name": "Thomas Jefferson",
+      "aliases": [],
+      "candidateWikidataId": "Q11812",
+      "status": "unverified"
+    },
+    {
+      "name": "Kraliçe I. Isabella",
+      "aliases": [
+        "Isabella I of Castile"
+      ],
+      "candidateWikidataId": "Q45859",
+      "status": "unverified"
+    },
+    {
+      "name": "Joseph Stalin",
+      "aliases": [
+        "Josef Stalin"
+      ],
+      "candidateWikidataId": "Q855",
+      "status": "unverified"
+    },
+    {
+      "name": "Julius Caesar",
+      "aliases": [
+        "Jül Sezar"
+      ],
+      "candidateWikidataId": "Q1048",
+      "status": "unverified"
+    },
+    {
+      "name": "Fatih William",
+      "aliases": [
+        "William the Conqueror"
+      ],
+      "candidateWikidataId": "Q37594",
+      "status": "unverified"
+    },
+    {
+      "name": "Sigmund Freud",
+      "aliases": [],
+      "candidateWikidataId": "Q9215",
+      "status": "unverified"
+    },
+    {
+      "name": "Edward Jenner",
+      "aliases": [],
+      "candidateWikidataId": "Q40852",
+      "status": "unverified"
+    },
+    {
+      "name": "Wilhelm Conrad Röntgen",
+      "aliases": [
+        "Wilhelm Conrad Roentgen"
+      ],
+      "candidateWikidataId": "Q35149",
+      "status": "unverified"
+    },
+    {
+      "name": "Johann Sebastian Bach",
+      "aliases": [],
+      "candidateWikidataId": "Q1339",
+      "status": "unverified"
+    },
+    {
+      "name": "Lao Tzu",
+      "aliases": [
+        "Laozi"
+      ],
+      "candidateWikidataId": "Q9333",
+      "status": "unverified"
+    },
+    {
+      "name": "Voltaire",
+      "aliases": [],
+      "candidateWikidataId": "Q9068",
+      "status": "unverified"
+    },
+    {
+      "name": "Johannes Kepler",
+      "aliases": [],
+      "candidateWikidataId": "Q8963",
+      "status": "unverified"
+    },
+    {
+      "name": "Enrico Fermi",
+      "aliases": [],
+      "candidateWikidataId": "Q8753",
+      "status": "unverified"
+    },
+    {
+      "name": "Leonhard Euler",
+      "aliases": [],
+      "candidateWikidataId": "Q7604",
+      "status": "unverified"
+    },
+    {
+      "name": "Jean-Jacques Rousseau",
+      "aliases": [],
+      "candidateWikidataId": "Q6527",
+      "status": "unverified"
+    },
+    {
+      "name": "Niccolò Machiavelli",
+      "aliases": [
+        "Niccolo Machiavelli"
+      ],
+      "candidateWikidataId": "Q1399",
+      "status": "unverified"
+    },
+    {
+      "name": "Thomas Malthus",
+      "aliases": [],
+      "candidateWikidataId": "Q13526",
+      "status": "unverified"
+    },
+    {
+      "name": "John F. Kennedy",
+      "aliases": [],
+      "candidateWikidataId": "Q9696",
+      "status": "unverified"
+    },
+    {
+      "name": "Gregory Pincus",
+      "aliases": [],
+      "candidateWikidataId": "Q334361",
+      "status": "unverified"
+    },
+    {
+      "name": "Mani",
+      "aliases": [],
+      "candidateWikidataId": "Q203922",
+      "status": "unverified"
+    },
+    {
+      "name": "Lenin",
+      "aliases": [
+        "Vladimir Lenin"
+      ],
+      "candidateWikidataId": "Q1394",
+      "status": "unverified"
+    },
+    {
+      "name": "Sui Wen Ti",
+      "aliases": [
+        "Emperor Wen of Sui"
+      ],
+      "candidateWikidataId": "Q7418",
+      "status": "unverified"
+    },
+    {
+      "name": "Vasco da Gama",
+      "aliases": [],
+      "candidateWikidataId": "Q7328",
+      "status": "unverified"
+    },
+    {
+      "name": "Büyük Kiros",
+      "aliases": [
+        "Cyrus the Great"
+      ],
+      "candidateWikidataId": "Q8423",
+      "status": "unverified"
+    },
+    {
+      "name": "Büyük Petro",
+      "aliases": [
+        "Deli Petro",
+        "Peter the Great"
+      ],
+      "candidateWikidataId": "Q8479",
+      "status": "unverified"
+    },
+    {
+      "name": "Mao Zedong",
+      "aliases": [],
+      "candidateWikidataId": "Q5816",
+      "status": "unverified"
+    },
+    {
+      "name": "Francis Bacon",
+      "aliases": [],
+      "candidateWikidataId": "Q37388",
+      "status": "unverified"
+    },
+    {
+      "name": "Henry Ford",
+      "aliases": [],
+      "candidateWikidataId": "Q8768",
+      "status": "unverified"
+    },
+    {
+      "name": "Mencius",
+      "aliases": [
+        "Mengzi"
+      ],
+      "candidateWikidataId": "Q188903",
+      "status": "unverified"
+    },
+    {
+      "name": "Zerdüşt",
+      "aliases": [
+        "Zoroaster"
+      ],
+      "candidateWikidataId": "Q35811",
+      "status": "unverified"
+    },
+    {
+      "name": "Kraliçe I. Elizabeth",
+      "aliases": [
+        "Elizabeth I"
+      ],
+      "candidateWikidataId": "Q7207",
+      "status": "unverified"
+    },
+    {
+      "name": "Mihail Gorbaçov",
+      "aliases": [
+        "Mikhail Gorbachev"
+      ],
+      "candidateWikidataId": "Q30487",
+      "status": "unverified"
+    },
+    {
+      "name": "Menes",
+      "aliases": [],
+      "candidateWikidataId": "Q189574",
+      "status": "unverified"
+    },
+    {
+      "name": "Charlemagne",
+      "aliases": [
+        "Şarlman"
+      ],
+      "candidateWikidataId": "Q3044",
+      "status": "unverified"
+    },
+    {
+      "name": "Homeros",
+      "aliases": [
+        "Homer"
+      ],
+      "candidateWikidataId": "Q6691",
+      "status": "unverified"
+    },
+    {
+      "name": "İmparator I. Jüstinyen",
+      "aliases": [
+        "Justinian I"
+      ],
+      "candidateWikidataId": "Q41866",
+      "status": "unverified"
+    },
+    {
+      "name": "Mahavira",
+      "aliases": [],
+      "candidateWikidataId": "Q9422",
+      "status": "unverified"
+    },
+    {
+      "name": "Aquinalı Aziz Thomas",
+      "aliases": [
+        "Thomas Aquinas"
+      ],
+      "candidateWikidataId": "Q9438",
+      "status": "unverified"
+    },
+    {
+      "name": "Arşimet",
+      "aliases": [
+        "Archimedes"
+      ],
+      "candidateWikidataId": "Q8739",
+      "status": "unverified"
+    },
+    {
+      "name": "Charles Babbage",
+      "aliases": [],
+      "candidateWikidataId": "Q46633",
+      "status": "unverified"
+    },
+    {
+      "name": "Keops",
+      "aliases": [
+        "Khufu"
+      ],
+      "candidateWikidataId": "Q161904",
+      "status": "unverified"
+    },
+    {
+      "name": "Marie Curie",
+      "aliases": [],
+      "candidateWikidataId": "Q7186",
+      "status": "unverified"
+    },
+    {
+      "name": "Benjamin Franklin",
+      "aliases": [],
+      "candidateWikidataId": "Q34969",
+      "status": "unverified"
+    },
+    {
+      "name": "Mahatma Gandhi",
+      "aliases": [
+        "Mohandas Karamchand Gandhi"
+      ],
+      "candidateWikidataId": "Q1001",
+      "status": "unverified"
+    },
+    {
+      "name": "Abraham Lincoln",
+      "aliases": [],
+      "candidateWikidataId": "Q91",
+      "status": "unverified"
+    },
+    {
+      "name": "Ferdinand Magellan",
+      "aliases": [],
+      "candidateWikidataId": "Q1496",
+      "status": "unverified"
+    },
+    {
+      "name": "Leonardo da Vinci",
+      "aliases": [
+        "Leonardo Da Vinci"
+      ],
+      "candidateWikidataId": "Q762",
+      "status": "unverified"
+    },
+    {
+      "name": "Mustafa Kemal Atatürk",
+      "aliases": [
+        "Mustafa Kemal ATATÜRK",
+        "Atatürk"
+      ],
+      "candidateWikidataId": "Q5152",
+      "status": "unverified"
+    }
+  ]
+}

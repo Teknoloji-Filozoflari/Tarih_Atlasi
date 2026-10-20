@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "reviewedAt": "2026-10-18T07:22:35.000Z",
+  "birthWindows": {},
+  "deathWindows": {
+    "Q83100": null
+  },
+  "biographicalOnly": [
+    "Q83100",
+    "Q132157",
+    "Q8474"
+  ],
+  "regionPlaces": [],
+  "notes": {
+    "Q83100": "Kaynak doğum yılını 1258 olarak verir; kesin gün/tarih bağımsız doğrulanmış sayılmaz. Kaynağın açıklamasında ölüm1323/4, P570çıkarımında1326bulunur; ölüm bilinmiyor tutuldu. Söğüt bağlantısı biyografiktir, yıllık konum değildir.",
+    "Q183297": "Kaynak P19İnönü Evi Müzesi/İzmir ilişkisidir; yapının koordinatı alınamadığından şehir merkezine tahminî nokta atanmadı.",
+    "Q39259": "Kaynak P5691954ve P19Kasımpaşa/Beyoğlu bildirir. Yer, semt temsil noktasıdır; doğum evi veya güncel ikamet değildir. Ölüm tarihi bilinmiyor tutulur; bu durumdan günümüzde yaşam veya konum çıkarılmaz.",
+    "Q1268": "Kaynakta22Şubat/1Mart doğum günü alternatifleri vardır; bu katalog yalnız1810yılını taşır. Kesin gün/ay seçilmedi.",
+    "Q615": "Kaynak1987Rosario doğum ilişkisi; Rosario temsil noktasıdır, güncel konum/ikamet değildir. Ölüm bilinmiyor; yaşam aralığı uzatılmadı.",
+    "Q11571": "Kaynak1985Funchal doğum ilişkisi; temsil noktasıdır, güncel konum/ikamet değildir. Ölüm bilinmiyor; yaşam aralığı uzatılmadı.",
+    "Q41421": "Kaynak1963Brooklyn doğum ilişkisi; semt/şehir temsil noktasıdır, doğum evinin koordinatı değildir. Ölüm bilinmiyor; yaşam aralığı uzatılmadı.",
+    "Q7245": "Kaynağın P19bağlantısı Missouri'deki Florida yerleşimine(Q537803)gider; Florida eyaleti(Q812)olarak eşlenmedi.",
+    "Q2263": "Kaynağın P19bağlantısı Kaliforniya'daki Concord(Q490441)yerleşimine gider; aynı adlı başka şehre eşlenmedi. Ölüm bilinmiyor tutulur.",
+    "Q132157": "Kullanıcı Zenon'u Elealı Zenon olarak netleştirdi. Wikidata/MacTutor temelli doğum yaklaşık MÖ490, ölüm yaklaşık MÖ425 iddiasıdır. Kesin yıl/gün değildir; Elea/Velia bağlantısı yalnız biyografik tutulur, rastgele yıl seçilip yıllık haritaya konmaz.",
+    "Q8474": "Wikidata doğum yılı 1494 iddiasıdır; TDV Süleyman I maddesi kaynaklarda 1496 alternatifini de bildirir (https://islamansiklopedisi.org.tr/suleyman-i). 1494 kesin yıllık konum sayılmaz; Trabzon bağlantısı yalnız biyografik tutulur. Makale metni veya görseli kopyalanmadı."
+  },
+  "uncertainDeaths": [
+    "Q132157"
+  ],
+  "reviewReferences": [
+    {
+      "url": "https://islamansiklopedisi.org.tr/suleyman-i",
+      "use": "Alternative birth chronology; no article text or media redistributed"
+    }
+  ]
+}

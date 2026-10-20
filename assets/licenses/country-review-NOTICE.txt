@@ -1,0 +1,10 @@
+Cliopatria / Seshat Global History Databank v0.2.1 (Bennett et al.)
+CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+https://github.com/Seshat-Global-History-Databank/cliopatria/tree/v0.2.1
+Archive SHA-256 e10a4e429fca708788ff9e7572a95fce801fae55852d217cffabc1c59cd4eed4
+Review extraction SHA-256 04ac9985540cc510c834c42118a40af0a6adb7da4b1b43819b3030de6bb88aec
+Reviewed rows: 13199: Republic of Tunisia (1958–1962); 13234: Mali Federation (1961–2023); 13239: Republic of Chad (1961–2023); 13254: Republic of Tunisia (1963–1972); 13369: People's Republic of Angola (1976–2023); 13370: Libyan Arab Republic (1976–2005); 13374: Republic of Tunisia (1976–2023); 13580: Libyan Arab Republic (2006–2013); 13605: Republic of Tunisia (2024–2024); 13613: Republic of Chad (2024–2024); 13659: People's Republic of Angola (2024–2024); 13773: Mali Federation (2024–2024).
+Changes: ring winding normalized only; every source position/edge and hole retained. Chad and Tunisia isolated shell-hole point contacts validated.
+Libya and Angola are shown under short geographic country labels; the source's obsolete regime title remains quoted in provenance, not asserted as its official period name.
+Mali post-1960 source identity Q216632 corrected to Q912; original name/QID retained, 1960 federation kept separate. Angola 2024 is partial mainland only: Cabinda absent in source.
+Approximate source reconstruction, not annual observation, measured borders, independent historical certification or proof of effective control. No CShapes geometry used.

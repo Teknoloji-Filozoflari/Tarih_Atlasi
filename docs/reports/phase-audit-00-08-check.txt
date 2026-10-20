@@ -1,0 +1,132 @@
+npm notice run tarih-atlasi@0.1.0 check
+npm notice run npm run lint && npm run typecheck && npm test && npm run test:worker && npm run globe:check && npm run pilot:check && npm run format:check
+npm notice run tarih-atlasi@0.1.0 lint
+npm notice run eslint . --max-warnings 0
+npm notice run tarih-atlasi@0.1.0 typecheck
+npm notice run tsc --noEmit && tsc --noEmit -p tsconfig.web.json
+npm notice run tarih-atlasi@0.1.0 test
+npm notice run node tests/run.mjs
+✔ başlangıç kataloğu tek kaynaklı sınır pilotunu teknik kayıt sayısından ayırır (1.948722ms)
+✔ ilk dil Türkçedir; uygulama metinleri anahtar yerine görünür metin döndürür (0.248353ms)
+✔ prototip ve boş veri metinleri doğrulanmamış tarihî iddia taşımaz (0.119272ms)
+✔ hata, boş ve yükleme durumlarının farklı başlıkları vardır (0.067525ms)
+✔ tema metin ve düğme renkleri en az 4.5:1 kontrast sağlar (0.195454ms)
+✔ kamera sözleşmesi kutupları kabul eder; sonlu ve sınırlı değerler ister (0.15582ms)
+✔ köprü reset/set komutlarını ve sentetik işareti yönlerine göre doğrular (0.761971ms)
+✔ köprü hatalı JSON, sürüm, oturum, ek anahtar, kod ve büyük UTF-8 yüklerini reddeder (0.290812ms)
+✔ navigasyon yalnız Expo bootstrap dosyası veya geliştirme DOM origin/path kabul eder (0.272868ms)
+✔ fiziksel veri hazırlığı özellikleri atar; yanlış geometrileri ve sınırsız yükü reddeder (0.310278ms)
+✔ unmount temizliği bir kez, ters sırayla çalışır; geç async kaynak ve hata diğer temizliği engellemez (0.140151ms)
+✔ yıl seçimi MÖ 2000/günümüz uçlarını korur; sıfır ve hatalı girdiyi reddeder (0.169797ms)
+✔ küçük/yatay telefon ve büyük metin kompakt düzene döner (0.074108ms)
+✔ beş bağımsız katman renk dışında benzersiz biçim ve Türkçe ada sahiptir (0.062736ms)
+✔ katman işaretleri panel zemini üzerinde 4.5:1 kontrastı korur (0.083836ms)
+✔ küre arkasındaki işaret seçim göndermez; öne dönünce tekrar seçilir (1.621503ms)
+✔ renderer load sırasında marker hatasını yakalar ve kaynakları bırakır (0.49333ms)
+✔ yinelenen load tek marker kurar; dispose sonrası listener/komut çalışmaz (0.473633ms)
+✔ context kaybı bir kez bildirilir; map/worker/dinleyiciler bırakılır (0.420895ms)
+✔ kaynaklı pilot renderer → host seçilir; drag, eski sürüm ve kapalı katman seçimi reddedilir (6.857203ms)
+✔ hızlı yıl değişiminde eski kaynak yanıtı çizilmez; unmount geç yüklemeyi durdurur (0.577046ms)
+✔ snapshot önizlemesi kaynak yılını korur; kapatma ve hızlı yıl değişimi kaynak çizgisini temizler (0.896912ms)
+✔ kaynak ACK setData tamamlanmasını bekler; eski apply reddedilir, zaman kamerayı değiştirmez (0.930084ms)
+✔ siyasi vurgu ve açık kamera odağı güncel revizyon ister, tarihi değiştirmez ve azaltılmış harekete uyar (0.754857ms)
+✔ domain şeması bütün sentetik kayıt türlerini kabul eder; üretim sentetiği reddeder (6.697875ms)
+✔ MÖ/MS, hassasiyet, gerçek takvim günü ve belirsizlik ayrı doğrulanır (0.253192ms)
+✔ GeoJSON CRS84, dört geometri türü ve kaynaklı feature kimliği doğrulanır (0.419061ms)
+✔ topoloji: açık/ters/kesişen halkalar, dış delikler, örtüşme ve detay bütçesi reddedilir (7.463482ms)
+✔ antimeridyen bölünmeden reddedilir; iki tarafta açıkça bölünmüş alan geçer (0.114703ms)
+✔ üretim hak kapısı: bilinmeyen/yasak/atıfsız/manuel inceleme bekleyen kaynak reddedilir (3.054214ms)
+✔ provenance revizyon/ham girdi/türetim/üst kaynak zinciri kaybolamaz veya aklanamaz (3.219972ms)
+✔ kültür/siyaset ve yaşam yeri/zamanlı bulunma ayrımı ile tarih çelişkileri korunur (2.428958ms)
+✔ tarih/coğrafya indeksleri MÖ/MS, antimeridyen, belirsizlik, sayfalama ve değişmez snapshot sağlar (2.21561ms)
+✔ yükleyici checksum ve şema kapısını geçmeden provider oluşturmaz (17.115014ms)
+✔ coğrafya indeksi ±180° eşdeğerliğini ve kesin hücre sınırlarını kaçırmaz (0.775185ms)
+✔ gerçek pilotun olgu/üretim checksumları, snapshot ve sınırlı geometri kapsamı korunur (1.317385ms)
+✔ pilot hakkı yalnız incelenmiş kaynak ID/revizyon/hash ile geçer; genel NARA izni verilmez (0.418199ms)
+✔ pilot yıl/layer/LOD sorgusu tek snapshotı gösterir; başka tarihe veya kültüre yaymaz (0.345283ms)
+✔ sınır kesiti/tam alan ve siyasal ilişkiler v2 semantiğinde ayrılır; bölgesel örtüşme korunur (0.533645ms)
+✔ fiziksel tabanda siyasi yazı/tile yok; kesin/yaklaşık/kültürel çizgi stilleri ayrıdır (0.102761ms)
+✔ yeni köprü komutu ve kaynaklı seçim zarfı yıl/katman/ID/sürüm doğrular (0.189303ms)
+✔ OHM tüm üye hak/zaman etiketlerini korur; eksik zaman sonsuz geçerlilik olmaz (0.36487ms)
+✔ OHM alımı sınırlı tekrar/backoff uygular; Retry-After süresini kısaltmaz (11.58238ms)
+✔ önizleme köprü alanı yalnız açık boolean kabul eder; varsayılan yıl kaydı taşınmaz (0.284571ms)
+✔ altın MÖ/MS dönüşümleri ve süreler yıl sıfırı üretmez (0.136003ms)
+✔ altın başlangıç/bitiş ve kesintili varlık boşluğu korunur (1.181242ms)
+✔ altın snapshot komşu yıla taşınmaz; support olmadan sürekli geometri varsayılmaz (1.35739ms)
+✔ altın kişi yaşamı, kaynaklı bulunma ve tarihsiz biyografi ayrı kalır (0.85817ms)
+✔ altın bilinmeyen/yüzyıl/range hassasiyeti kesin gün veya kesin coğrafya olamaz (1.611253ms)
+✔ altın kültür çakışması ve rakip siyasi yorumlar ayrı sonuçlardır (0.81521ms)
+✔ altın nearest snapshot yalnız açık seçimle; yıl ve kaynak yılı ayrı kalır (0.763183ms)
+✔ altın cache sınırlıdır, sürümle ayrılır ve aynı sorguyu tekrar taramaz (0.777639ms)
+✔ altın geç gelen eski sorgu ve dispose sonucu yeni seçimi değiştiremez (0.138108ms)
+✔ temporal periods şeması çakışma, dış zarf ve snapshot uzatmasını reddeder (0.101449ms)
+✔ sürekli sınırın ilk/son yılı dahil; tam doğrulanmış ile yaklaşık modlar ayrıdır (0.893666ms)
+✔ kesintili sınır sürümleri ve sağlayıcı zarfın boşluğunu doldurmaz (0.73532ms)
+✔ bilinmeyen kişi yaşamı bilinen konumu bile yıllık bulunma kanıtına dönüştürmez (0.696358ms)
+✔ kaynak ay/gün hassasiyeti korunur; bilinmeyen hassasiyete gün saklanamaz (0.081873ms)
+✔ snapshot listesi tarihsiz ve incelemesiz kayıtları atar; eşit uzaklıkta eski kaynak yılı seçilir (1.266151ms)
+✔ indeks tek kuruluma ait sayfalı veriyi paylaşır ve aşırı katalog bütçesini reddeder (4.346342ms)
+✔ geç eski hata bastırılır; en yeni sorgunun hatası veri yokluğu sayılmaz (0.118351ms)
+✔ kaynaklı tarihli yer referansı bulunma kanıtı kalır; koordinat üretilmez (0.656023ms)
+✔ doğrudan MÖ/MS metin girişi, yıl sıfırı ve belirsiz sözdizimi (0.298036ms)
+✔ sürükleme ve hızlı atlama astronomik sırayı kullanır; MÖ/MS boşluğu veya yıl 0 yok (0.153947ms)
+✔ oynatma kontrollü kadansla ilerler; hız yıl adımıdır, manuel seçim durdurur (0.764334ms)
+✔ azaltılmış hareket, üst sınıra varınca durma ve yeniden oynatma davranışı belirli (0.175127ms)
+✔ hızlı sürüklemede tek son sorgu; eski istek iptal olur ve eski sonuç/hata yayımlanmaz (0.34863ms)
+✔ katmanlar tek yıl çerçevesiyle atomik yayımlanır; güncel hata boş veri sayılmaz (0.334945ms)
+✔ istenen yıl ve haritanın uyguladığı kaynak yılı ayrı; eski/sapmış ACK reddedilir (0.436454ms)
+✔ köprü ACK ve yeni kontrol alanları şema/sürüm/yıl doğrulamasından geçer (0.162924ms)
+✔ dar MÖ penceresinde klavye doğru uca ulaşır; yoğun snapshot işaretleri bütçelidir (0.43451ms)
+✔ üst yıl değişimi ve StrictMode yeniden kurulumu geçersiz ara yıl yayımlamaz (0.211073ms)
+✔ native thumb merkezi dokunma koordinatında iki uca ve MÖ/MS geçişine doğru eşlenir (0.127909ms)
+✔ siyasi kimlik tek kalır: POLITY şemsiyesi, eşzamanlı krallık/imparatorluk ve tarihli adlar (0.718249ms)
+✔ profil iddiaları kaynak, haklar, inceleme, benzersiz kimlik ve siyasi tür ister (2.696497ms)
+✔ başkent bağımsız zaman/konum kanıtı ister; kaynak dışı alan ve varlık boşluğu reddedilir (2.43557ms)
+✔ siyasi ilişki ardıllık alanları isteğe bağlıdır, öz ilişki ve eksik referans kabul edilmez (2.830146ms)
+✔ vasallık yalnız vasala uygulanır; bölgeye özgü ilişki başka bölgeye taşınmaz (0.262309ms)
+✔ büyük/küçük alan isabeti, delik ve içbükey etiket çapası alanı başkent saymaz (0.360221ms)
+✔ antimeridyen bölünmüş MultiPolygon iki tarafta seçilir; kamera Greenwich’e atlamaz (0.115034ms)
+✔ örtüşen seçimde seçili varlık, küçük alan önceliği ve sabit ID sırası kullanılır; bütçe sekizdir (0.142054ms)
+✔ etiketler ekran çakışmasını ve düşük zoom kalabalığını sınırlar; küçük seçili varlık korunur (0.313344ms)
+✔ gerçek pilot kaynaklı kesit olarak kalır; 1868 kartı desteklenmez, başkent ve istatistik uydurulmaz (0.398513ms)
+✔ repository tarihsiz başkent çizmez, eşzamanlı ilişkileri korur ve zaman cache bütçelidir (2.264071ms)
+✔ siyasi stil MapLibre tarafından geçerli; seçili dolgu/outline ve belirsiz çizgiler ayrı (2.966229ms)
+✔ siyasi köprü komutlarında ID/revizyon, azami aday ve sıkı alan kontrolü var (0.217856ms)
+✔ DOM siyasi etiketi drag/arka yüz seçimini reddeder; yenileme ve dispose marker/dinleyiciyi temizler (0.413931ms)
+✔ ETL ham dosyayı değiştirmez; checksum/revizyon ve belirsizlik izini korur (5.396138ms)
+✔ ETL ham dosya değişikliği, eksik dosya, symlink kaçışı ve boyut aşımını reddeder (3.121919ms)
+✔ ETL doğrulama sonrası çağıranın mutasyonu üretim kapısını aşamaz (1.454361ms)
+✔ ETL CLI atıfsız/yasak/sentetik/incelemesiz kayıt için üretim dizini bile oluşturmaz (5.790454ms)
+✔ ETL CLI boş kataloğu atomik/sürümlü yazar; tekrar deterministik ve değiştirilmiş çıktı reddedilir (2.270743ms)
+ℹ tests 92
+ℹ suites 0
+ℹ pass 92
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 142.560911
+npm notice run tarih-atlasi@0.1.0 test:worker
+npm notice run node tests/unit/worker.test.mjs
+✔ worker kontrolü import sözcüğü içeren yorum/metni dış bağımlılık sanmaz (4.092348ms)
+✔ worker kontrolü gerçek statik/dinamik import ve re-export işlemlerini reddeder (2.330305ms)
+✔ boş veya parse edilemeyen worker hazırlanmaz (0.465558ms)
+✔ fiziksel worker isteğe bağlı dış modül yüklemeyi kapatır, statik bağımlılığı reddeder (7.640793ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 18.377737
+npm notice run tarih-atlasi@0.1.0 globe:check
+npm notice run node scripts/check-globe-assets.mjs
+PASS — 127 physical land features; source/data/worker hashes and bundled notices match. No GPU/runtime claim.
+npm notice run tarih-atlasi@0.1.0 pilot:check
+npm notice run node scripts/pilot/check.mjs
+PASS — reviewed raw SHA, catalog, GeoJSON LODs, coverage/rights manifest and generated module match. No browser/device claim.
+npm notice run tarih-atlasi@0.1.0 format:check
+npm notice run prettier --check .
+Checking formatting...
+All matched files use Prettier code style!

@@ -1,0 +1,118 @@
+npm notice run tarih-atlasi@0.1.0 test:web
+npm notice run playwright test --grep zaman motoru --project desktop
+2026-10-15T20:41:27.407Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:27.411Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:27.411Z pw:webserver Starting WebServer process npm run web -- --host localhost --port 8081...
+2026-10-15T20:41:27.415Z pw:webserver Process started
+2026-10-15T20:41:27.415Z pw:webserver Waiting for availability...
+2026-10-15T20:41:27.415Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:27.415Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:27.416Z pw:webserver Waiting 100ms
+2026-10-15T20:41:27.516Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:27.516Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:27.516Z pw:webserver Waiting 250ms
+2026-10-15T20:41:27.768Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:27.769Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:27.769Z pw:webserver Waiting 500ms
+2026-10-15T20:41:28.271Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:28.272Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:28.272Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:29.276Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:29.277Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:29.277Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:30.281Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:30.282Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:30.282Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:31.287Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:31.288Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:31.288Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:32.289Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:32.290Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:32.290Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:33.294Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:33.295Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:33.295Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:34.300Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:34.301Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:34.301Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:35.306Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:35.307Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:35.307Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:36.312Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:36.313Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:36.313Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:37.318Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:37.318Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:37.318Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:38.318Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:38.319Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:38.319Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:39.323Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:39.323Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:39.323Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:40.328Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:40.329Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:40.329Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:41.334Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:41.335Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:41.335Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:42.340Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:42.341Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:42.341Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:43.341Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:43.342Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:43.342Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:44.347Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:44.348Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:44.348Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:45.353Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:45.354Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:45.354Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:46.359Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:46.360Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:46.360Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:47.365Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:47.365Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:47.365Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:48.365Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:48.366Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:48.366Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:49.371Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:49.372Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:49.372Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:50.377Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:50.377Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:50.377Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:51.382Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:51.383Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:51.383Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:52.388Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:52.389Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:52.389Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:53.389Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:53.390Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:53.390Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:54.395Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:54.396Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:54.396Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:55.401Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:55.402Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:55.402Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:56.402Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:56.403Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:56.403Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:57.408Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:57.409Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:57.409Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:58.409Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:58.409Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:58.410Z pw:webserver Waiting 1000ms
+2026-10-15T20:41:59.415Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:41:59.416Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:41:59.416Z pw:webserver Waiting 1000ms
+2026-10-15T20:42:00.421Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:42:00.422Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:42:00.422Z pw:webserver Waiting 1000ms
+2026-10-15T20:42:01.427Z pw:webserver HTTP GET: http://127.0.0.1:8081/
+2026-10-15T20:42:01.428Z pw:webserver Error while checking if http://127.0.0.1:8081/ is available: connect EPERM 127.0.0.1:8081 - Local (undefined:undefined)
+2026-10-15T20:42:01.428Z pw:webserver Waiting 1000ms

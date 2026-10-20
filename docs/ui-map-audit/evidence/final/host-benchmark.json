@@ -1,0 +1,193 @@
+{
+  "measuredAt": "2026-10-16T13:50:26.445Z",
+  "kind": "HOST_CPU_ONLY_NOT_BROWSER_OR_ANDROID",
+  "environment": {
+    "node": "v26.11.1",
+    "platform": "linux",
+    "arch": "x64",
+    "cpu": "AMD Ryzen 7 8845HS w/ Radeon 780M Graphics",
+    "gcAvailable": true
+  },
+  "parameters": {
+    "coldIterations": 30,
+    "warmIterations": 200,
+    "scrubIterations": 1000,
+    "memoryRounds": 6,
+    "chunkEntries": 4
+  },
+  "measurements": [
+    {
+      "name": "cold-bundled-chunk-verify-parse-in-memory-storage",
+      "iterations": 30,
+      "medianMs": 1.4295460000000162,
+      "p95Ms": 2.5122929999999997,
+      "minMs": 1.1044170000000122,
+      "maxMs": 10.778930000000003
+    },
+    {
+      "name": "warm-memory-chunk-verify-parse",
+      "iterations": 200,
+      "medianMs": 0.4919610000000034,
+      "p95Ms": 0.8617140000000063,
+      "minMs": 0.41820200000000796,
+      "maxMs": 1.2658700000000067
+    },
+    {
+      "name": "timeline-scrub-selected-years",
+      "iterations": 1000,
+      "medianMs": 0.0046590000000037435,
+      "p95Ms": 0.011782000000039261,
+      "minMs": 0.003406999999981508,
+      "maxMs": 0.9561899999999923
+    },
+    {
+      "name": "historical-feature-construction",
+      "iterations": 200,
+      "medianMs": 0.018384999999966567,
+      "p95Ms": 0.037499999999965894,
+      "minMs": 0.010379999999997835,
+      "maxMs": 0.642723999999987
+    },
+    {
+      "name": "SYNTHETIC-1000-marker-cluster-CPU",
+      "iterations": 100,
+      "medianMs": 0.3411879999999883,
+      "p95Ms": 0.5560409999999933,
+      "minMs": 0.23472999999995636,
+      "maxMs": 0.9303019999999833
+    },
+    {
+      "name": "SYNTHETIC-1000-label-collision-CPU",
+      "iterations": 100,
+      "medianMs": 0.08015999999997803,
+      "p95Ms": 0.3612059999999815,
+      "minMs": 0.06410000000005311,
+      "maxMs": 1.0645729999999958
+    }
+  ],
+  "checkpoints": [
+    {
+      "round": 0,
+      "heapUsedBytes": 11632000,
+      "rssBytes": 127082496,
+      "cache": {
+        "memoryHits": 398,
+        "diskHits": 0,
+        "corruptions": 0,
+        "evictions": 0,
+        "storageErrors": 0,
+        "memoryBytes": 27681,
+        "memoryEntries": 3
+      },
+      "timeline": {
+        "size": 32,
+        "capacity": 32,
+        "indexScans": 207
+      }
+    },
+    {
+      "round": 1,
+      "heapUsedBytes": 11667624,
+      "rssBytes": 127213568,
+      "cache": {
+        "memoryHits": 598,
+        "diskHits": 0,
+        "corruptions": 0,
+        "evictions": 0,
+        "storageErrors": 0,
+        "memoryBytes": 27681,
+        "memoryEntries": 3
+      },
+      "timeline": {
+        "size": 32,
+        "capacity": 32,
+        "indexScans": 407
+      }
+    },
+    {
+      "round": 2,
+      "heapUsedBytes": 11680104,
+      "rssBytes": 127213568,
+      "cache": {
+        "memoryHits": 798,
+        "diskHits": 0,
+        "corruptions": 0,
+        "evictions": 0,
+        "storageErrors": 0,
+        "memoryBytes": 27681,
+        "memoryEntries": 3
+      },
+      "timeline": {
+        "size": 32,
+        "capacity": 32,
+        "indexScans": 607
+      }
+    },
+    {
+      "round": 3,
+      "heapUsedBytes": 11679728,
+      "rssBytes": 142024704,
+      "cache": {
+        "memoryHits": 998,
+        "diskHits": 0,
+        "corruptions": 0,
+        "evictions": 0,
+        "storageErrors": 0,
+        "memoryBytes": 27681,
+        "memoryEntries": 3
+      },
+      "timeline": {
+        "size": 32,
+        "capacity": 32,
+        "indexScans": 807
+      }
+    },
+    {
+      "round": 4,
+      "heapUsedBytes": 11688984,
+      "rssBytes": 142942208,
+      "cache": {
+        "memoryHits": 1198,
+        "diskHits": 0,
+        "corruptions": 0,
+        "evictions": 0,
+        "storageErrors": 0,
+        "memoryBytes": 27681,
+        "memoryEntries": 3
+      },
+      "timeline": {
+        "size": 32,
+        "capacity": 32,
+        "indexScans": 1007
+      }
+    },
+    {
+      "round": 5,
+      "heapUsedBytes": 11691600,
+      "rssBytes": 142942208,
+      "cache": {
+        "memoryHits": 1398,
+        "diskHits": 0,
+        "corruptions": 0,
+        "evictions": 0,
+        "storageErrors": 0,
+        "memoryBytes": 27681,
+        "memoryEntries": 3
+      },
+      "timeline": {
+        "size": 32,
+        "capacity": 32,
+        "indexScans": 1207
+      }
+    }
+  ],
+  "bounded": {
+    "metricSamples": 120,
+    "chunkMemoryBytes": 27681,
+    "timelineCacheEntries": 32
+  },
+  "excluded": [
+    "No FPS, GPU memory, touch latency, Android PSS, battery, temperature or browser start time was measured.",
+    "RSS/heap checkpoints do not establish absence of leaks; CPU workloads use real pilot and explicitly synthetic dense points."
+  ]
+}

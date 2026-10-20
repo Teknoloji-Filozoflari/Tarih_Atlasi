@@ -1,0 +1,21 @@
+Tarih Atlası pilot — source and rights
+
+U.S. National Archives and Records Administration (NARA), General Records of the
+United States Government, Record Group 11, Treaty of Cession (March 30, 1867),
+Article I / IV and proclamation (exchange of ratifications June 20, 1867).
+https://www.archives.gov/milestone-documents/check-for-the-purchase-of-alaska
+
+This package contains a structured editorial extraction of treaty facts and a
+project-derived idealized clip of the 141st west meridian between 65 and 68 N.
+It does not contain an archived HTTP response, photograph, scan, seal, third-party
+GIS polygon, or a claim of a surveyed WGS84 boundary. Clip endpoints are display
+limits, not historical border endpoints. Only the 1867-06-20 snapshot is admitted.
+
+Data: CC0 1.0 Universal; factual extraction / idealized derivation.
+NARA federal-work reuse policy (not blanket permission for all archival holdings):
+https://www.archives.gov/global-pages/privacy.html#copyright
+https://creativecommons.org/publicdomain/zero/1.0/
+
+The source record, extraction SHA, derivation and narrower rights approval are
+preserved in the pilot catalog and source manifest. No endorsement by NARA is implied.
+Project code remains MIT; these data rights do not change third-party rights.

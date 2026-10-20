@@ -1,0 +1,3 @@
+npm notice run tarih-atlasi@0.1.0 pilot:prepare
+npm notice run node scripts/pilot/cli.mjs
+Pilot prepared: 1 sourced boundary segment; 6 catalog records. No culture/full-polity polygon or other-year coverage claimed.

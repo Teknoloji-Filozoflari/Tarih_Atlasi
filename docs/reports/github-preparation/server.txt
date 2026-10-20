@@ -1,0 +1,3 @@
+npm notice run tarih-atlasi@0.1.0 web:serve
+npm notice run node scripts/distribution/server.mjs
+Web sunucusu başlatılamadı: EPERM

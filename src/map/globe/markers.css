@@ -1,0 +1,98 @@
+/* MapLibre toggles this documented class behind the globe or 3D terrain.
+   Visibility also removes the covered button from keyboard/assistive navigation. */
+.atlas-demo-marker.maplibregl-marker-covered {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.atlas-political-label.maplibregl-marker-covered {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* Only country names use cartographic text. The transparent button retains
+   its full touch target; focus is visible without a permanent label box. */
+.atlas-country-label:hover,
+.atlas-country-label[aria-current='true'] {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.atlas-country-label:focus-visible {
+  outline: 2px solid var(--atlas-label-focus);
+  outline-offset: 2px;
+  background: var(--atlas-label-focus-background) !important;
+  text-shadow: none !important;
+}
+
+.atlas-person-marker.maplibregl-marker-covered {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.atlas-event-marker.maplibregl-marker-covered {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.atlas-modern-city.maplibregl-marker-covered {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.atlas-modern-city:focus-visible {
+  outline: 2px solid currentColor;
+  border-radius: 4px;
+}
+
+.atlas-discovery-marker:focus-visible {
+  outline: 3px solid currentColor;
+}
+
+.atlas-local-note.maplibregl-marker-covered {
+  visibility: hidden;
+  pointer-events: none;
+}
+.atlas-local-note:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
+}
+
+/* Modern reference labels must never cover a historical marker's touch target. */
+.atlas-modern-city {
+  z-index: 1;
+}
+.atlas-political-label {
+  z-index: 2;
+}
+.atlas-discovery-marker,
+.atlas-person-marker,
+.atlas-event-marker {
+  z-index: 3;
+}
+.atlas-local-note {
+  z-index: 4;
+}
+
+/* The 48px hit target is transparent; only this bounded surface is painted. */
+.atlas-person-marker::before,
+.atlas-event-marker::before,
+.atlas-local-note::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: var(--atlas-marker-size);
+  height: var(--atlas-marker-size);
+  box-sizing: border-box;
+  border: 1px var(--atlas-marker-border) var(--atlas-marker-color);
+  border-radius: var(--atlas-marker-radius);
+  background: var(--atlas-marker-background);
+  pointer-events: none;
+  z-index: -1;
+}
+.atlas-person-marker[aria-pressed='true']::before,
+.atlas-event-marker[aria-pressed='true']::before {
+  box-shadow: 0 0 0 1px var(--atlas-marker-focus);
+}

@@ -1,0 +1,171 @@
+npm notice run tarih-atlasi@0.1.0 check
+npm notice run npm run lint && npm run typecheck && npm test && npm run test:worker && npm run globe:check && npm run pilot:check && npm run format:check
+npm notice run tarih-atlasi@0.1.0 lint
+npm notice run eslint . --max-warnings 0
+npm notice run tarih-atlasi@0.1.0 typecheck
+npm notice run tsc --noEmit && tsc --noEmit -p tsconfig.web.json
+npm notice run tarih-atlasi@0.1.0 test
+npm notice run node tests/run.mjs
+✔ başlangıç kataloğu tek kaynaklı sınır pilotunu teknik kayıt sayısından ayırır (1.281181ms)
+✔ ilk dil Türkçedir; uygulama metinleri anahtar yerine görünür metin döndürür (0.318857ms)
+✔ prototip ve boş veri metinleri doğrulanmamış tarihî iddia taşımaz (0.128031ms)
+✔ hata, boş ve yükleme durumlarının farklı başlıkları vardır (0.077681ms)
+✔ tema metin ve düğme renkleri en az 4.5:1 kontrast sağlar (0.199782ms)
+✔ kamera sözleşmesi kutupları kabul eder; sonlu ve sınırlı değerler ister (0.164569ms)
+✔ köprü reset/set komutlarını ve sentetik işareti yönlerine göre doğrular (0.691432ms)
+✔ köprü hatalı JSON, sürüm, oturum, ek anahtar, kod ve büyük UTF-8 yüklerini reddeder (0.35896ms)
+✔ navigasyon yalnız Expo bootstrap dosyası veya geliştirme DOM origin/path kabul eder (0.23212ms)
+✔ fiziksel veri hazırlığı özellikleri atar; yanlış geometrileri ve sınırsız yükü reddeder (0.641722ms)
+✔ unmount temizliği bir kez, ters sırayla çalışır; geç async kaynak ve hata diğer temizliği engellemez (0.160651ms)
+✔ yıl seçimi MÖ 2000/günümüz uçlarını korur; sıfır ve hatalı girdiyi reddeder (0.179225ms)
+✔ küçük/yatay telefon ve büyük metin kompakt düzene döner (0.075728ms)
+✔ beş bağımsız katman renk dışında benzersiz biçim ve Türkçe ada sahiptir (0.070999ms)
+✔ katman işaretleri panel zemini üzerinde 4.5:1 kontrastı korur (0.12728ms)
+✔ küre arkasındaki işaret seçim göndermez; öne dönünce tekrar seçilir (1.861791ms)
+✔ gerçek renderer kodunda iki kültür+siyaset fill seçimi, tüm aday sayfaları ve yıl/katman temizliği (13.622129ms)
+✔ renderer load sırasında marker hatasını yakalar ve kaynakları bırakır (0.681905ms)
+✔ yinelenen load tek marker kurar; dispose sonrası listener/komut çalışmaz (0.539547ms)
+✔ context kaybı bir kez bildirilir; map/worker/dinleyiciler bırakılır (0.594767ms)
+✔ kaynaklı pilot renderer → host seçilir; drag, eski sürüm ve kapalı katman seçimi reddedilir (3.079947ms)
+✔ hızlı yıl değişiminde eski kaynak yanıtı çizilmez; unmount geç yüklemeyi durdurur (0.569932ms)
+✔ snapshot önizlemesi kaynak yılını korur; kapatma ve hızlı yıl değişimi kaynak çizgisini temizler (0.962734ms)
+✔ kaynak ACK setData tamamlanmasını bekler; eski apply reddedilir, zaman kamerayı değiştirmez (0.678068ms)
+✔ siyasi vurgu ve açık kamera odağı güncel revizyon ister, tarihi değiştirmez ve azaltılmış harekete uyar (0.660757ms)
+✔ kişi kümesi tüm adayları köprüye taşır; arka yüz/drag reddi ve yıl/layer/unmount temizliği (1.406817ms)
+✔ domain şeması bütün sentetik kayıt türlerini kabul eder; üretim sentetiği reddeder (4.879567ms)
+✔ MÖ/MS, hassasiyet, gerçek takvim günü ve belirsizlik ayrı doğrulanır (0.187198ms)
+✔ GeoJSON CRS84, dört geometri türü ve kaynaklı feature kimliği doğrulanır (0.64608ms)
+✔ topoloji: açık/ters/kesişen halkalar, dış delikler, örtüşme ve detay bütçesi reddedilir (8.207863ms)
+✔ antimeridyen bölünmeden reddedilir; iki tarafta açıkça bölünmüş alan geçer (0.090354ms)
+✔ üretim hak kapısı: bilinmeyen/yasak/atıfsız/manuel inceleme bekleyen kaynak reddedilir (2.861943ms)
+✔ provenance revizyon/ham girdi/türetim/üst kaynak zinciri kaybolamaz veya aklanamaz (2.423498ms)
+✔ kültür/siyaset ve yaşam yeri/zamanlı bulunma ayrımı ile tarih çelişkileri korunur (2.787047ms)
+✔ tarih/coğrafya indeksleri MÖ/MS, antimeridyen, belirsizlik, sayfalama ve değişmez snapshot sağlar (2.259672ms)
+✔ yükleyici checksum ve şema kapısını geçmeden provider oluşturmaz (14.995395ms)
+✔ coğrafya indeksi ±180° eşdeğerliğini ve kesin hücre sınırlarını kaçırmaz (0.695139ms)
+✔ gerçek pilotun olgu/üretim checksumları, snapshot ve sınırlı geometri kapsamı korunur (1.411046ms)
+✔ pilot hakkı yalnız incelenmiş kaynak ID/revizyon/hash ile geçer; genel NARA izni verilmez (0.575011ms)
+✔ pilot yıl/layer/LOD sorgusu tek snapshotı gösterir; başka tarihe veya kültüre yaymaz (0.42525ms)
+✔ sınır kesiti/tam alan ve siyasal ilişkiler v2 semantiğinde ayrılır; bölgesel örtüşme korunur (0.571785ms)
+✔ fiziksel tabanda siyasi yazı/tile yok; kesin/yaklaşık/kültürel çizgi stilleri ayrıdır (0.104649ms)
+✔ yeni köprü komutu ve kaynaklı seçim zarfı yıl/katman/ID/sürüm doğrular (0.197427ms)
+✔ OHM tüm üye hak/zaman etiketlerini korur; eksik zaman sonsuz geçerlilik olmaz (0.368097ms)
+✔ OHM alımı sınırlı tekrar/backoff uygular; Retry-After süresini kısaltmaz (12.497051ms)
+✔ önizleme köprü alanı yalnız açık boolean kabul eder; varsayılan yıl kaydı taşınmaz (0.304161ms)
+✔ altın MÖ/MS dönüşümleri ve süreler yıl sıfırı üretmez (0.138701ms)
+✔ altın başlangıç/bitiş ve kesintili varlık boşluğu korunur (1.202137ms)
+✔ altın snapshot komşu yıla taşınmaz; support olmadan sürekli geometri varsayılmaz (1.403261ms)
+✔ altın kişi yaşamı, kaynaklı bulunma ve tarihsiz biyografi ayrı kalır (0.766328ms)
+✔ altın bilinmeyen/yüzyıl/range hassasiyeti kesin gün veya kesin coğrafya olamaz (1.278906ms)
+✔ altın kültür çakışması ve rakip siyasi yorumlar ayrı sonuçlardır (0.914867ms)
+✔ altın nearest snapshot yalnız açık seçimle; yıl ve kaynak yılı ayrı kalır (1.011571ms)
+✔ altın cache sınırlıdır, sürümle ayrılır ve aynı sorguyu tekrar taramaz (0.809375ms)
+✔ altın geç gelen eski sorgu ve dispose sonucu yeni seçimi değiştiremez (0.129294ms)
+✔ temporal periods şeması çakışma, dış zarf ve snapshot uzatmasını reddeder (0.116842ms)
+✔ sürekli sınırın ilk/son yılı dahil; tam doğrulanmış ile yaklaşık modlar ayrıdır (1.047728ms)
+✔ kesintili sınır sürümleri ve sağlayıcı zarfın boşluğunu doldurmaz (1.412337ms)
+✔ bilinmeyen kişi yaşamı bilinen konumu bile yıllık bulunma kanıtına dönüştürmez (0.750959ms)
+✔ kaynak ay/gün hassasiyeti korunur; bilinmeyen hassasiyete gün saklanamaz (0.077781ms)
+✔ snapshot listesi tarihsiz ve incelemesiz kayıtları atar; eşit uzaklıkta eski kaynak yılı seçilir (1.359562ms)
+✔ indeks tek kuruluma ait sayfalı veriyi paylaşır ve aşırı katalog bütçesini reddeder (3.726419ms)
+✔ geç eski hata bastırılır; en yeni sorgunun hatası veri yokluğu sayılmaz (0.11596ms)
+✔ kaynaklı tarihli yer referansı bulunma kanıtı kalır; koordinat üretilmez (0.724152ms)
+✔ doğrudan MÖ/MS metin girişi, yıl sıfırı ve belirsiz sözdizimi (0.297047ms)
+✔ sürükleme ve hızlı atlama astronomik sırayı kullanır; MÖ/MS boşluğu veya yıl 0 yok (0.154209ms)
+✔ oynatma kontrollü kadansla ilerler; hız yıl adımıdır, manuel seçim durdurur (1.12072ms)
+✔ azaltılmış hareket, üst sınıra varınca durma ve yeniden oynatma davranışı belirli (0.178854ms)
+✔ hızlı sürüklemede tek son sorgu; eski istek iptal olur ve eski sonuç/hata yayımlanmaz (0.349543ms)
+✔ katmanlar tek yıl çerçevesiyle atomik yayımlanır; güncel hata boş veri sayılmaz (0.357277ms)
+✔ istenen yıl ve haritanın uyguladığı kaynak yılı ayrı; eski/sapmış ACK reddedilir (0.460584ms)
+✔ köprü ACK ve yeni kontrol alanları şema/sürüm/yıl doğrulamasından geçer (0.161593ms)
+✔ dar MÖ penceresinde klavye doğru uca ulaşır; yoğun snapshot işaretleri bütçelidir (0.492412ms)
+✔ üst yıl değişimi ve StrictMode yeniden kurulumu geçersiz ara yıl yayımlamaz (0.235887ms)
+✔ native thumb merkezi dokunma koordinatında iki uca ve MÖ/MS geçişine doğru eşlenir (0.099861ms)
+✔ yaklaşık kişi tercihi revizyonu değiştirir, eski yıl ve kanıt filtresi ACKsi reddedilir (0.2705ms)
+✔ siyasi kimlik tek kalır: POLITY şemsiyesi, eşzamanlı krallık/imparatorluk ve tarihli adlar (0.741262ms)
+✔ profil iddiaları kaynak, haklar, inceleme, benzersiz kimlik ve siyasi tür ister (2.823422ms)
+✔ başkent bağımsız zaman/konum kanıtı ister; kaynak dışı alan ve varlık boşluğu reddedilir (1.135867ms)
+✔ siyasi ilişki ardıllık alanları isteğe bağlıdır, öz ilişki ve eksik referans kabul edilmez (3.614867ms)
+✔ vasallık yalnız vasala uygulanır; bölgeye özgü ilişki başka bölgeye taşınmaz (0.286409ms)
+✔ büyük/küçük alan isabeti, delik ve içbükey etiket çapası alanı başkent saymaz (0.1877ms)
+✔ antimeridyen bölünmüş MultiPolygon iki tarafta seçilir; kamera Greenwich’e atlamaz (0.100101ms)
+✔ örtüşen seçimde seçili varlık, küçük alan önceliği ve sabit ID sırası kullanılır; bütçe sekizdir (0.137299ms)
+✔ etiketler ekran çakışmasını ve düşük zoom kalabalığını sınırlar; küçük seçili varlık korunur (0.260642ms)
+✔ gerçek pilot kaynaklı kesit olarak kalır; 1868 kartı desteklenmez, başkent ve istatistik uydurulmaz (0.51892ms)
+✔ repository tarihsiz başkent çizmez, eşzamanlı ilişkileri korur ve zaman cache bütçelidir (2.405537ms)
+✔ siyasi stil MapLibre tarafından geçerli; seçili dolgu/outline ve belirsiz çizgiler ayrı (3.181661ms)
+✔ siyasi köprü komutlarında ID/revizyon, azami aday ve sıkı alan kontrolü var (0.206835ms)
+✔ DOM siyasi etiketi drag/arka yüz seçimini reddeder; yenileme ve dispose marker/dinleyiciyi temizler (0.434537ms)
+✔ iki kültür aynı yerde ve zamanda siyasi alanla çakışabilir; ayrı tür/kimlik/geometri kalır (1.254923ms)
+✔ kültür alanı siyasi entityye bağlanamaz, bağlam/belirsizlik ve ayrı ilişki semantiği ister (1.851985ms)
+✔ kültür snapshotı/tarihsiz alan diğer yıllara yayılmaz; yaklaşık güven korunur (0.955189ms)
+✔ bağlı kimliğin bilinen dönemi/boşluğu dışındaki siyasi ve kültürel coğrafya üretimde reddedilir (1.290938ms)
+✔ özel provider doğrulayıcıyı atlasa da kültür/sınır/kapsam/snapshot çelişkili kimliği çizmez (0.896543ms)
+✔ kültürel ilişki bölge kapsamına uyar, siyasi ilişkiye dönüşmez; kart kaynak/belirsizlik taşır (1.261023ms)
+✔ ortak feature loader bağımsız katmanlar ve eşzamanlı kültürler için farklı sembolik özellikler üretir (1.099632ms)
+✔ yoğun kültürel örtüşmenin bileşik dolgusu bütçeli, renkler okunabilir ve IDye göre kararlıdır (0.892557ms)
+✔ 1000 örtüşen adayın hepsi sayfalarla erişilir; eski seçim/revizyon ve bozuk offset reddedilir (0.99426ms)
+✔ seçim köprüsü sayfa şeması/session/katalog/revizyon/ID ve 4KiB sınırına uyar (0.175468ms)
+✔ Wikipedia adı/QIDden üretilmez; açık sitelink URLsi ham Wikidata yanıtıyla bire bir eşleşir (0.240625ms)
+✔ ETL sahte sitelinki üretime almadan reddeder; gerçek ham eşleşme ve hash korunur (5.1412ms)
+✔ üretim kültürü de lisans/atıf/sentetik kapılarına bağlıdır; gerçek pilot kültür içermediğini söyler (1.389837ms)
+✔ 400 kültürlü sentetik yük tek indeks/sayfalama bütçesiyle sorgulanır, tekrarda bütün katalog yeniden taranmaz (39.479824ms)
+✔ kişi yaşam sorgusu ile kaynaklı yıllık konum sorgusu birbirini ima etmez (1.795993ms)
+✔ genel doğum/ölüm/ikamet/faaliyet bilgisi yıllık bulunma kaydı olmaz (10.303919ms)
+✔ yaklaşık/orta güvenli konum açık tercih ister; düşük/bilinmeyen güven haritaya girmez (3.557142ms)
+✔ kişi konum zaman ve yer kanıtı aynı locator içinde olmalı; doğum yılıyla yer birleştirilemez (0.853055ms)
+✔ krallık/bölge merkezi kişi noktasına dönüştürülemez; şehir yalnız temsilî/isteğe bağlıdır (3.321154ms)
+✔ yaşam dışındaki konum reddedilir; doğum yerini tüm yaşama yayma da reddedilir (2.258269ms)
+✔ bilinmeyen yaşam veya tarihsiz bulunma kesin konum yaratmaz (2.527968ms)
+✔ koordinatsız kaynaklı yer ilişkisi otomatik yer centroidinden marker üretmez (1.403832ms)
+✔ konumsuz kişi araması yaşam filtresinden bağımsız, sınırlı ve alternatif adlarla çalışır (1.506238ms)
+✔ çoklu konumlar aynı kişi kimliğini korur, yıl çerçevesine atomik girer ve kamera bilgisi üretmez (2.048048ms)
+✔ kişi profili/atıf/lisans üretim kapısında zorunlu; P18 medyası ayrı hak onayı ister (2.822762ms)
+✔ kişi doğum/ölüm hassasiyeti ve kanonik validFrom/validTo korunur (0.80022ms)
+✔ Türkçe metin tercih edilir; kaynak dili korunan fallback makine çevirisi üretmez (0.663982ms)
+✔ 1000 kişi ilişkisi en fazla 64 kümeye girer; hiçbir ID kaybolmaz ve sıralama deterministiktir (2.0708ms)
+✔ küre arka yüzü ve zoom kümeleri konum/rota uydurmaz (0.076048ms)
+✔ kaynaklı gerçek kişi pilotu ay ve güncel yapı hassasiyetini korur; başka yıllarda nokta yok (1.004549ms)
+✔ kişi katmanı ve yaklaşık tercih köprüde yalnız boolean kabul eder (0.112995ms)
+✔ Wikidata adayları GUID/niteleyici/referansları korur; P19/P551 otomatik onaylanmaz (0.249232ms)
+✔ Wikidata alımı maxlag/UA/GET, bounded retry ve en az Retry-After bekleme uygular (1.825336ms)
+✔ Wikidata cache TTL/hash/revizyon ve oversized JSON sınırı uygulanır (1.969085ms)
+✔ Wikidata maxlag tekrarları sonludur ve aday şeması üretim kataloğu olamaz (0.471193ms)
+✔ kişi Wikipedia URLsi ham sitelinkle eşleşmeden üretimden geçemez (3.834193ms)
+✔ ETL ham dosyayı değiştirmez; checksum/revizyon ve belirsizlik izini korur (4.206738ms)
+✔ ETL ham dosya değişikliği, eksik dosya, symlink kaçışı ve boyut aşımını reddeder (3.040838ms)
+✔ ETL doğrulama sonrası çağıranın mutasyonu üretim kapısını aşamaz (1.443704ms)
+✔ ETL CLI atıfsız/yasak/sentetik/incelemesiz kayıt için üretim dizini bile oluşturmaz (5.594131ms)
+✔ ETL CLI boş kataloğu atomik/sürümlü yazar; tekrar deterministik ve değiştirilmiş çıktı reddedilir (2.596682ms)
+ℹ tests 131
+ℹ suites 0
+ℹ pass 131
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 258.552246
+npm notice run tarih-atlasi@0.1.0 test:worker
+npm notice run node tests/unit/worker.test.mjs
+✔ worker kontrolü import sözcüğü içeren yorum/metni dış bağımlılık sanmaz (3.963568ms)
+✔ worker kontrolü gerçek statik/dinamik import ve re-export işlemlerini reddeder (1.218456ms)
+✔ boş veya parse edilemeyen worker hazırlanmaz (0.384576ms)
+✔ fiziksel worker isteğe bağlı dış modül yüklemeyi kapatır, statik bağımlılığı reddeder (5.175102ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 13.986688
+npm notice run tarih-atlasi@0.1.0 globe:check
+npm notice run node scripts/check-globe-assets.mjs
+PASS — 127 physical land features; source/data/worker hashes and bundled notices match. No GPU/runtime claim.
+npm notice run tarih-atlasi@0.1.0 pilot:check
+npm notice run node scripts/pilot/check.mjs
+PASS — reviewed raw SHA, catalog, GeoJSON LODs, coverage/rights manifest and generated module match. No browser/device claim.
+npm notice run tarih-atlasi@0.1.0 format:check
+npm notice run prettier --check .
+Checking formatting...
+All matched files use Prettier code style!

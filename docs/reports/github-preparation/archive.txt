@@ -1,0 +1,7 @@
+npm notice run tarih-atlasi@0.1.0 release:pack
+npm notice run node scripts/distribution/archive.mjs
+{
+  "status": "PACKAGED_NOT_PUBLISHED",
+  "path": ".release/out/tarih-atlasi-web-0.1.0-preview.1.tar.gz",
+  "sha256": "ff412e76cda2137730c786e64df3466a66be684d4b2ac1cfaf2de30f279a4a20"
+}

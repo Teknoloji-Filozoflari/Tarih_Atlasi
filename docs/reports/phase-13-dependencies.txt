@@ -1,0 +1,3 @@
+npm notice run tarih-atlasi@0.1.0 dependencies:report
+npm notice run node scripts/dependency-report.mjs
+Bağımlılık raporu: 24/24 tam sürüm kurulu.

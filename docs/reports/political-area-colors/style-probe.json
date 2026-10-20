@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "projection": "globe",
+  "styleValidationErrors": 0,
+  "generatedColorCombinations": 2520,
+  "scope": "Computed sRGB contrast over one political fill on the physical land token; not a screenshot, overlap audit or device measurement",
+  "minima": {
+    "normal": {
+      "opacity": 0.72,
+      "minimumLabelContrast": 5.065997723762951,
+      "minimumBoundaryContrast": 3.4515576621769246
+    },
+    "selected": {
+      "opacity": 0.8,
+      "minimumLabelContrast": 4.79310424124066,
+      "minimumBoundaryContrast": 3.277626166638554
+    },
+    "disputed": {
+      "opacity": 0.38,
+      "minimumLabelContrast": 6.422370693606256,
+      "minimumBoundaryContrast": 4.307873069631595
+    },
+    "shared": {
+      "opacity": 0.48,
+      "minimumLabelContrast": 5.9892254734201416,
+      "minimumBoundaryContrast": 4.0358552014569105
+    },
+    "vassal": {
+      "opacity": 0.6,
+      "minimumLabelContrast": 5.507470551195926,
+      "minimumBoundaryContrast": 3.7317385893965707
+    }
+  },
+  "waterLayerOrder": [
+    "ocean",
+    "physical-land",
+    "event-area",
+    "event-region-edge",
+    "polity-area",
+    "physical-lakes",
+    "physical-rivers",
+    "polity-documented",
+    "polity-approximate",
+    "polity-disputed",
+    "polity-shared",
+    "polity-vassal",
+    "polity-selected-outline",
+    "culture-area",
+    "culture-soft-edge",
+    "culture-uncertain",
+    "culture-selected"
+  ]
+}

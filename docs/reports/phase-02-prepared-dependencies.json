@@ -1,0 +1,214 @@
+{
+  "metric": "Own installed files only; excludes nested node_modules. Not bundle, gzip, APK or total dependency tree size.",
+  "note": "Package license labels are evidence, not automatic rights approval. Inspect LICENSE/NOTICE and transitive dependencies before distribution.",
+  "complete": true,
+  "packages": [
+    {
+      "name": "@expo/metro-runtime",
+      "scope": "runtime",
+      "requested": "57.0.17",
+      "installed": "57.0.17",
+      "exactMatch": true,
+      "license": "MIT",
+      "ownInstalledFileBytes": 32858
+    },
+    {
+      "name": "expo",
+      "scope": "runtime",
+      "requested": "57.0.29",
+      "installed": "57.0.29",
+      "exactMatch": true,
+      "license": "MIT",
+      "ownInstalledFileBytes": 957084
+    },
+    {
+      "name": "expo-constants",
+      "scope": "runtime",
+      "requested": "57.0.22",
+      "installed": "57.0.22",
+      "exactMatch": true,
+      "license": "MIT",
+      "ownInstalledFileBytes": 136894
+    },
+    {
+      "name": "expo-linking",
+      "scope": "runtime",
+      "requested": "57.0.13",
+      "installed": "57.0.13",
+      "exactMatch": true,
+      "license": "MIT",
+      "ownInstalledFileBytes": 170839
+    },
+    {
+      "name": "expo-router",
+      "scope": "runtime",
+      "requested": "57.0.28",
+      "installed": "57.0.28",
+      "exactMatch": true,
+      "license": "MIT",
+      "ownInstalledFileBytes": 6194168
+    },
+    {
+      "name": "expo-status-bar",
+      "scope": "runtime",
+      "requested": "57.0.1",
+      "installed": "57.0.1",
+      "exactMatch": true,
+      "license": "MIT",
+      "ownInstalledFileBytes": 44681
+    },
+    {
+      "name": "expo-system-ui",
+      "scope": "runtime",
+      "requested": "57.0.4",
+      "installed": "57.0.4",
+      "exactMatch": true,
+      "license": "MIT",
+      "ownInstalledFileBytes": 84019
+    },
+    {
+      "name": "maplibre-gl",
+      "scope": "runtime",
+      "requested": "6.14.0",
+      "installed": "6.14.0",
+      "exactMatch": true,
+      "license": "BSD-3-Clause",
+      "ownInstalledFileBytes": 28028509
+    },
+    {
+      "name": "react",
+      "scope": "runtime",
+      "requested": "19.2.3",
+      "installed": "19.2.3",
+      "exactMatch": true,
+      "license": "MIT",
+      "ownInstalledFileBytes": 171604
+    },
+    {
+      "name": "react-dom",
+      "scope": "runtime",
+      "requested": "19.2.3",
+      "installed": "19.2.3",
+      "exactMatch": true,
+      "license": "MIT",
+      "ownInstalledFileBytes": 7319413
+    },
+    {
+      "name": "react-native",
+      "scope": "runtime",
+      "requested": "0.86.3",
+      "installed": "0.86.3",
+      "exactMatch": true,
+      "license": "MIT",
+      "ownInstalledFileBytes": 20320139
+    },
+    {
+      "name": "react-native-reanimated",
+      "scope": "runtime",
+      "requested": "4.5.1",
+      "installed": "4.5.1",
+      "exactMatch": true,
+      "license": "MIT",
+      "ownInstalledFileBytes": 4439847
+    },
+    {
+      "name": "react-native-safe-area-context",
+      "scope": "runtime",
+      "requested": "5.7.0",
+      "installed": "5.7.0",
+      "exactMatch": true,
+      "license": "MIT",
+      "ownInstalledFileBytes": 230675
+    },
+    {
+      "name": "react-native-screens",
+      "scope": "runtime",
+      "requested": "4.26.0",
+      "installed": "4.26.0",
+      "exactMatch": true,
+      "license": "MIT",
+      "ownInstalledFileBytes": 3402779
+    },
+    {
+      "name": "react-native-web",
+      "scope": "runtime",
+      "requested": "0.21.2",
+      "installed": "0.21.2",
+      "exactMatch": true,
+      "license": "MIT",
+      "ownInstalledFileBytes": 2980393
+    },
+    {
+      "name": "react-native-webview",
+      "scope": "runtime",
+      "requested": "13.16.1",
+      "installed": "13.16.1",
+      "exactMatch": true,
+      "license": "MIT",
+      "ownInstalledFileBytes": 655084
+    },
+    {
+      "name": "react-native-worklets",
+      "scope": "runtime",
+      "requested": "0.10.1",
+      "installed": "0.10.1",
+      "exactMatch": true,
+      "license": "MIT",
+      "ownInstalledFileBytes": 1031585
+    },
+    {
+      "name": "@playwright/test",
+      "scope": "development",
+      "requested": "1.63.0",
+      "installed": "1.63.0",
+      "exactMatch": true,
+      "license": "Apache-2.0",
+      "ownInstalledFileBytes": 28544
+    },
+    {
+      "name": "@types/react",
+      "scope": "development",
+      "requested": "19.2.18",
+      "installed": "19.2.18",
+      "exactMatch": true,
+      "license": "MIT",
+      "ownInstalledFileBytes": 408503
+    },
+    {
+      "name": "eslint",
+      "scope": "development",
+      "requested": "9.39.5",
+      "installed": "9.39.5",
+      "exactMatch": true,
+      "license": "MIT",
+      "ownInstalledFileBytes": 3008896
+    },
+    {
+      "name": "eslint-config-expo",
+      "scope": "development",
+      "requested": "57.0.2",
+      "installed": "57.0.2",
+      "exactMatch": true,
+      "license": "MIT",
+      "ownInstalledFileBytes": 19565
+    },
+    {
+      "name": "prettier",
+      "scope": "development",
+      "requested": "3.9.9",
+      "installed": "3.9.9",
+      "exactMatch": true,
+      "license": "MIT",
+      "ownInstalledFileBytes": 9958979
+    },
+    {
+      "name": "typescript",
+      "scope": "development",
+      "requested": "6.0.3",
+      "installed": "6.0.3",
+      "exactMatch": true,
+      "license": "Apache-2.0",
+      "ownInstalledFileBytes": 24346827
+    }
+  ]
+}

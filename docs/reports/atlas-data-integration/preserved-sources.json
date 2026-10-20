@@ -1,0 +1,91 @@
+{
+  "checkedAt": "2026-10-16T20:47:48.982Z",
+  "scope": "Current file inventory; six acquisition files verified against their original pinned download SHA and receipts. Original 50m and lock files never targeted for writes during this integration; not a Git diff.",
+  "entries": [
+    {
+      "file": "data/staging/map-sources/ne_10m_land.geojson",
+      "bytes": 10157965,
+      "sha256": "1ac90796408bc6ad6911d69448485d3c4dbf2190370080368a09976e1c9f7416"
+    },
+    {
+      "file": "data/staging/map-sources/ne_10m_land.geojson.receipt.json",
+      "bytes": 469,
+      "sha256": "ad2d987f5cdd951648bc144377f7dac5fc9891e1042b70d5d2b69ff7968c6ae8"
+    },
+    {
+      "file": "data/staging/map-sources/ne_10m_lakes.geojson",
+      "bytes": 5043554,
+      "sha256": "2d036f53dedec578001c5c30c2959ee7d4eebc1306900fa4367c49929ec8f2d9"
+    },
+    {
+      "file": "data/staging/map-sources/ne_10m_lakes.geojson.receipt.json",
+      "bytes": 469,
+      "sha256": "aa39b63fbdf161bfbef7bfcfcb5ddb884f8c836b9636ee416a02ab59146fc5d5"
+    },
+    {
+      "file": "data/staging/map-sources/ne_10m_rivers_lake_centerlines.geojson",
+      "bytes": 7307743,
+      "sha256": "bb854a900ecbd3b408df46d5e16e3e0f974ba55993f9d8b5c26e855273c0905a"
+    },
+    {
+      "file": "data/staging/map-sources/ne_10m_rivers_lake_centerlines.geojson.receipt.json",
+      "bytes": 487,
+      "sha256": "1baaf7e3912ef0416befdd248ae6204aadabf30238c0035c605073b5c3e10179"
+    },
+    {
+      "file": "data/staging/map-sources/cliopatria-v0.2.1.geojson.zip",
+      "bytes": 46005176,
+      "sha256": "e10a4e429fca708788ff9e7572a95fce801fae55852d217cffabc1c59cd4eed4"
+    },
+    {
+      "file": "data/staging/map-sources/cliopatria-v0.2.1.geojson.zip.receipt.json",
+      "bytes": 510,
+      "sha256": "f1b13b9283b357123d54d3dffe66672d0b87b08650eec1eeb491d4dcf344c154"
+    },
+    {
+      "file": "data/staging/map-sources/cliopatria-v0.2.1-LICENSE.md",
+      "bytes": 404,
+      "sha256": "62ca7e92dee4ebe402372d5e64f87845de445a6c0e5d76fddb68b3e33739d1a6"
+    },
+    {
+      "file": "data/staging/map-sources/cliopatria-v0.2.1-LICENSE.md.receipt.json",
+      "bytes": 499,
+      "sha256": "dc363fc1920f19a90f26dd76ef34f9b992be36ff40cb750990c250cbf241371f"
+    },
+    {
+      "file": "data/staging/map-sources/cliopatria-v0.2.1-README.md",
+      "bytes": 6669,
+      "sha256": "1d7057948a3dcdeb359eb2e1482b71f9d9fd7650d0e55ab09dc9f90dc341b5e9"
+    },
+    {
+      "file": "data/staging/map-sources/cliopatria-v0.2.1-README.md.receipt.json",
+      "bytes": 499,
+      "sha256": "6ea600f9f1f7daf884f046acafca143e7fe57eda7535c23be8323a031607535e"
+    },
+    {
+      "file": "src/map/globe/generated/natural-earth-v5.1.2-50m-land.geojson",
+      "bytes": 1636166,
+      "sha256": "e874b27a51d146452be360cafb3cc50c86001074a67d534113e6534682f9826b"
+    },
+    {
+      "file": "src/map/globe/generated/detail-land.ts",
+      "bytes": 2470733,
+      "sha256": "a4fb512a36e804a19cd049b21feb95925284719b66640c11376433872173d476"
+    },
+    {
+      "file": "src/map/globe/generated/detail-status.ts",
+      "bytes": 125,
+      "sha256": "0fd7810324f5254eff710465acb51b1dc9a094284dca563c84d6309d9e29bf98"
+    },
+    {
+      "file": "assets/licenses/detail-land-provenance.json",
+      "bytes": 658,
+      "sha256": "b45a1b8c5bdb14217234368ee78bbf54dc173fc5a163e9a9250eca2e73d9c394"
+    },
+    {
+      "file": "package-lock.json",
+      "bytes": 443906,
+      "sha256": "d0c3b532fd3abd3ed8841a3b53f94be1dcf9a264e652975ca99e2ec08c53ef20"
+    }
+  ]
+}

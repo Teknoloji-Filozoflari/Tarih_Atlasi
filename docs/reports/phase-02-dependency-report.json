@@ -1,0 +1,196 @@
+{
+  "metric": "Own installed files only; excludes nested node_modules. Not bundle, gzip, APK or total dependency tree size.",
+  "note": "Package license labels are evidence, not automatic rights approval. Inspect LICENSE/NOTICE and transitive dependencies before distribution.",
+  "complete": false,
+  "packages": [
+    {
+      "name": "@expo/metro-runtime",
+      "scope": "runtime",
+      "requested": "57.0.17",
+      "installed": null,
+      "exactMatch": false,
+      "license": "NOT INSPECTED",
+      "ownInstalledFileBytes": null
+    },
+    {
+      "name": "expo",
+      "scope": "runtime",
+      "requested": "57.0.29",
+      "installed": null,
+      "exactMatch": false,
+      "license": "NOT INSPECTED",
+      "ownInstalledFileBytes": null
+    },
+    {
+      "name": "expo-constants",
+      "scope": "runtime",
+      "requested": "57.0.22",
+      "installed": null,
+      "exactMatch": false,
+      "license": "NOT INSPECTED",
+      "ownInstalledFileBytes": null
+    },
+    {
+      "name": "expo-linking",
+      "scope": "runtime",
+      "requested": "57.0.13",
+      "installed": null,
+      "exactMatch": false,
+      "license": "NOT INSPECTED",
+      "ownInstalledFileBytes": null
+    },
+    {
+      "name": "expo-router",
+      "scope": "runtime",
+      "requested": "57.0.28",
+      "installed": null,
+      "exactMatch": false,
+      "license": "NOT INSPECTED",
+      "ownInstalledFileBytes": null
+    },
+    {
+      "name": "expo-status-bar",
+      "scope": "runtime",
+      "requested": "57.0.1",
+      "installed": null,
+      "exactMatch": false,
+      "license": "NOT INSPECTED",
+      "ownInstalledFileBytes": null
+    },
+    {
+      "name": "expo-system-ui",
+      "scope": "runtime",
+      "requested": "57.0.4",
+      "installed": null,
+      "exactMatch": false,
+      "license": "NOT INSPECTED",
+      "ownInstalledFileBytes": null
+    },
+    {
+      "name": "react",
+      "scope": "runtime",
+      "requested": "19.2.3",
+      "installed": null,
+      "exactMatch": false,
+      "license": "NOT INSPECTED",
+      "ownInstalledFileBytes": null
+    },
+    {
+      "name": "react-dom",
+      "scope": "runtime",
+      "requested": "19.2.3",
+      "installed": null,
+      "exactMatch": false,
+      "license": "NOT INSPECTED",
+      "ownInstalledFileBytes": null
+    },
+    {
+      "name": "react-native",
+      "scope": "runtime",
+      "requested": "0.86.3",
+      "installed": null,
+      "exactMatch": false,
+      "license": "NOT INSPECTED",
+      "ownInstalledFileBytes": null
+    },
+    {
+      "name": "react-native-safe-area-context",
+      "scope": "runtime",
+      "requested": "5.7.0",
+      "installed": null,
+      "exactMatch": false,
+      "license": "NOT INSPECTED",
+      "ownInstalledFileBytes": null
+    },
+    {
+      "name": "react-native-screens",
+      "scope": "runtime",
+      "requested": "4.26.0",
+      "installed": null,
+      "exactMatch": false,
+      "license": "NOT INSPECTED",
+      "ownInstalledFileBytes": null
+    },
+    {
+      "name": "react-native-web",
+      "scope": "runtime",
+      "requested": "0.21.2",
+      "installed": null,
+      "exactMatch": false,
+      "license": "NOT INSPECTED",
+      "ownInstalledFileBytes": null
+    },
+    {
+      "name": "maplibre-gl",
+      "scope": "runtime",
+      "requested": "6.14.0",
+      "installed": null,
+      "exactMatch": false,
+      "license": "NOT INSPECTED",
+      "ownInstalledFileBytes": null
+    },
+    {
+      "name": "react-native-webview",
+      "scope": "runtime",
+      "requested": "13.16.1",
+      "installed": null,
+      "exactMatch": false,
+      "license": "NOT INSPECTED",
+      "ownInstalledFileBytes": null
+    },
+    {
+      "name": "@playwright/test",
+      "scope": "development",
+      "requested": "1.63.0",
+      "installed": null,
+      "exactMatch": false,
+      "license": "NOT INSPECTED",
+      "ownInstalledFileBytes": null
+    },
+    {
+      "name": "@types/react",
+      "scope": "development",
+      "requested": "19.2.18",
+      "installed": null,
+      "exactMatch": false,
+      "license": "NOT INSPECTED",
+      "ownInstalledFileBytes": null
+    },
+    {
+      "name": "eslint",
+      "scope": "development",
+      "requested": "9.18.0",
+      "installed": null,
+      "exactMatch": false,
+      "license": "NOT INSPECTED",
+      "ownInstalledFileBytes": null
+    },
+    {
+      "name": "eslint-config-expo",
+      "scope": "development",
+      "requested": "57.0.2",
+      "installed": null,
+      "exactMatch": false,
+      "license": "NOT INSPECTED",
+      "ownInstalledFileBytes": null
+    },
+    {
+      "name": "prettier",
+      "scope": "development",
+      "requested": "3.9.9",
+      "installed": null,
+      "exactMatch": false,
+      "license": "NOT INSPECTED",
+      "ownInstalledFileBytes": null
+    },
+    {
+      "name": "typescript",
+      "scope": "development",
+      "requested": "6.0.3",
+      "installed": null,
+      "exactMatch": false,
+      "license": "NOT INSPECTED",
+      "ownInstalledFileBytes": null
+    }
+  ]
+}

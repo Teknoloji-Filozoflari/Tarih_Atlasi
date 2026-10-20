@@ -1,0 +1,9 @@
+npm notice run tarih-atlasi@0.1.0 release:stage
+npm notice run node scripts/distribution/stage.mjs
+{
+  "output": "/home/s-oktay/Belgeler/Tarih_Atlası/.release/web",
+  "files": 18474,
+  "bytes": 890123649,
+  "version": "0.1.0-preview.1",
+  "revision": "unknown"
+}

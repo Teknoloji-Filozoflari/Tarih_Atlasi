@@ -1,0 +1,11 @@
+Wikidata structured-data event pilot — CC0-1.0
+https://www.wikidata.org/wiki/Wikidata:Licensing
+Q33745 revision 2551218271; Q83224 revision 2517858800;
+Q150995 revision 2539526538; Q56039 revision 2474841502.
+Browser-reviewed editorial fact extraction, 2026-10-16, not original API JSON.
+No Wikipedia article prose, images, battlefield polygons or modern state borders.
+Hastings DMS reference point is approximate, not the extent of the battlefield.
+Hastings and Peloponnesian calendar/day conversion unverified: year precision only.
+Westphalia has multiple locations: geometry deliberately absent.
+German reunification process/milestone date difference retained as uncertainty.
+No inferred participants, city centroids or Wikipedia URLs.

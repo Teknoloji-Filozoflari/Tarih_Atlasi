@@ -1,0 +1,46 @@
+{
+  "recordedAt": "2026-10-16T19:59:55.486Z",
+  "commands": [
+    {
+      "command": "npm run check",
+      "exitCode": 0,
+      "log": "check.log"
+    },
+    {
+      "command": "npm run web:export",
+      "exitCode": 0,
+      "log": "web-export.log"
+    },
+    {
+      "command": "npm run android:bundle",
+      "exitCode": 0,
+      "log": "android-export.log"
+    },
+    {
+      "command": "npm run data:download",
+      "exitCode": 1,
+      "log": "download-attempt.log"
+    },
+    {
+      "command": "npm run data:download -- --list",
+      "exitCode": 0,
+      "log": "source-list.log"
+    },
+    {
+      "command": "npm run test:web -- --list",
+      "exitCode": 0,
+      "log": "browser-list.log"
+    },
+    {
+      "command": "timeout 30s npm run test:web:production",
+      "exitCode": 1,
+      "log": "browser-run.log"
+    },
+    {
+      "command": "npm run environment:check",
+      "exitCode": 1,
+      "log": "environment.log"
+    }
+  ],
+  "note": "Recorded actual direct tool statuses. E2E list is not run success, Android export is not APK. Downloads blocked by DNS."
+}

@@ -1,0 +1,12 @@
+{
+  "source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_50m_land.geojson",
+  "terms": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "license": "public domain",
+  "version": "5.1.2",
+  "scale": "1:50000000",
+  "acquisition": "download-or-verified-local-archive",
+  "downloadedSha256": "e874b27a51d146452be360cafb3cc50c86001074a67d534113e6534682f9826b",
+  "downloadedBytes": 1636166,
+  "transformedSha256": "521a7b42c1137e53498ffd54e6b7ad9db1dd23e1ee1ba6f1fc88f678882ff1a8",
+  "transformation": "Validate bounded physical polygons; strip every property. Contemporary geography, not historical boundaries."
+}

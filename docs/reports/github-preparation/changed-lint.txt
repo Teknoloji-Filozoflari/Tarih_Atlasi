@@ -1,0 +1,2 @@
+npm notice run tarih-atlasi@0.1.0 npx
+npm notice run 'eslint' scripts/distribution scripts/people/check-expansion.mjs --max-warnings 0

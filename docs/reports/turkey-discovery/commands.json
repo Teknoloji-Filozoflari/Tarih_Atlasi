@@ -1,0 +1,270 @@
+{
+  "recordedAt": "2026-10-17T21:34:52.904Z",
+  "commands": [
+    {
+      "command": "git status --short",
+      "exitCode": 128,
+      "status": "NOT A GIT REPOSITORY",
+      "note": "No git init/reset/checkout/delete was performed."
+    },
+    {
+      "command": "npm run check",
+      "exitCode": 0,
+      "status": "PASS",
+      "evidence": "check.log",
+      "mainTests": 318,
+      "workerTests": 5
+    },
+    {
+      "command": "npm run web:export",
+      "exitCode": 0,
+      "status": "PASS",
+      "evidence": "web-export.log",
+      "note": "4 routes; not real browser/WebGL performance proof."
+    },
+    {
+      "command": "npm run android:bundle",
+      "exitCode": 0,
+      "status": "PASS",
+      "evidence": "android-export.log",
+      "note": "Hermes and DOM JavaScript export, not APK/device launch."
+    },
+    {
+      "command": "npm run test:web:production -- --list",
+      "exitCode": 0,
+      "status": "LISTED ONLY",
+      "evidence": "production-list.log",
+      "scenarios": 50,
+      "newScenarios": 6
+    },
+    {
+      "command": "chromium.launch({headless:true,timeout:5000})",
+      "exitCode": 2,
+      "status": "BLOCKED",
+      "evidence": "browser-launch.log",
+      "reason": "sandbox_host_linux.cc: Operation not permitted",
+      "screenshots": 0
+    },
+    {
+      "command": "npm run environment:check",
+      "exitCode": 1,
+      "status": "BLOCKED",
+      "evidence": "environment.log",
+      "reason": "java/adb ENOENT, Android SDK/ANDROID_HOME absent"
+    },
+    {
+      "command": "node scripts/qa/coverage.mjs docs/reports/turkey-discovery/catalog-coverage.json",
+      "exitCode": 0,
+      "status": "PASS",
+      "evidence": "catalog-coverage.json",
+      "note": "Bootstrap catalogue count; separate world coverage in scene-proof.json."
+    },
+    {
+      "command": "Real local source application/feature inspection, 16 selected years",
+      "exitCode": 0,
+      "status": "PASS",
+      "evidence": "scene-proof.json",
+      "note": "Host/data proof, not GPU or independent historical certification."
+    },
+    {
+      "command": "npm audit",
+      "status": "NOT RUN",
+      "note": "No dependency change; current vulnerabilities were not claimed."
+    },
+    {
+      "command": "Physical Android E2E / performance / TalkBack",
+      "status": "UNVERIFIED ON DEVICE"
+    }
+  ],
+  "evidence": [
+    {
+      "file": "android-export.log",
+      "bytes": 59877,
+      "sha256": "1bec9d1285f83bb60b814927bb25ddaf13cf9aeb63d7c4958ca75b85c2073051"
+    },
+    {
+      "file": "browser-launch.log",
+      "bytes": 4357,
+      "sha256": "10ce20cc1b45e4bda6b74c94855a00b17a6bdfe977c1784552e0c558c1b341a3"
+    },
+    {
+      "file": "catalog-coverage.json",
+      "bytes": 419778,
+      "sha256": "2b271f43ba5fa98cdba239d8513d2aebe9cc5e4efc28569de8c62dac551b8393"
+    },
+    {
+      "file": "check-before-format.log",
+      "bytes": 38989,
+      "sha256": "0577972c73f56b490585a86ea91b55af8ec690b4a409adb9d50a7b81f2b40754"
+    },
+    {
+      "file": "check-initial.log",
+      "bytes": 41206,
+      "sha256": "adbd3936d9cc5dfcf9bfac18b5c7a9bb6055dff4beeb32d669e1af670d087dad"
+    },
+    {
+      "file": "check.log",
+      "bytes": 38909,
+      "sha256": "3b9c77957319886c0673e2ec2503afd92143cf805c0fb6fb81f4cd5298143955"
+    },
+    {
+      "file": "chunks-prepare.log",
+      "bytes": 155,
+      "sha256": "88d4f090d597f8fa157b41c56f38aeafac5f12d11e64cd65be37285ece9067c9"
+    },
+    {
+      "file": "coverage.log",
+      "bytes": 96,
+      "sha256": "e69e4326fb081d555ed136057f81b5765aedca7a9c8265ad1a0cd6840c66cf0c"
+    },
+    {
+      "file": "environment.log",
+      "bytes": 405,
+      "sha256": "187cddfaeb3517e30fb8c83434f1e5ebf2c019908fc92980c9bafe1ffe77e10d"
+    },
+    {
+      "file": "new-tests-early.log",
+      "bytes": 901,
+      "sha256": "82bfff9f51c3136310f0965c12032b8aaab6945e77552dbab5fdfe2deacdeed1"
+    },
+    {
+      "file": "persons-tests.log",
+      "bytes": 2341,
+      "sha256": "cbec26f055f0f8537d0f1449943c8dfe22cb01f1995ce67789e40c153f9e0476"
+    },
+    {
+      "file": "pilot-prepare.log",
+      "bytes": 414,
+      "sha256": "3e3793c25e548da859cd7610e36e1231d9bb21d1b0055d5cef45c0bb72abf796"
+    },
+    {
+      "file": "production-list.log",
+      "bytes": 6926,
+      "sha256": "4786beefb27dfbcfb8ce23a825238880a3589de1d9c90d0f49335945778b5cd8"
+    },
+    {
+      "file": "release-tests-final.log",
+      "bytes": 674,
+      "sha256": "b92b67b4398c490abf468d54d2bdb9b859f9a9f24a5a7d37696577731354715d"
+    },
+    {
+      "file": "renderer-tests.log",
+      "bytes": 2361,
+      "sha256": "59377305f99fe7a4f76d993a89bcb42b8ecffced743ecb230f382accdb363b49"
+    },
+    {
+      "file": "scene-proof.json",
+      "bytes": 5973,
+      "sha256": "ce38fa8103e2c50ac550fb237a8d74c9298eaad917ce7a390ef042b30f7b7d26"
+    },
+    {
+      "file": "web-export.log",
+      "bytes": 56873,
+      "sha256": "a5e8012956039cff4914edfecd8a84838ddc4be1820dae8ed22d30ad254d1ab3"
+    },
+    {
+      "file": "world-tests-early.log",
+      "bytes": 2536,
+      "sha256": "f61752cdbf4e8cb1820c4caeed0641928647c046457f93ea0cf3954809e2a2bc"
+    }
+  ],
+  "sources": [
+    {
+      "file": "data/pilot/raw/discovery-facts.json",
+      "bytes": 16990,
+      "sha256": "df2bb8681702b23edd8b83d150bc70111786c4859d9234b71224983ecc27a71a"
+    },
+    {
+      "file": "scripts/pilot/discovery.mjs",
+      "bytes": 8515,
+      "sha256": "63108e8ee6db80f9c83ef3a3ea7e726042d897b298258687e25487b310170aad"
+    },
+    {
+      "file": "src/data/generated/pilot.ts",
+      "bytes": 708002,
+      "sha256": "5482b0004dc64678d1f915abe8e46935e75940ca2afa25ce615d73b255b5b617"
+    },
+    {
+      "file": "src/places/generated/modern-cities.ts",
+      "bytes": 2200,
+      "sha256": "93815d97a24b922477a1eb7e589cf5ae2bfc78b1aa1a7a70015d6d9d2d7e758e"
+    },
+    {
+      "file": "src/map-contract/protocol.ts",
+      "bytes": 13064,
+      "sha256": "70c55ba9a78773e8e961cb849a1c77ec65a2238b4b8c7286718aa86bb723154f"
+    },
+    {
+      "file": "src/map/globe/renderer.ts",
+      "bytes": 26316,
+      "sha256": "2c895967346c96f37fcf24d398e5790dddb505f8736b5c99f9a9677312733ec1"
+    },
+    {
+      "file": "src/map/globe/data-loader.ts",
+      "bytes": 2325,
+      "sha256": "afd4cc8efc98192e022c32ccbe9e2622f756af3de1b2c8d71f9dd3d6660aae7e"
+    },
+    {
+      "file": "src/map/globe/application-loader.ts",
+      "bytes": 495,
+      "sha256": "c40657d3ec80d7441843da80fc1511f7934ebd0ee24f3327eadd8e0ff516ae29"
+    },
+    {
+      "file": "src/map/globe/person-markers.ts",
+      "bytes": 6629,
+      "sha256": "5f350d2799020cecea8f77b0c43ca585175b7b5015e577a28c76ea4cd4709e00"
+    },
+    {
+      "file": "src/map/globe/modern-city-markers.ts",
+      "bytes": 3785,
+      "sha256": "1e44508e88bd64e0840d7f20b34ab06b62b5fcb556365a9a5666eea73024fd63"
+    },
+    {
+      "file": "src/persons/clustering.ts",
+      "bytes": 2145,
+      "sha256": "57ba9f668e201ea217af79cdd57f645ef9b29431dfd9a83c85b974cc2a34b34e"
+    },
+    {
+      "file": "src/domain/schemas.ts",
+      "bytes": 12545,
+      "sha256": "edf81db3d157b9882d6a167afc9911aa1023ec81acba3b4bc679dc2831f4a622"
+    },
+    {
+      "file": "assets/licenses/Wikidata-discovery-NOTICE.txt",
+      "bytes": 412,
+      "sha256": "675f6b3e0b26a611af287d1f00e122f4559f828a1c644e25ab4a6b65bc80f9ca"
+    },
+    {
+      "file": "tests/unit/discovery-content.test.mjs",
+      "bytes": 10071,
+      "sha256": "a81aad9d3f5d22fc82682346203e69ed5600e299ce90e958f8c2a6a97008a344"
+    },
+    {
+      "file": "tests/unit/renderer.test.mjs",
+      "bytes": 37145,
+      "sha256": "8adbe632a032f003f2c66310d3ad161f2cf4467a52b61460d4507cdedbc5f8f4"
+    },
+    {
+      "file": "tests/unit/world.test.mjs",
+      "bytes": 25966,
+      "sha256": "99476d4e212a61c0b617a7edccac232eb2fd0871c5302617ca000b8f28c668d2"
+    },
+    {
+      "file": "tests/web/discovery-content.spec.ts",
+      "bytes": 3197,
+      "sha256": "e1283daf67a619716e70b483a716006b2c7f4803e546f2fa1fa3e7c4405a8336"
+    },
+    {
+      "file": "src/data/chunks/generated/manifest.ts",
+      "bytes": 165843,
+      "sha256": "d3c28c64aae35f1a54abbf882865b73e098f7c964169d65c2ef5c38f73307768"
+    }
+  ],
+  "limitations": [
+    "No screenshots",
+    "No browser E2E executed; list is not PASS",
+    "No physical Android",
+    "Partial people locations, war and modern city scope",
+    "No new product phase; release NO-GO persists"
+  ]
+}

@@ -1,0 +1,107 @@
+Faz 01 yerel kontrol kaydi
+Tarih: 2026-10-15
+Tam uygulama kabul durumu: BLOCKED
+
+[unit-npm] exit=0
+$ npm test
+npm notice run tarih-atlasi@0.1.0 test
+npm notice run node tests/unit/foundation.test.mjs
+✔ başlangıç kataloğu gerçek veya sentetik tarihî kayıt içermez (0.61046ms)
+✔ ilk dil Türkçedir; uygulama metinleri anahtar yerine görünür metin döndürür (0.168344ms)
+✔ harita ve boş veri metinleri çalışan küre veya tarihî yokluk iddiası taşımaz (0.124131ms)
+✔ hata, boş ve yükleme durumlarının farklı başlıkları vardır (0.08568ms)
+✔ tema metin ve düğme renkleri en az 4.5:1 kontrast sağlar (0.222936ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5.22118
+
+[unit-details] exit=0
+$ node tests/unit/foundation.test.mjs
+✔ başlangıç kataloğu gerçek veya sentetik tarihî kayıt içermez (0.593968ms)
+✔ ilk dil Türkçedir; uygulama metinleri anahtar yerine görünür metin döndürür (0.174215ms)
+✔ harita ve boş veri metinleri çalışan küre veya tarihî yokluk iddiası taşımaz (0.121587ms)
+✔ hata, boş ve yükleme durumlarının farklı başlıkları vardır (0.081322ms)
+✔ tema metin ve düğme renkleri en az 4.5:1 kontrast sağlar (0.216945ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5.127576
+
+[core-types] exit=0
+$ node /tmp/tarih-atlasi-tools/typescript/lib/tsc.js --ignoreConfig --strict --noEmit --allowImportingTsExtensions --module esnext --target es2022 --moduleResolution bundler tests/types/i18n.test-d.ts src/theme/tokens.ts src/data/catalog.ts
+
+
+[lint] exit=127
+$ npm run lint
+npm notice run tarih-atlasi@0.1.0 lint
+npm notice run eslint . --max-warnings 0
+sh: line 1: eslint: command not found
+
+[typecheck] exit=127
+$ npm run typecheck
+npm notice run tarih-atlasi@0.1.0 typecheck
+npm notice run tsc --noEmit && tsc --noEmit -p tsconfig.web.json
+sh: line 1: tsc: command not found
+
+[web-start] exit=127
+$ npm run web -- --host localhost --port 8081
+npm notice run tarih-atlasi@0.1.0 web
+npm notice run expo start --web --host localhost --port 8081
+sh: line 1: expo: command not found
+
+[android-js-export] exit=127
+$ npm run android:bundle
+npm notice run tarih-atlasi@0.1.0 android:bundle
+npm notice run expo export --platform android --output-dir dist-android
+sh: line 1: expo: command not found
+
+[web-smoke] exit=127
+$ npm run test:web
+npm notice run tarih-atlasi@0.1.0 test:web
+npm notice run playwright test
+sh: line 1: playwright: command not found
+
+[environment] exit=1
+$ npm run environment:check
+npm notice run tarih-atlasi@0.1.0 environment:check
+npm notice run node scripts/check-environment.mjs
+PASS: Node — v26.11.1
+PASS: npm — 12.2.0
+BLOCKED: Kilit dosyası — Tekrarlanabilir kurulum için package-lock.json gerekli
+BLOCKED: java — komut çalıştırılamadı: ENOENT
+BLOCKED: adb — komut çalıştırılamadı: ENOENT
+BLOCKED: Android SDK — ANDROID_HOME mevcut ve erişilebilir olmalı
+
+[dependencies] exit=1
+$ npm run dependencies:report
+npm notice run tarih-atlasi@0.1.0 dependencies:report
+npm notice run node scripts/dependency-report.mjs
+Bağımlılık raporu: 0/19 tam sürüm kurulu.
+
+[format-cached-tool] exit=0
+$ node /tmp/tarih-atlasi-tools/prettier/bin/prettier.cjs --check .
+Checking formatting...
+All matched files use Prettier code style!
+
+[config-check] exit=127
+$ npm run config:check
+npm notice run tarih-atlasi@0.1.0 config:check
+npm notice run expo config --type public
+sh: line 1: expo: command not found
+
+
+[format-project-command] exit=127
+$ npm run format:check
+npm notice run tarih-atlasi@0.1.0 format:check
+npm notice run prettier --check .
+sh: line 1: prettier: command not found
+

@@ -1,0 +1,153 @@
+{
+  "kind": "TOKEN_MATH_ONLY_NOT_SCREEN_AUDIT",
+  "measuredAt": "2026-10-16T13:58:35.498Z",
+  "pairs": [
+    {
+      "foreground": "text",
+      "background": "surface",
+      "ratio": 15.229391509645145,
+      "normalTextThreshold": 4.5
+    },
+    {
+      "foreground": "muted",
+      "background": "surface",
+      "ratio": 8.89102530588577,
+      "normalTextThreshold": 4.5
+    },
+    {
+      "foreground": "accent",
+      "background": "surface",
+      "ratio": 10.054596396828535,
+      "normalTextThreshold": 4.5
+    },
+    {
+      "foreground": "focus",
+      "background": "surface",
+      "ratio": 15.229391509645145,
+      "normalTextThreshold": 4.5
+    },
+    {
+      "foreground": "danger",
+      "background": "surface",
+      "ratio": 10.038551848642042,
+      "normalTextThreshold": 4.5
+    },
+    {
+      "foreground": "info",
+      "background": "surface",
+      "ratio": 10.344559455492082,
+      "normalTextThreshold": 4.5
+    },
+    {
+      "foreground": "warning",
+      "background": "surface",
+      "ratio": 11.092916735671102,
+      "normalTextThreshold": 4.5
+    },
+    {
+      "foreground": "success",
+      "background": "surface",
+      "ratio": 10.862323311535564,
+      "normalTextThreshold": 4.5
+    },
+    {
+      "foreground": "text",
+      "background": "surfaceRaised",
+      "ratio": 13.7579048033063,
+      "normalTextThreshold": 4.5
+    },
+    {
+      "foreground": "muted",
+      "background": "surfaceRaised",
+      "ratio": 8.031961072423298,
+      "normalTextThreshold": 4.5
+    },
+    {
+      "foreground": "accent",
+      "background": "surfaceRaised",
+      "ratio": 9.083106175031723,
+      "normalTextThreshold": 4.5
+    },
+    {
+      "foreground": "focus",
+      "background": "surfaceRaised",
+      "ratio": 13.7579048033063,
+      "normalTextThreshold": 4.5
+    },
+    {
+      "foreground": "danger",
+      "background": "surfaceRaised",
+      "ratio": 9.068611875215343,
+      "normalTextThreshold": 4.5
+    },
+    {
+      "foreground": "info",
+      "background": "surfaceRaised",
+      "ratio": 9.34505256698324,
+      "normalTextThreshold": 4.5
+    },
+    {
+      "foreground": "warning",
+      "background": "surfaceRaised",
+      "ratio": 10.021102441532959,
+      "normalTextThreshold": 4.5
+    },
+    {
+      "foreground": "success",
+      "background": "surfaceRaised",
+      "ratio": 9.812789300754094,
+      "normalTextThreshold": 4.5
+    },
+    {
+      "foreground": "text",
+      "background": "background",
+      "ratio": 16.9413561503963,
+      "normalTextThreshold": 4.5
+    },
+    {
+      "foreground": "muted",
+      "background": "background",
+      "ratio": 9.890482239805962,
+      "normalTextThreshold": 4.5
+    },
+    {
+      "foreground": "accent",
+      "background": "background",
+      "ratio": 11.18485255299163,
+      "normalTextThreshold": 4.5
+    },
+    {
+      "foreground": "focus",
+      "background": "background",
+      "ratio": 16.9413561503963,
+      "normalTextThreshold": 4.5
+    },
+    {
+      "foreground": "danger",
+      "background": "background",
+      "ratio": 11.167004406863965,
+      "normalTextThreshold": 4.5
+    },
+    {
+      "foreground": "info",
+      "background": "background",
+      "ratio": 11.507410906302482,
+      "normalTextThreshold": 4.5
+    },
+    {
+      "foreground": "warning",
+      "background": "background",
+      "ratio": 12.339892440658287,
+      "normalTextThreshold": 4.5
+    },
+    {
+      "foreground": "success",
+      "background": "background",
+      "ratio": 12.083377574536065,
+      "normalTextThreshold": 4.5
+    }
+  ],
+  "limitations": [
+    "No composite map/disabled/hover/border or actual browser/native contrast/focus check."
+  ]
+}

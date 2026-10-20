@@ -1,0 +1,32 @@
+[
+  {
+    "path": "data/staging/map-sources/ne_10m_lakes.geojson",
+    "bytes": 5043554,
+    "sha256": "2d036f53dedec578001c5c30c2959ee7d4eebc1306900fa4367c49929ec8f2d9"
+  },
+  {
+    "path": "data/staging/map-sources/ne_10m_lakes.geojson.receipt.json",
+    "bytes": 469,
+    "sha256": "aa39b63fbdf161bfbef7bfcfcb5ddb884f8c836b9636ee416a02ab59146fc5d5"
+  },
+  {
+    "path": "data/staging/map-sources/ne_10m_land.geojson",
+    "bytes": 10157965,
+    "sha256": "1ac90796408bc6ad6911d69448485d3c4dbf2190370080368a09976e1c9f7416"
+  },
+  {
+    "path": "data/staging/map-sources/ne_10m_land.geojson.receipt.json",
+    "bytes": 469,
+    "sha256": "ad2d987f5cdd951648bc144377f7dac5fc9891e1042b70d5d2b69ff7968c6ae8"
+  },
+  {
+    "path": "data/staging/map-sources/ne_10m_rivers_lake_centerlines.geojson",
+    "bytes": 7307743,
+    "sha256": "bb854a900ecbd3b408df46d5e16e3e0f974ba55993f9d8b5c26e855273c0905a"
+  },
+  {
+    "path": "data/staging/map-sources/ne_10m_rivers_lake_centerlines.geojson.receipt.json",
+    "bytes": 487,
+    "sha256": "1baaf7e3912ef0416befdd248ae6204aadabf30238c0035c605073b5c3e10179"
+  }
+]

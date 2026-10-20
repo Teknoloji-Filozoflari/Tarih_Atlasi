@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-21",
+  "environment": {
+    "node": "v26.11.1",
+    "npm": "12.2.1",
+    "lockedNpm": "12.2.0",
+    "node24": "NOT TESTED LOCALLY"
+  },
+  "results": [
+    {
+      "command": "npm run check",
+      "status": "PASS",
+      "exitCode": 0,
+      "mainTests": 414,
+      "workerTests": 5,
+      "log": "check.txt"
+    },
+    {
+      "command": "npm run web:export",
+      "status": "PASS",
+      "exitCode": 0,
+      "routes": 4,
+      "placePacks": 16102,
+      "placeBytes": 645992949,
+      "log": "web-export.txt"
+    },
+    {
+      "command": "npm run release:stage && npm run release:verify && npm run release:pack",
+      "status": "PASS",
+      "exitCode": 0,
+      "output": "/home/s-oktay/Belgeler/Tarih_Atlası/.release/web",
+      "files": 18474,
+      "bytes": 890123649,
+      "version": "0.1.0-preview.1",
+      "revision": "unknown",
+      "log": "archive.txt"
+    },
+    {
+      "command": "docker compose config --quiet",
+      "status": "PASS",
+      "exitCode": 0,
+      "scope": "Configuration only"
+    },
+    {
+      "command": "sh -n scripts/distribution/start.sh docker/Kur.sh",
+      "status": "PASS",
+      "exitCode": 0,
+      "scope": "Syntax only"
+    },
+    {
+      "command": "npm run test:web:production",
+      "status": "BLOCKED",
+      "exitCode": 1,
+      "reason": "webServer failed to bind; direct web:serve EPERM",
+      "executedTests": 0,
+      "screenshots": 0,
+      "log": "browser.txt"
+    },
+    {
+      "command": "docker build -f docker/Dockerfile.release ...",
+      "status": "BLOCKED",
+      "exitCode": 1,
+      "reason": "Docker socket permission denied",
+      "log": "docker-build.txt"
+    },
+    {
+      "command": "npm audit --json",
+      "status": "BLOCKED",
+      "exitCode": 1,
+      "reason": "Registry DNS EAI_AGAIN",
+      "log": "npm-audit.txt"
+    },
+    {
+      "command": "git -C .publish/repository push -u origin main",
+      "status": "BLOCKED",
+      "reason": "Terminal GitHub DNS unavailable; terminal gh authentication invalid",
+      "exitCode": 128,
+      "log": "push.txt"
+    },
+    {
+      "command": "Physical Android and Windows startup",
+      "status": "NOT TESTED"
+    },
+    {
+      "command": "node tests/run.mjs (clean source snapshot)",
+      "status": "PASS",
+      "exitCode": 0,
+      "tests": 414,
+      "dependencySetup": "Reused existing locked installation via temporary symlink, removed afterwards. Fresh npm ci NOT TESTED.",
+      "log": "snapshot-tests.txt"
+    },
+    {
+      "command": "Own tar.gz extraction + packaged verifier / HTTP resolver",
+      "status": "PASS",
+      "exitCode": 0,
+      "files": 18474,
+      "bytes": 890123649,
+      "archiveBytes": 197767374,
+      "log": "archive-roundtrip.json"
+    }
+  ],
+  "releaseDecision": "NO-GO stable; preview workflow prepares draft only"
+}

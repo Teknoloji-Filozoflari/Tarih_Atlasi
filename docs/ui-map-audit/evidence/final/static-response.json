@@ -1,0 +1,45 @@
+{
+  "kind": "LOCAL_FUNCTION_CALL_NOT_HTTP_OR_BROWSER",
+  "routes": [
+    {
+      "url": "/",
+      "status": 200,
+      "bytes": 28187,
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Content-Security-Policy": "default-src 'self'; script-src 'self' 'sha256-67fhrP0+BkBqmgGGXTtgiVO/9EQs3QruYNU/7fnRkI8='; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self' blob:; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+        "Referrer-Policy": "no-referrer",
+        "X-Content-Type-Options": "nosniff"
+      },
+      "sha256": "85928960f21c5d7c4b951f7b2e96beaa8ce472f3da091aa9b8c028f56d5635fc"
+    },
+    {
+      "url": "/about",
+      "status": 200,
+      "bytes": 25112,
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Content-Security-Policy": "default-src 'self'; script-src 'self' 'sha256-67fhrP0+BkBqmgGGXTtgiVO/9EQs3QruYNU/7fnRkI8='; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self' blob:; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+        "Referrer-Policy": "no-referrer",
+        "X-Content-Type-Options": "nosniff"
+      },
+      "sha256": "17084e1d1b51e65ebeda810ae3b7938a908713233e3723ad6e67a2ff9690f020"
+    },
+    {
+      "url": "/route-that-does-not-exist",
+      "status": 404,
+      "bytes": 20397,
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "Content-Security-Policy": "default-src 'self'; script-src 'self' 'sha256-67fhrP0+BkBqmgGGXTtgiVO/9EQs3QruYNU/7fnRkI8='; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self' blob:; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+        "Referrer-Policy": "no-referrer",
+        "X-Content-Type-Options": "nosniff"
+      },
+      "sha256": "f2e36efbb9fa80b969b3e9130e08b894687b3609823d7709e1463d5ed09d1e96"
+    }
+  ],
+  "notice": "Exercises the exported HTML/header generator against actual dist files. Server bind, actual CSP execution, WebGL and browser rendering remain unverified."
+}

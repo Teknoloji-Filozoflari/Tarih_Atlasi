@@ -1,0 +1,85 @@
+Faz 02 prepared assets validation — 2026-10-15
+User ran npm ci and globe:prepare in host terminal successfully.
+
+[full-check] exit=1
+npm notice run tarih-atlasi@0.1.0 check
+npm notice run npm run lint && npm run typecheck && npm test && npm run test:worker && npm run globe:check && npm run format:check
+npm notice run tarih-atlasi@0.1.0 lint
+npm notice run eslint . --max-warnings 0
+npm notice run tarih-atlasi@0.1.0 typecheck
+npm notice run tsc --noEmit && tsc --noEmit -p tsconfig.web.json
+npm notice run tarih-atlasi@0.1.0 test
+npm notice run node tests/run.mjs
+✔ başlangıç kataloğu gerçek veya sentetik tarihî kayıt içermez (0.713149ms)
+✔ ilk dil Türkçedir; uygulama metinleri anahtar yerine görünür metin döndürür (0.180266ms)
+✔ prototip ve boş veri metinleri doğrulanmamış tarihî iddia taşımaz (0.128329ms)
+✔ hata, boş ve yükleme durumlarının farklı başlıkları vardır (0.073527ms)
+✔ tema metin ve düğme renkleri en az 4.5:1 kontrast sağlar (0.200464ms)
+✔ kamera sözleşmesi kutupları kabul eder; sonlu ve sınırlı değerler ister (0.165309ms)
+✔ köprü reset/set komutlarını ve sentetik işareti yönlerine göre doğrular (0.619385ms)
+✔ köprü hatalı JSON, sürüm, oturum, ek anahtar, kod ve büyük UTF-8 yüklerini reddeder (0.373877ms)
+✔ navigasyon yalnız Expo bootstrap dosyası veya geliştirme DOM origin/path kabul eder (0.274892ms)
+✔ fiziksel veri hazırlığı özellikleri atar; yanlış geometrileri ve sınırsız yükü reddeder (0.356134ms)
+✔ unmount temizliği bir kez, ters sırayla çalışır; geç async kaynak ve hata diğer temizliği engellemez (0.162974ms)
+✔ yıl seçimi MÖ 2000/günümüz uçlarını korur; sıfır ve hatalı girdiyi reddeder (0.133118ms)
+✔ küçük/yatay telefon ve büyük metin kompakt düzene döner (0.072124ms)
+✔ beş bağımsız katman renk dışında benzersiz biçim ve Türkçe ada sahiptir (0.083997ms)
+✔ katman işaretleri panel zemini üzerinde 4.5:1 kontrastı korur (0.114784ms)
+✔ renderer load sırasında marker hatasını yakalar ve kaynakları bırakır (1.329127ms)
+✔ yinelenen load tek marker kurar; dispose sonrası listener/komut çalışmaz (0.51494ms)
+✔ context kaybı bir kez bildirilir; map/worker/dinleyiciler bırakılır (0.415214ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10.482155
+npm notice run tarih-atlasi@0.1.0 test:worker
+npm notice run node tests/unit/worker.test.mjs
+✔ worker kontrolü import sözcüğü içeren yorum/metni dış bağımlılık sanmaz (4.234722ms)
+✔ worker kontrolü gerçek statik/dinamik import ve re-export işlemlerini reddeder (1.205376ms)
+✔ boş veya parse edilemeyen worker hazırlanmaz (0.388645ms)
+✔ fiziksel worker isteğe bağlı dış modül yüklemeyi kapatır, statik bağımlılığı reddeder (5.330254ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 14.44997
+npm notice run tarih-atlasi@0.1.0 globe:check
+npm notice run node scripts/check-globe-assets.mjs
+PASS — 127 physical land features; source/data/worker hashes and bundled notices match. No GPU/runtime claim.
+npm notice run tarih-atlasi@0.1.0 format:check
+npm notice run prettier --check .
+Checking formatting...
+[warn] src/map/globe/generated/physical-land.ts
+[warn] Code style issues found in the above file. Run Prettier with --write to fix.
+
+
+[dependencies] exit=0
+Bağımlılık raporu: 23/23 tam sürüm kurulu.
+
+
+[coverage] exit=0
+{"features":127,"coordinates":5143,"originalLandBytes":138160,"workerBytes":654885,"historicalRecords":0}
+
+
+[final correction]
+Initial format check failed because URL.pathname retained escaped Turkish characters while resolving config. Fixed with fileURLToPath. Re-ran globe:prepare from verified local cache: exit 0. Re-ran full npm run check: exit 0 (lint, native/web strict TS, 18/18 main tests, 4/4 worker tests, globe asset hash/notice integrity, formatter).
+
+[exports with prepared data and pinned installed native pair]
+Expo web export exit 0: 814 modules, static routes generated; entry ~2 MB, MapLibre ~1.1 MB, CSS ~83 KB (CLI rounded uncompressed figures, not total gzip/APK size).
+Expo Android+DOM JS export exit 0: Android 1289 modules, DOM 152 modules, Hermes ~2.8 MB, packaged DOM files generated. Not an APK/device result.
+
+[browser]
+Playwright Chromium launch failed: sandbox_host_linux.cc shutdown: Operation not permitted (1). No browser screenshot or WebGL interaction success claimed.
+
+[audit]
+User-provided docs/reports/npm-audit.json parsed: 29 affected package entries, moderate=10, high=19, critical=0; 4 unique GHSA records. No forced dependency downgrade or suppression applied.
+
+[last rights check]
+Material Symbols 0.4.50 and MIT AND Apache-2.0 package label pinned in preparer; full original font/wrapper notices preserved. globe:prepare, globe:check, lint and format:check pass after this guard.

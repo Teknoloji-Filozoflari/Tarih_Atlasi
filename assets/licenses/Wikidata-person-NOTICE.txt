@@ -1,0 +1,16 @@
+Wikidata structured-data person pilot — CC0-1.0
+https://www.wikidata.org/wiki/Wikidata:Licensing
+Q5582 revision 2556738621; Q3280282 revision 2460715196.
+Reviewed 2026-10-16 through the browser; stored as editorial fact extraction,
+NOT original HTTP/API JSON. No article prose or Wikimedia images redistributed.
+The linked museum reference was not independently retrieved. Medium confidence;
+month-qualified relationship and present-day house point; no exact historical GPS
+or day-by-day presence claim. DMS converted to GeoJSON longitude/latitude.
+Project-authored Turkish factual summary; no automatic translation service.
+No Wikipedia URL is inferred from names. Historical Basemaps remains blocked.
+
+Publication correction, 2026-10-16: residence and house geometry are WITHHELD.
+The archival extraction above is not endorsed as dated historical location.
+Independent institutional review: https://archive.artic.edu/van-gogh-bedrooms/timeline
+1879 Francq and 1880 Decrucq references must not become one modern house point.
+Production v0.4.1 removes both geometries; metadata/evidence and raw hashes remain.

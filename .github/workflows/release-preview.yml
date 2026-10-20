@@ -1,0 +1,96 @@
+name: Teknik önizleme paketleri
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Önizleme sürümü (örnek: 0.1.0-preview.1)'
+        required: true
+        default: '0.1.0-preview.1'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-preview
+  cancel-in-progress: false
+
+jobs:
+  package:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    permissions:
+      contents: write
+    env:
+      EXPO_NO_TELEMETRY: '1'
+      EXPO_OFFLINE: '1'
+      ATLAS_RELEASE_VERSION: ${{ inputs.version }}
+      ATLAS_RELEASE_REVISION: ${{ github.sha }}
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm install --global npm@12.2.0
+      - name: Sürüm ve hedefi doğrula
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          node --input-type=module <<'JS'
+          import { readFileSync } from 'node:fs';
+          const p = JSON.parse(readFileSync('package.json'));
+          const v = process.env.ATLAS_RELEASE_VERSION;
+          if (!/^\d+\.\d+\.\d+-preview\.[1-9]\d*$/.test(v) || !v.startsWith(p.version + '-')) process.exit(1);
+          JS
+          if gh release view "v$ATLAS_RELEASE_VERSION" >/dev/null 2>&1; then
+            echo 'Bu sürüm zaten var; üzerine yazılmayacak.'
+            exit 1
+          fi
+      - run: npm ci
+      - run: npm run check
+      - run: npm run web:export
+      - run: npx playwright install --with-deps chromium
+      - name: Gerçek web kullanıcı akışları
+        run: npm run test:web:production
+      - run: npm run release:stage && npm run release:verify
+      - name: Docker imajını oluştur ve içeriğini doğrula
+        run: |
+          docker build --platform linux/amd64 -f docker/Dockerfile.release \
+            --build-arg VERSION="$ATLAS_RELEASE_VERSION" \
+            --build-arg REVISION="$ATLAS_RELEASE_REVISION" \
+            -t "tarih-atlasi:$ATLAS_RELEASE_VERSION" .release/web
+          docker run --rm --read-only --cap-drop ALL "tarih-atlasi:$ATLAS_RELEASE_VERSION" node scripts/verify.mjs
+          docker run -d --name atlas-release --read-only --cap-drop ALL \
+            --security-opt no-new-privileges:true -p 127.0.0.1:8081:8081 "tarih-atlasi:$ATLAS_RELEASE_VERSION"
+          node scripts/distribution/smoke.mjs
+          docker stop atlas-release
+      - name: İndirilebilir paketler ve SHA256
+        run: |
+          mkdir -p .release/out .release/docker
+          tar -C .release/web -czf ".release/out/tarih-atlasi-web-$ATLAS_RELEASE_VERSION.tar.gz" .
+          docker save "tarih-atlasi:$ATLAS_RELEASE_VERSION" | gzip -1 > .release/docker/tarih-atlasi-image.tar.gz
+          cp .release/web/compose.yaml .release/web/README.md .release/docker/
+          cp docker/Kur.sh docker/Kur.cmd .release/docker/
+          tar -C .release/docker -czf ".release/out/tarih-atlasi-docker-linux-amd64-$ATLAS_RELEASE_VERSION.tar.gz" .
+          cd .release/out
+          sha256sum *.tar.gz > SHA256SUMS
+      - name: Taslak önizleme Release oluştur
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "v$ATLAS_RELEASE_VERSION" .release/out/* \
+            --target "$ATLAS_RELEASE_REVISION" --draft --prerelease \
+            --title "Tarih Atlası $ATLAS_RELEASE_VERSION — Teknik önizleme" \
+            --notes-file docs/release-notes-preview.md
+      - name: Test kanıtları
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: preview-test-evidence
+          path: |
+            test-results/
+            playwright-report/
+          if-no-files-found: ignore

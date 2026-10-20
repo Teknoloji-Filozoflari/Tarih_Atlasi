@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-17",
+  "scope": "Requested matte political fills and year-stable colors",
+  "productionDataChanged": false,
+  "dependenciesChanged": false,
+  "screenshots": 0,
+  "android": "UNVERIFIED ON DEVICE",
+  "checks": [
+    {
+      "command": "git status --short",
+      "status": "BLOCKED",
+      "exitCode": 128,
+      "reason": "No visible Git worktree; no reset/checkout"
+    },
+    {
+      "command": "node tests/unit/politics.test.mjs",
+      "status": "PASS",
+      "exitCode": 0,
+      "tests": 16,
+      "log": "politics-targeted.log"
+    },
+    {
+      "command": "node tests/unit/world.test.mjs (initial)",
+      "status": "FAIL_FIXED",
+      "exitCode": 1,
+      "reason": "New test used plural instead of actual HistoricalView property names; corrected without lowering assertion",
+      "log": "world-targeted-initial.log"
+    },
+    {
+      "command": "npm test (initial)",
+      "status": "FAIL_FIXED",
+      "exitCode": 1,
+      "log": "tests-initial.log"
+    },
+    {
+      "command": "npm test (final)",
+      "status": "PASS",
+      "exitCode": 0,
+      "tests": 295,
+      "failed": 0,
+      "skipped": 0,
+      "log": "tests.log"
+    },
+    {
+      "command": "npm run test:worker",
+      "status": "PASS",
+      "exitCode": 0,
+      "tests": 5,
+      "log": "worker.log"
+    },
+    {
+      "command": "npm run lint",
+      "status": "PASS",
+      "exitCode": 0,
+      "log": "lint.log"
+    },
+    {
+      "command": "npm run typecheck",
+      "status": "PASS",
+      "exitCode": 0,
+      "scope": "native and web strict TypeScript",
+      "log": "typecheck.log"
+    },
+    {
+      "command": "npm run format:check",
+      "status": "PASS",
+      "exitCode": 0,
+      "log": "format.log"
+    },
+    {
+      "command": "npm run world:check",
+      "status": "PASS",
+      "exitCode": 0,
+      "sourceRows": 13379,
+      "assets": 374,
+      "bytes": 120664555,
+      "log": "world-check.log"
+    },
+    {
+      "command": "npm run web:export",
+      "status": "PASS",
+      "exitCode": 0,
+      "routes": 4,
+      "log": "web-export.log"
+    },
+    {
+      "command": "npm run android:bundle",
+      "status": "PASS",
+      "exitCode": 0,
+      "scope": "Hermes and shared DOM JS export; not APK or physical device",
+      "log": "android-export.log"
+    },
+    {
+      "command": "Node MapLibre expression/style and complete generated color range contrast probe",
+      "status": "PASS",
+      "exitCode": 0,
+      "log": "style-probe.json"
+    },
+    {
+      "command": "Playwright chromium.launch({headless:true,timeout:15000})",
+      "status": "BLOCKED",
+      "exitCode": 2,
+      "reason": "Sandbox Operation not permitted; no screenshot or browser E2E completed",
+      "log": "browser.log"
+    },
+    {
+      "command": "Physical Android, TalkBack and FPS/GPU measurements",
+      "status": "NOT_TESTED",
+      "reason": "No physical device verification available"
+    }
+  ]
+}

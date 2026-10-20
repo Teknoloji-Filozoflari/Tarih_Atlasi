@@ -1,0 +1,14 @@
+name: tarih-atlasi
+services:
+  atlas:
+    build: .
+    image: tarih-atlasi:local
+    ports:
+      - '127.0.0.1:${ATLAS_PORT:-8081}:8081'
+    read_only: true
+    cap_drop: [ALL]
+    security_opt:
+      - no-new-privileges:true
+    init: true
+    restart: unless-stopped
+    stop_grace_period: 10s

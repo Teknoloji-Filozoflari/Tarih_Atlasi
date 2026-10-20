@@ -1,0 +1,148 @@
+{
+  "version": "1.0.0",
+  "reviewedAt": "2026-10-17T22:20:00.000Z",
+  "method": "Editorial decisions for the inspected source assertions. No unsourced midpoint, residence fallback or exact birth-day inference. Missing or disputed birth windows remain biographical, not yearly presence.",
+  "birthWindows": {
+    "Q9458": [
+      570,
+      580
+    ],
+    "Q935": [
+      1643,
+      1643
+    ],
+    "Q302": [
+      -7,
+      -2
+    ],
+    "Q9441": null,
+    "Q4604": [
+      -552,
+      -551
+    ],
+    "Q9200": [
+      5,
+      5
+    ],
+    "Q229235": [
+      48,
+      62
+    ],
+    "Q8958": [
+      1393,
+      1406
+    ],
+    "Q7322": [
+      1450,
+      1451
+    ],
+    "Q8747": null,
+    "Q9077": null,
+    "Q37594": [
+      1027,
+      1028
+    ],
+    "Q9333": null,
+    "Q35811": null,
+    "Q44741": [
+      1475,
+      1478
+    ],
+    "Q1496": [
+      1480,
+      1480
+    ]
+  },
+  "deathWindows": {
+    "Q9458": [
+      632,
+      632
+    ],
+    "Q302": [
+      30,
+      33
+    ],
+    "Q9441": null,
+    "Q7322": [
+      1506,
+      1506
+    ],
+    "Q9077": null,
+    "Q9333": null,
+    "Q35811": null
+  },
+  "biographicalOnly": [
+    "Q9458",
+    "Q302",
+    "Q9441",
+    "Q4604",
+    "Q9200",
+    "Q229235",
+    "Q8958",
+    "Q7322",
+    "Q8747",
+    "Q9077",
+    "Q720",
+    "Q9381",
+    "Q859",
+    "Q8467",
+    "Q8589",
+    "Q37594",
+    "Q9333",
+    "Q203922",
+    "Q8423",
+    "Q188903",
+    "Q35811",
+    "Q189574",
+    "Q3044",
+    "Q6691",
+    "Q9422",
+    "Q161904",
+    "Q44741",
+    "Q1496"
+  ],
+  "regionPlaces": [
+    "Q494413",
+    "Q23360",
+    "Q504759",
+    "Q227007",
+    "Q146246",
+    "Q569107"
+  ],
+  "notes": {
+    "Q9458": "Doğum yılı ve alternatif kronolojiler tartışmalıdır. Mekke genel doğum bağlantısıdır; Medine ikameti ayrı eski kaynaklı kayıtta kalır.",
+    "Q935": "4 Ocak1643 Gregoryen /25 Aralık1642 Jülyen ayrımı korunur. Bu katalog sadece Gregoryen1643doğum yılını kullanır; tam gün üretilmez.",
+    "Q302": "Bethlehem geleneksel doğum bağlantısıdır; tarihsel doğum yeri ve kronoloji tartışması sürer. Tek yıl/nokta kesinleştirilmedi.",
+    "Q9441": "Kaynakta563/623MÖ ve farklı kronolojiler bulunur. Lumbini bağlantısı, kesin doğum yılı kanıtı değildir.",
+    "Q4604": "552/551MÖ kronoloji alternatifleri saklanır; Qufu'nun temsil noktası gerçek doğum binası değildir.",
+    "Q9200": "Yaklaşık5MS/Tarsus geleneği kesin yıllık doğum konumu sayılmadı.",
+    "Q229235": "48/62MSalternatifleri için tek doğum yılı seçilmedi.",
+    "Q8958": "Yaklaşık doğum dönemi ve Mainz ilişkisi; kesin gün/yıl çıkarılmaz.",
+    "Q7322": "Doğum tarihi ve kökeni hakkında alternatifler bulunur. Genoa bağlantısı biyografik olarak tutulur; kesin yıllık nokta yoktur.",
+    "Q8747": "Kaynakta4.yüzyılMÖ/340–315MÖönerisi hypothesis olarak nitelenmiş; doğum tarihi bilinmiyor bırakıldı. Doğum yeri unknown value; İskenderiye'de çalışması doğum kanıtı değildir.",
+    "Q9077": "Kaynakta dinî/geleneksel kronoloji ve atıfsız Helwan önerisi vardır; tarihsel doğum zamanı/konumu doğrulanmadı. Rastgele tarih veya nokta üretilmedi.",
+    "Q23": "Kaynak yalnız Westmoreland County verir. İlçe/bölge merkezine şehir veya doğum evi gibi nokta konmaz.",
+    "Q9381": "5Haziran1723kayıtları doğum/vaftiz ayrımı gerektirir. Vaftiz günü doğum günü olarak sunulmaz; yıllık konum verilmedi.",
+    "Q41284": "P19kaynağı Cumberland bölgesini verir; Eaglesfield'e kaynaksız daraltılmadı.",
+    "Q720": "Doğum yılı ve Delüün Boldog yerleştirmesi tartışmalıdır; genel biyografik bağlantı.",
+    "Q859": "Doğum kronolojisi ve Atina/Aegina alternatifleri tarihsel inceleme gerektirir. Tek kesin doğum noktası yoktur.",
+    "Q255": "16Aralık1770tarihi varsayımsal doğum günü,17Aralık vaftiz günüdür. Yalnız1770yılı ve Bonn temsil noktası kullanılır.",
+    "Q374210": "Edward de Vere ve William Shakespeare ayrı kimliklerdir; yazarlık atfı veya aynı kişi oldukları iddia edilmez.",
+    "Q8467": "Kaynağın yaklaşık doğum yılı tek kesin doğum tarihi gibi sunulmaz.",
+    "Q8589": "304MÖ/Patna geleneksel bağlantısı tarihsel kesin doğum konumu sayılmaz.",
+    "Q37594": "1027/1028alternatifleri için aradaki bir tarih seçilmedi.",
+    "Q9333": "Tartışmalı geleneksel kronoloji; Chu krallığı şehir değildir. Kronoloji bilinmiyor; krallık merkezine kişi konmaz.",
+    "Q203922": "P19Ctesiphon yakınlarıdır; şehir merkezi kişinin tam doğum konumu gibi gösterilmez.",
+    "Q8423": "Yaklaşık600MÖ ve Anshan bölge bağlantısı; tam doğum noktası değil.",
+    "Q188903": "Yaklaşık372MÖ ve Zhu siyasi/coğrafi bölge bağlantısıdır; kent noktası üretilmedi.",
+    "Q35811": "Kronoloji ve Ray/İran'ın başka bölgeleri gibi yer önerileri tartışmalı; tek yıl veya yer seçilmedi.",
+    "Q189574": "Menes'in tarihsel kimliği/Narmer bağlantısı tartışmalıdır. Kaynak3200'lerMÖ; uygulamanınMÖ2000başlangıcından önce, bilinmeyen doğum yeri var.",
+    "Q3044": "Franciaf geniş siyasi alanıdır; Aachen/Liège gibi şehirler ek kanıt olmadan doğum yeri yapılmaz.",
+    "Q6691": "Homeros'un biyografisi/doğum yeri ve9./8.yüzyılMÖkronolojisi tartışmalı; şehir seçilmedi.",
+    "Q9422": "599/527MÖgeleneksel kronoloji ve Vaishali ilişkisidir; kesin yıllık doğum konumu değildir.",
+    "Q161904": "Doğum zamanı27.yüzyılMÖ, uygulamanınMÖ2000başlangıcından önce; doğum yeri doğrulanmadı.",
+    "Q1496": "Yaklaşık1480ve Portekiz'de tartışmalı doğum yeri önerileri için tek kesin nokta seçilmedi.",
+    "Q5152": "1881–Selanik Bakanlık kaynağıyla da karşılaştırıldı: https://www.ktb.gov.tr/TR-96300/ataturk39un-hayati.html . 19 Mayıs doğum günü kanıtı olarak alınmadı. Şehir noktası, doğum evinin tam koordinatı değildir.",
+    "Q34969": "1706Gregoryen doğum yılı kullanılır;1705Jülyen/Old Style alternatifinden gün dönüşümü tahmin edilmedi."
+  }
+}

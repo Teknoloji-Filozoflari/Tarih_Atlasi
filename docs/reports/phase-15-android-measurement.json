@@ -1,0 +1,8 @@
+{
+  "measuredAt": "2026-10-16T10:29:34.066Z",
+  "status": "UNVERIFIED ON DEVICE",
+  "package": "org.tarihatlasi.app",
+  "snapshots": [],
+  "note": "Read-only adb snapshots; these do not establish long-playback, battery drain or temperature acceptance.",
+  "reason": "ENOENT: spawn adb ENOENT"
+}

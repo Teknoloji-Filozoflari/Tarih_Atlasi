@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "reviewedAt": "2026-10-19T16:44:21.628Z",
+  "birthWindows": {
+    "Q455072": [
+      1847,
+      1848
+    ]
+  },
+  "deathWindows": {},
+  "biographicalOnly": [
+    "Q46795",
+    "Q455072"
+  ],
+  "regionPlaces": [],
+  "notes": {
+    "Q46795": "P19 Nyeri: near niteleyicisi vardır. Şehir merkezi doğum yeri sayılmaz; yalnız biyografik bağ, yıllık nokta yok.",
+    "Q455072": "Kaynak P569 1847, açıklama 1848 bildiriyor. 1847–1848 ihtilafı korunur; tek yıl seçilmez, Liverpool bağı yalnız biyografiktir.",
+    "Q7241": "P569 tercih edilen 7 Mayıs 1861; eski 6 Mayıs iddiası deprecated/cannot be confirmed. Yalnız 1861 yılı kullanılır; Kolkata temsil noktasıdır."
+  },
+  "descriptionOverrides": {
+    "Q46795": "Kenyalı çevre savunucusu; 2004 Nobel Barış Ödülü sahibi.",
+    "Q134160": "Güney Amerika bağımsızlık mücadelelerinde görev alan Arjantinli asker.",
+    "Q7241": "Bengalli şair ve düşünür; 1913 Nobel Edebiyat Ödülü sahibi.",
+    "Q455072": "Yeni Zelanda’da kadınların oy hakkı için çalışan aktivist."
+  }
+}

@@ -1,0 +1,1510 @@
+{
+  "measuredAt": "2026-10-16T20:43:45.314Z",
+  "node": "v26.11.1",
+  "scope": "Filesystem export sizes and local compression, not actual transferred bytes or APK size.",
+  "groups": [
+    {
+      "root": "dist",
+      "fileCount": 102,
+      "totalBytes": 24837583,
+      "files": [
+        {
+          "file": "dist/+not-found.html",
+          "bytes": 20397,
+          "gzipBytes": 6468,
+          "brotliBytes": 5680
+        },
+        {
+          "file": "dist/_expo/.routes.json",
+          "bytes": 21,
+          "gzipBytes": 41,
+          "brotliBytes": 25
+        },
+        {
+          "file": "dist/_expo/static/css/maplibre-gl-5eafb44ecdde7fed64f0a02f0507154c.css",
+          "bytes": 83006,
+          "gzipBytes": 10643,
+          "brotliBytes": 8497
+        },
+        {
+          "file": "dist/_expo/static/css/markers-0916f95c4d1ea9f4d3e9802db725f758.css",
+          "bytes": 225,
+          "gzipBytes": 116,
+          "brotliBytes": 83
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-033307a4b22c9d2d4bf0204cf1faf3e7ddc10681599f17e1e3219dc6e9e246bd-216c00d6df41c2b2d0b3adfe9456639d.js",
+          "bytes": 23192,
+          "gzipBytes": 7990,
+          "brotliBytes": 6754
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-08bc53ce2ca07bd2da34099f0480bd5205e40352fee207bd013c7bd966482e37-a881287f4b703ece7d8f84d4afd4c46c.js",
+          "bytes": 8633,
+          "gzipBytes": 2287,
+          "brotliBytes": 1990
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-1561c6432515ccb93d6387abe13512fe163bb1872ce1a19599909cdd2b8de3e0-c580b29734cf0f50b98cb830982ba71e.js",
+          "bytes": 13114,
+          "gzipBytes": 4117,
+          "brotliBytes": 3454
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-1d141aa8acfe3b77c228c588302bd207c7156bd98b6250399ebb0c5bf539f999-bf6dc267a6582ae1716896ce23250201.js",
+          "bytes": 14632,
+          "gzipBytes": 4789,
+          "brotliBytes": 4021
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-208576a3e250051a0717e9011adddc9d9d1d07d55631ed805bc23bb904ba64f0-0af14d517ec4a580535599b4c600c0f7.js",
+          "bytes": 8956,
+          "gzipBytes": 2022,
+          "brotliBytes": 1740
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-21b1abe0f244754804356b96a91a457b083ed161cc36ebafb92172f2ee66e53d-3c8df07818a09d8bbb93ead5b6e41d1f.js",
+          "bytes": 8760,
+          "gzipBytes": 2357,
+          "brotliBytes": 2025
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-3cd50921ebe24ad3c5ae446875eab8404476e7e7e4a3f6347592f8c634771c9b-e9cece9a38919620fbd261340ce9f3f0.js",
+          "bytes": 8900,
+          "gzipBytes": 2008,
+          "brotliBytes": 1725
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-4f44982e9f7c3ef47c30686d6012ef5db55037c72bd2f1ed2040af4ddd5d22f1-48308b6a90ea0726eaf93dc7823d95d0.js",
+          "bytes": 8575,
+          "gzipBytes": 2248,
+          "brotliBytes": 1959
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-57fdb05c73bd10933814bcf423fbbc89769b9613a8fc3af3d6892c34d8c002e4-e5c370ebd1e59c0fc145dfba74340631.js",
+          "bytes": 8590,
+          "gzipBytes": 2264,
+          "brotliBytes": 1966
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-5dd15a761dbdb3edd73b02ede0f3fac455864973b06baacd9eb094d299bc0c3a-aca35cb48aa6b1a24f1c818f0e275a42.js",
+          "bytes": 12251,
+          "gzipBytes": 2283,
+          "brotliBytes": 1935
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-5ecc7955177ddcbde1bf6e4c157b4e5b6b759b0e50823e1aa0cf80712448cea1-11cdfc264ef71ea4a6ab994939604762.js",
+          "bytes": 8633,
+          "gzipBytes": 2287,
+          "brotliBytes": 1992
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-6f05354934ba7f922d54e57bdbea1842c7313dac0dd3d0990a41f524f991c636-8d572e85a958207f4bce03211d2b8783.js",
+          "bytes": 8712,
+          "gzipBytes": 2334,
+          "brotliBytes": 2011
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-7e50c9029e26124f56f2eb24aa991ba160550b7a30afc1ee9aad6d9452543213-c2119fd24f9ee45552f19ebb48492aa2.js",
+          "bytes": 19029,
+          "gzipBytes": 6148,
+          "brotliBytes": 4989
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-80c5e996023f889a747fa2f366712faa51a3c6c0beb88b4a9ac5950934656f36-ac0c9bd4f0468a29d057269bc09b215c.js",
+          "bytes": 17232,
+          "gzipBytes": 5612,
+          "brotliBytes": 4632
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-83427dd239844b3577ff2583e667c0450a910ccd04b5ffe53d67e4d99b495cc9-48ecb3788833c9e00260d5d891182888.js",
+          "bytes": 12613,
+          "gzipBytes": 4076,
+          "brotliBytes": 3376
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-84491923f11039f0dcb9242fa0ffa0ea07a22d545ba6b3834a1b3c0a7c15e065-49947f28a36c66ef921d409d3da91d74.js",
+          "bytes": 8670,
+          "gzipBytes": 2310,
+          "brotliBytes": 1999
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-95e5582da1239b907f805e556901bdd8e64eb333e8a60f3de766410b7e5a6b1a-c6a487baec9380a309e6607cdc05b749.js",
+          "bytes": 8582,
+          "gzipBytes": 2242,
+          "brotliBytes": 1955
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-9db90504984eb75d0f643c5d53601b8cf9a6db2cc9e47aedfdf38028620f8505-8dd19d3db590a5532d5c15d47ed890ab.js",
+          "bytes": 8575,
+          "gzipBytes": 2232,
+          "brotliBytes": 1953
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-aaad888c2640bb20a3c9a1d086dd048212a7882c8db047f17cdb8a2a6d1e3ae1-447ff75eaf9030e0a9938d3fbcdb7054.js",
+          "bytes": 8674,
+          "gzipBytes": 2288,
+          "brotliBytes": 1987
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-ab601dba6148fa88b5572c954178a70d6921e04ba245d1b64e61de4764482ff8-f74cfda0e389b0138bbbf9179013554e.js",
+          "bytes": 11998,
+          "gzipBytes": 3659,
+          "brotliBytes": 3067
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-adedb8968837a6e6002c89f7e5b06e53b69f57237d96663083b9d7651b5ae648-2f53991f4570367c575f5cf4fd23729f.js",
+          "bytes": 8578,
+          "gzipBytes": 2231,
+          "brotliBytes": 1953
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-b3f10d90ae320da0f1b4d1cc7c1be06f15eec081f149625150e1300b15d53346-0e402f97738601a4324762f22e72bd02.js",
+          "bytes": 8651,
+          "gzipBytes": 2286,
+          "brotliBytes": 1978
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-b7861bfc75edd24b88c3cbd9287b68fe97965174ac66db3a978e4000cfdf51b8-b0cf0483ec6722a1c813aa2dbaf0c36e.js",
+          "bytes": 16046,
+          "gzipBytes": 5296,
+          "brotliBytes": 4419
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-b78e0eaf96b206da2ce0aa0e9b2839a91e3eeecefe5ba629a5c5fb5c0ddda4a2-28da5c0721f8b336e305115fd2fb2b81.js",
+          "bytes": 8547,
+          "gzipBytes": 2232,
+          "brotliBytes": 1948
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-b8f79d6bffaf320fbe16574e28e3342050a6ffc250c8c86d3bc8c9f2a2152444-6dee645ac2d721dacd5a46687c25b218.js",
+          "bytes": 14396,
+          "gzipBytes": 4650,
+          "brotliBytes": 3881
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-c2cb650460d7a2496b18cd7009345d1ac54bdea9f507fbd2438f0e2385d11fc0-c3a597813cdbb2df6805c12eb5b45ae6.js",
+          "bytes": 8663,
+          "gzipBytes": 2264,
+          "brotliBytes": 1974
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-d3afbf0130daafc88574bc19ef5896b1611b30a10630330ba8e5743cf9d26548-0fdb4d83846876815bdda8b604703712.js",
+          "bytes": 19453,
+          "gzipBytes": 6681,
+          "brotliBytes": 5644
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-d8805e32a966ed759f882075c80c3c2684165d60e4d240ee518339b5ca7d5458-e8309976210d7e5c7c6a1bb603a67c6f.js",
+          "bytes": 12113,
+          "gzipBytes": 3678,
+          "brotliBytes": 3070
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-dffd877f75bc1f2f63646b5e87f7cbe7c6d802aabc61e8a46a5da5ede079b198-71be392397e5c6b97d7cfda68163be92.js",
+          "bytes": 15848,
+          "gzipBytes": 4954,
+          "brotliBytes": 4164
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-e103c3c0a778726bff96a41ae7ee4bb55cd711145f82965e6b1c16ccc3001a01-f694c0298030148ed8b5d2dfa5d5f7b3.js",
+          "bytes": 14176,
+          "gzipBytes": 4519,
+          "brotliBytes": 3766
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-e5f2f1c76e8195c19bdbb09ae10a867a563944c9b8793de2b07b1e99d7530a8f-96881227561d245f791086d457194d20.js",
+          "bytes": 24192,
+          "gzipBytes": 8600,
+          "brotliBytes": 7151
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-e9f5b141fc0d129d935b872976dc6adfbbc458c3b14dbf192d1e181ac9ea56ea-a53ea4c25484be2ca0262723594ff687.js",
+          "bytes": 8690,
+          "gzipBytes": 2280,
+          "brotliBytes": 1992
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-ed196bdf6a2348e3536e9bfb2703f002d455a840252d65f90d7ae56f45719c8f-e1549891b49ad2d6561d54fa5e5324f1.js",
+          "bytes": 17769,
+          "gzipBytes": 5759,
+          "brotliBytes": 4873
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-ed5c3d600091f9a8364d44da03c0cf8d0ca0135adf3c0fc2045efc9c93844856-673debbbd2048ab5b251a3b5431a0720.js",
+          "bytes": 8592,
+          "gzipBytes": 2262,
+          "brotliBytes": 1961
+        },
+        {
+          "file": "dist/_expo/static/js/web/chunk-edb11613a101aca4c91dbe2b341ce38e02d74c66171af03d40151fa9fe4ecbf9-d9a40b83f03069000296af3f93ca3108.js",
+          "bytes": 10601,
+          "gzipBytes": 3117,
+          "brotliBytes": 2649
+        },
+        {
+          "file": "dist/_expo/static/js/web/entry-4cc7b4c296c650a74039849127e3483b.js",
+          "bytes": 2789911,
+          "gzipBytes": 694816,
+          "brotliBytes": 525175
+        },
+        {
+          "file": "dist/_expo/static/js/web/maplibre-gl-3ad7e442b3690a1d6cde62c31ef4eb4c.js",
+          "bytes": 1079861,
+          "gzipBytes": 289310,
+          "brotliBytes": 234062
+        },
+        {
+          "file": "dist/_expo/static/js/web/physical-detail-0c1b24b2fde7a86c1147dd118d87bd62.js",
+          "bytes": 19848302,
+          "gzipBytes": 6984080,
+          "brotliBytes": 4672402
+        },
+        {
+          "file": "dist/_expo/static/js/web/runtime-cd8bf2c1de213693baaba7980485d346.js",
+          "bytes": 367,
+          "gzipBytes": 277,
+          "brotliBytes": 248
+        },
+        {
+          "file": "dist/_headers",
+          "bytes": 4813,
+          "gzipBytes": 1383,
+          "brotliBytes": 1289
+        },
+        {
+          "file": "dist/_sitemap.html",
+          "bytes": 19612,
+          "gzipBytes": 6296,
+          "brotliBytes": 5508
+        },
+        {
+          "file": "dist/about.html",
+          "bytes": 25112,
+          "gzipBytes": 7998,
+          "brotliBytes": 7039
+        },
+        {
+          "file": "dist/assets/node_modules/expo-router/assets/arrow_down.017bc6ba3fc25503e5eb5e53826d48a8.png",
+          "bytes": 9456,
+          "gzipBytes": 386,
+          "brotliBytes": 314
+        },
+        {
+          "file": "dist/assets/node_modules/expo-router/assets/error.d1ea1496f9057eb392d5bbf3732a61b7.png",
+          "bytes": 469,
+          "gzipBytes": 492,
+          "brotliBytes": 473
+        },
+        {
+          "file": "dist/assets/node_modules/expo-router/assets/file.19eeb73b9593a38f8e9f418337fc7d10.png",
+          "bytes": 138,
+          "gzipBytes": 153,
+          "brotliBytes": 142
+        },
+        {
+          "file": "dist/assets/node_modules/expo-router/assets/forward.d8b800c443b8972542883e0b9de2bdc6.png",
+          "bytes": 188,
+          "gzipBytes": 211,
+          "brotliBytes": 192
+        },
+        {
+          "file": "dist/assets/node_modules/expo-router/assets/pkg.ab19f4cbc543357183a20571f68380a3.png",
+          "bytes": 364,
+          "gzipBytes": 387,
+          "brotliBytes": 368
+        },
+        {
+          "file": "dist/assets/node_modules/expo-router/assets/react-navigation/elements/back-icon-mask.0a328cd9c1afd0afe8e3b1ec5165b1b4.png",
+          "bytes": 653,
+          "gzipBytes": 676,
+          "brotliBytes": 657
+        },
+        {
+          "file": "dist/assets/node_modules/expo-router/assets/react-navigation/elements/back-icon.35ba0eaec5a4f5ed12ca16fabeae451d.png",
+          "bytes": 207,
+          "gzipBytes": 226,
+          "brotliBytes": 211
+        },
+        {
+          "file": "dist/assets/node_modules/expo-router/assets/react-navigation/elements/clear-icon.c94f6478e7ae0cdd9f15de1fcb9e5e55.png",
+          "bytes": 220,
+          "gzipBytes": 243,
+          "brotliBytes": 224
+        },
+        {
+          "file": "dist/assets/node_modules/expo-router/assets/react-navigation/elements/clear-icon.c94f6478e7ae0cdd9f15de1fcb9e5e55@2x.png",
+          "bytes": 334,
+          "gzipBytes": 357,
+          "brotliBytes": 338
+        },
+        {
+          "file": "dist/assets/node_modules/expo-router/assets/react-navigation/elements/clear-icon.c94f6478e7ae0cdd9f15de1fcb9e5e55@3x.png",
+          "bytes": 502,
+          "gzipBytes": 525,
+          "brotliBytes": 506
+        },
+        {
+          "file": "dist/assets/node_modules/expo-router/assets/react-navigation/elements/clear-icon.c94f6478e7ae0cdd9f15de1fcb9e5e55@4x.png",
+          "bytes": 645,
+          "gzipBytes": 668,
+          "brotliBytes": 649
+        },
+        {
+          "file": "dist/assets/node_modules/expo-router/assets/react-navigation/elements/close-icon.808e1b1b9b53114ec2838071a7e6daa7.png",
+          "bytes": 141,
+          "gzipBytes": 162,
+          "brotliBytes": 145
+        },
+        {
+          "file": "dist/assets/node_modules/expo-router/assets/react-navigation/elements/close-icon.808e1b1b9b53114ec2838071a7e6daa7@2x.png",
+          "bytes": 201,
+          "gzipBytes": 224,
+          "brotliBytes": 205
+        },
+        {
+          "file": "dist/assets/node_modules/expo-router/assets/react-navigation/elements/close-icon.808e1b1b9b53114ec2838071a7e6daa7@3x.png",
+          "bytes": 266,
+          "gzipBytes": 289,
+          "brotliBytes": 270
+        },
+        {
+          "file": "dist/assets/node_modules/expo-router/assets/react-navigation/elements/close-icon.808e1b1b9b53114ec2838071a7e6daa7@4x.png",
+          "bytes": 332,
+          "gzipBytes": 336,
+          "brotliBytes": 316
+        },
+        {
+          "file": "dist/assets/node_modules/expo-router/assets/react-navigation/elements/search-icon.286d67d3f74808a60a78d3ebf1a5fb57.png",
+          "bytes": 928,
+          "gzipBytes": 951,
+          "brotliBytes": 932
+        },
+        {
+          "file": "dist/assets/node_modules/expo-router/assets/sitemap.412dd9275b6b48ad28f5e3d81bb1f626.png",
+          "bytes": 465,
+          "gzipBytes": 480,
+          "brotliBytes": 469
+        },
+        {
+          "file": "dist/assets/node_modules/expo-router/assets/unmatched.20e71bdf79e3a97bf55fd9e164041578.png",
+          "bytes": 4752,
+          "gzipBytes": 4724,
+          "brotliBytes": 4673
+        },
+        {
+          "file": "dist/data/chunks/033307a4b22c9d2d4bf0204cf1faf3e7ddc10681599f17e1e3219dc6e9e246bd.json",
+          "bytes": 22163,
+          "gzipBytes": 7860,
+          "brotliBytes": 6615
+        },
+        {
+          "file": "dist/data/chunks/08bc53ce2ca07bd2da34099f0480bd5205e40352fee207bd013c7bd966482e37.json",
+          "bytes": 7586,
+          "gzipBytes": 2155,
+          "brotliBytes": 1841
+        },
+        {
+          "file": "dist/data/chunks/1561c6432515ccb93d6387abe13512fe163bb1872ce1a19599909cdd2b8de3e0.json",
+          "bytes": 12069,
+          "gzipBytes": 3985,
+          "brotliBytes": 3303
+        },
+        {
+          "file": "dist/data/chunks/1d141aa8acfe3b77c228c588302bd207c7156bd98b6250399ebb0c5bf539f999.json",
+          "bytes": 13603,
+          "gzipBytes": 4653,
+          "brotliBytes": 3870
+        },
+        {
+          "file": "dist/data/chunks/208576a3e250051a0717e9011adddc9d9d1d07d55631ed805bc23bb904ba64f0.json",
+          "bytes": 8283,
+          "gzipBytes": 1918,
+          "brotliBytes": 1606
+        },
+        {
+          "file": "dist/data/chunks/21b1abe0f244754804356b96a91a457b083ed161cc36ebafb92172f2ee66e53d.json",
+          "bytes": 7713,
+          "gzipBytes": 2226,
+          "brotliBytes": 1894
+        },
+        {
+          "file": "dist/data/chunks/3cd50921ebe24ad3c5ae446875eab8404476e7e7e4a3f6347592f8c634771c9b.json",
+          "bytes": 8227,
+          "gzipBytes": 1904,
+          "brotliBytes": 1589
+        },
+        {
+          "file": "dist/data/chunks/4f44982e9f7c3ef47c30686d6012ef5db55037c72bd2f1ed2040af4ddd5d22f1.json",
+          "bytes": 7528,
+          "gzipBytes": 2116,
+          "brotliBytes": 1815
+        },
+        {
+          "file": "dist/data/chunks/57fdb05c73bd10933814bcf423fbbc89769b9613a8fc3af3d6892c34d8c002e4.json",
+          "bytes": 7543,
+          "gzipBytes": 2128,
+          "brotliBytes": 1813
+        },
+        {
+          "file": "dist/data/chunks/5dd15a761dbdb3edd73b02ede0f3fac455864973b06baacd9eb094d299bc0c3a.json",
+          "bytes": 11192,
+          "gzipBytes": 2174,
+          "brotliBytes": 1792
+        },
+        {
+          "file": "dist/data/chunks/5ecc7955177ddcbde1bf6e4c157b4e5b6b759b0e50823e1aa0cf80712448cea1.json",
+          "bytes": 7586,
+          "gzipBytes": 2156,
+          "brotliBytes": 1829
+        },
+        {
+          "file": "dist/data/chunks/6f05354934ba7f922d54e57bdbea1842c7313dac0dd3d0990a41f524f991c636.json",
+          "bytes": 7665,
+          "gzipBytes": 2203,
+          "brotliBytes": 1874
+        },
+        {
+          "file": "dist/data/chunks/7e50c9029e26124f56f2eb24aa991ba160550b7a30afc1ee9aad6d9452543213.json",
+          "bytes": 17976,
+          "gzipBytes": 6013,
+          "brotliBytes": 4847
+        },
+        {
+          "file": "dist/data/chunks/80c5e996023f889a747fa2f366712faa51a3c6c0beb88b4a9ac5950934656f36.json",
+          "bytes": 16171,
+          "gzipBytes": 5482,
+          "brotliBytes": 4469
+        },
+        {
+          "file": "dist/data/chunks/83427dd239844b3577ff2583e667c0450a910ccd04b5ffe53d67e4d99b495cc9.json",
+          "bytes": 11566,
+          "gzipBytes": 3944,
+          "brotliBytes": 3232
+        },
+        {
+          "file": "dist/data/chunks/84491923f11039f0dcb9242fa0ffa0ea07a22d545ba6b3834a1b3c0a7c15e065.json",
+          "bytes": 7623,
+          "gzipBytes": 2179,
+          "brotliBytes": 1858
+        },
+        {
+          "file": "dist/data/chunks/95e5582da1239b907f805e556901bdd8e64eb333e8a60f3de766410b7e5a6b1a.json",
+          "bytes": 7535,
+          "gzipBytes": 2109,
+          "brotliBytes": 1804
+        },
+        {
+          "file": "dist/data/chunks/9db90504984eb75d0f643c5d53601b8cf9a6db2cc9e47aedfdf38028620f8505.json",
+          "bytes": 7512,
+          "gzipBytes": 2096,
+          "brotliBytes": 1807
+        },
+        {
+          "file": "dist/data/chunks/NOTICE.txt",
+          "bytes": 3839,
+          "gzipBytes": 1977,
+          "brotliBytes": 1538
+        },
+        {
+          "file": "dist/data/chunks/aaad888c2640bb20a3c9a1d086dd048212a7882c8db047f17cdb8a2a6d1e3ae1.json",
+          "bytes": 7627,
+          "gzipBytes": 2156,
+          "brotliBytes": 1833
+        },
+        {
+          "file": "dist/data/chunks/ab601dba6148fa88b5572c954178a70d6921e04ba245d1b64e61de4764482ff8.json",
+          "bytes": 10969,
+          "gzipBytes": 3530,
+          "brotliBytes": 2947
+        },
+        {
+          "file": "dist/data/chunks/adedb8968837a6e6002c89f7e5b06e53b69f57237d96663083b9d7651b5ae648.json",
+          "bytes": 7515,
+          "gzipBytes": 2095,
+          "brotliBytes": 1803
+        },
+        {
+          "file": "dist/data/chunks/b3f10d90ae320da0f1b4d1cc7c1be06f15eec081f149625150e1300b15d53346.json",
+          "bytes": 7604,
+          "gzipBytes": 2154,
+          "brotliBytes": 1851
+        },
+        {
+          "file": "dist/data/chunks/b7861bfc75edd24b88c3cbd9287b68fe97965174ac66db3a978e4000cfdf51b8.json",
+          "bytes": 15009,
+          "gzipBytes": 5164,
+          "brotliBytes": 4280
+        },
+        {
+          "file": "dist/data/chunks/b78e0eaf96b206da2ce0aa0e9b2839a91e3eeecefe5ba629a5c5fb5c0ddda4a2.json",
+          "bytes": 7500,
+          "gzipBytes": 2100,
+          "brotliBytes": 1799
+        },
+        {
+          "file": "dist/data/chunks/b8f79d6bffaf320fbe16574e28e3342050a6ffc250c8c86d3bc8c9f2a2152444.json",
+          "bytes": 13363,
+          "gzipBytes": 4519,
+          "brotliBytes": 3736
+        },
+        {
+          "file": "dist/data/chunks/c2cb650460d7a2496b18cd7009345d1ac54bdea9f507fbd2438f0e2385d11fc0.json",
+          "bytes": 7634,
+          "gzipBytes": 2130,
+          "brotliBytes": 1829
+        },
+        {
+          "file": "dist/data/chunks/d3afbf0130daafc88574bc19ef5896b1611b30a10630330ba8e5743cf9d26548.json",
+          "bytes": 18396,
+          "gzipBytes": 6546,
+          "brotliBytes": 5518
+        },
+        {
+          "file": "dist/data/chunks/d8805e32a966ed759f882075c80c3c2684165d60e4d240ee518339b5ca7d5458.json",
+          "bytes": 11060,
+          "gzipBytes": 3549,
+          "brotliBytes": 2950
+        },
+        {
+          "file": "dist/data/chunks/dffd877f75bc1f2f63646b5e87f7cbe7c6d802aabc61e8a46a5da5ede079b198.json",
+          "bytes": 14815,
+          "gzipBytes": 4823,
+          "brotliBytes": 3998
+        },
+        {
+          "file": "dist/data/chunks/e103c3c0a778726bff96a41ae7ee4bb55cd711145f82965e6b1c16ccc3001a01.json",
+          "bytes": 13147,
+          "gzipBytes": 4390,
+          "brotliBytes": 3629
+        },
+        {
+          "file": "dist/data/chunks/e5f2f1c76e8195c19bdbb09ae10a867a563944c9b8793de2b07b1e99d7530a8f.json",
+          "bytes": 23163,
+          "gzipBytes": 8469,
+          "brotliBytes": 6991
+        },
+        {
+          "file": "dist/data/chunks/e9f5b141fc0d129d935b872976dc6adfbbc458c3b14dbf192d1e181ac9ea56ea.json",
+          "bytes": 7643,
+          "gzipBytes": 2148,
+          "brotliBytes": 1836
+        },
+        {
+          "file": "dist/data/chunks/ed196bdf6a2348e3536e9bfb2703f002d455a840252d65f90d7ae56f45719c8f.json",
+          "bytes": 16706,
+          "gzipBytes": 5630,
+          "brotliBytes": 4683
+        },
+        {
+          "file": "dist/data/chunks/ed5c3d600091f9a8364d44da03c0cf8d0ca0135adf3c0fc2045efc9c93844856.json",
+          "bytes": 7545,
+          "gzipBytes": 2129,
+          "brotliBytes": 1813
+        },
+        {
+          "file": "dist/data/chunks/edb11613a101aca4c91dbe2b341ce38e02d74c66171af03d40151fa9fe4ecbf9.json",
+          "bytes": 9538,
+          "gzipBytes": 2984,
+          "brotliBytes": 2502
+        },
+        {
+          "file": "dist/data/chunks/manifest.json",
+          "bytes": 101354,
+          "gzipBytes": 7681,
+          "brotliBytes": 5638
+        },
+        {
+          "file": "dist/index.html",
+          "bytes": 27091,
+          "gzipBytes": 7372,
+          "brotliBytes": 6407
+        }
+      ]
+    },
+    {
+      "root": "dist-android",
+      "fileCount": 108,
+      "totalBytes": 29211396,
+      "files": [
+        {
+          "file": "dist-android/_expo/static/js/android/entry-4d2827b2472b8fccb754800cca76ca0c.hbc",
+          "bytes": 4257099,
+          "gzipBytes": 1622837,
+          "brotliBytes": 1270030
+        },
+        {
+          "file": "dist-android/_headers",
+          "bytes": 4813,
+          "gzipBytes": 1383,
+          "brotliBytes": 1289
+        },
+        {
+          "file": "dist-android/assets/017bc6ba3fc25503e5eb5e53826d48a8",
+          "bytes": 9456,
+          "gzipBytes": 386,
+          "brotliBytes": 314
+        },
+        {
+          "file": "dist-android/assets/02bc1fa7c0313217bde2d65ccbff40c9",
+          "bytes": 167,
+          "gzipBytes": 185,
+          "brotliBytes": 171
+        },
+        {
+          "file": "dist-android/assets/069d99eb1fa6712c0b9034a58c6b57dd",
+          "bytes": 483,
+          "gzipBytes": 506,
+          "brotliBytes": 487
+        },
+        {
+          "file": "dist-android/assets/0747a1317bbe9c6fc340b889ef8ab3ae",
+          "bytes": 332,
+          "gzipBytes": 336,
+          "brotliBytes": 316
+        },
+        {
+          "file": "dist-android/assets/0a328cd9c1afd0afe8e3b1ec5165b1b4",
+          "bytes": 653,
+          "gzipBytes": 676,
+          "brotliBytes": 657
+        },
+        {
+          "file": "dist-android/assets/1190ab078c57159f4245a328118fcd9a",
+          "bytes": 201,
+          "gzipBytes": 224,
+          "brotliBytes": 205
+        },
+        {
+          "file": "dist-android/assets/19eeb73b9593a38f8e9f418337fc7d10",
+          "bytes": 138,
+          "gzipBytes": 153,
+          "brotliBytes": 142
+        },
+        {
+          "file": "dist-android/assets/20e71bdf79e3a97bf55fd9e164041578",
+          "bytes": 4752,
+          "gzipBytes": 4724,
+          "brotliBytes": 4673
+        },
+        {
+          "file": "dist-android/assets/286d67d3f74808a60a78d3ebf1a5fb57",
+          "bytes": 928,
+          "gzipBytes": 951,
+          "brotliBytes": 932
+        },
+        {
+          "file": "dist-android/assets/35ba0eaec5a4f5ed12ca16fabeae451d",
+          "bytes": 207,
+          "gzipBytes": 226,
+          "brotliBytes": 211
+        },
+        {
+          "file": "dist-android/assets/3cd68ccdb8938e3711da2e8831b85493",
+          "bytes": 645,
+          "gzipBytes": 668,
+          "brotliBytes": 649
+        },
+        {
+          "file": "dist-android/assets/412dd9275b6b48ad28f5e3d81bb1f626",
+          "bytes": 465,
+          "gzipBytes": 480,
+          "brotliBytes": 469
+        },
+        {
+          "file": "dist-android/assets/4403c6117ec30c859bc95d70ce4a71d3",
+          "bytes": 258,
+          "gzipBytes": 281,
+          "brotliBytes": 262
+        },
+        {
+          "file": "dist-android/assets/61ca7e64b7d605716c57706cef640b9a",
+          "bytes": 220,
+          "gzipBytes": 243,
+          "brotliBytes": 224
+        },
+        {
+          "file": "dist-android/assets/778ffc9fe8773a878e9c30a6304784de",
+          "bytes": 100,
+          "gzipBytes": 119,
+          "brotliBytes": 104
+        },
+        {
+          "file": "dist-android/assets/78c625386b4d0690b421eb0fc78f7b9c",
+          "bytes": 266,
+          "gzipBytes": 289,
+          "brotliBytes": 270
+        },
+        {
+          "file": "dist-android/assets/8b042be199ec74ce82b9cd2604568e73",
+          "bytes": 970844,
+          "gzipBytes": 441185,
+          "brotliBytes": 382603
+        },
+        {
+          "file": "dist-android/assets/98a4e3d00dbf5d65da99a69b38a7def2",
+          "bytes": 307,
+          "gzipBytes": 201,
+          "brotliBytes": 161
+        },
+        {
+          "file": "dist-android/assets/9b5cb09b4e669ed0f28f3b3f2871a0a5",
+          "bytes": 312,
+          "gzipBytes": 202,
+          "brotliBytes": 159
+        },
+        {
+          "file": "dist-android/assets/ab19f4cbc543357183a20571f68380a3",
+          "bytes": 364,
+          "gzipBytes": 387,
+          "brotliBytes": 368
+        },
+        {
+          "file": "dist-android/assets/aff2c65b39a296d4f7e96d0f58169170",
+          "bytes": 334,
+          "gzipBytes": 357,
+          "brotliBytes": 338
+        },
+        {
+          "file": "dist-android/assets/c3273c9e5321f20d1e42c2efae2578c4",
+          "bytes": 728,
+          "gzipBytes": 751,
+          "brotliBytes": 732
+        },
+        {
+          "file": "dist-android/assets/c79c3606a1cf168006ad3979763c7e0c",
+          "bytes": 134,
+          "gzipBytes": 157,
+          "brotliBytes": 138
+        },
+        {
+          "file": "dist-android/assets/d1ea1496f9057eb392d5bbf3732a61b7",
+          "bytes": 469,
+          "gzipBytes": 492,
+          "brotliBytes": 473
+        },
+        {
+          "file": "dist-android/assets/d84e297c3b3e49a614248143d53e40ca",
+          "bytes": 141,
+          "gzipBytes": 162,
+          "brotliBytes": 145
+        },
+        {
+          "file": "dist-android/assets/d8b800c443b8972542883e0b9de2bdc6",
+          "bytes": 188,
+          "gzipBytes": 211,
+          "brotliBytes": 192
+        },
+        {
+          "file": "dist-android/assets/d8e7601e3df962f83c62371ac14964d8",
+          "bytes": 502,
+          "gzipBytes": 525,
+          "brotliBytes": 506
+        },
+        {
+          "file": "dist-android/data/chunks/033307a4b22c9d2d4bf0204cf1faf3e7ddc10681599f17e1e3219dc6e9e246bd.json",
+          "bytes": 22163,
+          "gzipBytes": 7860,
+          "brotliBytes": 6615
+        },
+        {
+          "file": "dist-android/data/chunks/08bc53ce2ca07bd2da34099f0480bd5205e40352fee207bd013c7bd966482e37.json",
+          "bytes": 7586,
+          "gzipBytes": 2155,
+          "brotliBytes": 1841
+        },
+        {
+          "file": "dist-android/data/chunks/1561c6432515ccb93d6387abe13512fe163bb1872ce1a19599909cdd2b8de3e0.json",
+          "bytes": 12069,
+          "gzipBytes": 3985,
+          "brotliBytes": 3303
+        },
+        {
+          "file": "dist-android/data/chunks/1d141aa8acfe3b77c228c588302bd207c7156bd98b6250399ebb0c5bf539f999.json",
+          "bytes": 13603,
+          "gzipBytes": 4653,
+          "brotliBytes": 3870
+        },
+        {
+          "file": "dist-android/data/chunks/208576a3e250051a0717e9011adddc9d9d1d07d55631ed805bc23bb904ba64f0.json",
+          "bytes": 8283,
+          "gzipBytes": 1918,
+          "brotliBytes": 1606
+        },
+        {
+          "file": "dist-android/data/chunks/21b1abe0f244754804356b96a91a457b083ed161cc36ebafb92172f2ee66e53d.json",
+          "bytes": 7713,
+          "gzipBytes": 2226,
+          "brotliBytes": 1894
+        },
+        {
+          "file": "dist-android/data/chunks/3cd50921ebe24ad3c5ae446875eab8404476e7e7e4a3f6347592f8c634771c9b.json",
+          "bytes": 8227,
+          "gzipBytes": 1904,
+          "brotliBytes": 1589
+        },
+        {
+          "file": "dist-android/data/chunks/4f44982e9f7c3ef47c30686d6012ef5db55037c72bd2f1ed2040af4ddd5d22f1.json",
+          "bytes": 7528,
+          "gzipBytes": 2116,
+          "brotliBytes": 1815
+        },
+        {
+          "file": "dist-android/data/chunks/57fdb05c73bd10933814bcf423fbbc89769b9613a8fc3af3d6892c34d8c002e4.json",
+          "bytes": 7543,
+          "gzipBytes": 2128,
+          "brotliBytes": 1813
+        },
+        {
+          "file": "dist-android/data/chunks/5dd15a761dbdb3edd73b02ede0f3fac455864973b06baacd9eb094d299bc0c3a.json",
+          "bytes": 11192,
+          "gzipBytes": 2174,
+          "brotliBytes": 1792
+        },
+        {
+          "file": "dist-android/data/chunks/5ecc7955177ddcbde1bf6e4c157b4e5b6b759b0e50823e1aa0cf80712448cea1.json",
+          "bytes": 7586,
+          "gzipBytes": 2156,
+          "brotliBytes": 1829
+        },
+        {
+          "file": "dist-android/data/chunks/6f05354934ba7f922d54e57bdbea1842c7313dac0dd3d0990a41f524f991c636.json",
+          "bytes": 7665,
+          "gzipBytes": 2203,
+          "brotliBytes": 1874
+        },
+        {
+          "file": "dist-android/data/chunks/7e50c9029e26124f56f2eb24aa991ba160550b7a30afc1ee9aad6d9452543213.json",
+          "bytes": 17976,
+          "gzipBytes": 6013,
+          "brotliBytes": 4847
+        },
+        {
+          "file": "dist-android/data/chunks/80c5e996023f889a747fa2f366712faa51a3c6c0beb88b4a9ac5950934656f36.json",
+          "bytes": 16171,
+          "gzipBytes": 5482,
+          "brotliBytes": 4469
+        },
+        {
+          "file": "dist-android/data/chunks/83427dd239844b3577ff2583e667c0450a910ccd04b5ffe53d67e4d99b495cc9.json",
+          "bytes": 11566,
+          "gzipBytes": 3944,
+          "brotliBytes": 3232
+        },
+        {
+          "file": "dist-android/data/chunks/84491923f11039f0dcb9242fa0ffa0ea07a22d545ba6b3834a1b3c0a7c15e065.json",
+          "bytes": 7623,
+          "gzipBytes": 2179,
+          "brotliBytes": 1858
+        },
+        {
+          "file": "dist-android/data/chunks/95e5582da1239b907f805e556901bdd8e64eb333e8a60f3de766410b7e5a6b1a.json",
+          "bytes": 7535,
+          "gzipBytes": 2109,
+          "brotliBytes": 1804
+        },
+        {
+          "file": "dist-android/data/chunks/9db90504984eb75d0f643c5d53601b8cf9a6db2cc9e47aedfdf38028620f8505.json",
+          "bytes": 7512,
+          "gzipBytes": 2096,
+          "brotliBytes": 1807
+        },
+        {
+          "file": "dist-android/data/chunks/NOTICE.txt",
+          "bytes": 3839,
+          "gzipBytes": 1977,
+          "brotliBytes": 1538
+        },
+        {
+          "file": "dist-android/data/chunks/aaad888c2640bb20a3c9a1d086dd048212a7882c8db047f17cdb8a2a6d1e3ae1.json",
+          "bytes": 7627,
+          "gzipBytes": 2156,
+          "brotliBytes": 1833
+        },
+        {
+          "file": "dist-android/data/chunks/ab601dba6148fa88b5572c954178a70d6921e04ba245d1b64e61de4764482ff8.json",
+          "bytes": 10969,
+          "gzipBytes": 3530,
+          "brotliBytes": 2947
+        },
+        {
+          "file": "dist-android/data/chunks/adedb8968837a6e6002c89f7e5b06e53b69f57237d96663083b9d7651b5ae648.json",
+          "bytes": 7515,
+          "gzipBytes": 2095,
+          "brotliBytes": 1803
+        },
+        {
+          "file": "dist-android/data/chunks/b3f10d90ae320da0f1b4d1cc7c1be06f15eec081f149625150e1300b15d53346.json",
+          "bytes": 7604,
+          "gzipBytes": 2154,
+          "brotliBytes": 1851
+        },
+        {
+          "file": "dist-android/data/chunks/b7861bfc75edd24b88c3cbd9287b68fe97965174ac66db3a978e4000cfdf51b8.json",
+          "bytes": 15009,
+          "gzipBytes": 5164,
+          "brotliBytes": 4280
+        },
+        {
+          "file": "dist-android/data/chunks/b78e0eaf96b206da2ce0aa0e9b2839a91e3eeecefe5ba629a5c5fb5c0ddda4a2.json",
+          "bytes": 7500,
+          "gzipBytes": 2100,
+          "brotliBytes": 1799
+        },
+        {
+          "file": "dist-android/data/chunks/b8f79d6bffaf320fbe16574e28e3342050a6ffc250c8c86d3bc8c9f2a2152444.json",
+          "bytes": 13363,
+          "gzipBytes": 4519,
+          "brotliBytes": 3736
+        },
+        {
+          "file": "dist-android/data/chunks/c2cb650460d7a2496b18cd7009345d1ac54bdea9f507fbd2438f0e2385d11fc0.json",
+          "bytes": 7634,
+          "gzipBytes": 2130,
+          "brotliBytes": 1829
+        },
+        {
+          "file": "dist-android/data/chunks/d3afbf0130daafc88574bc19ef5896b1611b30a10630330ba8e5743cf9d26548.json",
+          "bytes": 18396,
+          "gzipBytes": 6546,
+          "brotliBytes": 5518
+        },
+        {
+          "file": "dist-android/data/chunks/d8805e32a966ed759f882075c80c3c2684165d60e4d240ee518339b5ca7d5458.json",
+          "bytes": 11060,
+          "gzipBytes": 3549,
+          "brotliBytes": 2950
+        },
+        {
+          "file": "dist-android/data/chunks/dffd877f75bc1f2f63646b5e87f7cbe7c6d802aabc61e8a46a5da5ede079b198.json",
+          "bytes": 14815,
+          "gzipBytes": 4823,
+          "brotliBytes": 3998
+        },
+        {
+          "file": "dist-android/data/chunks/e103c3c0a778726bff96a41ae7ee4bb55cd711145f82965e6b1c16ccc3001a01.json",
+          "bytes": 13147,
+          "gzipBytes": 4390,
+          "brotliBytes": 3629
+        },
+        {
+          "file": "dist-android/data/chunks/e5f2f1c76e8195c19bdbb09ae10a867a563944c9b8793de2b07b1e99d7530a8f.json",
+          "bytes": 23163,
+          "gzipBytes": 8469,
+          "brotliBytes": 6991
+        },
+        {
+          "file": "dist-android/data/chunks/e9f5b141fc0d129d935b872976dc6adfbbc458c3b14dbf192d1e181ac9ea56ea.json",
+          "bytes": 7643,
+          "gzipBytes": 2148,
+          "brotliBytes": 1836
+        },
+        {
+          "file": "dist-android/data/chunks/ed196bdf6a2348e3536e9bfb2703f002d455a840252d65f90d7ae56f45719c8f.json",
+          "bytes": 16706,
+          "gzipBytes": 5630,
+          "brotliBytes": 4683
+        },
+        {
+          "file": "dist-android/data/chunks/ed5c3d600091f9a8364d44da03c0cf8d0ca0135adf3c0fc2045efc9c93844856.json",
+          "bytes": 7545,
+          "gzipBytes": 2129,
+          "brotliBytes": 1813
+        },
+        {
+          "file": "dist-android/data/chunks/edb11613a101aca4c91dbe2b341ce38e02d74c66171af03d40151fa9fe4ecbf9.json",
+          "bytes": 9538,
+          "gzipBytes": 2984,
+          "brotliBytes": 2502
+        },
+        {
+          "file": "dist-android/data/chunks/manifest.json",
+          "bytes": 101354,
+          "gzipBytes": 7681,
+          "brotliBytes": 5638
+        },
+        {
+          "file": "dist-android/metadata.json",
+          "bytes": 4687,
+          "gzipBytes": 1532,
+          "brotliBytes": 1399
+        },
+        {
+          "file": "dist-android/www.bundle/05815caf3b8fff0facdb60cb26274a69.js",
+          "bytes": 16045,
+          "gzipBytes": 5296,
+          "brotliBytes": 4408
+        },
+        {
+          "file": "dist-android/www.bundle/0916f95c4d1ea9f4d3e9802db725f758.css",
+          "bytes": 225,
+          "gzipBytes": 116,
+          "brotliBytes": 83
+        },
+        {
+          "file": "dist-android/www.bundle/1ceb479cb02129c168572522eb12bdde.js",
+          "bytes": 11997,
+          "gzipBytes": 3658,
+          "brotliBytes": 3066
+        },
+        {
+          "file": "dist-android/www.bundle/360c82d322c8e067fae3438b304a0d6f.js",
+          "bytes": 8711,
+          "gzipBytes": 2334,
+          "brotliBytes": 2013
+        },
+        {
+          "file": "dist-android/www.bundle/410801111eaaa340b162a3570f9e596b.js",
+          "bytes": 8581,
+          "gzipBytes": 2242,
+          "brotliBytes": 1951
+        },
+        {
+          "file": "dist-android/www.bundle/4152ba41f7ef52de59fc9ec1c3816706.js",
+          "bytes": 12112,
+          "gzipBytes": 3679,
+          "brotliBytes": 3072
+        },
+        {
+          "file": "dist-android/www.bundle/433e3085217b0d310964ad9db049d111.js",
+          "bytes": 1845108,
+          "gzipBytes": 458703,
+          "brotliBytes": 349068
+        },
+        {
+          "file": "dist-android/www.bundle/45bd20fcd08243c2a0e4c5bfa27bdb9b.js",
+          "bytes": 10600,
+          "gzipBytes": 3116,
+          "brotliBytes": 2640
+        },
+        {
+          "file": "dist-android/www.bundle/4d0e263f6ea31d29c0004e7b45a5e0b7.js",
+          "bytes": 8546,
+          "gzipBytes": 2231,
+          "brotliBytes": 1928
+        },
+        {
+          "file": "dist-android/www.bundle/5197dfa39e57b84721a85f876886f142.js",
+          "bytes": 19452,
+          "gzipBytes": 6682,
+          "brotliBytes": 5651
+        },
+        {
+          "file": "dist-android/www.bundle/55f3b20e1e0f1d6eea9cb1bb16a470b6.js",
+          "bytes": 8632,
+          "gzipBytes": 2287,
+          "brotliBytes": 1985
+        },
+        {
+          "file": "dist-android/www.bundle/5eafb44ecdde7fed64f0a02f0507154c.css",
+          "bytes": 83006,
+          "gzipBytes": 10643,
+          "brotliBytes": 8497
+        },
+        {
+          "file": "dist-android/www.bundle/6b672e0ad9bb73a19a857c80591f6e72.js",
+          "bytes": 8650,
+          "gzipBytes": 2285,
+          "brotliBytes": 1981
+        },
+        {
+          "file": "dist-android/www.bundle/71ba7d15582366f5cfa08b2f00485eef.js",
+          "bytes": 8899,
+          "gzipBytes": 2008,
+          "brotliBytes": 1723
+        },
+        {
+          "file": "dist-android/www.bundle/73101488400d9d2ad7bd891f7932998f.js",
+          "bytes": 8589,
+          "gzipBytes": 2261,
+          "brotliBytes": 1948
+        },
+        {
+          "file": "dist-android/www.bundle/78452704419c641703ac8e3e7e2f1d0a.js",
+          "bytes": 8577,
+          "gzipBytes": 2230,
+          "brotliBytes": 1938
+        },
+        {
+          "file": "dist-android/www.bundle/7a0a9048081b709eca4d2f0b09044a98.js",
+          "bytes": 1252941,
+          "gzipBytes": 324537,
+          "brotliBytes": 254275
+        },
+        {
+          "file": "dist-android/www.bundle/7a538c9161d6aaf424372bc73faf1b10.js",
+          "bytes": 8673,
+          "gzipBytes": 2287,
+          "brotliBytes": 1998
+        },
+        {
+          "file": "dist-android/www.bundle/7bc3ac0415c9c1d8b4ab565ddb95f455.js",
+          "bytes": 14175,
+          "gzipBytes": 4519,
+          "brotliBytes": 3768
+        },
+        {
+          "file": "dist-android/www.bundle/7e00aa15d3f1fc56ab7331808067a47a.js",
+          "bytes": 8574,
+          "gzipBytes": 2232,
+          "brotliBytes": 1950
+        },
+        {
+          "file": "dist-android/www.bundle/815cd8fc69fd81740272d3600149865e.js",
+          "bytes": 8759,
+          "gzipBytes": 2357,
+          "brotliBytes": 2026
+        },
+        {
+          "file": "dist-android/www.bundle/84ebd138fa412002354b8dc83272d228.js",
+          "bytes": 14395,
+          "gzipBytes": 4650,
+          "brotliBytes": 3882
+        },
+        {
+          "file": "dist-android/www.bundle/8e64fc113fd52e03ea8591b788f91eed.js",
+          "bytes": 14631,
+          "gzipBytes": 4789,
+          "brotliBytes": 4035
+        },
+        {
+          "file": "dist-android/www.bundle/8fea14b458ab8ff487ae32c0519eb3c1.js",
+          "bytes": 13113,
+          "gzipBytes": 4117,
+          "brotliBytes": 3459
+        },
+        {
+          "file": "dist-android/www.bundle/9676c69886ea83ee9686efe617c9bfc4.js",
+          "bytes": 8632,
+          "gzipBytes": 2287,
+          "brotliBytes": 1983
+        },
+        {
+          "file": "dist-android/www.bundle/9c138e1a41b4e479dfe963853ff7d3fc.js",
+          "bytes": 8669,
+          "gzipBytes": 2309,
+          "brotliBytes": 2000
+        },
+        {
+          "file": "dist-android/www.bundle/a1057a4a16ae999e4871c11d2bfb4901.js",
+          "bytes": 19028,
+          "gzipBytes": 6148,
+          "brotliBytes": 5046
+        },
+        {
+          "file": "dist-android/www.bundle/ab821f803fee228da792769388435094.js",
+          "bytes": 8591,
+          "gzipBytes": 2262,
+          "brotliBytes": 1955
+        },
+        {
+          "file": "dist-android/www.bundle/b11f62823dea2be77192104a496e0f67.js",
+          "bytes": 8574,
+          "gzipBytes": 2248,
+          "brotliBytes": 1959
+        },
+        {
+          "file": "dist-android/www.bundle/b66a1dd528895e1bdf4104d161ed9e21.js",
+          "bytes": 8662,
+          "gzipBytes": 2263,
+          "brotliBytes": 1958
+        },
+        {
+          "file": "dist-android/www.bundle/c2545f3dd1fa60d4d0c528c8cf030a15.js",
+          "bytes": 23191,
+          "gzipBytes": 7991,
+          "brotliBytes": 6725
+        },
+        {
+          "file": "dist-android/www.bundle/c5310c0684602588b9e8295bddef01d6.js",
+          "bytes": 12612,
+          "gzipBytes": 4076,
+          "brotliBytes": 3373
+        },
+        {
+          "file": "dist-android/www.bundle/d46daae694a3802182cae5c1041dd58c.js",
+          "bytes": 17231,
+          "gzipBytes": 5612,
+          "brotliBytes": 4642
+        },
+        {
+          "file": "dist-android/www.bundle/d58b682226a79153ba27214ccb59c40a.js",
+          "bytes": 12250,
+          "gzipBytes": 2282,
+          "brotliBytes": 1943
+        },
+        {
+          "file": "dist-android/www.bundle/d822a8e3683f88e06dbb479b08cf1a22.js",
+          "bytes": 17768,
+          "gzipBytes": 5759,
+          "brotliBytes": 4831
+        },
+        {
+          "file": "dist-android/www.bundle/dcbd4c7dccb6472509a5bb2e57c1f655.js",
+          "bytes": 15847,
+          "gzipBytes": 4954,
+          "brotliBytes": 4168
+        },
+        {
+          "file": "dist-android/www.bundle/de7b6b087d3b16155a736566b8cc6030.js",
+          "bytes": 8689,
+          "gzipBytes": 2280,
+          "brotliBytes": 1987
+        },
+        {
+          "file": "dist-android/www.bundle/e80a02b49d2308c69c0b8b64c55a50d6.js",
+          "bytes": 24191,
+          "gzipBytes": 8600,
+          "brotliBytes": 7121
+        },
+        {
+          "file": "dist-android/www.bundle/ecb530f1a5378a803500257f5a3be0a1.html",
+          "bytes": 3051,
+          "gzipBytes": 1274,
+          "brotliBytes": 989
+        },
+        {
+          "file": "dist-android/www.bundle/fd8758f8e258824f56d86a72e33c8434.js",
+          "bytes": 8955,
+          "gzipBytes": 2022,
+          "brotliBytes": 1742
+        },
+        {
+          "file": "dist-android/www.bundle/fe631880b5b702419b4fd2268a9dfb96.js",
+          "bytes": 19848303,
+          "gzipBytes": 6984089,
+          "brotliBytes": 4672569
+        }
+      ]
+    },
+    {
+      "root": "public/data/chunks",
+      "fileCount": 37,
+      "totalBytes": 493968,
+      "files": [
+        {
+          "file": "public/data/chunks/033307a4b22c9d2d4bf0204cf1faf3e7ddc10681599f17e1e3219dc6e9e246bd.json",
+          "bytes": 22163,
+          "gzipBytes": 7860,
+          "brotliBytes": 6615
+        },
+        {
+          "file": "public/data/chunks/08bc53ce2ca07bd2da34099f0480bd5205e40352fee207bd013c7bd966482e37.json",
+          "bytes": 7586,
+          "gzipBytes": 2155,
+          "brotliBytes": 1841
+        },
+        {
+          "file": "public/data/chunks/1561c6432515ccb93d6387abe13512fe163bb1872ce1a19599909cdd2b8de3e0.json",
+          "bytes": 12069,
+          "gzipBytes": 3985,
+          "brotliBytes": 3303
+        },
+        {
+          "file": "public/data/chunks/1d141aa8acfe3b77c228c588302bd207c7156bd98b6250399ebb0c5bf539f999.json",
+          "bytes": 13603,
+          "gzipBytes": 4653,
+          "brotliBytes": 3870
+        },
+        {
+          "file": "public/data/chunks/208576a3e250051a0717e9011adddc9d9d1d07d55631ed805bc23bb904ba64f0.json",
+          "bytes": 8283,
+          "gzipBytes": 1918,
+          "brotliBytes": 1606
+        },
+        {
+          "file": "public/data/chunks/21b1abe0f244754804356b96a91a457b083ed161cc36ebafb92172f2ee66e53d.json",
+          "bytes": 7713,
+          "gzipBytes": 2226,
+          "brotliBytes": 1894
+        },
+        {
+          "file": "public/data/chunks/3cd50921ebe24ad3c5ae446875eab8404476e7e7e4a3f6347592f8c634771c9b.json",
+          "bytes": 8227,
+          "gzipBytes": 1904,
+          "brotliBytes": 1589
+        },
+        {
+          "file": "public/data/chunks/4f44982e9f7c3ef47c30686d6012ef5db55037c72bd2f1ed2040af4ddd5d22f1.json",
+          "bytes": 7528,
+          "gzipBytes": 2116,
+          "brotliBytes": 1815
+        },
+        {
+          "file": "public/data/chunks/57fdb05c73bd10933814bcf423fbbc89769b9613a8fc3af3d6892c34d8c002e4.json",
+          "bytes": 7543,
+          "gzipBytes": 2128,
+          "brotliBytes": 1813
+        },
+        {
+          "file": "public/data/chunks/5dd15a761dbdb3edd73b02ede0f3fac455864973b06baacd9eb094d299bc0c3a.json",
+          "bytes": 11192,
+          "gzipBytes": 2174,
+          "brotliBytes": 1792
+        },
+        {
+          "file": "public/data/chunks/5ecc7955177ddcbde1bf6e4c157b4e5b6b759b0e50823e1aa0cf80712448cea1.json",
+          "bytes": 7586,
+          "gzipBytes": 2156,
+          "brotliBytes": 1829
+        },
+        {
+          "file": "public/data/chunks/6f05354934ba7f922d54e57bdbea1842c7313dac0dd3d0990a41f524f991c636.json",
+          "bytes": 7665,
+          "gzipBytes": 2203,
+          "brotliBytes": 1874
+        },
+        {
+          "file": "public/data/chunks/7e50c9029e26124f56f2eb24aa991ba160550b7a30afc1ee9aad6d9452543213.json",
+          "bytes": 17976,
+          "gzipBytes": 6013,
+          "brotliBytes": 4847
+        },
+        {
+          "file": "public/data/chunks/80c5e996023f889a747fa2f366712faa51a3c6c0beb88b4a9ac5950934656f36.json",
+          "bytes": 16171,
+          "gzipBytes": 5482,
+          "brotliBytes": 4469
+        },
+        {
+          "file": "public/data/chunks/83427dd239844b3577ff2583e667c0450a910ccd04b5ffe53d67e4d99b495cc9.json",
+          "bytes": 11566,
+          "gzipBytes": 3944,
+          "brotliBytes": 3232
+        },
+        {
+          "file": "public/data/chunks/84491923f11039f0dcb9242fa0ffa0ea07a22d545ba6b3834a1b3c0a7c15e065.json",
+          "bytes": 7623,
+          "gzipBytes": 2179,
+          "brotliBytes": 1858
+        },
+        {
+          "file": "public/data/chunks/95e5582da1239b907f805e556901bdd8e64eb333e8a60f3de766410b7e5a6b1a.json",
+          "bytes": 7535,
+          "gzipBytes": 2109,
+          "brotliBytes": 1804
+        },
+        {
+          "file": "public/data/chunks/9db90504984eb75d0f643c5d53601b8cf9a6db2cc9e47aedfdf38028620f8505.json",
+          "bytes": 7512,
+          "gzipBytes": 2096,
+          "brotliBytes": 1807
+        },
+        {
+          "file": "public/data/chunks/NOTICE.txt",
+          "bytes": 3839,
+          "gzipBytes": 1977,
+          "brotliBytes": 1538
+        },
+        {
+          "file": "public/data/chunks/aaad888c2640bb20a3c9a1d086dd048212a7882c8db047f17cdb8a2a6d1e3ae1.json",
+          "bytes": 7627,
+          "gzipBytes": 2156,
+          "brotliBytes": 1833
+        },
+        {
+          "file": "public/data/chunks/ab601dba6148fa88b5572c954178a70d6921e04ba245d1b64e61de4764482ff8.json",
+          "bytes": 10969,
+          "gzipBytes": 3530,
+          "brotliBytes": 2947
+        },
+        {
+          "file": "public/data/chunks/adedb8968837a6e6002c89f7e5b06e53b69f57237d96663083b9d7651b5ae648.json",
+          "bytes": 7515,
+          "gzipBytes": 2095,
+          "brotliBytes": 1803
+        },
+        {
+          "file": "public/data/chunks/b3f10d90ae320da0f1b4d1cc7c1be06f15eec081f149625150e1300b15d53346.json",
+          "bytes": 7604,
+          "gzipBytes": 2154,
+          "brotliBytes": 1851
+        },
+        {
+          "file": "public/data/chunks/b7861bfc75edd24b88c3cbd9287b68fe97965174ac66db3a978e4000cfdf51b8.json",
+          "bytes": 15009,
+          "gzipBytes": 5164,
+          "brotliBytes": 4280
+        },
+        {
+          "file": "public/data/chunks/b78e0eaf96b206da2ce0aa0e9b2839a91e3eeecefe5ba629a5c5fb5c0ddda4a2.json",
+          "bytes": 7500,
+          "gzipBytes": 2100,
+          "brotliBytes": 1799
+        },
+        {
+          "file": "public/data/chunks/b8f79d6bffaf320fbe16574e28e3342050a6ffc250c8c86d3bc8c9f2a2152444.json",
+          "bytes": 13363,
+          "gzipBytes": 4519,
+          "brotliBytes": 3736
+        },
+        {
+          "file": "public/data/chunks/c2cb650460d7a2496b18cd7009345d1ac54bdea9f507fbd2438f0e2385d11fc0.json",
+          "bytes": 7634,
+          "gzipBytes": 2130,
+          "brotliBytes": 1829
+        },
+        {
+          "file": "public/data/chunks/d3afbf0130daafc88574bc19ef5896b1611b30a10630330ba8e5743cf9d26548.json",
+          "bytes": 18396,
+          "gzipBytes": 6546,
+          "brotliBytes": 5518
+        },
+        {
+          "file": "public/data/chunks/d8805e32a966ed759f882075c80c3c2684165d60e4d240ee518339b5ca7d5458.json",
+          "bytes": 11060,
+          "gzipBytes": 3549,
+          "brotliBytes": 2950
+        },
+        {
+          "file": "public/data/chunks/dffd877f75bc1f2f63646b5e87f7cbe7c6d802aabc61e8a46a5da5ede079b198.json",
+          "bytes": 14815,
+          "gzipBytes": 4823,
+          "brotliBytes": 3998
+        },
+        {
+          "file": "public/data/chunks/e103c3c0a778726bff96a41ae7ee4bb55cd711145f82965e6b1c16ccc3001a01.json",
+          "bytes": 13147,
+          "gzipBytes": 4390,
+          "brotliBytes": 3629
+        },
+        {
+          "file": "public/data/chunks/e5f2f1c76e8195c19bdbb09ae10a867a563944c9b8793de2b07b1e99d7530a8f.json",
+          "bytes": 23163,
+          "gzipBytes": 8469,
+          "brotliBytes": 6991
+        },
+        {
+          "file": "public/data/chunks/e9f5b141fc0d129d935b872976dc6adfbbc458c3b14dbf192d1e181ac9ea56ea.json",
+          "bytes": 7643,
+          "gzipBytes": 2148,
+          "brotliBytes": 1836
+        },
+        {
+          "file": "public/data/chunks/ed196bdf6a2348e3536e9bfb2703f002d455a840252d65f90d7ae56f45719c8f.json",
+          "bytes": 16706,
+          "gzipBytes": 5630,
+          "brotliBytes": 4683
+        },
+        {
+          "file": "public/data/chunks/ed5c3d600091f9a8364d44da03c0cf8d0ca0135adf3c0fc2045efc9c93844856.json",
+          "bytes": 7545,
+          "gzipBytes": 2129,
+          "brotliBytes": 1813
+        },
+        {
+          "file": "public/data/chunks/edb11613a101aca4c91dbe2b341ce38e02d74c66171af03d40151fa9fe4ecbf9.json",
+          "bytes": 9538,
+          "gzipBytes": 2984,
+          "brotliBytes": 2502
+        },
+        {
+          "file": "public/data/chunks/manifest.json",
+          "bytes": 101354,
+          "gzipBytes": 7681,
+          "brotliBytes": 5638
+        }
+      ]
+    }
+  ]
+}

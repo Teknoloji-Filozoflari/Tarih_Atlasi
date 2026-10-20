@@ -1,0 +1,10 @@
+{
+  "measuredAt": "2026-10-16T10:51:24.900Z",
+  "kind": "STATIC_PRODUCTION_EXPORT_BROWSER",
+  "status": "BLOCKED",
+  "measurements": [],
+  "excluded": [
+    "Android device, GPU allocation, battery and temperature are not measured."
+  ],
+  "reason": "EPERM: listen EPERM: operation not permitted 127.0.0.1:4173"
+}

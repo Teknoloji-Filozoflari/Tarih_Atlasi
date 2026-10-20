@@ -1,0 +1,39 @@
+{
+  "scope": "Uncompressed filesystem bytes of the actual exports; not startup transfer, APK, FPS or memory measurements.",
+  "dist": {
+    "files": 851,
+    "bytes": 197785209,
+    "largestJavaScript": [
+      {
+        "path": "dist/_expo/static/js/web/physical-detail-82c15666de9112c97461539d685ba6e8.js",
+        "bytes": 19848309
+      },
+      {
+        "path": "dist/_expo/static/js/web/entry-bd30e6b7684e74d6eecea9dbd4be9119.js",
+        "bytes": 6689492
+      },
+      {
+        "path": "dist/_expo/static/js/web/maplibre-gl-dbe6426b664bfbb3e51dc1e0586468c9.js",
+        "bytes": 1079862
+      }
+    ]
+  },
+  "dist-android": {
+    "files": 857,
+    "bytes": 209461932,
+    "largestJavaScript": [
+      {
+        "path": "dist-android/www.bundle/3765961f37a7e35df28e2378249a2e8f.js",
+        "bytes": 19848303
+      },
+      {
+        "path": "dist-android/_expo/static/js/android/entry-a9bfe4b336a03da15defd09bcb584087.hbc",
+        "bytes": 11746342
+      },
+      {
+        "path": "dist-android/www.bundle/d609db6f58cfec2a4bf53ab9963c1785.js",
+        "bytes": 5510704
+      }
+    ]
+  }
+}

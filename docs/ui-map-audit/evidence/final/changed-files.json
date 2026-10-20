@@ -1,0 +1,521 @@
+{
+  "capturedAt": "2026-10-16T13:58:35.498Z",
+  "scope": "V3 source baseline comparison only. Git is unavailable. Does not attribute pre-existing user/agent work. docs and generated dist/cache output excluded; README included.",
+  "baselineFiles": 285,
+  "finalFiles": 293,
+  "changed": [
+    ".github/workflows/checks.yml",
+    "README.md",
+    "package.json",
+    "playwright.config.ts",
+    "scripts/performance/web.mjs",
+    "scripts/prepare-detail-land.mjs",
+    "scripts/prepare-globe-assets.mjs",
+    "src/atlas/Action.tsx",
+    "src/atlas/AppHeader.tsx",
+    "src/atlas/AtlasScreen.tsx",
+    "src/atlas/EntitySheet.tsx",
+    "src/atlas/SearchResults.tsx",
+    "src/atlas/SearchTargetPanel.tsx",
+    "src/atlas/SharePanel.tsx",
+    "src/atlas/SourceDetails.tsx",
+    "src/discovery/bookmarks.ts",
+    "src/discovery/search.ts",
+    "src/discovery/sharing.native.ts",
+    "src/discovery/sharing.web.ts",
+    "src/i18n/tr.ts",
+    "src/map/ViewportFrame.tsx",
+    "src/map/globe/renderer.ts",
+    "src/map/useGlobeHost.ts",
+    "src/map-contract/protocol.ts",
+    "src/preferences/model.ts",
+    "src/theme/tokens.ts",
+    "tests/unit/discovery.test.mjs",
+    "tests/unit/renderer.test.mjs",
+    "tests/unit/rework.test.mjs",
+    "tests/web/atlas.spec.ts",
+    "tests/web/discovery.spec.ts",
+    "tests/web/loading.spec.ts",
+    "tests/web/menu.ts",
+    "tests/web/persons.spec.ts",
+    "tests/web/release-audit.spec.ts",
+    "tests/web/sources.spec.ts"
+  ],
+  "added": [
+    "scripts/qa/serve-export.mjs",
+    "src/atlas/MapModeSwitch.tsx",
+    "src/atlas/TimelineDock.tsx",
+    "src/atlas/usePanelInteraction.ts",
+    "src/config/build.ts",
+    "src/map/globe/provider.ts",
+    "tests/web/product-flows.spec.ts",
+    "tests/web/product-quality.spec.ts"
+  ],
+  "removed": [],
+  "packageLockUnchanged": true,
+  "rawInputsUnchanged": true,
+  "generatedCatalogUnchanged": true,
+  "changedDataPaths": [],
+  "differences": [
+    {
+      "path": ".github/workflows/checks.yml",
+      "before": {
+        "bytes": 1402,
+        "sha256": "b9445ecdd35336ec90e286ad01a553136b2f5745166e677ae6cf86fdd2aa4224"
+      },
+      "after": {
+        "bytes": 1523,
+        "sha256": "7485b391804b0ae51306bef4fb4e09bcdee0d4b5096ccf2707a721304740ebb3"
+      }
+    },
+    {
+      "path": "README.md",
+      "before": {
+        "bytes": 26196,
+        "sha256": "13a6960e93672c05fde205dff17fa9baab88b925260933df23e81a10f678f667"
+      },
+      "after": {
+        "bytes": 27987,
+        "sha256": "ffe358e674b9bdf92394ba7aae2d57b3ae667d27344eae9674b438ffa2143323"
+      }
+    },
+    {
+      "path": "package.json",
+      "before": {
+        "bytes": 3358,
+        "sha256": "d023bda6e92a56be7af14f901784ffb3985151d6c42f6735986fc7c9644da873"
+      },
+      "after": {
+        "bytes": 3637,
+        "sha256": "e27bf7ae9630e478b2a5cbf816b32a568f110d3017bf3d3b2c74a773bb93d36a"
+      }
+    },
+    {
+      "path": "playwright.config.ts",
+      "before": {
+        "bytes": 758,
+        "sha256": "2951f9dfb2b82c392e7aea9a3295bd0c350e1f5348098f79e0a88e9164afa0a6"
+      },
+      "after": {
+        "bytes": 1088,
+        "sha256": "e71914b7cfecd939abf68887651d0257a26b62aa495dc40e478704cb57b2b7b4"
+      }
+    },
+    {
+      "path": "scripts/performance/web.mjs",
+      "before": {
+        "bytes": 5858,
+        "sha256": "a947caf7386c0a0fd45ba4b3c7af9500e6cc60d5f876d0daec7048da42efe242"
+      },
+      "after": {
+        "bytes": 6229,
+        "sha256": "4353dd3804e2b9e88a34644ea9ac4dbd501724f5ea00d3e563488e119d6e2c85"
+      }
+    },
+    {
+      "path": "scripts/prepare-detail-land.mjs",
+      "before": {
+        "bytes": 5087,
+        "sha256": "a6b58854ee3708dfc9ce0a97524bbfa735d63d813263e9b60317ae0f9703dc62"
+      },
+      "after": {
+        "bytes": 5086,
+        "sha256": "f61151a0c09e1b27944815e6666ce1deb0f76eeaccf29ddf3c67516625aa47d3"
+      }
+    },
+    {
+      "path": "scripts/prepare-globe-assets.mjs",
+      "before": {
+        "bytes": 8025,
+        "sha256": "d4db316a3578184f825af625e6305b2a1d62c962d0a517621fdadd8709f89b79"
+      },
+      "after": {
+        "bytes": 8023,
+        "sha256": "c02685228194a9e89ec37d9de8c2e34f1a1fd302c3050b85fa0082f80b7f3623"
+      }
+    },
+    {
+      "path": "src/atlas/Action.tsx",
+      "before": {
+        "bytes": 2521,
+        "sha256": "69efb3006b2214adb1040cf121d3504f18eb937d89d826453038d0af3cc7c9ee"
+      },
+      "after": {
+        "bytes": 2787,
+        "sha256": "6e34c01d9824b790eecd90e2e61cb6e3f21aae51c4e3d9ee40295d9b820b13a9"
+      }
+    },
+    {
+      "path": "src/atlas/AppHeader.tsx",
+      "before": {
+        "bytes": 2014,
+        "sha256": "b78481db5c64d26a45317f85f3a66dd5f4cbff2b5b049bd3fd4f4adb972b8683"
+      },
+      "after": {
+        "bytes": 2461,
+        "sha256": "3c83ec2e0ad1b59e75a175a743170506d1f827058e66f11dc0b355c156b70287"
+      }
+    },
+    {
+      "path": "src/atlas/AtlasScreen.tsx",
+      "before": {
+        "bytes": 38003,
+        "sha256": "86cd3a94f47d12a3c75a850c55d8dcb630fa260ad1fb16e654e20483d967b6ea"
+      },
+      "after": {
+        "bytes": 38304,
+        "sha256": "a1be00dac19154cd4988457d78b279e817a9ffa0434cfa0b95dd3badc2aab2e7"
+      }
+    },
+    {
+      "path": "src/atlas/EntitySheet.tsx",
+      "before": {
+        "bytes": 2500,
+        "sha256": "a7372c0cf885bb1ff40de8b44a31643835822912c5f17ece75af8b2daf477e4c"
+      },
+      "after": {
+        "bytes": 3928,
+        "sha256": "029c589a3acb6a98bcac35861865d73b1043d612c65b13ea3570c2e078b067c3"
+      }
+    },
+    {
+      "path": "src/atlas/SearchResults.tsx",
+      "before": {
+        "bytes": 4328,
+        "sha256": "d444eca13b25567cfe9f497646037a2a136e2d9993c5e3a443ba214dfc0657cb"
+      },
+      "after": {
+        "bytes": 4423,
+        "sha256": "4544ccffe7b4cc880c5de4890200c7ad5ec8e72e3b78834105e72bdfbbc317c0"
+      }
+    },
+    {
+      "path": "src/atlas/SearchTargetPanel.tsx",
+      "before": {
+        "bytes": 6914,
+        "sha256": "ab8954b8c8bf141d6a77927b51bae234383d813715a6541ceafe8787c074ac4e"
+      },
+      "after": {
+        "bytes": 6884,
+        "sha256": "ad4f12a7fa81d7c9c1ea43941bd982824a67ae2988df8dba698ccf84f5a9a9bc"
+      }
+    },
+    {
+      "path": "src/atlas/SharePanel.tsx",
+      "before": {
+        "bytes": 1282,
+        "sha256": "78336830d5d6efcbe66c961ec109802999c067be8acc6d7432f19a422c40416c"
+      },
+      "after": {
+        "bytes": 1868,
+        "sha256": "53784cc76890343960d3063322511df1cd397a170d46c76f44fc6ffd8e94e368"
+      }
+    },
+    {
+      "path": "src/atlas/SourceDetails.tsx",
+      "before": {
+        "bytes": 4244,
+        "sha256": "5eddfd196c4c02029b8cd597ba1a9f398ac467cad059d08bc11a0624030a2d9c"
+      },
+      "after": {
+        "bytes": 4551,
+        "sha256": "93e03c9d95763fa1ce45d6a4c522cb1ca0e56323dcaa17bfa08281f3ce061a27"
+      }
+    },
+    {
+      "path": "src/discovery/bookmarks.ts",
+      "before": {
+        "bytes": 4037,
+        "sha256": "8b03c7a640f47e1764782c6806476916b212fbd69ba727fdefa0e17e02b33e9c"
+      },
+      "after": {
+        "bytes": 4125,
+        "sha256": "2e2dfd63f0c933b694bf952b58445dc415a5ca5ea072dec12515fc42886ac440"
+      }
+    },
+    {
+      "path": "src/discovery/search.ts",
+      "before": {
+        "bytes": 8361,
+        "sha256": "5e81462c96fc14079c1c5542dbbd31e64edb225d37b83de6bacacaddb669f171"
+      },
+      "after": {
+        "bytes": 8851,
+        "sha256": "2d6008f32fc27a8a78320f2d0cbeff01720faec4fa9797e1e29fc55b778fb050"
+      }
+    },
+    {
+      "path": "src/discovery/sharing.native.ts",
+      "before": {
+        "bytes": 349,
+        "sha256": "c708d6622a2303212c93ad8f8c2ba81e69b9cc8f91490ef4e209e598501ad343"
+      },
+      "after": {
+        "bytes": 510,
+        "sha256": "335d766699805da9a22b31e80ce1926dc61a11002a6e45b0334004d11a3aa6d1"
+      }
+    },
+    {
+      "path": "src/discovery/sharing.web.ts",
+      "before": {
+        "bytes": 424,
+        "sha256": "24e0ec392ff5e0ec191790c591b0c788d51ae1555b227041123d3dae800720f9"
+      },
+      "after": {
+        "bytes": 624,
+        "sha256": "faa68c63d85ba19329f8ad6649d442b2e59bb3896ff9dc212b114e0303e43eae"
+      }
+    },
+    {
+      "path": "src/i18n/tr.ts",
+      "before": {
+        "bytes": 40849,
+        "sha256": "05c2bc08f6a4159b8eddb469543ad0d310dbd0d1eb28e675cf167d7ee95e2c85"
+      },
+      "after": {
+        "bytes": 41272,
+        "sha256": "696f85e922a2fdf01205d1ef23c548d600e3a4b30639014af2f88d8f9e0ff3f5"
+      }
+    },
+    {
+      "path": "src/map/ViewportFrame.tsx",
+      "before": {
+        "bytes": 2553,
+        "sha256": "11efca196b2779f33e5ebd4e57cff86d141ae4e01077f5ba7d484fe4f3daf142"
+      },
+      "after": {
+        "bytes": 2695,
+        "sha256": "a3c25790421ad2344531fb07433e446eb56cfafce71549f68980940dbb287e77"
+      }
+    },
+    {
+      "path": "src/map/globe/renderer.ts",
+      "before": {
+        "bytes": 23859,
+        "sha256": "d4d4198eaac2513fb05078af465cf329e81f1930b7161823d5547c654298a74f"
+      },
+      "after": {
+        "bytes": 25547,
+        "sha256": "6920023dee4579a2301dd40cfea536fb57cbc64aa8e6ad062b602c4edca492d0"
+      }
+    },
+    {
+      "path": "src/map/useGlobeHost.ts",
+      "before": {
+        "bytes": 9702,
+        "sha256": "4a34dddfc025079c6ba8483d2df806504f9921e92665c577371e096999a9042f"
+      },
+      "after": {
+        "bytes": 9785,
+        "sha256": "cc06d70d028effc4fc56a9684bf78f309a574b539a435920e0015731328cf9cc"
+      }
+    },
+    {
+      "path": "src/map-contract/protocol.ts",
+      "before": {
+        "bytes": 11962,
+        "sha256": "88eb2b40d87907df2c431bfc18d816cf3224e30f2a9fbbac3094c634620beb3d"
+      },
+      "after": {
+        "bytes": 12120,
+        "sha256": "db4dde4dd2fd5562d175fa84d432c8db07f58ebcfb420b01c917668ec931f303"
+      }
+    },
+    {
+      "path": "src/preferences/model.ts",
+      "before": {
+        "bytes": 4608,
+        "sha256": "f868a66ada6858ef26f171dbe9fb9642d048976b6878bd54a471bdbff08a9374"
+      },
+      "after": {
+        "bytes": 4846,
+        "sha256": "cf7a25c360c1a668b135ee7af874f78d9217c722815bf01bb11092a8ebbac2b9"
+      }
+    },
+    {
+      "path": "src/theme/tokens.ts",
+      "before": {
+        "bytes": 1265,
+        "sha256": "76223de0f0b4b68a0a89c95209f243b13729597bd883c1b6d555f9d9ef95ee40"
+      },
+      "after": {
+        "bytes": 1524,
+        "sha256": "dad1ca637cb3c57d4cee41d6367318a6291790840aad73f24512638a806ab5b6"
+      }
+    },
+    {
+      "path": "tests/unit/discovery.test.mjs",
+      "before": {
+        "bytes": 21670,
+        "sha256": "8e6f02ed9a2012140fb0dc3c91717216c97d99a904ea2a9251237687a7076759"
+      },
+      "after": {
+        "bytes": 21678,
+        "sha256": "a2a87d599f3aea0173eab0a7d49dae5dc5950f22e683b4fa476f12696128549c"
+      }
+    },
+    {
+      "path": "tests/unit/renderer.test.mjs",
+      "before": {
+        "bytes": 34330,
+        "sha256": "9bdf3cac546ae59755fc6456bc115413e9ef0a4c373d1527230b2635ce1d13d4"
+      },
+      "after": {
+        "bytes": 34670,
+        "sha256": "18507e5250f8d5dff14d5eb01433e9737eecef617f081221bd37621adc47cc6d"
+      }
+    },
+    {
+      "path": "tests/unit/rework.test.mjs",
+      "before": {
+        "bytes": 9104,
+        "sha256": "bcb5317f8938ea2453e47c66f03489f8d42adc64e522e6d4355119cb036824c4"
+      },
+      "after": {
+        "bytes": 13517,
+        "sha256": "faec3b5a94cab0eb81b05927b983bed31f5126b854db928bcc45db06199f3263"
+      }
+    },
+    {
+      "path": "tests/web/atlas.spec.ts",
+      "before": {
+        "bytes": 3983,
+        "sha256": "c712efa5af50e746e552792a3a8c78510358b25c2662de9f50766dae741ce1e6"
+      },
+      "after": {
+        "bytes": 3909,
+        "sha256": "f86b7372eb573e91121fd8c86a75eea9db86e629b16773f16770788b28da1b77"
+      }
+    },
+    {
+      "path": "tests/web/discovery.spec.ts",
+      "before": {
+        "bytes": 7852,
+        "sha256": "8aac32eec37da0928d3a9a8846fecb28b8f8c01728fea531537941f7a2a85465"
+      },
+      "after": {
+        "bytes": 7753,
+        "sha256": "e9b1e2bf5740477850604b4427a84d737e720218e9f561176e3bf91d0de137a4"
+      }
+    },
+    {
+      "path": "tests/web/loading.spec.ts",
+      "before": {
+        "bytes": 3350,
+        "sha256": "01da14598cc12e7db2798a9cd5901d6c5dc6018eedb641e93e9ce540785654ba"
+      },
+      "after": {
+        "bytes": 3330,
+        "sha256": "32e1ebfbf27896bf2205e2e3c2b83e5ca4fdb3d630283fcc97c8bcd1b8162b2f"
+      }
+    },
+    {
+      "path": "tests/web/menu.ts",
+      "before": {
+        "bytes": 986,
+        "sha256": "aef203aa1cdd2cf6f5359f2b9a66bce152dc1f4eb5e33379a1c25310fb226d32"
+      },
+      "after": {
+        "bytes": 1985,
+        "sha256": "fc85a2cc97c04309e312780bdc5bca40e46141c1dd85f2f9ce4b026ff9933d37"
+      }
+    },
+    {
+      "path": "tests/web/persons.spec.ts",
+      "before": {
+        "bytes": 3071,
+        "sha256": "bd18f4f2ded1f9ac9589811b5e5c85c79268b22567f5824238221fb9fe01d33f"
+      },
+      "after": {
+        "bytes": 2972,
+        "sha256": "4273407639ae33e30301f9123d5746f6e940c4f522cb61b9bcbe03cf3eccd5cf"
+      }
+    },
+    {
+      "path": "tests/web/release-audit.spec.ts",
+      "before": {
+        "bytes": 1801,
+        "sha256": "bbd1f022736d49b1905284bae9bb6377e119bbd0fc64a94d1a36554fe76a8bae"
+      },
+      "after": {
+        "bytes": 1702,
+        "sha256": "2e2de01fa4a7c771cc42cc3d1914ade62d1489667bbb1550665877053c7af0a2"
+      }
+    },
+    {
+      "path": "tests/web/sources.spec.ts",
+      "before": {
+        "bytes": 4216,
+        "sha256": "d8c177516f267368b7bf94ac601ac966f97f41c51ae74814cd6f31357e8c249b"
+      },
+      "after": {
+        "bytes": 4304,
+        "sha256": "720ba68b9d77a5791b1974cabf468a4cf0b8dd47a30f9855e59e8ba311a3c75d"
+      }
+    },
+    {
+      "path": "scripts/qa/serve-export.mjs",
+      "before": null,
+      "after": {
+        "bytes": 2942,
+        "sha256": "539b96c0d778c06ac9a0bf49dc53962728751c80ab16ce7e5d8175e444a7eb1d"
+      }
+    },
+    {
+      "path": "src/atlas/MapModeSwitch.tsx",
+      "before": null,
+      "after": {
+        "bytes": 908,
+        "sha256": "2a6dd6ed0b6dfaa93161910953696114bcb4c2239fa2fb10299d3ad02218ecc6"
+      }
+    },
+    {
+      "path": "src/atlas/TimelineDock.tsx",
+      "before": null,
+      "after": {
+        "bytes": 500,
+        "sha256": "7f7ae4c9efed921a0eaa4931a3007cb474e13b24d902231a1d70398b4f8b0ba1"
+      }
+    },
+    {
+      "path": "src/atlas/usePanelInteraction.ts",
+      "before": null,
+      "after": {
+        "bytes": 1104,
+        "sha256": "b5203d54c74eefe2f9bd477ead684198a9f30ac8e95ade700496b79cf53a3bf9"
+      }
+    },
+    {
+      "path": "src/config/build.ts",
+      "before": null,
+      "after": {
+        "bytes": 163,
+        "sha256": "9d7e5bc077ae45d390a4ab28778fd626a1068e0d2b12467fc064b2da5d6eb92a"
+      }
+    },
+    {
+      "path": "src/map/globe/provider.ts",
+      "before": null,
+      "after": {
+        "bytes": 1072,
+        "sha256": "1abc3adff67dc37372934406644aaaa05454e2b58fdbba677e7dd9905f49cb0b"
+      }
+    },
+    {
+      "path": "tests/web/product-flows.spec.ts",
+      "before": null,
+      "after": {
+        "bytes": 5820,
+        "sha256": "a294c3c1f843e36dfd100f01cf3b5672c3faa66daf414c4fb021523cd5464f61"
+      }
+    },
+    {
+      "path": "tests/web/product-quality.spec.ts",
+      "before": null,
+      "after": {
+        "bytes": 3309,
+        "sha256": "ed5074202318e346d61c1e73c726e22dc1518843bbd3f20a6f30e8c85028fd4e"
+      }
+    }
+  ]
+}

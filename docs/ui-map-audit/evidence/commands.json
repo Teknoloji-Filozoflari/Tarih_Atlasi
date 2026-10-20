@@ -1,0 +1,162 @@
+[
+  {
+    "name": "git-status",
+    "command": "git status --short",
+    "exitCode": 128,
+    "timedOut": false,
+    "elapsedSeconds": 0.002,
+    "log": "git-status.log"
+  },
+  {
+    "name": "lint",
+    "command": "npm run lint",
+    "exitCode": 0,
+    "timedOut": false,
+    "elapsedSeconds": 8.561,
+    "log": "lint.log"
+  },
+  {
+    "name": "typecheck",
+    "command": "npm run typecheck",
+    "exitCode": 0,
+    "timedOut": false,
+    "elapsedSeconds": 4.027,
+    "log": "typecheck.log"
+  },
+  {
+    "name": "unit",
+    "command": "npm test",
+    "exitCode": 0,
+    "timedOut": false,
+    "elapsedSeconds": 1.044,
+    "log": "unit.log"
+  },
+  {
+    "name": "worker",
+    "command": "npm run test:worker",
+    "exitCode": 0,
+    "timedOut": false,
+    "elapsedSeconds": 0.246,
+    "log": "worker.log"
+  },
+  {
+    "name": "web-build",
+    "command": "npm run web:export",
+    "exitCode": 0,
+    "timedOut": false,
+    "elapsedSeconds": 2.408,
+    "log": "web-build.log"
+  },
+  {
+    "name": "integration-list",
+    "command": "npm run test:web -- --list",
+    "exitCode": 0,
+    "timedOut": false,
+    "elapsedSeconds": 0.424,
+    "log": "integration-list.log"
+  },
+  {
+    "name": "integration",
+    "command": "npm run test:web -- tests/web/product-rework.spec.ts --project=desktop --workers=1",
+    "exitCode": 124,
+    "timedOut": true,
+    "elapsedSeconds": 30.013,
+    "log": "integration.log"
+  },
+  {
+    "name": "globe",
+    "command": "npm run globe:check",
+    "exitCode": 0,
+    "timedOut": false,
+    "elapsedSeconds": 0.74,
+    "log": "globe.log"
+  },
+  {
+    "name": "basemap",
+    "command": "npm run basemap:check",
+    "exitCode": 0,
+    "timedOut": false,
+    "elapsedSeconds": 0.14,
+    "log": "basemap.log"
+  },
+  {
+    "name": "pilot",
+    "command": "npm run pilot:check",
+    "exitCode": 0,
+    "timedOut": false,
+    "elapsedSeconds": 0.168,
+    "log": "pilot.log"
+  },
+  {
+    "name": "sitelinks",
+    "command": "npm run sitelinks:check",
+    "exitCode": 0,
+    "timedOut": false,
+    "elapsedSeconds": 0.188,
+    "log": "sitelinks.log"
+  },
+  {
+    "name": "chunks",
+    "command": "npm run chunks:check",
+    "exitCode": 0,
+    "timedOut": false,
+    "elapsedSeconds": 0.251,
+    "log": "chunks.log"
+  },
+  {
+    "name": "format",
+    "command": "npm run format:check",
+    "exitCode": 0,
+    "timedOut": false,
+    "elapsedSeconds": 2.117,
+    "log": "format.log"
+  },
+  {
+    "name": "config",
+    "command": "npm run config:check",
+    "exitCode": 0,
+    "timedOut": false,
+    "elapsedSeconds": 0.167,
+    "log": "config.log"
+  },
+  {
+    "name": "coverage",
+    "command": "npm run qa:coverage -- docs/ui-map-audit/evidence/coverage.json",
+    "exitCode": 0,
+    "timedOut": false,
+    "elapsedSeconds": 0.21,
+    "log": "coverage.log"
+  },
+  {
+    "name": "security",
+    "command": "npm run qa:security -- docs/ui-map-audit/evidence/security.json",
+    "exitCode": 0,
+    "timedOut": false,
+    "elapsedSeconds": 0.442,
+    "log": "security.log"
+  },
+  {
+    "name": "licenses",
+    "command": "npm run qa:licenses -- docs/ui-map-audit/evidence/licenses.json",
+    "exitCode": 0,
+    "timedOut": false,
+    "elapsedSeconds": 0.147,
+    "log": "licenses.log"
+  },
+  {
+    "name": "npm-audit",
+    "command": "npm audit --json",
+    "exitCode": 1,
+    "timedOut": false,
+    "elapsedSeconds": 0.241,
+    "log": "npm-audit.log"
+  },
+  {
+    "name": "environment",
+    "command": "npm run environment:check",
+    "exitCode": 1,
+    "timedOut": false,
+    "elapsedSeconds": 0.095,
+    "log": "environment.log"
+  }
+]

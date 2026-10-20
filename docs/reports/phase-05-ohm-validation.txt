@@ -1,0 +1,7 @@
+2026-10-15 — command executed in task environment
+npm run ohm:collect -- --relation 2692735
+npm notice run tarih-atlasi@0.1.0 ohm:collect
+npm notice run node scripts/etl/collect-ohm.mjs --relation 2692735
+EAI_AGAIN
+Exit code: 1
+No OHM production geometry or raw response was written.

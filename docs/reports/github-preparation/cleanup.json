@@ -1,0 +1,38 @@
+{
+  "removed": [
+    "dist-android",
+    "test-results"
+  ],
+  "reason": "Incomplete Android export and generated test state; rebuilt by existing commands. No source, curated data, raw downloads, local Android project or license records removed.",
+  "excludedFromPublication": [
+    "node_modules",
+    ".expo",
+    "dist",
+    "dist-android",
+    "android",
+    "ios",
+    "data/staging",
+    ".env",
+    ".agents",
+    ".aws",
+    ".codex",
+    ".publish",
+    ".release",
+    "*.log"
+  ],
+  "preserved": [
+    "src",
+    "assets",
+    "public",
+    "tests",
+    "scripts",
+    "data/pilot",
+    "data/people",
+    "data/history",
+    "docs",
+    "AGENTS.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "readmeHistory": "docs/archive/readme-development-notes.md"
+}

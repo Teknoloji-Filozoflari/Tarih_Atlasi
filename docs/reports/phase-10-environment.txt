@@ -1,0 +1,8 @@
+npm notice run tarih-atlasi@0.1.0 environment:check
+npm notice run node scripts/check-environment.mjs
+PASS: Node — v26.11.1
+PASS: npm — 12.2.0
+PASS: Kilit dosyası — Tekrarlanabilir kurulum için package-lock.json gerekli
+BLOCKED: java — komut çalıştırılamadı: ENOENT
+BLOCKED: adb — komut çalıştırılamadı: ENOENT
+BLOCKED: Android SDK — ANDROID_HOME mevcut ve erişilebilir olmalı

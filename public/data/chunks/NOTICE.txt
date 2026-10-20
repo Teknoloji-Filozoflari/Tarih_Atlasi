@@ -1,0 +1,61 @@
+Tarih Atlası pilot — source and rights
+
+U.S. National Archives and Records Administration (NARA), General Records of the
+United States Government, Record Group 11, Treaty of Cession (March 30, 1867),
+Article I / IV and proclamation (exchange of ratifications June 20, 1867).
+https://www.archives.gov/milestone-documents/check-for-the-purchase-of-alaska
+
+This package contains a structured editorial extraction of treaty facts and a
+project-derived idealized clip of the 141st west meridian between 65 and 68 N.
+It does not contain an archived HTTP response, photograph, scan, seal, third-party
+GIS polygon, or a claim of a surveyed WGS84 boundary. Clip endpoints are display
+limits, not historical border endpoints. Only the 1867-06-20 snapshot is admitted.
+
+Data: CC0 1.0 Universal; factual extraction / idealized derivation.
+NARA federal-work reuse policy (not blanket permission for all archival holdings):
+https://www.archives.gov/global-pages/privacy.html#copyright
+https://creativecommons.org/publicdomain/zero/1.0/
+
+The source record, extraction SHA, derivation and narrower rights approval are
+preserved in the pilot catalog and source manifest. No endorsement by NARA is implied.
+Project code remains MIT; these data rights do not change third-party rights.
+
+Wikidata structured-data person pilot — CC0-1.0
+https://www.wikidata.org/wiki/Wikidata:Licensing
+Q5582 revision 2556738621; Q3280282 revision 2460715196.
+Reviewed 2026-10-16 through the browser; stored as editorial fact extraction,
+NOT original HTTP/API JSON. No article prose or Wikimedia images redistributed.
+The linked museum reference was not independently retrieved. Medium confidence;
+month-qualified relationship and present-day house point; no exact historical GPS
+or day-by-day presence claim. DMS converted to GeoJSON longitude/latitude.
+Project-authored Turkish factual summary; no automatic translation service.
+No Wikipedia URL is inferred from names. Historical Basemaps remains blocked.
+
+Publication correction, 2026-10-16: residence and house geometry are WITHHELD.
+The archival extraction above is not endorsed as dated historical location.
+Independent institutional review: https://archive.artic.edu/van-gogh-bedrooms/timeline
+1879 Francq and 1880 Decrucq references must not become one modern house point.
+Production v0.4.1 removes both geometries; metadata/evidence and raw hashes remain.
+
+Wikidata structured-data event pilot — CC0-1.0
+https://www.wikidata.org/wiki/Wikidata:Licensing
+Q33745 revision 2551218271; Q83224 revision 2517858800;
+Q150995 revision 2539526538; Q56039 revision 2474841502.
+Browser-reviewed editorial fact extraction, 2026-10-16, not original API JSON.
+No Wikipedia article prose, images, battlefield polygons or modern state borders.
+Hastings DMS reference point is approximate, not the extent of the battlefield.
+Hastings and Peloponnesian calendar/day conversion unverified: year precision only.
+Westphalia has multiple locations: geometry deliberately absent.
+German reunification process/milestone date difference retained as uncertainty.
+No inferred participants, city centroids or Wikipedia URLs.
+
+Wikidata contributors · CC0-1.0 · 18 October 2026 editorial structured-fact extraction. 10 requested people, 7 events/campaigns, 6 modern settlement references; incomplete coverage. Turkish summaries by Tarih Atlası contributors. No article prose or images copied. Birth/death alternatives, unresolved chronology and representative point uncertainty retained. https://www.wikidata.org/wiki/Wikidata:Licensing
+
+Cliopatria / Seshat Global History Databank, v0.2.1 (Bennett et al.); CC BY 4.0. Seçilmiş kaynak rekonstrüksiyonu; halka yönü ve parça ayrımı dönüştürüldü.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://github.com/Seshat-Global-History-Databank/cliopatria/tree/v0.2.1
+Only 16 reviewed rows; approximate reconstruction, not independently verified borders.
+
+Publication review 1.0.0: Van Gogh residence and house geography withheld pending independent source review; original provenance retained in the archival catalog.
+
+LOD: only the reviewed collinear NARA meridian is reduced to its endpoints at coarse zoom; other geometry is unchanged. No modern or full historical boundary claim.

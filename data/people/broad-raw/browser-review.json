@@ -1,0 +1,2475 @@
+{
+  "representation": "browser-editorial-structured-fact-extraction-not-api-response",
+  "synthetic": false,
+  "licenseId": "CC0-1.0",
+  "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+  "reviewedAt": "2026-10-20T18:05:36.257Z",
+  "requests": [
+    {
+      "name": "Richard Feynman",
+      "aliases": [
+        "Richard Feynman"
+      ],
+      "candidateWikidataId": "Q39246",
+      "status": "unverified"
+    },
+    {
+      "name": "Erwin Schrödinger",
+      "aliases": [
+        "Erwin Schrödinger"
+      ],
+      "candidateWikidataId": "Q9130",
+      "status": "unverified"
+    },
+    {
+      "name": "Wolfgang Pauli",
+      "aliases": [
+        "Wolfgang Pauli"
+      ],
+      "candidateWikidataId": "Q65989",
+      "status": "unverified"
+    },
+    {
+      "name": "Max Born",
+      "aliases": [
+        "Max Born"
+      ],
+      "candidateWikidataId": "Q58978",
+      "status": "unverified"
+    },
+    {
+      "name": "Immanuel Kant",
+      "aliases": [
+        "Immanuel Kant"
+      ],
+      "candidateWikidataId": "Q9312",
+      "status": "unverified"
+    },
+    {
+      "name": "Georg Wilhelm Friedrich Hegel",
+      "aliases": [
+        "Georg Wilhelm Friedrich Hegel"
+      ],
+      "candidateWikidataId": "Q9235",
+      "status": "unverified"
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "aliases": [
+        "Friedrich Nietzsche"
+      ],
+      "candidateWikidataId": "Q9358",
+      "status": "unverified"
+    },
+    {
+      "name": "Zhu Xi",
+      "aliases": [
+        "Zhu Xi"
+      ],
+      "candidateWikidataId": "Q9397",
+      "status": "unverified"
+    },
+    {
+      "name": "Leonardo DiCaprio",
+      "aliases": [
+        "Leonardo DiCaprio"
+      ],
+      "candidateWikidataId": "Q38111",
+      "status": "unverified"
+    },
+    {
+      "name": "Gottfried Leibniz",
+      "aliases": [
+        "Gottfried Wilhelm Leibniz"
+      ],
+      "candidateWikidataId": "Q9047",
+      "status": "unverified"
+    },
+    {
+      "name": "David Hume",
+      "aliases": [
+        "David Hume"
+      ],
+      "candidateWikidataId": "Q37160",
+      "status": "unverified"
+    },
+    {
+      "name": "Karl Popper",
+      "aliases": [
+        "Karl Popper"
+      ],
+      "candidateWikidataId": "Q81244",
+      "status": "unverified"
+    },
+    {
+      "name": "Jean-Paul Sartre",
+      "aliases": [
+        "Jean-Paul Sartre"
+      ],
+      "candidateWikidataId": "Q9364",
+      "status": "unverified"
+    },
+    {
+      "name": "Hugo Chávez",
+      "aliases": [
+        "Hugo Chávez"
+      ],
+      "candidateWikidataId": "Q8440",
+      "status": "unverified"
+    },
+    {
+      "name": "Martin Luther King Jr.",
+      "aliases": [
+        "Martin Luther King Jr."
+      ],
+      "candidateWikidataId": "Q8027",
+      "status": "unverified"
+    },
+    {
+      "name": "Rahibe Teresa",
+      "aliases": [
+        "Mother Teresa"
+      ],
+      "candidateWikidataId": "Q30547",
+      "status": "unverified"
+    },
+    {
+      "name": "Malala Yusufzay",
+      "aliases": [
+        "Malala Yousafzai"
+      ],
+      "candidateWikidataId": "Q32732",
+      "status": "unverified"
+    },
+    {
+      "name": "Lech Wałęsa",
+      "aliases": [
+        "Lech Wałęsa"
+      ],
+      "candidateWikidataId": "Q444",
+      "status": "unverified"
+    },
+    {
+      "name": "Yaser Arafat",
+      "aliases": [
+        "Yasser Arafat"
+      ],
+      "candidateWikidataId": "Q34211",
+      "status": "unverified"
+    },
+    {
+      "name": "II. Ioannes Paulus",
+      "aliases": [
+        "John Paul II"
+      ],
+      "candidateWikidataId": "Q989",
+      "status": "unverified"
+    },
+    {
+      "name": "Franciscus",
+      "aliases": [
+        "Pope Francis"
+      ],
+      "candidateWikidataId": "Q450675",
+      "status": "unverified"
+    },
+    {
+      "name": "XVI. Benedictus",
+      "aliases": [
+        "Benedict XVI"
+      ],
+      "candidateWikidataId": "Q2494",
+      "status": "unverified"
+    },
+    {
+      "name": "Tenzin Gyatso",
+      "aliases": [
+        "Tenzin Gyatso"
+      ],
+      "candidateWikidataId": "Q17293",
+      "status": "unverified"
+    },
+    {
+      "name": "İbn Rüşd",
+      "aliases": [
+        "Averroes"
+      ],
+      "candidateWikidataId": "Q39837",
+      "status": "unverified"
+    },
+    {
+      "name": "Gazzâlî",
+      "aliases": [
+        "Al-Ghazali"
+      ],
+      "candidateWikidataId": "Q9546",
+      "status": "unverified"
+    },
+    {
+      "name": "Mevlânâ Celâleddîn-i Rûmî",
+      "aliases": [
+        "Rumi"
+      ],
+      "candidateWikidataId": "Q43347",
+      "status": "unverified"
+    },
+    {
+      "name": "Hârizmî",
+      "aliases": [
+        "Muḥammad ibn Musa al-Khwarizmi"
+      ],
+      "candidateWikidataId": "Q9038",
+      "status": "unverified"
+    },
+    {
+      "name": "Aleksandr Puşkin",
+      "aliases": [
+        "Alexander Pushkin"
+      ],
+      "candidateWikidataId": "Q7200",
+      "status": "unverified"
+    },
+    {
+      "name": "Jane Austen",
+      "aliases": [
+        "Jane Austen"
+      ],
+      "candidateWikidataId": "Q36322",
+      "status": "unverified"
+    },
+    {
+      "name": "Pisagor",
+      "aliases": [
+        "Pythagoras"
+      ],
+      "candidateWikidataId": "Q10261",
+      "status": "unverified"
+    },
+    {
+      "name": "Hipokrat",
+      "aliases": [
+        "Hippocrates"
+      ],
+      "candidateWikidataId": "Q5264",
+      "status": "unverified"
+    },
+    {
+      "name": "Empedokles",
+      "aliases": [
+        "Empedocles"
+      ],
+      "candidateWikidataId": "Q83375",
+      "status": "unverified"
+    },
+    {
+      "name": "Heraklitos",
+      "aliases": [
+        "Heraclitus"
+      ],
+      "candidateWikidataId": "Q41155",
+      "status": "unverified"
+    },
+    {
+      "name": "Bob Dylan",
+      "aliases": [
+        "Bob Dylan"
+      ],
+      "candidateWikidataId": "Q392",
+      "status": "unverified"
+    },
+    {
+      "name": "Paul Dirac",
+      "aliases": [
+        "Paul Dirac"
+      ],
+      "candidateWikidataId": "Q47480",
+      "status": "unverified"
+    },
+    {
+      "name": "Otto Hahn",
+      "aliases": [
+        "Otto Hahn"
+      ],
+      "candidateWikidataId": "Q57065",
+      "status": "unverified"
+    },
+    {
+      "name": "Pierre Curie",
+      "aliases": [
+        "Pierre Curie"
+      ],
+      "candidateWikidataId": "Q37463",
+      "status": "unverified"
+    },
+    {
+      "name": "Barbara McClintock",
+      "aliases": [
+        "Barbara McClintock"
+      ],
+      "candidateWikidataId": "Q199654",
+      "status": "unverified"
+    },
+    {
+      "name": "Hannah Arendt",
+      "aliases": [
+        "Hannah Arendt"
+      ],
+      "candidateWikidataId": "Q60025",
+      "status": "unverified"
+    },
+    {
+      "name": "Simone de Beauvoir",
+      "aliases": [
+        "Simone de Beauvoir"
+      ],
+      "candidateWikidataId": "Q7197",
+      "status": "unverified"
+    },
+    {
+      "name": "Bertrand Russell",
+      "aliases": [
+        "Bertrand Russell"
+      ],
+      "candidateWikidataId": "Q33760",
+      "status": "unverified"
+    },
+    {
+      "name": "Muhammed Abdüsselam",
+      "aliases": [
+        "Abdus Salam"
+      ],
+      "candidateWikidataId": "Q28189",
+      "status": "unverified"
+    },
+    {
+      "name": "C. V. Raman",
+      "aliases": [
+        "Chandrasekhara Venkata Raman"
+      ],
+      "candidateWikidataId": "Q60429",
+      "status": "unverified"
+    },
+    {
+      "name": "Abdulrazak Gurnah",
+      "aliases": [
+        "Abdulrazak Gurnah"
+      ],
+      "candidateWikidataId": "Q317877",
+      "status": "unverified"
+    },
+    {
+      "name": "Toni Morrison",
+      "aliases": [
+        "Toni Morrison"
+      ],
+      "candidateWikidataId": "Q72334",
+      "status": "unverified"
+    },
+    {
+      "name": "Orhan Pamuk",
+      "aliases": [
+        "Orhan Pamuk"
+      ],
+      "candidateWikidataId": "Q241248",
+      "status": "unverified"
+    },
+    {
+      "name": "Kazuo Ishiguro",
+      "aliases": [
+        "Kazuo Ishiguro"
+      ],
+      "candidateWikidataId": "Q272855",
+      "status": "unverified"
+    },
+    {
+      "name": "Desmond Tutu",
+      "aliases": [
+        "Desmond Tutu"
+      ],
+      "candidateWikidataId": "Q43033",
+      "status": "unverified"
+    },
+    {
+      "name": "Hermann Hesse",
+      "aliases": [
+        "Hermann Hesse"
+      ],
+      "candidateWikidataId": "Q25973",
+      "status": "unverified"
+    },
+    {
+      "name": "James Chadwick",
+      "aliases": [
+        "James Chadwick"
+      ],
+      "candidateWikidataId": "Q80884",
+      "status": "unverified"
+    },
+    {
+      "name": "Gabriel García Márquez",
+      "aliases": [
+        "Gabriel García Márquez"
+      ],
+      "candidateWikidataId": "Q5878",
+      "status": "unverified"
+    },
+    {
+      "name": "Joe Biden",
+      "aliases": [
+        "Joe Biden"
+      ],
+      "candidateWikidataId": "Q6279",
+      "status": "unverified"
+    },
+    {
+      "name": "Donald Trump",
+      "aliases": [
+        "Donald Trump"
+      ],
+      "candidateWikidataId": "Q22686",
+      "status": "unverified"
+    },
+    {
+      "name": "George H. W. Bush",
+      "aliases": [
+        "George H. W. Bush"
+      ],
+      "candidateWikidataId": "Q23505",
+      "status": "unverified"
+    },
+    {
+      "name": "Elon Musk",
+      "aliases": [
+        "Elon Musk"
+      ],
+      "candidateWikidataId": "Q317521",
+      "status": "unverified"
+    },
+    {
+      "name": "Dmitri Medvedev",
+      "aliases": [
+        "Dmitry Medvedev"
+      ],
+      "candidateWikidataId": "Q23530",
+      "status": "unverified"
+    },
+    {
+      "name": "Barack Obama",
+      "aliases": [
+        "Barack Obama"
+      ],
+      "candidateWikidataId": "Q76",
+      "status": "unverified"
+    }
+  ],
+  "people": [
+    {
+      "requestedName": "Richard Feynman",
+      "qid": "Q39246",
+      "title": "Richard Feynman",
+      "url": "https://www.wikidata.org/wiki/Q39246",
+      "revision": "2549568012",
+      "birthPlaceQid": "Q18424",
+      "props": {
+        "date of birth": [
+          "11 May 1918^{Gregorian}"
+        ],
+        "date of death": [
+          "15 February 1988"
+        ],
+        "place of birth": [
+          "Queens"
+        ]
+      },
+      "sourceDescription": "American theoretical physicist (1918–1988)"
+    },
+    {
+      "requestedName": "Erwin Schrödinger",
+      "qid": "Q9130",
+      "title": "Erwin Schrödinger",
+      "url": "https://www.wikidata.org/wiki/Q9130",
+      "revision": "2557874321",
+      "birthPlaceQid": "Q1741",
+      "props": {
+        "date of birth": [
+          "12 August 1887^{Gregorian}"
+        ],
+        "date of death": [
+          "4 January 1961"
+        ],
+        "place of birth": [
+          "Vienna"
+        ]
+      },
+      "sourceDescription": "Austrian physicist (1887–1961)"
+    },
+    {
+      "requestedName": "Wolfgang Pauli",
+      "qid": "Q65989",
+      "title": "Wolfgang Pauli",
+      "url": "https://www.wikidata.org/wiki/Q65989",
+      "revision": "2550332977",
+      "birthPlaceQid": "Q1741",
+      "props": {
+        "date of birth": [
+          "25 April 1900^{Gregorian}"
+        ],
+        "date of death": [
+          "15 December 1958"
+        ],
+        "place of birth": [
+          "Vienna"
+        ]
+      },
+      "sourceDescription": "physicist, Nobel prize winner (1900–1958)"
+    },
+    {
+      "requestedName": "Max Born",
+      "qid": "Q58978",
+      "title": "Max Born",
+      "url": "https://www.wikidata.org/wiki/Q58978",
+      "revision": "2550435917",
+      "birthPlaceQid": "Q1799",
+      "props": {
+        "date of birth": [
+          "11 December 1882^{Gregorian}"
+        ],
+        "date of death": [
+          "5 January 1970"
+        ],
+        "place of birth": [
+          "Wrocław"
+        ]
+      },
+      "sourceDescription": "German-Jewish physicist and mathematician (1882–1970)"
+    },
+    {
+      "requestedName": "Immanuel Kant",
+      "qid": "Q9312",
+      "title": "Immanuel Kant",
+      "url": "https://www.wikidata.org/wiki/Q9312",
+      "revision": "2557930183",
+      "birthPlaceQid": "Q4120832",
+      "props": {
+        "date of birth": [
+          "22 April 1724^{Gregorian}"
+        ],
+        "date of death": [
+          "12 February 1804^{Gregorian}"
+        ],
+        "place of birth": [
+          "Königsberg"
+        ]
+      },
+      "sourceDescription": "German philosopher (1724-1804)"
+    },
+    {
+      "requestedName": "Georg Wilhelm Friedrich Hegel",
+      "qid": "Q9235",
+      "title": "Georg Wilhelm Friedrich Hegel",
+      "url": "https://www.wikidata.org/wiki/Q9235",
+      "revision": "2557891466",
+      "birthPlaceQid": "Q1022",
+      "props": {
+        "date of birth": [
+          "27 August 1770^{Gregorian}"
+        ],
+        "date of death": [
+          "14 November 1831^{Gregorian}"
+        ],
+        "place of birth": [
+          "Stuttgart"
+        ]
+      },
+      "sourceDescription": "German philosopher and theologian (1770–1831)"
+    },
+    {
+      "requestedName": "Friedrich Nietzsche",
+      "qid": "Q9358",
+      "title": "Friedrich Nietzsche",
+      "url": "https://www.wikidata.org/wiki/Q9358",
+      "revision": "2555113828",
+      "birthPlaceQid": "Q529879",
+      "props": {
+        "date of birth": [
+          "15 October 1844^{Gregorian}"
+        ],
+        "date of death": [
+          "25 August 1900^{Gregorian}"
+        ],
+        "place of birth": [
+          "Röcken"
+        ]
+      },
+      "sourceDescription": "German philosopher (1844-1900)"
+    },
+    {
+      "requestedName": "Zhu Xi",
+      "qid": "Q9397",
+      "title": "Zhu Xi",
+      "url": "https://www.wikidata.org/wiki/Q9397",
+      "revision": "2558287751",
+      "birthPlaceQid": "Q1198112",
+      "props": {
+        "date of birth": [
+          "18 October 1130"
+        ],
+        "date of death": [
+          "23 April 1200"
+        ],
+        "place of birth": [
+          "Youxi County"
+        ]
+      },
+      "sourceDescription": "Chinese historian, neo-Confucian philosopher, poet, and politician during the Song dynasty (1130–1200)"
+    },
+    {
+      "requestedName": "Leonardo DiCaprio",
+      "qid": "Q38111",
+      "title": "Leonardo DiCaprio",
+      "url": "https://www.wikidata.org/wiki/Q38111",
+      "revision": "2558116752",
+      "birthPlaceQid": "Q65",
+      "props": {
+        "date of birth": [
+          "11 November 1974"
+        ],
+        "date of death": [],
+        "place of birth": [
+          "Los Angeles"
+        ]
+      },
+      "sourceDescription": "American actor and producer (born 1974)"
+    },
+    {
+      "requestedName": "Gottfried Leibniz",
+      "qid": "Q9047",
+      "title": "Gottfried Wilhelm Leibniz",
+      "url": "https://www.wikidata.org/wiki/Q9047",
+      "revision": "2557898536",
+      "birthPlaceQid": "Q2079",
+      "props": {
+        "date of birth": [
+          "21 June 1646^{Julian}"
+        ],
+        "date of death": [
+          "14 November 1716^{Gregorian}"
+        ],
+        "place of birth": [
+          "Leipzig"
+        ]
+      },
+      "sourceDescription": "German mathematician and philosopher (1646–1716)"
+    },
+    {
+      "requestedName": "David Hume",
+      "qid": "Q37160",
+      "title": "David Hume",
+      "url": "https://www.wikidata.org/wiki/Q37160",
+      "revision": "2547676880",
+      "birthPlaceQid": "Q23436",
+      "props": {
+        "date of birth": [
+          "26 April 1711^{Julian}"
+        ],
+        "date of death": [
+          "25 August 1776^{Gregorian}"
+        ],
+        "place of birth": [
+          "Edinburgh"
+        ]
+      },
+      "sourceDescription": "Scottish philosopher, economist, and historian (1711-1776)"
+    },
+    {
+      "requestedName": "Karl Popper",
+      "qid": "Q81244",
+      "title": "Karl Popper",
+      "url": "https://www.wikidata.org/wiki/Q81244",
+      "revision": "2553483715",
+      "birthPlaceQid": "Q1741",
+      "props": {
+        "date of birth": [
+          "28 July 1902^{Gregorian}"
+        ],
+        "date of death": [
+          "17 September 1994"
+        ],
+        "place of birth": [
+          "Vienna"
+        ]
+      },
+      "sourceDescription": "Austrian-British philosopher of science and social and política e falsificationism and for criticism of Plato, Hegel and Marx as totalitarian opponents of open society (1902-1994)"
+    },
+    {
+      "requestedName": "Hugo Chávez",
+      "qid": "Q8440",
+      "title": "Hugo Chávez",
+      "url": "https://www.wikidata.org/wiki/Q8440",
+      "revision": "2556269633",
+      "birthPlaceQid": "Q728412",
+      "props": {
+        "date of birth": [
+          "28 July 1954"
+        ],
+        "date of death": [
+          "5 March 2013"
+        ],
+        "place of birth": [
+          "Sabaneta"
+        ]
+      },
+      "sourceDescription": "president of Venezuela (1999–2013); revolutionary and military officer"
+    },
+    {
+      "requestedName": "Martin Luther King Jr.",
+      "qid": "Q8027",
+      "title": "Martin Luther King Jr.",
+      "url": "https://www.wikidata.org/wiki/Q8027",
+      "revision": "2555638791",
+      "birthPlaceQid": "Q23556",
+      "props": {
+        "date of birth": [
+          "15 January 1929^{Gregorian}"
+        ],
+        "date of death": [
+          "4 April 1968"
+        ],
+        "place of birth": [
+          "Atlanta"
+        ]
+      },
+      "sourceDescription": "American Baptist minister and civil rights leader (1929–1968)"
+    },
+    {
+      "requestedName": "Rahibe Teresa",
+      "qid": "Q30547",
+      "title": "Mother Teresa",
+      "url": "https://www.wikidata.org/wiki/Q30547",
+      "revision": "2536645535",
+      "birthPlaceQid": "Q384",
+      "props": {
+        "date of birth": [
+          "26 August 1910^{Gregorian}"
+        ],
+        "date of death": [
+          "5 September 1997"
+        ],
+        "place of birth": [
+          "Skopje"
+        ]
+      },
+      "sourceDescription": "Albanian-Indian Catholic nun and missionary (1910–1997)"
+    },
+    {
+      "requestedName": "Malala Yusufzay",
+      "qid": "Q32732",
+      "title": "Malala Yousafzai",
+      "url": "https://www.wikidata.org/wiki/Q32732",
+      "revision": "2529424679",
+      "birthPlaceQid": "Q31356",
+      "props": {
+        "date of birth": [
+          "12 July 1997"
+        ],
+        "date of death": [],
+        "place of birth": [
+          "Mingora"
+        ]
+      },
+      "sourceDescription": "Pakistani children's education activist"
+    },
+    {
+      "requestedName": "Lech Wałęsa",
+      "qid": "Q444",
+      "title": "Lech Wałęsa",
+      "url": "https://www.wikidata.org/wiki/Q444",
+      "revision": "2557176271",
+      "birthPlaceQid": "Q4700601",
+      "props": {
+        "date of birth": [
+          "29 September 1943"
+        ],
+        "date of death": [],
+        "place of birth": [
+          "Popowo"
+        ]
+      },
+      "sourceDescription": "President of Poland from 1990 to 1995 (born 1943)"
+    },
+    {
+      "requestedName": "Yaser Arafat",
+      "qid": "Q34211",
+      "title": "Yasser Arafat",
+      "url": "https://www.wikidata.org/wiki/Q34211",
+      "revision": "2553820760",
+      "birthPlaceQid": "Q85",
+      "props": {
+        "date of birth": [
+          "4 August 1929^{Gregorian}"
+        ],
+        "date of death": [
+          "11 November 2004"
+        ],
+        "place of birth": [
+          "Cairo"
+        ]
+      },
+      "sourceDescription": "Palestinian political leader (1929-2004) and Former President of the Palestinian National Authority (1994-2004)"
+    },
+    {
+      "requestedName": "II. Ioannes Paulus",
+      "qid": "Q989",
+      "title": "John Paul II",
+      "url": "https://www.wikidata.org/wiki/Q989",
+      "revision": "2557977010",
+      "birthPlaceQid": "Q5885537",
+      "props": {
+        "date of birth": [
+          "18 May 1920^{Gregorian}"
+        ],
+        "date of death": [
+          "2 April 2005"
+        ],
+        "place of birth": [
+          "Holy Father John Paul II Family Home in Wadowice"
+        ]
+      },
+      "sourceDescription": "pope, cardinal, bishop, priest, author"
+    },
+    {
+      "requestedName": "Franciscus",
+      "qid": "Q450675",
+      "title": "Pope Francis",
+      "url": "https://www.wikidata.org/wiki/Q450675",
+      "revision": "2553358177",
+      "birthPlaceQid": "Q643907",
+      "props": {
+        "date of birth": [
+          "17 December 1936"
+        ],
+        "date of death": [
+          "21 April 2025"
+        ],
+        "place of birth": [
+          "Flores"
+        ]
+      },
+      "sourceDescription": "266th pope of the Catholic Church from 2013 to 2025 (1936–2025)"
+    },
+    {
+      "requestedName": "XVI. Benedictus",
+      "qid": "Q2494",
+      "title": "Benedict XVI",
+      "url": "https://www.wikidata.org/wiki/Q2494",
+      "revision": "2550452084",
+      "birthPlaceQid": "Q2348968",
+      "props": {
+        "date of birth": [
+          "16 April 1927^{Gregorian}"
+        ],
+        "date of death": [
+          "31 December 2022"
+        ],
+        "place of birth": [
+          "Birth house of Benedict XVI"
+        ]
+      },
+      "sourceDescription": "265 th pope of the Catholic Church (2005–2013)"
+    },
+    {
+      "requestedName": "Tenzin Gyatso",
+      "qid": "Q17293",
+      "title": "Tenzin Gyatso",
+      "url": "https://www.wikidata.org/wiki/Q17293",
+      "revision": "2558253665",
+      "birthPlaceQid": "Q426534",
+      "props": {
+        "date of birth": [
+          "6 July 1935"
+        ],
+        "date of death": [],
+        "place of birth": [
+          "Taktser"
+        ]
+      },
+      "sourceDescription": "14th Dalai Lama, the spiritual and temporal leader of Tibetans"
+    },
+    {
+      "requestedName": "İbn Rüşd",
+      "qid": "Q39837",
+      "title": "Averroes",
+      "url": "https://www.wikidata.org/wiki/Q39837",
+      "revision": "2556849695",
+      "birthPlaceQid": "Q5818",
+      "props": {
+        "date of birth": [
+          "14 April 1126"
+        ],
+        "date of death": [
+          "10 December 1198"
+        ],
+        "place of birth": [
+          "Córdoba"
+        ]
+      },
+      "sourceDescription": "Arab Andalusian Muslim writer and philosopher (1126–1198)"
+    },
+    {
+      "requestedName": "Gazzâlî",
+      "qid": "Q9546",
+      "title": "Al-Ghazali",
+      "url": "https://www.wikidata.org/wiki/Q9546",
+      "revision": "2555317930",
+      "birthPlaceQid": "Q681427",
+      "props": {
+        "date of birth": [
+          "1058"
+        ],
+        "date of death": [
+          "19 December 1111"
+        ],
+        "place of birth": [
+          "Tus"
+        ]
+      },
+      "sourceDescription": "Persian Sunni Muslim scholar and mystic (c.1058–1111)"
+    },
+    {
+      "requestedName": "Mevlânâ Celâleddîn-i Rûmî",
+      "qid": "Q43347",
+      "title": "Rumi",
+      "url": "https://www.wikidata.org/wiki/Q43347",
+      "revision": "2557040000",
+      "birthPlaceQid": "Q182159",
+      "props": {
+        "date of birth": [
+          "30 September 1207^{Gregorian}"
+        ],
+        "date of death": [
+          "17 December 1273^{Gregorian}"
+        ],
+        "place of birth": [
+          "Balkh"
+        ]
+      },
+      "sourceDescription": "Iranian poet"
+    },
+    {
+      "requestedName": "Hârizmî",
+      "qid": "Q9038",
+      "title": "Muḥammad ibn Musa al-Khwarizmi",
+      "url": "https://www.wikidata.org/wiki/Q9038",
+      "revision": "2553826463",
+      "birthPlaceQid": "Q182647",
+      "props": {
+        "date of birth": [
+          "8. century"
+        ],
+        "date of death": [
+          "846"
+        ],
+        "place of birth": [
+          "Khwarazm"
+        ]
+      },
+      "sourceDescription": "9th-century Persian mathematician and astronomer"
+    },
+    {
+      "requestedName": "Aleksandr Puşkin",
+      "qid": "Q7200",
+      "title": "Alexander Pushkin",
+      "url": "https://www.wikidata.org/wiki/Q7200",
+      "revision": "2557643887",
+      "birthPlaceQid": "Q649",
+      "props": {
+        "date of birth": [
+          "26 May 1799^{Julian}"
+        ],
+        "date of death": [
+          "29 January 1837^{Julian}"
+        ],
+        "place of birth": [
+          "Moscow"
+        ]
+      },
+      "sourceDescription": "Russian poet, playwright, and novelist (1799–1837)"
+    },
+    {
+      "requestedName": "Jane Austen",
+      "qid": "Q36322",
+      "title": "Jane Austen",
+      "url": "https://www.wikidata.org/wiki/Q36322",
+      "revision": "2555119493",
+      "birthPlaceQid": "Q1231836",
+      "props": {
+        "date of birth": [
+          "16 December 1775^{Gregorian}"
+        ],
+        "date of death": [
+          "18 July 1817^{Gregorian}"
+        ],
+        "place of birth": [
+          "Steventon"
+        ]
+      },
+      "sourceDescription": "author, novelist, writer (1775–1817)"
+    },
+    {
+      "requestedName": "Pisagor",
+      "qid": "Q10261",
+      "title": "Pythagoras",
+      "url": "https://www.wikidata.org/wiki/Q10261",
+      "revision": "2554728891",
+      "birthPlaceQid": "Q13580795",
+      "props": {
+        "date of birth": [
+          "6. century BCE"
+        ],
+        "date of death": [
+          "490s BCE"
+        ],
+        "place of birth": [
+          "Samos"
+        ]
+      },
+      "sourceDescription": "Greek philosopher and mathematician (c. 570 – c. 495 BC)"
+    },
+    {
+      "requestedName": "Hipokrat",
+      "qid": "Q5264",
+      "title": "Hippocrates",
+      "url": "https://www.wikidata.org/wiki/Q5264",
+      "revision": "2551430515",
+      "birthPlaceQid": "Q187027",
+      "props": {
+        "date of birth": [
+          "460 BCE"
+        ],
+        "date of death": [
+          "370 BCE"
+        ],
+        "place of birth": [
+          "Kos"
+        ]
+      },
+      "sourceDescription": "Ancient Greek physician (c. 460 – c. 370 BCE)"
+    },
+    {
+      "requestedName": "Empedokles",
+      "qid": "Q83375",
+      "title": "Empedocles",
+      "url": "https://www.wikidata.org/wiki/Q83375",
+      "revision": "2537924768",
+      "birthPlaceQid": "Q3607380",
+      "props": {
+        "date of birth": [
+          "490 BCE"
+        ],
+        "date of death": [
+          "430 BCE^{Gregorian}"
+        ],
+        "place of birth": [
+          "Akragas"
+        ]
+      },
+      "sourceDescription": "5th century BC Greek philosopher"
+    },
+    {
+      "requestedName": "Heraklitos",
+      "qid": "Q41155",
+      "title": "Heraclitus",
+      "url": "https://www.wikidata.org/wiki/Q41155",
+      "revision": "2553821012",
+      "birthPlaceQid": "Q47611",
+      "props": {
+        "date of birth": [
+          "535 BCE^{Gregorian}"
+        ],
+        "date of death": [
+          "470s BCE"
+        ],
+        "place of birth": [
+          "Ephesus"
+        ]
+      },
+      "sourceDescription": "Greek philosopher (late 6th/early 5th-century BC)"
+    },
+    {
+      "requestedName": "Bob Dylan",
+      "qid": "Q392",
+      "title": "Bob Dylan",
+      "url": "https://www.wikidata.org/wiki/Q392",
+      "revision": "2555598159",
+      "birthPlaceQid": "Q485708",
+      "props": {
+        "date of birth": [
+          "24 May 1941"
+        ],
+        "date of death": [],
+        "place of birth": [
+          "Duluth"
+        ]
+      },
+      "sourceDescription": "American singer-songwriter (born 1941)"
+    },
+    {
+      "requestedName": "Paul Dirac",
+      "qid": "Q47480",
+      "title": "Paul Dirac",
+      "url": "https://www.wikidata.org/wiki/Q47480",
+      "revision": "2533008254",
+      "birthPlaceQid": "Q23154",
+      "props": {
+        "date of birth": [
+          "8 August 1902^{Gregorian}"
+        ],
+        "date of death": [
+          "20 October 1984"
+        ],
+        "place of birth": [
+          "Bristol"
+        ]
+      },
+      "sourceDescription": "British theoretical physicist (1902–1984)"
+    },
+    {
+      "requestedName": "Otto Hahn",
+      "qid": "Q57065",
+      "title": "Otto Hahn",
+      "url": "https://www.wikidata.org/wiki/Q57065",
+      "revision": "2546343034",
+      "birthPlaceQid": "Q1794",
+      "props": {
+        "date of birth": [
+          "8 March 1879^{Gregorian}"
+        ],
+        "date of death": [
+          "28 July 1968"
+        ],
+        "place of birth": [
+          "Frankfurt"
+        ]
+      },
+      "sourceDescription": "German chemist and physicist (1879-1968)"
+    },
+    {
+      "requestedName": "Pierre Curie",
+      "qid": "Q37463",
+      "title": "Pierre Curie",
+      "url": "https://www.wikidata.org/wiki/Q37463",
+      "revision": "2558780512",
+      "birthPlaceQid": "Q90",
+      "props": {
+        "date of birth": [
+          "15 May 1859^{Gregorian}"
+        ],
+        "date of death": [
+          "19 April 1906^{Gregorian}"
+        ],
+        "place of birth": [
+          "Paris"
+        ]
+      },
+      "sourceDescription": "French physicist and chemist (1859–1906)"
+    },
+    {
+      "requestedName": "Barbara McClintock",
+      "qid": "Q199654",
+      "title": "Barbara McClintock",
+      "url": "https://www.wikidata.org/wiki/Q199654",
+      "revision": "2517006923",
+      "birthPlaceQid": "Q33486",
+      "props": {
+        "date of birth": [
+          "16 June 1902^{Gregorian}"
+        ],
+        "date of death": [
+          "2 September 1992"
+        ],
+        "place of birth": [
+          "Hartford"
+        ]
+      },
+      "sourceDescription": "American scientist and cytogeneticist"
+    },
+    {
+      "requestedName": "Hannah Arendt",
+      "qid": "Q60025",
+      "title": "Hannah Arendt",
+      "url": "https://www.wikidata.org/wiki/Q60025",
+      "revision": "2535996345",
+      "birthPlaceQid": "Q18023391",
+      "props": {
+        "date of birth": [
+          "14 October 1906^{Gregorian}"
+        ],
+        "date of death": [
+          "4 December 1975"
+        ],
+        "place of birth": [
+          "Lindener Marktplatz 2, Hannover"
+        ]
+      },
+      "sourceDescription": "German-American political theorist and philosopher (1906–1975)"
+    },
+    {
+      "requestedName": "Simone de Beauvoir",
+      "qid": "Q7197",
+      "title": "Simone de Beauvoir",
+      "url": "https://www.wikidata.org/wiki/Q7197",
+      "revision": "2549536819",
+      "birthPlaceQid": "Q90",
+      "props": {
+        "date of birth": [
+          "9 January 1908^{Gregorian}"
+        ],
+        "date of death": [
+          "14 April 1986"
+        ],
+        "place of birth": [
+          "Paris"
+        ]
+      },
+      "sourceDescription": "French philosopher, social theorist and activist (1908–1986)"
+    },
+    {
+      "requestedName": "Bertrand Russell",
+      "qid": "Q33760",
+      "title": "Bertrand Russell",
+      "url": "https://www.wikidata.org/wiki/Q33760",
+      "revision": "2556593497",
+      "birthPlaceQid": "Q3057926",
+      "props": {
+        "date of birth": [
+          "18 May 1872^{Gregorian}"
+        ],
+        "date of death": [
+          "2 February 1970"
+        ],
+        "place of birth": [
+          "Trellech"
+        ]
+      },
+      "sourceDescription": "British philosopher and logician (1872–1970)"
+    },
+    {
+      "requestedName": "Muhammed Abdüsselam",
+      "qid": "Q28189",
+      "title": "Abdus Salam",
+      "url": "https://www.wikidata.org/wiki/Q28189",
+      "revision": "2527158655",
+      "birthPlaceQid": "Q1026616",
+      "props": {
+        "date of birth": [
+          "29 January 1926^{Gregorian}"
+        ],
+        "date of death": [
+          "21 November 1996"
+        ],
+        "place of birth": [
+          "Jhang"
+        ]
+      },
+      "sourceDescription": "theoretical physicist, and Nobel Prize in Physics recipient"
+    },
+    {
+      "requestedName": "C. V. Raman",
+      "qid": "Q60429",
+      "title": "Chandrasekhara Venkata Raman",
+      "url": "https://www.wikidata.org/wiki/Q60429",
+      "revision": "2553293814",
+      "birthPlaceQid": "Q207754",
+      "props": {
+        "date of birth": [
+          "7 November 1888^{Gregorian}"
+        ],
+        "date of death": [
+          "21 November 1970"
+        ],
+        "place of birth": [
+          "Tiruchirappalli"
+        ]
+      },
+      "sourceDescription": "Indian physicist (1888–1970)"
+    },
+    {
+      "requestedName": "Abdulrazak Gurnah",
+      "qid": "Q317877",
+      "title": "Abdulrazak Gurnah",
+      "url": "https://www.wikidata.org/wiki/Q317877",
+      "revision": "2553589021",
+      "birthPlaceQid": "Q2222874",
+      "props": {
+        "date of birth": [
+          "1948"
+        ],
+        "date of death": [],
+        "place of birth": [
+          "Zanzibar City"
+        ]
+      },
+      "sourceDescription": "Tanzanian-born British writer, winner of the Nobel Prize in Literature (2021) (born 1948)"
+    },
+    {
+      "requestedName": "Toni Morrison",
+      "qid": "Q72334",
+      "title": "Toni Morrison",
+      "url": "https://www.wikidata.org/wiki/Q72334",
+      "revision": "2555118095",
+      "birthPlaceQid": "Q609698",
+      "props": {
+        "date of birth": [
+          "18 February 1931"
+        ],
+        "date of death": [
+          "5 August 2019"
+        ],
+        "place of birth": [
+          "Lorain"
+        ]
+      },
+      "sourceDescription": "African American novelist, essayist, and academic (1931–2019)"
+    },
+    {
+      "requestedName": "Orhan Pamuk",
+      "qid": "Q241248",
+      "title": "Orhan Pamuk",
+      "url": "https://www.wikidata.org/wiki/Q241248",
+      "revision": "2548391208",
+      "birthPlaceQid": "Q406",
+      "props": {
+        "date of birth": [
+          "7 June 1952"
+        ],
+        "date of death": [],
+        "place of birth": [
+          "Istanbul"
+        ]
+      },
+      "sourceDescription": "Turkish novelist, academic and Nobel laureate (born 1952)"
+    },
+    {
+      "requestedName": "Kazuo Ishiguro",
+      "qid": "Q272855",
+      "title": "Kazuo Ishiguro",
+      "url": "https://www.wikidata.org/wiki/Q272855",
+      "revision": "2553096507",
+      "birthPlaceQid": "Q38234",
+      "props": {
+        "date of birth": [
+          "8 November 1954"
+        ],
+        "date of death": [],
+        "place of birth": [
+          "Nagasaki"
+        ]
+      },
+      "sourceDescription": "British novelist (born 1954)"
+    },
+    {
+      "requestedName": "Desmond Tutu",
+      "qid": "Q43033",
+      "title": "Desmond Tutu",
+      "url": "https://www.wikidata.org/wiki/Q43033",
+      "revision": "2536499008",
+      "birthPlaceQid": "Q6936880",
+      "props": {
+        "date of birth": [
+          "7 October 1931"
+        ],
+        "date of death": [
+          "26 December 2021"
+        ],
+        "place of birth": [
+          "Munsieville"
+        ]
+      },
+      "sourceDescription": "South African churchman, politician, archbishop, Nobel Prize winner (1931–2021)"
+    },
+    {
+      "requestedName": "Hermann Hesse",
+      "qid": "Q25973",
+      "title": "Hermann Hesse",
+      "url": "https://www.wikidata.org/wiki/Q25973",
+      "revision": "2554684284",
+      "birthPlaceQid": "Q487921",
+      "props": {
+        "date of birth": [
+          "2 July 1877^{Gregorian}"
+        ],
+        "date of death": [
+          "9 August 1962"
+        ],
+        "place of birth": [
+          "Calw"
+        ]
+      },
+      "sourceDescription": "Nobel Prize winning German-Swiss poet, novelist and painter (1877–1962)"
+    },
+    {
+      "requestedName": "James Chadwick",
+      "qid": "Q80884",
+      "title": "James Chadwick",
+      "url": "https://www.wikidata.org/wiki/Q80884",
+      "revision": "2557948898",
+      "birthPlaceQid": "Q2247131",
+      "props": {
+        "date of birth": [
+          "20 October 1891^{Gregorian}"
+        ],
+        "date of death": [
+          "24 July 1974"
+        ],
+        "place of birth": [
+          "Bollington"
+        ]
+      },
+      "sourceDescription": "English physicist (1891-1974), who discovered the neutron in 1932"
+    },
+    {
+      "requestedName": "Gabriel García Márquez",
+      "qid": "Q5878",
+      "title": "Gabriel García Márquez",
+      "url": "https://www.wikidata.org/wiki/Q5878",
+      "revision": "2557889008",
+      "birthPlaceQid": "Q624492",
+      "props": {
+        "date of birth": [
+          "6 March 1927^{Gregorian}"
+        ],
+        "date of death": [
+          "17 April 2014"
+        ],
+        "place of birth": [
+          "Aracataca"
+        ]
+      },
+      "sourceDescription": "Colombian writer and Nobel laureate (1927–2014)"
+    },
+    {
+      "requestedName": "Joe Biden",
+      "qid": "Q6279",
+      "title": "Joe Biden",
+      "url": "https://www.wikidata.org/wiki/Q6279",
+      "revision": "2558257498",
+      "birthPlaceQid": "Q100276507",
+      "props": {
+        "date of birth": [
+          "20 November 1942"
+        ],
+        "date of death": [],
+        "place of birth": [
+          "St. Mary's Hospital"
+        ]
+      },
+      "sourceDescription": "46th President of the United States (2021–2025)"
+    },
+    {
+      "requestedName": "Donald Trump",
+      "qid": "Q22686",
+      "title": "Donald Trump",
+      "url": "https://www.wikidata.org/wiki/Q22686",
+      "revision": "2558542446",
+      "birthPlaceQid": "Q97354861",
+      "props": {
+        "date of birth": [
+          "14 June 1946"
+        ],
+        "date of death": [],
+        "place of birth": [
+          "Jamaica Hospital Medical Center"
+        ]
+      },
+      "sourceDescription": "President of the United States (2017–2021; since 2025)"
+    },
+    {
+      "requestedName": "George H. W. Bush",
+      "qid": "Q23505",
+      "title": "George H. W. Bush",
+      "url": "https://www.wikidata.org/wiki/Q23505",
+      "revision": "2549561665",
+      "birthPlaceQid": "Q739428",
+      "props": {
+        "date of birth": [
+          "12 June 1924^{Gregorian}"
+        ],
+        "date of death": [
+          "30 November 2018"
+        ],
+        "place of birth": [
+          "Milton"
+        ]
+      },
+      "sourceDescription": "41st President of the United States (1989–1993)"
+    },
+    {
+      "requestedName": "Elon Musk",
+      "qid": "Q317521",
+      "title": "Elon Musk",
+      "url": "https://www.wikidata.org/wiki/Q317521",
+      "revision": "2557867701",
+      "birthPlaceQid": "Q3926",
+      "props": {
+        "date of birth": [
+          "28 June 1971"
+        ],
+        "date of death": [],
+        "place of birth": [
+          "Pretoria"
+        ]
+      },
+      "sourceDescription": "American businessman (born 1971)"
+    },
+    {
+      "requestedName": "Dmitri Medvedev",
+      "qid": "Q23530",
+      "title": "Dmitry Medvedev",
+      "url": "https://www.wikidata.org/wiki/Q23530",
+      "revision": "2558022497",
+      "birthPlaceQid": "Q656",
+      "props": {
+        "date of birth": [
+          "14 September 1965"
+        ],
+        "date of death": [],
+        "place of birth": [
+          "Saint Petersburg"
+        ]
+      },
+      "sourceDescription": "President of Russia from 2008 to 2012, Prime Minister of Russia (2012-2020) and Deputy Chairman of the Security Council of Russia since 2020"
+    },
+    {
+      "requestedName": "Barack Obama",
+      "qid": "Q76",
+      "title": "Barack Obama",
+      "url": "https://www.wikidata.org/wiki/Q76",
+      "revision": "2557807078",
+      "birthPlaceQid": "Q6366688",
+      "props": {
+        "date of birth": [
+          "4 August 1961"
+        ],
+        "date of death": [],
+        "place of birth": [
+          "Kapiolani Medical Center for Women and Children"
+        ]
+      },
+      "sourceDescription": "44th President of the United States (2009–2017)"
+    }
+  ],
+  "places": [
+    {
+      "qid": "Q18424",
+      "name": "Queens",
+      "revision": "2547093208",
+      "props": {
+        "coordinate location": [
+          "40°42'49\"N, 73°49'41\"W"
+        ]
+      }
+    },
+    {
+      "qid": "Q1741",
+      "name": "Vienna",
+      "revision": "2553605752",
+      "props": {
+        "coordinate location": [
+          "48°12'30\"N, 16°22'21\"E"
+        ]
+      }
+    },
+    {
+      "qid": "Q1799",
+      "name": "Wrocław",
+      "revision": "2556914691",
+      "props": {
+        "coordinate location": [
+          "51°6'36\"N, 17°1'57\"E"
+        ]
+      }
+    },
+    {
+      "qid": "Q4120832",
+      "name": "Königsberg",
+      "revision": "2550191436",
+      "props": {
+        "coordinate location": [
+          "54°42'41.3\"N, 20°30'33.5\"E"
+        ]
+      }
+    },
+    {
+      "qid": "Q1022",
+      "name": "Stuttgart",
+      "revision": "2550423669",
+      "props": {
+        "coordinate location": [
+          "48°46'39\"N, 9°10'48\"E"
+        ]
+      }
+    },
+    {
+      "qid": "Q529879",
+      "name": "Röcken",
+      "revision": "2518390209",
+      "props": {
+        "coordinate location": [
+          "51°14'27\"N, 12°6'58\"E"
+        ]
+      }
+    },
+    {
+      "qid": "Q1198112",
+      "name": "Youxi County",
+      "revision": "2526577844",
+      "props": {
+        "coordinate location": [
+          "26°10'21\"N, 118°11'5\"E"
+        ]
+      }
+    },
+    {
+      "qid": "Q65",
+      "name": "Los Angeles",
+      "revision": "2555424668",
+      "props": {
+        "coordinate location": [
+          "34°3'30\"N, 118°18'15\"W"
+        ]
+      }
+    },
+    {
+      "qid": "Q2079",
+      "name": "Leipzig",
+      "revision": "2549187309",
+      "props": {
+        "coordinate location": [
+          "51°20'26.2756\"N, 12°22'29.0384\"E"
+        ]
+      }
+    },
+    {
+      "qid": "Q23436",
+      "name": "Edinburgh",
+      "alias": "Q23436",
+      "title": "Edinburgh",
+      "url": "https://www.wikidata.org/wiki/Q23436",
+      "revision": "2557210489",
+      "props": {
+        "coordinate location": [
+          "55°57'12\"N, 3°11'21\"W"
+        ]
+      },
+      "birthLinks": []
+    },
+    {
+      "qid": "Q728412",
+      "name": "Sabaneta",
+      "revision": "2451012044",
+      "props": {
+        "coordinate location": []
+      }
+    },
+    {
+      "qid": "Q23556",
+      "name": "Atlanta",
+      "revision": "2539498040",
+      "props": {
+        "coordinate location": [
+          "33°45'16\"N, 84°23'23\"W"
+        ]
+      }
+    },
+    {
+      "qid": "Q384",
+      "name": "Skopje",
+      "revision": "2557483951",
+      "props": {
+        "coordinate location": [
+          "41°59'46\"N, 21°25'54\"E"
+        ]
+      }
+    },
+    {
+      "qid": "Q31356",
+      "name": "Mingora",
+      "revision": "2466395197",
+      "props": {
+        "coordinate location": [
+          "34°46'18\"N, 72°21'36\"E"
+        ]
+      }
+    },
+    {
+      "qid": "Q4700601",
+      "name": "Popowo",
+      "revision": "2512681620",
+      "props": {
+        "coordinate location": [
+          "52°42'0\"N, 19°24'27\"E"
+        ]
+      }
+    },
+    {
+      "qid": "Q85",
+      "name": "Cairo",
+      "revision": "2558525825",
+      "props": {
+        "coordinate location": [
+          "30°2'40\"N, 31°14'9\"E"
+        ]
+      }
+    },
+    {
+      "qid": "Q5885537",
+      "name": "Holy Father John Paul II Family Home in Wadowice",
+      "revision": "2494672224",
+      "props": {
+        "coordinate location": []
+      }
+    },
+    {
+      "qid": "Q643907",
+      "name": "Flores",
+      "revision": "2506723378",
+      "props": {
+        "coordinate location": [
+          "34°38'S, 58°28'W"
+        ]
+      }
+    },
+    {
+      "qid": "Q2348968",
+      "name": "Birth house of Benedict XVI",
+      "props": {
+        "coordinate location": []
+      }
+    },
+    {
+      "qid": "Q426534",
+      "name": "Taktser",
+      "props": {
+        "coordinate location": []
+      }
+    },
+    {
+      "qid": "Q5818",
+      "name": "Córdoba",
+      "revision": "2536554497",
+      "props": {
+        "coordinate location": [
+          "37°53'24\"N, 4°46'48\"W"
+        ]
+      }
+    },
+    {
+      "qid": "Q681427",
+      "name": "Tus",
+      "revision": "2522091729",
+      "props": {
+        "coordinate location": [
+          "36°29'10\"N, 59°31'3\"E"
+        ]
+      }
+    },
+    {
+      "qid": "Q182159",
+      "name": "Balkh",
+      "revision": "2528712754",
+      "props": {
+        "coordinate location": [
+          "36°45'29\"N, 66°53'56\"E"
+        ]
+      }
+    },
+    {
+      "qid": "Q182647",
+      "name": "Khwarazm",
+      "revision": "2552977280",
+      "props": {
+        "coordinate location": [
+          "42°18'N, 59°9'E"
+        ]
+      }
+    },
+    {
+      "qid": "Q649",
+      "name": "Moscow",
+      "revision": "2558575480",
+      "props": {
+        "coordinate location": [
+          "55°45'2\"N, 37°37'3\"E"
+        ]
+      }
+    },
+    {
+      "qid": "Q1231836",
+      "name": "Steventon",
+      "revision": "2488092329",
+      "props": {
+        "coordinate location": []
+      }
+    },
+    {
+      "qid": "Q13580795",
+      "name": "Samos",
+      "revision": "2485121816",
+      "props": {
+        "coordinate location": []
+      }
+    },
+    {
+      "qid": "Q187027",
+      "name": "Kos",
+      "revision": "2555307206",
+      "props": {
+        "coordinate location": [
+          "36°48'55\"N, 27°6'37\"E"
+        ]
+      }
+    },
+    {
+      "qid": "Q3607380",
+      "name": "Akragas",
+      "revision": "2516927432",
+      "props": {
+        "coordinate location": [
+          "37°17'44\"N, 13°35'42\"E"
+        ]
+      }
+    },
+    {
+      "qid": "Q47611",
+      "name": "Ephesus",
+      "revision": "2555485600",
+      "props": {
+        "coordinate location": [
+          "37°56'26\"N, 27°20'22\"E"
+        ]
+      }
+    },
+    {
+      "qid": "Q485708",
+      "name": "Duluth",
+      "revision": "2530088140",
+      "props": {
+        "coordinate location": [
+          "46°47'4\"N, 92°6'19\"W"
+        ]
+      }
+    },
+    {
+      "qid": "Q23154",
+      "name": "Bristol",
+      "revision": "2555593355",
+      "props": {
+        "coordinate location": [
+          "51°27'13\"N, 2°35'51\"W"
+        ]
+      }
+    },
+    {
+      "qid": "Q1794",
+      "name": "Frankfurt",
+      "revision": "2550411186",
+      "props": {
+        "coordinate location": [
+          "50°6'38\"N, 8°40'56\"E"
+        ]
+      }
+    },
+    {
+      "qid": "Q90",
+      "name": "Paris",
+      "alias": "Q90",
+      "title": "Paris",
+      "url": "https://www.wikidata.org/wiki/Q90",
+      "revision": "2555380840",
+      "props": {
+        "coordinate location": [
+          "48°51'24\"N, 2°21'8\"E",
+          "48°50'11.0\"N, 2°28'11.3\"E"
+        ]
+      },
+      "birthLinks": []
+    },
+    {
+      "qid": "Q33486",
+      "name": "Hartford",
+      "revision": "2553735088",
+      "props": {
+        "coordinate location": [
+          "41°45'48\"N, 72°41'6\"W"
+        ]
+      }
+    },
+    {
+      "qid": "Q18023391",
+      "name": "Lindener Marktplatz 2, Hannover",
+      "revision": "2254429270",
+      "props": {
+        "coordinate location": [
+          "52°22'0.397\"N, 9°42'53.780\"E"
+        ]
+      }
+    },
+    {
+      "qid": "Q3057926",
+      "name": "Trellech",
+      "props": {
+        "coordinate location": []
+      }
+    },
+    {
+      "qid": "Q1026616",
+      "name": "Jhang",
+      "revision": "2500664885",
+      "props": {
+        "coordinate location": [
+          "31°16'5\"N, 72°19'5\"E"
+        ]
+      }
+    },
+    {
+      "qid": "Q207754",
+      "name": "Tiruchirappalli",
+      "revision": "2532470914",
+      "props": {
+        "coordinate location": [
+          "10°49'37\"N, 78°41'34\"E"
+        ]
+      }
+    },
+    {
+      "qid": "Q2222874",
+      "name": "Zanzibar City",
+      "revision": "2532331767",
+      "props": {
+        "coordinate location": [
+          "6°10'S, 39°12'E"
+        ]
+      }
+    },
+    {
+      "qid": "Q609698",
+      "name": "Lorain",
+      "revision": "2447291796",
+      "props": {
+        "coordinate location": [
+          "41°26'54\"N, 82°10'8\"W"
+        ]
+      }
+    },
+    {
+      "qid": "Q406",
+      "name": "Istanbul",
+      "revision": "2556807961",
+      "props": {
+        "coordinate location": [
+          "41°0'36\"N, 28°57'37\"E"
+        ]
+      }
+    },
+    {
+      "qid": "Q38234",
+      "name": "Nagasaki",
+      "revision": "2530487314",
+      "props": {
+        "coordinate location": [
+          "32°44'58.3\"N, 129°52'46.7\"E"
+        ]
+      }
+    },
+    {
+      "qid": "Q6936880",
+      "name": "Munsieville",
+      "props": {
+        "coordinate location": []
+      }
+    },
+    {
+      "qid": "Q487921",
+      "name": "Calw",
+      "revision": "2516731841",
+      "props": {
+        "coordinate location": [
+          "48°42'52\"N, 8°44'15\"E"
+        ]
+      }
+    },
+    {
+      "qid": "Q2247131",
+      "name": "Bollington",
+      "revision": "2459240105",
+      "props": {
+        "coordinate location": [
+          "53°17'53\"N, 2°5'35\"W"
+        ]
+      }
+    },
+    {
+      "qid": "Q624492",
+      "name": "Aracataca",
+      "revision": "2530498627",
+      "props": {
+        "coordinate location": [
+          "10°35'28\"N, 74°11'6\"W"
+        ]
+      }
+    },
+    {
+      "qid": "Q100276507",
+      "name": "St. Mary's Hospital",
+      "revision": "2497438750",
+      "props": {
+        "coordinate location": [
+          "41°23'41.31848\"N, 75°39'22.32796\"W"
+        ]
+      }
+    },
+    {
+      "qid": "Q97354861",
+      "name": "Jamaica Hospital Medical Center",
+      "revision": "2511654045",
+      "props": {
+        "coordinate location": [
+          "40°42'1.8\"N, 73°48'57.6\"W"
+        ]
+      }
+    },
+    {
+      "qid": "Q739428",
+      "name": "Milton",
+      "revision": "2530501637",
+      "props": {
+        "coordinate location": [
+          "42°15'0\"N, 71°4'0\"W"
+        ]
+      }
+    },
+    {
+      "qid": "Q3926",
+      "name": "Pretoria",
+      "revision": "2506596407",
+      "props": {
+        "coordinate location": [
+          "25°44'47\"S, 28°11'17\"E"
+        ]
+      }
+    },
+    {
+      "qid": "Q656",
+      "name": "Saint Petersburg",
+      "revision": "2548934371",
+      "props": {
+        "coordinate location": [
+          "59°57'N, 30°19'E"
+        ]
+      }
+    },
+    {
+      "qid": "Q6366688",
+      "name": "Kapiolani Medical Center for Women and Children",
+      "revision": "2541747542",
+      "props": {
+        "coordinate location": [
+          "21°17'59.4341\"N, 157°50'0.4528\"W"
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "qid": "Q48314",
+      "revision": "2553231867",
+      "name": "Waterloo Muharebesi",
+      "start": 1815,
+      "end": 1815,
+      "eventType": "BATTLE",
+      "date": "P585 18 June 1815^{Gregorian}",
+      "description": "Waterloo Muharebesi.",
+      "uncertain": false,
+      "coordinate": "50°40'41\"N, 4°24'44\"E",
+      "note": "Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. P625 yaklaşık temsil noktasıdır, tüm muharebe alanı değildir.",
+      "trwiki": {
+        "title": "Waterloo Muharebesi",
+        "url": "https://tr.wikipedia.org/wiki/Waterloo_Muharebesi"
+      }
+    },
+    {
+      "qid": "Q33132",
+      "revision": "2516859704",
+      "name": "Gettysburg Muharebesi",
+      "start": 1863,
+      "end": 1863,
+      "eventType": "BATTLE",
+      "date": "P580 1 July 1863; P582 3 July 1863^{Gregorian}",
+      "description": "Amerikan İç Savaşı sırasında gerçekleşen Gettysburg Muharebesi.",
+      "uncertain": false,
+      "coordinate": "39°48'41\"N, 77°13'33\"W",
+      "note": "Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. P625 yaklaşık temsil noktasıdır, tüm muharebe alanı değildir.",
+      "trwiki": {
+        "title": "Gettysburg Muharebesi",
+        "url": "https://tr.wikipedia.org/wiki/Gettysburg_Muharebesi"
+      }
+    },
+    {
+      "qid": "Q173077",
+      "revision": "2515155232",
+      "name": "Puvatya Muharebesi",
+      "start": 732,
+      "end": 732,
+      "eventType": "BATTLE",
+      "date": "P585 10 October 732",
+      "description": "732 yılıyla ilişkilendirilen Puvatya Muharebesi; gün ve takvim kesinliği burada ileri sürülmez.",
+      "uncertain": true,
+      "coordinate": "46°59'15.4\"N, 0°32'3.8\"E",
+      "note": "Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. P625 yaklaşık temsil noktasıdır, tüm muharebe alanı değildir.",
+      "trwiki": {
+        "title": "Puvatya Muharebesi",
+        "url": "https://tr.wikipedia.org/wiki/Puvatya_Muharebesi"
+      }
+    },
+    {
+      "qid": "Q134114",
+      "revision": "2549935995",
+      "name": "Austerlitz Muharebesi",
+      "start": 1805,
+      "end": 1805,
+      "eventType": "BATTLE",
+      "date": "P585 2 December 1805^{Gregorian}",
+      "description": "Austerlitz Muharebesi.",
+      "uncertain": false,
+      "coordinate": "49°7'41\"N, 16°45'45\"E",
+      "note": "Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. P625 yaklaşık temsil noktasıdır, tüm muharebe alanı değildir.",
+      "trwiki": {
+        "title": "Austerlitz Muharebesi",
+        "url": "https://tr.wikipedia.org/wiki/Austerlitz_Muharebesi"
+      }
+    },
+    {
+      "qid": "Q165425",
+      "revision": "2555948907",
+      "name": "İnebahtı Deniz Muharebesi",
+      "start": 1571,
+      "end": 1571,
+      "eventType": "BATTLE",
+      "date": "P585 7 October 1571",
+      "description": "İnebahtı Deniz Muharebesi.",
+      "uncertain": false,
+      "coordinate": "38°12'N, 21°18'E",
+      "note": "Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. P625 yaklaşık temsil noktasıdır, tüm muharebe alanı değildir.",
+      "trwiki": {
+        "title": "İnebahtı Deniz Muharebesi",
+        "url": "https://tr.wikipedia.org/wiki/%C4%B0nebaht%C4%B1_Deniz_Muharebesi"
+      }
+    },
+    {
+      "qid": "Q200855",
+      "revision": "2517740306",
+      "name": "II. Viyana Kuşatması",
+      "start": 1683,
+      "end": 1683,
+      "eventType": "BATTLE",
+      "date": "P585 12 September 1683^{Gregorian}",
+      "description": "1683 Viyana kuşatmasıyla ilişkili muharebe kaydı.",
+      "uncertain": false,
+      "coordinate": "48°14'6\"N, 16°20'6\"E",
+      "note": "Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. P625 yaklaşık temsil noktasıdır, tüm muharebe alanı değildir.",
+      "trwiki": {
+        "title": "II. Viyana Kuşatması",
+        "url": "https://tr.wikipedia.org/wiki/II._Viyana_Ku%C5%9Fatmas%C4%B1"
+      }
+    },
+    {
+      "qid": "Q207576",
+      "revision": "2527977134",
+      "name": "I. Viyana Kuşatması",
+      "start": 1529,
+      "end": 1529,
+      "eventType": "BATTLE",
+      "date": "P580 27 September 1529; P582 15 October 1529",
+      "description": "1529 yılında gerçekleşen Viyana kuşatması.",
+      "uncertain": false,
+      "coordinate": "48°11'N, 16°23'E",
+      "note": "Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. P625 yaklaşık temsil noktasıdır, tüm muharebe alanı değildir.",
+      "trwiki": {
+        "title": "I. Viyana Kuşatması",
+        "url": "https://tr.wikipedia.org/wiki/I._Viyana_Ku%C5%9Fatmas%C4%B1"
+      }
+    },
+    {
+      "qid": "Q74623",
+      "revision": "2538307764",
+      "name": "Osmanlı-Kutsal İttifak savaşları",
+      "start": 1683,
+      "end": 1699,
+      "eventType": "WAR",
+      "date": "P580 1683; P582 1699",
+      "description": "Osmanlı–Kutsal İttifak savaşları.",
+      "uncertain": false,
+      "coordinate": null,
+      "note": "Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+      "trwiki": {
+        "title": "Osmanlı-Kutsal İttifak savaşları",
+        "url": "https://tr.wikipedia.org/wiki/Osmanl%C4%B1-Kutsal_%C4%B0ttifak_sava%C5%9Flar%C4%B1"
+      }
+    },
+    {
+      "qid": "Q8736",
+      "revision": "2544182115",
+      "name": "Versay Barış Antlaşması",
+      "start": 1919,
+      "end": 1919,
+      "eventType": "TREATY",
+      "date": "P585 28 June 1919^{Gregorian}; P580 10 January 1920 yürürlüğe giriş",
+      "description": "Versay Barış Antlaşması’nın imzalanması; yürürlüğe giriş tarihi ayrı bir bilgidir.",
+      "uncertain": false,
+      "coordinate": null,
+      "note": "Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+      "trwiki": {
+        "title": "Versay Barış Antlaşması",
+        "url": "https://tr.wikipedia.org/wiki/Versay_Bar%C4%B1%C5%9F_Antla%C5%9Fmas%C4%B1"
+      }
+    },
+    {
+      "qid": "Q6534",
+      "revision": "2556487552",
+      "name": "Fransız Devrimi",
+      "start": 1789,
+      "end": 1799,
+      "eventType": "OTHER",
+      "date": "P580 14 July 1789; P582 9 November 1799; P585 5 May 1789 alternatif başlangıç bağlamı",
+      "description": "Fransız Devrimi; başlangıcın olay düzeyindeki tanımı farklılaşabilir.",
+      "uncertain": true,
+      "coordinate": null,
+      "note": "Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+      "trwiki": {
+        "title": "Fransız Devrimi",
+        "url": "https://tr.wikipedia.org/wiki/Frans%C4%B1z_Devrimi"
+      }
+    },
+    {
+      "qid": "Q192769",
+      "revision": "2507703175",
+      "name": "Amerikan Devrimi",
+      "start": 1775,
+      "end": 1783,
+      "eventType": "OTHER",
+      "date": "P580 1775; P582 1783",
+      "description": "Amerikan Devrimi’nin bu kaynak kaydında belirtilen dönemi; bağımsızlık savaşıyla ayrı kayıttır.",
+      "uncertain": true,
+      "coordinate": null,
+      "note": "Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+      "trwiki": {
+        "title": "Amerikan Devrimi",
+        "url": "https://tr.wikipedia.org/wiki/Amerikan_Devrimi"
+      }
+    },
+    {
+      "qid": "Q40949",
+      "revision": "2558301562",
+      "name": "Amerikan Bağımsızlık Savaşı",
+      "start": 1775,
+      "end": 1783,
+      "eventType": "WAR",
+      "date": "P580 19 April 1775; P582 3 September 1783^{Gregorian}",
+      "description": "Amerikan Bağımsızlık Savaşı.",
+      "uncertain": false,
+      "coordinate": null,
+      "note": "Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+      "trwiki": {
+        "title": "Amerikan Bağımsızlık Savaşı",
+        "url": "https://tr.wikipedia.org/wiki/Amerikan_Ba%C4%9F%C4%B1ms%C4%B1zl%C4%B1k_Sava%C5%9F%C4%B1"
+      }
+    },
+    {
+      "qid": "Q8729",
+      "revision": "2521226000",
+      "name": "Rus Devrimi (1917)",
+      "start": 1917,
+      "end": 1917,
+      "eventType": "OTHER",
+      "date": "P585 1917",
+      "description": "1917 Rus Devrimi için yıl düzeyinde kaynak kaydı.",
+      "uncertain": false,
+      "coordinate": null,
+      "note": "Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+      "trwiki": {
+        "title": "Rus Devrimi (1917)",
+        "url": "https://tr.wikipedia.org/wiki/Rus_Devrimi_%281917%29"
+      }
+    },
+    {
+      "qid": "Q184928",
+      "revision": "2478256355",
+      "name": "Rus Devrimi (1905)",
+      "start": 1905,
+      "end": 1907,
+      "eventType": "OTHER",
+      "date": "P580 22 January 1905^{Gregorian}; P582 16 June 1907^{Gregorian}",
+      "description": "1905 Rus Devrimi ve kaynakta 1907’ye kadar belirtilen dönem.",
+      "uncertain": false,
+      "coordinate": null,
+      "note": "Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+      "trwiki": {
+        "title": "Rus Devrimi (1905)",
+        "url": "https://tr.wikipedia.org/wiki/Rus_Devrimi_%281905%29"
+      }
+    },
+    {
+      "qid": "Q2487",
+      "revision": "2543178530",
+      "name": "Otuz Yıl Savaşı",
+      "start": 1618,
+      "end": 1648,
+      "eventType": "WAR",
+      "date": "P580 1618; P582 1648",
+      "description": "Otuz Yıl Savaşı.",
+      "uncertain": false,
+      "coordinate": null,
+      "note": "Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+      "trwiki": {
+        "title": "Otuz Yıl Savaşı",
+        "url": "https://tr.wikipedia.org/wiki/Otuz_Y%C4%B1l_Sava%C5%9F%C4%B1"
+      }
+    },
+    {
+      "qid": "Q12551",
+      "revision": "2537061208",
+      "name": "Yüz Yıl Savaşı",
+      "start": 1337,
+      "end": 1453,
+      "eventType": "WAR",
+      "date": "P580 24 May 1337; P582 9 October 1453; P582 latest date 1455",
+      "description": "Yüz Yıl Savaşı; bitiş ifadesindeki 1455 üst sınırı ayrıca korunur.",
+      "uncertain": true,
+      "coordinate": null,
+      "note": "Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+      "trwiki": {
+        "title": "Yüz Yıl Savaşı",
+        "url": "https://tr.wikipedia.org/wiki/Y%C3%BCz_Y%C4%B1l_Sava%C5%9F%C4%B1"
+      }
+    },
+    {
+      "qid": "Q154697",
+      "revision": "2538319703",
+      "name": "Fransız-Kızılderili Savaşı",
+      "start": 1754,
+      "end": 1763,
+      "eventType": "WAR",
+      "date": "P580 28 May 1754; P582 7 October 1763^{Gregorian}",
+      "description": "Fransız–Kızılderili Savaşı.",
+      "uncertain": false,
+      "coordinate": null,
+      "note": "Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+      "trwiki": {
+        "title": "Fransız-Kızılderili Savaşı",
+        "url": "https://tr.wikipedia.org/wiki/Frans%C4%B1z-K%C4%B1z%C4%B1lderili_Sava%C5%9F%C4%B1"
+      }
+    },
+    {
+      "qid": "Q78994",
+      "revision": "2517494320",
+      "name": "Napolyon Savaşları",
+      "start": 1803,
+      "end": 1815,
+      "eventType": "WAR",
+      "date": "P580 1803; P582 1815",
+      "description": "Napolyon Savaşları.",
+      "uncertain": false,
+      "coordinate": null,
+      "note": "Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+      "trwiki": {
+        "title": "Napolyon Savaşları",
+        "url": "https://tr.wikipedia.org/wiki/Napolyon_Sava%C5%9Flar%C4%B1"
+      }
+    },
+    {
+      "qid": "Q8676",
+      "revision": "2541996953",
+      "name": "Amerikan İç Savaşı",
+      "start": 1861,
+      "end": 1865,
+      "eventType": "WAR",
+      "date": "P580 12 April 1861; P582 9 April 1865^{Gregorian}",
+      "description": "Amerikan İç Savaşı; farklı kapanış aşamalarından kesin gün çıkarılmaz.",
+      "uncertain": true,
+      "coordinate": null,
+      "note": "Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+      "trwiki": {
+        "title": "Amerikan İç Savaşı",
+        "url": "https://tr.wikipedia.org/wiki/Amerikan_%C4%B0%C3%A7_Sava%C5%9F%C4%B1"
+      }
+    },
+    {
+      "qid": "Q8663",
+      "revision": "2531404543",
+      "name": "Kore Savaşı",
+      "start": 1950,
+      "end": 1953,
+      "eventType": "WAR",
+      "date": "P580 25 June 1950; P582 27 July 1953",
+      "description": "Kore Savaşı’nın silahlı çatışma dönemi; bu aralık kalıcı barış antlaşması iddiası değildir.",
+      "uncertain": false,
+      "coordinate": null,
+      "note": "Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+      "trwiki": {
+        "title": "Kore Savaşı",
+        "url": "https://tr.wikipedia.org/wiki/Kore_Sava%C5%9F%C4%B1"
+      }
+    },
+    {
+      "qid": "Q8740",
+      "revision": "2549643027",
+      "name": "Vietnam Savaşı",
+      "start": 1955,
+      "end": 1975,
+      "eventType": "WAR",
+      "date": "P580 1 November 1955; P582 30 April 1975",
+      "description": "Vietnam Savaşı.",
+      "uncertain": false,
+      "coordinate": null,
+      "note": "Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+      "trwiki": {
+        "title": "Vietnam Savaşı",
+        "url": "https://tr.wikipedia.org/wiki/Vietnam_Sava%C5%9F%C4%B1"
+      }
+    },
+    {
+      "qid": "Q6271",
+      "revision": "2530805085",
+      "name": "İkinci Pön Savaşı",
+      "start": -218,
+      "end": -201,
+      "eventType": "WAR",
+      "date": "P580 218 BCE; P582 201 BCE",
+      "description": "İkinci Pön Savaşı.",
+      "uncertain": false,
+      "coordinate": null,
+      "note": "Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+      "trwiki": {
+        "title": "İkinci Pön Savaşı",
+        "url": "https://tr.wikipedia.org/wiki/%C4%B0kinci_P%C3%B6n_Sava%C5%9F%C4%B1"
+      }
+    },
+    {
+      "qid": "Q184425",
+      "revision": "2504064701",
+      "name": "Pasifik Cephesi (II. Dünya Savaşı)",
+      "start": 1941,
+      "end": 1945,
+      "eventType": "WAR",
+      "date": "P580 7 December 1941; P582 2 September 1945",
+      "description": "İkinci Dünya Savaşı’nın Pasifik cephesi.",
+      "uncertain": false,
+      "coordinate": null,
+      "note": "Wikidata yapılandırılmış iddiasının editoryal incelemesi; bağımsız tarihsel doğrulama tamamlanmış değildir. Kaynak günü özgün metinde korunur; filtre yıl hassasiyetindedir. Konum incelemesi yok; tahminî harita noktası üretilmedi.",
+      "trwiki": {
+        "title": "Pasifik Cephesi (II. Dünya Savaşı)",
+        "url": "https://tr.wikipedia.org/wiki/Pasifik_Cephesi_%28II._D%C3%BCnya_Sava%C5%9F%C4%B1%29"
+      }
+    }
+  ]
+}

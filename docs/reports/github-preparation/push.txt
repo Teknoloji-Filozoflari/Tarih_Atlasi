@@ -1,0 +1,1 @@
+fatal: unable to access 'https://github.com/Teknoloji-Filozoflari/Tarih_Atlasi.git/': Could not resolve host: github.com

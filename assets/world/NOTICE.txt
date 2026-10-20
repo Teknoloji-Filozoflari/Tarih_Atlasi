@@ -1,0 +1,2 @@
+Cliopatria / Seshat Global History Databank v0.2.1 (Bennett et al.). CC BY 4.0 https://creativecommons.org/licenses/by/4.0/ Source https://github.com/Seshat-Global-History-Databank/cliopatria/tree/v0.2.1
+Changes: property removal, winding and identical consecutive position normalization. Source reconstruction, not independently verified historical borders. Date ranges retained; unsupported/malformed rows quarantined. No imported QID or Wikipedia title is approved.

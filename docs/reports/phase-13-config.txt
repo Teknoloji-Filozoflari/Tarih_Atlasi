@@ -1,0 +1,43 @@
+npm notice run tarih-atlasi@0.1.0 config:check
+npm notice run expo config --type public
+
+{
+  name: [32m'Tarih Atlası'[39m,
+  slug: [32m'tarih-atlasi'[39m,
+  version: [32m'0.1.0'[39m,
+  scheme: [32m'tarihatlasi'[39m,
+  orientation: [32m'default'[39m,
+  userInterfaceStyle: [32m'dark'[39m,
+  backgroundColor: [32m'#0B1118'[39m,
+  platforms: [
+    [32m'android'[39m,
+    [32m'web'[39m
+  ],
+  plugins: [
+    [32m'expo-router'[39m
+  ],
+  description: [90mundefined[39m,
+  sdkVersion: [32m'57.0.0'[39m,
+  android: {
+    package: [32m'org.tarihatlasi.app'[39m,
+    versionCode: [33m1[39m,
+    blockedPermissions: [
+      [32m'android.permission.RECORD_AUDIO'[39m,
+      [32m'android.permission.READ_EXTERNAL_STORAGE'[39m,
+      [32m'android.permission.WRITE_EXTERNAL_STORAGE'[39m
+    ],
+    allowBackup: [33mfalse[39m
+  },
+  web: {
+    bundler: [32m'metro'[39m,
+    output: [32m'static'[39m,
+    name: [32m'Tarih Atlası'[39m
+  },
+  experiments: {
+    typedRoutes: [33mtrue[39m
+  },
+  extra: {
+    router: {}
+  }
+}
+

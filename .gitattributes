@@ -1,0 +1,9 @@
+* text=auto eol=lf
+data/** -text
+assets/** -text
+*.sh text eol=lf
+*.cmd text eol=crlf
+*.mjs text eol=lf
+*.atlas -text
+*.png binary
+*.ttf binary

@@ -1,0 +1,398 @@
+{
+  "date": "2026-10-17",
+  "scope": "Existing repository audit and user-specified MS2010 repair; no publication or new product phase.",
+  "release": "NO-GO",
+  "screenshots": 0,
+  "android": "UNVERIFIED ON DEVICE",
+  "liveWikidata": "UNVERIFIED (DNS/CORS/browser not exercised)",
+  "checks": [
+    {
+      "command": "git status --short",
+      "exitCode": 128,
+      "status": "BLOCKED",
+      "evidence": "git-status.log",
+      "note": "Environment does not recognize this directory as a Git repository; no reset, checkout, init or commit."
+    },
+    {
+      "command": "npm run check",
+      "stage": "baseline",
+      "exitCode": 0,
+      "status": "PASS",
+      "evidence": "baseline-check.log",
+      "tests": {
+        "main": 295,
+        "worker": 5
+      }
+    },
+    {
+      "command": "npm run lint",
+      "stage": "initial",
+      "exitCode": 1,
+      "status": "FIXED",
+      "evidence": "lint-initial.log",
+      "note": "State-in-effect and duplicate imports corrected; no disabled rule."
+    },
+    {
+      "command": "node --test tests/unit/world.test.mjs",
+      "stage": "initial",
+      "exitCode": 1,
+      "status": "FIXED",
+      "evidence": "world-tests-initial.log",
+      "note": "Old source-row expectations changed to the exact reviewed 178/14/191 counts; geometry-fidelity tests added."
+    },
+    {
+      "command": "npm run check",
+      "stage": "initial after implementation",
+      "exitCode": 1,
+      "status": "FIXED",
+      "evidence": "check-format-initial.log",
+      "note": "Generated identity module printWidth corrected to project 100; no formatting rule weakened."
+    },
+    {
+      "command": "npm run check",
+      "stage": "final after NOTICE guard and documentation",
+      "exitCode": 0,
+      "status": "PASS",
+      "evidence": "check.log",
+      "tests": {
+        "main": 304,
+        "worker": 5
+      },
+      "scope": "Lint, native+web strict TypeScript, unit/worker, globe/basemap/physical/pilot/sitelinks/chunks/world/identity+NOTICE gates and configured formatter."
+    },
+    {
+      "command": "node --test tests/unit/application-review.test.mjs",
+      "exitCode": 0,
+      "status": "PASS",
+      "evidence": "new-tests.log",
+      "tests": 9,
+      "note": "Network fixtures explicitly synthetic; actual licensed source France components compared byte-for-byte."
+    },
+    {
+      "command": "node --test tests/unit/world.test.mjs",
+      "exitCode": 0,
+      "status": "PASS",
+      "evidence": "world-tests.log",
+      "tests": 18
+    },
+    {
+      "command": "node --test tests/unit/sources.test.mjs",
+      "exitCode": 0,
+      "status": "PASS",
+      "evidence": "source-tests.log",
+      "tests": 18
+    },
+    {
+      "command": "node scripts/polity-identities.mjs --check",
+      "exitCode": 0,
+      "status": "PASS",
+      "evidence": "identity-source-check.log",
+      "note": "Reproduced QID-only extraction and attribution from the existing SHA-pinned source archive; no download."
+    },
+    {
+      "command": "npm run web:export",
+      "exitCode": 0,
+      "status": "PASS",
+      "evidence": "web-export.log",
+      "routes": 4,
+      "scope": "Static web export only; no runtime or screenshot claim."
+    },
+    {
+      "command": "npm run android:bundle",
+      "exitCode": 0,
+      "status": "PASS",
+      "evidence": "android-export.log",
+      "scope": "Hermes+DOM JavaScript export only; no APK, native build or physical-device claim."
+    },
+    {
+      "command": "npx playwright test tests/web/application-review.spec.ts --list",
+      "exitCode": 0,
+      "status": "LISTED ONLY",
+      "evidence": "browser-list.log",
+      "listed": 4,
+      "executed": 0
+    },
+    {
+      "command": "npm run test:web:production -- --list",
+      "exitCode": 0,
+      "status": "LISTED ONLY",
+      "evidence": "production-test-list.log",
+      "listed": 42,
+      "executed": 0
+    },
+    {
+      "command": null,
+      "operation": "Playwright Chromium launch probe",
+      "exitCode": 2,
+      "status": "BLOCKED",
+      "evidence": "browser-launch.log",
+      "reason": "Chromium sandbox_host_linux Operation not permitted",
+      "screenshots": 0,
+      "exactShellWrapperRetained": false
+    },
+    {
+      "command": "npm run environment:check",
+      "exitCode": 1,
+      "status": "BLOCKED",
+      "evidence": "environment.log",
+      "deviceStatus": "UNVERIFIED ON DEVICE",
+      "reason": "Java, adb and ANDROID_HOME unavailable."
+    },
+    {
+      "command": "npm audit --json",
+      "exitCode": 1,
+      "status": "BLOCKED",
+      "evidence": [
+        "npm-audit.json",
+        "npm-audit.log"
+      ],
+      "reason": "Registry EAI_AGAIN; current vulnerability count unknown."
+    },
+    {
+      "command": "curl --fail --silent --show-error --max-time 15 'https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q79&props=info%7Csitelinks%2Furls&sitefilter=trwiki%7Cenwiki&format=json&origin=%2A'",
+      "exitCode": 6,
+      "status": "BLOCKED",
+      "evidence": "live-api.log",
+      "scope": "DNS connectivity probe only; actual API HTTP/CORS/referrer integration unverified."
+    },
+    {
+      "operation": "qa:security with explicit output path",
+      "reproduce": "node scripts/qa/security.mjs /tmp/atlas-security.json",
+      "exitCode": 0,
+      "status": "PARTIAL",
+      "evidence": [
+        "security.json",
+        "security.log"
+      ],
+      "scannedFiles": 662,
+      "patternHitFiles": 0,
+      "explicitBlockers": 1
+    },
+    {
+      "operation": "qa:licenses with explicit output path",
+      "reproduce": "node scripts/qa/licenses.mjs /tmp/atlas-licenses.json",
+      "exitCode": 0,
+      "status": "PARTIAL",
+      "evidence": [
+        "licenses.json",
+        "licenses.log"
+      ],
+      "lockEntries": 873,
+      "entriesWithRootLicenseFiles": 781,
+      "distributionApproved": false
+    },
+    {
+      "operation": "qa:coverage with explicit output path",
+      "reproduce": "node scripts/qa/coverage.mjs /tmp/atlas-pilot-coverage.json",
+      "exitCode": 0,
+      "status": "PASS",
+      "evidence": [
+        "pilot-coverage.json",
+        "pilot-coverage.log"
+      ],
+      "scope": "Pilot only; not the world political source."
+    },
+    {
+      "command": "node scripts/qa/map-scene.mjs 2010",
+      "exitCode": 0,
+      "status": "PASS",
+      "evidence": "map-scene-2010.json",
+      "scope": "Licensed source geometry diagnostics; bounded North Africa sampling, not full historical/topological certification."
+    },
+    {
+      "operation": "Ad hoc read-only reviewedRows temporal metadata count",
+      "command": null,
+      "exitCode": 0,
+      "status": "PASS",
+      "evidence": "world-coverage.json",
+      "scope": "At least one drawable political source area; not full world/year coverage."
+    },
+    {
+      "command": "npm run cshapes:inspect -- --year 2010",
+      "exitCode": 0,
+      "status": "DATA_REVIEW_REQUIRED",
+      "evidence": "cshapes-2010.log",
+      "productionAllowed": false,
+      "note": "No CShapes geometry copied into production or this evidence folder."
+    },
+    {
+      "command": "rg --files dist dist-android | rg -i 'cshapes|country-review|staging'",
+      "exitCode": 1,
+      "status": "EXPECTED NO MATCHES",
+      "evidence": "staging-bundle-search.log",
+      "scope": "Export path check only; not comprehensive binary provenance verification."
+    }
+  ],
+  "evidence": [
+    {
+      "file": "android-export.log",
+      "bytes": 59384,
+      "sha256": "cc7f6e83eb45873e1f575a5273bfa45ad89ac98cccb4c3fd60b06788c09a33a4"
+    },
+    {
+      "file": "baseline-check.log",
+      "bytes": 35527,
+      "sha256": "b2b85024d419cdc95c80249e24cd038cb91a8737a614266505d41ea1733d001b"
+    },
+    {
+      "file": "browser-launch.log",
+      "bytes": 4350,
+      "sha256": "208b0eb69a87424f56b792f690d6d263c0e3983432d5e50a87386c3fba657e0a"
+    },
+    {
+      "file": "browser-list.log",
+      "bytes": 723,
+      "sha256": "ef38cffe1e3cfe8f11dc9b2f32850118c104985b5fb6dab19afdb676ba2fe217"
+    },
+    {
+      "file": "check-format-initial.log",
+      "bytes": 37050,
+      "sha256": "38443f985de5c47867c4aa736ae7504e08c7ab7294cb7e40856da51c4fd08824"
+    },
+    {
+      "file": "check.log",
+      "bytes": 36967,
+      "sha256": "408a5e1b3620f626d51349326bba9702c8cedb10b8c4363b07efcef7f4aa17c1"
+    },
+    {
+      "file": "cshapes-2010.log",
+      "bytes": 1017,
+      "sha256": "84ee7acd0a088dee645162da3bad428f9f66863fca6baf089cc9e8c941c0bfde"
+    },
+    {
+      "file": "environment.log",
+      "bytes": 405,
+      "sha256": "187cddfaeb3517e30fb8c83434f1e5ebf2c019908fc92980c9bafe1ffe77e10d"
+    },
+    {
+      "file": "export-sizes.json",
+      "bytes": 1906,
+      "sha256": "3162c757d21f7572b9888919e40fd71664ceddbc22d2ffe3ed7378a38ddad6f0"
+    },
+    {
+      "file": "format-touched.log",
+      "bytes": 552,
+      "sha256": "285271c827f6067f8fe1536615fa87c5ac73a647b958217d6526280863ef8c66"
+    },
+    {
+      "file": "git-status.log",
+      "bytes": 139,
+      "sha256": "c4dfc721cc7f91d3ec67d99446d3c46f79c764fc96d6f9ba52e69cc669d686c1"
+    },
+    {
+      "file": "identity-source-check.log",
+      "bytes": 278,
+      "sha256": "b52e695c0ddd8ea1a7932c39588dda2a3688ad12280326b9247adbca75a137ec"
+    },
+    {
+      "file": "licenses.json",
+      "bytes": 413934,
+      "sha256": "59947c42bbcbcccdfb74d5390ad7dc0db644440bcd8b3cf3049d2e7f8343374b"
+    },
+    {
+      "file": "licenses.log",
+      "bytes": 97,
+      "sha256": "352fb3d5f8b503c84116b5098ee02c76e6e8baccfeceeab93fce213aaf9b5269"
+    },
+    {
+      "file": "lint-initial.log",
+      "bytes": 3043,
+      "sha256": "0001dae914cab061340869b7fa39c12ea02bc58ded2dfb6571fbe1d6a844c7bb"
+    },
+    {
+      "file": "lint.log",
+      "bytes": 80,
+      "sha256": "433d75e0eb2247259e271e8d70ec586334dbdc645433d51691c6b9695f50fb1f"
+    },
+    {
+      "file": "live-api.log",
+      "bytes": 51,
+      "sha256": "55f1a1cacc263f877333b411c84fe0626ea6770e70d92a523a15d28842774079"
+    },
+    {
+      "file": "map-scene-2010.json",
+      "bytes": 4928,
+      "sha256": "5e4169bd7c948e120b3625d0973ecb1cf502db48a4f2f26def5bd6aa2a4af007"
+    },
+    {
+      "file": "map-scene-original-2010.json",
+      "bytes": 8576,
+      "sha256": "b9c35884cbf3e2933baefdb34e182fc7d2e58149864257f4b3def7fa7247f964"
+    },
+    {
+      "file": "new-tests.log",
+      "bytes": 1271,
+      "sha256": "bcafe746bfac7695dd25defeac6f8446308459132d9e916b0568c0f1be54ae29"
+    },
+    {
+      "file": "npm-audit.json",
+      "bytes": 202,
+      "sha256": "811e0554a8d4e034fc8a0d03a083b713671a62af110eadb0c5aa8dcca74c7e3d"
+    },
+    {
+      "file": "npm-audit.log",
+      "bytes": 386,
+      "sha256": "dc8b12405ff8b48ff665ee1d155d145ea7ee53ba92d0a1122067a5b0f9881e6e"
+    },
+    {
+      "file": "pilot-coverage.json",
+      "bytes": 284016,
+      "sha256": "49506c67267ebd3e7822ec90dc09be589f6e3f2e8f980c3265e51dbec85ee016"
+    },
+    {
+      "file": "pilot-coverage.log",
+      "bytes": 96,
+      "sha256": "332bd185b02ddbd774ade519c49f340c29634968a11e046013355817701980e3"
+    },
+    {
+      "file": "production-test-list.log",
+      "bytes": 5722,
+      "sha256": "943f2869b61866b8e46d1e3c3b32354d9781508175f1f6b589cd61f2a9e84f72"
+    },
+    {
+      "file": "security.json",
+      "bytes": 1129,
+      "sha256": "a9a31ae05fd3fafb9fa5c1a1464ba240b9e1d3a7fe36b8b425b5caf8ac87d251"
+    },
+    {
+      "file": "security.log",
+      "bytes": 77,
+      "sha256": "ba34d60b7dfc0e3f4c9d44388024a807c3cb93dd8e7323b92c4afe62e9ac258e"
+    },
+    {
+      "file": "source-tests.log",
+      "bytes": 2020,
+      "sha256": "46523d3418c6b50a355f665f1290ab7a67e11e396c056c1bbcfe03bdc3b4acc8"
+    },
+    {
+      "file": "staging-bundle-search.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "typecheck.log",
+      "bytes": 109,
+      "sha256": "9f129891bf9903ac4de0f8c2605a8c029ed0711573d7404e30211a10fedefcf6"
+    },
+    {
+      "file": "web-export.log",
+      "bytes": 55667,
+      "sha256": "fdfa8cc7f14e61809e05bb721b08d6ba60fe2a77910cf2ae957693afe776a702"
+    },
+    {
+      "file": "world-coverage.json",
+      "bytes": 466,
+      "sha256": "8cc75fc498dd199825f878845057d661e7eeb082b93f2ca8523434dd6b980a3d"
+    },
+    {
+      "file": "world-tests-initial.log",
+      "bytes": 3750,
+      "sha256": "93c0133c86336a188647b2218b28542f2ba3d4cd2bc40d5019eaec3e66bd7736"
+    },
+    {
+      "file": "world-tests.log",
+      "bytes": 2400,
+      "sha256": "dae3aac3972e971a9666b165fe5a5ad80d729fb44aa8bbb9b5d696b9dd4d0444"
+    }
+  ]
+}

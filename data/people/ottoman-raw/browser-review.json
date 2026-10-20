@@ -1,0 +1,1807 @@
+{
+  "representation": "browser-editorial-structured-fact-extraction-not-api-response",
+  "synthetic": false,
+  "licenseId": "CC0-1.0",
+  "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+  "reviewedAt": "2026-10-18T07:22:35.000Z",
+  "requests": [
+    {
+      "name": "Orhan Gazi",
+      "aliases": [
+        "Orhan"
+      ],
+      "candidateWikidataId": "Q133168",
+      "status": "unverified"
+    },
+    {
+      "name": "I. Murad",
+      "aliases": [
+        "Murad I"
+      ],
+      "candidateWikidataId": "Q96261",
+      "status": "unverified"
+    },
+    {
+      "name": "I. Bayezid",
+      "aliases": [
+        "Bayezid I"
+      ],
+      "candidateWikidataId": "Q128358",
+      "status": "unverified"
+    },
+    {
+      "name": "I. Mehmed",
+      "aliases": [
+        "Mehmed I"
+      ],
+      "candidateWikidataId": "Q168769",
+      "status": "unverified"
+    },
+    {
+      "name": "II. Murad",
+      "aliases": [
+        "Murad II"
+      ],
+      "candidateWikidataId": "Q131394",
+      "status": "unverified"
+    },
+    {
+      "name": "II. Bayezid",
+      "aliases": [
+        "Bayezid II"
+      ],
+      "candidateWikidataId": "Q165983",
+      "status": "unverified"
+    },
+    {
+      "name": "I. Selim",
+      "aliases": [
+        "Selim I"
+      ],
+      "candidateWikidataId": "Q494660",
+      "status": "unverified"
+    },
+    {
+      "name": "II. Selim",
+      "aliases": [
+        "Selim II"
+      ],
+      "candidateWikidataId": "Q161872",
+      "status": "unverified"
+    },
+    {
+      "name": "III. Murad",
+      "aliases": [
+        "Murad III"
+      ],
+      "candidateWikidataId": "Q159934",
+      "status": "unverified"
+    },
+    {
+      "name": "III. Mehmed",
+      "aliases": [
+        "Mehmed III"
+      ],
+      "candidateWikidataId": "Q171465",
+      "status": "unverified"
+    },
+    {
+      "name": "I. Ahmed",
+      "aliases": [
+        "Ahmed I"
+      ],
+      "candidateWikidataId": "Q114749",
+      "status": "unverified"
+    },
+    {
+      "name": "I. Mustafa",
+      "aliases": [
+        "Mustafa I"
+      ],
+      "candidateWikidataId": "Q174798",
+      "status": "unverified"
+    },
+    {
+      "name": "II. Osman",
+      "aliases": [
+        "Osman II"
+      ],
+      "candidateWikidataId": "Q172056",
+      "status": "unverified"
+    },
+    {
+      "name": "IV. Murad",
+      "aliases": [
+        "Murad IV"
+      ],
+      "candidateWikidataId": "Q174762",
+      "status": "unverified"
+    },
+    {
+      "name": "İbrahim",
+      "aliases": [
+        "Ibrahim I"
+      ],
+      "candidateWikidataId": "Q168776",
+      "status": "unverified"
+    },
+    {
+      "name": "IV. Mehmed",
+      "aliases": [
+        "Mehmed IV"
+      ],
+      "candidateWikidataId": "Q170514",
+      "status": "unverified"
+    },
+    {
+      "name": "II. Süleyman",
+      "aliases": [
+        "Suleiman II"
+      ],
+      "candidateWikidataId": "Q172061",
+      "status": "unverified"
+    },
+    {
+      "name": "II. Ahmed",
+      "aliases": [
+        "Ahmed II"
+      ],
+      "candidateWikidataId": "Q199660",
+      "status": "unverified"
+    },
+    {
+      "name": "II. Mustafa",
+      "aliases": [
+        "Mustafa II"
+      ],
+      "candidateWikidataId": "Q199659",
+      "status": "unverified"
+    },
+    {
+      "name": "III. Ahmed",
+      "aliases": [
+        "Ahmed III"
+      ],
+      "candidateWikidataId": "Q199482",
+      "status": "unverified"
+    },
+    {
+      "name": "I. Mahmud",
+      "aliases": [
+        "Mahmud I"
+      ],
+      "candidateWikidataId": "Q199481",
+      "status": "unverified"
+    },
+    {
+      "name": "III. Osman",
+      "aliases": [
+        "Osman III"
+      ],
+      "candidateWikidataId": "Q199825",
+      "status": "unverified"
+    },
+    {
+      "name": "III. Mustafa",
+      "aliases": [
+        "Mustafa III"
+      ],
+      "candidateWikidataId": "Q199484",
+      "status": "unverified"
+    },
+    {
+      "name": "I. Abdülhamid",
+      "aliases": [
+        "Abdul Hamid I"
+      ],
+      "candidateWikidataId": "Q170707",
+      "status": "unverified"
+    },
+    {
+      "name": "III. Selim",
+      "aliases": [
+        "Selim III"
+      ],
+      "candidateWikidataId": "Q199633",
+      "status": "unverified"
+    },
+    {
+      "name": "IV. Mustafa",
+      "aliases": [
+        "Mustafa IV"
+      ],
+      "candidateWikidataId": "Q199830",
+      "status": "unverified"
+    },
+    {
+      "name": "II. Mahmud",
+      "aliases": [
+        "Mahmud II"
+      ],
+      "candidateWikidataId": "Q174791",
+      "status": "unverified"
+    },
+    {
+      "name": "Abdülmecid",
+      "aliases": [
+        "Abdülmecid I"
+      ],
+      "candidateWikidataId": "Q174772",
+      "status": "unverified"
+    },
+    {
+      "name": "Abdülaziz",
+      "aliases": [
+        "Abdülaziz"
+      ],
+      "candidateWikidataId": "Q151500",
+      "status": "unverified"
+    },
+    {
+      "name": "V. Murad",
+      "aliases": [
+        "Murad V"
+      ],
+      "candidateWikidataId": "Q199827",
+      "status": "unverified"
+    },
+    {
+      "name": "II. Abdülhamid",
+      "aliases": [
+        "Abdul Hamid II"
+      ],
+      "candidateWikidataId": "Q134817",
+      "status": "unverified"
+    },
+    {
+      "name": "V. Mehmed Reşad",
+      "aliases": [
+        "Mehmed V"
+      ],
+      "candidateWikidataId": "Q151494",
+      "status": "unverified"
+    },
+    {
+      "name": "VI. Mehmed",
+      "aliases": [
+        "Mehmed VI"
+      ],
+      "candidateWikidataId": "Q162543",
+      "status": "unverified"
+    }
+  ],
+  "people": [
+    {
+      "requestedName": "Orhan Gazi",
+      "qid": "Q133168",
+      "title": "Orhan",
+      "url": "https://www.wikidata.org/wiki/Q133168",
+      "revision": "2552580793",
+      "props": {
+        "date of birth": [
+          "6 February 1281",
+          "instance of",
+          "statement with Gregorian date earlier than 1584",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Russian Wikipedia",
+          "place of birth",
+          "Söğüt"
+        ],
+        "place of birth": [
+          "Söğüt",
+          "1 reference",
+          "imported from Wikimedia project",
+          "German Wikipedia",
+          "date of death",
+          "March 1362",
+          "1 reference",
+          "imported from Wikimedia project"
+        ],
+        "date of death": [
+          "March 1362",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Arabic Wikipedia",
+          "place of death",
+          "Bursa",
+          "1 reference",
+          "imported from Wikimedia project"
+        ]
+      },
+      "birthPlaceQid": "Q768506"
+    },
+    {
+      "requestedName": "I. Murad",
+      "qid": "Q96261",
+      "title": "Murad I",
+      "url": "https://www.wikidata.org/wiki/Q96261",
+      "revision": "2537132503",
+      "props": {
+        "date of birth": [
+          "29 June 1326^{Gregorian}",
+          "instance of",
+          "statement with Gregorian date earlier than 1584",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Spanish Wikipedia",
+          "place of birth",
+          "Bursa"
+        ],
+        "place of birth": [
+          "Bursa",
+          "1 reference",
+          "reference URL",
+          "http://www.theottomans.org/english/family/murat1.asp†www.theottomans.org",
+          "date of death",
+          "28 June 1389",
+          "1 reference",
+          "imported from Wikimedia project"
+        ],
+        "date of death": [
+          "28 June 1389",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Arabic Wikipedia",
+          "place of death",
+          "Kosovo Field",
+          "1 reference",
+          "imported from Wikimedia project"
+        ]
+      },
+      "birthPlaceQid": "Q40738"
+    },
+    {
+      "requestedName": "I. Bayezid",
+      "qid": "Q128358",
+      "title": "Bayezid I",
+      "url": "https://www.wikidata.org/wiki/Q128358",
+      "revision": "2538411747",
+      "props": {
+        "date of birth": [
+          "8 March 1354^{Gregorian}",
+          "instance of",
+          "statement with Gregorian date earlier than 1584",
+          "sourcing circumstances",
+          "circa",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Slovak Wikipedia"
+        ],
+        "place of birth": [
+          "Edirne",
+          "country",
+          "Ottoman Empire",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Persian Wikipedia",
+          "date of death",
+          "8 March 1403"
+        ],
+        "date of death": [
+          "8 March 1403",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Russian Wikipedia",
+          "place of death",
+          "Akşehir",
+          "country",
+          "Ottoman Empire"
+        ]
+      },
+      "birthPlaceQid": null
+    },
+    {
+      "requestedName": "I. Mehmed",
+      "qid": "Q168769",
+      "title": "Mehmed I",
+      "url": "https://www.wikidata.org/wiki/Q168769",
+      "revision": "2547766155",
+      "props": {
+        "date of birth": [
+          "1386",
+          "instance of",
+          "statement with Gregorian date earlier than 1584",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Arabic Wikipedia",
+          "place of birth",
+          "Bursa"
+        ],
+        "place of birth": [
+          "Bursa",
+          "1 reference",
+          "stated in",
+          "Integrated Authority File",
+          "retrieved",
+          "11 December 2014",
+          "date of death",
+          "26 May 1421^{Gregorian}"
+        ],
+        "date of death": [
+          "26 May 1421^{Gregorian}",
+          "instance of",
+          "statement with Gregorian date earlier than 1584",
+          "2 references",
+          "imported from Wikimedia project",
+          "English Wikipedia",
+          "stated in",
+          "Gran Enciclopèdia Catalana"
+        ]
+      },
+      "birthPlaceQid": "Q40738"
+    },
+    {
+      "requestedName": "II. Murad",
+      "qid": "Q131394",
+      "title": "Murad II",
+      "url": "https://www.wikidata.org/wiki/Q131394",
+      "revision": "2557643679",
+      "props": {
+        "date of birth": [
+          "1403",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Arabic Wikipedia",
+          "June 1404",
+          "2 references",
+          "stated in",
+          "Great Norwegian Encyclopedia"
+        ],
+        "place of birth": [
+          "Amasya",
+          "1 reference",
+          "imported from Wikimedia project",
+          "German Wikipedia",
+          "date of death",
+          "3 February 1451",
+          "1 reference",
+          "imported from Wikimedia project"
+        ],
+        "date of death": [
+          "3 February 1451",
+          "1 reference",
+          "imported from Wikimedia project",
+          "English Wikipedia",
+          "place of death",
+          "Edirne",
+          "1 reference",
+          "imported from Wikimedia project"
+        ]
+      },
+      "birthPlaceQid": "Q170532"
+    },
+    {
+      "requestedName": "II. Bayezid",
+      "qid": "Q165983",
+      "title": "Bayezid II",
+      "url": "https://www.wikidata.org/wiki/Q165983",
+      "revision": "2556611775",
+      "props": {
+        "date of birth": [
+          "3 December 1447",
+          "1 reference",
+          "imported from Wikimedia project",
+          "English Wikipedia",
+          "place of birth",
+          "Didymoteicho",
+          "country",
+          "Ottoman Empire"
+        ],
+        "place of birth": [
+          "Didymoteicho",
+          "country",
+          "Ottoman Empire",
+          "1 reference",
+          "imported from Wikimedia project",
+          "German Wikipedia",
+          "date of death",
+          "26 May 1512"
+        ],
+        "date of death": [
+          "26 May 1512",
+          "1 reference",
+          "stated in",
+          "Encyclopædia Britannica Online",
+          "Encyclopædia Britannica Online ID",
+          "biography/Bayezid-II†www.britannica.com",
+          "reference URL",
+          "https://www.britannica.com/biography/Bayezid-II†www.britannica.com"
+        ]
+      },
+      "birthPlaceQid": "Q932648"
+    },
+    {
+      "requestedName": "I. Selim",
+      "qid": "Q494660",
+      "title": "Selim I",
+      "url": "https://www.wikidata.org/wiki/Q494660",
+      "revision": "2556611587",
+      "props": {
+        "date of birth": [
+          "10 October 1470",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Arabic Wikipedia",
+          "place of birth",
+          "Amasya",
+          "located in the administrative territorial entity",
+          "Amasya Province"
+        ],
+        "place of birth": [
+          "Amasya",
+          "located in the administrative territorial entity",
+          "Amasya Province",
+          "country",
+          "Ottoman Empire",
+          "1 reference",
+          "imported from Wikimedia project",
+          "German Wikipedia"
+        ],
+        "date of death": [
+          "22 September 1520",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Russian Wikipedia",
+          "place of death",
+          "Çorlu",
+          "country",
+          "Ottoman Empire"
+        ]
+      },
+      "birthPlaceQid": "Q170532"
+    },
+    {
+      "requestedName": "II. Selim",
+      "qid": "Q161872",
+      "title": "Selim II",
+      "url": "https://www.wikidata.org/wiki/Q161872",
+      "revision": "2551203135",
+      "props": {
+        "date of birth": [
+          "30 May 1524",
+          "1 reference",
+          "stated in",
+          "Encyclopaedia of Islam, 2nd edition",
+          "volume",
+          "IX",
+          "page(s)",
+          "131"
+        ],
+        "place of birth": [
+          "Istanbul",
+          "1 reference",
+          "stated in",
+          "Encyclopaedia of Islam, 2nd edition",
+          "volume",
+          "IX",
+          "page(s)",
+          "131"
+        ],
+        "date of death": [
+          "13 December 1574",
+          "1 reference",
+          "stated in",
+          "Encyclopaedia of Islam, 2nd edition",
+          "volume",
+          "IX",
+          "page(s)",
+          "132"
+        ]
+      },
+      "birthPlaceQid": "Q406"
+    },
+    {
+      "requestedName": "III. Murad",
+      "qid": "Q159934",
+      "title": "Murad III",
+      "url": "https://www.wikidata.org/wiki/Q159934",
+      "revision": "2553155460",
+      "props": {
+        "date of birth": [
+          "4 July 1546",
+          "1 reference",
+          "imported from Wikimedia project",
+          "English Wikipedia",
+          "place of birth",
+          "Manisa",
+          "country",
+          "Ottoman Empire"
+        ],
+        "place of birth": [
+          "Manisa",
+          "country",
+          "Ottoman Empire",
+          "located in the administrative territorial entity",
+          "Saruhan sanjak",
+          "0 references",
+          "date of death",
+          "16 January 1595^{Gregorian}"
+        ],
+        "date of death": [
+          "16 January 1595^{Gregorian}",
+          "1 reference",
+          "imported from Wikimedia project",
+          "English Wikipedia",
+          "place of death",
+          "Istanbul",
+          "country",
+          "Ottoman Empire"
+        ]
+      },
+      "birthPlaceQid": "Q147089"
+    },
+    {
+      "requestedName": "III. Mehmed",
+      "qid": "Q171465",
+      "title": "Mehmed III",
+      "url": "https://www.wikidata.org/wiki/Q171465",
+      "revision": "2556156016",
+      "props": {
+        "date of birth": [
+          "26 May 1566",
+          "1 reference",
+          "imported from Wikimedia project",
+          "English Wikipedia",
+          "place of birth",
+          "Manisa",
+          "1 reference",
+          "imported from Wikimedia project"
+        ],
+        "place of birth": [
+          "Manisa",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Persian Wikipedia",
+          "date of death",
+          "22 December 1603^{Gregorian}",
+          "2 references",
+          "reference URL"
+        ],
+        "date of death": [
+          "22 December 1603^{Gregorian}",
+          "2 references",
+          "reference URL",
+          "https://pantheon.world/profile/person/Mehmed_III†pantheon.world",
+          "subject named as",
+          "Mehmed III",
+          "retrieved",
+          "9 October 2017"
+        ]
+      },
+      "birthPlaceQid": "Q147089"
+    },
+    {
+      "requestedName": "I. Ahmed",
+      "qid": "Q114749",
+      "title": "Ahmed I",
+      "url": "https://www.wikidata.org/wiki/Q114749",
+      "revision": "2555346816",
+      "props": {
+        "date of birth": [
+          "18 April 1590^{Gregorian}",
+          "1 reference",
+          "stated in",
+          "Encyclopædia Britannica Online",
+          "Encyclopædia Britannica Online ID",
+          "biography/Ahmed-I†www.britannica.com",
+          "subject named as",
+          "Ahmed I"
+        ],
+        "place of birth": [
+          "Manisa",
+          "country",
+          "Ottoman Empire",
+          "1 reference",
+          "imported from Wikimedia project",
+          "German Wikipedia",
+          "date of death",
+          "22 November 1617^{Gregorian}"
+        ],
+        "date of death": [
+          "22 November 1617^{Gregorian}",
+          "5 references",
+          "stated in",
+          "Encyclopædia Britannica Online",
+          "Encyclopædia Britannica Online ID",
+          "biography/Ahmed-I†www.britannica.com",
+          "subject named as",
+          "Ahmed I"
+        ]
+      },
+      "birthPlaceQid": "Q147089"
+    },
+    {
+      "requestedName": "I. Mustafa",
+      "qid": "Q174798",
+      "title": "Mustafa I",
+      "url": "https://www.wikidata.org/wiki/Q174798",
+      "revision": "2552153344",
+      "props": {
+        "date of birth": [
+          "24 June 1591^{Gregorian}",
+          "1 reference",
+          "imported from Wikimedia project",
+          "English Wikipedia",
+          "place of birth",
+          "Istanbul",
+          "1 reference",
+          "imported from Wikimedia project"
+        ],
+        "place of birth": [
+          "Istanbul",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Czech Wikipedia",
+          "date of death",
+          "20 January 1639^{Gregorian}",
+          "1 reference",
+          "stated in"
+        ],
+        "date of death": [
+          "20 January 1639^{Gregorian}",
+          "1 reference",
+          "stated in",
+          "Integrated Authority File",
+          "retrieved",
+          "27 April 2014",
+          "place of death",
+          "Istanbul"
+        ]
+      },
+      "birthPlaceQid": null
+    },
+    {
+      "requestedName": "II. Osman",
+      "qid": "Q172056",
+      "title": "Osman II",
+      "url": "https://www.wikidata.org/wiki/Q172056",
+      "revision": "2521368408",
+      "props": {
+        "date of birth": [
+          "3 November 1604^{Gregorian}",
+          "1 reference",
+          "imported from Wikimedia project",
+          "English Wikipedia",
+          "place of birth",
+          "Istanbul",
+          "1 reference",
+          "imported from Wikimedia project"
+        ],
+        "place of birth": [
+          "Istanbul",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Russian Wikipedia",
+          "date of death",
+          "20 May 1622^{Gregorian}",
+          "2 references",
+          "imported from Wikimedia project"
+        ],
+        "date of death": [
+          "20 May 1622^{Gregorian}",
+          "2 references",
+          "imported from Wikimedia project",
+          "English Wikipedia",
+          "stated in",
+          "Gran Enciclopèdia Catalana",
+          "Gran Enciclopèdia Catalana ID (former scheme)",
+          "0047874†www.enciclopedia.cat"
+        ]
+      },
+      "birthPlaceQid": "Q406"
+    },
+    {
+      "requestedName": "IV. Murad",
+      "qid": "Q174762",
+      "title": "Murad IV",
+      "url": "https://www.wikidata.org/wiki/Q174762",
+      "revision": "2528528675",
+      "props": {
+        "date of birth": [
+          "27 July 1612^{Gregorian}",
+          "1 reference",
+          "stated in",
+          "Encyclopædia Britannica Online",
+          "Encyclopædia Britannica Online ID",
+          "biography/Murad-IV†www.britannica.com",
+          "subject named as",
+          "Murad IV"
+        ],
+        "place of birth": [
+          "Constantinople",
+          "1 reference",
+          "imported from Wikimedia project",
+          "French Wikipedia",
+          "date of death",
+          "8 February 1640^{Julian}",
+          "1 reference",
+          "imported from Wikimedia project"
+        ],
+        "date of death": [
+          "8 February 1640^{Julian}",
+          "1 reference",
+          "imported from Wikimedia project",
+          "English Wikipedia",
+          "place of death",
+          "Constantinople",
+          "1 reference",
+          "imported from Wikimedia project"
+        ]
+      },
+      "birthPlaceQid": "Q16869"
+    },
+    {
+      "requestedName": "İbrahim",
+      "qid": "Q168776",
+      "title": "Ibrahim I",
+      "url": "https://www.wikidata.org/wiki/Q168776",
+      "revision": "2547528776",
+      "props": {
+        "date of birth": [
+          "5 November 1615^{Gregorian}",
+          "1 reference",
+          "stated in",
+          "Brockhaus Enzyklopädie",
+          "Brockhaus Enzyklopädie online ID",
+          "ibrahim-20†brockhaus.de",
+          "subject named as",
+          "Ibrahim"
+        ],
+        "place of birth": [
+          "Constantinople",
+          "1 reference",
+          "imported from Wikimedia project",
+          "French Wikipedia",
+          "date of death",
+          "18 August 1648^{Gregorian}",
+          "2 references",
+          "stated in"
+        ],
+        "date of death": [
+          "18 August 1648^{Gregorian}",
+          "2 references",
+          "stated in",
+          "Encyclopædia Britannica Online",
+          "Encyclopædia Britannica Online ID",
+          "biography/Ibrahim-Ottoman-sultan†www.britannica.com",
+          "subject named as",
+          "Ibrahim"
+        ]
+      },
+      "birthPlaceQid": "Q16869"
+    },
+    {
+      "requestedName": "IV. Mehmed",
+      "qid": "Q170514",
+      "title": "Mehmed IV",
+      "url": "https://www.wikidata.org/wiki/Q170514",
+      "revision": "2528784158",
+      "props": {
+        "date of birth": [
+          "2 January 1642^{Gregorian}",
+          "2 references",
+          "imported from Wikimedia project",
+          "English Wikipedia",
+          "stated in",
+          "Gran Enciclopèdia Catalana",
+          "Gran Enciclopèdia Catalana ID (former scheme)",
+          "0041734†www.enciclopedia.cat"
+        ],
+        "place of birth": [
+          "Constantinople",
+          "1 reference",
+          "imported from Wikimedia project",
+          "French Wikipedia",
+          "date of death",
+          "6 January 1693^{Gregorian}",
+          "1 reference",
+          "imported from Wikimedia project"
+        ],
+        "date of death": [
+          "6 January 1693^{Gregorian}",
+          "1 reference",
+          "imported from Wikimedia project",
+          "English Wikipedia",
+          "place of death",
+          "Edirne",
+          "1 reference",
+          "imported from Wikimedia project"
+        ]
+      },
+      "birthPlaceQid": "Q16869"
+    },
+    {
+      "requestedName": "II. Süleyman",
+      "qid": "Q172061",
+      "title": "Suleiman II",
+      "url": "https://www.wikidata.org/wiki/Q172061",
+      "revision": "2528528373",
+      "props": {
+        "date of birth": [
+          "15 April 1642^{Gregorian}",
+          "3 references",
+          "stated in",
+          "Encyclopædia Britannica Online",
+          "Encyclopædia Britannica Online ID",
+          "biography/Suleyman-II-Ottoman-sultan†www.britannica.com",
+          "subject named as",
+          "Suleyman II"
+        ],
+        "place of birth": [
+          "Constantinople",
+          "1 reference",
+          "imported from Wikimedia project",
+          "German Wikipedia",
+          "date of death",
+          "22 June 1691^{Gregorian}",
+          "1 reference",
+          "imported from Wikimedia project"
+        ],
+        "date of death": [
+          "22 June 1691^{Gregorian}",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Russian Wikipedia",
+          "place of death",
+          "Edirne",
+          "0 references",
+          "manner of death"
+        ]
+      },
+      "birthPlaceQid": "Q16869"
+    },
+    {
+      "requestedName": "II. Ahmed",
+      "qid": "Q199660",
+      "title": "Ahmed II",
+      "url": "https://www.wikidata.org/wiki/Q199660",
+      "revision": "2535773509",
+      "props": {
+        "date of birth": [
+          "25 February 1643^{Gregorian}",
+          "2 references",
+          "stated in",
+          "Proleksis Encyclopedia",
+          "Proleksis enciklopedija ID",
+          "7364†proleksis.lzmk.hr",
+          "subject named as",
+          "Ahmed II."
+        ],
+        "place of birth": [
+          "Constantinople",
+          "1 reference",
+          "imported from Wikimedia project",
+          "French Wikipedia",
+          "date of death",
+          "6 February 1695^{Gregorian}",
+          "3 references",
+          "stated in"
+        ],
+        "date of death": [
+          "6 February 1695^{Gregorian}",
+          "3 references",
+          "stated in",
+          "Integrated Authority File",
+          "retrieved",
+          "27 April 2014",
+          "stated in",
+          "Proleksis Encyclopedia "
+        ]
+      },
+      "birthPlaceQid": "Q16869"
+    },
+    {
+      "requestedName": "II. Mustafa",
+      "qid": "Q199659",
+      "title": "Mustafa II",
+      "url": "https://www.wikidata.org/wiki/Q199659",
+      "revision": "2546534562",
+      "props": {
+        "date of birth": [
+          "5 June 1664^{Gregorian}",
+          "2 references",
+          "stated in",
+          "Encyclopædia Britannica Online",
+          "Encyclopædia Britannica Online ID",
+          "biography/Mustafa-II†www.britannica.com",
+          "subject named as",
+          "Mustafa II"
+        ],
+        "place of birth": [
+          "Edirne",
+          "1 reference",
+          "imported from Wikimedia project",
+          "French Wikipedia "
+        ],
+        "date of death": [
+          "28 December 1703^{Gregorian}",
+          "reason for preferred rank",
+          "most precise value",
+          "1 reference",
+          "stated in",
+          "Visuotinė lietuvių enciklopedija Online",
+          "retrieved",
+          "2 February 2026"
+        ]
+      },
+      "birthPlaceQid": "Q43387"
+    },
+    {
+      "requestedName": "III. Ahmed",
+      "qid": "Q199482",
+      "title": "Ahmed III",
+      "url": "https://www.wikidata.org/wiki/Q199482",
+      "revision": "2531754258",
+      "props": {
+        "date of birth": [
+          "30 December 1673^{Gregorian}",
+          "2 references",
+          "stated in",
+          "Encyclopædia Britannica Online",
+          "Encyclopædia Britannica Online ID",
+          "biography/Ahmed-III†www.britannica.com",
+          "subject named as",
+          "Ahmed III"
+        ],
+        "place of birth": [
+          "Dobrich",
+          "country",
+          "Ottoman Empire",
+          "Brockhaus Enzyklopädie",
+          "Brockhaus Enzyklopädie online ID",
+          "ahmed-ahmed-iii†brockhaus.de",
+          "subject named as",
+          "Ahmed (Ahmed III.)"
+        ],
+        "date of death": [
+          "1 July 1736^{Gregorian}",
+          "3 references",
+          "imported from Wikimedia project",
+          "Azerbaijani Wikipedia",
+          "stated in",
+          "Encyclopædia Britannica Online",
+          "Encyclopædia Britannica Online ID",
+          "biography/Ahmed-III†www.britannica.com"
+        ]
+      },
+      "birthPlaceQid": "Q168668"
+    },
+    {
+      "requestedName": "I. Mahmud",
+      "qid": "Q199481",
+      "title": "Mahmud I",
+      "url": "https://www.wikidata.org/wiki/Q199481",
+      "revision": "2550890959",
+      "props": {
+        "date of birth": [
+          "2 August 1696^{Gregorian}",
+          "0 references",
+          "place of birth",
+          "Edirne",
+          "0 references",
+          "date of death",
+          "13 December 1754^{Gregorian}",
+          "0 references"
+        ],
+        "place of birth": [
+          "Edirne",
+          "0 references",
+          "date of death",
+          "13 December 1754^{Gregorian}",
+          "0 references",
+          "place of death",
+          "Istanbul",
+          "1 reference"
+        ],
+        "date of death": [
+          "13 December 1754^{Gregorian}",
+          "0 references",
+          "place of death",
+          "Istanbul",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Turkish Wikipedia",
+          "place of burial "
+        ]
+      },
+      "birthPlaceQid": "Q43387"
+    },
+    {
+      "requestedName": "III. Osman",
+      "qid": "Q199825",
+      "title": "Osman III",
+      "url": "https://www.wikidata.org/wiki/Q199825",
+      "revision": "2521326587",
+      "props": {
+        "date of birth": [
+          "2 January 1699^{Gregorian}",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Russian Wikipedia",
+          "place of birth",
+          "Edirne",
+          "1 reference",
+          "imported from Wikimedia project"
+        ],
+        "place of birth": [
+          "Edirne",
+          "1 reference",
+          "imported from Wikimedia project",
+          "German Wikipedia",
+          "date of death",
+          "30 October 1757^{Gregorian}",
+          "1 reference",
+          "imported from Wikimedia project"
+        ],
+        "date of death": [
+          "30 October 1757^{Gregorian}",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Russian Wikipedia",
+          "place of death",
+          "Topkapı Palace",
+          "1 reference",
+          "imported from Wikimedia project "
+        ]
+      },
+      "birthPlaceQid": "Q43387"
+    },
+    {
+      "requestedName": "III. Mustafa",
+      "qid": "Q199484",
+      "title": "Mustafa III",
+      "url": "https://www.wikidata.org/wiki/Q199484",
+      "revision": "2531754250",
+      "props": {
+        "date of birth": [
+          "28 January 1717^{Gregorian}",
+          "4 references",
+          "stated in",
+          "Encyclopædia Britannica Online",
+          "Encyclopædia Britannica Online ID",
+          "biography/Mustafa-III†www.britannica.com",
+          "subject named as",
+          "Mustafa III"
+        ],
+        "place of birth": [
+          "Edirne Palace",
+          "located in the administrative territorial entity",
+          "Edirne",
+          "1 reference",
+          "imported from Wikimedia project",
+          "French Wikipedia",
+          "date of death",
+          "21 January 1774^{Gregorian}"
+        ],
+        "date of death": [
+          "21 January 1774^{Gregorian}",
+          "2 references",
+          "stated in",
+          "Encyclopædia Britannica Online",
+          "Encyclopædia Britannica Online ID",
+          "biography/Mustafa-III†www.britannica.com",
+          "subject named as",
+          "Mustafa III"
+        ]
+      },
+      "birthPlaceQid": "Q6092391"
+    },
+    {
+      "requestedName": "I. Abdülhamid",
+      "qid": "Q170707",
+      "title": "Abdul Hamid I",
+      "url": "https://www.wikidata.org/wiki/Q170707",
+      "revision": "2528528241",
+      "props": {
+        "date of birth": [
+          "20 March 1725^{Gregorian}",
+          "sourcing circumstances",
+          "unspecified calendar",
+          "4 references",
+          "imported from Wikimedia project",
+          "English Wikipedia",
+          "stated in",
+          "Q20645298"
+        ],
+        "place of birth": [
+          "Topkapı Palace",
+          "country",
+          "Ottoman Empire",
+          "located in the administrative territorial entity",
+          "Istanbul",
+          "0 references",
+          "date of death",
+          "7 April 1789^{Gregorian}"
+        ],
+        "date of death": [
+          "7 April 1789^{Gregorian}",
+          "sourcing circumstances",
+          "unspecified calendar",
+          "4 references",
+          "stated in",
+          "Q27668332",
+          "stated in",
+          "Q20645298"
+        ]
+      },
+      "birthPlaceQid": "Q170495"
+    },
+    {
+      "requestedName": "III. Selim",
+      "qid": "Q199633",
+      "title": "Selim III",
+      "url": "https://www.wikidata.org/wiki/Q199633",
+      "revision": "2537734192",
+      "props": {
+        "date of birth": [
+          "24 December 1761^{Gregorian}",
+          "4 references",
+          "stated in",
+          "Encyclopædia Britannica Online",
+          "Encyclopædia Britannica Online ID",
+          "biography/Selim-III†www.britannica.com",
+          "subject named as",
+          "Selim III"
+        ],
+        "place of birth": [
+          "Istanbul",
+          "country",
+          "Ottoman Empire",
+          "1 reference",
+          "imported from Wikimedia project",
+          "English Wikipedia",
+          "date of death",
+          "29 July 1808^{Gregorian}"
+        ],
+        "date of death": [
+          "29 July 1808^{Gregorian}",
+          "1 reference",
+          "stated in",
+          "Encyclopædia Britannica Online",
+          "Encyclopædia Britannica Online ID",
+          "biography/Selim-III†www.britannica.com",
+          "place of death",
+          "Constantinople"
+        ]
+      },
+      "birthPlaceQid": "Q406"
+    },
+    {
+      "requestedName": "IV. Mustafa",
+      "qid": "Q199830",
+      "title": "Mustafa IV",
+      "url": "https://www.wikidata.org/wiki/Q199830",
+      "revision": "2528530847",
+      "props": {
+        "date of birth": [
+          "8 September 1779^{Gregorian}",
+          "1 reference",
+          "stated in",
+          "Encyclopædia Britannica Online",
+          "Encyclopædia Britannica Online ID",
+          "biography/Mustafa-IV†www.britannica.com",
+          "subject named as",
+          "Mustafa IV"
+        ],
+        "place of birth": [
+          "Constantinople",
+          "1 reference",
+          "imported from Wikimedia project",
+          "German Wikipedia",
+          "date of death",
+          "17 November 1808^{Gregorian}",
+          "2 references",
+          "Encyclopædia Britannica Online ID"
+        ],
+        "date of death": [
+          "17 November 1808^{Gregorian}",
+          "2 references",
+          "Encyclopædia Britannica Online ID",
+          "biography/Mustafa-IV†www.britannica.com",
+          "stated in",
+          "Encyclopædia Britannica Online",
+          "Encyclopædia Britannica Online ID",
+          "biography/Mustafa-IV†www.britannica.com"
+        ]
+      },
+      "birthPlaceQid": "Q16869"
+    },
+    {
+      "requestedName": "II. Mahmud",
+      "qid": "Q174791",
+      "title": "Mahmud II",
+      "url": "https://www.wikidata.org/wiki/Q174791",
+      "revision": "2556610902",
+      "props": {
+        "date of birth": [
+          "20 July 1785^{Gregorian}",
+          "2 references",
+          "stated in",
+          "Brockhaus Enzyklopädie",
+          "Brockhaus Enzyklopädie online ID",
+          "mahmud-ii†brockhaus.de",
+          "subject named as",
+          "Mahmud II."
+        ],
+        "place of birth": [
+          "Istanbul",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Turkish Wikipedia",
+          "date of death",
+          "1 July 1839^{Gregorian}",
+          "1 reference",
+          "stated in"
+        ],
+        "date of death": [
+          "1 July 1839^{Gregorian}",
+          "1 reference",
+          "stated in",
+          "Croatian Encyclopedia",
+          "Hrvatska enciklopedija ID",
+          "38113†www.enciklopedija.hr",
+          "subject named as",
+          "Mahmud II."
+        ]
+      },
+      "birthPlaceQid": "Q406"
+    },
+    {
+      "requestedName": "Abdülmecid",
+      "qid": "Q174772",
+      "title": "Abdülmecid I",
+      "url": "https://www.wikidata.org/wiki/Q174772",
+      "revision": "2539893443",
+      "props": {
+        "date of birth": [
+          "25 April 1823^{Gregorian}",
+          "1 reference",
+          "stated in",
+          "Integrated Authority File",
+          "retrieved",
+          "27 April 2014",
+          "place of birth",
+          "Istanbul"
+        ],
+        "place of birth": [
+          "Istanbul",
+          "2 references",
+          "imported from Wikimedia project",
+          "Turkish Wikipedia",
+          "Union List of Artist Names ID",
+          "500281872†www.getty.edu",
+          "stated in",
+          "Union List of Artist Names"
+        ],
+        "date of death": [
+          "25 June 1861^{Gregorian}",
+          "4 references",
+          "stated in",
+          "Integrated Authority File",
+          "retrieved",
+          "27 April 2014",
+          "stated in",
+          "Encyclopædia Britannica Online"
+        ]
+      },
+      "birthPlaceQid": "Q406"
+    },
+    {
+      "requestedName": "Abdülaziz",
+      "qid": "Q151500",
+      "title": "Abdülaziz",
+      "url": "https://www.wikidata.org/wiki/Q151500",
+      "revision": "2556609871",
+      "props": {
+        "date of birth": [
+          "8 February 1830^{Gregorian}",
+          "1 reference",
+          "stated in",
+          "Encyclopædia Britannica Online",
+          "Encyclopædia Britannica Online ID",
+          "biography/Abdulaziz-Ottoman-sultan†www.britannica.com",
+          "reference URL",
+          "https://www.britannica.com/biography/Abdulaziz-Ottoman-sultan†www.britannica.com"
+        ],
+        "place of birth": [
+          "Beylerbeyi Palace",
+          "1 reference",
+          "imported from Wikimedia project",
+          "French Wikipedia",
+          "date of death",
+          "4 June 1876^{Gregorian}",
+          "4 references",
+          "stated in"
+        ],
+        "date of death": [
+          "4 June 1876^{Gregorian}",
+          "4 references",
+          "stated in",
+          "Q100921081",
+          "sourcing circumstances",
+          "unspecified calendar, assumed Gregorian",
+          "stated in",
+          "Brockhaus Enzyklopädie"
+        ]
+      },
+      "birthPlaceQid": "Q794349"
+    },
+    {
+      "requestedName": "V. Murad",
+      "qid": "Q199827",
+      "title": "Murad V",
+      "url": "https://www.wikidata.org/wiki/Q199827",
+      "revision": "2543183320",
+      "props": {
+        "date of birth": [
+          "21 September 1840^{Gregorian}",
+          "2 references",
+          "stated in",
+          "Encyclopædia Britannica Online",
+          "Encyclopædia Britannica Online ID",
+          "biography/Murad-V†www.britannica.com",
+          "subject named as",
+          "Murad V"
+        ],
+        "place of birth": [
+          "Topkapı Palace",
+          "located in the administrative territorial entity",
+          "Istanbul",
+          "country",
+          "Ottoman Empire",
+          "1 reference",
+          "imported from Wikimedia project",
+          "German Wikipedia"
+        ],
+        "date of death": [
+          "29 August 1904^{Gregorian}",
+          "2 references",
+          "stated in",
+          "Encyclopædia Britannica Online",
+          "Encyclopædia Britannica Online ID",
+          "biography/Murad-V†www.britannica.com",
+          "subject named as",
+          "Murad V"
+        ]
+      },
+      "birthPlaceQid": "Q170495"
+    },
+    {
+      "requestedName": "II. Abdülhamid",
+      "qid": "Q134817",
+      "title": "Abdul Hamid II",
+      "url": "https://www.wikidata.org/wiki/Q134817",
+      "revision": "2557345404",
+      "props": {
+        "date of birth": [
+          "21 September 1842^{Gregorian}",
+          "6 references",
+          "stated in",
+          "Encyclopædia Britannica Online",
+          "Encyclopædia Britannica Online ID",
+          "biography/Abdulhamid-II†www.britannica.com",
+          "subject named as",
+          "Abdulhamid II"
+        ],
+        "place of birth": [
+          "Istanbul",
+          "2 references",
+          "stated in",
+          "Integrated Authority File",
+          "retrieved",
+          "11 December 2014",
+          "stated in",
+          "Great Norwegian Encyclopedia"
+        ],
+        "date of death": [
+          "10 February 1918^{Gregorian}",
+          "5 references",
+          "stated in",
+          "Great Soviet Encyclopedia (1969–1978)",
+          "section",
+          "Абдул-Хамид II",
+          "retrieved",
+          "27 September 2015"
+        ]
+      },
+      "birthPlaceQid": "Q406"
+    },
+    {
+      "requestedName": "V. Mehmed Reşad",
+      "qid": "Q151494",
+      "title": "Mehmed V",
+      "url": "https://www.wikidata.org/wiki/Q151494",
+      "revision": "2545284578",
+      "props": {
+        "date of birth": [
+          "2 November 1844^{Gregorian}",
+          "5 references",
+          "stated in",
+          "Encyclopædia Britannica Online",
+          "Encyclopædia Britannica Online ID",
+          "biography/Mehmed-V†www.britannica.com",
+          "subject named as",
+          "Mehmed V"
+        ],
+        "place of birth": [
+          "Çırağan Palace",
+          "country",
+          "Ottoman Empire",
+          "located in the administrative territorial entity",
+          "Istanbul",
+          "0 references",
+          "date of death",
+          "3 July 1918^{Gregorian}"
+        ],
+        "date of death": [
+          "3 July 1918^{Gregorian}",
+          "5 references",
+          "stated in",
+          "Encyclopædia Britannica Online",
+          "Encyclopædia Britannica Online ID",
+          "biography/Mehmed-V†www.britannica.com",
+          "subject named as",
+          "Mehmed V"
+        ]
+      },
+      "birthPlaceQid": "Q273225"
+    },
+    {
+      "requestedName": "VI. Mehmed",
+      "qid": "Q162543",
+      "title": "Mehmed VI",
+      "url": "https://www.wikidata.org/wiki/Q162543",
+      "revision": "2549635147",
+      "props": {
+        "date of birth": [
+          "14 January 1861^{Gregorian}",
+          "3 references",
+          "stated in",
+          "Encyclopædia Britannica Online",
+          "Encyclopædia Britannica Online ID",
+          "biography/Mehmed-VI†www.britannica.com",
+          "subject named as",
+          "Mehmed VI"
+        ],
+        "place of birth": [
+          "Istanbul",
+          "1 reference",
+          "stated in",
+          "Integrated Authority File",
+          "retrieved",
+          "11 December 2014",
+          "date of death",
+          "16 May 1926^{Gregorian}"
+        ],
+        "date of death": [
+          "16 May 1926^{Gregorian}",
+          "3 references",
+          "stated in",
+          "Encyclopædia Britannica Online",
+          "Encyclopædia Britannica Online ID",
+          "biography/Mehmed-VI†www.britannica.com",
+          "subject named as",
+          "Mehmed VI"
+        ]
+      },
+      "birthPlaceQid": "Q406"
+    }
+  ],
+  "places": [
+    {
+      "qid": "Q147089",
+      "name": "Manisa",
+      "revision": "2540142874",
+      "props": {
+        "coordinate location": [
+          "38°36'43\"N, 27°25'35\"E",
+          "1 reference",
+          "stated in",
+          "Geographic Names Server",
+          "publication date",
+          "11 June 2018",
+          "GNS Unique Feature ID",
+          "-764634†geonames.nga.mil"
+        ]
+      }
+    },
+    {
+      "qid": "Q40738",
+      "name": "Bursa",
+      "revision": "2555061844",
+      "props": {
+        "coordinate location": [
+          "40°11'29\"N, 29°4'50\"E",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Russian Wikipedia",
+          "member of",
+          "League of Historical Cities",
+          "1 reference",
+          "reference URL"
+        ]
+      }
+    },
+    {
+      "qid": "Q16869",
+      "name": "Constantinople",
+      "revision": "2549478073",
+      "props": {
+        "coordinate location": [
+          "41°0'44.064\"N, 28°58'33.665\"E",
+          "reason for preferred rank",
+          "referenced value",
+          "2 references",
+          "stated in",
+          "Nomisma",
+          "Nomisma ID",
+          "constantinople†nomisma.org"
+        ]
+      }
+    },
+    {
+      "qid": "Q170532",
+      "name": "Amasya",
+      "revision": "2552031144",
+      "props": {
+        "coordinate location": [
+          "40°39'N, 35°50'E",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Russian Wikipedia",
+          "40°40'43.226\"N, 35°49'40.080\"E",
+          "1 reference",
+          "stated in",
+          "Nomisma"
+        ]
+      }
+    },
+    {
+      "qid": "Q168668",
+      "name": "Dobrich",
+      "revision": "2551867628",
+      "props": {
+        "coordinate location": [
+          "43°33'43.963\"N, 27°49'54.804\"E",
+          "1 reference",
+          "stated in",
+          "BG State e-Government Agency",
+          "43°34'0\"N, 27°50'0\"E",
+          "1 reference",
+          "stated in",
+          "Geographic Names Server"
+        ]
+      }
+    },
+    {
+      "qid": "Q170495",
+      "name": "Topkapı Palace",
+      "revision": "2555216575",
+      "props": {
+        "coordinate location": [
+          "41°0'47\"N, 28°59'2\"E",
+          "1 reference",
+          "imported from Wikimedia project",
+          "English Wikipedia",
+          "owned by",
+          "Turkey",
+          "1 reference",
+          "imported from Wikimedia project"
+        ]
+      },
+      "scale": "site"
+    },
+    {
+      "qid": "Q932648",
+      "name": "Didymoteicho",
+      "revision": "2539145648",
+      "props": {
+        "coordinate location": [
+          "41°21'N, 26°30'E",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Russian Wikipedia",
+          "population",
+          "8,611",
+          "point in time",
+          "2021"
+        ]
+      }
+    },
+    {
+      "qid": "Q6092391",
+      "name": "Edirne Palace",
+      "revision": "2493330587",
+      "props": {
+        "coordinate location": [
+          "Image: Map†www.wikidata.org",
+          "41°41'28.00\"N, 26°33'20.59\"E",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Russian Wikipedia",
+          "owned by",
+          "Turkey",
+          "1 reference"
+        ]
+      },
+      "scale": "site"
+    },
+    {
+      "qid": "Q794349",
+      "name": "Beylerbeyi Palace",
+      "revision": "2513534525",
+      "props": {},
+      "scale": "site"
+    },
+    {
+      "qid": "Q273225",
+      "name": "Çırağan Palace",
+      "revision": "2525091742",
+      "props": {
+        "coordinate location": [
+          "41°2'36.4\"N, 29°0'55.4\"E",
+          "1 reference",
+          "imported from Wikimedia project",
+          "German Wikipedia",
+          "member of",
+          "Historic Hotels Worldwide",
+          "0 references",
+          "operator"
+        ]
+      },
+      "scale": "site"
+    },
+    {
+      "qid": "Q768506",
+      "name": "Söğüt",
+      "revision": "2550085813",
+      "props": {
+        "coordinate location": [
+          "40°1'7\"N, 30°10'53\"E",
+          "1 reference",
+          "imported from Wikimedia project",
+          "English Wikipedia",
+          "population",
+          "19,244",
+          "point in time",
+          "2018"
+        ]
+      }
+    },
+    {
+      "qid": "Q43387",
+      "name": "Edirne",
+      "revision": "2557642883",
+      "props": {
+        "coordinate location": [
+          "41°40'22.94\"N, 26°34'25.00\"E",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Russian Wikipedia",
+          "office held by the head of government",
+          "mayor of Edirne",
+          "0 references",
+          "population"
+        ]
+      }
+    },
+    {
+      "qid": "Q406",
+      "name": "Istanbul",
+      "revision": "2556807961",
+      "props": {
+        "coordinate location": [
+          "41°0'36\"N, 28°57'37\"E",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Russian Wikipedia",
+          "highest point",
+          "Aydos Hill",
+          "1 reference",
+          "imported from Wikimedia project"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+Faz 02 repair validation — 2026-10-15
+Actual project dependencies remain absent. No real Android device or GPU execution.
+Worker/parser and core types use the available TypeScript 6.0.3 tool copy, not project installation.
+
+[unit]
+$ npm test
+exit=0
+npm notice run tarih-atlasi@0.1.0 test
+npm notice run node tests/run.mjs
+✔ başlangıç kataloğu gerçek veya sentetik tarihî kayıt içermez (0.979356ms)
+✔ ilk dil Türkçedir; uygulama metinleri anahtar yerine görünür metin döndürür (0.288929ms)
+✔ prototip ve boş veri metinleri doğrulanmamış tarihî iddia taşımaz (0.173914ms)
+✔ hata, boş ve yükleme durumlarının farklı başlıkları vardır (0.105277ms)
+✔ tema metin ve düğme renkleri en az 4.5:1 kontrast sağlar (0.319065ms)
+✔ kamera sözleşmesi kutupları kabul eder; sonlu ve sınırlı değerler ister (0.212847ms)
+✔ köprü reset/set komutlarını ve sentetik işareti yönlerine göre doğrular (0.876324ms)
+✔ köprü hatalı JSON, sürüm, oturum, ek anahtar, kod ve büyük UTF-8 yüklerini reddeder (0.625557ms)
+✔ navigasyon yalnız Expo bootstrap dosyası veya geliştirme DOM origin/path kabul eder (0.506945ms)
+✔ fiziksel veri hazırlığı özellikleri atar; yanlış geometrileri ve sınırsız yükü reddeder (0.554624ms)
+✔ unmount temizliği bir kez, ters sırayla çalışır; geç async kaynak ve hata diğer temizliği engellemez (0.251779ms)
+✔ yıl seçimi MÖ 2000/günümüz uçlarını korur; sıfır ve hatalı girdiyi reddeder (0.239547ms)
+✔ küçük/yatay telefon ve büyük metin kompakt düzene döner (0.116197ms)
+✔ beş bağımsız katman renk dışında benzersiz biçim ve Türkçe ada sahiptir (0.133619ms)
+✔ katman işaretleri panel zemini üzerinde 4.5:1 kontrastı korur (0.235229ms)
+✔ renderer load sırasında marker hatasını yakalar ve kaynakları bırakır (2.794119ms)
+✔ yinelenen load tek marker kurar; dispose sonrası listener/komut çalışmaz (1.218392ms)
+✔ context kaybı bir kez bildirilir; map/worker/dinleyiciler bırakılır (0.786656ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 17.278577
+
+[worker-parser]
+$ node tests/unit/worker.test.mjs /tmp/tarih-atlasi-tools/typescript/lib/typescript.js
+exit=0
+✔ worker kontrolü import sözcüğü içeren yorum/metni dış bağımlılık sanmaz (8.698429ms)
+✔ worker kontrolü gerçek statik/dinamik import ve re-export işlemlerini reddeder (2.826781ms)
+✔ boş veya parse edilemeyen worker hazırlanmaz (0.821532ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 32.656621
+
+[core-types]
+$ node /tmp/tarih-atlasi-tools/typescript/lib/tsc.js --ignoreConfig --noEmit --strict --noUncheckedIndexedAccess --exactOptionalPropertyTypes --allowImportingTsExtensions --target es2022 --module nodenext src/atlas/presentation.ts src/map-contract/protocol.ts src/map-contract/navigation.ts src/map/globe/land.ts src/map/globe/lifecycle.ts src/i18n/index.ts src/theme/tokens.ts src/data/catalog.ts tests/types/i18n.test-d.ts tests/types/globe.test-d.ts
+exit=0
+
+[lint]
+$ npm run lint
+exit=127
+npm notice run tarih-atlasi@0.1.0 lint
+npm notice run eslint . --max-warnings 0
+sh: line 1: eslint: command not found
+
+[full-typecheck]
+$ npm run typecheck
+exit=127
+npm notice run tarih-atlasi@0.1.0 typecheck
+npm notice run tsc --noEmit && tsc --noEmit -p tsconfig.web.json
+sh: line 1: tsc: command not found
+
+[globe-assets]
+$ npm run globe:prepare
+exit=1
+npm notice run tarih-atlasi@0.1.0 globe:prepare
+npm notice run node scripts/prepare-globe-assets.mjs
+BLOCKED — globe assets were not prepared: ENOENT: no such file or directory, open '/home/s-oktay/Belgeler/Tarih_Atlası/node_modules/maplibre-gl/package.json'
+
+[web-test]
+$ npm run test:web
+exit=127
+npm notice run tarih-atlasi@0.1.0 test:web
+npm notice run playwright test
+sh: line 1: playwright: command not found
+
+[web-export]
+$ npm run web:export
+exit=127
+npm notice run tarih-atlasi@0.1.0 web:export
+npm notice run expo export --platform web
+sh: line 1: expo: command not found
+
+[android-export]
+$ npm run android:bundle
+exit=127
+npm notice run tarih-atlasi@0.1.0 android:bundle
+npm notice run expo export --platform android --output-dir dist-android
+sh: line 1: expo: command not found
+
+[environment]
+$ npm run environment:check
+exit=1
+npm notice run tarih-atlasi@0.1.0 environment:check
+npm notice run node scripts/check-environment.mjs
+PASS: Node — v26.11.1
+PASS: npm — 12.2.0
+BLOCKED: Kilit dosyası — Tekrarlanabilir kurulum için package-lock.json gerekli
+BLOCKED: java — komut çalıştırılamadı: ENOENT
+BLOCKED: adb — komut çalıştırılamadı: ENOENT
+BLOCKED: Android SDK — ANDROID_HOME mevcut ve erişilebilir olmalı
+
+[format]
+$ node /tmp/tarih-atlasi-tools/prettier/bin/prettier.cjs --check .
+exit=0
+Checking formatting...
+All matched files use Prettier code style!
+
+[network]
+npm view expo version --cache /tmp/tarih-atlasi-npm-cache --fetch-retries=0 --fetch-timeout=8000: exit 1, EAI_AGAIN registry.npmjs.org.
+curl --head --max-time 6 --resolve registry.npmjs.org:443:104.16.24.34 https://registry.npmjs.org/expo: exit 7, connection failed. TLS validation was not disabled. This does not diagnose the user's entire host network.
+/etc/resolv.conf points at 127.0.0.53 (read-only inspection; no system network changes).
+
+[final checks]
+Syntax-only available TS 6.0.3 transpilation: 51 TS/TSX files, 0 diagnostics; exit 0.
+This does not validate installed MapLibre/Expo types or bundler output.
+Final available Prettier 3.9.9 --check .: exit 0, all matched files formatted.
+Relative Markdown documentation links: checked successfully, no missing targets.

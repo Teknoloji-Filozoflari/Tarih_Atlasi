@@ -1,0 +1,177 @@
+{
+  "representation": "browser-editorial-structured-fact-extraction-not-api-response",
+  "synthetic": false,
+  "licenseId": "CC0-1.0",
+  "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+  "reviewedAt": "2026-10-19T16:44:21.623Z",
+  "requests": [
+    {
+      "name": "Wangari Maathai",
+      "aliases": [],
+      "candidateWikidataId": "Q46795",
+      "status": "unverified"
+    },
+    {
+      "name": "José de San Martín",
+      "aliases": [],
+      "candidateWikidataId": "Q134160",
+      "status": "unverified"
+    },
+    {
+      "name": "Rabindranath Tagore",
+      "aliases": [],
+      "candidateWikidataId": "Q7241",
+      "status": "unverified"
+    },
+    {
+      "name": "Kate Sheppard",
+      "aliases": [],
+      "candidateWikidataId": "Q455072",
+      "status": "unverified"
+    }
+  ],
+  "people": [
+    {
+      "requestedName": "Wangari Maathai",
+      "qid": "Q46795",
+      "title": "Wangari Maathai",
+      "url": "https://www.wikidata.org/wiki/Q46795",
+      "revision": "2556913244",
+      "props": {
+        "date of birth": [
+          "1 April 1940"
+        ],
+        "date of death": [
+          "25 September 2011"
+        ],
+        "place of birth": [
+          "Nyeri"
+        ]
+      },
+      "birthPlaceQid": "Q380130"
+    },
+    {
+      "requestedName": "José de San Martín",
+      "qid": "Q134160",
+      "title": "José de San Martín",
+      "url": "https://www.wikidata.org/wiki/Q134160",
+      "revision": "2549014359",
+      "props": {
+        "date of birth": [
+          "25 February 1778^{Gregorian}"
+        ],
+        "date of death": [
+          "17 August 1850^{Gregorian}"
+        ],
+        "place of birth": [
+          "Yapeyú"
+        ]
+      },
+      "birthPlaceQid": "Q55854"
+    },
+    {
+      "requestedName": "Rabindranath Tagore",
+      "qid": "Q7241",
+      "title": "Rabindranath Tagore",
+      "url": "https://www.wikidata.org/wiki/Q7241",
+      "revision": "2551730759",
+      "props": {
+        "date of birth": [
+          "7 May 1861^{Gregorian}"
+        ],
+        "date of death": [
+          "7 August 1941"
+        ],
+        "place of birth": [
+          "Kolkata"
+        ]
+      },
+      "birthPlaceQid": "Q1348"
+    },
+    {
+      "requestedName": "Kate Sheppard",
+      "qid": "Q455072",
+      "title": "Kate Sheppard",
+      "url": "https://www.wikidata.org/wiki/Q455072",
+      "revision": "2533876870",
+      "props": {
+        "date of birth": [
+          "10 March 1847"
+        ],
+        "date of death": [
+          "13 July 1934"
+        ],
+        "place of birth": [
+          "Liverpool"
+        ]
+      },
+      "birthPlaceQid": "Q24826"
+    }
+  ],
+  "places": [
+    {
+      "qid": "Q380130",
+      "name": "Nyeri",
+      "revision": "2420069333",
+      "props": {
+        "coordinate location": [
+          "0°25'S, 36°57'E"
+        ]
+      }
+    },
+    {
+      "qid": "Q55854",
+      "name": "Yapeyú",
+      "revision": "2516856033",
+      "props": {
+        "coordinate location": [
+          "29°28'10.600\"S, 56°49'2.798\"W"
+        ]
+      }
+    },
+    {
+      "qid": "Q1348",
+      "name": "Kolkata",
+      "revision": "2556280439",
+      "props": {
+        "coordinate location": [
+          "22°34'3\"N, 88°22'12\"E"
+        ]
+      }
+    },
+    {
+      "qid": "Q24826",
+      "name": "Liverpool",
+      "revision": "2558240239",
+      "props": {
+        "coordinate location": [
+          "53°24'26\"N, 2°59'30\"W"
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "qid": "Q69163529",
+      "revision": "2545528111",
+      "name": "Berlin Duvarı’nın açılması",
+      "year": 1989,
+      "date": "9 November 1989",
+      "coordinate": "52°31'32\"N, 13°24'16\"E",
+      "eventType": "OTHER",
+      "description": "Berlin’de 1989 yılında sınır geçişlerinin açılması. Almanya’nın yeniden birleşmesiyle aynı olay veya tarih değildir.",
+      "note": "P585 9 November 1989: 0 references; P625 imported from Catalan Wikipedia. Kaynak temsil noktası, bütün duvarın geometrisi değil."
+    },
+    {
+      "qid": "Q934157",
+      "revision": "2515888972",
+      "name": "Ayacucho Muharebesi",
+      "year": 1824,
+      "date": "9 December 1824^{Gregorian}",
+      "coordinate": "13°2'33\"S, 74°7'54\"W",
+      "eventType": "BATTLE",
+      "description": "Peru bağımsızlık savaşı sırasında 1824 yılında gerçekleşen muharebe.",
+      "note": "P585 French Wikipedia import; P625 Estonian Wikipedia import. Yaklaşık temsil noktası, muharebenin tüm alanı değil."
+    }
+  ]
+}

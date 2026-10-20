@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-10-17T14:51:32.671Z",
+  "filesScanned": 662,
+  "patternHits": [],
+  "findings": [
+    {
+      "id": "SEC-RAW-DOM",
+      "severity": "high",
+      "status": "OPEN_RELEASE_BLOCKER",
+      "evidence": {
+        "file": "node_modules/expo/src/dom/webview-wrapper.tsx",
+        "parseBeforeApplicationLimit": true,
+        "applicationCallbackAfterParse": true
+      },
+      "note": "Installed Expo transport parses and dispatches before application 4KiB schema. No patched native transport/device test."
+    },
+    {
+      "id": "SEC-WORKER-DYNAMIC",
+      "severity": "high",
+      "status": "NO_DIRECT_SINK_FOUND",
+      "calls": [],
+      "note": "Optional plugin imports and eval fallback are disabled through AST preparation. No direct sink does not prove full CSP/GPU compatibility; never enable unsafe-eval to hide failures."
+    }
+  ],
+  "limits": [
+    "Pattern scan does not prove absence of secrets or XSS. Values are never printed.",
+    "Application/ETL scope only; no exhaustive transitive security analysis.",
+    "Release CSP headers/native raw bridge require actual platform proof."
+  ]
+}

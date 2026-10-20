@@ -1,0 +1,4 @@
+Wikidata katkıda bulunanlar · CC0-1.0 · yapılandırılmış kaynak iddiası; bağımsız tarihsel doğrulama değildir.
+https://www.wikidata.org/wiki/Wikidata:Licensing
+Release 1.0.0-history; input inventory SHA256 e584e7e3c6e745829153c4da2d34c2fc2986cff00c723b9aa5afc30ce6c58734; manifest SHA256 8af6675ba2a26ed4c9d7b739bba544bc583289f658c3059959831ae446656f8f.
+Original entity JSON is retained in staging with checksums, revisions, qualifiers and references; production packs contain conservative normalized source assertions, not independent historical certificates. Year precision only; no invented midpoint, lifetime presence or war centroid. Existing reviewed entities preserved. No Wikipedia prose, portraits, third-party geometry or Nobel API material copied.

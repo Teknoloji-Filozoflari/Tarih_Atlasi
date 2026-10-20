@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-17",
+  "checks": [
+    {
+      "command": "git status --short",
+      "exitCode": 128,
+      "status": "BLOCKED",
+      "reason": "No Git worktree visible in this environment; no reset/checkout used"
+    },
+    {
+      "command": "npm run typecheck",
+      "exitCode": 0,
+      "status": "PASS",
+      "scope": "strict native + web TypeScript"
+    },
+    {
+      "command": "npm run lint",
+      "exitCode": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "npm test",
+      "exitCode": 0,
+      "status": "PASS",
+      "passed": 286,
+      "failed": 0,
+      "skipped": 0
+    },
+    {
+      "command": "npm run test:worker",
+      "exitCode": 0,
+      "status": "PASS",
+      "passed": 5
+    },
+    {
+      "command": "npm run format:check",
+      "exitCode": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "npm run world:prepare",
+      "exitCode": 0,
+      "status": "PASS",
+      "scope": "existing pinned source only"
+    },
+    {
+      "command": "npm run world:check",
+      "exitCode": 0,
+      "status": "PASS",
+      "assets": 374,
+      "bytes": 120664555
+    },
+    {
+      "command": "npm run world:source-check",
+      "exitCode": 0,
+      "status": "PASS",
+      "scope": "deterministic source re-derivation, no writes"
+    },
+    {
+      "command": "npm run world:audit-2000",
+      "exitCode": 0,
+      "status": "PASS",
+      "sourceRows": 192,
+      "drawable": 179,
+      "withheld": 13
+    },
+    {
+      "command": "npm run data:download -- --verify",
+      "exitCode": 0,
+      "status": "PASS",
+      "scope": "all 6 existing source files, no downloads"
+    },
+    {
+      "command": "npm run pilot:prepare && npm run pilot:check",
+      "exitCode": 0,
+      "status": "PASS",
+      "scope": "updated policy and evidence-index metadata; preserved catalog and geometry"
+    },
+    {
+      "command": "npm run chunks:check",
+      "exitCode": 0,
+      "status": "PASS",
+      "entries": 68,
+      "unique": 35
+    },
+    {
+      "command": "npm run web:export",
+      "exitCode": 0,
+      "status": "PASS",
+      "routes": 4
+    },
+    {
+      "command": "npm run android:bundle",
+      "exitCode": 0,
+      "status": "PASS",
+      "scope": "Hermes + DOM JavaScript export, not APK or device validation"
+    },
+    {
+      "command": "Playwright chromium.launch({headless:true,timeout:10000})",
+      "exitCode": 1,
+      "status": "BLOCKED",
+      "reason": "sandbox_host_linux.cc:41 Operation not permitted",
+      "screenshots": 0
+    },
+    {
+      "command": "curl --max-time 15 https://icr.ethz.ch/data/cshapes/",
+      "exitCode": 6,
+      "status": "BLOCKED",
+      "reason": "Terminal DNS unavailable; primary documentation was researched through the web tool instead; no data file acquired"
+    },
+    {
+      "command": "Node Greece vertex/undirected-edge source fidelity probe",
+      "exitCode": 0,
+      "status": "PASS",
+      "evidence": "greece-source-fidelity.json"
+    },
+    {
+      "command": "Physical Android E2E / performance",
+      "status": "NOT TESTED",
+      "deviceStatus": "UNVERIFIED ON DEVICE"
+    }
+  ]
+}

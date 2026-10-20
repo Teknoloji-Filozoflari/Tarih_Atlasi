@@ -1,0 +1,1778 @@
+{
+  "representation": "browser-editorial-structured-fact-extraction-not-api-response",
+  "synthetic": false,
+  "licenseId": "CC0-1.0",
+  "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+  "reviewedAt": "2026-10-17T22:49:32.617Z",
+  "requests": [
+    {
+      "name": "Osman Gazi",
+      "aliases": [
+        "Osman I"
+      ],
+      "candidateWikidataId": "Q83100",
+      "status": "unverified"
+    },
+    {
+      "name": "II. Mehmed",
+      "aliases": [
+        "Mehmed II"
+      ],
+      "candidateWikidataId": "Q34503",
+      "status": "unverified"
+    },
+    {
+      "name": "I. Süleyman",
+      "aliases": [
+        "Suleiman the Magnificent"
+      ],
+      "candidateWikidataId": "Q8474",
+      "status": "unverified"
+    },
+    {
+      "name": "İsmet İnönü",
+      "aliases": [],
+      "candidateWikidataId": "Q183297",
+      "status": "unverified"
+    },
+    {
+      "name": "Celâl Bayar",
+      "aliases": [],
+      "candidateWikidataId": "Q151735",
+      "status": "unverified"
+    },
+    {
+      "name": "Bülent Ecevit",
+      "aliases": [],
+      "candidateWikidataId": "Q192634",
+      "status": "unverified"
+    },
+    {
+      "name": "Recep Tayyip Erdoğan",
+      "aliases": [],
+      "candidateWikidataId": "Q39259",
+      "status": "unverified"
+    },
+    {
+      "name": "Nikola Tesla",
+      "aliases": [],
+      "candidateWikidataId": "Q9036",
+      "status": "unverified"
+    },
+    {
+      "name": "Cahit Arf",
+      "aliases": [],
+      "candidateWikidataId": "Q664549",
+      "status": "unverified"
+    },
+    {
+      "name": "Niels Bohr",
+      "aliases": [],
+      "candidateWikidataId": "Q7085",
+      "status": "unverified"
+    },
+    {
+      "name": "Alan Turing",
+      "aliases": [],
+      "candidateWikidataId": "Q7251",
+      "status": "unverified"
+    },
+    {
+      "name": "Stephen Hawking",
+      "aliases": [],
+      "candidateWikidataId": "Q17714",
+      "status": "unverified"
+    },
+    {
+      "name": "Lionel Messi",
+      "aliases": [],
+      "candidateWikidataId": "Q615",
+      "status": "unverified"
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "aliases": [],
+      "candidateWikidataId": "Q11571",
+      "status": "unverified"
+    },
+    {
+      "name": "Michael Jordan",
+      "aliases": [],
+      "candidateWikidataId": "Q41421",
+      "status": "unverified"
+    },
+    {
+      "name": "Steve Jobs",
+      "aliases": [],
+      "candidateWikidataId": "Q19837",
+      "status": "unverified"
+    },
+    {
+      "name": "Bill Gates",
+      "aliases": [],
+      "candidateWikidataId": "Q5284",
+      "status": "unverified"
+    },
+    {
+      "name": "Linus Torvalds",
+      "aliases": [],
+      "candidateWikidataId": "Q34253",
+      "status": "unverified"
+    },
+    {
+      "name": "Yuri Gagarin",
+      "aliases": [],
+      "candidateWikidataId": "Q7327",
+      "status": "unverified"
+    },
+    {
+      "name": "Neil Armstrong",
+      "aliases": [],
+      "candidateWikidataId": "Q1615",
+      "status": "unverified"
+    },
+    {
+      "name": "Mark Twain",
+      "aliases": [],
+      "candidateWikidataId": "Q7245",
+      "status": "unverified"
+    },
+    {
+      "name": "Wolfgang Amadeus Mozart",
+      "aliases": [],
+      "candidateWikidataId": "Q254",
+      "status": "unverified"
+    },
+    {
+      "name": "Frédéric Chopin",
+      "aliases": [],
+      "candidateWikidataId": "Q1268",
+      "status": "unverified"
+    },
+    {
+      "name": "Franz Kafka",
+      "aliases": [],
+      "candidateWikidataId": "Q905",
+      "status": "unverified"
+    },
+    {
+      "name": "Tom Hanks",
+      "aliases": [],
+      "candidateWikidataId": "Q2263",
+      "status": "unverified"
+    },
+    {
+      "name": "Charlie Chaplin",
+      "aliases": [],
+      "candidateWikidataId": "Q882",
+      "status": "unverified"
+    },
+    {
+      "name": "Alfred Hitchcock",
+      "aliases": [],
+      "candidateWikidataId": "Q7374",
+      "status": "unverified"
+    },
+    {
+      "name": "Steven Spielberg",
+      "aliases": [],
+      "candidateWikidataId": "Q8877",
+      "status": "unverified"
+    },
+    {
+      "name": "Elealı Zenon",
+      "aliases": [
+        "Zenon",
+        "Zeno",
+        "Zeno of Elea"
+      ],
+      "candidateWikidataId": "Q132157",
+      "status": "unverified"
+    }
+  ],
+  "people": [
+    {
+      "requestedName": "Osman Gazi",
+      "qid": "Q83100",
+      "title": "Osman I",
+      "url": "https://www.wikidata.org/wiki/Q83100",
+      "revision": "2535919672",
+      "props": {
+        "date of birth": [
+          "23 August 1258",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Hebrew Wikipedia",
+          "place of birth",
+          "Söğüt",
+          "1 reference",
+          "imported from Wikimedia project"
+        ],
+        "place of birth": [
+          "Söğüt",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Arabic Wikipedia",
+          "date of death",
+          "1 August 1326",
+          "1 reference",
+          "imported from Wikimedia project"
+        ],
+        "date of death": [
+          "1 August 1326",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Italian Wikipedia",
+          "Wikimedia import URL",
+          "https://it.wikipedia.org/w/index.php?title=Osman_I&oldid=107887963†it.wikipedia.org",
+          "place of death",
+          "Söğüt"
+        ]
+      },
+      "birthPlaceQid": "Q768506"
+    },
+    {
+      "requestedName": "II. Mehmed",
+      "qid": "Q34503",
+      "title": "Mehmed II",
+      "url": "https://www.wikidata.org/wiki/Q34503",
+      "revision": "2556612270",
+      "props": {
+        "date of birth": [
+          "30 March 1432",
+          "1 reference",
+          "imported from Wikimedia project",
+          "English Wikipedia",
+          "place of birth",
+          "Edirne",
+          "1 reference",
+          "imported from Wikimedia project"
+        ],
+        "place of birth": [
+          "Edirne",
+          "1 reference",
+          "imported from Wikimedia project",
+          "German Wikipedia",
+          "date of death",
+          "3 May 1481",
+          "instance of",
+          "statement with Gregorian date earlier than 1584"
+        ],
+        "date of death": [
+          "3 May 1481",
+          "instance of",
+          "statement with Gregorian date earlier than 1584",
+          "3 references",
+          "stated in",
+          "SNAC",
+          "SNAC ARK ID",
+          "w6000kq8†snaccooperative.org"
+        ]
+      },
+      "birthPlaceQid": "Q43387"
+    },
+    {
+      "requestedName": "I. Süleyman",
+      "qid": "Q8474",
+      "title": "Suleiman the Magnificent",
+      "url": "https://www.wikidata.org/wiki/Q8474",
+      "revision": "2547021879",
+      "props": {
+        "date of birth": [
+          "6 November 1494",
+          "1 reference",
+          "imported from Wikimedia project",
+          "English Wikipedia",
+          "place of birth",
+          "Trabzon",
+          "country",
+          "Ottoman Empire"
+        ],
+        "place of birth": [
+          "Trabzon",
+          "country",
+          "Ottoman Empire",
+          "located in the administrative territorial entity",
+          "Trebizond eyalet",
+          "1 reference",
+          "imported from Wikimedia project",
+          "English Wikipedia"
+        ],
+        "date of death": [
+          "6 September 1566^{Gregorian}",
+          "1 reference",
+          "stated in",
+          "Find a Grave",
+          "retrieved",
+          "29 August 2019",
+          "place of death",
+          "Szigetvár"
+        ]
+      },
+      "birthPlaceQid": "Q45301"
+    },
+    {
+      "requestedName": "İsmet İnönü",
+      "qid": "Q183297",
+      "title": "İsmet İnönü",
+      "url": "https://www.wikidata.org/wiki/Q183297",
+      "revision": "2555339501",
+      "props": {
+        "date of birth": [
+          "24 September 1884^{Gregorian}",
+          "5 references",
+          "stated in",
+          "BnF authorities",
+          "Bibliothèque nationale de France ID",
+          "13605357m†catalogue.bnf.fr",
+          "retrieved",
+          "10 October 2015"
+        ],
+        "place of birth": [
+          "İnönü House Museum",
+          "located in the administrative territorial entity",
+          "İzmir",
+          "2 references",
+          "stated in",
+          "Great Soviet Encyclopedia (1969–1978)",
+          "section",
+          "Инёню Исмет"
+        ],
+        "date of death": [
+          "25 December 1973",
+          "5 references",
+          "stated in "
+        ]
+      },
+      "birthPlaceQid": null
+    },
+    {
+      "requestedName": "Celâl Bayar",
+      "qid": "Q151735",
+      "title": "Celâl Bayar",
+      "url": "https://www.wikidata.org/wiki/Q151735",
+      "revision": "2517398971",
+      "props": {
+        "date of birth": [
+          "16 May 1883^{Gregorian}",
+          "4 references",
+          "stated in",
+          "BnF authorities",
+          "Bibliothèque nationale de France ID",
+          "146048060†catalogue.bnf.fr",
+          "retrieved",
+          "10 October 2015"
+        ],
+        "place of birth": [
+          "Umurbey",
+          "1 reference",
+          "imported from Wikimedia project",
+          "German Wikipedia",
+          "date of death",
+          "22 August 1986",
+          "5 references",
+          "stated in"
+        ],
+        "date of death": [
+          "22 August 1986",
+          "5 references",
+          "stated in",
+          "BnF authorities",
+          "Bibliothèque nationale de France ID",
+          "146048060†catalogue.bnf.fr",
+          "retrieved",
+          "10 October 2015"
+        ]
+      },
+      "birthPlaceQid": "Q1587996"
+    },
+    {
+      "requestedName": "Bülent Ecevit",
+      "qid": "Q192634",
+      "title": "Bülent Ecevit",
+      "url": "https://www.wikidata.org/wiki/Q192634",
+      "revision": "2540286802",
+      "props": {
+        "date of birth": [
+          "28 May 1925^{Gregorian}",
+          "8 references",
+          "stated in",
+          "Great Soviet Encyclopedia (1969–1978)",
+          "section",
+          "Эджевит Бюлент",
+          "retrieved",
+          "Bülent Ecevit"
+        ],
+        "place of birth": [
+          "Istanbul",
+          "1 reference",
+          "stated in",
+          "Great Soviet Encyclopedia (1969–1978)",
+          "section",
+          "Эджевит Бюлент",
+          "retrieved",
+          "28 September 2015"
+        ],
+        "date of death": [
+          "5 November 2006",
+          "8 references",
+          "reference URL",
+          "http://news.bbc.co.uk/1/hi/world/europe/6119590.stm†news.bbc.co.uk "
+        ]
+      },
+      "birthPlaceQid": "Q406"
+    },
+    {
+      "requestedName": "Recep Tayyip Erdoğan",
+      "qid": "Q39259",
+      "title": "Recep Tayyip Erdoğan",
+      "url": "https://www.wikidata.org/wiki/Q39259",
+      "revision": "2555113596",
+      "props": {
+        "date of birth": [
+          "26 February 1954",
+          "2 references",
+          "stated in",
+          "Brockhaus Enzyklopädie",
+          "reference URL",
+          "https://brockhaus.de/ecs/julex/article/erdogan-recep-tayyip†brockhaus.de",
+          "subject named as",
+          "Recep Tayyip Erdoğan"
+        ],
+        "place of birth": [
+          "Kasımpaşa",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Russian Wikipedia",
+          "Beyoğlu",
+          "1 reference",
+          "retrieved",
+          "7 October 2023"
+        ]
+      },
+      "birthPlaceQid": "Q1775820"
+    },
+    {
+      "requestedName": "Nikola Tesla",
+      "qid": "Q9036",
+      "title": "Nikola Tesla",
+      "url": "https://www.wikidata.org/wiki/Q9036",
+      "revision": "2554862609",
+      "props": {
+        "date of birth": [
+          "10 July 1856^{Gregorian}",
+          "7 references",
+          "stated in",
+          "BnF authorities",
+          "Bibliothèque nationale de France ID",
+          "12567608n†catalogue.bnf.fr",
+          "retrieved",
+          "10 October 2015"
+        ],
+        "place of birth": [
+          "Smiljan",
+          "3 references",
+          "section",
+          "Тесла Никола",
+          "stated in",
+          "Great Soviet Encyclopedia (1969–1978)",
+          "retrieved",
+          "28 September 2015"
+        ],
+        "date of death": [
+          "7 January 1943",
+          "9 references",
+          "section",
+          "Тесла Никола",
+          "stated in",
+          "Great Soviet Encyclopedia (1969–1978)",
+          "retrieved",
+          "28 September 2015"
+        ]
+      },
+      "birthPlaceQid": "Q367211"
+    },
+    {
+      "requestedName": "Cahit Arf",
+      "qid": "Q664549",
+      "title": "Cahit Arf",
+      "url": "https://www.wikidata.org/wiki/Q664549",
+      "revision": "2508136568",
+      "props": {
+        "date of birth": [
+          "11 October 1910^{Gregorian}",
+          "1 reference",
+          "stated in",
+          "Integrated Authority File",
+          "GND ID",
+          "117707163†d-nb.info",
+          "retrieved",
+          "22 February 2025"
+        ],
+        "place of birth": [
+          "Thessaloniki",
+          "country",
+          "Ottoman Empire",
+          "1 reference",
+          "stated in",
+          "Integrated Authority File",
+          "GND ID",
+          "117707163†d-nb.info"
+        ],
+        "date of death": [
+          "26 December 1997",
+          "1 reference",
+          "stated in",
+          "Integrated Authority File "
+        ]
+      },
+      "birthPlaceQid": "Q17151"
+    },
+    {
+      "requestedName": "Niels Bohr",
+      "qid": "Q7085",
+      "title": "Niels Bohr",
+      "url": "https://www.wikidata.org/wiki/Q7085",
+      "revision": "2555306417",
+      "props": {
+        "date of birth": [
+          "7 October 1885^{Gregorian}",
+          "reason for preferred rank",
+          "most precise value",
+          "15 references",
+          "stated in",
+          "BnF authorities",
+          "Bibliothèque nationale de France ID",
+          "119892456†catalogue.bnf.fr"
+        ],
+        "place of birth": [
+          "Copenhagen",
+          "5 references",
+          "stated in",
+          "Brockhaus Enzyklopädie",
+          "Brockhaus Enzyklopädie online ID",
+          "bohr-niels-henrick-david†brockhaus.de",
+          "stated in",
+          "Encyclopædia Britannica Online"
+        ],
+        "date of death": [
+          "18 November 1962",
+          "reason for preferred rank",
+          "most precise value",
+          "16 references",
+          "stated in",
+          "BnF authorities",
+          "Bibliothèque nationale de France ID",
+          "119892456†catalogue.bnf.fr"
+        ]
+      },
+      "birthPlaceQid": "Q1748"
+    },
+    {
+      "requestedName": "Alan Turing",
+      "qid": "Q7251",
+      "title": "Alan Turing",
+      "url": "https://www.wikidata.org/wiki/Q7251",
+      "revision": "2555640273",
+      "props": {
+        "date of birth": [
+          "23 June 1912^{Gregorian}",
+          "12 references",
+          "stated in",
+          "Alan Turing (Unwin paperbacks 2015)",
+          "stated in",
+          "IMDb",
+          "IMDb ID",
+          "nm6290133†wikidata-externalid-url.toolforge.org"
+        ],
+        "place of birth": [
+          "Maida Vale",
+          "1 reference",
+          "reference URL "
+        ],
+        "date of death": [
+          "7 June 1954",
+          "12 references",
+          "stated in",
+          "Alan Turing (Unwin paperbacks 2015)",
+          "stated in",
+          "BnF authorities"
+        ],
+        "coordinate location": [
+          "51°18'42.185\"N, 0°36'9.842\"W",
+          "2 references",
+          "stated in",
+          "Oxford Dictionary of National Biography",
+          "Oxford Dictionary of National Biography ID",
+          "36578†www.oxforddnb.com",
+          "reference URL",
+          "https://www.findagrave.com/memorial/12651680/alan-turing†www.findagrave.com"
+        ]
+      },
+      "birthPlaceQid": "Q122744"
+    },
+    {
+      "requestedName": "Stephen Hawking",
+      "qid": "Q17714",
+      "title": "Stephen Hawking",
+      "url": "https://www.wikidata.org/wiki/Q17714",
+      "revision": "2553196360",
+      "props": {
+        "date of birth": [
+          "8 January 1942",
+          "16 references",
+          "stated in",
+          "Integrated Authority File",
+          "retrieved",
+          "9 April 2014",
+          "stated in",
+          "MacTutor History of Mathematics archive"
+        ],
+        "place of birth": [
+          "Oxford",
+          "reason for preferred rank",
+          "most precise value",
+          "1 reference",
+          "GND ID",
+          "118761285†d-nb.info",
+          "stated in",
+          "Catalog of the German National Library "
+        ],
+        "date of death": [
+          "14 March 2018",
+          "12 references",
+          "stated in",
+          "BBC News Online",
+          "language of work or name",
+          "British English",
+          "reference URL",
+          "http://www.bbc.com/news/uk-43396008†www.bbc.com"
+        ]
+      },
+      "birthPlaceQid": "Q34217"
+    },
+    {
+      "requestedName": "Lionel Messi",
+      "qid": "Q615",
+      "title": "Lionel Messi",
+      "url": "https://www.wikidata.org/wiki/Q615",
+      "revision": "2557168781",
+      "props": {
+        "date of birth": [
+          "24 June 1987",
+          "6 references",
+          "stated in",
+          "Integrated Authority File",
+          "retrieved",
+          "9 April 2014",
+          "stated in",
+          "Brockhaus Enzyklopädie"
+        ],
+        "place of birth": [
+          "Rosario",
+          "1 reference",
+          "stated in",
+          "Integrated Authority File",
+          "retrieved",
+          "10 December 2014",
+          "father",
+          "Jorge Messi"
+        ]
+      },
+      "birthPlaceQid": "Q52535"
+    },
+    {
+      "requestedName": "Cristiano Ronaldo",
+      "qid": "Q11571",
+      "title": "Cristiano Ronaldo",
+      "url": "https://www.wikidata.org/wiki/Q11571",
+      "revision": "2557992568",
+      "props": {
+        "date of birth": [
+          "5 February 1985",
+          "9 references",
+          "stated in",
+          "Integrated Authority File",
+          "retrieved",
+          "9 April 2014",
+          "stated in",
+          "Transfermarkt"
+        ],
+        "place of birth": [
+          "Funchal",
+          "2 references",
+          "imported from Wikimedia project",
+          "Russian Wikipedia",
+          "reference URL",
+          "https://www.portugal.com/history-and-culture/cristiano-ronaldo-turns-40-here-are-40-facts-to-celebrate/†www.portugal.com",
+          "title",
+          "Cristiano Ronaldo Turns 40! - Here Are 40 Facts to Celebrate (English)"
+        ]
+      },
+      "birthPlaceQid": "Q25444"
+    },
+    {
+      "requestedName": "Michael Jordan",
+      "qid": "Q41421",
+      "title": "Michael Jordan",
+      "url": "https://www.wikidata.org/wiki/Q41421",
+      "revision": "2554577060",
+      "props": {
+        "date of birth": [
+          "17 February 1963",
+          "5 references",
+          "stated in",
+          "SNAC",
+          "SNAC ARK ID",
+          "w6pk1hw4†snaccooperative.org",
+          "Babelio author ID",
+          "218688†www.babelio.com"
+        ],
+        "place of birth": [
+          "Brooklyn",
+          "3 references",
+          "reference URL",
+          "http://espn.go.com/nba/player/gamelog/_/id/1035/michael-jordan†espn.go.com",
+          "reference URL "
+        ]
+      },
+      "birthPlaceQid": "Q18419"
+    },
+    {
+      "requestedName": "Steve Jobs",
+      "qid": "Q19837",
+      "title": "Steve Jobs",
+      "url": "https://www.wikidata.org/wiki/Q19837",
+      "revision": "2555762992",
+      "props": {
+        "date of birth": [
+          "24 February 1955",
+          "11 references",
+          "stated in",
+          "Integrated Authority File",
+          "retrieved",
+          "9 April 2014",
+          "stated in",
+          "Steve Jobs"
+        ],
+        "place of birth": [
+          "San Francisco",
+          "located in the administrative territorial entity",
+          "California",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Russian Wikipedia",
+          "date of death",
+          "5 October 2011"
+        ],
+        "date of death": [
+          "5 October 2011",
+          "Munzinger Personen",
+          "Munzinger person ID",
+          "00000019529†www.munzinger.de",
+          "retrieved",
+          "9 October 2017",
+          "subject named as",
+          "Steve Jobs"
+        ]
+      },
+      "birthPlaceQid": "Q62"
+    },
+    {
+      "requestedName": "Bill Gates",
+      "qid": "Q5284",
+      "title": "Bill Gates",
+      "url": "https://www.wikidata.org/wiki/Q5284",
+      "revision": "2557063945",
+      "props": {
+        "date of birth": [
+          "28 October 1955",
+          "13 references",
+          "stated in "
+        ],
+        "place of birth": [
+          "Seattle",
+          "1 reference",
+          "stated in",
+          "Integrated Authority File",
+          "retrieved",
+          "10 December 2014",
+          "father",
+          "Bill Gates Sr."
+        ]
+      },
+      "birthPlaceQid": "Q5083"
+    },
+    {
+      "requestedName": "Linus Torvalds",
+      "qid": "Q34253",
+      "title": "Linus Torvalds",
+      "url": "https://www.wikidata.org/wiki/Q34253",
+      "revision": "2538684466",
+      "props": {
+        "date of birth": [
+          "28 December 1969",
+          "4 references",
+          "stated in "
+        ],
+        "place of birth": [
+          "Helsinki",
+          "1 reference",
+          "stated in",
+          "Integrated Authority File",
+          "retrieved",
+          "10 December 2014",
+          "father",
+          "Nils Torvalds"
+        ]
+      },
+      "birthPlaceQid": "Q1757"
+    },
+    {
+      "requestedName": "Yuri Gagarin",
+      "qid": "Q7327",
+      "title": "Yuri Gagarin",
+      "url": "https://www.wikidata.org/wiki/Q7327",
+      "revision": "2553146184",
+      "props": {
+        "date of birth": [
+          "9 March 1934",
+          "12 references",
+          "stated in",
+          "Integrated Authority File",
+          "retrieved",
+          "9 April 2014",
+          "section",
+          "Гагарин Юрий Алексеевич"
+        ],
+        "place of birth": [
+          "Klushino",
+          "1 reference",
+          "stated in",
+          "Great Russian Encyclopedia",
+          "Great Russian Encyclopedia Online ID (2017)",
+          "2338828†web.archive.org",
+          "retrieved",
+          "6 December 2021"
+        ],
+        "date of death": [
+          "27 March 1968",
+          "12 references",
+          "stated in",
+          "Integrated Authority File",
+          "retrieved",
+          "9 April 2014",
+          "section",
+          "Гагарин Юрий Алексеевич"
+        ]
+      },
+      "birthPlaceQid": "Q1010100"
+    },
+    {
+      "requestedName": "Neil Armstrong",
+      "qid": "Q1615",
+      "title": "Neil Armstrong",
+      "url": "https://www.wikidata.org/wiki/Q1615",
+      "revision": "2554660728",
+      "props": {
+        "date of birth": [
+          "5 August 1930",
+          "16 references",
+          "stated in",
+          "Integrated Authority File",
+          "retrieved",
+          "9 April 2014",
+          "stated in",
+          "Great Soviet Encyclopedia (1969–1978)"
+        ],
+        "place of birth": [
+          "Wapakoneta",
+          "00000012293†www.munzinger.de",
+          "retrieved",
+          "9 October 2017",
+          "subject named as",
+          "Neil A. Armstrong",
+          "place of death",
+          "Cincinnati"
+        ],
+        "date of death": [
+          "25 August 2012",
+          "14 references",
+          "stated in",
+          "Integrated Authority File",
+          "retrieved",
+          "9 April 2014",
+          "stated in",
+          "IMDb"
+        ]
+      },
+      "birthPlaceQid": "Q492796"
+    },
+    {
+      "requestedName": "Mark Twain",
+      "qid": "Q7245",
+      "title": "Mark Twain",
+      "url": "https://www.wikidata.org/wiki/Q7245",
+      "revision": "2549683000",
+      "props": {
+        "date of birth": [
+          "30 November 1835^{Gregorian}",
+          "23 references",
+          "stated in",
+          "Integrated Authority File",
+          "retrieved",
+          "9 April 2014",
+          "stated in",
+          "BnF authorities"
+        ],
+        "place of birth": [
+          "Florida",
+          "1 reference",
+          "stated in",
+          "Carnegie Hall linked open data",
+          "Carnegie Hall agent ID",
+          "2088†data.carnegiehall.org",
+          "retrieved",
+          "2 May 2022"
+        ],
+        "date of death": [
+          "21 April 1910^{Gregorian}",
+          "23 references",
+          "stated in",
+          "Integrated Authority File",
+          "retrieved",
+          "9 April 2014",
+          "stated in",
+          "BnF authorities"
+        ]
+      },
+      "birthPlaceQid": "Q537803"
+    },
+    {
+      "requestedName": "Wolfgang Amadeus Mozart",
+      "qid": "Q254",
+      "title": "Wolfgang Amadeus Mozart",
+      "url": "https://www.wikidata.org/wiki/Q254",
+      "revision": "2556283497",
+      "props": {
+        "date of birth": [
+          "27 January 1756^{Gregorian}",
+          "23 references",
+          "stated in",
+          "Integrated Authority File",
+          "MEHI – Media Art Database",
+          "place of birth",
+          "Salzburg",
+          "located in the administrative territorial entity"
+        ],
+        "place of birth": [
+          "Salzburg",
+          "located in the administrative territorial entity",
+          "Prince-Archbishopric of Salzburg",
+          "country",
+          "Holy Roman Empire",
+          "4 references",
+          "stated in",
+          "Integrated Authority File"
+        ],
+        "date of death": [
+          "5 December 1791^{Gregorian}",
+          "25 references",
+          "stated in",
+          "Integrated Authority File",
+          "retrieved",
+          "9 April 2014",
+          "stated in",
+          "BnF authorities"
+        ]
+      },
+      "birthPlaceQid": "Q34713"
+    },
+    {
+      "requestedName": "Frédéric Chopin",
+      "qid": "Q1268",
+      "title": "Frédéric Chopin",
+      "url": "https://www.wikidata.org/wiki/Q1268",
+      "revision": "2552787752",
+      "props": {
+        "date of birth": [
+          "22 February 1810^{Gregorian}",
+          "4 references",
+          "stated in",
+          "Integrated Authority File",
+          "retrieved",
+          "9 April 2014",
+          "stated in",
+          "BnF authorities"
+        ],
+        "place of birth": [
+          "Żelazowa Wola",
+          "country",
+          "Duchy of Warsaw",
+          "3 references",
+          "imported from Wikimedia project",
+          "German Wikipedia",
+          "stated in "
+        ],
+        "date of death": [
+          "17 October 1849^{Gregorian}",
+          "17 references",
+          "stated in",
+          "Integrated Authority File",
+          "retrieved",
+          "9 April 2014",
+          "stated in",
+          "BnF authorities"
+        ]
+      },
+      "birthPlaceQid": "Q393087"
+    },
+    {
+      "requestedName": "Franz Kafka",
+      "qid": "Q905",
+      "title": "Franz Kafka",
+      "url": "https://www.wikidata.org/wiki/Q905",
+      "revision": "2554664347",
+      "props": {
+        "date of birth": [
+          "3 July 1883^{Gregorian}",
+          "25 references",
+          "stated in",
+          "Kafka: A Very Short Introduction, 1st ed.",
+          "chapter",
+          "1",
+          "page(s)",
+          "1"
+        ],
+        "place of birth": [
+          "Prague",
+          "country",
+          "Austria–Hungary "
+        ],
+        "date of death": [
+          "3 June 1924^{Gregorian}",
+          "17 references",
+          "stated in",
+          "Integrated Authority File",
+          "retrieved",
+          "9 April 2014",
+          "stated in",
+          "The Metamorphosis"
+        ]
+      },
+      "birthPlaceQid": "Q1085"
+    },
+    {
+      "requestedName": "Tom Hanks",
+      "qid": "Q2263",
+      "title": "Tom Hanks",
+      "url": "https://www.wikidata.org/wiki/Q2263",
+      "revision": "2555315054",
+      "props": {
+        "date of birth": [
+          "9 July 1956",
+          "11 references",
+          "stated in "
+        ],
+        "place of birth": [
+          "Concord",
+          "located in the administrative territorial entity",
+          "Contra Costa County",
+          "California",
+          "1 reference",
+          "imported from Wikimedia project",
+          "English Wikipedia",
+          "father "
+        ]
+      },
+      "birthPlaceQid": "Q490441"
+    },
+    {
+      "requestedName": "Charlie Chaplin",
+      "qid": "Q882",
+      "title": "Charlie Chaplin",
+      "url": "https://www.wikidata.org/wiki/Q882",
+      "revision": "2556998875",
+      "props": {
+        "date of birth": [
+          "16 April 1889^{Gregorian}",
+          "21 references",
+          "stated in",
+          "stated in",
+          "Olomouc City Library regional database",
+          "reference URL",
+          "https://tritius.kmol.cz/authority/864972†tritius.kmol.cz",
+          "retrieved"
+        ],
+        "place of birth": [
+          "Walworth",
+          "1 reference",
+          "stated in",
+          "Chaplin: His Life and Art",
+          "page(s)",
+          "10",
+          "date of death",
+          "25 December 1977"
+        ],
+        "date of death": [
+          "25 December 1977",
+          "17 references",
+          "stated in",
+          "Integrated Authority File",
+          "retrieved",
+          "9 April 2014",
+          "stated in",
+          "SNAC"
+        ]
+      },
+      "birthPlaceQid": "Q1231883"
+    },
+    {
+      "requestedName": "Alfred Hitchcock",
+      "qid": "Q7374",
+      "title": "Alfred Hitchcock",
+      "url": "https://www.wikidata.org/wiki/Q7374",
+      "revision": "2554861671",
+      "props": {
+        "date of birth": [
+          "13 August 1899^{Gregorian}",
+          "19 references",
+          "stated in",
+          "Integrated Authority File",
+          "place of birth",
+          "Leytonstone",
+          "3 references",
+          "stated in"
+        ],
+        "place of birth": [
+          "Leytonstone",
+          "3 references",
+          "stated in",
+          "Integrated Authority File",
+          "GND ID",
+          "118551647†d-nb.info",
+          "retrieved",
+          "21 July 2015"
+        ],
+        "date of death": [
+          "29 April 1980",
+          "17 references",
+          "stated in "
+        ]
+      },
+      "birthPlaceQid": "Q1368969"
+    },
+    {
+      "requestedName": "Steven Spielberg",
+      "qid": "Q8877",
+      "title": "Steven Spielberg",
+      "url": "https://www.wikidata.org/wiki/Q8877",
+      "revision": "2547758255",
+      "props": {
+        "date of birth": [
+          "18 December 1946",
+          "11 references",
+          "stated in "
+        ],
+        "place of birth": [
+          "Cincinnati",
+          "1 reference",
+          "stated in",
+          "Integrated Authority File",
+          "retrieved",
+          "10 December 2014",
+          "father",
+          "Arnold Spielberg"
+        ]
+      },
+      "birthPlaceQid": "Q43196"
+    },
+    {
+      "requestedName": "Elealı Zenon",
+      "qid": "Q132157",
+      "title": "Zeno of Elea",
+      "url": "https://www.wikidata.org/wiki/Q132157",
+      "revision": "2546705658",
+      "props": {
+        "date of birth": [
+          "490 BCE",
+          "sourcing circumstances",
+          "circa",
+          "1 reference",
+          "stated in",
+          "MacTutor History of Mathematics archive",
+          "place of birth",
+          "Velia"
+        ],
+        "place of birth": [
+          "Velia",
+          "country",
+          "Ancient Greece",
+          "1 reference",
+          "stated in",
+          "MacTutor History of Mathematics archive",
+          "date of death",
+          "425 BCE"
+        ],
+        "date of death": [
+          "425 BCE",
+          "sourcing circumstances",
+          "circa",
+          "1 reference",
+          "stated in",
+          "MacTutor History of Mathematics archive",
+          "place of death",
+          "Velia"
+        ]
+      },
+      "birthPlaceQid": "Q272968"
+    }
+  ],
+  "places": [
+    {
+      "qid": "Q768506",
+      "name": "Söğüt",
+      "revision": "2550085813",
+      "props": {
+        "coordinate location": [
+          "40°1'7\"N, 30°10'53\"E",
+          "1 reference",
+          "imported from Wikimedia project",
+          "English Wikipedia",
+          "population",
+          "19,244",
+          "point in time",
+          "2018"
+        ],
+        "instance of": [
+          "town",
+          "1 reference",
+          "reference URL",
+          "https://statoids.com/ytr.html†statoids.com",
+          "image",
+          "Çelebi Mehmet Camii.JPG†commons.wikimedia.org",
+          "1,632 × 1,224; 846 KB",
+          "1 reference"
+        ]
+      }
+    },
+    {
+      "qid": "Q43387",
+      "name": "Edirne",
+      "revision": "2557642883",
+      "props": {
+        "coordinate location": [
+          "41°40'22.94\"N, 26°34'25.00\"E",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Russian Wikipedia",
+          "office held by the head of government",
+          "mayor of Edirne",
+          "0 references",
+          "population"
+        ]
+      }
+    },
+    {
+      "qid": "Q45301",
+      "name": "Trabzon",
+      "revision": "2555595754",
+      "props": {
+        "coordinate location": [
+          "41°0'18\"N, 39°43'21\"E",
+          "1 reference",
+          "imported from Wikimedia project",
+          "English Wikipedia",
+          "office held by the head of government",
+          "mayor of Trabzon",
+          "0 references",
+          "population"
+        ]
+      }
+    },
+    {
+      "qid": "Q1587996",
+      "name": "Umurbey",
+      "revision": "2522637215",
+      "props": {
+        "coordinate location": [
+          "40°24'53\"N, 29°10'59\"E",
+          "1 reference",
+          "stated in",
+          "Geographic Names Server",
+          "publication date",
+          "11 June 2018",
+          "GNS Unique Feature ID",
+          "-774497†geonames.nga.mil"
+        ]
+      }
+    },
+    {
+      "qid": "Q406",
+      "name": "Istanbul",
+      "revision": "2556807961",
+      "props": {
+        "coordinate location": [
+          "41°0'36\"N, 28°57'37\"E",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Russian Wikipedia",
+          "highest point",
+          "Aydos Hill",
+          "1 reference",
+          "imported from Wikimedia project"
+        ]
+      }
+    },
+    {
+      "qid": "Q1775820",
+      "name": "Kasımpaşa",
+      "revision": "2528964192",
+      "props": {
+        "coordinate location": [
+          "41°1'49.5\"N, 28°57'58.4\"E",
+          "0 references",
+          "Commons category",
+          "Kasımpaşa",
+          "0 references",
+          "## Identifiers",
+          "archINFORM location ID",
+          "42965†www.archinform.net"
+        ]
+      }
+    },
+    {
+      "qid": "Q367211",
+      "name": "Smiljan",
+      "revision": "2540987094",
+      "props": {
+        "coordinate location": [
+          "44°33'51.5\"N, 15°19'5.2\"E",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Croatian Wikipedia",
+          "population",
+          "392",
+          "point in time",
+          "31 August 2021"
+        ],
+        "instance of": [
+          "settlement in Croatia",
+          "1 reference",
+          "stated in",
+          "Register of spatial units of the State Geodetic Administration of the Republic of Croatia",
+          "image",
+          "Nikola Tesla Smiljan 04.jpg†commons.wikimedia.org",
+          "5,184 × 3,456; 8.67 MB",
+          "1 reference"
+        ]
+      }
+    },
+    {
+      "qid": "Q17151",
+      "name": "Thessaloniki",
+      "revision": "2553150315",
+      "props": {
+        "coordinate location": [
+          "40°38'25\"N, 22°56'8\"E",
+          "1 reference",
+          "imported from Wikimedia project",
+          "English Wikipedia",
+          "head of government",
+          "Yannis Boutaris",
+          "start time",
+          "1 January 2011"
+        ]
+      }
+    },
+    {
+      "qid": "Q1748",
+      "name": "Copenhagen",
+      "revision": "2553867277",
+      "props": {
+        "coordinate location": [
+          "55°40'34\"N, 12°34'8\"E",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Russian Wikipedia",
+          "head of government",
+          "Frank Jensen",
+          "start time",
+          "1 January 2010"
+        ]
+      }
+    },
+    {
+      "qid": "Q122744",
+      "name": "Maida Vale",
+      "revision": "2528768057",
+      "props": {
+        "coordinate location": [
+          "51°31'39\"N, 0°11'24\"W",
+          "1 reference",
+          "imported from Wikimedia project",
+          "English Wikipedia",
+          "population",
+          "23,161",
+          "1 reference",
+          "imported from Wikimedia project"
+        ]
+      }
+    },
+    {
+      "qid": "Q34217",
+      "name": "Oxford",
+      "revision": "2533220760",
+      "props": {
+        "coordinate location": [
+          "51°45'N, 1°15'W",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Russian Wikipedia",
+          "member of",
+          "Climate Alliance",
+          "start time",
+          "2015"
+        ]
+      }
+    },
+    {
+      "qid": "Q52535",
+      "name": "Rosario",
+      "revision": "2550536136",
+      "props": {
+        "coordinate location": [
+          "32°57'27\"S, 60°38'22\"W",
+          "1 reference",
+          "imported from Wikimedia project",
+          "English Wikipedia",
+          "office held by the head of government",
+          "Mayor of Rosario",
+          "0 references",
+          "head of government"
+        ]
+      }
+    },
+    {
+      "qid": "Q25444",
+      "name": "Funchal",
+      "revision": "2537672409",
+      "props": {
+        "coordinate location": [
+          "32°39'N, 16°55'W",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Russian Wikipedia",
+          "public holiday",
+          "August 21",
+          "day in year for periodic occurrence",
+          "August 21 "
+        ]
+      }
+    },
+    {
+      "qid": "Q18419",
+      "name": "Brooklyn",
+      "revision": "2547089169",
+      "props": {
+        "coordinate location": [
+          "40°41'27.4\"N, 73°55'39.7\"W",
+          "0 references",
+          "11222",
+          "coordinate location",
+          "40°43'41.4\"N, 73°57'4.7\"W",
+          "0 references",
+          "11223",
+          "coordinate location"
+        ]
+      }
+    },
+    {
+      "qid": "Q62",
+      "name": "San Francisco",
+      "revision": "2556596404",
+      "props": {
+        "coordinate location": [
+          "37°46'43\"N, 122°29'16\"W",
+          "0 references",
+          "94122",
+          "coordinate location",
+          "37°45'31\"N, 122°28'52\"W",
+          "0 references",
+          "94123",
+          "coordinate location"
+        ]
+      }
+    },
+    {
+      "qid": "Q5083",
+      "name": "Seattle",
+      "revision": "2556520753",
+      "props": {
+        "coordinate location": [
+          "47°30'22\"N, 122°17'58\"W",
+          "0 references",
+          "98133",
+          "coordinate location",
+          "47°44'12\"N, 122°20'32\"W",
+          "has part(s)",
+          "Shoreline",
+          "0 references"
+        ]
+      }
+    },
+    {
+      "qid": "Q1757",
+      "name": "Helsinki",
+      "revision": "2555665259",
+      "props": {
+        "coordinate location": [
+          "60°10'15\"N, 24°56'15\"E",
+          "0 references",
+          "highest point",
+          "Kivikko",
+          "elevation above sea level",
+          "62 metre",
+          "0 references",
+          "office held by the head of government "
+        ]
+      }
+    },
+    {
+      "qid": "Q1010100",
+      "name": "Klushino",
+      "revision": "2518269904",
+      "props": {
+        "coordinate location": [
+          "55°40'14\"N, 35°2'59\"E",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Russian Wikipedia",
+          "population",
+          "403",
+          "point in time",
+          "2010"
+        ],
+        "instance of": [
+          "hamlet",
+          "1 reference",
+          "stated in",
+          "OKTMO",
+          "point in time",
+          "4 February 2014",
+          "inception",
+          "1239^{Gregorian}"
+        ]
+      }
+    },
+    {
+      "qid": "Q492796",
+      "name": "Wapakoneta",
+      "revision": "2530088530",
+      "props": {
+        "coordinate location": [
+          "40°34'9.01\"N, 84°11'39.01\"W",
+          "1 reference",
+          "imported from Wikimedia project "
+        ]
+      }
+    },
+    {
+      "qid": "Q537803",
+      "name": "Florida",
+      "revision": "2480554118",
+      "props": {
+        "coordinate location": [
+          "Image: Map†www.wikidata.org",
+          "39°29'30.1\"N, 91°47'24.9\"W",
+          "1 reference",
+          "imported from Wikimedia project",
+          "English Wikipedia",
+          "population",
+          "0",
+          "determination method or standard"
+        ],
+        "instance of": [
+          "village in the United States",
+          "0 references",
+          "inception",
+          "1831",
+          "1 reference",
+          "inferred from",
+          "Category:Populated places established in 1831",
+          "retrieved"
+        ]
+      }
+    },
+    {
+      "qid": "Q34713",
+      "name": "Salzburg",
+      "revision": "2553147356",
+      "props": {
+        "coordinate location": [
+          "47°48'0\"N, 13°2'42\"E",
+          "0 references",
+          "head of government",
+          "Heinz Schaden",
+          "start time",
+          "30 April 1999",
+          "end time",
+          "20 September 2017"
+        ]
+      }
+    },
+    {
+      "qid": "Q393087",
+      "name": "Żelazowa Wola",
+      "revision": "2518166903",
+      "props": {
+        "coordinate location": [
+          "52°15'N, 20°19'E",
+          "1 reference"
+        ]
+      }
+    },
+    {
+      "qid": "Q1085",
+      "name": "Prague",
+      "revision": "2553308770",
+      "props": {
+        "coordinate location": [
+          "50°5'15\"N, 14°25'17\"E",
+          "0 references",
+          "coordinates of easternmost point",
+          "50°5'13.27\"N, 14°42'24.34\"E",
+          "statement is subject of",
+          "Východní pól Prahy",
+          "0 references",
+          "coordinates of northernmost point"
+        ]
+      }
+    },
+    {
+      "qid": "Q490441",
+      "name": "Concord",
+      "revision": "2497800439",
+      "props": {
+        "coordinate location": [
+          "Image: Map†www.wikidata.org",
+          "37°58'41\"N, 122°1'52\"W",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Persian Wikipedia",
+          "office held by head of government",
+          "Mayor of Concord, California",
+          "0 references"
+        ],
+        "instance of": [
+          "city of California",
+          "0 references",
+          "big city",
+          "0 references",
+          "inception",
+          "1869",
+          "1 reference",
+          "imported from Wikimedia project"
+        ]
+      }
+    },
+    {
+      "qid": "Q1231883",
+      "name": "Walworth",
+      "revision": "2528351368",
+      "props": {
+        "coordinate location": [
+          "51°29'23\"N, 0°5'26\"W",
+          "1 reference",
+          "imported from Wikimedia project",
+          "English Wikipedia",
+          "postal code",
+          "SE1",
+          "0 references",
+          "SE17"
+        ],
+        "instance of": [
+          "area of London",
+          "0 references",
+          "image",
+          "Walworth road.jpg†commons.wikimedia.org",
+          "640 × 480; 125 KB",
+          "0 references",
+          "country",
+          "United Kingdom"
+        ]
+      }
+    },
+    {
+      "qid": "Q1368969",
+      "name": "Leytonstone",
+      "revision": "2517745614",
+      "props": {
+        "coordinate location": [
+          "51°34'8\"N, 0°0'36\"E",
+          "1 reference",
+          "imported from Wikimedia project",
+          "English Wikipedia",
+          "population",
+          "54,696",
+          "1 reference",
+          "imported from Wikimedia project"
+        ],
+        "instance of": [
+          "area of London",
+          "0 references",
+          "image",
+          "Leytonstone High Road Christmas lights, London, England 03.jpg†commons.wikimedia.org",
+          "4,454 × 3,341; 8.98 MB",
+          "0 references",
+          "country",
+          "United Kingdom"
+        ]
+      }
+    },
+    {
+      "qid": "Q43196",
+      "name": "Cincinnati",
+      "revision": "2532756074",
+      "props": {
+        "coordinate location": [
+          "39°6'33\"N, 84°30'42\"W",
+          "0 references",
+          "45203",
+          "coordinate location",
+          "39°6'15\"N, 84°31'44\"W",
+          "0 references",
+          "45204",
+          "coordinate location"
+        ]
+      }
+    },
+    {
+      "qid": "Q272968",
+      "name": "Velia",
+      "revision": "2522089546",
+      "props": {
+        "coordinate location": [
+          "40°9'34\"N, 15°9'16\"E",
+          "1 reference",
+          "imported from Wikimedia project",
+          "Russian Wikipedia",
+          "heritage designation",
+          "part of UNESCO World Heritage Site",
+          "start time",
+          "1998"
+        ],
+        "instance of": [
+          "polis",
+          "1 reference",
+          "stated in",
+          "Inventory of Archaic and Classical Poleis",
+          "Ancient Greek archaeological site",
+          "0 references",
+          "inception",
+          "538 BCE"
+        ]
+      }
+    }
+  ]
+}

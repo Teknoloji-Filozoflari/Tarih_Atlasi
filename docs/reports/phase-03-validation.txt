@@ -1,0 +1,99 @@
+Faz 03 validation — 2026-10-15
+Available Node 26.11.1. Project dependencies not installed.
+Core types use available TypeScript 6.0.3 tool copy; not full Expo/React/MapLibre typecheck.
+
+[unit] $ npm test
+exit=0
+npm notice run tarih-atlasi@0.1.0 test
+npm notice run node tests/run.mjs
+✔ başlangıç kataloğu gerçek veya sentetik tarihî kayıt içermez (0.750256ms)
+✔ ilk dil Türkçedir; uygulama metinleri anahtar yerine görünür metin döndürür (0.207947ms)
+✔ prototip ve boş veri metinleri doğrulanmamış tarihî iddia taşımaz (0.127176ms)
+✔ hata, boş ve yükleme durumlarının farklı başlıkları vardır (0.078807ms)
+✔ tema metin ve düğme renkleri en az 4.5:1 kontrast sağlar (0.226452ms)
+✔ kamera sözleşmesi kutupları kabul eder; sonlu ve sınırlı değerler ister (0.17754ms)
+✔ köprü reset/set komutlarını ve sentetik işareti yönlerine göre doğrular (0.662413ms)
+✔ köprü hatalı JSON, sürüm, oturum, ek anahtar, kod ve büyük UTF-8 yüklerini reddeder (0.332208ms)
+✔ navigasyon yalnız Expo bootstrap dosyası veya geliştirme DOM origin/path kabul eder (0.287585ms)
+✔ fiziksel veri hazırlığı özellikleri atar; yanlış geometrileri ve sınırsız yükü reddeder (0.361552ms)
+✔ unmount temizliği bir kez, ters sırayla çalışır; geç async kaynak ve hata diğer temizliği engellemez (0.169676ms)
+✔ yıl seçimi MÖ 2000/günümüz uçlarını korur; sıfır ve hatalı girdiyi reddeder (0.129932ms)
+✔ küçük/yatay telefon ve büyük metin kompakt düzene döner (0.114363ms)
+✔ beş bağımsız katman renk dışında benzersiz biçim ve Türkçe ada sahiptir (0.090258ms)
+✔ katman işaretleri panel zemini üzerinde 4.5:1 kontrastı korur (0.143177ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8.212504
+
+[core-types] $ node /tmp/tarih-atlasi-tools/typescript/lib/tsc.js --ignoreConfig --noEmit --strict --noUncheckedIndexedAccess --exactOptionalPropertyTypes --allowImportingTsExtensions --target es2022 --module nodenext src/atlas/presentation.ts src/map-contract/protocol.ts src/map-contract/navigation.ts src/map/globe/land.ts src/map/globe/lifecycle.ts src/i18n/index.ts src/theme/tokens.ts src/data/catalog.ts tests/types/i18n.test-d.ts tests/types/globe.test-d.ts
+exit=0
+
+[lint] $ npm run lint
+exit=127
+npm notice run tarih-atlasi@0.1.0 lint
+npm notice run eslint . --max-warnings 0
+sh: line 1: eslint: command not found
+
+[typecheck] $ npm run typecheck
+exit=127
+npm notice run tarih-atlasi@0.1.0 typecheck
+npm notice run tsc --noEmit && tsc --noEmit -p tsconfig.web.json
+sh: line 1: tsc: command not found
+
+[web-smoke-and-snapshots] $ npm run test:web
+exit=127
+npm notice run tarih-atlasi@0.1.0 test:web
+npm notice run playwright test
+sh: line 1: playwright: command not found
+
+[web-export] $ npm run web:export
+exit=127
+npm notice run tarih-atlasi@0.1.0 web:export
+npm notice run expo export --platform web
+sh: line 1: expo: command not found
+
+[android-js-export] $ npm run android:bundle
+exit=127
+npm notice run tarih-atlasi@0.1.0 android:bundle
+npm notice run expo export --platform android --output-dir dist-android
+sh: line 1: expo: command not found
+
+[environment] $ npm run environment:check
+exit=1
+npm notice run tarih-atlasi@0.1.0 environment:check
+npm notice run node scripts/check-environment.mjs
+PASS: Node — v26.11.1
+PASS: npm — 12.2.0
+BLOCKED: Kilit dosyası — Tekrarlanabilir kurulum için package-lock.json gerekli
+BLOCKED: java — komut çalıştırılamadı: ENOENT
+BLOCKED: adb — komut çalıştırılamadı: ENOENT
+BLOCKED: Android SDK — ANDROID_HOME mevcut ve erişilebilir olmalı
+
+[registry recheck]
+$ npm view expo@57.0.29 version --cache /tmp/tarih-atlasi-npm-cache --fetch-retries=0 --fetch-timeout=5000
+exit=1; EAI_AGAIN registry.npmjs.org (checked during this phase).
+
+[not run]
+Physical Android / APK / TalkBack / keyboard / cutouts / rotation / WebGL GPU metrics:
+UNVERIFIED ON DEVICE. GitHub Actions not executed. Browser screenshots and baselines
+not generated: dependencies absent. Layout policy unit tests do not measure actual layout.
+
+[syntax-only]
+Available TypeScript 6.0.3 transpileModule: 51 TS/TSX files, 0 diagnostics.
+exit=0. No dependency stubs; NOT semantic UI typecheck/Metro export.
+
+[format]
+Available Prettier 3.9.9 --check .
+exit=0; all matched files use configured style. Not project installation proof.
+
+[local documentation]
+124 Markdown relative targets checked; 0 missing. exit=0.
+Source scan of src/atlas and active globe view/style/renderer found no duplicated
+hex color literals; shared theme tokens used. rg exit=1 means no matches.
+Snapshot baselines were not generated or approved. The UI suite forces WebGL2
+unavailable; renderer/GPU success remains a separate blocked test suite.

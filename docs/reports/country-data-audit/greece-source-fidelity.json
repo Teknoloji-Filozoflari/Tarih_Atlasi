@@ -1,0 +1,17 @@
+{
+  "sourceArchiveSha256": "e10a4e429fca708788ff9e7572a95fce801fae55852d217cffabc1c59cd4eed4",
+  "sourceFeatureIndex": 13502,
+  "sourceName": "Third Hellenic Republic",
+  "sourceInterval": [
+    1992,
+    2023
+  ],
+  "attribution": "Cliopatria / Seshat Global History Databank v0.2.1 (Bennett et al.), CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Kaynak rekonstrüksiyonu; bağımsız tarihî doğrulama değildir. Halka yönü ve yinelenen ardışık noktalar kayıpsız normalize edildi; kaynak aralıkları korundu.",
+  "normalizedGeometrySha256": "72e9bf539749c5e60edc23a5e3a93bf750385d627943b6a1b28254a6dc862577",
+  "components": 21,
+  "positions": 287,
+  "tangentHolePairs": 2,
+  "sourceVertexMultisetUnchanged": true,
+  "sourceUndirectedEdgeMultisetUnchanged": true,
+  "geometryScope": "Source fidelity and bounded per-polygon validity; not independent historical boundary certification."
+}

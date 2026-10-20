@@ -1,0 +1,350 @@
+{
+  "status": "unverified-editorial-date-token-extraction",
+  "events": [
+    {
+      "qid": "Q48314",
+      "title": "Battle of Waterloo",
+      "url": "https://www.wikidata.org/wiki/Q48314",
+      "lines": 987,
+      "revision": "2553231867",
+      "point": "18 June 1815^{Gregorian}",
+      "start": null,
+      "end": null,
+      "coordinate": "50°40'41\"N, 4°24'44\"E",
+      "trwiki": {
+        "link": 308,
+        "title": "Waterloo Muharebesi"
+      }
+    },
+    {
+      "qid": "Q33132",
+      "title": "Battle of Gettysburg",
+      "url": "https://www.wikidata.org/wiki/Q33132",
+      "lines": 735,
+      "revision": "2516859704",
+      "point": "1887",
+      "start": "1 July 1863^{Gregorian}",
+      "end": "3 July 1863^{Gregorian}",
+      "coordinate": "39°48'41\"N, 77°13'33\"W",
+      "trwiki": {
+        "link": 219,
+        "title": "Gettysburg Muharebesi"
+      }
+    },
+    {
+      "qid": "Q173077",
+      "title": "Battle of Tours",
+      "url": "https://www.wikidata.org/wiki/Q173077",
+      "lines": 601,
+      "revision": "2515155232",
+      "point": "10 October 732",
+      "start": null,
+      "end": null,
+      "coordinate": "46°59'15.4\"N, 0°32'3.8\"E",
+      "trwiki": {
+        "link": 186,
+        "title": "Puvatya Muharebesi"
+      }
+    },
+    {
+      "qid": "Q134114",
+      "title": "Battle of Austerlitz",
+      "url": "https://www.wikidata.org/wiki/Q134114",
+      "lines": 816,
+      "revision": "2549935995",
+      "point": "2 December 1805^{Gregorian}",
+      "start": null,
+      "end": null,
+      "coordinate": "49°7'41\"N, 16°45'45\"E",
+      "trwiki": {
+        "link": 259,
+        "title": "Austerlitz Muharebesi"
+      }
+    },
+    {
+      "qid": "Q165425",
+      "title": "Battle of Lepanto",
+      "url": "https://www.wikidata.org/wiki/Q165425",
+      "lines": 849,
+      "revision": "2555948907",
+      "point": "7 October 1571",
+      "start": null,
+      "end": null,
+      "coordinate": "38°12'N, 21°18'E",
+      "trwiki": {
+        "link": 256,
+        "title": "İnebahtı Deniz Muharebesi"
+      }
+    },
+    {
+      "qid": "Q200855",
+      "title": "Battle of Vienna",
+      "url": "https://www.wikidata.org/wiki/Q200855",
+      "lines": 568,
+      "revision": "2517740306",
+      "point": "12 September 1683^{Gregorian}",
+      "start": null,
+      "end": null,
+      "coordinate": "48°14'6\"N, 16°20'6\"E",
+      "trwiki": {
+        "link": 189,
+        "title": "II. Viyana Kuşatması"
+      }
+    },
+    {
+      "qid": "Q207576",
+      "title": "First Turkish Siege of Vienna",
+      "url": "https://www.wikidata.org/wiki/Q207576",
+      "lines": 463,
+      "revision": "2527977134",
+      "point": null,
+      "start": "27 September 1529",
+      "end": "15 October 1529",
+      "coordinate": "48°11'N, 16°23'E",
+      "trwiki": {
+        "link": 149,
+        "title": "I. Viyana Kuşatması"
+      }
+    },
+    {
+      "qid": "Q74623",
+      "title": "Great Turkish War",
+      "url": "https://www.wikidata.org/wiki/Q74623",
+      "lines": 439,
+      "revision": "2538307764",
+      "point": "31 October 2022",
+      "start": "1683",
+      "end": "1699",
+      "coordinate": null,
+      "trwiki": {
+        "link": 147,
+        "title": "Osmanlı-Kutsal İttifak savaşları"
+      }
+    },
+    {
+      "qid": "Q8736",
+      "title": "Treaty of Versailles",
+      "url": "https://www.wikidata.org/wiki/Q8736",
+      "lines": 1508,
+      "revision": "2544182115",
+      "point": "28 June 1919^{Gregorian}",
+      "start": "10 January 1920^{Gregorian}",
+      "end": "5 June 2017",
+      "coordinate": null,
+      "trwiki": {
+        "link": 397,
+        "title": "Versay Barış Antlaşması"
+      }
+    },
+    {
+      "qid": "Q6534",
+      "title": "French Revolution",
+      "url": "https://www.wikidata.org/wiki/Q6534",
+      "lines": 1393,
+      "revision": "2556487552",
+      "point": "5 May 1789^{Gregorian}",
+      "start": "14 July 1789^{Gregorian}",
+      "end": "9 November 1799^{Gregorian}",
+      "coordinate": null,
+      "trwiki": {
+        "link": 470,
+        "title": "Fransız Devrimi"
+      }
+    },
+    {
+      "qid": "Q192769",
+      "title": "American Revolution",
+      "url": "https://www.wikidata.org/wiki/Q192769",
+      "lines": 667,
+      "revision": "2507703175",
+      "point": "22 March 1763^{Gregorian}",
+      "start": "1775",
+      "end": "1783",
+      "coordinate": null,
+      "trwiki": {
+        "link": 214,
+        "title": "Amerikan Devrimi"
+      }
+    },
+    {
+      "qid": "Q40949",
+      "title": "American Revolutionary War",
+      "url": "https://www.wikidata.org/wiki/Q40949",
+      "lines": 1048,
+      "revision": "2558301562",
+      "point": "1783",
+      "start": "19 April 1775^{Gregorian}",
+      "end": "3 September 1783^{Gregorian}",
+      "coordinate": null,
+      "trwiki": {
+        "link": 338,
+        "title": "Amerikan Bağımsızlık Savaşı"
+      }
+    },
+    {
+      "qid": "Q8729",
+      "title": "Russian Revolution",
+      "url": "https://www.wikidata.org/wiki/Q8729",
+      "lines": 721,
+      "revision": "2521226000",
+      "point": "1917",
+      "start": null,
+      "end": null,
+      "coordinate": null,
+      "trwiki": {
+        "link": 259,
+        "title": "Rus Devrimi (1917)"
+      }
+    },
+    {
+      "qid": "Q184928",
+      "title": "Russian Revolution of 1905",
+      "url": "https://www.wikidata.org/wiki/Q184928",
+      "lines": 601,
+      "revision": "2478256355",
+      "point": "22 January 1905^{Gregorian}",
+      "start": "0 references",
+      "end": "16 June 1907^{Gregorian}",
+      "coordinate": null,
+      "trwiki": {
+        "link": 204,
+        "title": "Rus Devrimi (1905)"
+      }
+    },
+    {
+      "qid": "Q2487",
+      "title": "Thirty Years' War",
+      "url": "https://www.wikidata.org/wiki/Q2487",
+      "lines": 1301,
+      "revision": "2543178530",
+      "point": "31 October 2022",
+      "start": "1618",
+      "end": "17 June 2017",
+      "coordinate": null,
+      "trwiki": {
+        "link": 418,
+        "title": "Otuz Yıl Savaşı"
+      }
+    },
+    {
+      "qid": "Q12551",
+      "title": "Hundred Years' War",
+      "url": "https://www.wikidata.org/wiki/Q12551",
+      "lines": 1146,
+      "revision": "2537061208",
+      "point": "31 October 2022",
+      "start": "24 May 1337",
+      "end": "5 June 2017",
+      "coordinate": null,
+      "trwiki": {
+        "link": 361,
+        "title": "Yüz Yıl Savaşı"
+      }
+    },
+    {
+      "qid": "Q154697",
+      "title": "French and Indian War",
+      "url": "https://www.wikidata.org/wiki/Q154697",
+      "lines": 691,
+      "revision": "2538319703",
+      "point": "31 October 2022",
+      "start": "28 May 1754^{Gregorian}",
+      "end": "7 October 1763^{Gregorian}",
+      "coordinate": null,
+      "trwiki": {
+        "link": 218,
+        "title": "Fransız-Kızılderili Savaşı"
+      }
+    },
+    {
+      "qid": "Q78994",
+      "title": "Napoleonic Wars",
+      "url": "https://www.wikidata.org/wiki/Q78994",
+      "lines": 946,
+      "revision": "2517494320",
+      "point": "31 October 2022",
+      "start": "1803",
+      "end": "1815",
+      "coordinate": null,
+      "trwiki": {
+        "link": 278,
+        "title": "Napolyon Savaşları"
+      }
+    },
+    {
+      "qid": "Q8676",
+      "title": "American Civil War",
+      "url": "https://www.wikidata.org/wiki/Q8676",
+      "lines": 1791,
+      "revision": "2541996953",
+      "point": "12 April 1865^{Gregorian}",
+      "start": "12 April 1861^{Gregorian}",
+      "end": "9 April 1865^{Gregorian}",
+      "coordinate": null,
+      "trwiki": {
+        "link": 509,
+        "title": "Amerikan İç Savaşı"
+      }
+    },
+    {
+      "qid": "Q8663",
+      "title": "Korean War",
+      "url": "https://www.wikidata.org/wiki/Q8663",
+      "lines": 1694,
+      "revision": "2531404543",
+      "point": "31 October 2022",
+      "start": "25 June 1950",
+      "end": "imported from Wikimedia project",
+      "coordinate": null,
+      "trwiki": {
+        "link": 430,
+        "title": "Kore Savaşı"
+      }
+    },
+    {
+      "qid": "Q8740",
+      "title": "Vietnam War",
+      "url": "https://www.wikidata.org/wiki/Q8740",
+      "lines": 1523,
+      "revision": "2549643027",
+      "point": "30 April 1975",
+      "start": "1 November 1955",
+      "end": "30 April 1975",
+      "coordinate": null,
+      "trwiki": {
+        "link": 431,
+        "title": "Vietnam Savaşı"
+      }
+    },
+    {
+      "qid": "Q6271",
+      "title": "Second Punic War",
+      "url": "https://www.wikidata.org/wiki/Q6271",
+      "lines": 729,
+      "revision": "2530805085",
+      "point": null,
+      "start": "218 BCE^{Gregorian}",
+      "end": "201 BCE^{Gregorian}",
+      "coordinate": null,
+      "trwiki": {
+        "link": 239,
+        "title": "İkinci Pön Savaşı"
+      }
+    },
+    {
+      "qid": "Q184425",
+      "title": "Pacific War",
+      "url": "https://www.wikidata.org/wiki/Q184425",
+      "lines": 733,
+      "revision": "2504064701",
+      "point": "31 October 2022",
+      "start": "7 December 1941",
+      "end": "2 September 1945",
+      "coordinate": null,
+      "trwiki": {
+        "link": 198,
+        "title": "Pasifik Cephesi (II. Dünya Savaşı)"
+      }
+    }
+  ]
+}

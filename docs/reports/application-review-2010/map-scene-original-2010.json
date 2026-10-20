@@ -1,0 +1,383 @@
+{
+  "year": 2010,
+  "summary": {
+    "total": 191,
+    "drawn": 179,
+    "withheld": 12,
+    "unknownDateRows": 6,
+    "sourceEndYear": 2024
+  },
+  "drawnFeatures": 192,
+  "withheld": [
+    {
+      "index": 11956,
+      "name": "Netherlands Antilles",
+      "reason": "SOURCE_IDENTITY_DATE_OR_POLITY_SCOPE_REVIEW"
+    },
+    {
+      "index": 13215,
+      "name": "Federal Republic of Somalia",
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW"
+    },
+    {
+      "index": 13234,
+      "name": "Mali Federation",
+      "reason": "SOURCE_IDENTITY_DATE_OR_POLITY_SCOPE_REVIEW"
+    },
+    {
+      "index": 13239,
+      "name": "Republic of Chad",
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 13305,
+      "name": "Kingdom of Great Britain",
+      "reason": "SOURCE_IDENTITY_DATE_OR_POLITY_SCOPE_REVIEW"
+    },
+    {
+      "index": 13327,
+      "name": "Kingdom of Bahrain",
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW"
+    },
+    {
+      "index": 13369,
+      "name": "People's Republic of Angola",
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW"
+    },
+    {
+      "index": 13374,
+      "name": "Republic of Tunisia",
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 13400,
+      "name": "Eswatini",
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW"
+    },
+    {
+      "index": 13406,
+      "name": "Estado Novo",
+      "reason": "SOURCE_IDENTITY_DATE_OR_POLITY_SCOPE_REVIEW"
+    },
+    {
+      "index": 13558,
+      "name": "(Commonwealth of Nations)",
+      "reason": "SOURCE_IDENTITY_DATE_OR_POLITY_SCOPE_REVIEW"
+    },
+    {
+      "index": 13580,
+      "name": "Libyan Arab Republic",
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW"
+    }
+  ],
+  "duplicateGeometryPairs": [
+    [
+      "world:clio-r13116",
+      "world:clio-r13120"
+    ]
+  ],
+  "gridScope": "Visual overlap probes only; points are sampling grid, not historical evidence",
+  "overlapSampleCount": 37,
+  "samples": [
+    {
+      "point": [
+        4,
+        20
+      ],
+      "hits": [
+        {
+          "id": "world:clio-r13247",
+          "label": "Fransa Beşinci Cumhuriyeti",
+          "color": "hsl(199, 38%, 28%)"
+        },
+        {
+          "id": "world:clio-r13365",
+          "label": "Cezayir Demokratik Halk Cumhuriyeti",
+          "color": "hsl(216, 38%, 30%)"
+        }
+      ]
+    },
+    {
+      "point": [
+        6,
+        20
+      ],
+      "hits": [
+        {
+          "id": "world:clio-r13247",
+          "label": "Fransa Beşinci Cumhuriyeti",
+          "color": "hsl(199, 38%, 28%)"
+        },
+        {
+          "id": "world:clio-r13365",
+          "label": "Cezayir Demokratik Halk Cumhuriyeti",
+          "color": "hsl(216, 38%, 30%)"
+        }
+      ]
+    },
+    {
+      "point": [
+        0,
+        22
+      ],
+      "hits": [
+        {
+          "id": "world:clio-r13247",
+          "label": "Fransa Beşinci Cumhuriyeti",
+          "color": "hsl(199, 38%, 28%)"
+        },
+        {
+          "id": "world:clio-r13365",
+          "label": "Cezayir Demokratik Halk Cumhuriyeti",
+          "color": "hsl(216, 38%, 30%)"
+        }
+      ]
+    },
+    {
+      "point": [
+        2,
+        22
+      ],
+      "hits": [
+        {
+          "id": "world:clio-r13247",
+          "label": "Fransa Beşinci Cumhuriyeti",
+          "color": "hsl(199, 38%, 28%)"
+        },
+        {
+          "id": "world:clio-r13365",
+          "label": "Cezayir Demokratik Halk Cumhuriyeti",
+          "color": "hsl(216, 38%, 30%)"
+        }
+      ]
+    },
+    {
+      "point": [
+        4,
+        22
+      ],
+      "hits": [
+        {
+          "id": "world:clio-r13247",
+          "label": "Fransa Beşinci Cumhuriyeti",
+          "color": "hsl(199, 38%, 28%)"
+        },
+        {
+          "id": "world:clio-r13365",
+          "label": "Cezayir Demokratik Halk Cumhuriyeti",
+          "color": "hsl(216, 38%, 30%)"
+        }
+      ]
+    },
+    {
+      "point": [
+        6,
+        22
+      ],
+      "hits": [
+        {
+          "id": "world:clio-r13247",
+          "label": "Fransa Beşinci Cumhuriyeti",
+          "color": "hsl(199, 38%, 28%)"
+        },
+        {
+          "id": "world:clio-r13365",
+          "label": "Cezayir Demokratik Halk Cumhuriyeti",
+          "color": "hsl(216, 38%, 30%)"
+        }
+      ]
+    },
+    {
+      "point": [
+        8,
+        22
+      ],
+      "hits": [
+        {
+          "id": "world:clio-r13247",
+          "label": "Fransa Beşinci Cumhuriyeti",
+          "color": "hsl(199, 38%, 28%)"
+        },
+        {
+          "id": "world:clio-r13365",
+          "label": "Cezayir Demokratik Halk Cumhuriyeti",
+          "color": "hsl(216, 38%, 30%)"
+        }
+      ]
+    },
+    {
+      "point": [
+        0,
+        24
+      ],
+      "hits": [
+        {
+          "id": "world:clio-r13247",
+          "label": "Fransa Beşinci Cumhuriyeti",
+          "color": "hsl(199, 38%, 28%)"
+        },
+        {
+          "id": "world:clio-r13365",
+          "label": "Cezayir Demokratik Halk Cumhuriyeti",
+          "color": "hsl(216, 38%, 30%)"
+        }
+      ]
+    },
+    {
+      "point": [
+        2,
+        24
+      ],
+      "hits": [
+        {
+          "id": "world:clio-r13247",
+          "label": "Fransa Beşinci Cumhuriyeti",
+          "color": "hsl(199, 38%, 28%)"
+        },
+        {
+          "id": "world:clio-r13365",
+          "label": "Cezayir Demokratik Halk Cumhuriyeti",
+          "color": "hsl(216, 38%, 30%)"
+        }
+      ]
+    },
+    {
+      "point": [
+        4,
+        24
+      ],
+      "hits": [
+        {
+          "id": "world:clio-r13247",
+          "label": "Fransa Beşinci Cumhuriyeti",
+          "color": "hsl(199, 38%, 28%)"
+        },
+        {
+          "id": "world:clio-r13365",
+          "label": "Cezayir Demokratik Halk Cumhuriyeti",
+          "color": "hsl(216, 38%, 30%)"
+        }
+      ]
+    },
+    {
+      "point": [
+        6,
+        24
+      ],
+      "hits": [
+        {
+          "id": "world:clio-r13247",
+          "label": "Fransa Beşinci Cumhuriyeti",
+          "color": "hsl(199, 38%, 28%)"
+        },
+        {
+          "id": "world:clio-r13365",
+          "label": "Cezayir Demokratik Halk Cumhuriyeti",
+          "color": "hsl(216, 38%, 30%)"
+        }
+      ]
+    },
+    {
+      "point": [
+        8,
+        24
+      ],
+      "hits": [
+        {
+          "id": "world:clio-r13247",
+          "label": "Fransa Beşinci Cumhuriyeti",
+          "color": "hsl(199, 38%, 28%)"
+        },
+        {
+          "id": "world:clio-r13365",
+          "label": "Cezayir Demokratik Halk Cumhuriyeti",
+          "color": "hsl(216, 38%, 30%)"
+        }
+      ]
+    },
+    {
+      "point": [
+        10,
+        24
+      ],
+      "hits": [
+        {
+          "id": "world:clio-r13247",
+          "label": "Fransa Beşinci Cumhuriyeti",
+          "color": "hsl(199, 38%, 28%)"
+        },
+        {
+          "id": "world:clio-r13365",
+          "label": "Cezayir Demokratik Halk Cumhuriyeti",
+          "color": "hsl(216, 38%, 30%)"
+        }
+      ]
+    },
+    {
+      "point": [
+        0,
+        26
+      ],
+      "hits": [
+        {
+          "id": "world:clio-r13247",
+          "label": "Fransa Beşinci Cumhuriyeti",
+          "color": "hsl(199, 38%, 28%)"
+        },
+        {
+          "id": "world:clio-r13365",
+          "label": "Cezayir Demokratik Halk Cumhuriyeti",
+          "color": "hsl(216, 38%, 30%)"
+        }
+      ]
+    },
+    {
+      "point": [
+        2,
+        26
+      ],
+      "hits": [
+        {
+          "id": "world:clio-r13247",
+          "label": "Fransa Beşinci Cumhuriyeti",
+          "color": "hsl(199, 38%, 28%)"
+        },
+        {
+          "id": "world:clio-r13365",
+          "label": "Cezayir Demokratik Halk Cumhuriyeti",
+          "color": "hsl(216, 38%, 30%)"
+        }
+      ]
+    }
+  ],
+  "focus": [
+    {
+      "id": "atlas:clio-r13424-area-0",
+      "entityId": "atlas:clio-r13424",
+      "label": "Mısır",
+      "color": "hsl(176, 38%, 33%)",
+      "points": 4803
+    },
+    {
+      "id": "world:clio-r13250",
+      "entityId": "world:clio-ea9e27b3067dd72b30361df8d",
+      "label": "Nijer Cumhuriyeti",
+      "color": "hsl(198, 38%, 33%)",
+      "points": 3265
+    },
+    {
+      "id": "world:clio-r13304",
+      "entityId": "world:clio-eae241fbd61d83018b36da318",
+      "label": "Nijerya Federal Cumhuriyeti",
+      "color": "hsl(204, 38%, 32%)",
+      "points": 4137
+    },
+    {
+      "id": "world:clio-r13528",
+      "entityId": "world:clio-e84b7b105db912cd164a719f1",
+      "label": "Sudan Cumhuriyeti",
+      "color": "hsl(14, 38%, 28%)",
+      "points": 6602
+    }
+  ]
+}

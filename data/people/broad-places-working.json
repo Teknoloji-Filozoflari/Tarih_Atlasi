@@ -1,0 +1,398 @@
+[
+  {
+    "qid": "Q18424",
+    "name": "Queens",
+    "revision": "2547093208",
+    "props": {
+      "coordinate location": ["40°42'49\"N, 73°49'41\"W"]
+    }
+  },
+  {
+    "qid": "Q1741",
+    "name": "Vienna",
+    "revision": "2553605752",
+    "props": {
+      "coordinate location": ["48°12'30\"N, 16°22'21\"E"]
+    }
+  },
+  {
+    "qid": "Q1799",
+    "name": "Wrocław",
+    "revision": "2556914691",
+    "props": {
+      "coordinate location": ["51°6'36\"N, 17°1'57\"E"]
+    }
+  },
+  {
+    "qid": "Q4120832",
+    "name": "Königsberg",
+    "revision": "2550191436",
+    "props": {
+      "coordinate location": ["54°42'41.3\"N, 20°30'33.5\"E"]
+    }
+  },
+  {
+    "qid": "Q1022",
+    "name": "Stuttgart",
+    "revision": "2550423669",
+    "props": {
+      "coordinate location": ["48°46'39\"N, 9°10'48\"E"]
+    }
+  },
+  {
+    "qid": "Q529879",
+    "name": "Röcken",
+    "revision": "2518390209",
+    "props": {
+      "coordinate location": ["51°14'27\"N, 12°6'58\"E"]
+    }
+  },
+  {
+    "qid": "Q1198112",
+    "name": "Youxi County",
+    "revision": "2526577844",
+    "props": {
+      "coordinate location": ["26°10'21\"N, 118°11'5\"E"]
+    }
+  },
+  {
+    "qid": "Q65",
+    "name": "Los Angeles",
+    "revision": "2555424668",
+    "props": {
+      "coordinate location": ["34°3'30\"N, 118°18'15\"W"]
+    }
+  },
+  {
+    "qid": "Q2079",
+    "name": "Leipzig",
+    "revision": "2549187309",
+    "props": {
+      "coordinate location": ["51°20'26.2756\"N, 12°22'29.0384\"E"]
+    }
+  },
+  {
+    "qid": "Q728412",
+    "name": "Sabaneta",
+    "revision": "2451012044",
+    "props": {
+      "coordinate location": ["Image: Map†www.wikidata.org"]
+    }
+  },
+  {
+    "qid": "Q23556",
+    "name": "Atlanta",
+    "revision": "2539498040",
+    "props": {
+      "coordinate location": ["33°45'16\"N, 84°23'23\"W"]
+    }
+  },
+  {
+    "qid": "Q384",
+    "name": "Skopje",
+    "revision": "2557483951",
+    "props": {
+      "coordinate location": ["41°59'46\"N, 21°25'54\"E"]
+    }
+  },
+  {
+    "qid": "Q31356",
+    "name": "Mingora",
+    "revision": "2466395197",
+    "props": {
+      "coordinate location": ["34°46'18\"N, 72°21'36\"E"]
+    }
+  },
+  {
+    "qid": "Q4700601",
+    "name": "Popowo",
+    "revision": "2512681620",
+    "props": {
+      "coordinate location": ["52°42'0\"N, 19°24'27\"E"]
+    }
+  },
+  {
+    "qid": "Q85",
+    "name": "Cairo",
+    "revision": "2558525825",
+    "props": {
+      "coordinate location": ["30°2'40\"N, 31°14'9\"E"]
+    }
+  },
+  {
+    "qid": "Q5885537",
+    "name": "Holy Father John Paul II Family Home in Wadowice",
+    "revision": "2494672224",
+    "props": {
+      "coordinate location": ["Image: Map†www.wikidata.org"]
+    }
+  },
+  {
+    "qid": "Q643907",
+    "name": "Flores",
+    "revision": "2506723378",
+    "props": {
+      "coordinate location": ["34°38'S, 58°28'W"]
+    }
+  },
+  {
+    "qid": "Q2348968",
+    "name": "Birth house of Benedict XVI",
+    "props": {
+      "coordinate location": []
+    }
+  },
+  {
+    "qid": "Q426534",
+    "name": "Taktser",
+    "props": {
+      "coordinate location": []
+    }
+  },
+  {
+    "qid": "Q5818",
+    "name": "Córdoba",
+    "revision": "2536554497",
+    "props": {
+      "coordinate location": ["37°53'24\"N, 4°46'48\"W"]
+    }
+  },
+  {
+    "qid": "Q681427",
+    "name": "Tus",
+    "revision": "2522091729",
+    "props": {
+      "coordinate location": ["36°29'10\"N, 59°31'3\"E"]
+    }
+  },
+  {
+    "qid": "Q182159",
+    "name": "Balkh",
+    "revision": "2528712754",
+    "props": {
+      "coordinate location": ["36°45'29\"N, 66°53'56\"E"]
+    }
+  },
+  {
+    "qid": "Q182647",
+    "name": "Khwarazm",
+    "revision": "2552977280",
+    "props": {
+      "coordinate location": ["42°18'N, 59°9'E"]
+    }
+  },
+  {
+    "qid": "Q649",
+    "name": "Moscow",
+    "revision": "2558575480",
+    "props": {
+      "coordinate location": ["55°45'2\"N, 37°37'3\"E"]
+    }
+  },
+  {
+    "qid": "Q1231836",
+    "name": "Steventon",
+    "revision": "2488092329",
+    "props": {
+      "coordinate location": ["Image: Map†www.wikidata.org"]
+    }
+  },
+  {
+    "qid": "Q13580795",
+    "name": "Samos",
+    "revision": "2485121816",
+    "props": {
+      "coordinate location": ["Image: Map†www.wikidata.org"]
+    }
+  },
+  {
+    "qid": "Q187027",
+    "name": "Kos",
+    "revision": "2555307206",
+    "props": {
+      "coordinate location": ["36°48'55\"N, 27°6'37\"E"]
+    }
+  },
+  {
+    "qid": "Q3607380",
+    "name": "Akragas",
+    "revision": "2516927432",
+    "props": {
+      "coordinate location": ["37°17'44\"N, 13°35'42\"E"]
+    }
+  },
+  {
+    "qid": "Q47611",
+    "name": "Ephesus",
+    "revision": "2555485600",
+    "props": {
+      "coordinate location": ["37°56'26\"N, 27°20'22\"E"]
+    }
+  },
+  {
+    "qid": "Q485708",
+    "name": "Duluth",
+    "revision": "2530088140",
+    "props": {
+      "coordinate location": ["46°47'4\"N, 92°6'19\"W"]
+    }
+  },
+  {
+    "qid": "Q23154",
+    "name": "Bristol",
+    "revision": "2555593355",
+    "props": {
+      "coordinate location": ["51°27'13\"N, 2°35'51\"W"]
+    }
+  },
+  {
+    "qid": "Q1794",
+    "name": "Frankfurt",
+    "revision": "2550411186",
+    "props": {
+      "coordinate location": ["50°6'38\"N, 8°40'56\"E"]
+    }
+  },
+  {
+    "qid": "Q33486",
+    "name": "Hartford",
+    "revision": "2553735088",
+    "props": {
+      "coordinate location": ["41°45'48\"N, 72°41'6\"W"]
+    }
+  },
+  {
+    "qid": "Q18023391",
+    "name": "Lindener Marktplatz 2, Hannover",
+    "revision": "2254429270",
+    "props": {
+      "coordinate location": ["52°22'0.397\"N, 9°42'53.780\"E"]
+    }
+  },
+  {
+    "qid": "Q3057926",
+    "name": "Trellech",
+    "props": {
+      "coordinate location": []
+    }
+  },
+  {
+    "qid": "Q1026616",
+    "name": "Jhang",
+    "revision": "2500664885",
+    "props": {
+      "coordinate location": ["31°16'5\"N, 72°19'5\"E"]
+    }
+  },
+  {
+    "qid": "Q207754",
+    "name": "Tiruchirappalli",
+    "revision": "2532470914",
+    "props": {
+      "coordinate location": ["10°49'37\"N, 78°41'34\"E"]
+    }
+  },
+  {
+    "qid": "Q2222874",
+    "name": "Zanzibar City",
+    "revision": "2532331767",
+    "props": {
+      "coordinate location": ["6°10'S, 39°12'E"]
+    }
+  },
+  {
+    "qid": "Q609698",
+    "name": "Lorain",
+    "revision": "2447291796",
+    "props": {
+      "coordinate location": ["41°26'54\"N, 82°10'8\"W"]
+    }
+  },
+  {
+    "qid": "Q38234",
+    "name": "Nagasaki",
+    "revision": "2530487314",
+    "props": {
+      "coordinate location": ["32°44'58.3\"N, 129°52'46.7\"E"]
+    }
+  },
+  {
+    "qid": "Q6936880",
+    "name": "Munsieville",
+    "props": {
+      "coordinate location": []
+    }
+  },
+  {
+    "qid": "Q487921",
+    "name": "Calw",
+    "revision": "2516731841",
+    "props": {
+      "coordinate location": ["48°42'52\"N, 8°44'15\"E"]
+    }
+  },
+  {
+    "qid": "Q2247131",
+    "name": "Bollington",
+    "revision": "2459240105",
+    "props": {
+      "coordinate location": ["53°17'53\"N, 2°5'35\"W"]
+    }
+  },
+  {
+    "qid": "Q624492",
+    "name": "Aracataca",
+    "revision": "2530498627",
+    "props": {
+      "coordinate location": ["10°35'28\"N, 74°11'6\"W"]
+    }
+  },
+  {
+    "qid": "Q100276507",
+    "name": "St. Mary's Hospital",
+    "revision": "2497438750",
+    "props": {
+      "coordinate location": ["41°23'41.31848\"N, 75°39'22.32796\"W"]
+    }
+  },
+  {
+    "qid": "Q97354861",
+    "name": "Jamaica Hospital Medical Center",
+    "revision": "2511654045",
+    "props": {
+      "coordinate location": ["40°42'1.8\"N, 73°48'57.6\"W"]
+    }
+  },
+  {
+    "qid": "Q739428",
+    "name": "Milton",
+    "revision": "2530501637",
+    "props": {
+      "coordinate location": ["42°15'0\"N, 71°4'0\"W"]
+    }
+  },
+  {
+    "qid": "Q3926",
+    "name": "Pretoria",
+    "revision": "2506596407",
+    "props": {
+      "coordinate location": ["25°44'47\"S, 28°11'17\"E"]
+    }
+  },
+  {
+    "qid": "Q656",
+    "name": "Saint Petersburg",
+    "revision": "2548934371",
+    "props": {
+      "coordinate location": ["59°57'N, 30°19'E"]
+    }
+  },
+  {
+    "qid": "Q6366688",
+    "name": "Kapiolani Medical Center for Women and Children",
+    "revision": "2541747542",
+    "props": {
+      "coordinate location": ["21°17'59.4341\"N, 157°50'0.4528\"W"]
+    }
+  }
+]

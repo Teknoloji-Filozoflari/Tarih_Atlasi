@@ -1,0 +1,17 @@
+GeoNames geographical database — https://www.geonames.org/
+License: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+Source: https://download.geonames.org/export/dump/readme.txt
+Review date: 2026-10-18
+
+The global GeoNames dump has NOT been downloaded or bundled in this workspace yet.
+The optional pipeline selects contemporary settlement and ADM1-ADM4 representative
+points; joins administrative names by source codes; preserves source names and
+coordinates; splits records by spatial cell/LOD. No historical validity, district
+polygons, guessed Wikipedia URLs, machine translation or exhaustive inventory.
+Data is provided as is without completeness, accuracy or timeliness warranty.
+
+When installed, source receipts, SHA256, dates, exact coverage and snapshot-specific
+NOTICE.txt are in src/places/generated/world. Attribution stays accessible even
+with the layer hidden. GeoNames CC BY4.0 is separate from MIT code, Wikidata CC0
+and Wikipedia/Commons article/media rights.

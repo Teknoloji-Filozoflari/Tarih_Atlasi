@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-17",
+  "scope": "Actual CShapes input schema support and research inventory",
+  "productionDataChanged": false,
+  "realInputInspected": true,
+  "publisherOriginAuthenticated": false,
+  "productionAllowed": false,
+  "android": "UNVERIFIED ON DEVICE",
+  "screenshots": 0,
+  "checks": [
+    {
+      "command": "git status --short",
+      "status": "BLOCKED",
+      "exitCode": 128,
+      "reason": "No Git worktree visible; no destructive operation"
+    },
+    {
+      "command": "npm run cshapes:inspect",
+      "status": "PASS_WITH_DATA_REVIEW",
+      "exitCode": 0,
+      "year": 2000,
+      "features": 710,
+      "recognizedSchemaRows": 710,
+      "candidates": 179,
+      "geometryPassed": 176,
+      "geometryReview": 3,
+      "productionAllowed": false,
+      "log": "inspect-2000.log"
+    },
+    {
+      "command": "npm run cshapes:inspect (repeat)",
+      "status": "PASS_WITH_DATA_REVIEW",
+      "exitCode": 0,
+      "log": "inspect-2000-repeat.log"
+    },
+    {
+      "command": "npm run cshapes:inspect -- --year 2026",
+      "status": "PASS_WITH_DATA_REVIEW",
+      "exitCode": 0,
+      "candidates": 0,
+      "productionAllowed": false,
+      "log": "inspect-2026.log"
+    },
+    {
+      "command": "Node source SHA, old v1 report availability, deterministic output and 2026 assertions",
+      "status": "PASS",
+      "exitCode": 0,
+      "log": "integrity-proof.json"
+    },
+    {
+      "command": "npm run lint",
+      "status": "PASS",
+      "exitCode": 0,
+      "log": "lint.log"
+    },
+    {
+      "command": "npm run typecheck",
+      "status": "PASS",
+      "exitCode": 0,
+      "scope": "strict native and web TypeScript",
+      "log": "typecheck.log"
+    },
+    {
+      "command": "npm test",
+      "status": "PASS",
+      "exitCode": 0,
+      "tests": 293,
+      "failed": 0,
+      "skipped": 0,
+      "log": "unit.log"
+    },
+    {
+      "command": "npm run test:worker",
+      "status": "PASS",
+      "exitCode": 0,
+      "tests": 5,
+      "failed": 0,
+      "log": "worker.log"
+    },
+    {
+      "command": "npm run world:check",
+      "status": "PASS",
+      "exitCode": 0,
+      "sourcePoliticalRows": 13379,
+      "assets": 374,
+      "bytes": 120664555,
+      "log": "world-check.log"
+    },
+    {
+      "command": "npm run format:check",
+      "status": "PASS",
+      "exitCode": 0,
+      "log": "format.log"
+    },
+    {
+      "command": "Web/Android build, browser E2E, visual inspection and real device",
+      "status": "NOT_TESTED",
+      "reason": "Local ETL inspection change; runtime unchanged, no device claim"
+    }
+  ]
+}

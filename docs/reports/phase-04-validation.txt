@@ -1,0 +1,78 @@
+npm notice run tarih-atlasi@0.1.0 check
+npm notice run npm run lint && npm run typecheck && npm test && npm run test:worker && npm run globe:check && npm run format:check
+npm notice run tarih-atlasi@0.1.0 lint
+npm notice run eslint . --max-warnings 0
+npm notice run tarih-atlasi@0.1.0 typecheck
+npm notice run tsc --noEmit && tsc --noEmit -p tsconfig.web.json
+npm notice run tarih-atlasi@0.1.0 test
+npm notice run node tests/run.mjs
+✔ başlangıç kataloğu gerçek veya sentetik tarihî kayıt içermez (1.030685ms)
+✔ ilk dil Türkçedir; uygulama metinleri anahtar yerine görünür metin döndürür (0.221191ms)
+✔ prototip ve boş veri metinleri doğrulanmamış tarihî iddia taşımaz (0.149968ms)
+✔ hata, boş ve yükleme durumlarının farklı başlıkları vardır (0.082673ms)
+✔ tema metin ve düğme renkleri en az 4.5:1 kontrast sağlar (0.223094ms)
+✔ kamera sözleşmesi kutupları kabul eder; sonlu ve sınırlı değerler ister (0.211363ms)
+✔ köprü reset/set komutlarını ve sentetik işareti yönlerine göre doğrular (0.717302ms)
+✔ köprü hatalı JSON, sürüm, oturum, ek anahtar, kod ve büyük UTF-8 yüklerini reddeder (0.372221ms)
+✔ navigasyon yalnız Expo bootstrap dosyası veya geliştirme DOM origin/path kabul eder (0.278066ms)
+✔ fiziksel veri hazırlığı özellikleri atar; yanlış geometrileri ve sınırsız yükü reddeder (0.373594ms)
+✔ unmount temizliği bir kez, ters sırayla çalışır; geç async kaynak ve hata diğer temizliği engellemez (0.231951ms)
+✔ yıl seçimi MÖ 2000/günümüz uçlarını korur; sıfır ve hatalı girdiyi reddeder (0.311909ms)
+✔ küçük/yatay telefon ve büyük metin kompakt düzene döner (0.157042ms)
+✔ beş bağımsız katman renk dışında benzersiz biçim ve Türkçe ada sahiptir (0.133929ms)
+✔ katman işaretleri panel zemini üzerinde 4.5:1 kontrastı korur (0.163744ms)
+✔ küre arkasındaki işaret seçim göndermez; öne dönünce tekrar seçilir (3.005462ms)
+✔ renderer load sırasında marker hatasını yakalar ve kaynakları bırakır (0.524544ms)
+✔ yinelenen load tek marker kurar; dispose sonrası listener/komut çalışmaz (0.429417ms)
+✔ context kaybı bir kez bildirilir; map/worker/dinleyiciler bırakılır (0.399963ms)
+✔ domain şeması bütün sentetik kayıt türlerini kabul eder; üretim sentetiği reddeder (7.049811ms)
+✔ MÖ/MS, hassasiyet, gerçek takvim günü ve belirsizlik ayrı doğrulanır (0.23737ms)
+✔ GeoJSON CRS84, dört geometri türü ve kaynaklı feature kimliği doğrulanır (0.477346ms)
+✔ topoloji: açık/ters/kesişen halkalar, dış delikler, örtüşme ve detay bütçesi reddedilir (6.549071ms)
+✔ antimeridyen bölünmeden reddedilir; iki tarafta açıkça bölünmüş alan geçer (0.112569ms)
+✔ üretim hak kapısı: bilinmeyen/yasak/atıfsız/manuel inceleme bekleyen kaynak reddedilir (4.360818ms)
+✔ provenance revizyon/ham girdi/türetim/üst kaynak zinciri kaybolamaz veya aklanamaz (2.996754ms)
+✔ kültür/siyaset ve yaşam yeri/zamanlı bulunma ayrımı ile tarih çelişkileri korunur (2.92912ms)
+✔ tarih/coğrafya indeksleri MÖ/MS, antimeridyen, belirsizlik, sayfalama ve değişmez snapshot sağlar (2.905325ms)
+✔ yükleyici checksum ve şema kapısını geçmeden provider oluşturmaz (16.079338ms)
+✔ coğrafya indeksi ±180° eşdeğerliğini ve kesin hücre sınırlarını kaçırmaz (0.798353ms)
+✔ ETL ham dosyayı değiştirmez; checksum/revizyon ve belirsizlik izini korur (6.928516ms)
+✔ ETL ham dosya değişikliği, eksik dosya, symlink kaçışı ve boyut aşımını reddeder (3.098694ms)
+✔ ETL doğrulama sonrası çağıranın mutasyonu üretim kapısını aşamaz (1.38983ms)
+✔ ETL CLI atıfsız/yasak/sentetik/incelemesiz kayıt için üretim dizini bile oluşturmaz (5.169299ms)
+✔ ETL CLI boş kataloğu atomik/sürümlü yazar; tekrar deterministik ve değiştirilmiş çıktı reddedilir (2.473593ms)
+ℹ tests 35
+ℹ suites 0
+ℹ pass 35
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 78.295589
+npm notice run tarih-atlasi@0.1.0 test:worker
+npm notice run node tests/unit/worker.test.mjs
+✔ worker kontrolü import sözcüğü içeren yorum/metni dış bağımlılık sanmaz (4.868871ms)
+✔ worker kontrolü gerçek statik/dinamik import ve re-export işlemlerini reddeder (1.408956ms)
+✔ boş veya parse edilemeyen worker hazırlanmaz (0.457309ms)
+✔ fiziksel worker isteğe bağlı dış modül yüklemeyi kapatır, statik bağımlılığı reddeder (6.303255ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 17.018493
+npm notice run tarih-atlasi@0.1.0 globe:check
+npm notice run node scripts/check-globe-assets.mjs
+PASS — 127 physical land features; source/data/worker hashes and bundled notices match. No GPU/runtime claim.
+npm notice run tarih-atlasi@0.1.0 format:check
+npm notice run prettier --check .
+Checking formatting...
+All matched files use Prettier code style!
+npm notice run tarih-atlasi@0.1.0 etl
+npm notice run node scripts/etl/cli.mjs validate --input data/staging/catalog.json
+{"status":"valid-staging-only","productionApproved":false,"recordCount":0,"sourceDecisions":[]}
+npm notice run tarih-atlasi@0.1.0 etl
+npm notice run node scripts/etl/cli.mjs build --input data/staging/catalog.json --output /tmp/tarih-atlasi-phase04-empty
+{"status":"built","directory":"/tmp/tarih-atlasi-phase04-empty/0.0.0-empty-ff156b9283c3"}

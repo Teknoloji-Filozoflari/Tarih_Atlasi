@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "version": "0.1.0-preview.1",
+  "files": 18474,
+  "bytes": 890123649,
+  "roundTrip": "Own tar.gz extracted outside workspace; packaged standalone verifier and HTTP resolver passed, without npm dependencies. No socket/GPU claim."
+}

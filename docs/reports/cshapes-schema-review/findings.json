@@ -1,0 +1,179 @@
+{
+  "date": "2026-10-17",
+  "status": "INSPECTOR_FIXED_DATA_REVIEW_REQUIRED",
+  "productionDataChanged": false,
+  "input": {
+    "file": "CShapes-2.0.geojson",
+    "bytes": 26344671,
+    "sha256": "384b1ea90b9419f30a858d7ec237c85a22c60d1b35b5f85f215a1204f9989d42",
+    "member": null
+  },
+  "originAuthenticity": "UNVERIFIED_LOCAL_INPUT",
+  "inspectionVersion": 2,
+  "observedDateRange": {
+    "earliest": "1886-01-01",
+    "latest": "2019-12-31"
+  },
+  "summary": {
+    "features": 710,
+    "codebookSchemaRows": 0,
+    "gwCalendarSchemaRows": 710,
+    "supportedSchemaRows": 710,
+    "unsupportedSchemaRows": 0,
+    "invalidDateRows": 0,
+    "unsupportedStatusRows": 0,
+    "missingStatusRows": 710,
+    "exportedTimestampReviewRows": 710,
+    "syntheticRows": 0,
+    "candidateRows": 179,
+    "candidateGeometryPassed": 176,
+    "candidateGeometryReview": 3
+  },
+  "year": 2000,
+  "distinctSourceCodes": 177,
+  "partialYearRows": [
+    {
+      "sourceIndex": 515,
+      "name": "Saudi Arabia",
+      "start": "1935-01-01",
+      "end": "2000-06-11",
+      "code": "670"
+    },
+    {
+      "sourceIndex": 516,
+      "name": "Saudi Arabia",
+      "start": "2000-06-12",
+      "end": "2019-12-31",
+      "code": "670"
+    },
+    {
+      "sourceIndex": 519,
+      "name": "Yemen (Arab Republic of Yemen)",
+      "start": "1990-05-22",
+      "end": "2000-06-11",
+      "code": "678"
+    },
+    {
+      "sourceIndex": 520,
+      "name": "Yemen (Arab Republic of Yemen)",
+      "start": "2000-06-12",
+      "end": "2019-12-31",
+      "code": "678"
+    }
+  ],
+  "geometryFindings": [
+    {
+      "sourceIndex": 513,
+      "name": "Israel",
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "sourceIndex": 607,
+      "name": "Vietnam, Democratic Republic of",
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "sourceIndex": 646,
+      "name": "Australia",
+      "reason": "WORLD_RING_INTERSECTION"
+    }
+  ],
+  "focus": [
+    {
+      "sourceIndex": 138,
+      "name": "Yugoslavia",
+      "sourceStart": "1992-04-27",
+      "sourceEnd": "2006-06-02",
+      "positions": 381,
+      "geometryStatus": "BOUNDED_GEOMETRY_CHECK_PASSED",
+      "dateBasis": "explicit-gw-year-month-day-fields-unapproved",
+      "rawExportedStart": "26.04.1992 22:00:00",
+      "calendarStart": [
+        1992,
+        4,
+        27
+      ]
+    },
+    {
+      "sourceIndex": 144,
+      "name": "Greece",
+      "sourceStart": "1919-11-27",
+      "sourceEnd": "2019-12-31",
+      "positions": 1368,
+      "geometryStatus": "BOUNDED_GEOMETRY_CHECK_PASSED",
+      "dateBasis": "explicit-gw-year-month-day-fields-unapproved",
+      "rawExportedStart": "26.11.1919 23:00:00",
+      "calendarStart": [
+        1919,
+        11,
+        27
+      ]
+    },
+    {
+      "sourceIndex": 425,
+      "name": "Swaziland (Eswatini)",
+      "sourceStart": "1968-09-06",
+      "sourceEnd": "2019-12-31",
+      "positions": 60,
+      "geometryStatus": "BOUNDED_GEOMETRY_CHECK_PASSED",
+      "dateBasis": "explicit-gw-year-month-day-fields-unapproved",
+      "rawExportedStart": "05.09.1968 23:00:00",
+      "calendarStart": [
+        1968,
+        9,
+        6
+      ]
+    },
+    {
+      "sourceIndex": 507,
+      "name": "Jordan",
+      "sourceStart": "1946-05-25",
+      "sourceEnd": "2019-12-31",
+      "positions": 119,
+      "geometryStatus": "BOUNDED_GEOMETRY_CHECK_PASSED",
+      "dateBasis": "explicit-gw-year-month-day-fields-unapproved",
+      "rawExportedStart": "24.05.1946 23:00:00",
+      "calendarStart": [
+        1946,
+        5,
+        25
+      ]
+    },
+    {
+      "sourceIndex": 524,
+      "name": "Bahrain",
+      "sourceStart": "1971-08-15",
+      "sourceEnd": "2019-12-31",
+      "positions": 87,
+      "geometryStatus": "BOUNDED_GEOMETRY_CHECK_PASSED",
+      "dateBasis": "explicit-gw-year-month-day-fields-unapproved",
+      "rawExportedStart": "14.08.1971 23:00:00",
+      "calendarStart": [
+        1971,
+        8,
+        15
+      ]
+    }
+  ],
+  "futureYearCheck": {
+    "year": 2026,
+    "candidateRows": 0,
+    "productionAllowed": false
+  },
+  "licenseDecision": "CONDITIONAL / NO PRODUCTION APPROVAL",
+  "checks": [
+    "Full source SHA matches user-provided checksum",
+    "Repeated CLI output deterministic",
+    "v1 report remains separate and available",
+    "No geometry export or runtime data writes",
+    "2026 has no candidate or nearest fallback"
+  ],
+  "limitations": [
+    "177 source codes are not 177 independently verified sovereign states",
+    "Raw unzoned timestamps need semantic review; calendar-field selection is research-only",
+    "Absent status is unknown, not independent",
+    "Source labels include aliases and need period-specific review",
+    "Geometry gate is bounded, not full OGC or historical certification",
+    "Local file name does not authenticate publisher revision"
+  ]
+}

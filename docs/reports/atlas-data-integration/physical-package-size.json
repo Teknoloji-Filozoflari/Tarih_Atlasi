@@ -1,0 +1,10 @@
+{
+  "measuredAt": "2026-10-16T20:45:33.047Z",
+  "scope": "Local exported physical JS bytes and gzip/default + brotli/quality4; not measured network transfer, loading time, GPU, FPS, native memory or APK.",
+  "file": "dist/_expo/static/js/web/physical-detail-0c1b24b2fde7a86c1147dd118d87bd62.js",
+  "bytes": 19848302,
+  "gzipBytes": 6984080,
+  "brotliQuality": 4,
+  "brotliBytes": 7024510,
+  "localCompressionMs": 1010.813487
+}

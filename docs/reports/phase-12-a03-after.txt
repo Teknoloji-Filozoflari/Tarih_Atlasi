@@ -1,0 +1,23 @@
+✔ siyasi kimlik tek kalır: POLITY şemsiyesi, eşzamanlı krallık/imparatorluk ve tarihli adlar (2.392518ms)
+✔ profil iddiaları kaynak, haklar, inceleme, benzersiz kimlik ve siyasi tür ister (5.433516ms)
+✔ başkent bağımsız zaman/konum kanıtı ister; kaynak dışı alan ve varlık boşluğu reddedilir (2.011663ms)
+✔ siyasi ilişki ardıllık alanları isteğe bağlıdır, öz ilişki ve eksik referans kabul edilmez (3.831441ms)
+✔ vasallık yalnız vasala uygulanır; bölgeye özgü ilişki başka bölgeye taşınmaz (0.413957ms)
+✔ büyük/küçük alan isabeti, delik ve içbükey etiket çapası alanı başkent saymaz (0.462987ms)
+✔ antimeridyen bölünmüş MultiPolygon iki tarafta seçilir; kamera Greenwich’e atlamaz (0.132385ms)
+✔ örtüşen seçimde seçili varlık, küçük alan önceliği ve sabit ID sırası kullanılır; bütçe sekizdir (3.865534ms)
+✔ etiketler ekran çakışmasını ve düşük zoom kalabalığını sınırlar; küçük seçili varlık korunur (0.342564ms)
+✔ gerçek pilot kaynaklı kesit olarak kalır; 1868 kartı desteklenmez, başkent ve istatistik uydurulmaz (1.807045ms)
+✔ A-03: bölgesel ilişki ve kaynağı başka bölgenin kartına taşınmaz; genel ilişki korunur (2.623225ms)
+✔ repository tarihsiz başkent çizmez, eşzamanlı ilişkileri korur ve zaman cache bütçelidir (2.502021ms)
+✔ siyasi stil MapLibre tarafından geçerli; seçili dolgu/outline ve belirsiz çizgiler ayrı (3.379865ms)
+✔ siyasi köprü komutlarında ID/revizyon, azami aday ve sıkı alan kontrolü var (0.441316ms)
+✔ DOM siyasi etiketi drag/arka yüz seçimini reddeder; yenileme ve dispose marker/dinleyiciyi temizler (0.736163ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 37.574732

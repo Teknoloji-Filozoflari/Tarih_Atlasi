@@ -1,0 +1,9 @@
+Cliopatria / Seshat Global History Databank v0.2.1 (Bennett et al.)
+Source identity metadata: CC BY 4.0
+https://creativecommons.org/licenses/by/4.0/
+https://github.com/Seshat-Global-History-Databank/cliopatria/tree/v0.2.1
+Archive SHA-256 e10a4e429fca708788ff9e7572a95fce801fae55852d217cffabc1c59cd4eed4
+Extract SHA-256 ed0da9156a1b5fabc6e3f6016ccf3537a8a8fafd5ebcd13a6fdf92dbbbeef92b
+Source Feature index to Wikidata ID only. No article URL guessed, no article text or image copied.
+Identity candidates are not independent verification of historical borders or sovereignty.
+Runtime Wikipedia links are resolved from Wikidata structured sitelinks, separately CC0.

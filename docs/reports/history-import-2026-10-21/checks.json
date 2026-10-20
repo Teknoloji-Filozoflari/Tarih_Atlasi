@@ -1,0 +1,88 @@
+{
+  "scope": "Only actually executed commands; code/metadata checks are not GPU or physical Android proof",
+  "results": [
+    {
+      "command": "npm test",
+      "status": "PASS",
+      "exitCode": 0,
+      "tests": 408,
+      "passed": 408,
+      "skipped": 0,
+      "log": "tests.log"
+    },
+    {
+      "command": "npm run typecheck",
+      "status": "PASS",
+      "exitCode": 0,
+      "log": "typecheck.log"
+    },
+    {
+      "command": "npm run lint",
+      "status": "PASS",
+      "log": "lint.log",
+      "exitCode": 0,
+      "note": "Initial style/import errors corrected; own generated-file cleanup ENOENT was retried after files stabilized. No rule or test weakened."
+    },
+    {
+      "command": "node scripts/history/check.mjs --with-raw",
+      "status": "PASS",
+      "exitCode": 0,
+      "people": 2969,
+      "events": 1084,
+      "birthPoints": 46,
+      "eventPoints": 35,
+      "packs": 338,
+      "bytes": 32177954,
+      "log": "source-check.log"
+    },
+    {
+      "command": "npm run test:worker",
+      "status": "PASS",
+      "exitCode": 0,
+      "tests": 5,
+      "passed": 5,
+      "log": "worker.log"
+    },
+    {
+      "command": "prettier --check [changed code, generated metadata and README]",
+      "status": "PASS",
+      "exitCode": 0,
+      "log": "format.log"
+    },
+    {
+      "command": "npm run web:export",
+      "status": "PASS",
+      "exitCode": 0,
+      "log": "web-export.log"
+    },
+    {
+      "command": "playwright history-import.spec.ts --list",
+      "status": "LISTED ONLY",
+      "exitCode": 0,
+      "scenarios": 2,
+      "log": "browser-list.log"
+    },
+    {
+      "command": "ATLAS_TEST_PRODUCTION=1 playwright history-import.spec.ts --project=desktop",
+      "status": "BLOCKED",
+      "exitCode": 1,
+      "reason": "Preview server EPERM",
+      "log": "browser.log"
+    },
+    {
+      "command": "npm run android:bundle -- --max-workers 2",
+      "status": "INCOMPLETE",
+      "exitCode": 130,
+      "reason": "Metro startup only; no bundle completion evidence; stopped",
+      "log": "android-incomplete.log"
+    },
+    {
+      "command": "git status --short",
+      "exitCode": 128,
+      "reason": "No .git in workspace",
+      "log": "git-status.log"
+    }
+  ],
+  "device": "UNVERIFIED ON DEVICE",
+  "implementation": "IMPLEMENTED for accepted downloaded records; global historical coverage remains PARTIAL"
+}

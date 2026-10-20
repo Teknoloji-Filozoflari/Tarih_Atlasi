@@ -1,0 +1,6 @@
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+permission denied while trying to connect to the docker API at unix:///var/run/docker.sock
+time="2026-10-21T02:25:29+03:00" level=error msg="Can't add file /home/s-oktay/Belgeler/Tarih_Atlası/.release/web/Baslat.cmd to tar: io: read/write on closed pipe"

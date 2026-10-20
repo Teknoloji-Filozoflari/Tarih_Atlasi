@@ -1,0 +1,42 @@
+✔ siyasi kimlik tek kalır: POLITY şemsiyesi, eşzamanlı krallık/imparatorluk ve tarihli adlar (2.482274ms)
+✔ profil iddiaları kaynak, haklar, inceleme, benzersiz kimlik ve siyasi tür ister (5.303575ms)
+✔ başkent bağımsız zaman/konum kanıtı ister; kaynak dışı alan ve varlık boşluğu reddedilir (2.117068ms)
+✔ siyasi ilişki ardıllık alanları isteğe bağlıdır, öz ilişki ve eksik referans kabul edilmez (3.817586ms)
+✔ vasallık yalnız vasala uygulanır; bölgeye özgü ilişki başka bölgeye taşınmaz (0.440455ms)
+✔ büyük/küçük alan isabeti, delik ve içbükey etiket çapası alanı başkent saymaz (0.544347ms)
+✔ antimeridyen bölünmüş MultiPolygon iki tarafta seçilir; kamera Greenwich’e atlamaz (0.154446ms)
+✔ örtüşen seçimde seçili varlık, küçük alan önceliği ve sabit ID sırası kullanılır; bütçe sekizdir (4.305809ms)
+✔ etiketler ekran çakışmasını ve düşük zoom kalabalığını sınırlar; küçük seçili varlık korunur (0.471112ms)
+✔ gerçek pilot kaynaklı kesit olarak kalır; 1868 kartı desteklenmez, başkent ve istatistik uydurulmaz (2.063168ms)
+✖ A-03: bölgesel ilişki ve kaynağı başka bölgenin kartına taşınmaz; genel ilişki korunur (2.147254ms)
+✔ repository tarihsiz başkent çizmez, eşzamanlı ilişkileri korur ve zaman cache bütçelidir (2.859833ms)
+✔ siyasi stil MapLibre tarafından geçerli; seçili dolgu/outline ve belirsiz çizgiler ayrı (3.430188ms)
+✔ siyasi köprü komutlarında ID/revizyon, azami aday ve sıkı alan kontrolü var (0.48104ms)
+✔ DOM siyasi etiketi drag/arka yüz seçimini reddeder; yenileme ve dispose marker/dinleyiciyi temizler (0.806413ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 14
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 38.217302
+
+✖ failing tests:
+
+test at tests/unit/politics.test.mjs:378:1
+✖ A-03: bölgesel ilişki ve kaynağı başka bölgenin kartına taşınmaz; genel ilişki korunur (2.147254ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  1 !== 0
+  
+      at TestContext.<anonymous> (file:///home/s-oktay/Belgeler/Tarih_Atlas%C4%B1/tests/unit/politics.test.mjs:394:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

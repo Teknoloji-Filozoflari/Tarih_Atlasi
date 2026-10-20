@@ -1,0 +1,212 @@
+[
+  {
+    "name": "probes",
+    "command": [
+      "node",
+      "--input-type=module"
+    ],
+    "startedAt": "2026-10-16T13:49:01.335Z",
+    "elapsedMs": 35,
+    "exitCode": 0,
+    "signal": null,
+    "log": "docs/ui-map-audit/evidence/final/probes.log"
+  },
+  {
+    "name": "environment",
+    "command": [
+      "npm",
+      "run",
+      "environment:check"
+    ],
+    "startedAt": "2026-10-16T13:49:01.326Z",
+    "elapsedMs": 141,
+    "exitCode": 1,
+    "signal": null,
+    "log": "docs/ui-map-audit/evidence/final/environment.log"
+  },
+  {
+    "name": "licenses",
+    "command": [
+      "npm",
+      "run",
+      "qa:licenses",
+      "--",
+      "docs/ui-map-audit/evidence/final/licenses.json"
+    ],
+    "startedAt": "2026-10-16T13:49:01.340Z",
+    "elapsedMs": 220,
+    "exitCode": 0,
+    "signal": null,
+    "log": "docs/ui-map-audit/evidence/final/licenses.log"
+  },
+  {
+    "name": "coverage",
+    "command": [
+      "npm",
+      "run",
+      "qa:coverage",
+      "--",
+      "docs/ui-map-audit/evidence/final/coverage.json"
+    ],
+    "startedAt": "2026-10-16T13:49:01.337Z",
+    "elapsedMs": 308,
+    "exitCode": 0,
+    "signal": null,
+    "log": "docs/ui-map-audit/evidence/final/coverage.log"
+  },
+  {
+    "name": "npm-audit",
+    "command": [
+      "npm",
+      "audit",
+      "--json"
+    ],
+    "startedAt": "2026-10-16T13:49:01.328Z",
+    "elapsedMs": 364,
+    "exitCode": 1,
+    "signal": null,
+    "log": "docs/ui-map-audit/evidence/final/npm-audit.log"
+  },
+  {
+    "name": "security",
+    "command": [
+      "npm",
+      "run",
+      "qa:security",
+      "--",
+      "docs/ui-map-audit/evidence/final/security.json"
+    ],
+    "startedAt": "2026-10-16T13:49:01.338Z",
+    "elapsedMs": 597,
+    "exitCode": 0,
+    "signal": null,
+    "log": "docs/ui-map-audit/evidence/final/security.log"
+  },
+  {
+    "name": "browser-list",
+    "command": [
+      "npm",
+      "run",
+      "test:web",
+      "--",
+      "--list"
+    ],
+    "startedAt": "2026-10-16T13:49:01.325Z",
+    "elapsedMs": 651,
+    "exitCode": 0,
+    "signal": null,
+    "log": "docs/ui-map-audit/evidence/final/browser-list.log"
+  },
+  {
+    "name": "basemap-download",
+    "command": [
+      "npm",
+      "run",
+      "basemap:prepare"
+    ],
+    "startedAt": "2026-10-16T13:49:01.329Z",
+    "elapsedMs": 1748,
+    "exitCode": 1,
+    "signal": null,
+    "log": "docs/ui-map-audit/evidence/final/basemap-download.log"
+  },
+  {
+    "name": "check",
+    "command": [
+      "npm",
+      "run",
+      "check"
+    ],
+    "startedAt": "2026-10-16T13:49:01.323Z",
+    "elapsedMs": 17524,
+    "exitCode": 0,
+    "signal": null,
+    "log": "docs/ui-map-audit/evidence/final/check.log"
+  },
+  {
+    "name": "web-export",
+    "command": [
+      "npm",
+      "run",
+      "web:export"
+    ],
+    "startedAt": "2026-10-16T13:49:18.848Z",
+    "elapsedMs": 2562,
+    "exitCode": 0,
+    "signal": null,
+    "log": "docs/ui-map-audit/evidence/final/web-export.log"
+  },
+  {
+    "name": "android-export",
+    "command": [
+      "npm",
+      "run",
+      "android:bundle"
+    ],
+    "startedAt": "2026-10-16T13:49:21.410Z",
+    "elapsedMs": 7414,
+    "exitCode": 0,
+    "signal": null,
+    "log": "docs/ui-map-audit/evidence/final/android-export.log"
+  },
+  {
+    "name": "web-benchmark",
+    "command": [
+      "npm",
+      "run",
+      "benchmark:web",
+      "--",
+      "docs/ui-map-audit/evidence/final/web-benchmark.json"
+    ],
+    "startedAt": "2026-10-16T13:49:28.825Z",
+    "elapsedMs": 349,
+    "exitCode": 1,
+    "signal": null,
+    "log": "docs/ui-map-audit/evidence/final/web-benchmark.log"
+  },
+  {
+    "name": "production-e2e",
+    "command": [
+      "timeout",
+      "30s",
+      "npm",
+      "run",
+      "test:web:production"
+    ],
+    "startedAt": "2026-10-16T13:49:28.824Z",
+    "elapsedMs": 609,
+    "exitCode": 1,
+    "signal": null,
+    "log": "docs/ui-map-audit/evidence/final/production-e2e.log"
+  },
+  {
+    "name": "host-benchmark",
+    "command": [
+      "npm",
+      "run",
+      "benchmark:host",
+      "--",
+      "docs/ui-map-audit/evidence/final/host-benchmark.json"
+    ],
+    "startedAt": "2026-10-16T13:49:28.827Z",
+    "elapsedMs": 1076,
+    "exitCode": 0,
+    "signal": null,
+    "log": "docs/ui-map-audit/evidence/final/host-benchmark.log"
+  },
+  {
+    "name": "sizes",
+    "command": [
+      "npm",
+      "run",
+      "benchmark:sizes",
+      "--",
+      "docs/ui-map-audit/evidence/final/sizes.json"
+    ],
+    "startedAt": "2026-10-16T13:49:28.828Z",
+    "elapsedMs": 13797,
+    "exitCode": 0,
+    "signal": null,
+    "log": "docs/ui-map-audit/evidence/final/sizes.log"
+  }
+]

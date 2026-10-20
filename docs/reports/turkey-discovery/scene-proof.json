@@ -1,0 +1,301 @@
+{
+  "kind": "host-source-and-feature-inspection-not-browser-gpu-proof",
+  "camera": {
+    "center": {
+      "lng": 35,
+      "lat": 39
+    },
+    "zoom": 4,
+    "bearing": 0,
+    "pitch": 0
+  },
+  "catalogVersion": "0.7.0-discovery",
+  "records": 106,
+  "sources": 35,
+  "bootstrapBytes": 425675,
+  "personSummary": {
+    "locationCount": 6,
+    "personCount": 11
+  },
+  "eventSummary": {
+    "eventCount": 11,
+    "geometryCount": 5
+  },
+  "modernCityIds": [
+    "modern-city:istanbul",
+    "modern-city:ankara",
+    "modern-city:izmir",
+    "modern-city:antalya",
+    "modern-city:bursa",
+    "modern-city:medina"
+  ],
+  "chunkEntries": 86,
+  "uniqueChunks": 44,
+  "years": [
+    {
+      "year": 630,
+      "features": 73,
+      "people": [
+        {
+          "id": "atlas:muhammad-medina-residence",
+          "lineStyle": "person-approximate",
+          "coordinates": [
+            39.61,
+            24.47
+          ]
+        }
+      ],
+      "events": [],
+      "political": {
+        "total": 73,
+        "drawn": 72,
+        "withheld": 1,
+        "unknownDateRows": 6,
+        "sourceEndYear": 2024
+      }
+    },
+    {
+      "year": 1066,
+      "features": 144,
+      "people": [],
+      "events": [
+        "atlas:hastings-1066"
+      ],
+      "political": {
+        "total": 145,
+        "drawn": 143,
+        "withheld": 2,
+        "unknownDateRows": 6,
+        "sourceEndYear": 2024
+      }
+    },
+    {
+      "year": 1071,
+      "features": 144,
+      "people": [],
+      "events": [
+        "atlas:manzikert-1071"
+      ],
+      "political": {
+        "total": 145,
+        "drawn": 143,
+        "withheld": 2,
+        "unknownDateRows": 6,
+        "sourceEndYear": 2024
+      }
+    },
+    {
+      "year": 1453,
+      "features": 134,
+      "people": [],
+      "events": [
+        "atlas:constantinople-1453"
+      ],
+      "political": {
+        "total": 135,
+        "drawn": 130,
+        "withheld": 5,
+        "unknownDateRows": 6,
+        "sourceEndYear": 2024
+      }
+    },
+    {
+      "year": 1468,
+      "features": 146,
+      "people": [
+        {
+          "id": "atlas:gutenberg-death",
+          "lineStyle": "person-approximate",
+          "coordinates": [
+            8.273611111111112,
+            49.99944444444444
+          ]
+        }
+      ],
+      "events": [],
+      "political": {
+        "total": 147,
+        "drawn": 145,
+        "withheld": 2,
+        "unknownDateRows": 6,
+        "sourceEndYear": 2024
+      }
+    },
+    {
+      "year": 1506,
+      "features": 137,
+      "people": [
+        {
+          "id": "atlas:columbus-death",
+          "lineStyle": "person-approximate",
+          "coordinates": [
+            -4.728561111111111,
+            41.651980555555554
+          ]
+        }
+      ],
+      "events": [],
+      "political": {
+        "total": 137,
+        "drawn": 136,
+        "withheld": 1,
+        "unknownDateRows": 6,
+        "sourceEndYear": 2024
+      }
+    },
+    {
+      "year": 1526,
+      "features": 129,
+      "people": [],
+      "events": [
+        "atlas:mohacs-1526"
+      ],
+      "political": {
+        "total": 129,
+        "drawn": 128,
+        "withheld": 1,
+        "unknownDateRows": 6,
+        "sourceEndYear": 2024
+      }
+    },
+    {
+      "year": 1643,
+      "features": 120,
+      "people": [
+        {
+          "id": "atlas:newton-birth",
+          "lineStyle": "person-approximate",
+          "coordinates": [
+            -0.6305561111111111,
+            52.80916694444444
+          ]
+        }
+      ],
+      "events": [],
+      "political": {
+        "total": 122,
+        "drawn": 119,
+        "withheld": 3,
+        "unknownDateRows": 6,
+        "sourceEndYear": 2024
+      }
+    },
+    {
+      "year": 1879,
+      "features": 108,
+      "people": [
+        {
+          "id": "atlas:einstein-birth",
+          "lineStyle": "person-approximate",
+          "coordinates": [
+            9.99111111111111,
+            48.39861111111111
+          ]
+        }
+      ],
+      "events": [],
+      "political": {
+        "total": 109,
+        "drawn": 107,
+        "withheld": 2,
+        "unknownDateRows": 6,
+        "sourceEndYear": 2024
+      }
+    },
+    {
+      "year": 1915,
+      "features": 78,
+      "people": [],
+      "events": [
+        "atlas:gallipoli-1915"
+      ],
+      "political": {
+        "total": 78,
+        "drawn": 77,
+        "withheld": 1,
+        "unknownDateRows": 6,
+        "sourceEndYear": 2024
+      }
+    },
+    {
+      "year": 1916,
+      "features": 74,
+      "people": [],
+      "events": [
+        "atlas:gallipoli-1915"
+      ],
+      "political": {
+        "total": 74,
+        "drawn": 73,
+        "withheld": 1,
+        "unknownDateRows": 6,
+        "sourceEndYear": 2024
+      }
+    },
+    {
+      "year": 1921,
+      "features": 85,
+      "people": [],
+      "events": [],
+      "political": {
+        "total": 87,
+        "drawn": 85,
+        "withheld": 2,
+        "unknownDateRows": 6,
+        "sourceEndYear": 2024
+      }
+    },
+    {
+      "year": 1940,
+      "features": 74,
+      "people": [],
+      "events": [],
+      "political": {
+        "total": 78,
+        "drawn": 74,
+        "withheld": 4,
+        "unknownDateRows": 6,
+        "sourceEndYear": 2024
+      }
+    },
+    {
+      "year": 2000,
+      "features": 193,
+      "people": [],
+      "events": [],
+      "political": {
+        "total": 192,
+        "drawn": 180,
+        "withheld": 12,
+        "unknownDateRows": 6,
+        "sourceEndYear": 2024
+      }
+    },
+    {
+      "year": 2010,
+      "features": 193,
+      "people": [],
+      "events": [],
+      "political": {
+        "total": 191,
+        "drawn": 180,
+        "withheld": 11,
+        "unknownDateRows": 6,
+        "sourceEndYear": 2024
+      }
+    },
+    {
+      "year": 2026,
+      "features": 0,
+      "people": [],
+      "events": [],
+      "political": {
+        "total": 0,
+        "drawn": 0,
+        "withheld": 0,
+        "unknownDateRows": 6,
+        "sourceEndYear": 2024
+      }
+    }
+  ]
+}

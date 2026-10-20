@@ -1,0 +1,75 @@
+2026-10-15 — Post-install actual export results.
+
+[web] exit=0
+| (node:13) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:13) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:13) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+λ Bundled 831ms node_modules/@expo/router-server/node/render.js (867 modules)
+Web Bundled 1029ms node_modules/expo-router/entry.js (805 modules)
+
+› web bundles (3):
+_expo/static/css/maplibre-gl-5eafb44ecdde7fed64f0a02f0507154c.css (83KB)
+_expo/static/js/web/entry-d33869d9b0ed0c19e328083b7848b381.js (1.2MB)
+_expo/static/js/web/maplibre-gl-79c24a73f147fb3d93446270339f8f54.js (1.1MB)
+
+› Static routes (4):
+/about (21KB)
+/ (index) (26KB)
+/_sitemap (19KB)
+/+not-found (20KB)
+
+Exported: dist
+
+
+[android-and-dom] exit=0
+| (node:13) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:13) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+Android Bundled 5454ms node_modules/expo-router/entry.js (1299 modules)
+DOM Bundled 205ms src/map/GlobeDOM.tsx (132 modules)
+
+› Assets (27):
+node_modules/@expo-google-fonts/material-symbols/400Regular/MaterialSymbols_400Regular.ttf (971KB)
+node_modules/expo-router/assets/arrow_down.png (9.5KB)
+node_modules/expo-router/assets/arrow_right.xml (307B)
+node_modules/expo-router/assets/checkmark.xml (312B)
+node_modules/expo-router/assets/error.png (469B)
+node_modules/expo-router/assets/file.png (138B)
+node_modules/expo-router/assets/forward.png (188B)
+node_modules/expo-router/assets/pkg.png (364B)
+node_modules/expo-router/assets/react-navigation/elements/back-icon-mask.png (653B)
+node_modules/expo-router/assets/react-navigation/elements/back-icon.png (4 variations | 152B)
+node_modules/expo-router/assets/react-navigation/elements/clear-icon.png (4 variations | 425B)
+node_modules/expo-router/assets/react-navigation/elements/close-icon.png (4 variations | 235B)
+node_modules/expo-router/assets/react-navigation/elements/search-icon.png (4 variations | 599B)
+node_modules/expo-router/assets/sitemap.png (465B)
+node_modules/expo-router/assets/unmatched.png (4.8KB)
+
+› android bundles (1):
+_expo/static/js/android/entry-a02a8ec0f855b4e8606bb080148ee29c.hbc (2.8MB)
+
+› Files (5):
+/www.bundle/592ea3dd656b1abe2715ea77a47d8028.js (298KB)
+/www.bundle/5eafb44ecdde7fed64f0a02f0507154c.css (83KB)
+/www.bundle/75f55411dc6a19ebe2958d72c7774f6e.js (1.3MB)
+metadata.json (2.1KB)
+www.bundle/065579a1096b851d6e05c45fdce6d4e1.html (2.9KB)
+
+Exported: dist-android
+
+
+Other checks observed this session:
+npm run check: exit 0. lint + full native/web typecheck + 18/18 main + 4/4 worker + format.
+npm run config:check: exit 0.
+npm ls --package-lock-only react-native-reanimated react-native-worklets eslint: exit 0. 4.5.1/0.10.1/9.39.5.
+Dependency report: exit 1, 21/23 exact installed. Installed native pair remains 4.7.1/0.13.0 until npm ci.
+Expo install --check offline: exit 1, expected native pair 4.5.1/0.10.1. Offline check is explicitly described as unreliable by Expo.
+globe:prepare: exit 1, fetch failed after real worker parsed/prepared.
+npm audit --json: exit 1, bulk endpoint EAI_AGAIN; no fresh vulnerability count.
+Python local HTTP server socket: exit 1, PermissionError EPERM. Browser/live tests not run.
+Actual MapLibre worker: original 508314 bytes, prepared 654885 bytes, 2 optional dynamic imports disabled.
+APK/real Android/performance: NOT RUN; UNVERIFIED ON DEVICE.

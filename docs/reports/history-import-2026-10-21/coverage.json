@@ -1,0 +1,906 @@
+{
+  "version": "1.0.0-history",
+  "counts": {
+    "downloaded": 4273,
+    "people": 2969,
+    "events": 1084,
+    "points": 81,
+    "birthPoints": 46,
+    "skipped": 220
+  },
+  "skipped": [
+    {
+      "qid": "Q1001",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q100195299",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q100260212",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q100260227",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q100260228",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q100260231",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q100260250",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q100260285",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q100260310",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q100260323",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q100260342",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q100260782",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q100306053",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q100319793",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q100359901",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q100458702",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q100562617",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q100700140",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q100725247",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q100728673",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q100739161",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q101112654",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q101243617",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q102289",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q102352610",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q102423773",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q102515643",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10261",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q102708134",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10275421",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10278681",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10284874",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10292609",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10294296",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10295409",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10303179",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10310709",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10312995",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10317709",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10317733",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10317734",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10323685",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10325635",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10332670",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10336972",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10347600",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10349353",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q1035",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q10357899",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10357904",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10360216",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10360217",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10360219",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10360220",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10360223",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10360227",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10360232",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10360233",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10360234",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10360239",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10360241",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10360244",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10360247",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10360251",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10370729",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q1037458",
+      "reason": "fictional-or-legendary-manual-review"
+    },
+    {
+      "qid": "Q1039788",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q104037251",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q104227746",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q104252084",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q1043",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q104527625",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q1047739",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q104804072",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q104862371",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10497489",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q105044534",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q105119257",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q105293303",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q105351565",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q105361462",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q105390169",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10547232",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10548610",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q105487981",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q105572052",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q105622879",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q105645583",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q10566989",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q105702912",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q105718549",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q105737057",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q105757849",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q105975273",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q106075805",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q106195719",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q106211469",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q106367344",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q106409228",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q106456721",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q1065",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q106518834",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q106548768",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q106590097",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q106600385",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q106620214",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q106620239",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q106779579",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q1069175",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q106981056",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q107259028",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q107376275",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q107459454",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q107468994",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q107527970",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q107576048",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q107581207",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q108318672",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q109314929",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q109370",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q11072264",
+      "reason": "fictional-or-legendary-manual-review"
+    },
+    {
+      "qid": "Q114452906",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q115095",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q11602081",
+      "reason": "fictional-or-legendary-manual-review"
+    },
+    {
+      "qid": "Q116183656",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q117406977",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q123986170",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q12551",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q132551",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q151746",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q16730042",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q170208",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q171183",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q17293",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q187052",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q188567",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q19185",
+      "reason": "fictional-or-legendary-manual-review"
+    },
+    {
+      "qid": "Q1989908",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q199654",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q204344",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q2075526",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q21078159",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q219575",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q22686",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q232873",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q241248",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q245385",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q252420",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q25973",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q272855",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q28189",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q30487",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q30547",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q317521",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q317877",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q325523",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q32732",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q33760",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q33866",
+      "reason": "fictional-or-legendary-manual-review"
+    },
+    {
+      "qid": "Q34211",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q34474",
+      "reason": "fictional-or-legendary-manual-review"
+    },
+    {
+      "qid": "Q35149",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q352",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q36488",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q37064",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q37463",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q381282",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q392",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q39246",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q40904",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q41984",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q42133786",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q42970",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q42985",
+      "reason": "fictional-or-legendary-manual-review"
+    },
+    {
+      "qid": "Q43033",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q444",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q450675",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q458",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q463877",
+      "reason": "fictional-or-legendary-manual-review"
+    },
+    {
+      "qid": "Q464677",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q46795",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q47480",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q49330",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q54129",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q547940",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q56509417",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q57065",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q5878",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q58978",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q5987345",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q60429",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q629583",
+      "reason": "fictional-or-legendary-manual-review"
+    },
+    {
+      "qid": "Q637907",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q65551212",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q65989",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q677499",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q7085",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q7178",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q7186",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q72334",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q7241",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q740308",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q743558",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q76",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q8023",
+      "reason": "fictional-or-legendary-manual-review"
+    },
+    {
+      "qid": "Q8027",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q80884",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q842490",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q851563",
+      "reason": "non-human-not-a-reviewed-event"
+    },
+    {
+      "qid": "Q855",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q8753",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q9021",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q9123",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q9130",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q91410",
+      "reason": "no-supported-name"
+    },
+    {
+      "qid": "Q937",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q9588",
+      "reason": "fictional-or-legendary-manual-review"
+    },
+    {
+      "qid": "Q9682",
+      "reason": "fictional-or-legendary-manual-review"
+    },
+    {
+      "qid": "Q9696",
+      "reason": "existing-reviewed-record-preserved"
+    },
+    {
+      "qid": "Q989",
+      "reason": "existing-reviewed-record-preserved"
+    }
+  ],
+  "groups": {
+    "battles": 480,
+    "events": 443,
+    "nobel": 948,
+    "philosophers": 1944,
+    "religious": 50,
+    "time": 34,
+    "wars": 492
+  },
+  "unknownDates": 2197,
+  "trNames": 1257,
+  "bytes": 32177954,
+  "packs": 338
+}

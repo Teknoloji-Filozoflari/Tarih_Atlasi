@@ -1,0 +1,3003 @@
+{
+  "reviewedAt": "2026-10-17",
+  "year": 2000,
+  "sourceId": "source:cliopatria-v021-world",
+  "archiveSha256": "e10a4e429fca708788ff9e7572a95fce801fae55852d217cffabc1c59cd4eed4",
+  "metadataRevision": "v0.2.1-world-source-reconstruction-2",
+  "attribution": "Cliopatria / Seshat Global History Databank v0.2.1 (Bennett et al.), CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/. Kaynak rekonstrüksiyonu; bağımsız tarihî doğrulama değildir. Halka yönü ve yinelenen ardışık noktalar kayıpsız normalize edildi; kaynak aralıkları korundu.",
+  "scope": "All 192 source POLITY rows intersecting MS 2000 were inventoried. This is not a list of 192 independent countries, nor independent historical/geometric certification of every row.",
+  "counts": {
+    "sourcePoliticalRows": 192,
+    "drawable": 179,
+    "withheld": 13,
+    "newNamePeriodFindingsAtYear": 6,
+    "sourceRowsAcceptedWithIsolatedTangentHolePairs": 91
+  },
+  "greece": {
+    "index": 13502,
+    "geometrySha256": "72e9bf539749c5e60edc23a5e3a93bf750385d627943b6a1b28254a6dc862577",
+    "issue": "False rejection of two isolated tangent hole pairs. No new points or boundary repair; source MultiPolygon is retained.",
+    "reference": "https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/Polygon.html"
+  },
+  "jordan": {
+    "index": 13443,
+    "label": "Ürdün Krallığı",
+    "finding": "A monarchy is not inherently an anachronism in MS 2000. Jordan is retained.",
+    "references": [
+      "https://jordan.gov.jo/EN/Pages/Hashemite_Monarchs_of_Jordan",
+      "https://www.rhc.jo/en/jordans-governing-system"
+    ]
+  },
+  "rows": [
+    {
+      "sourceFeatureIndex": 11811,
+      "sourceName": "Oriental Republic of Uruguay",
+      "displayName": "Uruguay Doğu Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1866,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "a11fbe26b0af1f33594803f9c9f697257ec46395ed691f82e06a8ad4aff64c41"
+    },
+    {
+      "sourceFeatureIndex": 11956,
+      "sourceName": "Netherlands Antilles",
+      "displayName": "Hollanda Antilleri",
+      "sourceInterval": {
+        "start": 1877,
+        "end": 2023
+      },
+      "boundaryStatus": "WITHHELD",
+      "reason": "SOURCE_IDENTITY_DATE_OR_POLITY_SCOPE_REVIEW",
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": null
+    },
+    {
+      "sourceFeatureIndex": 12084,
+      "sourceName": "Nepal",
+      "displayName": "Nepal",
+      "sourceInterval": {
+        "start": 1890,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "ce0d0b51fbebb72c31a1c563f1ef269df244a0268017bc011f1697e084de3b48"
+    },
+    {
+      "sourceFeatureIndex": 12159,
+      "sourceName": "Republic of Nicaragua",
+      "displayName": "Nikaragua Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1898,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "06709a95c724fbfdab1dd2a6482295e77ea2236b97e6fdeb0512d25870050f35"
+    },
+    {
+      "sourceFeatureIndex": 12578,
+      "sourceName": "Mexico",
+      "displayName": "Meksika",
+      "sourceInterval": {
+        "start": 1922,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "e985a35f1d2fa768538130e136c8df5ae9016e15ec8894b065eede6988ce104f"
+    },
+    {
+      "sourceFeatureIndex": 12603,
+      "sourceName": "Dominican Republic",
+      "displayName": "Dominik Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1924,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "5887df4def65a908bb6f8e24002e090370f736882a36296044d57bef0cdf8c3b"
+    },
+    {
+      "sourceFeatureIndex": 12666,
+      "sourceName": "Republic of Colombia",
+      "displayName": "Kolombiya Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1928,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "34998edaf9c8d99157e1062741db3419e8896c4a684a7daae64322be570c7a9c"
+    },
+    {
+      "sourceFeatureIndex": 12743,
+      "sourceName": "Argentine Republic",
+      "displayName": "Arjantin Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1936,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "804aace926bad55a9fc1606979e45094e626514e8e0a623b5e1c95fe7967fe31"
+    },
+    {
+      "sourceFeatureIndex": 12760,
+      "sourceName": "Paraguay",
+      "displayName": "Paraguay",
+      "sourceInterval": {
+        "start": 1936,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "2670cc6594cdc76d4214951f1cd9f9d36bde233574da7c04d04459d9797d985c"
+    },
+    {
+      "sourceFeatureIndex": 12780,
+      "sourceName": "Republic of Haiti",
+      "displayName": "Haiti Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1936,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "7a41b7938f067da3cba30433dd28cedaae7913f54e9d120a2956f16bd12c94a8"
+    },
+    {
+      "sourceFeatureIndex": 12811,
+      "sourceName": "Principality of Andorra",
+      "displayName": "Andorra Prensliği",
+      "sourceInterval": {
+        "start": 1939,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "c63fe920f495520ec16e2e3702491cd236b0183c0033e55efe2bb8240ce676df"
+    },
+    {
+      "sourceFeatureIndex": 12912,
+      "sourceName": "Republic of Liberia",
+      "displayName": "Liberya Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1943,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "a1e64443b459ef084bcfc1d0a5e0bfc32b65fa76af275d037ba09822069baffb"
+    },
+    {
+      "sourceFeatureIndex": 12945,
+      "sourceName": "Republic of Finland",
+      "displayName": "Finlandiya Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1945,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "2c4330caf90ade81524bdaf4ad50db0068f7e513cb3d294a1e4c6c8166c18547"
+    },
+    {
+      "sourceFeatureIndex": 12953,
+      "sourceName": "Kingdom of Norway",
+      "displayName": "Norveç Krallığı",
+      "sourceInterval": {
+        "start": 1945,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "08661c81036a773a3692ad5485e54639e034224c81d985521bdfee9071f8f9e9"
+    },
+    {
+      "sourceFeatureIndex": 12955,
+      "sourceName": "Principality of Monaco",
+      "displayName": "Monako Prensliği",
+      "sourceInterval": {
+        "start": 1945,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "252614463166ede26a65cc9b1e16d1234ea1a95b35387ebd7b3bf7aaa1a02679"
+    },
+    {
+      "sourceFeatureIndex": 12964,
+      "sourceName": "Kingdom of Sweden",
+      "displayName": "İsveç Krallığı",
+      "sourceInterval": {
+        "start": 1945,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "97c4c7c7c443aac186c4078ee24f2e2b1148d758e7b2117db1ed7f6ed20437d5"
+    },
+    {
+      "sourceFeatureIndex": 12992,
+      "sourceName": "Denmark",
+      "displayName": "Danimarka",
+      "sourceInterval": {
+        "start": 1946,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "b8632557c18e86fed3049fef52db47b5f56bc1e49a463e80acc675832970aa07"
+    },
+    {
+      "sourceFeatureIndex": 12994,
+      "sourceName": "Commonwealth of Australia",
+      "displayName": "Avustralya Milletler Topluluğu",
+      "sourceInterval": {
+        "start": 1946,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "fac9ee36261feda2bf8025b5d57b11cfeebb25e5c21c38f13947d5e38b2ebe59"
+    },
+    {
+      "sourceFeatureIndex": 13010,
+      "sourceName": "Republic of Iceland",
+      "displayName": "İzlanda Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1946,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "0f5d9e7f2874c48c9fcd59a79058101a849824ba1841941f901ad66df294b3fd"
+    },
+    {
+      "sourceFeatureIndex": 13039,
+      "sourceName": "Republic of the Philippines",
+      "displayName": "Filipinler Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1947,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "3ee1b39f8c6d7726d7c10143699bfd7872fce887b6ba46b7795d01ed43b030ae"
+    },
+    {
+      "sourceFeatureIndex": 13054,
+      "sourceName": "New Zealand",
+      "displayName": "Yeni Zelanda",
+      "sourceInterval": {
+        "start": 1948,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "4dc4af6be602ec11b73b3198ea2b7932f8acfa25be84188982390cae7bcad6f1"
+    },
+    {
+      "sourceFeatureIndex": 13067,
+      "sourceName": "Sri Lanka",
+      "displayName": "Sri Lanka",
+      "sourceInterval": {
+        "start": 1948,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "ffcd8732dca22402545d14d938261811f5bf82e0553e67c9a902dcedccb5ae01"
+    },
+    {
+      "sourceFeatureIndex": 13091,
+      "sourceName": "Republic of Turkey",
+      "displayName": "Türkiye Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1949,
+        "end": 2005
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": null
+    },
+    {
+      "sourceFeatureIndex": 13108,
+      "sourceName": "Swiss Confederation",
+      "displayName": "İsviçre Konfederasyonu",
+      "sourceInterval": {
+        "start": 1950,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "2e2c9dfffffb0d4b77a4513df3337b1c1e580eabe97c4cc33ad20341476542b5"
+    },
+    {
+      "sourceFeatureIndex": 13109,
+      "sourceName": "Kingdom of Belgium",
+      "displayName": "Belçika Krallığı",
+      "sourceInterval": {
+        "start": 1950,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "2b5856ddccab369f5ff7fd117a0a6d240afdf51abce9354ccaf50fcef5be8a57"
+    },
+    {
+      "sourceFeatureIndex": 13111,
+      "sourceName": "Republic of China",
+      "displayName": "Çin Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1950,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "15524f0b12969ccf59ab6a64d50b56f260ca20bface41e1410028bed6937ca5a"
+    },
+    {
+      "sourceFeatureIndex": 13116,
+      "sourceName": "(Netherlands)",
+      "displayName": "(Hollanda)",
+      "sourceInterval": {
+        "start": 1950,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "5d295ca52bee1461cf46adf17daa61f86b57f690d64e17d624b94ce5915b8a4a"
+    },
+    {
+      "sourceFeatureIndex": 13120,
+      "sourceName": "Netherlands",
+      "displayName": "Hollanda",
+      "sourceInterval": {
+        "start": 1950,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "5d295ca52bee1461cf46adf17daa61f86b57f690d64e17d624b94ce5915b8a4a"
+    },
+    {
+      "sourceFeatureIndex": 13140,
+      "sourceName": "Republic of Peru",
+      "displayName": "Peru Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1953,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "6870e58c2a9f7e457a1881710df93387412907277766943e476b5ef13efbc1ff"
+    },
+    {
+      "sourceFeatureIndex": 13141,
+      "sourceName": "Republic of Ecuador",
+      "displayName": "Ekvador Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1953,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "9b42601816df270ff6101370b7611a7427fa70015cbde9df3308000682ba6c6e"
+    },
+    {
+      "sourceFeatureIndex": 13144,
+      "sourceName": "Democratic People's Republic of Korea",
+      "displayName": "Kore Demokratik Halk Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1953,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "3d0a96726700a03bf7ca8d476131d4f92cf1236a23becfda930a991fe2cc6685"
+    },
+    {
+      "sourceFeatureIndex": 13149,
+      "sourceName": "Republic of Korea",
+      "displayName": "Kore Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1953,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "a32c3d64d6935138761258fc2e5743b6269a65e59adc0b100fc485cca226be12"
+    },
+    {
+      "sourceFeatureIndex": 13150,
+      "sourceName": "Bolivia",
+      "displayName": "Bolivya",
+      "sourceInterval": {
+        "start": 1953,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "8010758ba7657aa24f7a1ce0e3d2e44580a61b183bae1ae989b0839a8396e51d"
+    },
+    {
+      "sourceFeatureIndex": 13177,
+      "sourceName": "Kingdom of Thailand",
+      "displayName": "Tayland Krallığı",
+      "sourceInterval": {
+        "start": 1956,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "d404dfec26d19dcc30b17c471e4efd29c6b4281565d59dc35b37f533337a630b"
+    },
+    {
+      "sourceFeatureIndex": 13195,
+      "sourceName": "Luxembourg",
+      "displayName": "Lüksemburg",
+      "sourceInterval": {
+        "start": 1958,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "063264ea2b3563be20e9c0aba12ea0bb13e676b4ce99915c571f68b0f22206ef"
+    },
+    {
+      "sourceFeatureIndex": 13205,
+      "sourceName": "Madagascar",
+      "displayName": "Madagaskar",
+      "sourceInterval": {
+        "start": 1960,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "0bd201069ed6c6cb5e2a2d6b71176b119139d7e4a33625452ca536b388e474b8"
+    },
+    {
+      "sourceFeatureIndex": 13207,
+      "sourceName": "Guinea",
+      "displayName": "Gine",
+      "sourceInterval": {
+        "start": 1960,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "34d405aa294ce464369478de04d893d796b47a5a90e2c4ccaae83a8389d39055"
+    },
+    {
+      "sourceFeatureIndex": 13213,
+      "sourceName": "Togo",
+      "displayName": "Togo",
+      "sourceInterval": {
+        "start": 1960,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "9bfac700b5f0a0fdfbb07022b5f67b3d3bcbd391741cdbc76642a3f2e9000957"
+    },
+    {
+      "sourceFeatureIndex": 13215,
+      "sourceName": "Federal Republic of Somalia",
+      "displayName": "Somali Federal Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1960,
+        "end": 2023
+      },
+      "boundaryStatus": "WITHHELD",
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW",
+      "identityEvidenceStatus": "CONTRADICTORY_SOURCE_NAME_PERIOD",
+      "references": [
+        "https://www.un.org/sg/en/content/former-secretary-general/statements/2012-08-20/statement-attributable-the-spokesperson-for-the-secretary-general-somalia"
+      ],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": null
+    },
+    {
+      "sourceFeatureIndex": 13220,
+      "sourceName": "Communist Cuba",
+      "displayName": "Komünist Küba",
+      "sourceInterval": {
+        "start": 1960,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "4f42cd3fa3958cbcab9f3ee20df2f68e2fa6c26458d44b4a4222e3845f2d6c39"
+    },
+    {
+      "sourceFeatureIndex": 13223,
+      "sourceName": "Republic of the Congo",
+      "displayName": "Kongo Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1961,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "b2b6590c8d1acf21d15cf53ad242a1955cb21668cd4a7c9f0c8f7a2184cf5a0f"
+    },
+    {
+      "sourceFeatureIndex": 13224,
+      "sourceName": "Gabon",
+      "displayName": "Gabon",
+      "sourceInterval": {
+        "start": 1961,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "b5716b86178365afdfc2bef6a4f5b1c33cb72bef089403a3ab6086692092ae33"
+    },
+    {
+      "sourceFeatureIndex": 13231,
+      "sourceName": "Sierra Leone",
+      "displayName": "Sierra Leone",
+      "sourceInterval": {
+        "start": 1961,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "26a33747f5813561f7e2bad69b363bba741aac6d9dfe8094dcc8160776f0c854"
+    },
+    {
+      "sourceFeatureIndex": 13234,
+      "sourceName": "Mali Federation",
+      "displayName": "Mali Federasyonu",
+      "sourceInterval": {
+        "start": 1961,
+        "end": 2023
+      },
+      "boundaryStatus": "WITHHELD",
+      "reason": "SOURCE_IDENTITY_DATE_OR_POLITY_SCOPE_REVIEW",
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": null
+    },
+    {
+      "sourceFeatureIndex": 13235,
+      "sourceName": "Ghana",
+      "displayName": "Gana",
+      "sourceInterval": {
+        "start": 1961,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "af901c60d737ec462312facffce4398726f42528e7d2aaeed1579ffa9d84ea2c"
+    },
+    {
+      "sourceFeatureIndex": 13236,
+      "sourceName": "Central African Republic",
+      "displayName": "Orta Afrika Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1961,
+        "end": 2013
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "ed47caab48be42c8b9eb6fc762f6d66c0814f96ba3a9d7e6f69969a0164769b0"
+    },
+    {
+      "sourceFeatureIndex": 13237,
+      "sourceName": "Republic of Côte d'Ivoire",
+      "displayName": "Fildişi Sahili Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1961,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "c01618448b4dac8c747c30e385c0c856978275e9b5bb744a508144e0ba07da05"
+    },
+    {
+      "sourceFeatureIndex": 13238,
+      "sourceName": "Republic of Senegal",
+      "displayName": "Senegal Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1961,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "9c7b69591ce54e26f3b3ee6d80123d748072a94bd71940afe7a25b31f928744d"
+    },
+    {
+      "sourceFeatureIndex": 13239,
+      "sourceName": "Republic of Chad",
+      "displayName": "Çad Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1961,
+        "end": 2023
+      },
+      "boundaryStatus": "WITHHELD",
+      "reason": "WORLD_RING_INTERSECTION",
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": null
+    },
+    {
+      "sourceFeatureIndex": 13243,
+      "sourceName": "Republic of Cameroon",
+      "displayName": "Kamerun Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1961,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "ebd0137a99252c216d3ce43d3077383e056fc6e0cec0354020fd6a0bad890138"
+    },
+    {
+      "sourceFeatureIndex": 13247,
+      "sourceName": "French Fifth Republic",
+      "displayName": "Fransa Beşinci Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1961,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "ba77ae4917239336786f40c490b2799d8ee5eb12fc26ded120f13a6150a2c824"
+    },
+    {
+      "sourceFeatureIndex": 13249,
+      "sourceName": "Burkina Faso",
+      "displayName": "Burkina Faso",
+      "sourceInterval": {
+        "start": 1961,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "60380b71748a9287b9e4f3273693eec11f2049038089ef49bfa8ca68227b24ac"
+    },
+    {
+      "sourceFeatureIndex": 13250,
+      "sourceName": "Republic of the Niger",
+      "displayName": "Nijer Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1961,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "ea83ddf5aa8c72005e12b84311f7005446551ddc81ad723d4eae945bb1254528"
+    },
+    {
+      "sourceFeatureIndex": 13251,
+      "sourceName": "Republic of Kenya",
+      "displayName": "Kenya Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1963,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "ea237c1739c345438d54d97fa04933ad7feb9c397dc321aac6a56d7ac650ddaa"
+    },
+    {
+      "sourceFeatureIndex": 13252,
+      "sourceName": "Republic of Rwanda",
+      "displayName": "Ruanda Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1963,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "057aa1b8468b57c7118d4edb249f982acfa84864cd61806bc8aeb59863a82a00"
+    },
+    {
+      "sourceFeatureIndex": 13253,
+      "sourceName": "Jamaica",
+      "displayName": "Jamaika",
+      "sourceInterval": {
+        "start": 1963,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "ed75326cb0667908db3e20b7bc3234d71a0137e79f8444fcc96d64227d27a964"
+    },
+    {
+      "sourceFeatureIndex": 13256,
+      "sourceName": "Republic of Trinidad and Tobago",
+      "displayName": "Trinidad ve Tobago Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1963,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "eb56357d1079fb5ea1fadb689c49008a8ac8788cb577dc555a48e0f05dcddd30"
+    },
+    {
+      "sourceFeatureIndex": 13264,
+      "sourceName": "Republic of Uganda",
+      "displayName": "Uganda Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1963,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "d402bd4db83a0c31165d00bf13d7fdd1be31090a2ab82396db2306a0bb679c57"
+    },
+    {
+      "sourceFeatureIndex": 13267,
+      "sourceName": "Republic of Burundi",
+      "displayName": "Burundi Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1963,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "b7ce78da3c0aac98c1703cb57e876bf4fb374f560d3a15030d18e70ae3b2730b"
+    },
+    {
+      "sourceFeatureIndex": 13279,
+      "sourceName": "United States of America",
+      "displayName": "Amerika Birleşik Devletleri",
+      "sourceInterval": {
+        "start": 1967,
+        "end": 2005
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "2e8aaa278b64ddba32593425250b838c02bd2d79ddfdaab5077bd7ecdac169f9"
+    },
+    {
+      "sourceFeatureIndex": 13281,
+      "sourceName": "Guyana",
+      "displayName": "Guyana",
+      "sourceInterval": {
+        "start": 1967,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "1b9156e37d9ddf40201de93ff2d6ac342dca8a1a6492c26152adbc54f30a0312"
+    },
+    {
+      "sourceFeatureIndex": 13283,
+      "sourceName": "Zambia",
+      "displayName": "Zambiya",
+      "sourceInterval": {
+        "start": 1967,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "7fba3d75dece74276e987d22a9b6b00b0ed1122fa6d8b67c10d25d9cc82bc6e6"
+    },
+    {
+      "sourceFeatureIndex": 13285,
+      "sourceName": "Republic of The Gambia",
+      "displayName": "Gambiya Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1967,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "da219b8fdd0b4dd4af1c4878e7cc9bec7e571cd3421ef26ead311b0a6ef46ed2"
+    },
+    {
+      "sourceFeatureIndex": 13287,
+      "sourceName": "Barbados",
+      "displayName": "Barbados",
+      "sourceInterval": {
+        "start": 1967,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "22f8ad164830c0db3602774cd40594fad48aadf6faa1844396b9eb6bdf393bc1"
+    },
+    {
+      "sourceFeatureIndex": 13290,
+      "sourceName": "Malta",
+      "displayName": "Malta",
+      "sourceInterval": {
+        "start": 1967,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "4d54e6c992f9b73ffee062c597b5d6a50a3f784296550bd47bfd6aeab9bbaee4"
+    },
+    {
+      "sourceFeatureIndex": 13295,
+      "sourceName": "Republic of Singapore",
+      "displayName": "Singapur Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1967,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "1fdb3a8552eaea3f46a494dac805ad9b48bf4df814981649f5f56dba111863b4"
+    },
+    {
+      "sourceFeatureIndex": 13297,
+      "sourceName": "Saint Kitts",
+      "displayName": "Saint Kitts",
+      "sourceInterval": {
+        "start": 1967,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "9f8ec6e0fd1427228ba8cb80d2886d49473a98a2f7cb7a1f251ef7ade64e355d"
+    },
+    {
+      "sourceFeatureIndex": 13299,
+      "sourceName": "Antigua and Barbuda",
+      "displayName": "Antigua ve Barbuda",
+      "sourceInterval": {
+        "start": 1967,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "5e6be9b8cf7ca840ec702ee6e91a09601bcec7fffc914574ab7914e31b1fa50c"
+    },
+    {
+      "sourceFeatureIndex": 13303,
+      "sourceName": "Mauritius",
+      "displayName": "Mauritius",
+      "sourceInterval": {
+        "start": 1969,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "f3c78cd2789284c8ee45a622361222787d1a3cd5bfabd0592e67fae0103ae30b"
+    },
+    {
+      "sourceFeatureIndex": 13304,
+      "sourceName": "Federal Republic of Nigeria",
+      "displayName": "Nijerya Federal Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1969,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "3aa1ccc2c8b11b834d7e8d7ac7870fa1e0ca1be0e6b3a27299807503a14ee3cd"
+    },
+    {
+      "sourceFeatureIndex": 13305,
+      "sourceName": "Kingdom of Great Britain",
+      "displayName": "Büyük Britanya Krallığı",
+      "sourceInterval": {
+        "start": 1969,
+        "end": 2023
+      },
+      "boundaryStatus": "WITHHELD",
+      "reason": "SOURCE_IDENTITY_DATE_OR_POLITY_SCOPE_REVIEW",
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": null
+    },
+    {
+      "sourceFeatureIndex": 13307,
+      "sourceName": "Republic of Benin",
+      "displayName": "Benin Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1969,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "7da246ef8b70a1847ab8c540bae401f9ab931b6f2e1b711c81b0fc2e9bdbff6f"
+    },
+    {
+      "sourceFeatureIndex": 13311,
+      "sourceName": "Saint Vincent",
+      "displayName": "Saint Vincent",
+      "sourceInterval": {
+        "start": 1969,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "ee5e3c355c6cc57b4098526c81abb83fe7c119d23313da5b0f705fc800be575e"
+    },
+    {
+      "sourceFeatureIndex": 13319,
+      "sourceName": "Equatorial Guinea",
+      "displayName": "Ekvator Ginesi",
+      "sourceInterval": {
+        "start": 1969,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "9e7949362c08937d019bfb7a3fca906599995c5fb0d3c43817ef4e000a1c2847"
+    },
+    {
+      "sourceFeatureIndex": 13321,
+      "sourceName": "Commonwealth of The Bahamas",
+      "displayName": "Bahamalar Milletler Topluluğu",
+      "sourceInterval": {
+        "start": 1973,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "45a3a263bad014964c4c233d54baa1445969711a591ecd5f809432ad0c7b4562"
+    },
+    {
+      "sourceFeatureIndex": 13325,
+      "sourceName": "Republic of Guinea-Bissau",
+      "displayName": "Gine-Bissau Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1973,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "ec3fd043e80a7ddec8b28b849b794383bab561d8c1af4b73c15565a7a8bbb0aa"
+    },
+    {
+      "sourceFeatureIndex": 13327,
+      "sourceName": "Kingdom of Bahrain",
+      "displayName": "Bahreyn Krallığı",
+      "sourceInterval": {
+        "start": 1973,
+        "end": 2023
+      },
+      "boundaryStatus": "WITHHELD",
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW",
+      "identityEvidenceStatus": "CONTRADICTORY_SOURCE_NAME_PERIOD",
+      "references": [
+        "https://www.lloc.gov.bh/en/Legislation/id/ConstitMemo",
+        "https://www.wipo.int/wipolex/en/legislation/details/19650"
+      ],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": null
+    },
+    {
+      "sourceFeatureIndex": 13329,
+      "sourceName": "Republic of Fiji",
+      "displayName": "Fiji Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1973,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "ce3c088db0f14fc42198e6557002063fc71a9611919f9b9fab2eeaa3264d7567"
+    },
+    {
+      "sourceFeatureIndex": 13334,
+      "sourceName": "Sultanate of Oman",
+      "displayName": "Umman Sultanlığı",
+      "sourceInterval": {
+        "start": 1973,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "8bb40c22c33456f6b9b0c8e3fbabaefd4ad59b5dd560e6dd2fcf0f27b0dac1c1"
+    },
+    {
+      "sourceFeatureIndex": 13337,
+      "sourceName": "People's Republic of Bangladesh",
+      "displayName": "Bangladeş Halk Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1973,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "3b103b69355d1a9d760878576b513fc590c2b8b38da9963812fe5e572a787177"
+    },
+    {
+      "sourceFeatureIndex": 13348,
+      "sourceName": "State of Qatar",
+      "displayName": "Katar Devleti",
+      "sourceInterval": {
+        "start": 1973,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "ff5829926a3dcb0a6fef7d7ac90e0949f10599521ed9374ec09411327a0e9abb"
+    },
+    {
+      "sourceFeatureIndex": 13350,
+      "sourceName": "United Arab Emirates",
+      "displayName": "Birleşik Arap Emirlikleri",
+      "sourceInterval": {
+        "start": 1973,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "6d63928b453983ef207f7f4d1bf5d0d941c32588826b02802a04ed5371cf197a"
+    },
+    {
+      "sourceFeatureIndex": 13355,
+      "sourceName": "Japan",
+      "displayName": "Japonya",
+      "sourceInterval": {
+        "start": 1973,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "451fe35df7dcc998ba9e55abd92fffe44eddbef9981ef1328eb1da9b8e940b43"
+    },
+    {
+      "sourceFeatureIndex": 13359,
+      "sourceName": "Seychelles",
+      "displayName": "Seyşeller",
+      "sourceInterval": {
+        "start": 1976,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "9a7a50eeb2b8afb3a19201bd1103d1726b460a9ac232d5163a5ac26d188c4e2c"
+    },
+    {
+      "sourceFeatureIndex": 13362,
+      "sourceName": "Turkish Republic of Northern Cyprus",
+      "displayName": "Kuzey Kıbrıs Türk Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1976,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "7c3f33e391670b2c75fe4e05b052fd151fad4574b5d62b7ec437cac5dd2f0688"
+    },
+    {
+      "sourceFeatureIndex": 13363,
+      "sourceName": "Mauritania",
+      "displayName": "Moritanya",
+      "sourceInterval": {
+        "start": 1976,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "c78b17f6912c4c973c17e3e066f93f07bebd0565805ca7d419d5375e564e5a43"
+    },
+    {
+      "sourceFeatureIndex": 13364,
+      "sourceName": "Socialist Republic of Vietnam",
+      "displayName": "Vietnam Sosyalist Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1976,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "ee6daf4806a2d4ff2e0574f0f9176c757ad2a29a02851d5070cbc95f445fe931"
+    },
+    {
+      "sourceFeatureIndex": 13365,
+      "sourceName": "People's Democratic Republic of Algeria",
+      "displayName": "Cezayir Demokratik Halk Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1976,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "fbe66c0fc19e8e99827abed055d01868c797bbac9ff57e2910e97d2638c86a7d"
+    },
+    {
+      "sourceFeatureIndex": 13368,
+      "sourceName": "Morocco",
+      "displayName": "Fas",
+      "sourceInterval": {
+        "start": 1976,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "0121fc6f0deae475178753009eefd4f6ea25de3874f5c77def997996ab726030"
+    },
+    {
+      "sourceFeatureIndex": 13369,
+      "sourceName": "People's Republic of Angola",
+      "displayName": "Angola Halk Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1976,
+        "end": 2023
+      },
+      "boundaryStatus": "WITHHELD",
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW",
+      "identityEvidenceStatus": "CONTRADICTORY_SOURCE_NAME_PERIOD",
+      "references": [
+        "https://www.un.org/womenwatch/daw/followup/beijing%2B5stat/statments/angola5.htm",
+        "https://digitallibrary.un.org/record/425318/files/S_2000_998-EN.pdf"
+      ],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": null
+    },
+    {
+      "sourceFeatureIndex": 13370,
+      "sourceName": "Libyan Arab Republic",
+      "displayName": "Libyan Arab Republic",
+      "sourceInterval": {
+        "start": 1976,
+        "end": 2005
+      },
+      "boundaryStatus": "WITHHELD",
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW",
+      "identityEvidenceStatus": "CONTRADICTORY_SOURCE_NAME_PERIOD",
+      "references": [
+        "https://treaties.un.org/pages/showDetails.aspx?objid=08000002800f4be6",
+        "https://www.un.org/unispal/document/auto-insert-204115/"
+      ],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": null
+    },
+    {
+      "sourceFeatureIndex": 13371,
+      "sourceName": "Mozambique",
+      "displayName": "Mozambik",
+      "sourceInterval": {
+        "start": 1976,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "c13f9c7981feb7012f7f77fe8631f55e575bbc01e0a5bcc220144c3136dae332"
+    },
+    {
+      "sourceFeatureIndex": 13372,
+      "sourceName": "Republic of Cabo Verde",
+      "displayName": "Cabo Verde Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1976,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "6da14048d5af0dffc83add4d7d18145b5e49eb88ef2a375343e37ae2229e13a4"
+    },
+    {
+      "sourceFeatureIndex": 13373,
+      "sourceName": "Papua New Guinea",
+      "displayName": "Papua Yeni Gine",
+      "sourceInterval": {
+        "start": 1976,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "3baa37c3af039e714addde5a1971c1ac64ef5707d247699032914fe52e579d31"
+    },
+    {
+      "sourceFeatureIndex": 13374,
+      "sourceName": "Republic of Tunisia",
+      "displayName": "Tunus Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1976,
+        "end": 2023
+      },
+      "boundaryStatus": "WITHHELD",
+      "reason": "WORLD_RING_INTERSECTION",
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": null
+    },
+    {
+      "sourceFeatureIndex": 13377,
+      "sourceName": "Kingdom of Spain",
+      "displayName": "İspanya",
+      "sourceInterval": {
+        "start": 1976,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": null
+    },
+    {
+      "sourceFeatureIndex": 13380,
+      "sourceName": "Republic of Cyprus",
+      "displayName": "Kıbrıs Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1976,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "167b4e7b07191b85655690fc7474c15962bc06fd5fe438b0c6d7f332c3a465ca"
+    },
+    {
+      "sourceFeatureIndex": 13382,
+      "sourceName": "Republic of Indonesia",
+      "displayName": "Endonezya Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1976,
+        "end": 2005
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "dbf51e9b163b0e04784cf8527fb314ed65a491dad53bcb9620168fdc8deb553a"
+    },
+    {
+      "sourceFeatureIndex": 13384,
+      "sourceName": "Republic of Italy",
+      "displayName": "İtalya",
+      "sourceInterval": {
+        "start": 1976,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": null
+    },
+    {
+      "sourceFeatureIndex": 13386,
+      "sourceName": "Lesotho",
+      "displayName": "Lesotho",
+      "sourceInterval": {
+        "start": 1976,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "9b6b05fde2e5bcd4fdd43dc98c43c43b31574131b16b8d7aff09dcbc98eb39ba"
+    },
+    {
+      "sourceFeatureIndex": 13387,
+      "sourceName": "Canada",
+      "displayName": "Kanada",
+      "sourceInterval": {
+        "start": 1976,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "5a935306ff2117dcac4a158dbe26742108cff68209c4d16735450cc4a9cc4ffb"
+    },
+    {
+      "sourceFeatureIndex": 13388,
+      "sourceName": "Malawi",
+      "displayName": "Malavi",
+      "sourceInterval": {
+        "start": 1976,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "9edd21e1f00dfa0656251641d19504845af1476c05670221f0b2019d59a3bff3"
+    },
+    {
+      "sourceFeatureIndex": 13390,
+      "sourceName": "Grenada",
+      "displayName": "Grenada",
+      "sourceInterval": {
+        "start": 1976,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "d01d2b52ab970660426d69ed094f27092b43175e5171a0d7a9065355cd43d3f1"
+    },
+    {
+      "sourceFeatureIndex": 13393,
+      "sourceName": "Éire",
+      "displayName": "Éire",
+      "sourceInterval": {
+        "start": 1976,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "d485f42c69af6f8eeb538437eda5e72179d44229f8a3cf3a228e6e95a1e4f950"
+    },
+    {
+      "sourceFeatureIndex": 13394,
+      "sourceName": "Republic of Suriname",
+      "displayName": "Surinam Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1976,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "faace46be363643298a1e001f85aa818fbddf097e5e7440e52181477350706ee"
+    },
+    {
+      "sourceFeatureIndex": 13395,
+      "sourceName": "São Tomé and Príncipe",
+      "displayName": "São Tomé ve Príncipe",
+      "sourceInterval": {
+        "start": 1976,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "e9c0f20f43df4634db6a936d740587d910b36ea7690453b38c7367c02f06c4c5"
+    },
+    {
+      "sourceFeatureIndex": 13397,
+      "sourceName": "Communist Laos",
+      "displayName": "Komünist Laos",
+      "sourceInterval": {
+        "start": 1976,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "fce6761f51b92b2df3ad01fd7a7fbf86c9155e2852a283d9a429f703b22d1f1f"
+    },
+    {
+      "sourceFeatureIndex": 13398,
+      "sourceName": "Tanzania",
+      "displayName": "Tanzanya",
+      "sourceInterval": {
+        "start": 1976,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "d5167276d58e0522ad8031ce030d03d773a01200d4ea08e3cf8ff83aa7e16d12"
+    },
+    {
+      "sourceFeatureIndex": 13399,
+      "sourceName": "Portugal",
+      "displayName": "Portekiz",
+      "sourceInterval": {
+        "start": 1976,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": null
+    },
+    {
+      "sourceFeatureIndex": 13400,
+      "sourceName": "Eswatini",
+      "displayName": "Esvatini",
+      "sourceInterval": {
+        "start": 1976,
+        "end": 2023
+      },
+      "boundaryStatus": "WITHHELD",
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW",
+      "identityEvidenceStatus": "CONTRADICTORY_SOURCE_NAME_PERIOD",
+      "references": [
+        "https://www.un.org/en/about-us/member-states/eswatini",
+        "https://www.un.int/eswatini/news/kingdom-eswatini-new-name-kingdom-swaziland"
+      ],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": null
+    },
+    {
+      "sourceFeatureIndex": 13403,
+      "sourceName": "Commonwealth of Dominica",
+      "displayName": "Dominika Milletler Topluluğu",
+      "sourceInterval": {
+        "start": 1979,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "ff17d7132517eb3f0614089cdf327699eb529eba5da868d8de94d37ff49981cb"
+    },
+    {
+      "sourceFeatureIndex": 13406,
+      "sourceName": "Estado Novo",
+      "displayName": "Estado Novo",
+      "sourceInterval": {
+        "start": 1979,
+        "end": 2023
+      },
+      "boundaryStatus": "WITHHELD",
+      "reason": "SOURCE_IDENTITY_DATE_OR_POLITY_SCOPE_REVIEW",
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": null
+    },
+    {
+      "sourceFeatureIndex": 13409,
+      "sourceName": "Saint Lucia",
+      "displayName": "Saint Lucia",
+      "sourceInterval": {
+        "start": 1979,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "f3a58b1ef96130e9b705b98670e4be163adff664d6ca7aafc78a183ec05d45fb"
+    },
+    {
+      "sourceFeatureIndex": 13412,
+      "sourceName": "Solomon Islands",
+      "displayName": "Solomon Adaları",
+      "sourceInterval": {
+        "start": 1979,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "1c4a1ac2baaa2a54087492cad250d744fee8d72b5074eee744c29fed69a7d572"
+    },
+    {
+      "sourceFeatureIndex": 13417,
+      "sourceName": "Republic of Zimbabwe",
+      "displayName": "Zimbabve Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1983,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "dbc0ea931d77591f581ff7b48814ff42d28851d9451163cfab4791bacd16bb56"
+    },
+    {
+      "sourceFeatureIndex": 13420,
+      "sourceName": "Vanuatu",
+      "displayName": "Vanuatu",
+      "sourceInterval": {
+        "start": 1983,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "51fb64a5fac8d97a1ea59de87b4292585bf48e2bc497deccc5d37a0f079803a3"
+    },
+    {
+      "sourceFeatureIndex": 13424,
+      "sourceName": "Arab Republic of Egypt",
+      "displayName": "Mısır",
+      "sourceInterval": {
+        "start": 1983,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": null
+    },
+    {
+      "sourceFeatureIndex": 13425,
+      "sourceName": "Kingdom of Bhutan",
+      "displayName": "Bhutan Krallığı",
+      "sourceInterval": {
+        "start": 1983,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "96ade620942a1ee1bff4915434afdf5bb3399c7348e909aeb9891949711469c8"
+    },
+    {
+      "sourceFeatureIndex": 13432,
+      "sourceName": "Belize",
+      "displayName": "Belize",
+      "sourceInterval": {
+        "start": 1983,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "69b4b7a5dd689e77f499cf38e938caa5f0c4df7abf46b5084afc084635cd59d8"
+    },
+    {
+      "sourceFeatureIndex": 13436,
+      "sourceName": "Lebanon",
+      "displayName": "Lübnan",
+      "sourceInterval": {
+        "start": 1987,
+        "end": 2005
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "85f417e04c0e738db4c3227fd5185240564f93772b5d3b7cc9cdff6491e8b8f6"
+    },
+    {
+      "sourceFeatureIndex": 13437,
+      "sourceName": "Micronesia",
+      "displayName": "Mikronezya",
+      "sourceInterval": {
+        "start": 1987,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "e9eacddf87a39afde9f559b29e89718e47227f69b403fa6011761184e67656a4"
+    },
+    {
+      "sourceFeatureIndex": 13438,
+      "sourceName": "Sultanate of Brunei",
+      "displayName": "Brunei Sultanlığı",
+      "sourceInterval": {
+        "start": 1987,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "dc6a4374a1b75307f11d12fa8a30664f407c215792874e0dc7e5e85f060bc131"
+    },
+    {
+      "sourceFeatureIndex": 13443,
+      "sourceName": "Kingdom of Jordan",
+      "displayName": "Ürdün Krallığı",
+      "sourceInterval": {
+        "start": 1987,
+        "end": 2005
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "JORDAN_MONARCHY_CORROBORATED_NOT_BOUNDARY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "b968a9eef01438b213ce364179467fb9b844b064b3db19326c3536ad834b3f8f"
+    },
+    {
+      "sourceFeatureIndex": 13446,
+      "sourceName": "Republic of India",
+      "displayName": "Hindistan",
+      "sourceInterval": {
+        "start": 1987,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": null
+    },
+    {
+      "sourceFeatureIndex": 13447,
+      "sourceName": "Republic of Brazil",
+      "displayName": "Brezilya",
+      "sourceInterval": {
+        "start": 1987,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": null
+    },
+    {
+      "sourceFeatureIndex": 13448,
+      "sourceName": "Venezuela",
+      "displayName": "Venezuela",
+      "sourceInterval": {
+        "start": 1987,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "fa725de63976c7b58765b314e18c4de9889b708bd5ea0886ffb1bc97d05e27d9"
+    },
+    {
+      "sourceFeatureIndex": 13450,
+      "sourceName": "Syria",
+      "displayName": "Suriye",
+      "sourceInterval": {
+        "start": 1987,
+        "end": 2005
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "42da903182bde5a3bb61c4d6a42bcdc6b6952d7be3e9654eb41fe777dc60f3a0"
+    },
+    {
+      "sourceFeatureIndex": 13453,
+      "sourceName": "State of Israel",
+      "displayName": "İsrail Devleti",
+      "sourceInterval": {
+        "start": 1987,
+        "end": 2005
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "c37a0b6a2577a5cdff5460ab565225309ce7af99f59551baee27a8b6c7dead5c"
+    },
+    {
+      "sourceFeatureIndex": 13454,
+      "sourceName": "Malaysia",
+      "displayName": "Malezya",
+      "sourceInterval": {
+        "start": 1987,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "e43047d00af55e76205477f37e45e68765a3e7c18303edf66ebe428598b4a9c5"
+    },
+    {
+      "sourceFeatureIndex": 13461,
+      "sourceName": "Republic of Yemen",
+      "displayName": "Yemen Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1990,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "3c2fd0c3b3688ba89dc024be976cce7cdc83e59bb751a541047e491c463b1a0b"
+    },
+    {
+      "sourceFeatureIndex": 13468,
+      "sourceName": "South Africa",
+      "displayName": "Güney Afrika",
+      "sourceInterval": {
+        "start": 1990,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": null
+    },
+    {
+      "sourceFeatureIndex": 13470,
+      "sourceName": "Republic of Botswana",
+      "displayName": "Botsvana Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1990,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "f6371f6e9cc366b5034a268f91d879928dc5a774e6b5d8d12fcb80a822fbc0b8"
+    },
+    {
+      "sourceFeatureIndex": 13472,
+      "sourceName": "Namibia",
+      "displayName": "Namibya",
+      "sourceInterval": {
+        "start": 1990,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "04afa0437b6b54df2c96743d57dbd99d267a3fdad34a1e6098617d3954757435"
+    },
+    {
+      "sourceFeatureIndex": 13473,
+      "sourceName": "Union of Myanmar",
+      "displayName": "Myanmar Birliği",
+      "sourceInterval": {
+        "start": 1990,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "c90034af08c05ee35f2fc148409df7cd5a8559427a275d3e1f2b5beb6d20ada3"
+    },
+    {
+      "sourceFeatureIndex": 13475,
+      "sourceName": "Kuwait",
+      "displayName": "Kuveyt",
+      "sourceInterval": {
+        "start": 1991,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "5893739d65cb696f9a964b246b9d8a56810d3b71e9b2d795d6d910f77d63cb4f"
+    },
+    {
+      "sourceFeatureIndex": 13477,
+      "sourceName": "Kingdom of Saudi Arabia",
+      "displayName": "Suudi Arabistan Krallığı",
+      "sourceInterval": {
+        "start": 1991,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "405180e210722ee8d4aad8f71ab523121329b6baadff24bc9ec3755c74fcecf5"
+    },
+    {
+      "sourceFeatureIndex": 13478,
+      "sourceName": "Federated Republic of Germany",
+      "displayName": "Almanya",
+      "sourceInterval": {
+        "start": 1991,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": null
+    },
+    {
+      "sourceFeatureIndex": 13484,
+      "sourceName": "Republic of Chile",
+      "displayName": "Şili Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1991,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "8c5ecdd582c4efe660dac3fd71b66e59ddcfe461b754f88656b06374912c72f2"
+    },
+    {
+      "sourceFeatureIndex": 13487,
+      "sourceName": "Republic of Latvia",
+      "displayName": "Letonya Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1992,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "c22be6b6a098ab9a2e68f88046fc17efc002ca3368266a364cc1a5c61ee8ad6c"
+    },
+    {
+      "sourceFeatureIndex": 13491,
+      "sourceName": "Georgia",
+      "displayName": "Gürcistan",
+      "sourceInterval": {
+        "start": 1992,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "caf80d9af02876d0be40a83bd9f6e269f4bc9932d129012bb70295eea78265c4"
+    },
+    {
+      "sourceFeatureIndex": 13497,
+      "sourceName": "Honduras",
+      "displayName": "Honduras",
+      "sourceInterval": {
+        "start": 1992,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "46d7d5c9e0f6e4522ddd163f3ff0bc8020ee6eea6f0c6e375d9af4a7d223e7a5"
+    },
+    {
+      "sourceFeatureIndex": 13498,
+      "sourceName": "Republic of Slovenia",
+      "displayName": "Slovenya Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1992,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "951bc102a3c033762710994ea30bfe0998b8b7879fec1549d2e68333c33e9668"
+    },
+    {
+      "sourceFeatureIndex": 13499,
+      "sourceName": "Second Republic of Austria",
+      "displayName": "Avusturya İkinci Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1992,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "3014ea72f6123cd4bad3c3ce93e493e8f616792cdcb2d20125a4c8c3a487af82"
+    },
+    {
+      "sourceFeatureIndex": 13500,
+      "sourceName": "Republic of Bulgaria",
+      "displayName": "Bulgaristan Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1992,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "449d72f683f1eabb9d508da645b07ca8c1a68f0ef3064946e8b3a09f233f54c7"
+    },
+    {
+      "sourceFeatureIndex": 13502,
+      "sourceName": "Third Hellenic Republic",
+      "displayName": "Yunanistan Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1992,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "72e9bf539749c5e60edc23a5e3a93bf750385d627943b6a1b28254a6dc862577"
+    },
+    {
+      "sourceFeatureIndex": 13503,
+      "sourceName": "Russian-occupied territories",
+      "displayName": "Rusya işgali altındaki bölgeler",
+      "sourceInterval": {
+        "start": 1992,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "fb3337609ec596934536fea5bc25384a58c4e5ea34d85720730f929f0d345329"
+    },
+    {
+      "sourceFeatureIndex": 13505,
+      "sourceName": "Mongolia",
+      "displayName": "Moğolistan",
+      "sourceInterval": {
+        "start": 1992,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "8086e4de6006c88170bd113d5d3d83c825285cf435032320c94181acd4f13c81"
+    },
+    {
+      "sourceFeatureIndex": 13506,
+      "sourceName": "Republic of Djibouti",
+      "displayName": "Cibuti Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1992,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "78655cb86084a27f28e6fcab10d99e9dc53609784e298570d107277d7ba4fe4a"
+    },
+    {
+      "sourceFeatureIndex": 13507,
+      "sourceName": "Republic of Belarus",
+      "displayName": "Belarus Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1992,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "fd143e76f49ccf8b34ed552cd9300310738663fed9379a801c17ed23bbb9f488"
+    },
+    {
+      "sourceFeatureIndex": 13508,
+      "sourceName": "Kyrgyzstan",
+      "displayName": "Kırgızistan",
+      "sourceInterval": {
+        "start": 1992,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "333b2d4b2c968eb6633959ddd7f90aba946ce92df500afeb933159396b8733f4"
+    },
+    {
+      "sourceFeatureIndex": 13509,
+      "sourceName": "Slovakia",
+      "displayName": "Slovakya",
+      "sourceInterval": {
+        "start": 1992,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "4f9c533d1975c965789560af90e51fcc4a5763769a5fdc0bc44c06661cd84613"
+    },
+    {
+      "sourceFeatureIndex": 13510,
+      "sourceName": "Republic of Lithuania",
+      "displayName": "Litvanya Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1992,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "0cb572eebabcb3ae79462b2afe019e890501bf1952bd50a902f222b738405f37"
+    },
+    {
+      "sourceFeatureIndex": 13514,
+      "sourceName": "Guatemala",
+      "displayName": "Guatemala",
+      "sourceInterval": {
+        "start": 1992,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "1148be8a698168c2f9dce2ee0ec564609e260952e44c12557532bb377dd7be79"
+    },
+    {
+      "sourceFeatureIndex": 13516,
+      "sourceName": "State of Eritrea",
+      "displayName": "Eritre Devleti",
+      "sourceInterval": {
+        "start": 1992,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "228cc797205051e318c2ace5ed832eda05b140fb33ec368d500a428835245fe6"
+    },
+    {
+      "sourceFeatureIndex": 13519,
+      "sourceName": "Romania",
+      "displayName": "Romanya",
+      "sourceInterval": {
+        "start": 1992,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "de039a517855205f0d66136a5681f2a3696f9dec46b2e6b9421394c289626a7c"
+    },
+    {
+      "sourceFeatureIndex": 13520,
+      "sourceName": "Ethiopia",
+      "displayName": "Etiyopya",
+      "sourceInterval": {
+        "start": 1992,
+        "end": 2013
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "eadc7f4703259ff468438bca8180efd4ae8a95dda40add374d41ea6d5d30c725"
+    },
+    {
+      "sourceFeatureIndex": 13521,
+      "sourceName": "Republic of Poland",
+      "displayName": "Polonya Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1992,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "df1cc2eee86ee17aac26afbe5766a2ce0a7b03c59c76aa9b691463480d414149"
+    },
+    {
+      "sourceFeatureIndex": 13522,
+      "sourceName": "Republic of El Salvador",
+      "displayName": "El Salvador Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1992,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "6f211e46452abb3c55f14d797ed56d68541d94478df37c3aac507b5c03185a52"
+    },
+    {
+      "sourceFeatureIndex": 13524,
+      "sourceName": "Republic of Estonia",
+      "displayName": "Estonya Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1992,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "931b4b9023509d4be4e8653ebee5fb2a73d9835e56e50f7e10785c8568bb0f43"
+    },
+    {
+      "sourceFeatureIndex": 13525,
+      "sourceName": "Republic of Moldova",
+      "displayName": "Moldova Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1992,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "4249a75c1703537f71eebe59f2bb3b8590c4b83522f33766c8d73f128a6982f1"
+    },
+    {
+      "sourceFeatureIndex": 13526,
+      "sourceName": "Ukraine",
+      "displayName": "Ukrayna",
+      "sourceInterval": {
+        "start": 1992,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "657d965af53115ea526c2e06c26b3f2335a32f8b2aa1fa5f89aeb7cff9b82bf2"
+    },
+    {
+      "sourceFeatureIndex": 13528,
+      "sourceName": "Republic of Sudan",
+      "displayName": "Sudan Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1992,
+        "end": 2013
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "fed8b763f45aa9fecb6ba32bd263ae00f6b3a590a5790d4c88a7852404b583d7"
+    },
+    {
+      "sourceFeatureIndex": 13529,
+      "sourceName": "Turkmenistan",
+      "displayName": "Türkmenistan",
+      "sourceInterval": {
+        "start": 1992,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "d8a44b1fd93d5b0f3f5f0403ddaa0a38eb7eaf43672e60692fafea02adaa1a7c"
+    },
+    {
+      "sourceFeatureIndex": 13536,
+      "sourceName": "Hungary",
+      "displayName": "Macaristan",
+      "sourceInterval": {
+        "start": 1996,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "ad01276c983bab2337d2009a4f4b04cd0332653cabc95e3930ae05ecb578b7db"
+    },
+    {
+      "sourceFeatureIndex": 13537,
+      "sourceName": "Republic of Armenia",
+      "displayName": "Ermenistan Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1996,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "95940428552bf5b216d38a31e7d8f7c26eecd9d9d72b528c0dc3e512c5002fe0"
+    },
+    {
+      "sourceFeatureIndex": 13538,
+      "sourceName": "Kingdom of Cambodia",
+      "displayName": "Kamboçya Krallığı",
+      "sourceInterval": {
+        "start": 1996,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "dcf2d9ce05d1537c39402e00b6c96beb10cc106a95b02459a91146148bc6c6d2"
+    },
+    {
+      "sourceFeatureIndex": 13540,
+      "sourceName": "Republic of Croatia",
+      "displayName": "Hırvatistan Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1996,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "3cfb599442c10d9894b7f884a00326e918fa6d89aa2acad4b5a60d451a7a7dad"
+    },
+    {
+      "sourceFeatureIndex": 13541,
+      "sourceName": "Kazakhstan",
+      "displayName": "Kazakistan",
+      "sourceInterval": {
+        "start": 1996,
+        "end": 2005
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "1740341cf33fcd283fbb4921952696d3b35702ed50947668cacf39e5d51730e2"
+    },
+    {
+      "sourceFeatureIndex": 13542,
+      "sourceName": "Republic of Azerbaijan",
+      "displayName": "Azerbaycan Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1996,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "1e7c379c13ceef1441993e5347d8b72db7c821206b713edb0cc06be54ed46859"
+    },
+    {
+      "sourceFeatureIndex": 13543,
+      "sourceName": "Democratic Republic of the Congo",
+      "displayName": "Kongo Demokratik Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1996,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "8ded47a162e518b743544db911cf64c55afc79c519dc446c5cd1da04c0765a00"
+    },
+    {
+      "sourceFeatureIndex": 13544,
+      "sourceName": "Bosnia and Herzegovina",
+      "displayName": "Bosna-Hersek",
+      "sourceInterval": {
+        "start": 1996,
+        "end": 2005
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "6499db9454a3599e8c12da6fd48b74087a8b41db91099bcb9ca57173edd5419a"
+    },
+    {
+      "sourceFeatureIndex": 13545,
+      "sourceName": "Czech Republic",
+      "displayName": "Çek Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1996,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "6cf49e576663f48626ab06e8db8e9a0025b594f686b91f71e0dcc09c36b33b88"
+    },
+    {
+      "sourceFeatureIndex": 13546,
+      "sourceName": "Palau",
+      "displayName": "Palau",
+      "sourceInterval": {
+        "start": 1996,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "570683c341ee746fd4eab948e52d64e844a5719b36eb9b5c5d3a94c2d7ac040f"
+    },
+    {
+      "sourceFeatureIndex": 13547,
+      "sourceName": "Islamic Republic of Pakistan",
+      "displayName": "Pakistan İslam Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1996,
+        "end": 2005
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "177e2158278434d1ab296753d3cfd678084682cae5733adb01e3e5edd739cf18"
+    },
+    {
+      "sourceFeatureIndex": 13549,
+      "sourceName": "Islamic Republic of Iran",
+      "displayName": "İran İslam Cumhuriyeti",
+      "sourceInterval": {
+        "start": 1996,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "8023de06a31385fa0c048300d21b1dc74a4cd064f00c383dbcbb7eebe364ee82"
+    },
+    {
+      "sourceFeatureIndex": 13550,
+      "sourceName": "Taliban",
+      "displayName": "Taliban",
+      "sourceInterval": {
+        "start": 2000,
+        "end": 2005
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "4db95f0ac7f8fa0258eaa904c086d1e477d199cbec4e3901b15bae79d0ed8b76"
+    },
+    {
+      "sourceFeatureIndex": 13551,
+      "sourceName": "Russian Federation",
+      "displayName": "Rusya Federasyonu",
+      "sourceInterval": {
+        "start": 2000,
+        "end": 2005
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "818663d4b514d72fa5d5950e09e321062742f0045835ddac7eb7d0429a50c873"
+    },
+    {
+      "sourceFeatureIndex": 13552,
+      "sourceName": "Former Yugoslav Republic of Macedonia",
+      "displayName": "Eski Yugoslav Makedonya Cumhuriyeti",
+      "sourceInterval": {
+        "start": 2000,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "cf0f5f0b82d6e2825107665f4e17c367d24e4f6f65ae6c53b72822035104e2a7"
+    },
+    {
+      "sourceFeatureIndex": 13553,
+      "sourceName": "Kosovo",
+      "displayName": "Kosova",
+      "sourceInterval": {
+        "start": 2000,
+        "end": 2005
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "5066a70cf673a155655079162e3c63e161eaa430ad151c7dd99ee0bb2e221f78"
+    },
+    {
+      "sourceFeatureIndex": 13554,
+      "sourceName": "Republic of Albania",
+      "displayName": "Arnavutluk Cumhuriyeti",
+      "sourceInterval": {
+        "start": 2000,
+        "end": 2005
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "fcf614918232d752bd2f43fe2cb0005e239f79c22922f61439f9608a7db43bfd"
+    },
+    {
+      "sourceFeatureIndex": 13555,
+      "sourceName": "(Russian Federation)",
+      "displayName": "(Rusya Federasyonu)",
+      "sourceInterval": {
+        "start": 2000,
+        "end": 2005
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "d4ccf67f629538fe3b4212fcf7da547e8e0d588326c43d391ba177d2f619fa05"
+    },
+    {
+      "sourceFeatureIndex": 13556,
+      "sourceName": "Republic of Uzbekistan",
+      "displayName": "Özbekistan Cumhuriyeti",
+      "sourceInterval": {
+        "start": 2000,
+        "end": 2005
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "a5a5f67b7d617c6230ecf64ada7f3e788638eeee674a6e753f9674fb907a9925"
+    },
+    {
+      "sourceFeatureIndex": 13557,
+      "sourceName": "Republic of Costa Rica",
+      "displayName": "Kosta Rika Cumhuriyeti",
+      "sourceInterval": {
+        "start": 2000,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "c5ac65ac09f0b0372fd100777a53db2e8e7db47597369a7956715ba15763daaa"
+    },
+    {
+      "sourceFeatureIndex": 13558,
+      "sourceName": "(Commonwealth of Nations)",
+      "displayName": "(Milletler Topluluğu)",
+      "sourceInterval": {
+        "start": 2000,
+        "end": 2023
+      },
+      "boundaryStatus": "WITHHELD",
+      "reason": "SOURCE_IDENTITY_DATE_OR_POLITY_SCOPE_REVIEW",
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": null
+    },
+    {
+      "sourceFeatureIndex": 13559,
+      "sourceName": "Afghanistan",
+      "displayName": "Afganistan",
+      "sourceInterval": {
+        "start": 2000,
+        "end": 2005
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "5d5cbbce4b2a8c3e0ad0717abe3f5a8bb8b713b7d39ee4eff063d6866172ac6d"
+    },
+    {
+      "sourceFeatureIndex": 13560,
+      "sourceName": "Chechen Republic",
+      "displayName": "Chechen Republic",
+      "sourceInterval": {
+        "start": 2000,
+        "end": 2005
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "a8da15babc765a79a6114fd3687005877982d1ffdf365dc06573f8ad26232ebd"
+    },
+    {
+      "sourceFeatureIndex": 13561,
+      "sourceName": "British Overseas Territories",
+      "displayName": "Britanya Denizaşırı Toprakları",
+      "sourceInterval": {
+        "start": 2000,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "0c6a9ad90c8786e095900f287f359063d39a79eea0769af66bd97f2ac3ee17c1"
+    },
+    {
+      "sourceFeatureIndex": 13562,
+      "sourceName": "Republic of Tajikistan",
+      "displayName": "Tacikistan Cumhuriyeti",
+      "sourceInterval": {
+        "start": 2000,
+        "end": 2005
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "daa168cd2f5f447be3c250395557e6dc573065d296a709b95b6f9b8864409871"
+    },
+    {
+      "sourceFeatureIndex": 13563,
+      "sourceName": "Iraqi Republic",
+      "displayName": "Iraqi Republic",
+      "sourceInterval": {
+        "start": 2000,
+        "end": 2005
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "d9887c571e76e2c9f2fd19b169a527686373c4a0a8c4ff5f11b0eca7a0fff2d7"
+    },
+    {
+      "sourceFeatureIndex": 13564,
+      "sourceName": "Republic of Panama",
+      "displayName": "Panama Cumhuriyeti",
+      "sourceInterval": {
+        "start": 2000,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "757a830cc2ad321acc1f156958168a1351a6fe64cfdfa0234259f38e8b9e572f"
+    },
+    {
+      "sourceFeatureIndex": 13565,
+      "sourceName": "Serbia-Montenegro",
+      "displayName": "Serbia-Montenegro",
+      "sourceInterval": {
+        "start": 2000,
+        "end": 2005
+      },
+      "boundaryStatus": "WITHHELD",
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW",
+      "identityEvidenceStatus": "CONTRADICTORY_SOURCE_NAME_PERIOD",
+      "references": [
+        "https://www.icty.org/en/about/what-former-yugoslavia",
+        "https://digitallibrary.un.org/record/1129731?ln=en"
+      ],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": null
+    },
+    {
+      "sourceFeatureIndex": 13566,
+      "sourceName": "People's Republic of China",
+      "displayName": "Çin Halk Cumhuriyeti",
+      "sourceInterval": {
+        "start": 2000,
+        "end": 2023
+      },
+      "boundaryStatus": "SOURCE_RECONSTRUCTION",
+      "reason": null,
+      "identityEvidenceStatus": "NO_INDEPENDENT_IDENTITY_OR_SOVEREIGNTY_CERTIFICATION",
+      "references": [],
+      "aggregateOrDependencyStatus": "NOT_CLASSIFIED_AS_AN_INDEPENDENT_COUNTRY",
+      "geometrySha256": "0c8341629530376cf06b63adfd00a77fb3beb849627264eba706a3789c4597b4"
+    }
+  ],
+  "newIdentityFindings": [
+    {
+      "indices": [
+        13215
+      ],
+      "name": "Federal Republic of Somalia",
+      "finding": "Source uses the federal-republic title over 1960–2023; the UN documents the new federal transition in 2012. The full source interval needs review.",
+      "references": [
+        "https://www.un.org/sg/en/content/former-secretary-general/statements/2012-08-20/statement-attributable-the-spokesperson-for-the-secretary-general-somalia"
+      ]
+    },
+    {
+      "indices": [
+        13327
+      ],
+      "name": "Kingdom of Bahrain",
+      "finding": "The 1973–2023 source interval predates the 2002 constitutional kingdom title. Do not present the full interval as a kingdom.",
+      "references": [
+        "https://www.lloc.gov.bh/en/Legislation/id/ConstitMemo",
+        "https://www.wipo.int/wipolex/en/legislation/details/19650"
+      ]
+    },
+    {
+      "indices": [
+        13315,
+        13324,
+        13400
+      ],
+      "name": "Eswatini",
+      "finding": "The Eswatini name is backdated to 1969/1973/1976; the UN records the change from Swaziland in 2018. The separate 2024 row is not excluded by this finding.",
+      "references": [
+        "https://www.un.org/en/about-us/member-states/eswatini",
+        "https://www.un.int/eswatini/news/kingdom-eswatini-new-name-kingdom-swaziland"
+      ]
+    },
+    {
+      "indices": [
+        13496,
+        13539,
+        13565
+      ],
+      "name": "Serbia-Montenegro",
+      "finding": "Source applies the Serbia-Montenegro name from 1992; the UN records the renaming of the Federal Republic of Yugoslavia in February 2003.",
+      "references": [
+        "https://www.icty.org/en/about/what-former-yugoslavia",
+        "https://digitallibrary.un.org/record/1129731?ln=en"
+      ]
+    },
+    {
+      "indices": [
+        13369,
+        13659
+      ],
+      "name": "People's Republic of Angola",
+      "finding": "The old People's Republic title is extended through 2023 and 2024. Contemporaneous Angolan UN statements in 2000 use Republic of Angola. Do not invent the exact name-change date from this evidence.",
+      "references": [
+        "https://www.un.org/womenwatch/daw/followup/beijing%2B5stat/statments/angola5.htm",
+        "https://digitallibrary.un.org/record/425318/files/S_2000_998-EN.pdf"
+      ]
+    },
+    {
+      "indices": [
+        13370,
+        13580
+      ],
+      "name": "Libyan Arab Republic",
+      "finding": "The old Republic title is carried across 1976–2013. Contemporaneous 1977 UN treaty records use Libyan Arab Jamahiriya. The full title/period mapping needs review.",
+      "references": [
+        "https://treaties.un.org/pages/showDetails.aspx?objid=08000002800f4be6",
+        "https://www.un.org/unispal/document/auto-insert-204115/"
+      ]
+    }
+  ]
+}

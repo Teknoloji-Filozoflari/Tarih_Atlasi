@@ -1,0 +1,4 @@
+npm notice run tarih-atlasi@0.1.0 test:web:production
+npm notice run ATLAS_TEST_PRODUCTION=1 playwright test tests/web/product-flows.spec.ts tests/web/product-quality.spec.ts tests/web/sources.spec.ts tests/web/preferences.spec.ts tests/web/release-audit.spec.ts tests/web/application-review.spec.ts tests/web/discovery-content.spec.ts tests/web/modern-places.spec.ts tests/web/person-births.spec.ts tests/web/requested-people.spec.ts tests/web/ottoman-people.spec.ts tests/web/local-notes.spec.ts tests/web/broad-history.spec.ts tests/web/history-import.spec.ts
+Error: Process from config.webServer was not able to start. Exit code: 1
+

@@ -1,0 +1,1539 @@
+{
+  "publicationPolicyVersion": "1.0.0",
+  "withheldGeography": [
+    "atlas:van-gogh-maison-residence",
+    "atlas:maison-van-gogh"
+  ],
+  "generatedAt": "2026-10-16T13:15:19.439Z",
+  "catalogVersion": "0.4.1-pilot",
+  "catalogSha256": "8c8eae15b77bcc0171dad4309bc84f54026d56827e02d7e2c630b528afa24438",
+  "selectableRange": {
+    "minYear": -2000,
+    "maxYear": 2026
+  },
+  "selectableYears": 4026,
+  "counts": {
+    "records": 19,
+    "sources": 7,
+    "kinds": {
+      "coverage": 1,
+      "entity": 9,
+      "event": 4,
+      "person": 1,
+      "person-location": 1,
+      "place": 1,
+      "political-relationship": 1,
+      "territory": 1
+    },
+    "defaultGeographyYears": 2,
+    "optInGeographyYears": 2,
+    "noSupportedDefaultGeographyYears": 4024,
+    "noSupportedOptInGeographyYears": 4024,
+    "exactDefaultGeographyYears": 0,
+    "anyEventYears": 32,
+    "anyLifePeriodYears": 38,
+    "fullPolityPolygons": 0,
+    "culturalGeometries": 0,
+    "eventsWithoutGeometry": 3,
+    "independentlyDatedPlaceLabels": 0,
+    "approximateBoundaryRecords": 1,
+    "unknownDateGeometryRecords": 0,
+    "withheldGeographyRecords": 2,
+    "independentlyUnsupportedPlaceGeometry": 0,
+    "invalidProductionSources": 0,
+    "missingAttributions": 0,
+    "unreviewedProductionRecords": 0
+  },
+  "supportedGeographyYears": [
+    {
+      "year": 1066,
+      "defaultGeography": [
+        "atlas:hastings-1066"
+      ],
+      "optInGeography": [
+        "atlas:hastings-1066"
+      ],
+      "mode": "documented approximate",
+      "optInMode": "documented approximate",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": 1867,
+      "defaultGeography": [
+        "atlas:alaska-treaty-segment-1867"
+      ],
+      "optInGeography": [
+        "atlas:alaska-treaty-segment-1867"
+      ],
+      "mode": "documented approximate",
+      "optInMode": "documented approximate",
+      "territories": 1,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    }
+  ],
+  "eventsOrLifeYears": [
+    {
+      "year": -431,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": -430,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": -429,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": -428,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": -427,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": -426,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": -425,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": -424,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": -423,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": -422,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": -421,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": -420,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": -419,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": -418,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": -417,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": -416,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": -415,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": -414,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": -413,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": -412,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": -411,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": -410,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": -409,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": -408,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": -407,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": -406,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": -405,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": -404,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": 1066,
+      "defaultGeography": [
+        "atlas:hastings-1066"
+      ],
+      "optInGeography": [
+        "atlas:hastings-1066"
+      ],
+      "mode": "documented approximate",
+      "optInMode": "documented approximate",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": 1648,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": 1853,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1854,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1855,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1856,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1857,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1858,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1859,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1860,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1861,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1862,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1863,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1864,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1865,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1866,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1867,
+      "defaultGeography": [
+        "atlas:alaska-treaty-segment-1867"
+      ],
+      "optInGeography": [
+        "atlas:alaska-treaty-segment-1867"
+      ],
+      "mode": "documented approximate",
+      "optInMode": "documented approximate",
+      "territories": 1,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1868,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1869,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1870,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1871,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1872,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1873,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1874,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1875,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1876,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1877,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1878,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1879,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1880,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1881,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1882,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1883,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1884,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1885,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1886,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1887,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1888,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1889,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1890,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 1,
+      "events": 0
+    },
+    {
+      "year": 1989,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    },
+    {
+      "year": 1990,
+      "defaultGeography": [],
+      "optInGeography": [],
+      "mode": "no supported historical geography",
+      "optInMode": "no supported historical geography",
+      "territories": 0,
+      "cultures": 0,
+      "personsAlive": 0,
+      "events": 1
+    }
+  ],
+  "spatialSampling": {
+    "cellSizeDegrees": 30,
+    "totalCells": 72,
+    "cellsTouchingAnyPilotExample": 2,
+    "cellsWithoutAnyPilotExample": 70,
+    "cells": [
+      {
+        "bbox": [
+          -180,
+          -90,
+          -150,
+          -60
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -180,
+          -60,
+          -150,
+          -30
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -180,
+          -30,
+          -150,
+          0
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -180,
+          0,
+          -150,
+          30
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -180,
+          30,
+          -150,
+          60
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -180,
+          60,
+          -150,
+          90
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -150,
+          -90,
+          -120,
+          -60
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -150,
+          -60,
+          -120,
+          -30
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -150,
+          -30,
+          -120,
+          0
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -150,
+          0,
+          -120,
+          30
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -150,
+          30,
+          -120,
+          60
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -150,
+          60,
+          -120,
+          90
+        ],
+        "exampleGeometryIds": [
+          "atlas:alaska-treaty-segment-1867"
+        ]
+      },
+      {
+        "bbox": [
+          -120,
+          -90,
+          -90,
+          -60
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -120,
+          -60,
+          -90,
+          -30
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -120,
+          -30,
+          -90,
+          0
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -120,
+          0,
+          -90,
+          30
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -120,
+          30,
+          -90,
+          60
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -120,
+          60,
+          -90,
+          90
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -90,
+          -90,
+          -60,
+          -60
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -90,
+          -60,
+          -60,
+          -30
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -90,
+          -30,
+          -60,
+          0
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -90,
+          0,
+          -60,
+          30
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -90,
+          30,
+          -60,
+          60
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -90,
+          60,
+          -60,
+          90
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -60,
+          -90,
+          -30,
+          -60
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -60,
+          -60,
+          -30,
+          -30
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -60,
+          -30,
+          -30,
+          0
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -60,
+          0,
+          -30,
+          30
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -60,
+          30,
+          -30,
+          60
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -60,
+          60,
+          -30,
+          90
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -30,
+          -90,
+          0,
+          -60
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -30,
+          -60,
+          0,
+          -30
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -30,
+          -30,
+          0,
+          0
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -30,
+          0,
+          0,
+          30
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -30,
+          30,
+          0,
+          60
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          -30,
+          60,
+          0,
+          90
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          0,
+          -90,
+          30,
+          -60
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          0,
+          -60,
+          30,
+          -30
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          0,
+          -30,
+          30,
+          0
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          0,
+          0,
+          30,
+          30
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          0,
+          30,
+          30,
+          60
+        ],
+        "exampleGeometryIds": [
+          "atlas:hastings-1066"
+        ]
+      },
+      {
+        "bbox": [
+          0,
+          60,
+          30,
+          90
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          30,
+          -90,
+          60,
+          -60
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          30,
+          -60,
+          60,
+          -30
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          30,
+          -30,
+          60,
+          0
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          30,
+          0,
+          60,
+          30
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          30,
+          30,
+          60,
+          60
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          30,
+          60,
+          60,
+          90
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          60,
+          -90,
+          90,
+          -60
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          60,
+          -60,
+          90,
+          -30
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          60,
+          -30,
+          90,
+          0
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          60,
+          0,
+          90,
+          30
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          60,
+          30,
+          90,
+          60
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          60,
+          60,
+          90,
+          90
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          90,
+          -90,
+          120,
+          -60
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          90,
+          -60,
+          120,
+          -30
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          90,
+          -30,
+          120,
+          0
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          90,
+          0,
+          120,
+          30
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          90,
+          30,
+          120,
+          60
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          90,
+          60,
+          120,
+          90
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          120,
+          -90,
+          150,
+          -60
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          120,
+          -60,
+          150,
+          -30
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          120,
+          -30,
+          150,
+          0
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          120,
+          0,
+          150,
+          30
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          120,
+          30,
+          150,
+          60
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          120,
+          60,
+          150,
+          90
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          150,
+          -90,
+          180,
+          -60
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          150,
+          -60,
+          180,
+          -30
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          150,
+          -30,
+          180,
+          0
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          150,
+          0,
+          180,
+          30
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          150,
+          30,
+          180,
+          60
+        ],
+        "exampleGeometryIds": []
+      },
+      {
+        "bbox": [
+          150,
+          60,
+          180,
+          90
+        ],
+        "exampleGeometryIds": []
+      }
+    ],
+    "notice": "Cell intersection is only a coarse sample, never complete area coverage, sovereignty or percent-world accuracy."
+  },
+  "sourceLimitations": {
+    "ancientUnreferencedDateStatementRecords": [
+      "atlas:peloponnesian-war"
+    ],
+    "unresolvedAlternativeDateRecords": [
+      "atlas:german-reunification-process"
+    ],
+    "unfetchedIndependentPersonReference": [
+      "https://www.maisonvangogh.mons.be/historique"
+    ],
+    "exactHistoricalBoundarySurveyRecords": 0,
+    "notice": "Machine schema/revision checks are not independent verification of every historical claim; see historical-accuracy-audit.md."
+  },
+  "notices": [
+    "Selectable timeline is independent of source coverage.",
+    "Living at a year is not dated location evidence.",
+    "No full world/year/polygon/culture completeness claim.",
+    "Approximate person geography requires explicit opt-in; nearest preview is never used here."
+  ]
+}

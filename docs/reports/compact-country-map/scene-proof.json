@@ -1,0 +1,770 @@
+{
+  "frames": [
+    {
+      "year": 100,
+      "features": 41,
+      "libya": [],
+      "chad": []
+    },
+    {
+      "year": 1867,
+      "features": 138,
+      "libya": [],
+      "chad": []
+    },
+    {
+      "year": 1868,
+      "features": 138,
+      "libya": [],
+      "chad": []
+    },
+    {
+      "year": 2000,
+      "features": 193,
+      "libya": [
+        "world:clio-r13370"
+      ],
+      "chad": [
+        "world:clio-r13239"
+      ]
+    },
+    {
+      "year": 2010,
+      "features": 193,
+      "libya": [
+        "world:clio-r13580"
+      ],
+      "chad": [
+        "world:clio-r13239"
+      ]
+    },
+    {
+      "year": 2024,
+      "features": 186,
+      "libya": [
+        "world:clio-r13791"
+      ],
+      "chad": []
+    },
+    {
+      "year": 2025,
+      "features": 0,
+      "libya": [],
+      "chad": []
+    },
+    {
+      "year": 2026,
+      "features": 0,
+      "libya": [],
+      "chad": []
+    }
+  ],
+  "shortLabels": [
+    {
+      "source": "Oriental Republic of Uruguay",
+      "label": "Uruguay"
+    },
+    {
+      "source": "Netherlands Antilles",
+      "label": "Hollanda Antilleri"
+    },
+    {
+      "source": "Republic of Nicaragua",
+      "label": "Nikaragua"
+    },
+    {
+      "source": "Mexico",
+      "label": "Meksika"
+    },
+    {
+      "source": "Dominican Republic",
+      "label": "Dominik Cumhuriyeti"
+    },
+    {
+      "source": "Republic of Colombia",
+      "label": "Kolombiya"
+    },
+    {
+      "source": "Argentine Republic",
+      "label": "Arjantin"
+    },
+    {
+      "source": "Republic of Haiti",
+      "label": "Haiti"
+    },
+    {
+      "source": "Principality of Andorra",
+      "label": "Andorra"
+    },
+    {
+      "source": "Republic of Liberia",
+      "label": "Liberya"
+    },
+    {
+      "source": "Republic of Finland",
+      "label": "Finlandiya"
+    },
+    {
+      "source": "Kingdom of Norway",
+      "label": "Norveç"
+    },
+    {
+      "source": "Principality of Monaco",
+      "label": "Monako"
+    },
+    {
+      "source": "Kingdom of Sweden",
+      "label": "İsveç"
+    },
+    {
+      "source": "Denmark",
+      "label": "Danimarka"
+    },
+    {
+      "source": "Commonwealth of Australia",
+      "label": "Avustralya"
+    },
+    {
+      "source": "Republic of Iceland",
+      "label": "İzlanda"
+    },
+    {
+      "source": "Republic of the Philippines",
+      "label": "Filipinler"
+    },
+    {
+      "source": "New Zealand",
+      "label": "Yeni Zelanda"
+    },
+    {
+      "source": "Swiss Confederation",
+      "label": "İsviçre"
+    },
+    {
+      "source": "Kingdom of Belgium",
+      "label": "Belçika"
+    },
+    {
+      "source": "Republic of China",
+      "label": "Çin Cumhuriyeti"
+    },
+    {
+      "source": "(Netherlands)",
+      "label": "(Hollanda)"
+    },
+    {
+      "source": "Netherlands",
+      "label": "Hollanda"
+    },
+    {
+      "source": "Republic of Peru",
+      "label": "Peru"
+    },
+    {
+      "source": "Republic of Ecuador",
+      "label": "Ekvador"
+    },
+    {
+      "source": "Democratic People's Republic of Korea",
+      "label": "Kuzey Kore"
+    },
+    {
+      "source": "Republic of Korea",
+      "label": "Güney Kore"
+    },
+    {
+      "source": "Bolivia",
+      "label": "Bolivya"
+    },
+    {
+      "source": "Kingdom of Thailand",
+      "label": "Tayland"
+    },
+    {
+      "source": "Luxembourg",
+      "label": "Lüksemburg"
+    },
+    {
+      "source": "Madagascar",
+      "label": "Madagaskar"
+    },
+    {
+      "source": "Guinea",
+      "label": "Gine"
+    },
+    {
+      "source": "Federal Republic of Somalia",
+      "label": "Somali"
+    },
+    {
+      "source": "Communist Cuba",
+      "label": "Küba"
+    },
+    {
+      "source": "Republic of the Congo",
+      "label": "Kongo Cumhuriyeti"
+    },
+    {
+      "source": "Mali Federation",
+      "label": "Mali Federasyonu"
+    },
+    {
+      "source": "Ghana",
+      "label": "Gana"
+    },
+    {
+      "source": "Central African Republic",
+      "label": "Orta Afrika Cumhuriyeti"
+    },
+    {
+      "source": "Republic of Côte d'Ivoire",
+      "label": "Fildişi Sahili"
+    },
+    {
+      "source": "Republic of Senegal",
+      "label": "Senegal"
+    },
+    {
+      "source": "Republic of Chad",
+      "label": "Çad"
+    },
+    {
+      "source": "Republic of Cameroon",
+      "label": "Kamerun"
+    },
+    {
+      "source": "French Fifth Republic",
+      "label": "Fransa"
+    },
+    {
+      "source": "Republic of the Niger",
+      "label": "Nijer"
+    },
+    {
+      "source": "Republic of Kenya",
+      "label": "Kenya"
+    },
+    {
+      "source": "Republic of Rwanda",
+      "label": "Ruanda"
+    },
+    {
+      "source": "Jamaica",
+      "label": "Jamaika"
+    },
+    {
+      "source": "Republic of Trinidad and Tobago",
+      "label": "Trinidad ve Tobago"
+    },
+    {
+      "source": "Republic of Uganda",
+      "label": "Uganda"
+    },
+    {
+      "source": "Republic of Burundi",
+      "label": "Burundi"
+    },
+    {
+      "source": "Zambia",
+      "label": "Zambiya"
+    },
+    {
+      "source": "Republic of The Gambia",
+      "label": "Gambiya"
+    },
+    {
+      "source": "Republic of Singapore",
+      "label": "Singapur"
+    },
+    {
+      "source": "Antigua and Barbuda",
+      "label": "Antigua ve Barbuda"
+    },
+    {
+      "source": "Federal Republic of Nigeria",
+      "label": "Nijerya"
+    },
+    {
+      "source": "Kingdom of Great Britain",
+      "label": "Büyük Britanya Krallığı"
+    },
+    {
+      "source": "Republic of Benin",
+      "label": "Benin"
+    },
+    {
+      "source": "Equatorial Guinea",
+      "label": "Ekvator Ginesi"
+    },
+    {
+      "source": "Commonwealth of The Bahamas",
+      "label": "Bahamalar"
+    },
+    {
+      "source": "Republic of Guinea-Bissau",
+      "label": "Gine-Bissau"
+    },
+    {
+      "source": "Kingdom of Bahrain",
+      "label": "Bahreyn"
+    },
+    {
+      "source": "Republic of Fiji",
+      "label": "Fiji"
+    },
+    {
+      "source": "Sultanate of Oman",
+      "label": "Umman"
+    },
+    {
+      "source": "People's Republic of Bangladesh",
+      "label": "Bangladeş"
+    },
+    {
+      "source": "State of Qatar",
+      "label": "Katar"
+    },
+    {
+      "source": "United Arab Emirates",
+      "label": "Birleşik Arap Emirlikleri"
+    },
+    {
+      "source": "Japan",
+      "label": "Japonya"
+    },
+    {
+      "source": "Seychelles",
+      "label": "Seyşeller"
+    },
+    {
+      "source": "Turkish Republic of Northern Cyprus",
+      "label": "Kuzey Kıbrıs Türk Cumhuriyeti"
+    },
+    {
+      "source": "Mauritania",
+      "label": "Moritanya"
+    },
+    {
+      "source": "Socialist Republic of Vietnam",
+      "label": "Vietnam"
+    },
+    {
+      "source": "People's Democratic Republic of Algeria",
+      "label": "Cezayir"
+    },
+    {
+      "source": "Morocco",
+      "label": "Fas"
+    },
+    {
+      "source": "People's Republic of Angola",
+      "label": "Angola"
+    },
+    {
+      "source": "Mozambique",
+      "label": "Mozambik"
+    },
+    {
+      "source": "Republic of Cabo Verde",
+      "label": "Cabo Verde"
+    },
+    {
+      "source": "Papua New Guinea",
+      "label": "Papua Yeni Gine"
+    },
+    {
+      "source": "Republic of Tunisia",
+      "label": "Tunus"
+    },
+    {
+      "source": "Kingdom of Spain",
+      "label": "İspanya"
+    },
+    {
+      "source": "Republic of Cyprus",
+      "label": "Kıbrıs"
+    },
+    {
+      "source": "Republic of Italy",
+      "label": "İtalya"
+    },
+    {
+      "source": "Canada",
+      "label": "Kanada"
+    },
+    {
+      "source": "Malawi",
+      "label": "Malavi"
+    },
+    {
+      "source": "Republic of Suriname",
+      "label": "Surinam"
+    },
+    {
+      "source": "São Tomé and Príncipe",
+      "label": "São Tomé ve Príncipe"
+    },
+    {
+      "source": "Communist Laos",
+      "label": "Laos"
+    },
+    {
+      "source": "Tanzania",
+      "label": "Tanzanya"
+    },
+    {
+      "source": "Portugal",
+      "label": "Portekiz"
+    },
+    {
+      "source": "Eswatini",
+      "label": "Esvatini"
+    },
+    {
+      "source": "Commonwealth of Dominica",
+      "label": "Dominika"
+    },
+    {
+      "source": "Solomon Islands",
+      "label": "Solomon Adaları"
+    },
+    {
+      "source": "Republic of Zimbabwe",
+      "label": "Zimbabve"
+    },
+    {
+      "source": "Arab Republic of Egypt",
+      "label": "Mısır"
+    },
+    {
+      "source": "Kingdom of Bhutan",
+      "label": "Bhutan"
+    },
+    {
+      "source": "Micronesia",
+      "label": "Mikronezya"
+    },
+    {
+      "source": "Sultanate of Brunei",
+      "label": "Brunei"
+    },
+    {
+      "source": "Republic of India",
+      "label": "Hindistan"
+    },
+    {
+      "source": "Republic of Brazil",
+      "label": "Brezilya"
+    },
+    {
+      "source": "Malaysia",
+      "label": "Malezya"
+    },
+    {
+      "source": "Republic of Yemen",
+      "label": "Yemen"
+    },
+    {
+      "source": "South Africa",
+      "label": "Güney Afrika"
+    },
+    {
+      "source": "Republic of Botswana",
+      "label": "Botsvana"
+    },
+    {
+      "source": "Namibia",
+      "label": "Namibya"
+    },
+    {
+      "source": "Union of Myanmar",
+      "label": "Myanmar"
+    },
+    {
+      "source": "Kuwait",
+      "label": "Kuveyt"
+    },
+    {
+      "source": "Kingdom of Saudi Arabia",
+      "label": "Suudi Arabistan"
+    },
+    {
+      "source": "Federated Republic of Germany",
+      "label": "Almanya"
+    },
+    {
+      "source": "Republic of Chile",
+      "label": "Şili"
+    },
+    {
+      "source": "Republic of Latvia",
+      "label": "Letonya"
+    },
+    {
+      "source": "Georgia",
+      "label": "Gürcistan"
+    },
+    {
+      "source": "Republic of Slovenia",
+      "label": "Slovenya"
+    },
+    {
+      "source": "Second Republic of Austria",
+      "label": "Avusturya"
+    },
+    {
+      "source": "Republic of Bulgaria",
+      "label": "Bulgaristan"
+    },
+    {
+      "source": "Third Hellenic Republic",
+      "label": "Yunanistan"
+    },
+    {
+      "source": "Russian-occupied territories",
+      "label": "Rusya işgali altındaki bölgeler"
+    },
+    {
+      "source": "Mongolia",
+      "label": "Moğolistan"
+    },
+    {
+      "source": "Republic of Djibouti",
+      "label": "Cibuti"
+    },
+    {
+      "source": "Republic of Belarus",
+      "label": "Belarus"
+    },
+    {
+      "source": "Kyrgyzstan",
+      "label": "Kırgızistan"
+    },
+    {
+      "source": "Slovakia",
+      "label": "Slovakya"
+    },
+    {
+      "source": "Republic of Lithuania",
+      "label": "Litvanya"
+    },
+    {
+      "source": "State of Eritrea",
+      "label": "Eritre"
+    },
+    {
+      "source": "Romania",
+      "label": "Romanya"
+    },
+    {
+      "source": "Ethiopia",
+      "label": "Etiyopya"
+    },
+    {
+      "source": "Republic of Poland",
+      "label": "Polonya"
+    },
+    {
+      "source": "Republic of El Salvador",
+      "label": "El Salvador"
+    },
+    {
+      "source": "Republic of Estonia",
+      "label": "Estonya"
+    },
+    {
+      "source": "Republic of Moldova",
+      "label": "Moldova"
+    },
+    {
+      "source": "Ukraine",
+      "label": "Ukrayna"
+    },
+    {
+      "source": "Republic of Sudan",
+      "label": "Sudan"
+    },
+    {
+      "source": "Turkmenistan",
+      "label": "Türkmenistan"
+    },
+    {
+      "source": "Hungary",
+      "label": "Macaristan"
+    },
+    {
+      "source": "Republic of Armenia",
+      "label": "Ermenistan"
+    },
+    {
+      "source": "Kingdom of Cambodia",
+      "label": "Kamboçya"
+    },
+    {
+      "source": "Republic of Croatia",
+      "label": "Hırvatistan"
+    },
+    {
+      "source": "Republic of Azerbaijan",
+      "label": "Azerbaycan"
+    },
+    {
+      "source": "Democratic Republic of the Congo",
+      "label": "Kongo Demokratik Cumhuriyeti"
+    },
+    {
+      "source": "Czech Republic",
+      "label": "Çek Cumhuriyeti"
+    },
+    {
+      "source": "Islamic Republic of Iran",
+      "label": "İran"
+    },
+    {
+      "source": "Former Yugoslav Republic of Macedonia",
+      "label": "Makedonya"
+    },
+    {
+      "source": "Republic of Costa Rica",
+      "label": "Kosta Rika"
+    },
+    {
+      "source": "(Commonwealth of Nations)",
+      "label": "(Milletler Topluluğu)"
+    },
+    {
+      "source": "British Overseas Territories",
+      "label": "Britanya Denizaşırı Toprakları"
+    },
+    {
+      "source": "Republic of Panama",
+      "label": "Panama"
+    },
+    {
+      "source": "People's Republic of China",
+      "label": "Çin"
+    },
+    {
+      "source": "United States of America",
+      "label": "ABD"
+    },
+    {
+      "source": "Russian Federation",
+      "label": "Rusya"
+    },
+    {
+      "source": "Republic of Indonesia",
+      "label": "Endonezya"
+    },
+    {
+      "source": "Republic of Serbia",
+      "label": "Sırbistan"
+    },
+    {
+      "source": "State of Israel",
+      "label": "İsrail"
+    },
+    {
+      "source": "East Timor",
+      "label": "Doğu Timor"
+    },
+    {
+      "source": "(Russian Federation)",
+      "label": "(Rusya Federasyonu)"
+    },
+    {
+      "source": "Republic of Uzbekistan",
+      "label": "Özbekistan"
+    },
+    {
+      "source": "Republic of Albania",
+      "label": "Arnavutluk"
+    },
+    {
+      "source": "Kosovo",
+      "label": "Kosova"
+    },
+    {
+      "source": "Syria",
+      "label": "Suriye"
+    },
+    {
+      "source": "Republic of Turkey",
+      "label": "Türkiye"
+    },
+    {
+      "source": "Bosnia and Herzegovina",
+      "label": "Bosna-Hersek"
+    },
+    {
+      "source": "Libyan Arab Republic",
+      "label": "Libya"
+    },
+    {
+      "source": "Lebanon",
+      "label": "Lübnan"
+    },
+    {
+      "source": "Afghanistan",
+      "label": "Afganistan"
+    },
+    {
+      "source": "Islamic Republic of Pakistan",
+      "label": "Pakistan"
+    },
+    {
+      "source": "Kingdom of Jordan",
+      "label": "Ürdün"
+    },
+    {
+      "source": "Montenegro",
+      "label": "Karadağ"
+    },
+    {
+      "source": "Kazakhstan",
+      "label": "Kazakistan"
+    },
+    {
+      "source": "Republic of Tajikistan",
+      "label": "Tacikistan"
+    }
+  ],
+  "remainingPoliticalWords": [
+    {
+      "source": "Dominican Republic",
+      "label": "Dominik Cumhuriyeti"
+    },
+    {
+      "source": "Republic of China",
+      "label": "Çin Cumhuriyeti"
+    },
+    {
+      "source": "Republic of the Congo",
+      "label": "Kongo Cumhuriyeti"
+    },
+    {
+      "source": "Central African Republic",
+      "label": "Orta Afrika Cumhuriyeti"
+    },
+    {
+      "source": "Kingdom of Great Britain",
+      "label": "Büyük Britanya Krallığı"
+    },
+    {
+      "source": "Turkish Republic of Northern Cyprus",
+      "label": "Kuzey Kıbrıs Türk Cumhuriyeti"
+    },
+    {
+      "source": "Democratic Republic of the Congo",
+      "label": "Kongo Demokratik Cumhuriyeti"
+    },
+    {
+      "source": "Czech Republic",
+      "label": "Çek Cumhuriyeti"
+    },
+    {
+      "source": "(Commonwealth of Nations)",
+      "label": "(Milletler Topluluğu)"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+export const gzip = 'H4sIAAAAAAACA02MwWrDMBBE/2XPUtiVZEvyLfU1lFxLyGG9kojTxIHITiml/14dC8NjGJj3A1Uu+c4wkIJXftb5scAAgtEbTomL6RJZnrxQYZqIUzadK0aseOEOEe2Uo/ggsXepxFDQJhNBwW2WvNTcZOOo3z6022Fb6/eyXvI6CwyFbzUreD6+KgynUxeCsxQU7O+crht/gtLe7HoXjFd9e5O3VsHxeDg0z7hvINfwvi382tbW/scg9hpJUwCF5/PvH4NSvnboAAAA';

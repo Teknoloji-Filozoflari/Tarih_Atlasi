@@ -1,0 +1,38 @@
+{
+  "representation": "editorial-fact-extraction-not-http-response",
+  "extractionVersion": "1.0.0",
+  "synthetic": false,
+  "sourceUrl": "https://www.archives.gov/milestone-documents/check-for-the-purchase-of-alaska",
+  "sourceTitle": "Check for the Purchase of Alaska (1868)",
+  "document": "Treaty concerning the Cession of the Russian Possessions in North America, 1867",
+  "sourceRevision": "NARA-RG11-1867-03-30-page-reviewed-2024-03-28-extract-1",
+  "reviewedAt": "2026-10-15T18:40:11.000Z",
+  "locator": "Transcript heading; Article I (quoted 1825 demarcation); Article IV; proclamation",
+  "facts": {
+    "signed": "1867-03-30",
+    "ratificationsExchanged": "1867-06-20",
+    "meridianWestOfGreenwichDegrees": 141,
+    "continuation": "From its intersection with the coastal mountain boundary northward to the Arctic Ocean",
+    "cedingParty": "Russian Empire",
+    "receivingParty": "United States of America",
+    "easternCounterpart": "British possessions in North America"
+  },
+  "rights": {
+    "licenseId": "CC0-1.0",
+    "policyUrl": "https://www.archives.gov/global-pages/privacy.html#copyright",
+    "scope": "Structured factual extraction from NARA federal treaty transcription; no photograph, scan, seal, or third-party GIS geometry",
+    "attribution": "U.S. National Archives, RG 11, Treaty of Cession (1867), Article I/IV; Tarih Atlası factual extraction and idealized clipping."
+  },
+  "derivation": {
+    "type": "idealized-meridian-clip",
+    "clipLatitudeSouth": 65,
+    "clipLatitudeNorth": 68,
+    "sampleStepDegrees": 0.5,
+    "description": "Project-selected interior display window. Clip ends are not historical border endpoints; the old treaty meridian is not a WGS84 survey."
+  },
+  "limitations": [
+    "Only a snapshot of the treaty description on 1867-06-20 is admitted; no interpolation into other years.",
+    "No complete Alaska polygon, coastline reconstruction, modern boundary, or effective/indigenous sovereignty inference.",
+    "This is an editorial extraction read through the research browser, not an archived HTTP payload; checksum covers this extraction only."
+  ]
+}

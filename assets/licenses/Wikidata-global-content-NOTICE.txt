@@ -1,0 +1,3 @@
+Wikidata contributors — CC0-1.0
+https://www.wikidata.org/wiki/Wikidata:Licensing
+Global content 1.3.0-births: editorial extraction of 4 people, 4 place references and 2 events. Source revisions, qualifiers and input checksums retained. Two annual city-representative births; two biographical relationships do not assert annual presence. Event points are approximate representatives, not battlefields or territorial boundaries. Independent upstream corroboration is incomplete. No Wikipedia prose, images or third-party geometry copied.

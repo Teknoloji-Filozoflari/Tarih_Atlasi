@@ -1,0 +1,54 @@
+name: Altyapı kontrolleri
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  unit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version-file: .nvmrc
+      - run: npm install --global npm@12.2.0
+      - run: npm ci
+      - run: node tests/run.mjs
+
+  quality-and-web:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      EXPO_NO_TELEMETRY: '1'
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - name: Tekrarlanabilir kurulum kapısı
+        run: |
+          if [ ! -f package-lock.json ]; then
+            echo 'Faz 01 BLOCKED: paket kurulumu ve package-lock.json tamamlanmalı.'
+            exit 1
+          fi
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm install --global npm@12.2.0
+      - run: npm ci
+      # Reviewed generated assets are checked as committed, never silently rebuilt in CI.
+      - run: npm run check
+      - run: npm run config:check
+      - run: npm run web:export
+      - run: npm run android:bundle
+      - run: npx playwright install --with-deps chromium
+      - name: Üretim kullanıcı akışları ve responsive görsel kanıtları
+        run: npm run test:web:production
+      - run: npm run test:web

@@ -1,0 +1,42 @@
+{
+  "name": "tarih-atlasi",
+  "networks": {
+    "default": {
+      "name": "tarih-atlasi_default",
+      "ipam": {}
+    }
+  },
+  "services": {
+    "atlas": {
+      "restart": "unless-stopped",
+      "cap_drop": [
+        "ALL"
+      ],
+      "command": null,
+      "entrypoint": null,
+      "image": "tarih-atlasi:local",
+      "init": true,
+      "networks": {
+        "default": null
+      },
+      "read_only": true,
+      "security_opt": [
+        "no-new-privileges:true"
+      ],
+      "stop_grace_period": "10s",
+      "build": {
+        "context": "/home/s-oktay/Belgeler/Tarih_Atlası",
+        "dockerfile": "Dockerfile"
+      },
+      "ports": [
+        {
+          "mode": "ingress",
+          "host_ip": "127.0.0.1",
+          "target": 8081,
+          "published": "8081",
+          "protocol": "tcp"
+        }
+      ]
+    }
+  }
+}

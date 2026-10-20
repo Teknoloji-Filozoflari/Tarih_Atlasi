@@ -1,0 +1,50 @@
+.atlas-year-range {
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  border: 0;
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+.atlas-year-range:focus-visible {
+  outline: 2px solid var(--atlas-slider-focus);
+  outline-offset: -2px;
+  border-radius: 8px;
+}
+.atlas-year-range::-webkit-slider-runnable-track {
+  height: 6px;
+  border-radius: 8px;
+  background: linear-gradient(
+    to right,
+    var(--atlas-slider-accent) 0%,
+    var(--atlas-slider-accent) var(--atlas-slider-progress),
+    var(--atlas-slider-track) var(--atlas-slider-progress),
+    var(--atlas-slider-track) 100%
+  );
+}
+.atlas-year-range::-webkit-slider-thumb {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 24px;
+  height: 24px;
+  margin-top: -9px;
+  border-radius: 50%;
+  border: 2px solid var(--atlas-slider-focus);
+  background: var(--atlas-slider-accent);
+}
+.atlas-year-range::-moz-range-track {
+  height: 6px;
+  border-radius: 8px;
+  background: var(--atlas-slider-track);
+}
+.atlas-year-range::-moz-range-progress {
+  height: 6px;
+  background: var(--atlas-slider-accent);
+}
+.atlas-year-range::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid var(--atlas-slider-focus);
+  background: var(--atlas-slider-accent);
+}

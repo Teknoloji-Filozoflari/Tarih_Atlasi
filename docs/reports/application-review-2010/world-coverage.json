@@ -1,0 +1,13 @@
+{
+  "generatedForSystemYear": 2026,
+  "selectableYears": 4026,
+  "yearsWithAtLeastOneDrawablePoliticalSource": 4024,
+  "yearsWithoutAnyDrawablePoliticalSource": [
+    2025,
+    2026
+  ],
+  "sourceRows": 13379,
+  "drawableSourceRows": 12948,
+  "withheldSourceRows": 431,
+  "scope": "Temporal metadata only; one drawable area in a year is not complete world/country coverage or independent historical verification; political source reconstructions are approximate."
+}

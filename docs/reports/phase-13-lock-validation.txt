@@ -1,0 +1,4 @@
+
+up to date, audited 838 packages in 320ms
+
+found 0 vulnerabilities

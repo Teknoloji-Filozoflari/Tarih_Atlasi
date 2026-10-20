@@ -1,0 +1,2 @@
+Wikidata contributors · CC0-1.0 · https://www.wikidata.org/wiki/Wikidata:Licensing
+Editorial extraction of source birth/life/place assertions; not an API response or independent historical certificate. Representative place points, not exact birth sites. No fabricated dates/locations, portrait/article copy or inferred travel. Traditional/ambiguous statements kept biographical; original calendar/uncertainty retained.

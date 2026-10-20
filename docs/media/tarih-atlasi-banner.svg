@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Tarih Atlası — Zamanı değiştir, dünyayı keşfet</title>
+  <desc id="desc">Koyu zemin üzerinde soyut küre çizimi ve proje adı. Tanıtım illüstrasyonudur; uygulama ekran görüntüsü değildir.</desc>
+  <defs>
+    <radialGradient id="ocean" cx="35%" cy="30%"><stop stop-color="#293d50"/><stop offset="1" stop-color="#111f2d"/></radialGradient>
+    <linearGradient id="background"><stop stop-color="#0b1118"/><stop offset="1" stop-color="#162434"/></linearGradient>
+    <clipPath id="sphere"><circle cx="978" cy="180" r="130"/></clipPath>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#background)"/>
+  <g fill="none" stroke="#36516a" opacity=".45">
+    <path d="M0 300H1200M0 320H1200M0 340H1200"/>
+    <path d="M820 0V360M860 0V360M900 0V360M940 0V360M980 0V360M1020 0V360M1060 0V360M1100 0V360M1140 0V360"/>
+  </g>
+  <circle cx="978" cy="180" r="130" fill="url(#ocean)" stroke="#567b8a" stroke-width="2"/>
+  <g clip-path="url(#sphere)" fill="none" stroke="#8caca7" opacity=".55">
+    <ellipse cx="978" cy="180" rx="65" ry="130"/><ellipse cx="978" cy="180" rx="110" ry="130"/>
+    <ellipse cx="978" cy="180" rx="130" ry="42"/><ellipse cx="978" cy="180" rx="130" ry="88"/>
+    <path d="M848 180H1108M978 50V310"/>
+  </g>
+  <circle cx="942" cy="139" r="6" fill="#e6c38b"/><circle cx="942" cy="139" r="13" fill="none" stroke="#e6c38b" opacity=".5"/>
+  <g font-family="system-ui,Segoe UI,sans-serif">
+    <text x="64" y="76" font-size="14" letter-spacing="4" fill="#c5b188">AÇIK KAYNAK · ÜCRETSİZ · HESAPSIZ</text>
+    <text x="60" y="158" font-size="64" font-weight="700" fill="#f0eee8">Tarih Atlası</text>
+    <text x="64" y="205" font-size="25" fill="#c5d1da">Zamanı değiştir, dünyayı keşfet.</text>
+    <text x="64" y="255" font-size="17" fill="#94a7b6">3D küre · Kaynaklı tarih · Türkçe deneyim</text>
+    <text x="64" y="319" font-size="13" letter-spacing="2" fill="#8396a7">MÖ 2000 → GÜNÜMÜZ  /  WEB + ANDROID</text>
+  </g>
+</svg>

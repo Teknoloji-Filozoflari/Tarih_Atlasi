@@ -1,0 +1,6 @@
+Faz 01 kaynak ve belge kontrolleri
+Tarih: 2026-10-15
+PASS: TypeScript 6.0.3 parser, 21 TS/TSX kaynak; 0 sozdizimi hatasi. Bu tam tip kontrolu degildir.
+
+PASS: 84 yerel Markdown hedefi, 6 JSON, 3 MJS sozdizimi kontrolu.
+BLOCKED: Tam ESLint/UI/Router/platform tip veya render kontrolu yapilamadi.

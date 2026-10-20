@@ -1,0 +1,86 @@
+✖ renderer load sırasında marker hatasını yakalar ve kaynakları bırakır (2.282243ms)
+✖ yinelenen load tek marker kurar; dispose sonrası listener/komut çalışmaz (1.020111ms)
+✖ context kaybı bir kez bildirilir; map/worker/dinleyiciler bırakılır (1.080453ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 0
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8.663356
+
+✖ failing tests:
+
+test at tests/unit/renderer.test.mjs:52:1
+✖ renderer load sırasında marker hatasını yakalar ve kaynakları bırakır (2.282243ms)
+  AssertionError [ERR_ASSERTION]: Got unwanted exception.
+  Actual message: "marker installation failed"
+      at TestContext.<anonymous> (file:///home/s-oktay/Belgeler/Tarih_Atlas%C4%B1/tests/unit/renderer.test.mjs:54:10)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: Error: marker installation failed
+        at MarkerDouble.addTo (file:///home/s-oktay/Belgeler/Tarih_Atlas%C4%B1/tests/unit/renderer.test.mjs:36:39)
+        at loaded (file:///home/s-oktay/Belgeler/Tarih_Atlas%C4%B1/src/map/globe/renderer.ts:112:80)
+        at MapDouble.emit (file:///home/s-oktay/Belgeler/Tarih_Atlas%C4%B1/tests/unit/renderer.test.mjs:25:80)
+        at file:///home/s-oktay/Belgeler/Tarih_Atlas%C4%B1/tests/unit/renderer.test.mjs:54:33
+        at getActual (node:assert:580:5)
+        at strict.doesNotThrow (node:assert:748:32)
+        at TestContext.<anonymous> (file:///home/s-oktay/Belgeler/Tarih_Atlas%C4%B1/tests/unit/renderer.test.mjs:54:10)
+        at Test.runInAsyncScope (node:async_hooks:226:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.start (node:internal/test_runner/test:1262:17),
+    expected: undefined,
+    operator: 'doesNotThrow',
+    diff: 'simple'
+  }
+
+test at tests/unit/renderer.test.mjs:63:1
+✖ yinelenen load tek marker kurar; dispose sonrası listener/komut çalışmaz (1.020111ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  2 !== 1
+  
+      at TestContext.<anonymous> (file:///home/s-oktay/Belgeler/Tarih_Atlas%C4%B1/tests/unit/renderer.test.mjs:66:10)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 2,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/unit/renderer.test.mjs:80:1
+✖ context kaybı bir kez bildirilir; map/worker/dinleyiciler bırakılır (1.080453ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+      'context-lost',
+  +   'context-lost'
+    ]
+  
+      at TestContext.<anonymous> (file:///home/s-oktay/Belgeler/Tarih_Atlas%C4%B1/tests/unit/renderer.test.mjs:85:10)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [Array],
+    expected: [Array],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

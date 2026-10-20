@@ -1,0 +1,27 @@
+Faz 02 source research — 2026-10-15
+Official web sources read (not runtime/installation evidence):
+https://docs.expo.dev/guides/dom-components/
+https://raw.githubusercontent.com/expo/expo/sdk-57/packages/expo/bundledNativeModules.json
+https://raw.githubusercontent.com/expo/expo/sdk-57/packages/expo/src/dom/dom.types.ts
+https://raw.githubusercontent.com/expo/expo/sdk-57/packages/expo/src/dom/webview-wrapper.tsx
+https://maplibre.org/maplibre-gl-js/docs/
+https://maplibre.org/maplibre-gl-js/docs/examples/display-a-globe-with-a-vector-map/
+https://raw.githubusercontent.com/maplibre/maplibre-gl-js/v6.14.0/package.json
+https://raw.githubusercontent.com/maplibre/maplibre-gl-js/v6.14.0/src/ui/map.ts
+https://raw.githubusercontent.com/react-native-webview/react-native-webview/v13.16.1/docs/Reference.md
+https://raw.githubusercontent.com/react-native-webview/react-native-webview/v13.16.1/package.json
+https://www.naturalearthdata.com/about/terms-of-use/
+Natural Earth file existence/content-type metadata visible via web tool; geometry bytes NOT retrieved.
+https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_110m_land.geojson
+
+Local available primary package sources, read-only; NOT installed into this project:
+expo version=57.0.24 gitHead=7687b07947a5c866adeb11abbceae72403ccb188
+@expo/dom-webview version=57.0.1 gitHead=b9503d06b8e130abfca1bc16f671dbefb41ad709
+@expo/dom-webview/src/DomWebView.types.ts sha256=f8593f6d0f57ab5f001b66f6ef5e1e810aee9e678e0dfa1e137a98e8c2e2203d
+expo/src/dom/base.ts sha256=2294d2e05449056c4c1e8358cbe2e33027ecc3308a12dac76ce52c01de72d750
+expo/src/dom/webview-wrapper.tsx sha256=ea3fbc04e332392357f0ba6bbb5bb075cdcd2dadc4842815dc7feeced7f13d51
+Cached @expo/dom-webview 57.0.1 declares originWhitelist under UnsupportedWebViewProps and has no onShouldStartLoadWithRequest or mixedContentMode declaration.
+Cached Expo 57.0.24 base/wrapper inspected for file:///android_asset/www.bundle and development /_expo/@dom paths. This is not exact 57.0.29 installation evidence.
+Direct web retrieval of some DOM wrapper types/base URLs returned tool Internal Error; not reported as upstream HTTP 404 or proof files are missing.
+Expo outer onMessage parses JSON before application validation: application 4096-byte validation is not a raw transport size guard.
+Registry dist.unpackedSize and all product dependency installation checks BLOCKED by DNS. No byte/FPS/PSS number inferred.

@@ -1,0 +1,24 @@
+npm notice run tarih-atlasi@0.1.0 test:web
+npm notice run playwright test --list
+Listing tests:
+  [desktop] › app.spec.ts:3:1 › kaynaklı 1867 pilotu gerçek haritada çizilir; yıl ve devlet görünürlüğü bağımsızdır
+  [desktop] › app.spec.ts:36:1 › küre arkasında kalan işaret gizlenir, sıfırlanınca yeniden seçilebilir
+  [desktop] › app.spec.ts:70:1 › gerçek globe, marker → React, kamera, resize ve ekran dönüşünde yeniden mount
+  [desktop] › app.spec.ts:116:1 › WebGL yokken haritasız açıklama, yeniden deneme ve bilgi sayfası kullanılabilir
+  [desktop] › app.spec.ts:137:1 › gerçek context kaybı renderer kaynaklarını bırakır ve tekrar yüklenebilir
+  [desktop] › app.spec.ts:161:1 › geçersiz yol için Türkçe hata ve dönüş yolu vardır
+  [desktop] › app.spec.ts:170:1 › zaman motoru önizlemesi açık seçim ister; kaynak yılı kalır ve yıl değişince kapanır
+  [desktop] › atlas.spec.ts:14:1 › katmanlar bağımsız; panel odağı, Escape ve odak dönüşü
+  [desktop] › atlas.spec.ts:32:1 › yıl sıfırı reddi, MÖ/MS geçişi ve boş arama
+  [desktop] › atlas.spec.ts:54:1 › duyarlı yerleşim, azaltılmış hareket ve görsel inceleme çıktısı
+  [narrow] › app.spec.ts:3:1 › kaynaklı 1867 pilotu gerçek haritada çizilir; yıl ve devlet görünürlüğü bağımsızdır
+  [narrow] › app.spec.ts:36:1 › küre arkasında kalan işaret gizlenir, sıfırlanınca yeniden seçilebilir
+  [narrow] › app.spec.ts:70:1 › gerçek globe, marker → React, kamera, resize ve ekran dönüşünde yeniden mount
+  [narrow] › app.spec.ts:116:1 › WebGL yokken haritasız açıklama, yeniden deneme ve bilgi sayfası kullanılabilir
+  [narrow] › app.spec.ts:137:1 › gerçek context kaybı renderer kaynaklarını bırakır ve tekrar yüklenebilir
+  [narrow] › app.spec.ts:161:1 › geçersiz yol için Türkçe hata ve dönüş yolu vardır
+  [narrow] › app.spec.ts:170:1 › zaman motoru önizlemesi açık seçim ister; kaynak yılı kalır ve yıl değişince kapanır
+  [narrow] › atlas.spec.ts:14:1 › katmanlar bağımsız; panel odağı, Escape ve odak dönüşü
+  [narrow] › atlas.spec.ts:32:1 › yıl sıfırı reddi, MÖ/MS geçişi ve boş arama
+  [narrow] › atlas.spec.ts:54:1 › duyarlı yerleşim, azaltılmış hareket ve görsel inceleme çıktısı
+Total: 20 tests in 2 files

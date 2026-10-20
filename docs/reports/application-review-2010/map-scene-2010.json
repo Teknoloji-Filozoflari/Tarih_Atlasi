@@ -1,0 +1,217 @@
+{
+  "year": 2010,
+  "scope": "Authenticated political source diagnostics only; North Africa sampling grid is not historical evidence or full topology certification. Legacy pilot rows are counted in summary but excluded from this grid.",
+  "summary": {
+    "total": 191,
+    "drawn": 178,
+    "withheld": 13,
+    "unknownDateRows": 6,
+    "sourceEndYear": 2024
+  },
+  "sourceIdentityCandidates": 191,
+  "partialRecords": [
+    {
+      "id": "world:clio-r13247",
+      "note": "Cliopatria kaynak rekonstrüksiyonu; kesin/ölçülmüş sınır veya fiilî egemenlik iddiası değildir. Özgün bileşenler ve dönem korunur; başkent, nüfus ve vasallık çıkarılmaz. Yalnız kaynak geometrisinin incelenmiş Avrupa anakarası ve Korsika bileşenleri gösterilir. Cezayir, eski işgal alanları ve diğer denizaşırı parçalar bu dönemle uyuşmadığı veya ayrıca incelenmediği için çıkarıldı. Bu, Fransa’nın tam alanı değildir."
+    }
+  ],
+  "withheld": [
+    {
+      "index": 11956,
+      "name": "Netherlands Antilles",
+      "reason": "SOURCE_IDENTITY_DATE_OR_POLITY_SCOPE_REVIEW"
+    },
+    {
+      "index": 13116,
+      "name": "(Netherlands)",
+      "reason": "DUPLICATE_SOURCE_GEOMETRY_REVIEWED_CANONICAL_13120"
+    },
+    {
+      "index": 13215,
+      "name": "Federal Republic of Somalia",
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW"
+    },
+    {
+      "index": 13234,
+      "name": "Mali Federation",
+      "reason": "SOURCE_IDENTITY_DATE_OR_POLITY_SCOPE_REVIEW"
+    },
+    {
+      "index": 13239,
+      "name": "Republic of Chad",
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 13305,
+      "name": "Kingdom of Great Britain",
+      "reason": "SOURCE_IDENTITY_DATE_OR_POLITY_SCOPE_REVIEW"
+    },
+    {
+      "index": 13327,
+      "name": "Kingdom of Bahrain",
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW"
+    },
+    {
+      "index": 13369,
+      "name": "People's Republic of Angola",
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW"
+    },
+    {
+      "index": 13374,
+      "name": "Republic of Tunisia",
+      "reason": "WORLD_RING_INTERSECTION"
+    },
+    {
+      "index": 13400,
+      "name": "Eswatini",
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW"
+    },
+    {
+      "index": 13406,
+      "name": "Estado Novo",
+      "reason": "SOURCE_IDENTITY_DATE_OR_POLITY_SCOPE_REVIEW"
+    },
+    {
+      "index": 13558,
+      "name": "(Commonwealth of Nations)",
+      "reason": "SOURCE_IDENTITY_DATE_OR_POLITY_SCOPE_REVIEW"
+    },
+    {
+      "index": 13580,
+      "name": "Libyan Arab Republic",
+      "reason": "SOURCE_NAME_PERIOD_REQUIRES_REVIEW"
+    }
+  ],
+  "duplicateDrawableGeometryPairs": [],
+  "northAfricaOriginalSource": {
+    "probes": 286,
+    "overlapProbes": 37,
+    "examples": [
+      {
+        "point": [
+          4,
+          20
+        ],
+        "sourceRecords": [
+          "world:clio-r13247",
+          "world:clio-r13365"
+        ]
+      },
+      {
+        "point": [
+          6,
+          20
+        ],
+        "sourceRecords": [
+          "world:clio-r13247",
+          "world:clio-r13365"
+        ]
+      },
+      {
+        "point": [
+          0,
+          22
+        ],
+        "sourceRecords": [
+          "world:clio-r13247",
+          "world:clio-r13365"
+        ]
+      },
+      {
+        "point": [
+          2,
+          22
+        ],
+        "sourceRecords": [
+          "world:clio-r13247",
+          "world:clio-r13365"
+        ]
+      },
+      {
+        "point": [
+          4,
+          22
+        ],
+        "sourceRecords": [
+          "world:clio-r13247",
+          "world:clio-r13365"
+        ]
+      },
+      {
+        "point": [
+          6,
+          22
+        ],
+        "sourceRecords": [
+          "world:clio-r13247",
+          "world:clio-r13365"
+        ]
+      },
+      {
+        "point": [
+          8,
+          22
+        ],
+        "sourceRecords": [
+          "world:clio-r13247",
+          "world:clio-r13365"
+        ]
+      },
+      {
+        "point": [
+          0,
+          24
+        ],
+        "sourceRecords": [
+          "world:clio-r13247",
+          "world:clio-r13365"
+        ]
+      },
+      {
+        "point": [
+          2,
+          24
+        ],
+        "sourceRecords": [
+          "world:clio-r13247",
+          "world:clio-r13365"
+        ]
+      },
+      {
+        "point": [
+          4,
+          24
+        ],
+        "sourceRecords": [
+          "world:clio-r13247",
+          "world:clio-r13365"
+        ]
+      },
+      {
+        "point": [
+          6,
+          24
+        ],
+        "sourceRecords": [
+          "world:clio-r13247",
+          "world:clio-r13365"
+        ]
+      },
+      {
+        "point": [
+          8,
+          24
+        ],
+        "sourceRecords": [
+          "world:clio-r13247",
+          "world:clio-r13365"
+        ]
+      }
+    ]
+  },
+  "northAfricaReviewed": {
+    "probes": 286,
+    "overlapProbes": 0,
+    "examples": []
+  }
+}

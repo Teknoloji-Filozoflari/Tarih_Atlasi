@@ -1,0 +1,30 @@
+{
+  "version": "c0972addaf25d13ab7c1fa1b1ade254f2c3c7ca50003be9c78c964df98f03d29",
+  "countries": 248,
+  "packs": 16102,
+  "counts": {
+    "settlements": 4999482,
+    "administrative": 446399,
+    "sections": 170872,
+    "excluded": 7857938,
+    "invalid": 0
+  },
+  "bytes": 645992949,
+  "turkey": {
+    "code": "TR",
+    "name": "Turkey",
+    "settlements": 52786,
+    "administrative": 2614,
+    "sections": 1720
+  },
+  "sampleAdministrativeNames": [
+    "İzmir",
+    "Tekirdağ",
+    "Kırklareli",
+    "Edirne",
+    "Çanakkale"
+  ],
+  "reads": 8,
+  "webCityGzipModules": 0,
+  "webEntryBytes": 12481155
+}

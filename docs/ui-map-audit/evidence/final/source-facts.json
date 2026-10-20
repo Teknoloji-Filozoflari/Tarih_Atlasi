@@ -1,0 +1,181 @@
+{
+  "capturedAt": "2026-10-16T13:58:35.498Z",
+  "node": "v26.11.1",
+  "versions": {
+    "expo": {
+      "declared": "57.0.29",
+      "locked": "57.0.29",
+      "installed": "57.0.29"
+    },
+    "react": {
+      "declared": "19.2.3",
+      "locked": "19.2.3",
+      "installed": "19.2.3"
+    },
+    "react-native": {
+      "declared": "0.86.3",
+      "locked": "0.86.3",
+      "installed": "0.86.3"
+    },
+    "react-native-web": {
+      "declared": "0.21.2",
+      "locked": "0.21.2",
+      "installed": "0.21.2"
+    },
+    "expo-router": {
+      "declared": "57.0.28",
+      "locked": "57.0.28",
+      "installed": "57.0.28"
+    },
+    "maplibre-gl": {
+      "declared": "6.14.0",
+      "locked": "6.14.0",
+      "installed": "6.14.0"
+    },
+    "react-native-webview": {
+      "declared": "13.16.1",
+      "locked": "13.16.1",
+      "installed": "13.16.1"
+    }
+  },
+  "rootLockDependenciesMatch": true,
+  "land": {
+    "scale": "1:110000000",
+    "version": "5.1.2",
+    "features": 127,
+    "rings": 128,
+    "positions": 5143,
+    "rawBytes": 138160,
+    "rawSha256": "9e0729ee253ca7d7a5c4ae9395fb1902264c5377c52e224d13dd85010e2835d9",
+    "featureProperties": 0,
+    "detailPresent": false
+  },
+  "style": {
+    "sources": [
+      {
+        "id": "land",
+        "type": "geojson"
+      },
+      {
+        "id": "historical",
+        "type": "geojson"
+      }
+    ],
+    "layerCount": 15,
+    "symbolLayers": 0,
+    "rasterLayers": 0,
+    "glyphs": null,
+    "sprite": null
+  },
+  "camera": {
+    "initial": {
+      "center": {
+        "lng": 0,
+        "lat": 0
+      },
+      "zoom": 1,
+      "bearing": 0,
+      "pitch": 0
+    },
+    "maxZoom": 8
+  },
+  "layout": {
+    "maxWidth": 960,
+    "minTouchTarget": 48,
+    "atlasBreakpoint": 1100,
+    "panelWidth": 380,
+    "mapMinHeight": 280,
+    "actualMapMinNormal": 160,
+    "actualMapMinShort": 120,
+    "wideHeightThreshold": 600,
+    "shortHeightThreshold": 500,
+    "largeTextThreshold": 1.6
+  },
+  "catalog": {
+    "version": "0.4.1-pilot",
+    "sha256": "8c8eae15b77bcc0171dad4309bc84f54026d56827e02d7e2c630b528afa24438",
+    "recordCount": 19,
+    "sourceCount": 7,
+    "searchEntries": [
+      {
+        "id": "atlas:british-possessions-1867",
+        "name": "Britanya’nın Kuzey Amerika’daki toprakları",
+        "group": "state"
+      },
+      {
+        "id": "atlas:russian-empire-1867",
+        "name": "Rusya İmparatorluğu — devreden taraf",
+        "group": "state"
+      },
+      {
+        "id": "atlas:united-states-1867",
+        "name": "Amerika Birleşik Devletleri — antlaşma tarafı",
+        "group": "state"
+      },
+      {
+        "id": "atlas:van-gogh",
+        "name": "Vincent van Gogh",
+        "group": "person"
+      },
+      {
+        "id": "atlas:hastings-1066",
+        "name": "Hastings Muharebesi",
+        "group": "war"
+      },
+      {
+        "id": "atlas:peloponnesian-war",
+        "name": "Peloponnesos Savaşı",
+        "group": "war"
+      },
+      {
+        "id": "atlas:german-reunification-process",
+        "name": "Almanya’nın yeniden birleşmesi — süreç kaydı",
+        "group": "event"
+      },
+      {
+        "id": "atlas:westphalia-1648",
+        "name": "Vestfalya Barışı",
+        "group": "event"
+      }
+    ]
+  },
+  "runtimeBounds": null,
+  "notice": "Source constants and file counts only; no browser bounds, visual approval or device measurement.",
+  "physicalProvider": {
+    "id": "natural-earth-physical-land",
+    "version": "5.1.2",
+    "dataLicense": "public domain",
+    "licenseURL": "https://www.naturalearthdata.com/about/terms-of-use/",
+    "attribution": "Made with Natural Earth.",
+    "sources": {
+      "coarse": {
+        "scale": "1:110000000",
+        "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_110m_land.geojson"
+      },
+      "detail": {
+        "scale": "1:50000000",
+        "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_50m_land.geojson"
+      }
+    },
+    "styleURL": null,
+    "tileURL": null,
+    "requiresKey": false,
+    "remoteRequests": false,
+    "cachePolicy": "versioned-bundled-assets",
+    "rateLimit": "no-runtime-requests",
+    "cors": "no-cross-origin-runtime-fetch",
+    "available": [
+      "land",
+      "coastline"
+    ],
+    "unavailable": [
+      "rivers",
+      "lakes",
+      "relief",
+      "physical-labels",
+      "street-detail"
+    ],
+    "historicalCoastline": false,
+    "politicalLabels": false
+  }
+}

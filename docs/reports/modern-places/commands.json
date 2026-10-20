@@ -1,0 +1,404 @@
+{
+  "recordedAt": "2026-10-17T22:05:49.323Z",
+  "status": "PARTIAL",
+  "sourceDownload": "BLOCKED EAI_AGAIN",
+  "installedGlobal": {
+    "version": null,
+    "countries": 0,
+    "packs": 0,
+    "counts": {
+      "settlements": 0,
+      "administrative": 0,
+      "sections": 0,
+      "excluded": 0,
+      "invalid": 0
+    }
+  },
+  "curatedFallback": 6,
+  "gitStatus": {
+    "exitCode": 128,
+    "reason": "No .git repository; no reset/checkout/init"
+  },
+  "commands": [
+    {
+      "command": "npm run check",
+      "exitCode": 0,
+      "status": "PASS",
+      "mainTests": 335,
+      "workerTests": 5,
+      "failed": 0,
+      "skipped": 0,
+      "log": "check-session.log"
+    },
+    {
+      "command": "npm run web:export",
+      "exitCode": 0,
+      "status": "PASS",
+      "routes": 4,
+      "log": "web-final.log"
+    },
+    {
+      "command": "npm run android:bundle",
+      "exitCode": 0,
+      "status": "PASS JS EXPORT ONLY",
+      "log": "android-session.log"
+    },
+    {
+      "command": "npm run test:web:production -- --list",
+      "exitCode": 0,
+      "status": "LISTED ONLY",
+      "tests": 52,
+      "files": 8
+    },
+    {
+      "command": "Chromium headless launch",
+      "exitCode": 1,
+      "status": "BLOCKED",
+      "reason": "sandbox_host_linux.cc:41 shutdown EPERM",
+      "screenshots": 0
+    },
+    {
+      "command": "npm run environment:check",
+      "exitCode": 1,
+      "status": "BLOCKED",
+      "reason": "java/adb ENOENT; ANDROID_HOME absent"
+    },
+    {
+      "command": "npm run places:download -- --timeout-seconds 10",
+      "exitCode": 1,
+      "status": "BLOCKED",
+      "log": "download-final.log"
+    },
+    {
+      "command": "npm run places:prepare",
+      "exitCode": 1,
+      "status": "BLOCKED SOURCE_NOT_DOWNLOADED",
+      "log": "prepare-final.log"
+    },
+    {
+      "command": "Final ESLint CLI files + npm run format:check",
+      "exitCode": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "exportResponse / and /about",
+      "exitCode": 0,
+      "status": "PASS STATIC HTTP RESPONSE/CSP",
+      "bytes": [
+        27389,
+        25936
+      ]
+    }
+  ],
+  "initialFailure": {
+    "command": "npm run lint",
+    "reason": "Unused _line loop warning in corrupt synthetic ZIP fixture",
+    "resolution": "assert.fail on any unexpectedly yielded row; full check passed without weakening expectations"
+  },
+  "androidDevice": "UNVERIFIED ON DEVICE",
+  "realGlobalETL": "NOT TESTED",
+  "release": "NO-GO remains",
+  "changedFiles": [
+    {
+      "file": "package.json",
+      "bytes": 4985,
+      "sha256": "4f1cede849e6204fae2ffbe54ce609aadd134fe4d419d0a8fcf4272bbd76b737"
+    },
+    {
+      "file": ".gitignore",
+      "bytes": 552,
+      "sha256": "4efcf01f747310d70cad036bb7d28d9c03b8dcb0cb991da958c8a52cc477461f"
+    },
+    {
+      "file": ".prettierignore",
+      "bytes": 551,
+      "sha256": "0c5f5df6fa51539ee17ed08553f052bf6aa1b9f31e871698754f514758012426"
+    },
+    {
+      "file": "eslint.config.mjs",
+      "bytes": 590,
+      "sha256": "59770594e1cd61cac3781515411d0439a0ddf35e2f9dc67d121f1b926cf60f76"
+    },
+    {
+      "file": "README.md",
+      "bytes": 37179,
+      "sha256": "8b7a9962390b22d58559b258fafb70f7021f2b5cbab51f21c9ba1d325bebac22"
+    },
+    {
+      "file": "THIRD_PARTY_NOTICES.md",
+      "bytes": 17113,
+      "sha256": "ff18866dabc40561ee97de636ebfea74d7b8ddb993a1279f93419e30dd59d2da"
+    },
+    {
+      "file": "scripts/map-sources.mjs",
+      "bytes": 9504,
+      "sha256": "2d2dcc477c18ce148c2254b94bbbfa5aaa0989d63101320d07baa4e5eb8efea3"
+    },
+    {
+      "file": "scripts/places/download.mjs",
+      "bytes": 2335,
+      "sha256": "0ebc74421e4a5add2cfcd1fe739f5dd48aded9015a4cd218cedaaf0269a3453f"
+    },
+    {
+      "file": "scripts/places/build.mjs",
+      "bytes": 10534,
+      "sha256": "caa36018cb14f4d543567b3b419a85cc23a19a76bbdc4a7b3497a975246b8a6d"
+    },
+    {
+      "file": "scripts/places/prepare.mjs",
+      "bytes": 5996,
+      "sha256": "a6d5030981d4b5e568798046d5c1634c4f9a71d0680634e3eb022286e8512e3f"
+    },
+    {
+      "file": "scripts/places/check.mjs",
+      "bytes": 3587,
+      "sha256": "b2026dac95a0c849228624227ccde4794b2e59665a7687f284c8ffb71363664e"
+    },
+    {
+      "file": "src/places/catalog.ts",
+      "bytes": 8354,
+      "sha256": "7c1926355aa85949ff96c84fd48230210327856169ec56c7b38176d30c3e55ad"
+    },
+    {
+      "file": "src/places/modern.ts",
+      "bytes": 2465,
+      "sha256": "7812c2811aaac120c6a0e889c90d247559c6c63ec06f79e19bba8e5f852c55ba"
+    },
+    {
+      "file": "src/places/repository.ts",
+      "bytes": 7785,
+      "sha256": "f28e68ee597afaa21ac838acc1d9fb018299ae54936d0bce28db6352055cf0c2"
+    },
+    {
+      "file": "src/places/runtime.ts",
+      "bytes": 240,
+      "sha256": "17c36edab3fc57862579f4169ac797d8f66dc65d95a52c1e2f1a0157632f1097"
+    },
+    {
+      "file": "src/places/reader.native.ts",
+      "bytes": 1364,
+      "sha256": "a81353ac71b498723e23ef7a8e1b8a91a8075565dc3e9ad6b289cf5de8a9e156"
+    },
+    {
+      "file": "src/places/reader.web.ts",
+      "bytes": 1531,
+      "sha256": "da774141177b9d421554c0ce23092623645f07ce7aa4bb05959bf171e5d4a0d2"
+    },
+    {
+      "file": "src/places/generated/assets.ts",
+      "bytes": 45,
+      "sha256": "c609c5744f59ba63800de42d871e768607df31db917ceb246e96764153e31664"
+    },
+    {
+      "file": "src/places/generated/catalog.ts",
+      "bytes": 53,
+      "sha256": "16cdaf53f6ab995e480ab0b3b97c05600bd3407b2fb603371e354f69afa2dd0c"
+    },
+    {
+      "file": "src/places/generated/dom-bundled.ts",
+      "bytes": 52,
+      "sha256": "4523462ee53b710e172828d75b2cbca508d1b79133e880758004fd37a1f08072"
+    },
+    {
+      "file": "src/places/generated/world/assets.ts",
+      "bytes": 172,
+      "sha256": "e3251aca268370e95135769374849f436011687d3e3c91c9fbdbf504803e2c24"
+    },
+    {
+      "file": "src/places/generated/world/catalog.ts",
+      "bytes": 410,
+      "sha256": "cfa186e0014cd7184d749b7034eb6f612e763937d9d571642649af5c124447f2"
+    },
+    {
+      "file": "src/places/generated/world/dom-bundled.ts",
+      "bytes": 182,
+      "sha256": "41d8aa4fcf69b27a76ee668cad79f7b553a202b87fa63d00ca2ab0b13a1d141f"
+    },
+    {
+      "file": "src/map/globe/modern-city-markers.ts",
+      "bytes": 6194,
+      "sha256": "781429154b34a5bd1863a16a791c0c50712566385afcd31ca2138247323321c0"
+    },
+    {
+      "file": "src/map/globe/renderer.ts",
+      "bytes": 26954,
+      "sha256": "e7d44281edb29c16897d3e3c95a7e0dc9692947706eadd12e06d2eaebcb14454"
+    },
+    {
+      "file": "src/map/globe/GlobeView.tsx",
+      "bytes": 11094,
+      "sha256": "2fca76b6dcc9dc30feaaa0b0adaa462cdd92156e1019b875541d21350e821816"
+    },
+    {
+      "file": "src/map-contract/protocol.ts",
+      "bytes": 13823,
+      "sha256": "46fbccdf44de503e8a6af53c7fa2d151a6ba783fcc7762e75d571178f7dd22d6"
+    },
+    {
+      "file": "src/map-contract/viewport.ts",
+      "bytes": 1688,
+      "sha256": "26f1564226fe1d63be34e2bdb9593b4816d7d39ada944038d41436f99f0b9b58"
+    },
+    {
+      "file": "src/map/useGlobeHost.ts",
+      "bytes": 12364,
+      "sha256": "b50a03e48df9ce5617efb17dfbcf2239315c8f04349a2c402d51554c73271bba"
+    },
+    {
+      "file": "src/map/ViewportFrame.tsx",
+      "bytes": 3730,
+      "sha256": "141b6175a473e7aefd9ec599931c042a81c669d8080d6dcf76c20861caf9e685"
+    },
+    {
+      "file": "src/atlas/ModernCityCard.tsx",
+      "bytes": 3607,
+      "sha256": "a71c0efe4c5e9fe3b6337ab364daaae82f11c09ce366930de1628f4933dabbed"
+    },
+    {
+      "file": "src/atlas/ModernPlacesExplorer.tsx",
+      "bytes": 5474,
+      "sha256": "72767f7f9e7d1d506601f25ff2d696eddbe08b021653567db92d3de5a314513b"
+    },
+    {
+      "file": "src/atlas/PlaceCoverage.tsx",
+      "bytes": 856,
+      "sha256": "4e6c4a671a9ee91469df0a390bb51b86aec4c0b82ee476836b1bf054831607eb"
+    },
+    {
+      "file": "src/atlas/LayersDrawer.tsx",
+      "bytes": 3754,
+      "sha256": "646d535159336aa454d3a4b5326e56d0bf215440493a10c874ee91995284609e"
+    },
+    {
+      "file": "src/atlas/AtlasScreen.tsx",
+      "bytes": 42883,
+      "sha256": "3994178f21949066fa00750d69490c8bc75983e16ab391bc72e0761ef11e5fc2"
+    },
+    {
+      "file": "src/atlas/AttributionPanel.tsx",
+      "bytes": 2261,
+      "sha256": "de2e8ace34065482af29e87574d8c1f15502822101329e7fcf8ef6f9f975c8a7"
+    },
+    {
+      "file": "src/sources/url-policy.ts",
+      "bytes": 2440,
+      "sha256": "2df3cfe38d9cdb7bac91ef45fd353385fbac96d9d1deeca20ba2363f71a7d6e6"
+    },
+    {
+      "file": "src/i18n/tr.ts",
+      "bytes": 50283,
+      "sha256": "de7be3cae37da667ab9acf90c18ec72a9bc4a623857b9d5f94200be3d1b62e38"
+    },
+    {
+      "file": "src/data/world/asset-cache.native.ts",
+      "bytes": 261,
+      "sha256": "d6f999efda91c6131a496f8dfc35b4677a235701067543bb5371860797ec2883"
+    },
+    {
+      "file": "src/data/world/native-cache.ts",
+      "bytes": 2485,
+      "sha256": "c87d6e4f9a426bcf9782ac167c8030f41a85ee2181d20332ffdf5ca66359e270"
+    },
+    {
+      "file": "src/data/world/reader.native.ts",
+      "bytes": 1531,
+      "sha256": "8185133aff7de396d56ddcafa13f188fde2fdf86719c11ac74a47e4d3be06dd1"
+    },
+    {
+      "file": "assets/licenses/GeoNames-NOTICE.txt",
+      "bytes": 1023,
+      "sha256": "2a3942ceeabf5c03e0a9aac04675c3e787dd3575708f10c109cd9bd004f61470"
+    },
+    {
+      "file": "tests/run.mjs",
+      "bytes": 1100,
+      "sha256": "51eff736300b01f5b09eba3049e07fef6e879b93c7abeca919f3d46b50b9bc5b"
+    },
+    {
+      "file": "tests/unit/modern-places.test.mjs",
+      "bytes": 19230,
+      "sha256": "48b25bd693e62ba1302f074bfd4b86b6d15ba795fe952262d1605cee8372d2b9"
+    },
+    {
+      "file": "tests/unit/renderer.test.mjs",
+      "bytes": 39817,
+      "sha256": "76f27888b34950236bfd01f1c2d3f4e2fb0f3be92a5d7fa581ec0b6a121e153b"
+    },
+    {
+      "file": "tests/web/modern-places.spec.ts",
+      "bytes": 1921,
+      "sha256": "d3847d48cd944e93f4ddc4ba5e77052bbf1ba0a64a4fb5e69a26be65daab4253"
+    },
+    {
+      "file": "tests/web/discovery-content.spec.ts",
+      "bytes": 3200,
+      "sha256": "e917d2d126f12d88dda359fac69fa274ffb6c944f5a0ab733e16ba5cb98bf3d4"
+    },
+    {
+      "file": "docs/progress.md",
+      "bytes": 65521,
+      "sha256": "762db097b502a43400c803013d60184e9adbe8feb223139783572ccfc262a1b3"
+    },
+    {
+      "file": "docs/modern-places.md",
+      "bytes": 7243,
+      "sha256": "f53ba2eaf4882dc252e1ca080c801497e9542ceadb6bccbc409e25c2452d8c65"
+    },
+    {
+      "file": "docs/architecture.md",
+      "bytes": 38756,
+      "sha256": "4868ef7c0224f4579063c8799fbb39eb68f1c226c6b7ca5ca232ed7a77163e60"
+    },
+    {
+      "file": "docs/source-matrix.md",
+      "bytes": 21870,
+      "sha256": "a610a01a71551787a748da1719196951b15b1950b75563a2cf0d5580f44a2ce6"
+    },
+    {
+      "file": "docs/license-register.md",
+      "bytes": 44416,
+      "sha256": "d6dbb778130bda229df3e3e9dc48a47e562df1ae7e7a212f13f897d377a7d72b"
+    },
+    {
+      "file": "docs/privacy-policy.md",
+      "bytes": 4958,
+      "sha256": "af066304c4abe7ad96f6ab853f50c495f0d69d9af1d56e037e574757e82a3769"
+    },
+    {
+      "file": "docs/reports/modern-places.md",
+      "bytes": 6245,
+      "sha256": "afe1d0e96afc6e02725ee3394ad6961619090dcdae7c537a378fa99d8d518e18"
+    }
+  ],
+  "unchangedDependencyLock": {
+    "file": "package-lock.json",
+    "sha256": "22adb61649840de311ccf5fda3f96ac8265bcf049b071d067b190e462fe077cd"
+  },
+  "logs": [
+    {
+      "file": "check-session.log",
+      "bytes": 40971,
+      "sha256": "9809b3d7ff1942d7ad2d95c2977c1d7f471613c0e71bfc68d68e992091d4e7da"
+    },
+    {
+      "file": "android-session.log",
+      "bytes": 60915,
+      "sha256": "7fe0f228d17bb1327a758f5ac4ccf093c3b6265ace8ee6b28119a8552fa3ec8c"
+    },
+    {
+      "file": "web-final.log",
+      "bytes": 56618,
+      "sha256": "5f68f9157d0feea17ac35bcdeca6c17c5da37232a490d519fcf99cc9f6b81998"
+    },
+    {
+      "file": "download-final.log",
+      "bytes": 271,
+      "sha256": "1e364161e6a3b7c8756394f33ec5f46c5b828ca80065120ef19b86633a5c8f3e"
+    },
+    {
+      "file": "prepare-final.log",
+      "bytes": 209,
+      "sha256": "c3f4c1a65e14470ca0601cf809a8c9d2a9ee093b6375e526ac6405a311d0974f"
+    }
+  ]
+}

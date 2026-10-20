@@ -1,0 +1,66 @@
+{
+  "capturedAt": "2026-10-16T19:37:34.486Z",
+  "commands": [
+    {
+      "name": "check",
+      "command": "npm run check",
+      "exitCode": 0,
+      "log": "check.log"
+    },
+    {
+      "name": "detail-download",
+      "command": "npm run basemap:prepare",
+      "exitCode": 1,
+      "log": "detail-download.log"
+    },
+    {
+      "name": "web-export",
+      "command": "npm run web:export",
+      "exitCode": 0,
+      "log": "web-export.log"
+    },
+    {
+      "name": "android-export",
+      "command": "npm run android:bundle",
+      "exitCode": 0,
+      "log": "android-export.log"
+    },
+    {
+      "name": "browser-list",
+      "command": "npm run test:web -- --list",
+      "exitCode": 0,
+      "log": "browser-list.log"
+    },
+    {
+      "name": "browser-run",
+      "command": "timeout 30s npm run test:web:production",
+      "exitCode": 1,
+      "log": "browser-run.log"
+    },
+    {
+      "name": "environment",
+      "command": "npm run environment:check",
+      "exitCode": 1,
+      "log": "environment.log"
+    },
+    {
+      "name": "format-final",
+      "command": "npm run format:check",
+      "exitCode": 0,
+      "log": "format-final.log"
+    },
+    {
+      "name": "preview-start",
+      "command": "npm run web:preview",
+      "exitCode": 1,
+      "log": "preview-start.log"
+    },
+    {
+      "name": "git-status",
+      "command": "git status --short",
+      "exitCode": 128,
+      "log": "git-status.log"
+    }
+  ],
+  "note": "Actual direct tool exit statuses. Android export is JS, not APK. Browser list is not browser execution."
+}

@@ -1,0 +1,32 @@
+npm notice run tarih-atlasi@0.1.0 web:export
+npm notice run expo export --platform web
+Using src/app as the root directory for Expo Router.
+Starting Metro Bundler
+
+Static rendering is enabled. Learn more: https://docs.expo.dev/router/web/static-rendering/
+| (node:17) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:17) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:17) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:17) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:17) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+λ Bundled 697ms node_modules/@expo/router-server/node/render.js (880 modules)
+Web Bundled 826ms node_modules/expo-router/entry.js (827 modules)
+
+› web bundles (4):
+_expo/static/css/maplibre-gl-5eafb44ecdde7fed64f0a02f0507154c.css (83KB)
+_expo/static/css/markers-dd18e6c8a27aac99ec31603671eefc11.css (83B)
+_expo/static/js/web/entry-e05b695c4e3bbf6a977762913570e4a5.js (2MB)
+_expo/static/js/web/maplibre-gl-a2445429f307262b1a6997902a52eeaf.js (1.1MB)
+
+› Static routes (4):
+/about (21KB)
+/ (index) (28KB)
+/_sitemap (19KB)
+/+not-found (20KB)
+
+Exported: dist

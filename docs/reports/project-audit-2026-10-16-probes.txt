@@ -1,0 +1,69 @@
+// SYNTHETIC/IN-MEMORY REVIEW ONLY. This script never writes app or production data.
+import {pathToFileURL} from 'node:url';
+const imp=(p)=>import(pathToFileURL(`${process.cwd()}/${p}`).href);
+const {fixtureCatalog,simulateReviewed}=await imp('tests/fixtures/historical.mjs');
+const {validateCatalog}=await imp('src/domain/validate.ts');
+const {createHistoricalDataProvider}=await imp('src/data/provider.ts');
+const {createTimelineEngine,recordCoverageMode}=await imp('src/timeline/engine.ts');
+const {personLocationLevel}=await imp('src/persons/model.ts');
+const {defaultFilters}=await imp('src/preferences/model.ts');
+const {preparedPilot}=await imp('src/data/generated/pilot.ts');
+function fixture(){const c=simulateReviewed(fixtureCatalog());for(const r of [...c.sources,...c.records])r.temporal={...r.temporal,uncertain:false,support:{kind:'continuous',note:'SYNTHETIC TEST ONLY'}};return c;}
+{
+ const c=fixture(),r=c.records.find(r=>r.id==='test:presence');
+ r.confidence.level='high';r.spatialContext={scale:'city',coordinateRole:'representative-place',description:'SYNTHETIC CITY ANCHOR — not an exact person site'};
+ const validation=validateCatalog(c);const engine=createTimelineEngine(createHistoricalDataProvider(c));
+ const coverage=await engine.getDataCoverage(1,{layers:['person'],includeApproximatePersons:true,filters:{...defaultFilters,exactOnly:true}});
+ console.log(JSON.stringify({probe:'AUD-01_PERSON_PRECISION',syntheticOnly:true,productionSchemaAccepted:validation.ok,personClassification:personLocationLevel(r),commonClassification:recordCoverageMode(r),exactOnlyReturnedIds:coverage.records.map(h=>h.record.id),coverageMode:coverage.mode}));
+}
+{
+ const c=structuredClone(preparedPilot),s=c.sources.find(s=>s.id==='source:event-q83224');
+ s.wikidataId='Q83224';s.url='https://www.wikidata.org/wiki/Q1';
+ const result=validateCatalog(c);
+ console.log(JSON.stringify({probe:'AUD-03_SOURCE_URL',inMemoryOnly:true,revision:s.revision,wikidataId:s.wikidataId,url:s.url,productionSchemaAccepted:result.ok,issues:result.issues}));
+}
+{
+ const {buildChunks}=await imp('scripts/chunks.mjs'); const c=fixture();
+ const parent=structuredClone(c.sources[0]);parent.id='test:upstream-source';parent.rawInputId='test:upstream-raw';parent.upstreamIds=[];
+ c.sources[0].upstreamIds=[parent.id];c.sources.push(parent);
+ c.inputs.push({...structuredClone(c.inputs[0]),id:parent.rawInputId,sourceId:parent.id});
+ const validation=validateCatalog(c);let error=null;
+ try {await buildChunks(c);}catch(e){error=e.message;}
+ console.log(JSON.stringify({probe:'AUD-04_UPSTREAM_CHUNK',syntheticOnly:true,productionSchemaAccepted:validation.ok,buildError:error}));
+}
+{
+ const {createBookmarkRepository}=await imp('src/discovery/bookmarks.ts');let writes=0;
+ const repo=createBookmarkRepository({read:async()=>'{broken',write:async()=>{writes++;}},2026);
+ const results=[];
+ for(const action of [()=>repo.list(),()=>repo.remove('bookmark-test'),()=>repo.save({id:'bookmark-test',kind:'year',view:{year:1066,entityId:null,camera:null}})]){
+  try {await action();results.push('success');}catch(e){results.push(e.name);}
+ }
+ console.log(JSON.stringify({probe:'AUD-06_BOOKMARK_RECOVERY',results,writes,availableActions:Object.keys(repo)}));
+}
+{
+ const {prepareBundle}=await imp('scripts/etl/pipeline.mjs');
+ const {withheldGeography}=await imp('src/data/publication-policy.ts');
+ const bundle=await prepareBundle(preparedPilot,'data/pilot/raw');
+ const catalog=JSON.parse(bundle.catalogText), manifest=JSON.parse(bundle.manifestText), report=JSON.parse(bundle.reportText);
+ console.log(JSON.stringify({probe:'AUD-02_PRODUCTION_EXPORT',inMemoryOnly:true,reportStatus:report.status,publicationPolicyVersion:manifest.publicationPolicyVersion??null,withheldRecords:catalog.records.filter(r=>withheldGeography.includes(r.id)).map(r=>({id:r.id,geometryStillIncluded:!!r.geometry,reviewStatus:r.reviewStatus}))}));
+}
+{
+ const {buildChunks}=await imp('scripts/chunks.mjs');const c=fixture(),r=c.records.find(r=>r.id==='test:territory');
+ const date=(year)=>({year,month:null,day:null});
+ r.temporal.periods=[{start:date(-1),end:date(-1)},{start:date(1),end:date(1)}];
+ const validation=validateCatalog(c),engine=createTimelineEngine(createHistoricalDataProvider(c));
+ const coverage=await engine.getDataCoverage(-1,{layers:['polity']});
+ const {canonicalJSON}=await imp('scripts/etl/pipeline.mjs');
+ const {manifest}=await buildChunks(JSON.parse(canonicalJSON(c)));
+ console.log(JSON.stringify({probe:'AUD-05_PERIOD_CHUNK',syntheticOnly:true,productionSchemaAccepted:validation.ok,yearMinus1SupportedIds:coverage.records.map(h=>h.record.id),territoryManifestEntries:manifest.entries.filter(e=>e.recordId===r.id).length}));
+}
+{
+ const {buildChunks}=await imp('scripts/chunks.mjs');
+ const original=structuredClone(preparedPilot),before=await buildChunks(original);
+ const changed=structuredClone(original);
+ const row=changed.records.find(r=>r.id==='atlas:alaska-treaty-segment-1867');
+ row.temporal={end:row.temporal.end,...Object.fromEntries(Object.entries(row.temporal).filter(([k])=>k!=='end'))};
+ let error=null;
+ try{await buildChunks(changed);}catch(e){error=e.message;}
+ console.log(JSON.stringify({probe:'AUD-07_JSON_KEY_ORDER',inMemoryOnly:true,semanticMutation:false,beforeEntries:before.manifest.entries.length,error}));
+}

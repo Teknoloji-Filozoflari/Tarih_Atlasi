@@ -1,0 +1,42 @@
+npm notice run tarih-atlasi@0.1.0 test:web
+npm notice run playwright test --list
+Listing tests:
+  [desktop] › app.spec.ts:3:1 › kaynaklı 1867 pilotu gerçek haritada çizilir; yıl ve devlet görünürlüğü bağımsızdır
+  [desktop] › app.spec.ts:42:1 › küre arkasında kalan işaret gizlenir, sıfırlanınca yeniden seçilebilir
+  [desktop] › app.spec.ts:76:1 › gerçek globe, marker → React, kamera, resize ve ekran dönüşünde yeniden mount
+  [desktop] › app.spec.ts:122:1 › WebGL yokken haritasız açıklama, yeniden deneme ve bilgi sayfası kullanılabilir
+  [desktop] › app.spec.ts:143:1 › gerçek context kaybı renderer kaynaklarını bırakır ve tekrar yüklenebilir
+  [desktop] › app.spec.ts:167:1 › geçersiz yol için Türkçe hata ve dönüş yolu vardır
+  [desktop] › app.spec.ts:176:1 › zaman motoru önizlemesi açık seçim ister; kaynak yılı kalır ve yıl değişince kapanır
+  [desktop] › atlas.spec.ts:14:1 › katmanlar bağımsız; panel odağı, Escape ve odak dönüşü
+  [desktop] › atlas.spec.ts:32:1 › yıl sıfırı reddi, MÖ/MS geçişi ve boş arama
+  [desktop] › atlas.spec.ts:50:1 › duyarlı yerleşim, azaltılmış hareket ve görsel inceleme çıktısı
+  [desktop] › cultures.spec.ts:3:1 › haritasız kültür listesi eksik pilotu ve çağdaş taban uyarısını açıklar
+  [desktop] › cultures.spec.ts:32:1 › devlet ve kültür anahtarları bağımsızdır; gerçek kaynaklı siyasi kesit kültür diye çizilmez
+  [desktop] › persons.spec.ts:3:1 › harita olmasa da kişi aranır; yaşam dönemi konum kanıtı diye gösterilmez
+  [desktop] › persons.spec.ts:35:1 › gerçek kişi pilotu açık yaklaşık tercihle gelir, kaynak kartı açılır ve yıl değişince kaybolur
+  [desktop] › playback.spec.ts:13:1 › çizelge doğrudan MÖ/MS girişini, sıfır reddini ve klavye/ölçek kontrollerini destekler
+  [desktop] › playback.spec.ts:41:1 › oynatma manuel yıl hareketinde durur; reduced motion otomatik başlatmaz
+  [desktop] › playback.spec.ts:64:1 › gerçek kürede zaman kamerayı korur; kaynak yılı ACK ile raporlanır
+  [desktop] › politics.spec.ts:3:1 › siyasi kayıt klavye listesi, kaynak kartı, açık kamera odağı ve desteksiz yıl
+  [desktop] › politics.spec.ts:44:1 › haritasız siyasi liste veri yokluğunu ve tam polygon eksikliğini açıklar
+  [narrow] › app.spec.ts:3:1 › kaynaklı 1867 pilotu gerçek haritada çizilir; yıl ve devlet görünürlüğü bağımsızdır
+  [narrow] › app.spec.ts:42:1 › küre arkasında kalan işaret gizlenir, sıfırlanınca yeniden seçilebilir
+  [narrow] › app.spec.ts:76:1 › gerçek globe, marker → React, kamera, resize ve ekran dönüşünde yeniden mount
+  [narrow] › app.spec.ts:122:1 › WebGL yokken haritasız açıklama, yeniden deneme ve bilgi sayfası kullanılabilir
+  [narrow] › app.spec.ts:143:1 › gerçek context kaybı renderer kaynaklarını bırakır ve tekrar yüklenebilir
+  [narrow] › app.spec.ts:167:1 › geçersiz yol için Türkçe hata ve dönüş yolu vardır
+  [narrow] › app.spec.ts:176:1 › zaman motoru önizlemesi açık seçim ister; kaynak yılı kalır ve yıl değişince kapanır
+  [narrow] › atlas.spec.ts:14:1 › katmanlar bağımsız; panel odağı, Escape ve odak dönüşü
+  [narrow] › atlas.spec.ts:32:1 › yıl sıfırı reddi, MÖ/MS geçişi ve boş arama
+  [narrow] › atlas.spec.ts:50:1 › duyarlı yerleşim, azaltılmış hareket ve görsel inceleme çıktısı
+  [narrow] › cultures.spec.ts:3:1 › haritasız kültür listesi eksik pilotu ve çağdaş taban uyarısını açıklar
+  [narrow] › cultures.spec.ts:32:1 › devlet ve kültür anahtarları bağımsızdır; gerçek kaynaklı siyasi kesit kültür diye çizilmez
+  [narrow] › persons.spec.ts:3:1 › harita olmasa da kişi aranır; yaşam dönemi konum kanıtı diye gösterilmez
+  [narrow] › persons.spec.ts:35:1 › gerçek kişi pilotu açık yaklaşık tercihle gelir, kaynak kartı açılır ve yıl değişince kaybolur
+  [narrow] › playback.spec.ts:13:1 › çizelge doğrudan MÖ/MS girişini, sıfır reddini ve klavye/ölçek kontrollerini destekler
+  [narrow] › playback.spec.ts:41:1 › oynatma manuel yıl hareketinde durur; reduced motion otomatik başlatmaz
+  [narrow] › playback.spec.ts:64:1 › gerçek kürede zaman kamerayı korur; kaynak yılı ACK ile raporlanır
+  [narrow] › politics.spec.ts:3:1 › siyasi kayıt klavye listesi, kaynak kartı, açık kamera odağı ve desteksiz yıl
+  [narrow] › politics.spec.ts:44:1 › haritasız siyasi liste veri yokluğunu ve tam polygon eksikliğini açıklar
+Total: 38 tests in 6 files

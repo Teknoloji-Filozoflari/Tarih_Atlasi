@@ -1,0 +1,9 @@
+{
+  "files": 34693,
+  "bytes": 1068257544,
+  "max": {
+    "path": "docs/reports/world-data-audit/audit.json",
+    "bytes": 13755383
+  },
+  "excludedPatternsVerified": true
+}

@@ -1,0 +1,3 @@
+Wikidata contributors — CC0-1.0
+https://www.wikidata.org/wiki/Wikidata:Licensing
+Broad content 1.4.0-births: reviewed editorial extraction, not an HTTP/API response. 56 people and 23 events; one candidate withheld without immutable revision. Source revisions and input checksums retained. Modern place points represent source places, not exact birth sites. Uncertain and regional birth assertions are not annual presence evidence. Seven battle points are approximate representatives; sixteen other events have no approved map geometry. Day values retain original calendar text; querying is year-only. No Wikipedia prose, portraits, Nobel API data or third-party geometry copied. Not a complete world-history, Nobel or TIME catalog; independent upstream corroboration incomplete.

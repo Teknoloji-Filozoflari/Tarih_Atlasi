@@ -1,0 +1,3392 @@
+{
+  "scope": "Published reviewed birth releases only; pipeline/metadata validation, not independent historical truth or browser/GPU verification",
+  "profiles": 233,
+  "annualBirths": 147,
+  "failed": 0,
+  "entries": [
+    {
+      "id": "atlas:person-muhammad",
+      "name": "Hz. Muhammed",
+      "birth": [
+        570,
+        580
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q9458"
+      ],
+      "failures": []
+    },
+    {
+      "id": "atlas:person-newton",
+      "name": "Isaac Newton",
+      "birth": [
+        1643,
+        1643
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "atlas:newton-birth"
+      ],
+      "failures": []
+    },
+    {
+      "id": "atlas:person-jesus",
+      "name": "Hz. İsa",
+      "birth": [
+        -7,
+        -2
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q302"
+      ],
+      "failures": []
+    },
+    {
+      "id": "atlas:person-buddha",
+      "name": "Buda",
+      "birth": null,
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q9441"
+      ],
+      "failures": []
+    },
+    {
+      "id": "atlas:person-confucius",
+      "name": "Konfüçyüs",
+      "birth": [
+        -552,
+        -551
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q4604"
+      ],
+      "failures": []
+    },
+    {
+      "id": "atlas:person-paul",
+      "name": "Aziz Pavlus",
+      "birth": [
+        5,
+        5
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q9200"
+      ],
+      "failures": []
+    },
+    {
+      "id": "atlas:person-cai-lun",
+      "name": "Ts’ai Lun",
+      "birth": [
+        48,
+        62
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q229235"
+      ],
+      "failures": []
+    },
+    {
+      "id": "atlas:person-gutenberg",
+      "name": "Johann Gutenberg",
+      "birth": [
+        1393,
+        1406
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q8958"
+      ],
+      "failures": []
+    },
+    {
+      "id": "atlas:person-columbus",
+      "name": "Kristof Kolomb",
+      "birth": [
+        1450,
+        1451
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q7322"
+      ],
+      "failures": []
+    },
+    {
+      "id": "atlas:person-einstein",
+      "name": "Albert Einstein",
+      "birth": [
+        1879,
+        1879
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "atlas:einstein-birth"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q529",
+      "name": "Louis Pasteur",
+      "birth": [
+        1822,
+        1822
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q529"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q307",
+      "name": "Galileo Galilei",
+      "birth": [
+        1564,
+        1564
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q307"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q868",
+      "name": "Aristoteles",
+      "birth": [
+        -384,
+        -384
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q868"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q8747",
+      "name": "Öklid",
+      "birth": null,
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q9077",
+      "name": "Hz. Musa",
+      "birth": null,
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q9077"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q1035",
+      "name": "Charles Darwin",
+      "birth": [
+        1809,
+        1809
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q1035"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q7192",
+      "name": "Qin Shi Huang",
+      "birth": [
+        -259,
+        -259
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q1405",
+      "name": "Augustus",
+      "birth": [
+        -63,
+        -63
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q619",
+      "name": "Nicolaus Copernicus",
+      "birth": [
+        1473,
+        1473
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q619"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q39607",
+      "name": "Antoine Lavoisier",
+      "birth": [
+        1743,
+        1743
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q39607"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q8413",
+      "name": "Büyük Konstantin",
+      "birth": [
+        272,
+        272
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q8413"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q8750",
+      "name": "Michael Faraday",
+      "birth": [
+        1791,
+        1791
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q8750"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q9095",
+      "name": "James Clerk Maxwell",
+      "birth": [
+        1831,
+        1831
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q9095"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q9554",
+      "name": "Martin Luther",
+      "birth": [
+        1483,
+        1483
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q9554"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q23",
+      "name": "George Washington",
+      "birth": [
+        1732,
+        1732
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "region-not-a-point",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q9061",
+      "name": "Karl Marx",
+      "birth": [
+        1818,
+        1818
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q9061"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q494455",
+      "name": "Orville Wright",
+      "birth": [
+        1871,
+        1871
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q494455"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q1396131",
+      "name": "Wilbur Wright",
+      "birth": [
+        1867,
+        1867
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q720",
+      "name": "Cengiz Han",
+      "birth": [
+        1162,
+        1162
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q720"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q9381",
+      "name": "Adam Smith",
+      "birth": [
+        1723,
+        1723
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q9381"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q374210",
+      "name": "Edward de Vere",
+      "birth": [
+        1550,
+        1550
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q374210"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q692",
+      "name": "William Shakespeare",
+      "birth": [
+        1564,
+        1564
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q692"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q41284",
+      "name": "John Dalton",
+      "birth": [
+        1766,
+        1766
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "region-not-a-point",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q8409",
+      "name": "Büyük İskender",
+      "birth": [
+        -356,
+        -356
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q8409"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q517",
+      "name": "Napolyon Bonapart",
+      "birth": [
+        1769,
+        1769
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q517"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q8743",
+      "name": "Thomas Edison",
+      "birth": [
+        1847,
+        1847
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q8743"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q43522",
+      "name": "Antonie van Leeuwenhoek",
+      "birth": [
+        1632,
+        1632
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q43522"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q319689",
+      "name": "William T. G. Morton",
+      "birth": [
+        1819,
+        1819
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q319689"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q36488",
+      "name": "Guglielmo Marconi",
+      "birth": [
+        1874,
+        1874
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q36488"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q352",
+      "name": "Adolf Hitler",
+      "birth": [
+        1889,
+        1889
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q352"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q859",
+      "name": "Platon",
+      "birth": [
+        -427,
+        -427
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q859"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q44279",
+      "name": "Oliver Cromwell",
+      "birth": [
+        1599,
+        1599
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q44279"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q34286",
+      "name": "Alexander Graham Bell",
+      "birth": [
+        1847,
+        1847
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q34286"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q37064",
+      "name": "Alexander Fleming",
+      "birth": [
+        1881,
+        1881
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q9353",
+      "name": "John Locke",
+      "birth": [
+        1632,
+        1632
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q9353"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q255",
+      "name": "Ludwig van Beethoven",
+      "birth": [
+        1770,
+        1770
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q255"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q40904",
+      "name": "Werner Heisenberg",
+      "birth": [
+        1901,
+        1901
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q40904"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q131405",
+      "name": "Louis Daguerre",
+      "birth": [
+        1787,
+        1787
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q131405"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q8605",
+      "name": "Simón Bolívar",
+      "birth": [
+        1783,
+        1783
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q8605"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q9191",
+      "name": "René Descartes",
+      "birth": [
+        1596,
+        1596
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q9191"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q5592",
+      "name": "Michelangelo",
+      "birth": [
+        1475,
+        1475
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q5592"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q30578",
+      "name": "Papa II. Urban",
+      "birth": [
+        1035,
+        1035
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q30578"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q8467",
+      "name": "Hz. Ömer",
+      "birth": [
+        586,
+        586
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q8467"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q8589",
+      "name": "Aşoka",
+      "birth": [
+        -304,
+        -304
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q8589"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q8018",
+      "name": "Aziz Augustinus",
+      "birth": [
+        354,
+        354
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q8018"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q93128",
+      "name": "William Harvey",
+      "birth": [
+        1578,
+        1578
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q93128"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q9123",
+      "name": "Ernest Rutherford",
+      "birth": [
+        1871,
+        1871
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q9123"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q37577",
+      "name": "John Calvin",
+      "birth": [
+        1509,
+        1509
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q37577"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q37970",
+      "name": "Gregor Mendel",
+      "birth": [
+        1822,
+        1822
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q37970"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q9021",
+      "name": "Max Planck",
+      "birth": [
+        1858,
+        1858
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q9021"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q155768",
+      "name": "Joseph Lister",
+      "birth": [
+        1827,
+        1827
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q75782",
+      "name": "Nikolaus August Otto",
+      "birth": [
+        1832,
+        1832
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q75782"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q44741",
+      "name": "Francisco Pizarro",
+      "birth": [
+        1475,
+        1478
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q44741"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q7326",
+      "name": "Hernando Cortés",
+      "birth": [
+        1485,
+        1485
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q7326"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q11812",
+      "name": "Thomas Jefferson",
+      "birth": [
+        1743,
+        1743
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q11812"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q45859",
+      "name": "Kraliçe I. Isabella",
+      "birth": [
+        1451,
+        1451
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q855",
+      "name": "Joseph Stalin",
+      "birth": [
+        1878,
+        1878
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q855"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q1048",
+      "name": "Julius Caesar",
+      "birth": [
+        -100,
+        -100
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q37594",
+      "name": "Fatih William",
+      "birth": [
+        1027,
+        1028
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q37594"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q9215",
+      "name": "Sigmund Freud",
+      "birth": [
+        1856,
+        1856
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q9215"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q40852",
+      "name": "Edward Jenner",
+      "birth": [
+        1749,
+        1749
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q40852"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q35149",
+      "name": "Wilhelm Conrad Röntgen",
+      "birth": [
+        1845,
+        1845
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q35149"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q1339",
+      "name": "Johann Sebastian Bach",
+      "birth": [
+        1685,
+        1685
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q1339"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q9333",
+      "name": "Lao Tzu",
+      "birth": null,
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "region-not-a-point",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q9068",
+      "name": "Voltaire",
+      "birth": [
+        1694,
+        1694
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q9068"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q8963",
+      "name": "Johannes Kepler",
+      "birth": [
+        1571,
+        1571
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q8963"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q8753",
+      "name": "Enrico Fermi",
+      "birth": [
+        1901,
+        1901
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q7604",
+      "name": "Leonhard Euler",
+      "birth": [
+        1707,
+        1707
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q7604"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q6527",
+      "name": "Jean-Jacques Rousseau",
+      "birth": [
+        1712,
+        1712
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q6527"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q1399",
+      "name": "Niccolò Machiavelli",
+      "birth": [
+        1469,
+        1469
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q1399"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q13526",
+      "name": "Thomas Malthus",
+      "birth": [
+        1766,
+        1766
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q9696",
+      "name": "John F. Kennedy",
+      "birth": [
+        1917,
+        1917
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q9696"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q334361",
+      "name": "Gregory Pincus",
+      "birth": [
+        1903,
+        1903
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q334361"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q203922",
+      "name": "Mani",
+      "birth": [
+        216,
+        216
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q203922"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q1394",
+      "name": "Lenin",
+      "birth": [
+        1870,
+        1870
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q1394"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q7418",
+      "name": "Sui Wen Ti",
+      "birth": [
+        541,
+        541
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q7418"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q7328",
+      "name": "Vasco da Gama",
+      "birth": [
+        1469,
+        1469
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q8423",
+      "name": "Büyük Kiros",
+      "birth": [
+        -600,
+        -600
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "region-not-a-point",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q8479",
+      "name": "Büyük Petro",
+      "birth": [
+        1672,
+        1672
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q5816",
+      "name": "Mao Zedong",
+      "birth": [
+        1893,
+        1893
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q5816"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q37388",
+      "name": "Francis Bacon",
+      "birth": [
+        1561,
+        1561
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q8768",
+      "name": "Henry Ford",
+      "birth": [
+        1863,
+        1863
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q188903",
+      "name": "Mencius",
+      "birth": [
+        -372,
+        -372
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "region-not-a-point",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q35811",
+      "name": "Zerdüşt",
+      "birth": null,
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q35811"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q7207",
+      "name": "Kraliçe I. Elizabeth",
+      "birth": [
+        1533,
+        1533
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q30487",
+      "name": "Mihail Gorbaçov",
+      "birth": [
+        1931,
+        1931
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q30487"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q189574",
+      "name": "Menes",
+      "birth": null,
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q3044",
+      "name": "Charlemagne",
+      "birth": [
+        748,
+        748
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "region-not-a-point",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q6691",
+      "name": "Homeros",
+      "birth": null,
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q41866",
+      "name": "İmparator I. Jüstinyen",
+      "birth": [
+        482,
+        482
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q9422",
+      "name": "Mahavira",
+      "birth": [
+        -599,
+        -599
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q9422"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q9438",
+      "name": "Aquinalı Aziz Thomas",
+      "birth": [
+        1225,
+        1225
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q9438"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q46633",
+      "name": "Charles Babbage",
+      "birth": [
+        1791,
+        1791
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q46633"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q161904",
+      "name": "Keops",
+      "birth": null,
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q7186",
+      "name": "Marie Curie",
+      "birth": [
+        1867,
+        1867
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q7186"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q34969",
+      "name": "Benjamin Franklin",
+      "birth": [
+        1706,
+        1706
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q34969"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q1001",
+      "name": "Mahatma Gandhi",
+      "birth": [
+        1869,
+        1869
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q1001"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q91",
+      "name": "Abraham Lincoln",
+      "birth": [
+        1809,
+        1809
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q91"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q1496",
+      "name": "Ferdinand Magellan",
+      "birth": [
+        1480,
+        1480
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q1496"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q762",
+      "name": "Leonardo da Vinci",
+      "birth": [
+        1452,
+        1452
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q762"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q5152",
+      "name": "Mustafa Kemal Atatürk",
+      "birth": [
+        1881,
+        1881
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q5152"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q83100",
+      "name": "Osman Gazi",
+      "birth": [
+        1258,
+        1258
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q83100"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q34503",
+      "name": "II. Mehmed",
+      "birth": [
+        1432,
+        1432
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q34503"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q8474",
+      "name": "I. Süleyman",
+      "birth": [
+        1494,
+        1494
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q8474"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q183297",
+      "name": "İsmet İnönü",
+      "birth": [
+        1884,
+        1884
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q151735",
+      "name": "Celâl Bayar",
+      "birth": [
+        1883,
+        1883
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q151735"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q192634",
+      "name": "Bülent Ecevit",
+      "birth": [
+        1925,
+        1925
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q192634"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q39259",
+      "name": "Recep Tayyip Erdoğan",
+      "birth": [
+        1954,
+        1954
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q39259"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q9036",
+      "name": "Nikola Tesla",
+      "birth": [
+        1856,
+        1856
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q9036"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q664549",
+      "name": "Cahit Arf",
+      "birth": [
+        1910,
+        1910
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q664549"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q7085",
+      "name": "Niels Bohr",
+      "birth": [
+        1885,
+        1885
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q7085"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q7251",
+      "name": "Alan Turing",
+      "birth": [
+        1912,
+        1912
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q7251"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q17714",
+      "name": "Stephen Hawking",
+      "birth": [
+        1942,
+        1942
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q17714"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q615",
+      "name": "Lionel Messi",
+      "birth": [
+        1987,
+        1987
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q615"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q11571",
+      "name": "Cristiano Ronaldo",
+      "birth": [
+        1985,
+        1985
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q11571"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q41421",
+      "name": "Michael Jordan",
+      "birth": [
+        1963,
+        1963
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q41421"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q19837",
+      "name": "Steve Jobs",
+      "birth": [
+        1955,
+        1955
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q19837"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q5284",
+      "name": "Bill Gates",
+      "birth": [
+        1955,
+        1955
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q5284"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q34253",
+      "name": "Linus Torvalds",
+      "birth": [
+        1969,
+        1969
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q34253"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q7327",
+      "name": "Yuri Gagarin",
+      "birth": [
+        1934,
+        1934
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q7327"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q1615",
+      "name": "Neil Armstrong",
+      "birth": [
+        1930,
+        1930
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q1615"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q7245",
+      "name": "Mark Twain",
+      "birth": [
+        1835,
+        1835
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q7245"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q254",
+      "name": "Wolfgang Amadeus Mozart",
+      "birth": [
+        1756,
+        1756
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q254"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q1268",
+      "name": "Frédéric Chopin",
+      "birth": [
+        1810,
+        1810
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q1268"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q905",
+      "name": "Franz Kafka",
+      "birth": [
+        1883,
+        1883
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q905"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q2263",
+      "name": "Tom Hanks",
+      "birth": [
+        1956,
+        1956
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q2263"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q882",
+      "name": "Charlie Chaplin",
+      "birth": [
+        1889,
+        1889
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q882"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q7374",
+      "name": "Alfred Hitchcock",
+      "birth": [
+        1899,
+        1899
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q7374"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q8877",
+      "name": "Steven Spielberg",
+      "birth": [
+        1946,
+        1946
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q8877"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q132157",
+      "name": "Elealı Zenon",
+      "birth": [
+        -490,
+        -490
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q132157"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q133168",
+      "name": "Orhan Gazi",
+      "birth": [
+        1281,
+        1281
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q133168"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q96261",
+      "name": "I. Murad",
+      "birth": [
+        1326,
+        1326
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q96261"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q128358",
+      "name": "I. Bayezid",
+      "birth": [
+        1354,
+        1354
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q168769",
+      "name": "I. Mehmed",
+      "birth": [
+        1386,
+        1386
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q168769"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q131394",
+      "name": "II. Murad",
+      "birth": [
+        1403,
+        1403
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q131394"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q165983",
+      "name": "II. Bayezid",
+      "birth": [
+        1447,
+        1447
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q165983"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q494660",
+      "name": "I. Selim",
+      "birth": [
+        1470,
+        1470
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q494660"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q161872",
+      "name": "II. Selim",
+      "birth": [
+        1524,
+        1524
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q161872"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q159934",
+      "name": "III. Murad",
+      "birth": [
+        1546,
+        1546
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q159934"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q171465",
+      "name": "III. Mehmed",
+      "birth": [
+        1566,
+        1566
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q171465"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q114749",
+      "name": "I. Ahmed",
+      "birth": [
+        1590,
+        1590
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q114749"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q174798",
+      "name": "I. Mustafa",
+      "birth": null,
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q172056",
+      "name": "II. Osman",
+      "birth": [
+        1604,
+        1604
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q172056"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q174762",
+      "name": "IV. Murad",
+      "birth": [
+        1612,
+        1612
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q174762"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q168776",
+      "name": "İbrahim",
+      "birth": [
+        1615,
+        1615
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q168776"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q170514",
+      "name": "IV. Mehmed",
+      "birth": [
+        1642,
+        1642
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q170514"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q172061",
+      "name": "II. Süleyman",
+      "birth": [
+        1642,
+        1642
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q172061"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q199660",
+      "name": "II. Ahmed",
+      "birth": [
+        1643,
+        1643
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q199660"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q199659",
+      "name": "II. Mustafa",
+      "birth": [
+        1664,
+        1664
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q199659"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q199482",
+      "name": "III. Ahmed",
+      "birth": [
+        1673,
+        1673
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q199482"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q199481",
+      "name": "I. Mahmud",
+      "birth": [
+        1696,
+        1696
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q199481"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q199825",
+      "name": "III. Osman",
+      "birth": [
+        1699,
+        1699
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q199825"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q199484",
+      "name": "III. Mustafa",
+      "birth": [
+        1717,
+        1717
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q199484"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q170707",
+      "name": "I. Abdülhamid",
+      "birth": [
+        1725,
+        1725
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q170707"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q199633",
+      "name": "III. Selim",
+      "birth": [
+        1761,
+        1761
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q199633"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q199830",
+      "name": "IV. Mustafa",
+      "birth": [
+        1779,
+        1779
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q199830"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q174791",
+      "name": "II. Mahmud",
+      "birth": [
+        1785,
+        1785
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q174791"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q174772",
+      "name": "Abdülmecid",
+      "birth": [
+        1823,
+        1823
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q174772"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q151500",
+      "name": "Abdülaziz",
+      "birth": [
+        1830,
+        1830
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q199827",
+      "name": "V. Murad",
+      "birth": [
+        1840,
+        1840
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q199827"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q134817",
+      "name": "II. Abdülhamid",
+      "birth": [
+        1842,
+        1842
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q134817"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q151494",
+      "name": "V. Mehmed Reşad",
+      "birth": [
+        1844,
+        1844
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q151494"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q162543",
+      "name": "VI. Mehmed",
+      "birth": [
+        1861,
+        1861
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q162543"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q46795",
+      "name": "Wangari Maathai",
+      "birth": [
+        1940,
+        1940
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q46795"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q134160",
+      "name": "José de San Martín",
+      "birth": [
+        1778,
+        1778
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q134160"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q7241",
+      "name": "Rabindranath Tagore",
+      "birth": [
+        1861,
+        1861
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q7241"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q455072",
+      "name": "Kate Sheppard",
+      "birth": [
+        1847,
+        1848
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q455072"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q39246",
+      "name": "Richard Feynman",
+      "birth": [
+        1918,
+        1918
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q39246"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q9130",
+      "name": "Erwin Schrödinger",
+      "birth": [
+        1887,
+        1887
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q9130"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q65989",
+      "name": "Wolfgang Pauli",
+      "birth": [
+        1900,
+        1900
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q65989"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q58978",
+      "name": "Max Born",
+      "birth": [
+        1882,
+        1882
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q58978"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q9312",
+      "name": "Immanuel Kant",
+      "birth": [
+        1724,
+        1724
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q9312"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q9235",
+      "name": "Georg Wilhelm Friedrich Hegel",
+      "birth": [
+        1770,
+        1770
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q9235"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q9358",
+      "name": "Friedrich Nietzsche",
+      "birth": [
+        1844,
+        1844
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q9358"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q9397",
+      "name": "Zhu Xi",
+      "birth": [
+        1130,
+        1130
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "region-not-a-point",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q38111",
+      "name": "Leonardo DiCaprio",
+      "birth": [
+        1974,
+        1974
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q38111"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q9047",
+      "name": "Gottfried Leibniz",
+      "birth": [
+        1646,
+        1646
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q9047"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q37160",
+      "name": "David Hume",
+      "birth": [
+        1711,
+        1711
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q37160"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q81244",
+      "name": "Karl Popper",
+      "birth": [
+        1902,
+        1902
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q81244"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q8440",
+      "name": "Hugo Chávez",
+      "birth": [
+        1954,
+        1954
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q8027",
+      "name": "Martin Luther King Jr.",
+      "birth": [
+        1929,
+        1929
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q8027"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q30547",
+      "name": "Rahibe Teresa",
+      "birth": [
+        1910,
+        1910
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q30547"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q32732",
+      "name": "Malala Yusufzay",
+      "birth": [
+        1997,
+        1997
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q32732"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q444",
+      "name": "Lech Wałęsa",
+      "birth": [
+        1943,
+        1943
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q444"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q34211",
+      "name": "Yaser Arafat",
+      "birth": [
+        1929,
+        1929
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q34211"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q989",
+      "name": "II. Ioannes Paulus",
+      "birth": [
+        1920,
+        1920
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q450675",
+      "name": "Franciscus",
+      "birth": [
+        1936,
+        1936
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q450675"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q2494",
+      "name": "XVI. Benedictus",
+      "birth": [
+        1927,
+        1927
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q17293",
+      "name": "Tenzin Gyatso",
+      "birth": [
+        1935,
+        1935
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q39837",
+      "name": "İbn Rüşd",
+      "birth": [
+        1126,
+        1126
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q39837"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q9546",
+      "name": "Gazzâlî",
+      "birth": [
+        1058,
+        1058
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q9546"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q43347",
+      "name": "Mevlânâ Celâleddîn-i Rûmî",
+      "birth": [
+        1207,
+        1207
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q43347"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q9038",
+      "name": "Hârizmî",
+      "birth": null,
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "region-not-a-point",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q7200",
+      "name": "Aleksandr Puşkin",
+      "birth": [
+        1799,
+        1799
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q7200"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q36322",
+      "name": "Jane Austen",
+      "birth": [
+        1775,
+        1775
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q10261",
+      "name": "Pisagor",
+      "birth": null,
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "region-not-a-point",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q5264",
+      "name": "Hipokrat",
+      "birth": [
+        -460,
+        -460
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q5264"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q83375",
+      "name": "Empedokles",
+      "birth": [
+        -490,
+        -490
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q83375"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q41155",
+      "name": "Heraklitos",
+      "birth": [
+        -535,
+        -535
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q41155"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q392",
+      "name": "Bob Dylan",
+      "birth": [
+        1941,
+        1941
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q392"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q47480",
+      "name": "Paul Dirac",
+      "birth": [
+        1902,
+        1902
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q47480"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q57065",
+      "name": "Otto Hahn",
+      "birth": [
+        1879,
+        1879
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q57065"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q37463",
+      "name": "Pierre Curie",
+      "birth": [
+        1859,
+        1859
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q37463"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q199654",
+      "name": "Barbara McClintock",
+      "birth": [
+        1902,
+        1902
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q199654"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q60025",
+      "name": "Hannah Arendt",
+      "birth": [
+        1906,
+        1906
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q60025"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q7197",
+      "name": "Simone de Beauvoir",
+      "birth": [
+        1908,
+        1908
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q7197"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q33760",
+      "name": "Bertrand Russell",
+      "birth": [
+        1872,
+        1872
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q28189",
+      "name": "Muhammed Abdüsselam",
+      "birth": [
+        1926,
+        1926
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q28189"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q60429",
+      "name": "C. V. Raman",
+      "birth": [
+        1888,
+        1888
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q60429"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q317877",
+      "name": "Abdulrazak Gurnah",
+      "birth": [
+        1948,
+        1948
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q317877"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q72334",
+      "name": "Toni Morrison",
+      "birth": [
+        1931,
+        1931
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q72334"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q241248",
+      "name": "Orhan Pamuk",
+      "birth": [
+        1952,
+        1952
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q241248"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q272855",
+      "name": "Kazuo Ishiguro",
+      "birth": [
+        1954,
+        1954
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q272855"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q43033",
+      "name": "Desmond Tutu",
+      "birth": [
+        1931,
+        1931
+      ],
+      "annualBirth": false,
+      "geometryAvailable": false,
+      "reason": "place-or-coordinate-not-verified",
+      "locationIds": [],
+      "failures": []
+    },
+    {
+      "id": "births:person-q25973",
+      "name": "Hermann Hesse",
+      "birth": [
+        1877,
+        1877
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q25973"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q80884",
+      "name": "James Chadwick",
+      "birth": [
+        1891,
+        1891
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q80884"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q5878",
+      "name": "Gabriel García Márquez",
+      "birth": [
+        1927,
+        1927
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q5878"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q6279",
+      "name": "Joe Biden",
+      "birth": [
+        1942,
+        1942
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q6279"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q22686",
+      "name": "Donald Trump",
+      "birth": [
+        1946,
+        1946
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q22686"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q23505",
+      "name": "George H. W. Bush",
+      "birth": [
+        1924,
+        1924
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q23505"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q317521",
+      "name": "Elon Musk",
+      "birth": [
+        1971,
+        1971
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q317521"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q23530",
+      "name": "Dmitri Medvedev",
+      "birth": [
+        1965,
+        1965
+      ],
+      "annualBirth": true,
+      "geometryAvailable": true,
+      "reason": "supported-birth-year-only",
+      "locationIds": [
+        "births:location-q23530"
+      ],
+      "failures": []
+    },
+    {
+      "id": "births:person-q76",
+      "name": "Barack Obama",
+      "birth": [
+        1961,
+        1961
+      ],
+      "annualBirth": false,
+      "geometryAvailable": true,
+      "reason": "biographical-only-no-arbitrary-year",
+      "locationIds": [
+        "births:location-q76"
+      ],
+      "failures": []
+    }
+  ]
+}

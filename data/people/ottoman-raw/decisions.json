@@ -1,0 +1,56 @@
+{
+  "version": "1.0.0",
+  "reviewedAt": "2026-10-18T07:22:35.000Z",
+  "birthWindows": {
+    "Q174798": null
+  },
+  "deathWindows": {},
+  "biographicalOnly": [
+    "Q133168",
+    "Q96261",
+    "Q128358",
+    "Q168769",
+    "Q131394",
+    "Q165983",
+    "Q494660",
+    "Q174798",
+    "Q199481",
+    "Q151494"
+  ],
+  "regionPlaces": [],
+  "notes": {
+    "Q133168": "Wikidata 1281 doğum iddiası, TDV Orhan maddesi doğum tarihinin tartışmalı olduğunu bildirir (https://islamansiklopedisi.org.tr/orhan). Söğüt bağı yalnız biyografiktir; 1281 kesin konum yılı olarak kullanılmaz.",
+    "Q96261": "Wikidata 1326/Bursa iddiası. Erken dönem doğum kronolojisi bağımsız kesin yıl kabul edilmedi; ilişki biyografik, gün/ay gösterilmez.",
+    "Q128358": "Wikidata P569 yaklaşık 1354, P19 Edirne iddiası içerir; TDV 1354 yılını verir ancak bu incelemede Edirne yer iddiası doğrulanmadı (https://islamansiklopedisi.org.tr/bayezid-i). Yıllık veya biyografik harita noktası yayımlanmaz.",
+    "Q168769": "Wikidata 1386/Bursa iddiası bağımsız kesin kronoloji değildir. Yalnız biyografik ilişki; 1386 yıllık konum kanıtı sayılmaz.",
+    "Q131394": "Wikidata 1403/Amasya iddiası; erken dönem doğum kronolojisi ihtiyatla yalnız biyografik tutuldu. Kesin gün/ay yoktur.",
+    "Q165983": "Wikidata 1447; TDV Bayezid II maddesi 1448/Dimetoka bildirir (https://islamansiklopedisi.org.tr/bayezid-ii). Tek kesin doğum yılı seçilmedi; Dimetoka bağı biyografiktir.",
+    "Q494660": "Wikidata 1470/Amasya iddiası; doğum yılı bağımsız kesinlik sayılmadı, yer bağı biyografik tutuldu. Görev/ikamet/rota çıkarılmaz.",
+    "Q174798": "Wikidata P19 İstanbul iddiası ile diğer doğum yeri anlatımları uyuşmuyor; Manisa ve 1591/1592 alternatifleri inceleme gerektirir. Tarih ve yer onaylanmadığı için yayımlanan doğum zamanı bilinmiyor, nokta yoktur. Ham kaynak iddiası silinmedi.",
+    "Q199481": "Wikidata P569/P19 alanlarında bu revizyonda 0 references vardır. Kimlik profili erişilebilir; 1696/Edirne iddiası bağımsız doğrulanmış sayılmadan yalnız biyografik tutuldu.",
+    "Q151500": "Kaynak doğum yeri Beylerbeyi Sarayı iddiası; bu yapı için P625 koordinatı doğrulanamadı. İstanbul şehir merkezine tahminî nokta atanmadı. Bugünkü sarayın binası ile önceki yapı evreleri aynı sayılmaz.",
+    "Q151494": "Kaynak 1844/Çırağan Sarayı iddiası; yerin P625 noktasının ait olduğu mevcut saray için kaynakta inception 1863 bulunur. Önceki yapı evreleri ayrıca doğrulanmadan bugünkü bina 1844 doğum yeri gibi sunulmaz; ilişki yalnız biyografiktir.",
+    "Q170707": "Kaynak takvimini unspecified calendar olarak nitelendirir; yalnız 1725 yılı korunur. Topkapı Sarayı yer temsil noktasıdır; oda veya kişinin tam konumu değildir.",
+    "Q174762": "Kaynak doğum Gregorian, ölüm Julian takvimindedir. Yalnız 1612/1640 yıl bilgisi korunur; doğrulanmamış gün dönüşümü yapılmaz. Konstantinopolis temsil noktasıdır.",
+    "Q199633": "Yönlendirme Q20793524 yerine doğrulanan insan varlığı Q199633 kullanılır. Kaynak ölüm günleri ayrışabilir; yalnız 1808 yılı korunur. Wikipedia başlığı tahmin edilmez."
+  },
+  "descriptionOverrides": {
+    "Q174798": "I. Mustafa'nın doğum tarihi ve yeri bu incelemede kesinleştirilmedi; çelişen kaynak iddiaları kaynak notunda korunur.",
+    "Q128358": "I. Bayezid için kaynaklı yaklaşık doğum yılı 1354; doğum yeri bu incelemede doğrulanmadı.",
+    "Q151494": "V. Mehmed Reşad için kaynakta doğum yeri Çırağan Sarayı olarak geçer; tarihî yapı evresi doğrulanmadığından güncel bina ile eşitlenmez."
+  },
+  "reviewReferences": [
+    {
+      "url": "https://islamansiklopedisi.org.tr/orhan",
+      "use": "chronology uncertainty only; no article text, media or geometry redistributed"
+    },
+    {
+      "url": "https://islamansiklopedisi.org.tr/bayezid-i",
+      "use": "cross-check year only; Edirne not approved"
+    },
+    {
+      "url": "https://islamansiklopedisi.org.tr/bayezid-ii",
+      "use": "1448 alternative year; no article text copied"
+    }
+  ]
+}

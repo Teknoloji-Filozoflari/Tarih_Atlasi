@@ -1,0 +1,147 @@
+Faz 02 validation — 2026-10-15
+Node 26.11.1; project dependencies absent. Core tsc / Prettier use available tool copies, not installed project packages.
+
+[unit] $ npm test
+exit=0
+npm notice run tarih-atlasi@0.1.0 test
+npm notice run node tests/run.mjs
+✔ başlangıç kataloğu gerçek veya sentetik tarihî kayıt içermez (0.744511ms)
+✔ ilk dil Türkçedir; uygulama metinleri anahtar yerine görünür metin döndürür (0.19253ms)
+✔ prototip ve boş veri metinleri doğrulanmamış tarihî iddia taşımaz (0.140312ms)
+✔ hata, boş ve yükleme durumlarının farklı başlıkları vardır (0.082374ms)
+✔ tema metin ve düğme renkleri en az 4.5:1 kontrast sağlar (0.229058ms)
+✔ kamera sözleşmesi kutupları kabul eder; sonlu ve sınırlı değerler ister (0.178233ms)
+✔ köprü reset/set komutlarını ve sentetik işareti yönlerine göre doğrular (0.656998ms)
+✔ köprü hatalı JSON, sürüm, oturum, ek anahtar, kod ve büyük UTF-8 yüklerini reddeder (0.308246ms)
+✔ navigasyon yalnız Expo bootstrap dosyası veya geliştirme DOM origin/path kabul eder (0.294511ms)
+✔ fiziksel veri hazırlığı özellikleri atar; yanlış geometrileri ve sınırsız yükü reddeder (0.38536ms)
+✔ unmount temizliği bir kez, ters sırayla çalışır; geç async kaynak ve hata diğer temizliği engellemez (0.166451ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8.663509
+
+[core-types] $ node /tmp/tarih-atlasi-tools/typescript/lib/tsc.js --ignoreConfig --noEmit --strict --noUncheckedIndexedAccess --exactOptionalPropertyTypes --allowImportingTsExtensions --target es2022 --module nodenext src/map-contract/protocol.ts src/map-contract/navigation.ts src/map/globe/land.ts src/map/globe/lifecycle.ts src/theme/tokens.ts src/i18n/index.ts src/data/catalog.ts tests/types/i18n.test-d.ts tests/types/globe.test-d.ts
+exit=2
+tests/types/globe.test-d.ts(8,1): error TS2578: Unused '@ts-expect-error' directive.
+tests/types/globe.test-d.ts(11,3): error TS2322: Type '"eval"' is not assignable to type '"camera.reset" | "camera.set"'.
+tests/types/globe.test-d.ts(17,1): error TS2578: Unused '@ts-expect-error' directive.
+tests/types/globe.test-d.ts(19,3): error TS2322: Type '2' is not assignable to type '1'.
+
+[format] $ node /tmp/tarih-atlasi-tools/prettier/bin/prettier.cjs --check .
+exit=0
+Checking formatting...
+All matched files use Prettier code style!
+
+[lint] $ npm run lint
+exit=127
+npm notice run tarih-atlasi@0.1.0 lint
+npm notice run eslint . --max-warnings 0
+sh: line 1: eslint: command not found
+
+[typecheck] $ npm run typecheck
+exit=127
+npm notice run tarih-atlasi@0.1.0 typecheck
+npm notice run tsc --noEmit && tsc --noEmit -p tsconfig.web.json
+sh: line 1: tsc: command not found
+
+[prepare] $ npm run globe:prepare
+exit=1
+npm notice run tarih-atlasi@0.1.0 globe:prepare
+npm notice run node scripts/prepare-globe-assets.mjs
+BLOCKED — globe assets were not prepared: ENOENT: no such file or directory, open '/home/s-oktay/Belgeler/Tarih_Atlası/node_modules/maplibre-gl/package.json'
+
+[browser] $ npm run test:web
+exit=127
+npm notice run tarih-atlasi@0.1.0 test:web
+npm notice run playwright test
+sh: line 1: playwright: command not found
+
+[web-start] $ npm run web -- --host localhost --port 8081
+exit=127
+npm notice run tarih-atlasi@0.1.0 web
+npm notice run expo start --web --host localhost --port 8081
+sh: line 1: expo: command not found
+
+[web-export] $ npm run web:export
+exit=127
+npm notice run tarih-atlasi@0.1.0 web:export
+npm notice run expo export --platform web
+sh: line 1: expo: command not found
+
+[android-js-export] $ npm run android:bundle
+exit=127
+npm notice run tarih-atlasi@0.1.0 android:bundle
+npm notice run expo export --platform android --output-dir dist-android
+sh: line 1: expo: command not found
+
+[expo-config] $ npm run config:check
+exit=127
+npm notice run tarih-atlasi@0.1.0 config:check
+npm notice run expo config --type public
+sh: line 1: expo: command not found
+
+[environment] $ npm run environment:check
+exit=1
+npm notice run tarih-atlasi@0.1.0 environment:check
+npm notice run node scripts/check-environment.mjs
+PASS: Node — v26.11.1
+PASS: npm — 12.2.0
+BLOCKED: Kilit dosyası — Tekrarlanabilir kurulum için package-lock.json gerekli
+BLOCKED: java — komut çalıştırılamadı: ENOENT
+BLOCKED: adb — komut çalıştırılamadı: ENOENT
+BLOCKED: Android SDK — ANDROID_HOME mevcut ve erişilebilir olmalı
+
+[registry] $ npm view maplibre-gl@6.14.0 version license dist.unpackedSize --json --cache /tmp/tarih-atlasi-npm-cache --fetch-retries=0 --fetch-timeout=8000
+exit=1
+npm error code EAI_AGAIN
+npm error syscall getaddrinfo
+npm error errno EAI_AGAIN
+npm error request to https://registry.npmjs.org/maplibre-gl failed, reason: getaddrinfo EAI_AGAIN registry.npmjs.org
+{
+  "error": {
+    "code": "EAI_AGAIN",
+    "summary": "request to https://registry.npmjs.org/maplibre-gl failed, reason: getaddrinfo EAI_AGAIN registry.npmjs.org",
+    "detail": ""
+  }
+}
+npm error A complete log of this run can be found in: /tmp/tarih-atlasi-npm-cache/_logs/2026-10-15T17_03_00_010Z-debug-0.log
+
+[land-network] $ curl --head --max-time 8 https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_110m_land.geojson
+exit=6
+curl: (6) Could not resolve host: raw.githubusercontent.com
+
+[core-types correction]
+Prettier expanded two negative fixtures across lines; @ts-expect-error directives
+were moved to the actual erroneous properties. No production type was weakened.
+Re-ran exact core-types command above with tests/types/globe.test-d.ts included.
+exit=0; no diagnostics. Scope: pure contracts, navigation, land validator,
+lifecycle, i18n/theme/catalog and negative type tests. NOT React/MapLibre/Expo typecheck.
+
+[syntax-only]
+Used available TypeScript 6.0.3 transpileModule with reportDiagnostics on source
+and test TS/TSX (excluding declaration-only .d.ts files). No dependency stubs.
+exit=0; 0 syntax diagnostics. NOT semantic typecheck, lint, bundler or runtime.
+
+[dependency-report]
+$ node scripts/dependency-report.mjs docs/reports/phase-02-dependency-report.json
+exit=1
+Bağımlılık raporu: 0/21 tam sürüm kurulu.
+
+[not run]
+Native Gradle/APK, physical device, Android WebGL/touch/rotation/back/offline,
+CSP hosting, raw Expo transport fuzzing, real GPU/PSS/FPS measurements:
+BLOCKED. Android: UNVERIFIED ON DEVICE.
+GitHub Actions not executed.
+
+[final document/style checks]
+Local Markdown links: 111 checked; 0 missing. exit=0.
+File inventory: 46 files exist (manual inventory; not a Git diff).
+Final available Prettier 3.9.9 --check .: exit=0; all matched files formatted.
+Post-review: renderer ready/error clears old marker/camera display; browser
+context-loss retry scenario now requires fresh unselected host state. Browser
+execution remains BLOCKED; no device success implied.

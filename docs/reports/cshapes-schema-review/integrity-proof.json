@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "realFileInspected": true,
+  "sourceSha256": "384b1ea90b9419f30a858d7ec237c85a22c60d1b35b5f85f215a1204f9989d42",
+  "records": 710,
+  "selectedYear": 2000,
+  "candidates": 179,
+  "geometryPassed": 176,
+  "geometryReview": 3,
+  "distinctCodes": 177,
+  "oldReportPreserved": true,
+  "deterministicRepeat": true,
+  "futureCandidateRows": 0,
+  "productionAllowed": false
+}

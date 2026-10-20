@@ -1,0 +1,123 @@
+{
+  "recordedAt": "2026-10-16T20:50:18.431Z",
+  "counts": {
+    "unit": 269,
+    "worker": 5,
+    "browserListed": 106,
+    "browserExecuted": 0,
+    "screenshots": 0
+  },
+  "releaseDecision": "NO-GO",
+  "androidDevice": "UNVERIFIED ON DEVICE",
+  "commands": [
+    {
+      "command": "npm run check",
+      "log": "check.log",
+      "exitCode": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "npm run web:export",
+      "log": "web-export.log",
+      "exitCode": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "npm run android:bundle",
+      "log": "android-export.log",
+      "exitCode": 0,
+      "status": "PASS_JS_EXPORT_NOT_APK"
+    },
+    {
+      "command": "npm run data:download -- --verify",
+      "log": "source-acquisition-verify.log",
+      "exitCode": 0,
+      "status": "PASS_ACQUISITION_ONLY"
+    },
+    {
+      "command": "npm run polities:check-source",
+      "log": "source-rows-check.log",
+      "exitCode": 0,
+      "status": "PASS_SOURCE_FIDELITY_NOT_HISTORICAL_CERTIFICATION"
+    },
+    {
+      "command": "npm run physical:prepare",
+      "log": "physical-prepare.log",
+      "exitCode": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "npm run physical:check",
+      "log": "physical-check.log",
+      "exitCode": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "npm run pilot:prepare",
+      "log": "pilot-prepare.log",
+      "exitCode": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "npm run chunks:prepare",
+      "log": "chunks-prepare.log",
+      "exitCode": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "npm run test:web -- --list",
+      "log": "web-test-list.log",
+      "exitCode": 0,
+      "status": "LISTED_NOT_EXECUTED"
+    },
+    {
+      "command": "npm run test:web:production",
+      "log": "web-e2e-blocked.log",
+      "exitCode": 1,
+      "status": "BLOCKED_SERVER_START"
+    },
+    {
+      "command": "npm run web:preview",
+      "log": "preview-blocked.log",
+      "exitCode": 1,
+      "status": "BLOCKED_EPERM"
+    },
+    {
+      "command": "npm run environment:check",
+      "log": "environment.log",
+      "exitCode": 1,
+      "status": "BLOCKED_ANDROID_ENVIRONMENT"
+    },
+    {
+      "command": "npm run qa:coverage -- docs/reports/atlas-data-integration/coverage.json",
+      "log": "coverage.log",
+      "exitCode": 0,
+      "status": "PASS_COUNTS_NOT_COMPLETE_WORLD"
+    },
+    {
+      "command": "npm run qa:security -- docs/reports/atlas-data-integration/security.json",
+      "log": "security.log",
+      "exitCode": 0,
+      "status": "REPORT_GENERATED_OPEN_RELEASE_BLOCKER"
+    },
+    {
+      "command": "node scripts/performance/host.mjs docs/reports/atlas-data-integration/host-benchmark.json",
+      "log": "host-benchmark.log",
+      "exitCode": 0,
+      "status": "HOST_CPU_ONLY"
+    },
+    {
+      "command": "node scripts/performance/sizes.mjs docs/reports/atlas-data-integration/package-sizes.json",
+      "log": "package-sizes.log",
+      "exitCode": 0,
+      "status": "FILESYSTEM_COMPRESSION_ONLY"
+    },
+    {
+      "command": "git status --short",
+      "log": "git-status.log",
+      "exitCode": 128,
+      "status": "NOT_A_GIT_WORK_TREE"
+    }
+  ],
+  "note": "npm run check includes lint, strict native/web TypeScript, 269 unit + 5 worker tests, physical/pilot/sitelink/chunk integrity and format. Browser runner never got past webServer startup. No FPS/GPU/device metric is asserted."
+}

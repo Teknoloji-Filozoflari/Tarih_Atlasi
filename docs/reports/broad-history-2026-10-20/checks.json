@@ -1,0 +1,92 @@
+{
+  "scope": "Executed commands and direct tool exit results; unit and metadata checks do not establish GPU/device behavior",
+  "results": [
+    {
+      "command": "npm run lint",
+      "exitCode": 0,
+      "log": "lint-corrected.log",
+      "note": "Initial duplicate imports fixed; no rule weakened."
+    },
+    {
+      "command": "npm run typecheck",
+      "exitCode": 0,
+      "log": "typecheck-complete.log"
+    },
+    {
+      "command": "npm test",
+      "exitCode": 0,
+      "tests": 398,
+      "passed": 398,
+      "failed": 0,
+      "log": "tests-complete.log"
+    },
+    {
+      "command": "node tests/unit/broad-history.test.mjs",
+      "exitCode": 0,
+      "tests": 8,
+      "passed": 8,
+      "log": "focused.log"
+    },
+    {
+      "command": "npm run test:worker",
+      "exitCode": 0,
+      "passed": 5,
+      "log": "worker.log"
+    },
+    {
+      "command": "npm run people:broad:check",
+      "exitCode": 0,
+      "log": "broad-check.log"
+    },
+    {
+      "command": "npm run sitelinks:check",
+      "exitCode": 0,
+      "log": "sitelinks-check.log"
+    },
+    {
+      "command": "npx prettier --check [changed code and generated files]",
+      "exitCode": 0,
+      "log": "format-final.log"
+    },
+    {
+      "command": "npm run qa:people-visibility",
+      "exitCode": 0,
+      "profiles": 233,
+      "annualBirths": 147,
+      "failed": 0,
+      "log": "visibility.log"
+    },
+    {
+      "command": "npm run web:export",
+      "exitCode": 0,
+      "log": "web-export.log"
+    },
+    {
+      "command": "npx playwright test tests/web/broad-history.spec.ts --list",
+      "exitCode": 0,
+      "listed": 4,
+      "executed": 0,
+      "log": "browser-list.log"
+    },
+    {
+      "command": "ATLAS_TEST_PRODUCTION=1 npx playwright test tests/web/broad-history.spec.ts --project=desktop --workers=1",
+      "exitCode": 1,
+      "status": "BLOCKED: preview server EPERM",
+      "log": "browser.log"
+    },
+    {
+      "command": "npm run android:bundle",
+      "exitCode": null,
+      "status": "INCOMPLETE: Metro startup only, no completion or exit evidence",
+      "log": "android-incomplete.log"
+    },
+    {
+      "command": "git status --short",
+      "exitCode": 128,
+      "status": "No .git in workspace",
+      "log": "git-status.log"
+    }
+  ],
+  "device": "UNVERIFIED ON DEVICE",
+  "productionScope": "PARTIAL: 56 new people and 23 events; bulk Nobel/TIME/world-history not complete"
+}

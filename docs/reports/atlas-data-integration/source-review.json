@@ -1,0 +1,170 @@
+{
+  "recordedAt": "2026-10-16T20:50:04.404Z",
+  "status": "SOURCE_FIDELITY_AND_DATA_GRANT_REVIEW_NOT_INDEPENDENT_HISTORICAL_VERIFICATION",
+  "source": "https://github.com/Seshat-Global-History-Databank/cliopatria/blob/v0.2.1/cliopatria.geojson.zip",
+  "archiveSha256": "e10a4e429fca708788ff9e7572a95fce801fae55852d217cffabc1c59cd4eed4",
+  "rawExtractionSha256": "813065d39006337ea2e759b84c42caba5f7b02b4063e4648b39e4e622216a583",
+  "totalSourceRows": 13797,
+  "selectedRows": 16,
+  "unapprovedRemainingRows": 13781,
+  "originalRowsRetained": true,
+  "foreignQIDsAndWikipediaTitlesNotAdopted": true,
+  "geometryEdits": "Reverse winding where required; split original components when touching or more than eight bounding boxes; every vertex retained, no simplification.",
+  "rows": [
+    {
+      "index": 290,
+      "sourceName": "Roman Republic",
+      "displayName": "Roma Cumhuriyeti",
+      "from": -500,
+      "to": -481,
+      "type": "POLITY"
+    },
+    {
+      "index": 291,
+      "sourceName": "Carthage",
+      "displayName": "Kartaca",
+      "from": -500,
+      "to": -481,
+      "type": "POLITY"
+    },
+    {
+      "index": 6985,
+      "sourceName": "Mamluk Sultanate",
+      "displayName": "Memlûk Sultanlığı",
+      "from": 1415,
+      "to": 1467,
+      "type": "POLITY"
+    },
+    {
+      "index": 7180,
+      "sourceName": "Kingdom of England",
+      "displayName": "İngiltere Krallığı",
+      "from": 1440,
+      "to": 1458,
+      "type": "POLITY"
+    },
+    {
+      "index": 7244,
+      "sourceName": "Kingdom of Portugal",
+      "displayName": "Portekiz Krallığı",
+      "from": 1450,
+      "to": 1462,
+      "type": "POLITY"
+    },
+    {
+      "index": 7267,
+      "sourceName": "Ottoman Empire",
+      "displayName": "Osmanlı İmparatorluğu",
+      "from": 1453,
+      "to": 1458,
+      "type": "POLITY"
+    },
+    {
+      "index": 7295,
+      "sourceName": "Kingdom of France",
+      "displayName": "Fransa Krallığı",
+      "from": 1453,
+      "to": 1458,
+      "type": "POLITY"
+    },
+    {
+      "index": 13091,
+      "sourceName": "Republic of Turkey",
+      "displayName": "Türkiye Cumhuriyeti",
+      "from": 1949,
+      "to": 2005,
+      "type": "POLITY"
+    },
+    {
+      "index": 13377,
+      "sourceName": "Kingdom of Spain",
+      "displayName": "İspanya",
+      "from": 1976,
+      "to": 2023,
+      "type": "POLITY"
+    },
+    {
+      "index": 13384,
+      "sourceName": "Republic of Italy",
+      "displayName": "İtalya",
+      "from": 1976,
+      "to": 2023,
+      "type": "POLITY"
+    },
+    {
+      "index": 13399,
+      "sourceName": "Portugal",
+      "displayName": "Portekiz",
+      "from": 1976,
+      "to": 2023,
+      "type": "POLITY"
+    },
+    {
+      "index": 13424,
+      "sourceName": "Arab Republic of Egypt",
+      "displayName": "Mısır",
+      "from": 1983,
+      "to": 2023,
+      "type": "POLITY"
+    },
+    {
+      "index": 13446,
+      "sourceName": "Republic of India",
+      "displayName": "Hindistan",
+      "from": 1987,
+      "to": 2023,
+      "type": "POLITY"
+    },
+    {
+      "index": 13447,
+      "sourceName": "Republic of Brazil",
+      "displayName": "Brezilya",
+      "from": 1987,
+      "to": 2023,
+      "type": "POLITY"
+    },
+    {
+      "index": 13468,
+      "sourceName": "South Africa",
+      "displayName": "Güney Afrika",
+      "from": 1990,
+      "to": 2023,
+      "type": "POLITY"
+    },
+    {
+      "index": 13478,
+      "sourceName": "Federated Republic of Germany",
+      "displayName": "Almanya",
+      "from": 1991,
+      "to": 2023,
+      "type": "POLITY"
+    }
+  ],
+  "excludedExamples": [
+    {
+      "name": "Roman Kingdom",
+      "reason": "MÖ500 row requires further historical date review"
+    },
+    {
+      "name": "Byzantine Empire",
+      "index": 7187,
+      "reason": "1440–1467 range requires further historical review"
+    },
+    {
+      "name": "Republic of China",
+      "index": 13111,
+      "reason": "Candidate Q148 not accepted"
+    },
+    {
+      "name": "Japan",
+      "index": 13355,
+      "reason": "Candidate Q188712 not accepted"
+    }
+  ],
+  "limitations": [
+    "Publisher CC BY grant verified; not a complete independent audit of every bibliographic ancestor.",
+    "No worldwide or annual completeness claim.",
+    "No independently measured political borders, capitals, rulers, flags, population or sovereignty.",
+    "Historical Basemaps remains blocked for redistribution."
+  ]
+}

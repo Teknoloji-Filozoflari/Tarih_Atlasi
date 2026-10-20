@@ -1,0 +1,69 @@
+{
+  "counts": {
+    "downloaded": 4273,
+    "people": 2969,
+    "events": 1084,
+    "points": 81,
+    "birthPoints": 46,
+    "skipped": 220,
+    "totalPeople": 3203,
+    "totalEvents": 1120,
+    "totalAnnualBirths": 193
+  },
+  "skipped": {
+    "existing-reviewed-record-preserved": 51,
+    "no-supported-name": 123,
+    "fictional-or-legendary-manual-review": 12,
+    "non-human-not-a-reviewed-event": 34
+  },
+  "partialDates": {
+    "people": 1865,
+    "events": 332
+  },
+  "eventTypes": {
+    "BATTLE": 483,
+    "WAR": 489,
+    "OTHER": 111,
+    "TREATY": 1
+  },
+  "groups": {
+    "religious": {
+      "downloaded": 50,
+      "added": 50,
+      "existing": 0
+    },
+    "philosophers": {
+      "downloaded": 2000,
+      "added": 1944,
+      "existing": 3
+    },
+    "time": {
+      "downloaded": 50,
+      "added": 34,
+      "existing": 10
+    },
+    "battles": {
+      "downloaded": 500,
+      "added": 480,
+      "existing": 0
+    },
+    "events": {
+      "downloaded": 500,
+      "added": 443,
+      "existing": 0
+    },
+    "nobel": {
+      "downloaded": 1032,
+      "added": 948,
+      "existing": 40
+    },
+    "wars": {
+      "downloaded": 500,
+      "added": 492,
+      "existing": 1
+    }
+  },
+  "manifestBytes": 1606144,
+  "productionBytes": 32177954,
+  "packs": 338
+}

@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-17",
+  "checks": [
+    {
+      "command": "npm run typecheck",
+      "status": "PASS",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run lint",
+      "status": "PASS",
+      "exitCode": 0
+    },
+    {
+      "command": "npm test",
+      "status": "PASS",
+      "exitCode": 0,
+      "passed": 283,
+      "failed": 0
+    },
+    {
+      "command": "npm run test:worker",
+      "status": "PASS",
+      "exitCode": 0,
+      "passed": 5,
+      "failed": 0
+    },
+    {
+      "command": "prettier --check (seven changed source files)",
+      "status": "PASS",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run web:export",
+      "status": "PASS",
+      "exitCode": 0,
+      "output": "dist",
+      "routes": 4
+    },
+    {
+      "command": "npm run android:bundle",
+      "status": "PASS",
+      "exitCode": 0,
+      "output": "dist-android",
+      "scope": "JavaScript/Hermes + DOM export, not APK or device proof"
+    },
+    {
+      "command": "Node MapLibre style/label/contrast probe",
+      "status": "PASS",
+      "exitCode": 0,
+      "evidence": "style-probe.json"
+    },
+    {
+      "command": "Playwright chromium.launch({headless:true,timeout:12000})",
+      "status": "BLOCKED",
+      "exitCode": 1,
+      "reason": "sandbox_host_linux.cc:41 Operation not permitted",
+      "screenshots": 0
+    },
+    {
+      "command": "Physical Android visual/touch/TalkBack test",
+      "status": "NOT TESTED",
+      "deviceStatus": "UNVERIFIED ON DEVICE"
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "date": "2026-10-18",
+  "scope": "Requested short names, licensed Libya/Chad reconstruction and compact UI; no next phase or publication.",
+  "release": "NO-GO",
+  "screenshots": 0,
+  "android": "UNVERIFIED ON DEVICE",
+  "commands": [
+    {
+      "command": "git status --short",
+      "exitCode": 128,
+      "status": "BLOCKED",
+      "evidence": "git-status.log",
+      "note": "Directory not recognized as Git repository; no reset/checkout/init."
+    },
+    {
+      "command": "node scripts/world/review-countries.mjs",
+      "stage": "initial",
+      "exitCode": 1,
+      "status": "FIXED",
+      "evidence": "extract-initial-path-error.log",
+      "note": "fileURLToPath used for unicode filesystem path."
+    },
+    {
+      "command": "node scripts/world/review-countries.mjs",
+      "stage": "initial source-QID assertion",
+      "exitCode": 1,
+      "status": "FIXED",
+      "evidence": "extract-initial-qid-error.log",
+      "note": "Source identity is regime-history Q17435890, not country Q1016. Original retained; reviewed country mapping separately documented."
+    },
+    {
+      "command": "npm run lint",
+      "stage": "initial",
+      "exitCode": 1,
+      "status": "FIXED",
+      "evidence": "lint-initial.log",
+      "note": "Duplicate type import consolidated; no rule disabled."
+    },
+    {
+      "command": "node --test tests/unit/world.test.mjs tests/unit/application-review.test.mjs",
+      "stage": "initial",
+      "exitCode": 1,
+      "status": "FAILED INITIAL",
+      "evidence": "process-runner-initial.log",
+      "note": "Process-runner output only reported failing file; exact inner assertion not captured. Direct repository runner subsequently passed; no test removed."
+    },
+    {
+      "command": "npm test",
+      "stage": "initial after first corrections",
+      "exitCode": 0,
+      "status": "PASS",
+      "evidence": "tests-initial.log",
+      "tests": 307
+    },
+    {
+      "command": "npm run check",
+      "stage": "initial after extra short labels",
+      "exitCode": 1,
+      "status": "FIXED",
+      "evidence": "check-initial.log",
+      "note": "Old expected long USA display name changed to explicit short ABD and added assertions that long name/alias survives."
+    },
+    {
+      "command": "npm run check",
+      "stage": "final",
+      "exitCode": 0,
+      "status": "PASS",
+      "evidence": "check.log",
+      "tests": {
+        "main": 307,
+        "worker": 5
+      },
+      "scope": "Lint, native/web strict TS, unit/worker, source/hash/license/NOTICE and configured formatter gates."
+    },
+    {
+      "command": "node scripts/world/review-countries.mjs --check",
+      "exitCode": 0,
+      "status": "PASS",
+      "evidence": "source-reproduction.log",
+      "scope": "Pinned existing licensed archive, source metadata/QIDs, original edges, all holes and NOTICE; three source rows, two countries."
+    },
+    {
+      "command": "npm run web:export",
+      "exitCode": 0,
+      "status": "PASS",
+      "evidence": "web-export.log",
+      "routes": 4,
+      "scope": "Static export only; no browser/GPU claim."
+    },
+    {
+      "command": "npm run android:bundle",
+      "exitCode": 0,
+      "status": "PASS",
+      "evidence": "android-export.log",
+      "scope": "Hermes+DOM JavaScript only; not APK/device."
+    },
+    {
+      "command": "npx playwright test tests/web/application-review.spec.ts --list",
+      "exitCode": 0,
+      "status": "LISTED ONLY",
+      "listed": 6,
+      "executed": 0,
+      "evidence": "browser-list.log"
+    },
+    {
+      "command": "npm run test:web:production -- --list",
+      "exitCode": 0,
+      "status": "LISTED ONLY",
+      "listed": 44,
+      "executed": 0,
+      "evidence": "production-list.log"
+    },
+    {
+      "command": "npx playwright test --list",
+      "exitCode": 0,
+      "status": "LISTED ONLY",
+      "listed": 112,
+      "executed": 0,
+      "evidence": "all-browser-list.log"
+    },
+    {
+      "operation": "Inline Playwright chromium.launch({headless:true,timeout:5000})",
+      "exitCode": 2,
+      "status": "BLOCKED",
+      "evidence": "browser-launch.log",
+      "screenshots": 0,
+      "reason": "Sandbox Operation not permitted"
+    },
+    {
+      "command": "npm run environment:check",
+      "exitCode": 1,
+      "status": "BLOCKED",
+      "evidence": "environment.log",
+      "device": "UNVERIFIED ON DEVICE",
+      "reason": "Java, adb, ANDROID_HOME unavailable"
+    },
+    {
+      "command": "npx eslint tests/web/application-review.spec.ts tests/web/product-flows.spec.ts tests/web/playback.spec.ts tests/web/loading.spec.ts tests/web/product-rework.spec.ts --max-warnings 0",
+      "exitCode": 0,
+      "status": "PASS",
+      "evidence": "web-tests-lint.log"
+    },
+    {
+      "command": "node scripts/qa/map-scene.mjs 2010",
+      "exitCode": 0,
+      "status": "PASS",
+      "evidence": "map-2010.json",
+      "scope": "Data geometry sampling only, not visual or independent historical certification."
+    },
+    {
+      "operation": "Read-only Node application data/feature-loader probe",
+      "command": null,
+      "exitCode": 0,
+      "status": "PASS",
+      "evidence": "scene-proof.json",
+      "scope": "Actual rendered-feature input at 2000/2010 contains both countries; no screenshot claim."
+    },
+    {
+      "command": "npm run format:check",
+      "stage": "after documentation",
+      "exitCode": 0,
+      "status": "PASS",
+      "evidence": "format-final.log"
+    }
+  ],
+  "evidence": [
+    {
+      "file": "all-browser-list.log",
+      "bytes": 14208,
+      "sha256": "f202a126d629d2e08f239528006c943e2de2b5dd97908e54cfa4b7531a139df3"
+    },
+    {
+      "file": "android-export.log",
+      "bytes": 59219,
+      "sha256": "e2a609117c3e244c90f31be460797e2df1422efc998a9e6a5e2a045736cf7d11"
+    },
+    {
+      "file": "browser-launch.log",
+      "bytes": 6781,
+      "sha256": "7acd29bec796bbef4a2e2f68e35601a91db912951fd6b78c099ebb261c8c5eba"
+    },
+    {
+      "file": "browser-list.log",
+      "bytes": 1018,
+      "sha256": "2759a899a625cf669faeccac28d52fbbadb7164c1d13fef4455ae70ad383f753"
+    },
+    {
+      "file": "check-initial.log",
+      "bytes": 35702,
+      "sha256": "d7cfeda6d629f3d32aea9d92d40554a768a3f72336f9aaf55517c4599047cf96"
+    },
+    {
+      "file": "check.log",
+      "bytes": 37666,
+      "sha256": "9049a8b3804acf64158b35d19642bb2d51da3e1df965573909cb3028bbdab777"
+    },
+    {
+      "file": "docs-format.log",
+      "bytes": 232,
+      "sha256": "5148ac8d2994026dbb61a84e2283e483e957c11b01505972d8ffe532505b0054"
+    },
+    {
+      "file": "environment.log",
+      "bytes": 405,
+      "sha256": "187cddfaeb3517e30fb8c83434f1e5ebf2c019908fc92980c9bafe1ffe77e10d"
+    },
+    {
+      "file": "export-sizes.json",
+      "bytes": 1101,
+      "sha256": "5a86b8f508dbffc5c84837e3b11fb79e4edc874b459e8880c438085878416acc"
+    },
+    {
+      "file": "extract-initial-path-error.log",
+      "bytes": 655,
+      "sha256": "66b48e84cd4cef1c4099bc73ebd284f140c4b5856b755ad56d1b5484b2f5f7f5"
+    },
+    {
+      "file": "extract-initial-qid-error.log",
+      "bytes": 712,
+      "sha256": "4ab5fc6091eece8fb5ff50cd22f941a6c15c09d2cf9ea9f0a81aa7617b0a49b7"
+    },
+    {
+      "file": "extract.log",
+      "bytes": 1571,
+      "sha256": "1ba971355f4585d6f9b7e87d3c92b8ed538670e0e74487a89f37792e1a7587ad"
+    },
+    {
+      "file": "git-status.log",
+      "bytes": 139,
+      "sha256": "c4dfc721cc7f91d3ec67d99446d3c46f79c764fc96d6f9ba52e69cc669d686c1"
+    },
+    {
+      "file": "lint-initial.log",
+      "bytes": 542,
+      "sha256": "eb44c556094e0f69701e8aa0eaf63f0343ca9895a9322255c7f040d7ffb264fd"
+    },
+    {
+      "file": "map-2010.json",
+      "bytes": 5867,
+      "sha256": "138ec35dd25b0479b55437db6910878af74426815479241239c0ba30ca56f05b"
+    },
+    {
+      "file": "process-runner-initial.log",
+      "bytes": 344,
+      "sha256": "325977a65bcb45a162d5787cbd11adcc076eb38ef7ea39d0d68f52d933d2a5e8"
+    },
+    {
+      "file": "production-list.log",
+      "bytes": 6017,
+      "sha256": "88bc0a7c3bd163775581c4872c237ae9e1e5d226782d23c898b65ce3d029370b"
+    },
+    {
+      "file": "scene-proof.json",
+      "bytes": 14913,
+      "sha256": "29b290331a934644bf65a8b074afd8993e707553b52e6198681524e85a2f14a2"
+    },
+    {
+      "file": "source-reproduction.log",
+      "bytes": 1571,
+      "sha256": "1ba971355f4585d6f9b7e87d3c92b8ed538670e0e74487a89f37792e1a7587ad"
+    },
+    {
+      "file": "tests-initial.log",
+      "bytes": 34335,
+      "sha256": "d33e6b4571826f0bf3aab2edf8a4f0c3c00322f904cc3f738aef5fb19ee5851f"
+    },
+    {
+      "file": "typecheck-initial.log",
+      "bytes": 109,
+      "sha256": "9f129891bf9903ac4de0f8c2605a8c029ed0711573d7404e30211a10fedefcf6"
+    },
+    {
+      "file": "web-export.log",
+      "bytes": 55502,
+      "sha256": "1e6e10fc169131f032cff3cf81c09b72f13fdc636738ee9e406220f7de61390d"
+    },
+    {
+      "file": "web-tests-format.log",
+      "bytes": 340,
+      "sha256": "4184b66d6d95d0202b996f12e47197fd85229fa7ae9bd79263a07a3ff840a100"
+    },
+    {
+      "file": "web-tests-lint.log",
+      "bytes": 234,
+      "sha256": "ab222da67da0eef7df8e38cdc913a6ec3937dd18d0165b84758c8949294f7479"
+    },
+    {
+      "file": "format-final.log",
+      "bytes": 147,
+      "sha256": "7a92934f162e8e78e2c3905ba0de164a3c2b557e08d35c61e654baf88cadcd9b"
+    }
+  ]
+}

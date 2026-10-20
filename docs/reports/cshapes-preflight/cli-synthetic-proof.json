@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "datasetClass": "synthetic-test-data",
+  "checks": [
+    "CLI creates research-only report",
+    "second run deterministic",
+    "source hash unchanged",
+    "no geometry export",
+    "productionAllowed false",
+    "own temporary source and report removed"
+  ],
+  "realCShapesInspected": false
+}

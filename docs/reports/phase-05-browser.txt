@@ -1,0 +1,2 @@
+npm notice run tarih-atlasi@0.1.0 test:web
+npm notice run playwright test --grep kaynaklı 1867 --project desktop

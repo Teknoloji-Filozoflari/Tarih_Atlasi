@@ -1,0 +1,125 @@
+{
+  "catalogVersion": "0.2.0-pilot",
+  "selectableRange": {
+    "minYear": -2000,
+    "maxYear": 2026
+  },
+  "notices": [
+    "A selectable year is not a coverage claim.",
+    "No new historical records in phase 06."
+  ],
+  "snapshots": [
+    {
+      "year": 1867,
+      "recordIds": [
+        "atlas:alaska-treaty-segment-1867"
+      ]
+    }
+  ],
+  "reports": [
+    {
+      "selectedYear": -2000,
+      "sourceYear": null,
+      "isPreview": false,
+      "mode": "no supported historical geography",
+      "selectedYearMode": "no supported historical geography",
+      "recordIds": [],
+      "partial": true,
+      "unresolvedTemporalRecords": 0
+    },
+    {
+      "selectedYear": -2,
+      "sourceYear": null,
+      "isPreview": false,
+      "mode": "no supported historical geography",
+      "selectedYearMode": "no supported historical geography",
+      "recordIds": [],
+      "partial": true,
+      "unresolvedTemporalRecords": 0
+    },
+    {
+      "selectedYear": -1,
+      "sourceYear": null,
+      "isPreview": false,
+      "mode": "no supported historical geography",
+      "selectedYearMode": "no supported historical geography",
+      "recordIds": [],
+      "partial": true,
+      "unresolvedTemporalRecords": 0
+    },
+    {
+      "selectedYear": 1,
+      "sourceYear": null,
+      "isPreview": false,
+      "mode": "no supported historical geography",
+      "selectedYearMode": "no supported historical geography",
+      "recordIds": [],
+      "partial": true,
+      "unresolvedTemporalRecords": 0
+    },
+    {
+      "selectedYear": 2,
+      "sourceYear": null,
+      "isPreview": false,
+      "mode": "no supported historical geography",
+      "selectedYearMode": "no supported historical geography",
+      "recordIds": [],
+      "partial": true,
+      "unresolvedTemporalRecords": 0
+    },
+    {
+      "selectedYear": 1866,
+      "sourceYear": null,
+      "isPreview": false,
+      "mode": "no supported historical geography",
+      "selectedYearMode": "no supported historical geography",
+      "recordIds": [],
+      "partial": true,
+      "unresolvedTemporalRecords": 0
+    },
+    {
+      "selectedYear": 1867,
+      "sourceYear": 1867,
+      "isPreview": false,
+      "mode": "documented approximate",
+      "selectedYearMode": "documented approximate",
+      "recordIds": [
+        "atlas:alaska-treaty-segment-1867"
+      ],
+      "partial": true,
+      "unresolvedTemporalRecords": 0
+    },
+    {
+      "selectedYear": 1868,
+      "sourceYear": null,
+      "isPreview": false,
+      "mode": "no supported historical geography",
+      "selectedYearMode": "no supported historical geography",
+      "recordIds": [],
+      "partial": true,
+      "unresolvedTemporalRecords": 0
+    },
+    {
+      "selectedYear": 2026,
+      "sourceYear": null,
+      "isPreview": false,
+      "mode": "no supported historical geography",
+      "selectedYearMode": "no supported historical geography",
+      "recordIds": [],
+      "partial": true,
+      "unresolvedTemporalRecords": 0
+    }
+  ],
+  "explicitPreviewExample": {
+    "selectedYear": 1868,
+    "sourceYear": 1867,
+    "isPreview": true,
+    "mode": "documented approximate",
+    "selectedYearMode": "no supported historical geography",
+    "recordIds": [
+      "atlas:alaska-treaty-segment-1867"
+    ],
+    "partial": true,
+    "unresolvedTemporalRecords": 0
+  }
+}

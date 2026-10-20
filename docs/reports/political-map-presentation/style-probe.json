@@ -1,0 +1,222 @@
+{
+  "syntheticOnly": true,
+  "projection": {
+    "type": "globe"
+  },
+  "styleErrors": [],
+  "labels": [
+    {
+      "zoom": 1,
+      "fontSize": 10,
+      "width": 73,
+      "height": 48
+    },
+    {
+      "zoom": 3,
+      "fontSize": 11,
+      "width": 79.5,
+      "height": 48
+    },
+    {
+      "zoom": 5,
+      "fontSize": 12,
+      "width": 86,
+      "height": 48
+    }
+  ],
+  "collision": [
+    "synthetic:a"
+  ],
+  "minimumTextContrastBySingleFill": {
+    "normal": 5.166777294777059,
+    "selected": 4.572819493730723,
+    "disputed": 6.647704288547591,
+    "shared": 5.672914534760131,
+    "vassal": 5.672914534760131
+  },
+  "contrastScope": "Analytical sRGB alpha composite on the uniform physical-land token; no claim about overlapping polygons, coastlines, anti-aliasing or real device rendering.",
+  "borderLayers": [
+    {
+      "id": "polity-area",
+      "paint": {
+        "fill-color": [
+          "coalesce",
+          [
+            "get",
+            "color"
+          ],
+          "#A3B39C"
+        ],
+        "fill-opacity": [
+          "case",
+          [
+            "boolean",
+            [
+              "feature-state",
+              "selected"
+            ],
+            false
+          ],
+          0.38,
+          [
+            "coalesce",
+            [
+              "get",
+              "fillOpacity"
+            ],
+            0.3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "polity-documented",
+      "paint": {
+        "line-color": "#B0B6AF",
+        "line-opacity": 0.75,
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          0,
+          0.65,
+          3,
+          0.9,
+          6,
+          1.2
+        ]
+      }
+    },
+    {
+      "id": "polity-approximate",
+      "paint": {
+        "line-color": "#B0B6AF",
+        "line-opacity": 0.75,
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          0,
+          0.65,
+          3,
+          0.9,
+          6,
+          1.2
+        ],
+        "line-dasharray": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "polity-disputed",
+      "paint": {
+        "line-color": "#B0B6AF",
+        "line-opacity": 0.75,
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          0,
+          0.85,
+          3,
+          1.1,
+          6,
+          1.5
+        ],
+        "line-dasharray": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "polity-shared",
+      "paint": {
+        "line-color": "#B0B6AF",
+        "line-opacity": 0.75,
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          0,
+          0.85,
+          3,
+          1.1,
+          6,
+          1.5
+        ],
+        "line-dasharray": [
+          5,
+          2,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "polity-vassal",
+      "paint": {
+        "line-color": "#B0B6AF",
+        "line-opacity": 0.75,
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          0,
+          0.85,
+          3,
+          1.1,
+          6,
+          1.5
+        ],
+        "line-dasharray": [
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "id": "polity-selected-outline",
+      "paint": {
+        "line-color": "#E1D6BF",
+        "line-width": 1,
+        "line-gap-width": 3,
+        "line-opacity": [
+          "case",
+          [
+            "boolean",
+            [
+              "feature-state",
+              "selected"
+            ],
+            false
+          ],
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

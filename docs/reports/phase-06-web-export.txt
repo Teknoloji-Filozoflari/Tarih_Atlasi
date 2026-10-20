@@ -1,0 +1,24 @@
+npm notice run tarih-atlasi@0.1.0 web:export
+npm notice run expo export --platform web
+Using src/app as the root directory for Expo Router.
+Starting Metro Bundler
+
+Static rendering is enabled. Learn more: https://docs.expo.dev/router/web/static-rendering/
+| (node:14) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+Web Bundled 703ms node_modules/expo-router/entry.js (832 modules)
+λ Bundled 773ms node_modules/@expo/router-server/node/render.js (789 modules)
+
+› web bundles (4):
+_expo/static/css/maplibre-gl-5eafb44ecdde7fed64f0a02f0507154c.css (83KB)
+_expo/static/css/markers-dd18e6c8a27aac99ec31603671eefc11.css (83B)
+_expo/static/js/web/entry-51cb77f7127a158f33419a6f6d72b7db.js (2.1MB)
+_expo/static/js/web/maplibre-gl-6fe40297a216a7856c0f96b199bfada7.js (1.1MB)
+
+› Static routes (4):
+/about (21KB)
+/ (index) (28KB)
+/_sitemap (19KB)
+/+not-found (20KB)
+
+Exported: dist

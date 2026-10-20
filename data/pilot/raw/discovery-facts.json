@@ -1,0 +1,575 @@
+{
+  "representation": "editorial-fact-extraction-not-http-response",
+  "synthetic": false,
+  "reviewedAt": "2026-10-17T21:25:19.000Z",
+  "licenseId": "CC0-1.0",
+  "licenseUrl": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+  "method": "Official Wikidata structured values and revision footers reviewed via browser. This is a bounded editorial extraction, not original API JSON or independent historical certification. Turkish summaries are project-authored. No article prose, guessed sitelinks, portraits, participant identities or geometry invented. Cities are separate modern reference.",
+  "people": [
+    {
+      "id": "atlas:person-muhammad",
+      "qid": "Q9458",
+      "revision": "2557655631",
+      "name": "Hz. Muhammed",
+      "aliases": [
+        "Muhammed",
+        "Muhammad",
+        "Mahomet"
+      ],
+      "birth": [
+        570,
+        580
+      ],
+      "death": [
+        632,
+        632
+      ],
+      "description": "İslam peygamberi; Arap Yarımadası’nda yaşamış dinî ve siyasi önder.",
+      "locator": "P569:570,latest580; alternative571; P570:632. Doğum yılı kesinleştirilmedi; takvim/gün dönüşümü yapılmadı.",
+      "uncertain": true
+    },
+    {
+      "id": "atlas:person-newton",
+      "qid": "Q935",
+      "revision": "2556999905",
+      "name": "Isaac Newton",
+      "aliases": [
+        "Isacc Newton",
+        "İsaac Newton"
+      ],
+      "birth": [
+        1643,
+        1643
+      ],
+      "death": [
+        1727,
+        1727
+      ],
+      "description": "Hareket yasaları ve kütleçekimi üzerine çalışmalarıyla tanınan fizikçi ve matematikçi.",
+      "locator": "P569:4Jan1643 Gregorian /25Dec1642 Julian; P570:31Mar1727 Gregorian /20Mar1727 Julian. Yalnız Gregoryen yıllar alınır.",
+      "uncertain": false
+    },
+    {
+      "id": "atlas:person-jesus",
+      "qid": "Q302",
+      "revision": "2556284316",
+      "name": "Hz. İsa",
+      "aliases": [
+        "İsa",
+        "Jesus",
+        "Jesus Christ"
+      ],
+      "birth": [
+        -7,
+        -2
+      ],
+      "death": [
+        30,
+        33
+      ],
+      "description": "Hristiyanlığın merkezî dinî kişiliği. Yaşam tarihleri için kaynaklarda farklı tahminler bulunur.",
+      "locator": "P569 alternatifleri7BCE,2BCE,circa5BCE(earliest6/latest4); P570:30CE/33CE. Uçlar alternatiflerin zarfıdır, kesin yaşam veya konum kanıtı değildir.",
+      "uncertain": true
+    },
+    {
+      "id": "atlas:person-buddha",
+      "qid": "Q9441",
+      "revision": "2555622813",
+      "name": "Buda",
+      "aliases": [
+        "Buddha",
+        "Siddhartha Gautama",
+        "Gautama Buda"
+      ],
+      "birth": null,
+      "death": null,
+      "description": "Budizmin öğretmeni olarak tanınan Siddhartha Gautama. Yaşam kronolojisi tartışmalıdır.",
+      "locator": "P569:623BCE/563BCE/1stmillenniumBCE; P570:543BCE/483BCE ve başka tahminler. Çelişen kronolojilerden tek yaşam aralığı seçilmedi; tarihler bilinmiyor.",
+      "uncertain": true
+    },
+    {
+      "id": "atlas:person-confucius",
+      "qid": "Q4604",
+      "revision": "2553435754",
+      "name": "Konfüçyüs",
+      "aliases": [
+        "Confucius",
+        "Kongzi"
+      ],
+      "birth": [
+        -552,
+        -551
+      ],
+      "death": [
+        -479,
+        -479
+      ],
+      "description": "Çinli düşünür ve öğretmen; Konfüçyüsçü gelenekle ilişkilidir.",
+      "locator": "P569:552BCE/551BCE,circa; P570:479BCE. Antik takvim gün dönüşümü yapılmadı.",
+      "uncertain": true
+    },
+    {
+      "id": "atlas:person-paul",
+      "qid": "Q9200",
+      "revision": "2549174360",
+      "name": "Aziz Paul",
+      "aliases": [
+        "Pavlus",
+        "Tarsuslu Pavlus",
+        "Paul the Apostle",
+        "Saint Paul"
+      ],
+      "birth": [
+        5,
+        5
+      ],
+      "death": [
+        64,
+        67
+      ],
+      "description": "Erken Hristiyanlığın yayılışında etkili havari ve dinî yazar.",
+      "locator": "P569:circa5CE; P570:circa66CE,earliest64/latest67. Yaklaşık yaşam, yıllık konum kanıtı değildir.",
+      "uncertain": true
+    },
+    {
+      "id": "atlas:person-cai-lun",
+      "qid": "Q229235",
+      "revision": "2530393820",
+      "name": "Cai Lun",
+      "aliases": [
+        "Ts’ai Lun",
+        "Ts'ai Lun",
+        "Tsai Lun",
+        "Çay Lun"
+      ],
+      "birth": [
+        48,
+        62
+      ],
+      "death": [
+        121,
+        121
+      ],
+      "description": "Han dönemi saray görevlisi; kâğıt yapımının geliştirilmesiyle ilişkilendirilir.",
+      "locator": "P569:48/50/62CE alternatifleri; P570:121. Doğum aralığı alternatif zarfı; gün üretilmedi.",
+      "uncertain": true
+    },
+    {
+      "id": "atlas:person-gutenberg",
+      "qid": "Q8958",
+      "revision": "2538954737",
+      "name": "Johannes Gutenberg",
+      "aliases": [
+        "Johan Gutenberg",
+        "Johann Gutenberg"
+      ],
+      "birth": [
+        1393,
+        1406
+      ],
+      "death": [
+        1468,
+        1468
+      ],
+      "description": "Avrupa’da hareketli metal harfli baskı tekniğinin gelişiminde etkili zanaatkâr ve mucit.",
+      "locator": "P569:circa1400,earliest1393/latest1406; P570:1468. 3Feb1468 iddiası deprecated/fabrication olduğundan gün alınmadı.",
+      "uncertain": true
+    },
+    {
+      "id": "atlas:person-columbus",
+      "qid": "Q7322",
+      "revision": "2556620244",
+      "name": "Kristof Kolomb",
+      "aliases": [
+        "Christopher Columbus",
+        "Cristoforo Colombo",
+        "Cristóbal Colón"
+      ],
+      "birth": [
+        1450,
+        1451
+      ],
+      "death": [
+        1506,
+        1506
+      ],
+      "description": "Atlantik seferleriyle tanınan denizci ve sömürgeci.",
+      "locator": "P569:1450/1451 alternatifleri; P570:19/20/21May1506. Günler arasında karar verilmedi; yalnız yıl korunur.",
+      "uncertain": true
+    },
+    {
+      "id": "atlas:person-einstein",
+      "qid": "Q937",
+      "revision": "2557626532",
+      "name": "Albert Einstein",
+      "aliases": [
+        "Einstein"
+      ],
+      "birth": [
+        1879,
+        1879
+      ],
+      "death": [
+        1955,
+        1955
+      ],
+      "description": "Görelilik kuramlarıyla tanınan teorik fizikçi.",
+      "locator": "P569:14Mar1879 Gregorian; P570:18Apr1955. Yıl hassasiyetine indirildi; yaşam konum kanıtı değildir.",
+      "uncertain": false
+    }
+  ],
+  "events": [
+    {
+      "id": "atlas:manzikert-1071",
+      "qid": "Q200032",
+      "revision": "2517526052",
+      "name": "Malazgirt Muharebesi",
+      "eventType": "BATTLE",
+      "start": 1071,
+      "end": 1071,
+      "longitude": [
+        42,
+        32,
+        21
+      ],
+      "latitude": [
+        39,
+        8,
+        41
+      ],
+      "description": "Bizans ile Selçuklu kuvvetleri arasında Malazgirt yakınında gerçekleşen muharebe.",
+      "locator": "P585:26Aug1071; P625:39°8′41N42°32′21E,0directreferences. Takvim dönüşümü doğrulanmadığı için yalnız yıl."
+    },
+    {
+      "id": "atlas:constantinople-1453",
+      "qid": "Q160077",
+      "revision": "2541630922",
+      "name": "İstanbul’un Fethi",
+      "eventType": "BATTLE",
+      "start": 1453,
+      "end": 1453,
+      "longitude": [
+        28,
+        56,
+        6
+      ],
+      "latitude": [
+        41,
+        1,
+        48
+      ],
+      "description": "Osmanlı kuvvetlerinin Konstantinopolis’i ele geçirmesiyle sonuçlanan kuşatma.",
+      "locator": "P580:6Apr1453/P582:29May1453; P625:41°1′48N28°56′6E,0directreferences. Kuşatma ve gün takvimi ayrı; yalnız1453."
+    },
+    {
+      "id": "atlas:mohacs-1526",
+      "qid": "Q178510",
+      "revision": "2538088482",
+      "name": "Mohaç Muharebesi",
+      "eventType": "BATTLE",
+      "start": 1526,
+      "end": 1526,
+      "longitude": [
+        18,
+        38,
+        50
+      ],
+      "latitude": [
+        45,
+        56,
+        29
+      ],
+      "description": "Osmanlı ve Macaristan kuvvetleri arasında Mohaç yakınında gerçekleşen muharebe.",
+      "locator": "P585:29Aug1526 Gregorian; P625:45°56′29N18°38′50E,importedEnglishWikipedia. Alan sınırı değil kaynak temsil noktası."
+    },
+    {
+      "id": "atlas:gallipoli-1915",
+      "qid": "Q164983",
+      "revision": "2546713430",
+      "name": "Çanakkale Kara Harekâtı",
+      "eventType": "CAMPAIGN",
+      "start": 1915,
+      "end": 1916,
+      "longitude": [
+        26,
+        16,
+        39
+      ],
+      "latitude": [
+        40,
+        14,
+        15
+      ],
+      "description": "Çanakkale seferinin 1915–1916 kara harekâtı. Deniz harekâtının tamamını kapsamaz.",
+      "locator": "P580:25Apr1915/P582:9Jan1916 Gregorian; P625:40°14′15N26°16′39E,0directreferences. Nokta kampanya coğrafyasının temsilidir, cephe/tek muharebe noktası değil."
+    },
+    {
+      "id": "atlas:sakarya-1921",
+      "qid": "Q594015",
+      "revision": "2497463762",
+      "name": "Sakarya Meydan Muharebesi",
+      "eventType": "BATTLE",
+      "start": 1921,
+      "end": 1921,
+      "longitude": null,
+      "latitude": null,
+      "description": "1921’de Türk ve Yunan kuvvetleri arasında gerçekleşen muharebe.",
+      "locator": "P580:23Aug1921/P582:13Sep1921 Gregorian; kaynaklı alan geometrisi bu çıkarımda yok. Ankara/nehir merkezi atanmadı."
+    },
+    {
+      "id": "atlas:world-war-i",
+      "qid": "Q361",
+      "revision": "2547414580",
+      "name": "I. Dünya Savaşı",
+      "eventType": "WAR",
+      "start": 1914,
+      "end": 1918,
+      "longitude": null,
+      "latitude": null,
+      "description": "Birden çok cephe ve coğrafyaya yayılan 1914–1918 savaşı.",
+      "locator": "P580/P582:28Jul1914–11Nov1918; tek ülke/şehir merkezi veya cephe poligonu türetilmedi."
+    },
+    {
+      "id": "atlas:world-war-ii",
+      "qid": "Q362",
+      "revision": "2553978185",
+      "name": "II. Dünya Savaşı",
+      "eventType": "WAR",
+      "start": 1939,
+      "end": 1945,
+      "longitude": null,
+      "latitude": null,
+      "description": "Birden çok cephe ve coğrafyaya yayılan 1939–1945 savaşı.",
+      "locator": "P580/P582:1Sep1939–2Sep1945; bölgesel başlangıç kronolojileri ve cephe geometrileri bu pilotta modellenmiyor."
+    }
+  ],
+  "cities": [
+    {
+      "id": "modern-city:istanbul",
+      "qid": "Q406",
+      "revision": "2556807961",
+      "name": "İstanbul",
+      "longitude": [
+        28,
+        57,
+        37
+      ],
+      "latitude": [
+        41,
+        0,
+        36
+      ],
+      "locator": "Q406 P625; current representative settlement point, not a historical coordinate or boundary; measurement tolerance unknown."
+    },
+    {
+      "id": "modern-city:ankara",
+      "qid": "Q3640",
+      "revision": "2550350736",
+      "name": "Ankara",
+      "longitude": [
+        32,
+        50,
+        19
+      ],
+      "latitude": [
+        39,
+        56,
+        9
+      ],
+      "locator": "Q3640 P625; current representative settlement point, not a historical coordinate or boundary; measurement tolerance unknown."
+    },
+    {
+      "id": "modern-city:izmir",
+      "qid": "Q35997",
+      "revision": "2544620007",
+      "name": "İzmir",
+      "longitude": [
+        27,
+        10,
+        0
+      ],
+      "latitude": [
+        38,
+        24,
+        0
+      ],
+      "locator": "Q35997 P625; current representative settlement point, not a historical coordinate or boundary; measurement tolerance unknown."
+    },
+    {
+      "id": "modern-city:antalya",
+      "qid": "Q6487",
+      "revision": "2548521984",
+      "name": "Antalya",
+      "longitude": [
+        30,
+        40,
+        0
+      ],
+      "latitude": [
+        36,
+        58,
+        0
+      ],
+      "locator": "Q6487 P625; current representative settlement point, not a historical coordinate or boundary; measurement tolerance unknown."
+    },
+    {
+      "id": "modern-city:bursa",
+      "qid": "Q40738",
+      "revision": "2555061844",
+      "name": "Bursa",
+      "longitude": [
+        29,
+        4,
+        50
+      ],
+      "latitude": [
+        40,
+        11,
+        29
+      ],
+      "locator": "Q40738 P625; current representative settlement point, not a historical coordinate or boundary; measurement tolerance unknown."
+    },
+    {
+      "id": "modern-city:medina",
+      "qid": "Q35484",
+      "revision": "2557628444",
+      "name": "Medine",
+      "longitude": [
+        39,
+        36,
+        36
+      ],
+      "latitude": [
+        24,
+        28,
+        12
+      ],
+      "locator": "Q35484 P625; current representative settlement point, not a historical coordinate or boundary; measurement tolerance unknown."
+    }
+  ],
+  "locations": [
+    {
+      "id": "atlas:muhammad-medina-residence",
+      "personId": "atlas:person-muhammad",
+      "cityId": "modern-city:medina",
+      "start": 622,
+      "end": 632,
+      "relationshipType": "RESIDENCE",
+      "locator": "Q9458 P551=Medina, P580622/P582632; importedArabicWikipedia,1reference. Q35484P625 modern representative city point. Not daily presence, a building or travel route."
+    },
+    {
+      "id": "atlas:newton-birth",
+      "personId": "atlas:person-newton",
+      "cityId": "reference-place:newton-birth",
+      "start": 1643,
+      "end": 1643,
+      "relationshipType": "BIRTH",
+      "locator": "Q935 P569/P19; year 1643; location property and life event reviewed together. P625 from linked place is only a representative anchor; not annual residence. Day omitted; calendar and date conflicts retained in person record."
+    },
+    {
+      "id": "atlas:einstein-birth",
+      "personId": "atlas:person-einstein",
+      "cityId": "reference-place:einstein-birth",
+      "start": 1879,
+      "end": 1879,
+      "relationshipType": "BIRTH",
+      "locator": "Q937 P569/P19; year 1879; location property and life event reviewed together. P625 from linked place is only a representative anchor; not annual residence. Day omitted; calendar and date conflicts retained in person record."
+    },
+    {
+      "id": "atlas:gutenberg-death",
+      "personId": "atlas:person-gutenberg",
+      "cityId": "reference-place:gutenberg-death",
+      "start": 1468,
+      "end": 1468,
+      "relationshipType": "DEATH",
+      "locator": "Q8958 P570/P20; year 1468; location property and life event reviewed together. P625 from linked place is only a representative anchor; not annual residence. Day omitted; calendar and date conflicts retained in person record."
+    },
+    {
+      "id": "atlas:columbus-death",
+      "personId": "atlas:person-columbus",
+      "cityId": "reference-place:columbus-death",
+      "start": 1506,
+      "end": 1506,
+      "relationshipType": "DEATH",
+      "locator": "Q7322 P570/P20; year 1506; location property and life event reviewed together. P625 from linked place is only a representative anchor; not annual residence. Day omitted; calendar and date conflicts retained in person record."
+    }
+  ],
+  "places": [
+    {
+      "id": "reference-place:newton-birth",
+      "qid": "Q3316008",
+      "revision": "2491613171",
+      "name": "Woolsthorpe Manor",
+      "longitude": [
+        0,
+        37,
+        50.002
+      ],
+      "latitude": [
+        52,
+        48,
+        33.001
+      ],
+      "longitudeSign": -1,
+      "scale": "site",
+      "locator": "Q3316008 P625; modern representative place coordinate, not measured historical position. Western longitude sign preserved; no precision/tolerance claim."
+    },
+    {
+      "id": "reference-place:einstein-birth",
+      "qid": "Q3012",
+      "revision": "2550428227",
+      "name": "Ulm",
+      "longitude": [
+        9,
+        59,
+        28
+      ],
+      "latitude": [
+        48,
+        23,
+        55
+      ],
+      "longitudeSign": 1,
+      "scale": "city",
+      "locator": "Q3012 P625; modern representative place coordinate, not measured historical position. Western longitude sign preserved; no precision/tolerance claim."
+    },
+    {
+      "id": "reference-place:gutenberg-death",
+      "qid": "Q1720",
+      "revision": "2550420128",
+      "name": "Mainz",
+      "longitude": [
+        8,
+        16,
+        25
+      ],
+      "latitude": [
+        49,
+        59,
+        58
+      ],
+      "longitudeSign": 1,
+      "scale": "city",
+      "locator": "Q1720 P625; modern representative place coordinate, not measured historical position. Western longitude sign preserved; no precision/tolerance claim."
+    },
+    {
+      "id": "reference-place:columbus-death",
+      "qid": "Q8356",
+      "revision": "2550851135",
+      "name": "Valladolid",
+      "longitude": [
+        4,
+        43,
+        42.82
+      ],
+      "latitude": [
+        41,
+        39,
+        7.13
+      ],
+      "longitudeSign": -1,
+      "scale": "city",
+      "locator": "Q8356 P625; modern representative place coordinate, not measured historical position. Western longitude sign preserved; no precision/tolerance claim."
+    }
+  ]
+}

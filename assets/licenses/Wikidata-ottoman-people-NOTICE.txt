@@ -1,0 +1,3 @@
+Wikidata contributors · CC0-1.0
+https://www.wikidata.org/wiki/Wikidata:Licensing
+Ottoman people 1.2.0-births: 33 additional person profiles. Reviewed editorial extraction of P569/P570/P19 and P625, with source revisions and SHA256. City/site representative points are approximate; they are not birth rooms, continuous residence or reign locations. Conflicting early chronology, unreferenced birth assertions and unverified building phases remain biographical or unlocated. TDV articles are research cross-checks only: https://islamansiklopedisi.org.tr/orhan , https://islamansiklopedisi.org.tr/bayezid-i , https://islamansiklopedisi.org.tr/bayezid-ii . No TDV/Wikipedia text, images or geometry redistributed.

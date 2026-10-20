@@ -1,0 +1,39 @@
+{
+  "version": "5.1.2",
+  "license": "public domain",
+  "terms": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "attribution": "Made with Natural Earth.",
+  "transformation": "Physical coordinates preserved; all properties stripped. Contemporary reference, not historical coast/water reconstruction. No tiles, modern borders or labels.",
+  "layers": [
+    {
+      "name": "land",
+      "source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_land.geojson",
+      "inputSha256": "1ac90796408bc6ad6911d69448485d3c4dbf2190370080368a09976e1c9f7416",
+      "inputBytes": 10157965,
+      "omittedEmptyFeatures": [],
+      "outputSha256": "057bd8c8d81f8f4cd3395d40cdca033307297b130853eb8336f4216697f5db8a",
+      "outputBytes": 10156785,
+      "features": 11
+    },
+    {
+      "name": "lakes",
+      "source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_lakes.geojson",
+      "inputSha256": "2d036f53dedec578001c5c30c2959ee7d4eebc1306900fa4367c49929ec8f2d9",
+      "inputBytes": 5043554,
+      "omittedEmptyFeatures": [],
+      "outputSha256": "7941b67b737ca033535340c3cec6f69f080aad3b3ae15f7333c2f6267600dedd",
+      "outputBytes": 3799626,
+      "features": 1355
+    },
+    {
+      "name": "rivers",
+      "source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_rivers_lake_centerlines.geojson",
+      "inputSha256": "bb854a900ecbd3b408df46d5e16e3e0f974ba55993f9d8b5c26e855273c0905a",
+      "inputBytes": 7307743,
+      "omittedEmptyFeatures": [1452],
+      "outputSha256": "44d95cfe4879bdd9576006b034dbcbb36ce4be42a48a7974c9ecbae751dfad74",
+      "outputBytes": 5891085,
+      "features": 1454
+    }
+  ]
+}

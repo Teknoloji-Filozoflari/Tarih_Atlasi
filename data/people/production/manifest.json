@@ -1,0 +1,2294 @@
+{
+  "version": "1.0.1-births",
+  "reviewedAt": "2026-10-17T22:22:15.102Z",
+  "inputs": {
+    "browserReview": "1ef2f30733182213807b6065eb68ae64d692b954224ecfe1555dc90514093811",
+    "decisions": "938c5f65ceee93fb1294be3c48979ffaabbb1db4826db2822cb5018cef48bcab"
+  },
+  "entries": [
+    {
+      "index": 0,
+      "sha256": "2511e88856a26c155ef325d3ef11838eeb1520ebdf76d20602fe5981e6e19b1c",
+      "bytes": 89390,
+      "records": 24
+    },
+    {
+      "index": 1,
+      "sha256": "c19e82be8fbfa66126781fb69792b801cf28b2629980bf66410f392ebb51dc52",
+      "bytes": 87379,
+      "records": 23
+    },
+    {
+      "index": 2,
+      "sha256": "a59bae65f9568bd2d95f953c985265824cbe6a8f392fc68355f8dec29d89dd56",
+      "bytes": 83575,
+      "records": 22
+    },
+    {
+      "index": 3,
+      "sha256": "eee939e8a34c33326a754b2a1976dbf50cdfabf9c5bc50dcb3ee4987ebc4eb58",
+      "bytes": 83594,
+      "records": 22
+    },
+    {
+      "index": 4,
+      "sha256": "d3d6960e1270a8d04d3066662a29087e46c4a7754a589450b9a025663631d5ed",
+      "bytes": 87881,
+      "records": 23
+    },
+    {
+      "index": 5,
+      "sha256": "06db9093256b4963bdf9dc200d92e0c601fdbf2ffb5db605d495730c3c6db3e3",
+      "bytes": 88220,
+      "records": 23
+    },
+    {
+      "index": 6,
+      "sha256": "0cacdfcc6769e29aa5ffc3e1140db1fb9e4a8f7a0f28eb412df0a2422bc60057",
+      "bytes": 91861,
+      "records": 24
+    },
+    {
+      "index": 7,
+      "sha256": "4b0571ef4373a875116514de4a06e96df29a1cc36d098a955ecbca7bef6deca9",
+      "bytes": 88619,
+      "records": 23
+    },
+    {
+      "index": 8,
+      "sha256": "6ee34f30125eccf56d1695b418ffb9ba163d4c4a25759d86b0805401e210e5fd",
+      "bytes": 83018,
+      "records": 22
+    },
+    {
+      "index": 9,
+      "sha256": "6ab7e342b1d06705abd10612740c8e40db58f26afc0c4812625ac135c61976b3",
+      "bytes": 82608,
+      "records": 22
+    },
+    {
+      "index": 10,
+      "sha256": "2505377efa150ce34f98373fdf692e76bb0b755b77ff48763d0506b28c1c49a4",
+      "bytes": 78888,
+      "records": 21
+    },
+    {
+      "index": 11,
+      "sha256": "c0d2bc7f989c7584870b7f3264e44932cb39fa13f7666300678a91f01ad4bac1",
+      "bytes": 69611,
+      "records": 19
+    },
+    {
+      "index": 12,
+      "sha256": "ecfb668886a413f7caca736df31a4a0f910d6d9d2ba714b6f24459546ec81023",
+      "bytes": 69631,
+      "records": 19
+    },
+    {
+      "index": 13,
+      "sha256": "7ba45f1ff377338d0667a6dc3e01b41a60bdcc530579ebeb6cef77c77998f306",
+      "bytes": 81229,
+      "records": 21
+    }
+  ],
+  "requested": 113,
+  "published": 111,
+  "annualBirths": 62,
+  "biographicalOnly": 24,
+  "pending": [
+    {
+      "name": "James Watt",
+      "aliases": [],
+      "wikidataId": "Q9041",
+      "reason": "immutable-source-revision-unavailable"
+    },
+    {
+      "name": "Arşimet",
+      "aliases": [
+        "Archimedes"
+      ],
+      "wikidataId": "Q8739",
+      "reason": "immutable-source-revision-unavailable"
+    }
+  ],
+  "selected": [
+    {
+      "id": "atlas:person-muhammad",
+      "qid": "Q9458",
+      "name": "Hz. Muhammed",
+      "birth": [
+        570,
+        580
+      ],
+      "death": [
+        632,
+        632
+      ],
+      "sourceRevision": "2557655631",
+      "place": "Mecca",
+      "placeQid": "Q5806",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "Doğum yılı ve alternatif kronolojiler tartışmalıdır. Mekke genel doğum bağlantısıdır; Medine ikameti ayrı eski kaynaklı kayıtta kalır."
+    },
+    {
+      "id": "atlas:person-newton",
+      "qid": "Q935",
+      "name": "Isaac Newton",
+      "birth": [
+        1643,
+        1643
+      ],
+      "death": [
+        1727,
+        1727
+      ],
+      "sourceRevision": "2556999905",
+      "place": "Woolsthorpe Manor",
+      "placeQid": "Q3316008",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "4 Ocak1643 Gregoryen /25 Aralık1642 Jülyen ayrımı korunur. Bu katalog sadece Gregoryen1643doğum yılını kullanır; tam gün üretilmez."
+    },
+    {
+      "id": "atlas:person-jesus",
+      "qid": "Q302",
+      "name": "Hz. İsa",
+      "birth": [
+        -7,
+        -2
+      ],
+      "death": [
+        30,
+        33
+      ],
+      "sourceRevision": "2556284316",
+      "place": "Bethlehem",
+      "placeQid": "Q5776",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "Bethlehem geleneksel doğum bağlantısıdır; tarihsel doğum yeri ve kronoloji tartışması sürer. Tek yıl/nokta kesinleştirilmedi."
+    },
+    {
+      "id": "atlas:person-buddha",
+      "qid": "Q9441",
+      "name": "Buda",
+      "birth": null,
+      "death": null,
+      "sourceRevision": "2555622813",
+      "place": "Lumbini",
+      "placeQid": "Q9213",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "Kaynakta563/623MÖ ve farklı kronolojiler bulunur. Lumbini bağlantısı, kesin doğum yılı kanıtı değildir."
+    },
+    {
+      "id": "atlas:person-confucius",
+      "qid": "Q4604",
+      "name": "Konfüçyüs",
+      "birth": [
+        -552,
+        -551
+      ],
+      "death": [
+        -479,
+        -479
+      ],
+      "sourceRevision": "2553435754",
+      "place": "Qufu",
+      "placeQid": "Q210287",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "552/551MÖ kronoloji alternatifleri saklanır; Qufu'nun temsil noktası gerçek doğum binası değildir."
+    },
+    {
+      "id": "atlas:person-paul",
+      "qid": "Q9200",
+      "name": "Aziz Pavlus",
+      "birth": [
+        5,
+        5
+      ],
+      "death": [
+        66,
+        66
+      ],
+      "sourceRevision": "2549174360",
+      "place": "Tarsus",
+      "placeQid": "Q134287",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "Yaklaşık5MS/Tarsus geleneği kesin yıllık doğum konumu sayılmadı."
+    },
+    {
+      "id": "atlas:person-cai-lun",
+      "qid": "Q229235",
+      "name": "Ts’ai Lun",
+      "birth": [
+        48,
+        62
+      ],
+      "death": [
+        121,
+        121
+      ],
+      "sourceRevision": "2530393820",
+      "place": "Leiyang",
+      "placeQid": "Q1025448",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "48/62MSalternatifleri için tek doğum yılı seçilmedi."
+    },
+    {
+      "id": "atlas:person-gutenberg",
+      "qid": "Q8958",
+      "name": "Johann Gutenberg",
+      "birth": [
+        1393,
+        1406
+      ],
+      "death": [
+        1468,
+        1468
+      ],
+      "sourceRevision": "2538954737",
+      "place": "Mainz",
+      "placeQid": "Q1720",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "Yaklaşık doğum dönemi ve Mainz ilişkisi; kesin gün/yıl çıkarılmaz."
+    },
+    {
+      "id": "atlas:person-columbus",
+      "qid": "Q7322",
+      "name": "Kristof Kolomb",
+      "birth": [
+        1450,
+        1451
+      ],
+      "death": [
+        1506,
+        1506
+      ],
+      "sourceRevision": "2556620244",
+      "place": "Genoa",
+      "placeQid": "Q1449",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "Doğum tarihi ve kökeni hakkında alternatifler bulunur. Genoa bağlantısı biyografik olarak tutulur; kesin yıllık nokta yoktur."
+    },
+    {
+      "id": "atlas:person-einstein",
+      "qid": "Q937",
+      "name": "Albert Einstein",
+      "birth": [
+        1879,
+        1879
+      ],
+      "death": [
+        1955,
+        1955
+      ],
+      "sourceRevision": "2557626532",
+      "place": "Ulm",
+      "placeQid": "Q3012",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q529",
+      "qid": "Q529",
+      "name": "Louis Pasteur",
+      "birth": [
+        1822,
+        1822
+      ],
+      "death": [
+        1895,
+        1895
+      ],
+      "sourceRevision": "2554508454",
+      "place": "Dole",
+      "placeQid": "Q205586",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q307",
+      "qid": "Q307",
+      "name": "Galileo Galilei",
+      "birth": [
+        1564,
+        1564
+      ],
+      "death": [
+        1642,
+        1642
+      ],
+      "sourceRevision": "2556999117",
+      "place": "Pisa",
+      "placeQid": "Q13375",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q868",
+      "qid": "Q868",
+      "name": "Aristoteles",
+      "birth": [
+        -384,
+        -384
+      ],
+      "death": [
+        -322,
+        -322
+      ],
+      "sourceRevision": "2556998625",
+      "place": "Stageira",
+      "placeQid": "Q846127",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q8747",
+      "qid": "Q8747",
+      "name": "Öklid",
+      "birth": null,
+      "death": null,
+      "sourceRevision": "2553820524",
+      "place": "unknown value",
+      "placeQid": null,
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "place-or-coordinate-not-verified",
+      "note": "Kaynakta4.yüzyılMÖ/340–315MÖönerisi hypothesis olarak nitelenmiş; doğum tarihi bilinmiyor bırakıldı. Doğum yeri unknown value; İskenderiye'de çalışması doğum kanıtı değildir."
+    },
+    {
+      "id": "births:person-q9077",
+      "qid": "Q9077",
+      "name": "Hz. Musa",
+      "birth": null,
+      "death": null,
+      "sourceRevision": "2556999858",
+      "place": "Helwan",
+      "placeQid": "Q771345",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "Kaynakta dinî/geleneksel kronoloji ve atıfsız Helwan önerisi vardır; tarihsel doğum zamanı/konumu doğrulanmadı. Rastgele tarih veya nokta üretilmedi."
+    },
+    {
+      "id": "births:person-q1035",
+      "qid": "Q1035",
+      "name": "Charles Darwin",
+      "birth": [
+        1809,
+        1809
+      ],
+      "death": [
+        1882,
+        1882
+      ],
+      "sourceRevision": "2556998940",
+      "place": "The Mount",
+      "placeQid": "Q2412935",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q7192",
+      "qid": "Q7192",
+      "name": "Qin Shi Huang",
+      "birth": [
+        -259,
+        -259
+      ],
+      "death": [
+        -210,
+        -210
+      ],
+      "sourceRevision": "2555850696",
+      "place": "Handan",
+      "placeQid": null,
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "place-or-coordinate-not-verified",
+      "note": "Doğum yeri veya yer koordinatının kaynak incelemesi tamamlanmadı; bu kayda harita noktası atanmadı. Tarihsel bilginin hiç bulunmadığı anlamına gelmez."
+    },
+    {
+      "id": "births:person-q1405",
+      "qid": "Q1405",
+      "name": "Augustus",
+      "birth": [
+        -63,
+        -63
+      ],
+      "death": [
+        14,
+        14
+      ],
+      "sourceRevision": "2555830380",
+      "place": "Rome",
+      "placeQid": "Q220",
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "place-or-coordinate-not-verified",
+      "note": "Doğum yeri veya yer koordinatının kaynak incelemesi tamamlanmadı; bu kayda harita noktası atanmadı. Tarihsel bilginin hiç bulunmadığı anlamına gelmez."
+    },
+    {
+      "id": "births:person-q619",
+      "qid": "Q619",
+      "name": "Nicolaus Copernicus",
+      "birth": [
+        1473,
+        1473
+      ],
+      "death": [
+        1543,
+        1543
+      ],
+      "sourceRevision": "2554507664",
+      "place": "Toruń",
+      "placeQid": "Q47554",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q39607",
+      "qid": "Q39607",
+      "name": "Antoine Lavoisier",
+      "birth": [
+        1743,
+        1743
+      ],
+      "death": [
+        1794,
+        1794
+      ],
+      "sourceRevision": "2554347676",
+      "place": "Paris",
+      "placeQid": "Q90",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q8413",
+      "qid": "Q8413",
+      "name": "Büyük Konstantin",
+      "birth": [
+        272,
+        272
+      ],
+      "death": [
+        337,
+        337
+      ],
+      "sourceRevision": "2556998908",
+      "place": "Niš",
+      "placeQid": "Q129259",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "Doğum zamanı belirsiz veya geleneksel; yer ilişkisi yalnız biyografik bilgidir. Rastgele yıl seçilip yıllık haritaya taşınmadı."
+    },
+    {
+      "id": "births:person-q8750",
+      "qid": "Q8750",
+      "name": "Michael Faraday",
+      "birth": [
+        1791,
+        1791
+      ],
+      "death": [
+        1867,
+        1867
+      ],
+      "sourceRevision": "2554864120",
+      "place": "Newington Butts",
+      "placeQid": "Q15030884",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q9095",
+      "qid": "Q9095",
+      "name": "James Clerk Maxwell",
+      "birth": [
+        1831,
+        1831
+      ],
+      "death": [
+        1879,
+        1879
+      ],
+      "sourceRevision": "2556001900",
+      "place": "Edinburgh",
+      "placeQid": "Q23436",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q9554",
+      "qid": "Q9554",
+      "name": "Martin Luther",
+      "birth": [
+        1483,
+        1483
+      ],
+      "death": [
+        1546,
+        1546
+      ],
+      "sourceRevision": "2555622060",
+      "place": "Eisleben",
+      "placeQid": "Q484870",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "Doğum zamanı belirsiz veya geleneksel; yer ilişkisi yalnız biyografik bilgidir. Rastgele yıl seçilip yıllık haritaya taşınmadı."
+    },
+    {
+      "id": "births:person-q23",
+      "qid": "Q23",
+      "name": "George Washington",
+      "birth": [
+        1732,
+        1732
+      ],
+      "death": [
+        1799,
+        1799
+      ],
+      "sourceRevision": "2557893050",
+      "place": "Westmoreland County",
+      "placeQid": "Q494413",
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "region-not-a-point",
+      "note": "Kaynak yalnız Westmoreland County verir. İlçe/bölge merkezine şehir veya doğum evi gibi nokta konmaz."
+    },
+    {
+      "id": "births:person-q9061",
+      "qid": "Q9061",
+      "name": "Karl Marx",
+      "birth": [
+        1818,
+        1818
+      ],
+      "death": [
+        1883,
+        1883
+      ],
+      "sourceRevision": "2553546102",
+      "place": "Trier",
+      "placeQid": "Q3138",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q494455",
+      "qid": "Q494455",
+      "name": "Orville Wright",
+      "birth": [
+        1871,
+        1871
+      ],
+      "death": [
+        1948,
+        1948
+      ],
+      "sourceRevision": "2535966113",
+      "place": "Dayton",
+      "placeQid": "Q34739",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q1396131",
+      "qid": "Q1396131",
+      "name": "Wilbur Wright",
+      "birth": [
+        1867,
+        1867
+      ],
+      "death": [
+        1912,
+        1912
+      ],
+      "sourceRevision": "2533481200",
+      "place": "Millville",
+      "placeQid": null,
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "place-or-coordinate-not-verified",
+      "note": "Doğum yeri veya yer koordinatının kaynak incelemesi tamamlanmadı; bu kayda harita noktası atanmadı. Tarihsel bilginin hiç bulunmadığı anlamına gelmez."
+    },
+    {
+      "id": "births:person-q720",
+      "qid": "Q720",
+      "name": "Cengiz Han",
+      "birth": [
+        1162,
+        1162
+      ],
+      "death": [
+        1227,
+        1227
+      ],
+      "sourceRevision": "2554508115",
+      "place": "Delüün Boldog",
+      "placeQid": "Q2068087",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "Doğum yılı ve Delüün Boldog yerleştirmesi tartışmalıdır; genel biyografik bağlantı."
+    },
+    {
+      "id": "births:person-q9381",
+      "qid": "Q9381",
+      "name": "Adam Smith",
+      "birth": [
+        1723,
+        1723
+      ],
+      "death": [
+        1790,
+        1790
+      ],
+      "sourceRevision": "2542880094",
+      "place": "Kirkcaldy",
+      "placeQid": "Q691685",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "5Haziran1723kayıtları doğum/vaftiz ayrımı gerektirir. Vaftiz günü doğum günü olarak sunulmaz; yıllık konum verilmedi."
+    },
+    {
+      "id": "births:person-q374210",
+      "qid": "Q374210",
+      "name": "Edward de Vere",
+      "birth": [
+        1550,
+        1550
+      ],
+      "death": [
+        1604,
+        1604
+      ],
+      "sourceRevision": "2549826636",
+      "place": "Hedingham Castle",
+      "placeQid": "Q1146583",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Edward de Vere ve William Shakespeare ayrı kimliklerdir; yazarlık atfı veya aynı kişi oldukları iddia edilmez."
+    },
+    {
+      "id": "births:person-q692",
+      "qid": "Q692",
+      "name": "William Shakespeare",
+      "birth": [
+        1564,
+        1564
+      ],
+      "death": [
+        1616,
+        1616
+      ],
+      "sourceRevision": "2557000281",
+      "place": "Stratford-upon-Avon",
+      "placeQid": "Q189288",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q41284",
+      "qid": "Q41284",
+      "name": "John Dalton",
+      "birth": [
+        1766,
+        1766
+      ],
+      "death": [
+        1844,
+        1844
+      ],
+      "sourceRevision": "2539469420",
+      "place": "Cumberland",
+      "placeQid": "Q23360",
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "region-not-a-point",
+      "note": "P19kaynağı Cumberland bölgesini verir; Eaglesfield'e kaynaksız daraltılmadı."
+    },
+    {
+      "id": "births:person-q8409",
+      "qid": "Q8409",
+      "name": "Büyük İskender",
+      "birth": [
+        -356,
+        -356
+      ],
+      "death": [
+        -323,
+        -323
+      ],
+      "sourceRevision": "2556998577",
+      "place": "Pella",
+      "placeQid": "Q213679",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q517",
+      "qid": "Q517",
+      "name": "Napolyon Bonapart",
+      "birth": [
+        1769,
+        1769
+      ],
+      "death": [
+        1821,
+        1821
+      ],
+      "sourceRevision": "2556998757",
+      "place": "Ajaccio",
+      "placeQid": "Q40104",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q8743",
+      "qid": "Q8743",
+      "name": "Thomas Edison",
+      "birth": [
+        1847,
+        1847
+      ],
+      "death": [
+        1931,
+        1931
+      ],
+      "sourceRevision": "2548142131",
+      "place": "Milan",
+      "placeQid": "Q1645063",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q43522",
+      "qid": "Q43522",
+      "name": "Antonie van Leeuwenhoek",
+      "birth": [
+        1632,
+        1632
+      ],
+      "death": [
+        1723,
+        1723
+      ],
+      "sourceRevision": "2533381086",
+      "place": "Delft",
+      "placeQid": "Q690",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q319689",
+      "qid": "Q319689",
+      "name": "William T. G. Morton",
+      "birth": [
+        1819,
+        1819
+      ],
+      "death": [
+        1868,
+        1868
+      ],
+      "sourceRevision": "2510662478",
+      "place": "Charlton",
+      "placeQid": "Q2559543",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q36488",
+      "qid": "Q36488",
+      "name": "Guglielmo Marconi",
+      "birth": [
+        1874,
+        1874
+      ],
+      "death": [
+        1937,
+        1937
+      ],
+      "sourceRevision": "2551352411",
+      "place": "Bologna",
+      "placeQid": "Q1891",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q352",
+      "qid": "Q352",
+      "name": "Adolf Hitler",
+      "birth": [
+        1889,
+        1889
+      ],
+      "death": [
+        1945,
+        1945
+      ],
+      "sourceRevision": "2557598376",
+      "place": "Adolf Hitler's birth house",
+      "placeQid": "Q360607",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q859",
+      "qid": "Q859",
+      "name": "Platon",
+      "birth": [
+        -427,
+        -427
+      ],
+      "death": [
+        -347,
+        -347
+      ],
+      "sourceRevision": "2557000020",
+      "place": "Athens",
+      "placeQid": "Q1524",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "Doğum kronolojisi ve Atina/Aegina alternatifleri tarihsel inceleme gerektirir. Tek kesin doğum noktası yoktur."
+    },
+    {
+      "id": "births:person-q44279",
+      "qid": "Q44279",
+      "name": "Oliver Cromwell",
+      "birth": [
+        1599,
+        1599
+      ],
+      "death": [
+        1658,
+        1658
+      ],
+      "sourceRevision": "2555598105",
+      "place": "Huntingdon",
+      "placeQid": "Q685640",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q34286",
+      "qid": "Q34286",
+      "name": "Alexander Graham Bell",
+      "birth": [
+        1847,
+        1847
+      ],
+      "death": [
+        1922,
+        1922
+      ],
+      "sourceRevision": "2537947515",
+      "place": "Edinburgh",
+      "placeQid": "Q23436",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q37064",
+      "qid": "Q37064",
+      "name": "Alexander Fleming",
+      "birth": [
+        1881,
+        1881
+      ],
+      "death": [
+        1955,
+        1955
+      ],
+      "sourceRevision": "2545213354",
+      "place": "Lochfield",
+      "placeQid": "Q56619307",
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "place-or-coordinate-not-verified",
+      "note": "Doğum yeri veya yer koordinatının kaynak incelemesi tamamlanmadı; bu kayda harita noktası atanmadı. Tarihsel bilginin hiç bulunmadığı anlamına gelmez."
+    },
+    {
+      "id": "births:person-q9353",
+      "qid": "Q9353",
+      "name": "John Locke",
+      "birth": [
+        1632,
+        1632
+      ],
+      "death": [
+        1704,
+        1704
+      ],
+      "sourceRevision": "2555113190",
+      "place": "Wrington",
+      "placeQid": "Q1825419",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q255",
+      "qid": "Q255",
+      "name": "Ludwig van Beethoven",
+      "birth": [
+        1770,
+        1770
+      ],
+      "death": [
+        1827,
+        1827
+      ],
+      "sourceRevision": "2556998705",
+      "place": "Bonn",
+      "placeQid": "Q586",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "16Aralık1770tarihi varsayımsal doğum günü,17Aralık vaftiz günüdür. Yalnız1770yılı ve Bonn temsil noktası kullanılır."
+    },
+    {
+      "id": "births:person-q40904",
+      "qid": "Q40904",
+      "name": "Werner Heisenberg",
+      "birth": [
+        1901,
+        1901
+      ],
+      "death": [
+        1976,
+        1976
+      ],
+      "sourceRevision": "2548746040",
+      "place": "Würzburg",
+      "placeQid": "Q2999",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q131405",
+      "qid": "Q131405",
+      "name": "Louis Daguerre",
+      "birth": [
+        1787,
+        1787
+      ],
+      "death": [
+        1851,
+        1851
+      ],
+      "sourceRevision": "2533005742",
+      "place": "Cormeilles-en-Parisis",
+      "placeQid": "Q841957",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q8605",
+      "qid": "Q8605",
+      "name": "Simón Bolívar",
+      "birth": [
+        1783,
+        1783
+      ],
+      "death": [
+        1830,
+        1830
+      ],
+      "sourceRevision": "2552589106",
+      "place": "Caracas",
+      "placeQid": "Q1533",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q9191",
+      "qid": "Q9191",
+      "name": "René Descartes",
+      "birth": [
+        1596,
+        1596
+      ],
+      "death": [
+        1650,
+        1650
+      ],
+      "sourceRevision": "2554593207",
+      "place": "Descartes",
+      "placeQid": "Q320299",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q5592",
+      "qid": "Q5592",
+      "name": "Michelangelo",
+      "birth": [
+        1475,
+        1475
+      ],
+      "death": [
+        1564,
+        1564
+      ],
+      "sourceRevision": "2555640056",
+      "place": "Caprese Michelangelo",
+      "placeQid": "Q52069",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q30578",
+      "qid": "Q30578",
+      "name": "Papa II. Urban",
+      "birth": [
+        1035,
+        1035
+      ],
+      "death": [
+        1099,
+        1099
+      ],
+      "sourceRevision": "2533462015",
+      "place": "Châtillon-sur-Marne",
+      "placeQid": "Q688485",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "Doğum zamanı belirsiz veya geleneksel; yer ilişkisi yalnız biyografik bilgidir. Rastgele yıl seçilip yıllık haritaya taşınmadı."
+    },
+    {
+      "id": "births:person-q8467",
+      "qid": "Q8467",
+      "name": "Hz. Ömer",
+      "birth": [
+        586,
+        586
+      ],
+      "death": [
+        644,
+        644
+      ],
+      "sourceRevision": "2553251155",
+      "place": "Mecca",
+      "placeQid": "Q5806",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "Kaynağın yaklaşık doğum yılı tek kesin doğum tarihi gibi sunulmaz."
+    },
+    {
+      "id": "births:person-q8589",
+      "qid": "Q8589",
+      "name": "Aşoka",
+      "birth": [
+        -304,
+        -304
+      ],
+      "death": [
+        -232,
+        -232
+      ],
+      "sourceRevision": "2557800796",
+      "place": "Patna",
+      "placeQid": "Q80484",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "304MÖ/Patna geleneksel bağlantısı tarihsel kesin doğum konumu sayılmaz."
+    },
+    {
+      "id": "births:person-q8018",
+      "qid": "Q8018",
+      "name": "Aziz Augustinus",
+      "birth": [
+        354,
+        354
+      ],
+      "death": [
+        430,
+        430
+      ],
+      "sourceRevision": "2553821024",
+      "place": "Thagaste",
+      "placeQid": "Q1324444",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q93128",
+      "qid": "Q93128",
+      "name": "William Harvey",
+      "birth": [
+        1578,
+        1578
+      ],
+      "death": [
+        1657,
+        1657
+      ],
+      "sourceRevision": "2542845972",
+      "place": "Folkestone",
+      "placeQid": "Q375314",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q9123",
+      "qid": "Q9123",
+      "name": "Ernest Rutherford",
+      "birth": [
+        1871,
+        1871
+      ],
+      "death": [
+        1937,
+        1937
+      ],
+      "sourceRevision": "2556601972",
+      "place": "Nelson",
+      "placeQid": "Q206687",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q37577",
+      "qid": "Q37577",
+      "name": "John Calvin",
+      "birth": [
+        1509,
+        1509
+      ],
+      "death": [
+        1564,
+        1564
+      ],
+      "sourceRevision": "2557957520",
+      "place": "Noyon",
+      "placeQid": "Q49831",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q37970",
+      "qid": "Q37970",
+      "name": "Gregor Mendel",
+      "birth": [
+        1822,
+        1822
+      ],
+      "death": [
+        1884,
+        1884
+      ],
+      "sourceRevision": "2549173808",
+      "place": "Hynčice",
+      "placeQid": "Q2711986",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q9021",
+      "qid": "Q9021",
+      "name": "Max Planck",
+      "birth": [
+        1858,
+        1858
+      ],
+      "death": [
+        1947,
+        1947
+      ],
+      "sourceRevision": "2548083779",
+      "place": "Kiel",
+      "placeQid": "Q1707",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q155768",
+      "qid": "Q155768",
+      "name": "Joseph Lister",
+      "birth": [
+        1827,
+        1827
+      ],
+      "death": [
+        1912,
+        1912
+      ],
+      "sourceRevision": "2533383538",
+      "place": "Upton House, Newham",
+      "placeQid": "Q28404673",
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "place-or-coordinate-not-verified",
+      "note": "Doğum yeri veya yer koordinatının kaynak incelemesi tamamlanmadı; bu kayda harita noktası atanmadı. Tarihsel bilginin hiç bulunmadığı anlamına gelmez."
+    },
+    {
+      "id": "births:person-q75782",
+      "qid": "Q75782",
+      "name": "Nikolaus August Otto",
+      "birth": [
+        1832,
+        1832
+      ],
+      "death": [
+        1891,
+        1891
+      ],
+      "sourceRevision": "2547680400",
+      "place": "Holzhausen an der Haide",
+      "placeQid": "Q550842",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q44741",
+      "qid": "Q44741",
+      "name": "Francisco Pizarro",
+      "birth": [
+        1475,
+        1478
+      ],
+      "death": [
+        1541,
+        1541
+      ],
+      "sourceRevision": "2528541813",
+      "place": "Trujillo",
+      "placeQid": "Q324489",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "Doğum zamanı belirsiz veya geleneksel; yer ilişkisi yalnız biyografik bilgidir. Rastgele yıl seçilip yıllık haritaya taşınmadı."
+    },
+    {
+      "id": "births:person-q7326",
+      "qid": "Q7326",
+      "name": "Hernando Cortés",
+      "birth": [
+        1485,
+        1485
+      ],
+      "death": [
+        1547,
+        1547
+      ],
+      "sourceRevision": "2554641253",
+      "place": "Medellín",
+      "placeQid": "Q668384",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q11812",
+      "qid": "Q11812",
+      "name": "Thomas Jefferson",
+      "birth": [
+        1743,
+        1743
+      ],
+      "death": [
+        1826,
+        1826
+      ],
+      "sourceRevision": "2543179205",
+      "place": "Shadwell",
+      "placeQid": "Q4179352",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q45859",
+      "qid": "Q45859",
+      "name": "Kraliçe I. Isabella",
+      "birth": [
+        1451,
+        1451
+      ],
+      "death": [
+        1504,
+        1504
+      ],
+      "sourceRevision": "2550331379",
+      "place": "Monasterio de Nuestra Señora de Gracia",
+      "placeQid": null,
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "place-or-coordinate-not-verified",
+      "note": "Doğum yeri veya yer koordinatının kaynak incelemesi tamamlanmadı; bu kayda harita noktası atanmadı. Tarihsel bilginin hiç bulunmadığı anlamına gelmez."
+    },
+    {
+      "id": "births:person-q855",
+      "qid": "Q855",
+      "name": "Joseph Stalin",
+      "birth": [
+        1878,
+        1878
+      ],
+      "death": [
+        1953,
+        1953
+      ],
+      "sourceRevision": "2558021094",
+      "place": "Gori",
+      "placeQid": "Q19583",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q1048",
+      "qid": "Q1048",
+      "name": "Julius Caesar",
+      "birth": [
+        -100,
+        -100
+      ],
+      "death": [
+        -44,
+        -44
+      ],
+      "sourceRevision": "2558045041",
+      "place": "Rome",
+      "placeQid": "Q220",
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "place-or-coordinate-not-verified",
+      "note": "Doğum yeri veya yer koordinatının kaynak incelemesi tamamlanmadı; bu kayda harita noktası atanmadı. Tarihsel bilginin hiç bulunmadığı anlamına gelmez."
+    },
+    {
+      "id": "births:person-q37594",
+      "qid": "Q37594",
+      "name": "Fatih William",
+      "birth": [
+        1027,
+        1028
+      ],
+      "death": [
+        1087,
+        1087
+      ],
+      "sourceRevision": "2555397984",
+      "place": "Falaise",
+      "placeQid": "Q193306",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "1027/1028alternatifleri için aradaki bir tarih seçilmedi."
+    },
+    {
+      "id": "births:person-q9215",
+      "qid": "Q9215",
+      "name": "Sigmund Freud",
+      "birth": [
+        1856,
+        1856
+      ],
+      "death": [
+        1939,
+        1939
+      ],
+      "sourceRevision": "2548468221",
+      "place": "Příbor",
+      "placeQid": "Q654019",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q40852",
+      "qid": "Q40852",
+      "name": "Edward Jenner",
+      "birth": [
+        1749,
+        1749
+      ],
+      "death": [
+        1823,
+        1823
+      ],
+      "sourceRevision": "2533326667",
+      "place": "Berkeley",
+      "placeQid": "Q584443",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q35149",
+      "qid": "Q35149",
+      "name": "Wilhelm Conrad Röntgen",
+      "birth": [
+        1845,
+        1845
+      ],
+      "death": [
+        1923,
+        1923
+      ],
+      "sourceRevision": "2546345719",
+      "place": "Lennep",
+      "placeQid": "Q486577",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q1339",
+      "qid": "Q1339",
+      "name": "Johann Sebastian Bach",
+      "birth": [
+        1685,
+        1685
+      ],
+      "death": [
+        1750,
+        1750
+      ],
+      "sourceRevision": "2555637345",
+      "place": "Eisenach",
+      "placeQid": "Q7070",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q9333",
+      "qid": "Q9333",
+      "name": "Lao Tzu",
+      "birth": null,
+      "death": null,
+      "sourceRevision": "2553545428",
+      "place": "Chu",
+      "placeQid": "Q504759",
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "region-not-a-point",
+      "note": "Tartışmalı geleneksel kronoloji; Chu krallığı şehir değildir. Kronoloji bilinmiyor; krallık merkezine kişi konmaz."
+    },
+    {
+      "id": "births:person-q9068",
+      "qid": "Q9068",
+      "name": "Voltaire",
+      "birth": [
+        1694,
+        1694
+      ],
+      "death": [
+        1778,
+        1778
+      ],
+      "sourceRevision": "2548778220",
+      "place": "Paris",
+      "placeQid": "Q90",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q8963",
+      "qid": "Q8963",
+      "name": "Johannes Kepler",
+      "birth": [
+        1571,
+        1571
+      ],
+      "death": [
+        1630,
+        1630
+      ],
+      "sourceRevision": "2541332568",
+      "place": "Weil der Stadt",
+      "placeQid": "Q505147",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q8753",
+      "qid": "Q8753",
+      "name": "Enrico Fermi",
+      "birth": [
+        1901,
+        1901
+      ],
+      "death": [
+        1954,
+        1954
+      ],
+      "sourceRevision": "2538521031",
+      "place": null,
+      "placeQid": null,
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "place-or-coordinate-not-verified",
+      "note": "Doğum yeri veya yer koordinatının kaynak incelemesi tamamlanmadı; bu kayda harita noktası atanmadı. Tarihsel bilginin hiç bulunmadığı anlamına gelmez."
+    },
+    {
+      "id": "births:person-q7604",
+      "qid": "Q7604",
+      "name": "Leonhard Euler",
+      "birth": [
+        1707,
+        1707
+      ],
+      "death": [
+        1783,
+        1783
+      ],
+      "sourceRevision": "2555104800",
+      "place": "Basel",
+      "placeQid": "Q78",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q6527",
+      "qid": "Q6527",
+      "name": "Jean-Jacques Rousseau",
+      "birth": [
+        1712,
+        1712
+      ],
+      "death": [
+        1778,
+        1778
+      ],
+      "sourceRevision": "2555602521",
+      "place": "Geneva",
+      "placeQid": "Q71",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q1399",
+      "qid": "Q1399",
+      "name": "Niccolò Machiavelli",
+      "birth": [
+        1469,
+        1469
+      ],
+      "death": [
+        1527,
+        1527
+      ],
+      "sourceRevision": "2556999709",
+      "place": "Florence",
+      "placeQid": "Q2044",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q13526",
+      "qid": "Q13526",
+      "name": "Thomas Malthus",
+      "birth": [
+        1766,
+        1766
+      ],
+      "death": [
+        1834,
+        1834
+      ],
+      "sourceRevision": "2533403120",
+      "place": "Westcott",
+      "placeQid": null,
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "place-or-coordinate-not-verified",
+      "note": "Doğum yeri veya yer koordinatının kaynak incelemesi tamamlanmadı; bu kayda harita noktası atanmadı. Tarihsel bilginin hiç bulunmadığı anlamına gelmez."
+    },
+    {
+      "id": "births:person-q9696",
+      "qid": "Q9696",
+      "name": "John F. Kennedy",
+      "birth": [
+        1917,
+        1917
+      ],
+      "death": [
+        1963,
+        1963
+      ],
+      "sourceRevision": "2556233839",
+      "place": "John Fitzgerald Kennedy National Historic Site",
+      "placeQid": "Q3181502",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q334361",
+      "qid": "Q334361",
+      "name": "Gregory Pincus",
+      "birth": [
+        1903,
+        1903
+      ],
+      "death": [
+        1967,
+        1967
+      ],
+      "sourceRevision": "2533433186",
+      "place": "Woodbine",
+      "placeQid": "Q1086543",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q203922",
+      "qid": "Q203922",
+      "name": "Mani",
+      "birth": [
+        216,
+        216
+      ],
+      "death": [
+        274,
+        274
+      ],
+      "sourceRevision": "2533403500",
+      "place": "Ctesiphon",
+      "placeQid": "Q192541",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "P19Ctesiphon yakınlarıdır; şehir merkezi kişinin tam doğum konumu gibi gösterilmez."
+    },
+    {
+      "id": "births:person-q1394",
+      "qid": "Q1394",
+      "name": "Lenin",
+      "birth": [
+        1870,
+        1870
+      ],
+      "death": [
+        1924,
+        1924
+      ],
+      "sourceRevision": "2557276009",
+      "place": "Ulyanovsk",
+      "placeQid": "Q5627",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q7418",
+      "qid": "Q7418",
+      "name": "Sui Wen Ti",
+      "birth": [
+        541,
+        541
+      ],
+      "death": [
+        604,
+        604
+      ],
+      "sourceRevision": "2543098683",
+      "place": "Chang'an",
+      "placeQid": "Q6501000",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q7328",
+      "qid": "Q7328",
+      "name": "Vasco da Gama",
+      "birth": [
+        1469,
+        1469
+      ],
+      "death": [
+        1524,
+        1524
+      ],
+      "sourceRevision": "2547021048",
+      "place": null,
+      "placeQid": null,
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "place-or-coordinate-not-verified",
+      "note": "Doğum yeri veya yer koordinatının kaynak incelemesi tamamlanmadı; bu kayda harita noktası atanmadı. Tarihsel bilginin hiç bulunmadığı anlamına gelmez."
+    },
+    {
+      "id": "births:person-q8423",
+      "qid": "Q8423",
+      "name": "Büyük Kiros",
+      "birth": [
+        -600,
+        -600
+      ],
+      "death": [
+        -530,
+        -530
+      ],
+      "sourceRevision": "2549642208",
+      "place": "Anshan Persia",
+      "placeQid": "Q569107",
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "region-not-a-point",
+      "note": "Yaklaşık600MÖ ve Anshan bölge bağlantısı; tam doğum noktası değil."
+    },
+    {
+      "id": "births:person-q8479",
+      "qid": "Q8479",
+      "name": "Büyük Petro",
+      "birth": [
+        1672,
+        1672
+      ],
+      "death": [
+        1725,
+        1725
+      ],
+      "sourceRevision": "2555629916",
+      "place": "Moscow",
+      "placeQid": null,
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "place-or-coordinate-not-verified",
+      "note": "Doğum yeri veya yer koordinatının kaynak incelemesi tamamlanmadı; bu kayda harita noktası atanmadı. Tarihsel bilginin hiç bulunmadığı anlamına gelmez."
+    },
+    {
+      "id": "births:person-q5816",
+      "qid": "Q5816",
+      "name": "Mao Zedong",
+      "birth": [
+        1893,
+        1893
+      ],
+      "death": [
+        1976,
+        1976
+      ],
+      "sourceRevision": "2555043590",
+      "place": "Shaoshan",
+      "placeQid": "Q838542",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q37388",
+      "qid": "Q37388",
+      "name": "Francis Bacon",
+      "birth": [
+        1561,
+        1561
+      ],
+      "death": [
+        1626,
+        1626
+      ],
+      "sourceRevision": "2555094721",
+      "place": "York House, Strand",
+      "placeQid": null,
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "place-or-coordinate-not-verified",
+      "note": "Doğum yeri veya yer koordinatının kaynak incelemesi tamamlanmadı; bu kayda harita noktası atanmadı. Tarihsel bilginin hiç bulunmadığı anlamına gelmez."
+    },
+    {
+      "id": "births:person-q8768",
+      "qid": "Q8768",
+      "name": "Henry Ford",
+      "birth": [
+        1863,
+        1863
+      ],
+      "death": [
+        1947,
+        1947
+      ],
+      "sourceRevision": "2547925240",
+      "place": "Springwells Township",
+      "placeQid": null,
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "place-or-coordinate-not-verified",
+      "note": "Doğum yeri veya yer koordinatının kaynak incelemesi tamamlanmadı; bu kayda harita noktası atanmadı. Tarihsel bilginin hiç bulunmadığı anlamına gelmez."
+    },
+    {
+      "id": "births:person-q188903",
+      "qid": "Q188903",
+      "name": "Mencius",
+      "birth": [
+        -372,
+        -372
+      ],
+      "death": [
+        -289,
+        -289
+      ],
+      "sourceRevision": "2522964855",
+      "place": "Zhu",
+      "placeQid": "Q227007",
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "region-not-a-point",
+      "note": "Yaklaşık372MÖ ve Zhu siyasi/coğrafi bölge bağlantısıdır; kent noktası üretilmedi."
+    },
+    {
+      "id": "births:person-q35811",
+      "qid": "Q35811",
+      "name": "Zerdüşt",
+      "birth": null,
+      "death": null,
+      "sourceRevision": "2553251728",
+      "place": "Ray",
+      "placeQid": "Q636188",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "Kronoloji ve Ray/İran'ın başka bölgeleri gibi yer önerileri tartışmalı; tek yıl veya yer seçilmedi."
+    },
+    {
+      "id": "births:person-q7207",
+      "qid": "Q7207",
+      "name": "Kraliçe I. Elizabeth",
+      "birth": [
+        1533,
+        1533
+      ],
+      "death": [
+        1603,
+        1603
+      ],
+      "sourceRevision": "2553555372",
+      "place": "Palace of Placentia",
+      "placeQid": "Q1424839",
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "place-or-coordinate-not-verified",
+      "note": "Doğum yeri veya yer koordinatının kaynak incelemesi tamamlanmadı; bu kayda harita noktası atanmadı. Tarihsel bilginin hiç bulunmadığı anlamına gelmez."
+    },
+    {
+      "id": "births:person-q30487",
+      "qid": "Q30487",
+      "name": "Mihail Gorbaçov",
+      "birth": [
+        1931,
+        1931
+      ],
+      "death": [
+        2022,
+        2022
+      ],
+      "sourceRevision": "2557363525",
+      "place": "Privolnoye",
+      "placeQid": "Q988522",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q189574",
+      "qid": "Q189574",
+      "name": "Menes",
+      "birth": null,
+      "death": [
+        -3125,
+        -3125
+      ],
+      "sourceRevision": "2313880817",
+      "place": null,
+      "placeQid": null,
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "place-or-coordinate-not-verified",
+      "note": "Menes'in tarihsel kimliği/Narmer bağlantısı tartışmalıdır. Kaynak3200'lerMÖ; uygulamanınMÖ2000başlangıcından önce, bilinmeyen doğum yeri var."
+    },
+    {
+      "id": "births:person-q3044",
+      "qid": "Q3044",
+      "name": "Charlemagne",
+      "birth": [
+        748,
+        748
+      ],
+      "death": [
+        814,
+        814
+      ],
+      "sourceRevision": "2555621150",
+      "place": "Franciaf",
+      "placeQid": "Q146246",
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "region-not-a-point",
+      "note": "Franciaf geniş siyasi alanıdır; Aachen/Liège gibi şehirler ek kanıt olmadan doğum yeri yapılmaz."
+    },
+    {
+      "id": "births:person-q6691",
+      "qid": "Q6691",
+      "name": "Homeros",
+      "birth": null,
+      "death": null,
+      "sourceRevision": "2550451808",
+      "place": "unknown value",
+      "placeQid": null,
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "place-or-coordinate-not-verified",
+      "note": "Homeros'un biyografisi/doğum yeri ve9./8.yüzyılMÖkronolojisi tartışmalı; şehir seçilmedi."
+    },
+    {
+      "id": "births:person-q41866",
+      "qid": "Q41866",
+      "name": "İmparator I. Jüstinyen",
+      "birth": [
+        482,
+        482
+      ],
+      "death": [
+        565,
+        565
+      ],
+      "sourceRevision": "2556337840",
+      "place": "Taurision (Serbia)",
+      "placeQid": null,
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "place-or-coordinate-not-verified",
+      "note": "Doğum yeri veya yer koordinatının kaynak incelemesi tamamlanmadı; bu kayda harita noktası atanmadı. Tarihsel bilginin hiç bulunmadığı anlamına gelmez."
+    },
+    {
+      "id": "births:person-q9422",
+      "qid": "Q9422",
+      "name": "Mahavira",
+      "birth": [
+        -599,
+        -599
+      ],
+      "death": [
+        -527,
+        -527
+      ],
+      "sourceRevision": "2542334953",
+      "place": "Vaishali",
+      "placeQid": "Q1509463",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "599/527MÖgeleneksel kronoloji ve Vaishali ilişkisidir; kesin yıllık doğum konumu değildir."
+    },
+    {
+      "id": "births:person-q9438",
+      "qid": "Q9438",
+      "name": "Aquinalı Aziz Thomas",
+      "birth": [
+        1225,
+        1225
+      ],
+      "death": [
+        1274,
+        1274
+      ],
+      "sourceRevision": "2553821071",
+      "place": "castle of the counts of Aquino",
+      "placeQid": "Q106766784",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q46633",
+      "qid": "Q46633",
+      "name": "Charles Babbage",
+      "birth": [
+        1791,
+        1791
+      ],
+      "death": [
+        1871,
+        1871
+      ],
+      "sourceRevision": "2536180759",
+      "place": "Walworth",
+      "placeQid": "Q1231883",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q161904",
+      "qid": "Q161904",
+      "name": "Keops",
+      "birth": null,
+      "death": [
+        -2566,
+        -2566
+      ],
+      "sourceRevision": "2541197066",
+      "place": null,
+      "placeQid": null,
+      "geometryAvailable": false,
+      "annualBirth": false,
+      "reason": "place-or-coordinate-not-verified",
+      "note": "Doğum zamanı27.yüzyılMÖ, uygulamanınMÖ2000başlangıcından önce; doğum yeri doğrulanmadı."
+    },
+    {
+      "id": "births:person-q7186",
+      "qid": "Q7186",
+      "name": "Marie Curie",
+      "birth": [
+        1867,
+        1867
+      ],
+      "death": [
+        1934,
+        1934
+      ],
+      "sourceRevision": "2557259765",
+      "place": "Freta Street",
+      "placeQid": "Q9365159",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q34969",
+      "qid": "Q34969",
+      "name": "Benjamin Franklin",
+      "birth": [
+        1706,
+        1706
+      ],
+      "death": [
+        1790,
+        1790
+      ],
+      "sourceRevision": "2556797972",
+      "place": "Boston",
+      "placeQid": "Q100",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "1706Gregoryen doğum yılı kullanılır;1705Jülyen/Old Style alternatifinden gün dönüşümü tahmin edilmedi."
+    },
+    {
+      "id": "births:person-q1001",
+      "qid": "Q1001",
+      "name": "Mahatma Gandhi",
+      "birth": [
+        1869,
+        1869
+      ],
+      "death": [
+        1948,
+        1948
+      ],
+      "sourceRevision": "2558023003",
+      "place": "Porbandar",
+      "placeQid": "Q6419912",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q91",
+      "qid": "Q91",
+      "name": "Abraham Lincoln",
+      "birth": [
+        1809,
+        1809
+      ],
+      "death": [
+        1865,
+        1865
+      ],
+      "sourceRevision": "2557499328",
+      "place": "Sinking Spring Farm",
+      "placeQid": "Q113363481",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q1496",
+      "qid": "Q1496",
+      "name": "Ferdinand Magellan",
+      "birth": [
+        1480,
+        1480
+      ],
+      "death": [
+        1521,
+        1521
+      ],
+      "sourceRevision": "2555300449",
+      "place": "Ponte da Barca",
+      "placeQid": "Q491484",
+      "geometryAvailable": true,
+      "annualBirth": false,
+      "reason": "biographical-only-no-arbitrary-year",
+      "note": "Yaklaşık1480ve Portekiz'de tartışmalı doğum yeri önerileri için tek kesin nokta seçilmedi."
+    },
+    {
+      "id": "births:person-q762",
+      "qid": "Q762",
+      "name": "Leonardo da Vinci",
+      "birth": [
+        1452,
+        1452
+      ],
+      "death": [
+        1519,
+        1519
+      ],
+      "sourceRevision": "2554507676",
+      "place": "Anchiano",
+      "placeQid": "Q154184",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "Kaynaklı doğum yeri ilişkisi; nokta yerin yaklaşık temsilidir, doğum evinin veya kişinin tam koordinatı değildir."
+    },
+    {
+      "id": "births:person-q5152",
+      "qid": "Q5152",
+      "name": "Mustafa Kemal Atatürk",
+      "birth": [
+        1881,
+        1881
+      ],
+      "death": [
+        1938,
+        1938
+      ],
+      "sourceRevision": "2556817916",
+      "place": "Thessaloniki",
+      "placeQid": "Q17151",
+      "geometryAvailable": true,
+      "annualBirth": true,
+      "reason": "supported-birth-year-only",
+      "note": "1881–Selanik Bakanlık kaynağıyla da karşılaştırıldı: https://www.ktb.gov.tr/TR-96300/ataturk39un-hayati.html . 19 Mayıs doğum günü kanıtı olarak alınmadı. Şehir noktası, doğum evinin tam koordinatı değildir."
+    }
+  ]
+}
