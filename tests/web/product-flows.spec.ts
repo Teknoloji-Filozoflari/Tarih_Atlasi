@@ -65,6 +65,7 @@ test('E: 390px keyboard search, layers, nonmodal details and rotation do not ove
   await page
     .getByRole('button', { name: 'Kaynaklı coğrafyaya odaklan — Hastings Muharebesi' })
     .click();
+  await page.getByRole('button', { name: 'Ayrıntıları göster', exact: true }).click();
   await expect(page.getByRole('button', { name: 'Ayrıntıyı genişlet' })).toBeVisible();
   await page.getByRole('button', { name: 'Ayrıntıyı genişlet' }).click();
   await page.getByRole('button', { name: 'Ayrıntıyı küçült' }).click();
@@ -72,7 +73,7 @@ test('E: 390px keyboard search, layers, nonmodal details and rotation do not ove
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   await page.keyboard.press('Escape');
   await page.getByRole('button', { name: 'Katmanlar', exact: true }).click();
-  await expect(page.getByRole('switch')).toHaveCount(6);
+  await expect(page.getByRole('switch')).toHaveCount(7);
 });
 test('legacy flat preference cannot restore 2D and independently saved layers survive', async ({
   page,

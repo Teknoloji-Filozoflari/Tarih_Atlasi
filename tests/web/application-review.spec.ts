@@ -13,6 +13,8 @@ test('country name opens a QID-resolved external article while globe/year state 
   page,
   context,
 }) => {
+  const pageErrors: string[] = [];
+  page.on('pageerror', (error) => pageErrors.push(error.message));
   // SYNTHETIC API transport response only. No source geometry is replaced.
   let requests = 0;
   await context.route('https://www.wikidata.org/w/api.php?*', async (route) => {
@@ -57,7 +59,8 @@ test('country name opens a QID-resolved external article while globe/year state 
   await expect(host).toHaveAttribute('data-projection', 'globe', { timeout: 30000 });
   await expect(host).toHaveAttribute('data-historical-year', '2024', { timeout: 30000 });
   const name = page.locator('.atlas-country-label').first();
-  await expect(name).toBeVisible();
+  await expect(name).toBeVisible({ timeout: 30000 });
+  expect(pageErrors.filter((message) => /hydration|#418/iu.test(message))).toEqual([]);
   const popup = context.waitForEvent('page');
   await name.click();
   const article = await popup;

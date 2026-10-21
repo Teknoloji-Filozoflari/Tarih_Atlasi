@@ -17,7 +17,9 @@ test('Turkey opening exposes a separately labelled current city card while histo
     '2024',
     { timeout: 30000 },
   );
-  await expect(page.getByText('⌖ Güncel yerleşimler', { exact: true })).toBeVisible();
+  await expect(
+    page.getByRole('button', { name: 'Güncel şehir bilgisini aç: Ankara', exact: true }),
+  ).toBeVisible({ timeout: 30000 });
   await page
     .getByRole('button', { name: 'Güncel şehir bilgisini aç: Ankara', exact: true })
     .click();
