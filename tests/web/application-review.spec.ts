@@ -9,6 +9,10 @@ test.beforeEach(async ({ page }) => {
       console.error('BROWSER_HTTP_ERROR', response.status(), response.url());
   });
 });
+test.afterEach(async ({ page }, info) => {
+  if (info.status !== info.expectedStatus)
+    console.error('FAILED_UI', (await page.locator('body').innerText()).slice(0, 5000));
+});
 test('country name opens a QID-resolved external article while globe/year state stays in the app', async ({
   page,
   context,
