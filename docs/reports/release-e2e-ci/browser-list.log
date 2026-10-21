@@ -1,0 +1,90 @@
+npm notice run tarih-atlasi@0.1.0 test:web:production
+npm notice run ATLAS_TEST_PRODUCTION=1 playwright test tests/web/product-flows.spec.ts tests/web/product-quality.spec.ts tests/web/sources.spec.ts tests/web/preferences.spec.ts tests/web/release-audit.spec.ts tests/web/application-review.spec.ts tests/web/discovery-content.spec.ts tests/web/modern-places.spec.ts tests/web/person-births.spec.ts tests/web/requested-people.spec.ts tests/web/ottoman-people.spec.ts tests/web/local-notes.spec.ts tests/web/broad-history.spec.ts tests/web/history-import.spec.ts --list
+Listing tests:
+  [desktop] › application-review.spec.ts:2:1 › country name opens a QID-resolved external article while globe/year state stays in the app
+  [desktop] › application-review.spec.ts:60:1 › timeline exposes an exact year, round ruler and accessible scale choices without year zero
+  [desktop] › application-review.spec.ts:87:1 › compact date tools jump, preserve scale and open year entry without stacking dialogs
+  [desktop] › application-review.spec.ts:107:1 › 2010 country records use short labels, include Libya and Chad, and keep source detail collapsed
+  [desktop] › broad-history.spec.ts:4:1 › expanded Nobel scientist is searchable with a short card and source-qualified birth-year action
+  [desktop] › broad-history.spec.ts:31:1 › expanded battle is discoverable from the same local search without requiring a fabricated current-year marker
+  [desktop] › discovery-content.spec.ts:11:1 › Turkey opening exposes a separately labelled current city card while history year stays unchanged
+  [desktop] › discovery-content.spec.ts:38:1 › requested person is found locally with short sourced information and no fabricated map position
+  [desktop] › discovery-content.spec.ts:55:1 › Ottoman battle is selectable only in its supported year and keeps source precision visible
+  [desktop] › history-import.spec.ts:3:1 › downloaded Nobel profile opens a short sourced card without changing year or inventing a location
+  [desktop] › local-notes.spec.ts:3:1 › personal point survives reload, is explicitly unverified and remains editable
+  [desktop] › local-notes.spec.ts:30:1 › person card opens compact with verified Wikipedia link and reveals original controls explicitly
+  [desktop] › local-notes.spec.ts:54:1 › Atatürk remains selectable over current-city labels and replaces an open city card
+  [desktop] › local-notes.spec.ts:93:1 › picking a personal point is not interrupted by modern city markers
+  [desktop] › modern-places.spec.ts:3:1 › modern country/place catalog exposes real installed coverage or an explicit missing-package state
+  [desktop] › ottoman-people.spec.ts:4:1 › Selim II opens a sourced birth-year card and selects 1524 explicitly
+  [desktop] › ottoman-people.spec.ts:23:1 › disputed Suleiman chronology cannot offer an exact birth-year map action
+  [desktop] › person-births.spec.ts:4:1 › Atatürk birth action explicitly selects 1881 and enables the approximate location without lifetime spreading
+  [desktop] › person-births.spec.ts:32:1 › traditional birth dates remain readable biographies without a manufactured birth-year action
+  [desktop] › person-births.spec.ts:44:1 › pending source revision is reported separately from historical knowledge and never gains a fabricated point
+  [desktop] › preferences.spec.ts:15:1 › six independent layers, filters and label density persist across reload; attribution stays reachable
+  [desktop] › preferences.spec.ts:59:1 › settings preserve selected year, use reduced motion, and reset only preferences
+  [desktop] › preferences.spec.ts:91:1 › unknown preference version is retained until explicit reset and does not disable attribution
+  [desktop] › product-flows.spec.ts:11:1 › A: unsupported 2026 is honest, 1453 reconstructs polities and 1867 retains treaty source
+  [desktop] › product-flows.spec.ts:35:1 › B+D: real search explicitly changes date, focuses and keeps the globe with selection
+  [desktop] › product-flows.spec.ts:56:1 › E: 390px keyboard search, layers, nonmodal details and rotation do not overflow
+  [desktop] › product-flows.spec.ts:82:1 › legacy flat preference cannot restore 2D and independently saved layers survive
+  [desktop] › product-flows.spec.ts:108:1 › C: nearest source preview is an explicit choice and keeps requested/source years separate
+  [desktop] › product-flows.spec.ts:124:1 › F: corrupt bookmark storage requires explicit recovery, then save and reopen work
+  [desktop] › product-flows.spec.ts:142:1 › G: reviewed country discovery opens its source card and never extends borders beyond the source period
+  [desktop] › release-audit.spec.ts:16:1 › privacy policy is accessible and distinguishes local storage, external sites and pending hosting review
+  [desktop] › release-audit.spec.ts:29:1 › HTML-like search stays an input value without executing or creating an image node
+  [desktop] › requested-people.spec.ts:3:1 › new sourced birth is selectable while unknown death remains unknown
+  [desktop] › requested-people.spec.ts:21:1 › unresolved request stays searchable without fake biography, coordinate or guessed Wikipedia link
+  [desktop] › requested-people.spec.ts:34:1 › Hannah Arendt is now a published sourced profile rather than an unresolved request
+  [desktop] › requested-people.spec.ts:45:1 › music groups have no person birth card while explicit individual members remain discoverable requests
+  [desktop] › sources.spec.ts:28:1 › Türkçe sitelink güvenli sekmede açılır; çevrimdışı kaynak ve belirsizlik paneli yılı korur
+  [desktop] › sources.spec.ts:55:1 › incelenmemiş dil bağlantısı yok diye sunulmaz; antlaşma Wikidata fallback kullanır
+  [desktop] › sources.spec.ts:80:1 › dış bağlantı hatası Türkçe açıklanır; ham hata ayrıntısı gösterilmez ve kart kullanılabilir kalır
+  [narrow] › application-review.spec.ts:2:1 › country name opens a QID-resolved external article while globe/year state stays in the app
+  [narrow] › application-review.spec.ts:60:1 › timeline exposes an exact year, round ruler and accessible scale choices without year zero
+  [narrow] › application-review.spec.ts:87:1 › compact date tools jump, preserve scale and open year entry without stacking dialogs
+  [narrow] › application-review.spec.ts:107:1 › 2010 country records use short labels, include Libya and Chad, and keep source detail collapsed
+  [narrow] › broad-history.spec.ts:4:1 › expanded Nobel scientist is searchable with a short card and source-qualified birth-year action
+  [narrow] › broad-history.spec.ts:31:1 › expanded battle is discoverable from the same local search without requiring a fabricated current-year marker
+  [narrow] › discovery-content.spec.ts:11:1 › Turkey opening exposes a separately labelled current city card while history year stays unchanged
+  [narrow] › discovery-content.spec.ts:38:1 › requested person is found locally with short sourced information and no fabricated map position
+  [narrow] › discovery-content.spec.ts:55:1 › Ottoman battle is selectable only in its supported year and keeps source precision visible
+  [narrow] › history-import.spec.ts:3:1 › downloaded Nobel profile opens a short sourced card without changing year or inventing a location
+  [narrow] › local-notes.spec.ts:3:1 › personal point survives reload, is explicitly unverified and remains editable
+  [narrow] › local-notes.spec.ts:30:1 › person card opens compact with verified Wikipedia link and reveals original controls explicitly
+  [narrow] › local-notes.spec.ts:54:1 › Atatürk remains selectable over current-city labels and replaces an open city card
+  [narrow] › local-notes.spec.ts:93:1 › picking a personal point is not interrupted by modern city markers
+  [narrow] › modern-places.spec.ts:3:1 › modern country/place catalog exposes real installed coverage or an explicit missing-package state
+  [narrow] › ottoman-people.spec.ts:4:1 › Selim II opens a sourced birth-year card and selects 1524 explicitly
+  [narrow] › ottoman-people.spec.ts:23:1 › disputed Suleiman chronology cannot offer an exact birth-year map action
+  [narrow] › person-births.spec.ts:4:1 › Atatürk birth action explicitly selects 1881 and enables the approximate location without lifetime spreading
+  [narrow] › person-births.spec.ts:32:1 › traditional birth dates remain readable biographies without a manufactured birth-year action
+  [narrow] › person-births.spec.ts:44:1 › pending source revision is reported separately from historical knowledge and never gains a fabricated point
+  [narrow] › preferences.spec.ts:15:1 › six independent layers, filters and label density persist across reload; attribution stays reachable
+  [narrow] › preferences.spec.ts:59:1 › settings preserve selected year, use reduced motion, and reset only preferences
+  [narrow] › preferences.spec.ts:91:1 › unknown preference version is retained until explicit reset and does not disable attribution
+  [narrow] › product-flows.spec.ts:11:1 › A: unsupported 2026 is honest, 1453 reconstructs polities and 1867 retains treaty source
+  [narrow] › product-flows.spec.ts:35:1 › B+D: real search explicitly changes date, focuses and keeps the globe with selection
+  [narrow] › product-flows.spec.ts:56:1 › E: 390px keyboard search, layers, nonmodal details and rotation do not overflow
+  [narrow] › product-flows.spec.ts:82:1 › legacy flat preference cannot restore 2D and independently saved layers survive
+  [narrow] › product-flows.spec.ts:108:1 › C: nearest source preview is an explicit choice and keeps requested/source years separate
+  [narrow] › product-flows.spec.ts:124:1 › F: corrupt bookmark storage requires explicit recovery, then save and reopen work
+  [narrow] › product-flows.spec.ts:142:1 › G: reviewed country discovery opens its source card and never extends borders beyond the source period
+  [narrow] › release-audit.spec.ts:16:1 › privacy policy is accessible and distinguishes local storage, external sites and pending hosting review
+  [narrow] › release-audit.spec.ts:29:1 › HTML-like search stays an input value without executing or creating an image node
+  [narrow] › requested-people.spec.ts:3:1 › new sourced birth is selectable while unknown death remains unknown
+  [narrow] › requested-people.spec.ts:21:1 › unresolved request stays searchable without fake biography, coordinate or guessed Wikipedia link
+  [narrow] › requested-people.spec.ts:34:1 › Hannah Arendt is now a published sourced profile rather than an unresolved request
+  [narrow] › requested-people.spec.ts:45:1 › music groups have no person birth card while explicit individual members remain discoverable requests
+  [narrow] › sources.spec.ts:28:1 › Türkçe sitelink güvenli sekmede açılır; çevrimdışı kaynak ve belirsizlik paneli yılı korur
+  [narrow] › sources.spec.ts:55:1 › incelenmemiş dil bağlantısı yok diye sunulmaz; antlaşma Wikidata fallback kullanır
+  [narrow] › sources.spec.ts:80:1 › dış bağlantı hatası Türkçe açıklanır; ham hata ayrıntısı gösterilmez ve kart kullanılabilir kalır
+  [visual] › product-quality.spec.ts:14:3 › real app layout and screenshot 1280x720
+  [visual] › product-quality.spec.ts:14:3 › real app layout and screenshot 1440x900
+  [visual] › product-quality.spec.ts:14:3 › real app layout and screenshot 1920x1080
+  [visual] › product-quality.spec.ts:14:3 › real app layout and screenshot 360x800
+  [visual] › product-quality.spec.ts:14:3 › real app layout and screenshot 390x844
+  [visual] › product-quality.spec.ts:14:3 › real app layout and screenshot 430x932
+  [visual] › product-quality.spec.ts:14:3 › real app layout and screenshot 768x1024
+  [visual] › product-quality.spec.ts:14:3 › real app layout and screenshot 1024x768
+Total: 86 tests in 14 files

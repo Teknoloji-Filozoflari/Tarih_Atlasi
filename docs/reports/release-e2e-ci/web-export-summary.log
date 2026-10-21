@@ -1,0 +1,11 @@
+_expo/static/js/web/maplibre-gl-9b81f2a1f0fd570c1858db9612f04321.js (1.1MB)
+_expo/static/js/web/physical-detail-b41f86105df044d89744983822a8622c.js (20MB)
+
+› Static routes (4):
+/about (27KB)
+/ (index) (21KB)
+/_sitemap (21KB)
+/+not-found (21KB)
+
+Exported: dist
+{"status":"PASS","scope":"hash-validated static web data, outside JavaScript bundles","packs":16102,"bytes":645992949}

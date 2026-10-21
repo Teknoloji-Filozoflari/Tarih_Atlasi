@@ -16,6 +16,8 @@ Yeni browser tanılarının strict TS kontrolü ve
 HTTP bind ve Chromium launch ortam engeli nedeniyle yeni E2E **BLOCKED**.
 Yıl/renderer, ülke/şehir etiketi ve not silme kabulü hâlâ açık; Docker/Android
 bu tur NOT TESTED. Release oluşturulmadı; kararlı yayın NO-GO sürer.
+Yerel gönderim kopyasında kod düzeltmesi `07eb9ba8` commit'iyle hazırlandı;
+uzak depoya bu ortamdan push yapılmadı. Komut logları ayrıca kayıt altındadır.
 [Bulgular ve doğrulama sınırları](reports/release-e2e-ci.md).
 
 **21 Ekim 2026 — Release biçim kapısı: yerelde IMPLEMENTED; uzak Release BLOCKED.**
