@@ -74,10 +74,19 @@ export function SourceActions({
       )}
       {wikipedia && result.url && (
         <Action
-          label={`${t('sources.wikipedia')} (${result.kind === 'trwiki' ? 'TR' : 'EN'})`}
+          label={
+            compact
+              ? t('sources.wikipedia')
+              : `${t('sources.wikipedia')} (${result.kind === 'trwiki' ? 'TR' : 'EN'})`
+          }
           symbol="↗"
           onPress={() => open(result.url!, 'wikipedia')}
         />
+      )}
+      {wikipedia && compact && (
+        <AppText muted variant="small">
+          {t(result.kind === 'trwiki' ? 'sources.tr' : 'sources.en')}
+        </AppText>
       )}
       {!wikipedia && allowArticleLookup && wikidataId && (
         <Action

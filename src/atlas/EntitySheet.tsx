@@ -71,7 +71,7 @@ export function EntitySheet({
             presentation === 'tools' && styles.toolsCard,
             compact && { height: 'auto', minHeight: 0, maxHeight: '65%' },
           ]}
-          testID={presentation === 'tools' ? 'timeline-tools-dialog' : undefined}
+          testID={presentation === 'tools' ? 'timeline-tools-dialog' : 'entity-sheet'}
           edges={nonmodal ? ['left', 'right'] : ['top', 'bottom', 'left', 'right']}
           accessibilityViewIsModal={!nonmodal}
         >

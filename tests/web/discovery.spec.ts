@@ -1,5 +1,5 @@
 import { tool, searchCatalog } from './menu';
-import { expect, test, type Page } from '@playwright/test';
+import { expect, test, type Page } from './fixtures';
 async function fallback(page: Page) {
   await page.addInitScript(() => {
     const original = HTMLCanvasElement.prototype.getContext;

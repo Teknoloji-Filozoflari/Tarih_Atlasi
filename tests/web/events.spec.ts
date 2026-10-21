@@ -1,5 +1,5 @@
 import { tool } from './menu';
-import { expect, test } from '@playwright/test';
+import { expect, test } from './fixtures';
 
 async function chooseYear(page: import('@playwright/test').Page, year: string) {
   await page

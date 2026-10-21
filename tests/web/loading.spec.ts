@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test';
+import { expect, test } from './fixtures';
 async function year(page: import('@playwright/test').Page, value: string) {
   const close = page.getByRole('button', { name: 'Paneli kapat', exact: true });
   if (await close.isVisible()) await close.click();

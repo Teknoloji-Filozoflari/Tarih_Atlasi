@@ -1,5 +1,5 @@
 import { searchCatalog } from './menu';
-import { expect, test } from '@playwright/test';
+import { expect, test } from './fixtures';
 
 // Gerçek Expo UI; yalnız WebGL özelliği hata yoluna zorlanır. GPU kanıtı değildir.
 test.beforeEach(async ({ page }) => {

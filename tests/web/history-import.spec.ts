@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test';
+import { expect, test } from './fixtures';
 import { searchCatalog } from './menu';
 test('downloaded Nobel profile opens a short sourced card without changing year or inventing a location', async ({
   page,

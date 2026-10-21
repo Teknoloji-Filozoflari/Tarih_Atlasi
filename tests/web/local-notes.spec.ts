@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test';
+import { expect, test } from './fixtures';
 import { tool, searchCatalog } from './menu';
 test('personal point survives reload, is explicitly unverified and remains editable', async ({
   page,

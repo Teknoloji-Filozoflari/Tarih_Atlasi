@@ -1,5 +1,5 @@
 import { timelineTools, tool } from './menu';
-import { expect, test } from '@playwright/test';
+import { expect, test } from './fixtures';
 
 async function disableWebGL(page: import('@playwright/test').Page) {
   await page.addInitScript(() => {

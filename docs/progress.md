@@ -1,5 +1,35 @@
 # Tarih Atlası — İlerleme kaydı
 
+**21 Ekim 2026 — Release tarayıcı hataları: PARTIAL; hedefli düzeltmeler IMPLEMENTED.**
+
+06fa7efb ile format engeli kapandı; uzak npm check ve web export PASS.
+39635270143 Release çalıştırması gerçek tarayıcıda 43 FAIL / 41 PASS ile durdu.
+Action web seçili durumu, kompakt Wikipedia etiketi, panel/arama test yardımcıları
+ve güncel katalogla uyuşmayan test sabitleri düzeltildi. Aynı yılın kimlik/kişi/
+olay arşiv taramaları birleştirildi; bütün eski sonuç ve kanıtlarla eşdeğerlik
+regresyonu eklendi. Veri, geometri, lisans ve dış bağımlılık değişmedi.
+
+**Yerel PASS:** npm run check; 417 ana + 5 worker, lint, strict native/web TS,
+veri/lisans/hash/formatter. Web export 4 route + 16.102 şehir paketinde PASS.
+Yeni browser tanılarının strict TS kontrolü ve
+86 E2E senaryosunun listelenmesi PASS; bu browser çalıştırma değildir.
+HTTP bind ve Chromium launch ortam engeli nedeniyle yeni E2E **BLOCKED**.
+Yıl/renderer, ülke/şehir etiketi ve not silme kabulü hâlâ açık; Docker/Android
+bu tur NOT TESTED. Release oluşturulmadı; kararlı yayın NO-GO sürer.
+[Bulgular ve doğrulama sınırları](reports/release-e2e-ci.md).
+
+**21 Ekim 2026 — Release biçim kapısı: yerelde IMPLEMENTED; uzak Release BLOCKED.**
+
+39632750777 çalıştırmasının c27dd1fc commit'inde lint, native/web tip kontrolü,
+414 ana + 5 worker ve veri/lisans/hash kapıları geçti. Son formatter yalnız
+src/app/index.tsx için başarısız oldu; build/E2E/Docker/paket adımları atlandı.
+Önceki verilen route kodunun biçimi hatalıydı. Yerel route kesin uzak sürümün
+Prettier çıktısına eşitlendi; uzak dosyaya göre yalnız whitespace değişir.
+Hata tekrar üretildi; birebir formatter çıktısı, hedefli lint/format ve native/web
+strict typecheck PASS. Browser, Docker ve Android bu tur NOT TESTED.
+Uzak gönderim yapılmadı; Releases boş. Yeni ürün fazına geçilmedi.
+[Hata kanıtı ve gönderim adımları](reports/release-format-ci.md).
+
 **21 Ekim 2026 — İlk GitHub CI / Releases takibi: CSS düzeltmesi yerelde IMPLEMENTED; gönderim 403 nedeniyle BLOCKED; Release henüz yok.**
 
 Kullanıcının push işlemi doğrulandı (0129efeb). GitHub'da Node 24.22.0 + npm

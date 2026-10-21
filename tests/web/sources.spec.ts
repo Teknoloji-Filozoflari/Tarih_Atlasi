@@ -1,5 +1,5 @@
 import { tool, searchCatalog } from './menu';
-import { expect, test, type Page } from '@playwright/test';
+import { expect, test, type Page } from './fixtures';
 
 async function safeTabCapture(page: Page, throws = false) {
   await page.addInitScript((fail) => {
@@ -30,7 +30,10 @@ test('Türkçe sitelink güvenli sekmede açılır; çevrimdışı kaynak ve bel
 }) => {
   await safeTabCapture(page);
   const card = await personCard(page);
-  const yearBefore = await page.getByTestId('timeline-bar').textContent();
+  const yearButton = page
+    .getByTestId('timeline-bar')
+    .getByRole('button', { name: /^(MS|MÖ) [0-9]+$/u });
+  const yearBefore = await yearButton.getAttribute('aria-label');
   await page.context().setOffline(true);
   await card.getByRole('button', { name: 'Kaynakları gör', exact: true }).click();
   const sources = card.getByTestId('source-details');
@@ -41,12 +44,12 @@ test('Türkçe sitelink güvenli sekmede açılır; çevrimdışı kaynak ve bel
   await expect(sources).toContainText('P551');
   await card.getByRole('button', { name: 'Veri belirsizliği', exact: true }).click();
   await expect(card.getByTestId('source-uncertainty')).toContainText('1853-03-30 / 1890-07-29');
-  await card.getByRole('button', { name: 'Wikipedia’da aç (TR)', exact: true }).click();
+  await card.getByRole('button', { name: 'Wikipedia’da aç', exact: true }).click();
   await expect
     .poll(() => page.evaluate(() => Reflect.get(window, '__externalCaptures')))
     .toEqual([['https://tr.wikipedia.org/wiki/Vincent_van_Gogh', '_blank', 'noopener,noreferrer']]);
   await expect(sources).toBeVisible();
-  expect(await page.getByTestId('timeline-bar').textContent()).toBe(yearBefore);
+  await expect(yearButton).toHaveAttribute('aria-label', yearBefore!);
   await expect(card.getByRole('img')).toHaveCount(0);
 });
 test('incelenmemiş dil bağlantısı yok diye sunulmaz; antlaşma Wikidata fallback kullanır', async ({
@@ -79,7 +82,7 @@ test('dış bağlantı hatası Türkçe açıklanır; ham hata ayrıntısı gös
 }) => {
   await safeTabCapture(page, true);
   const card = await personCard(page);
-  await card.getByRole('button', { name: 'Wikipedia’da aç (TR)' }).click();
+  await card.getByRole('button', { name: 'Wikipedia’da aç' }).click();
   await expect(card.getByRole('alert').filter({ hasText: 'Bağlantı açılamadı' })).toBeVisible();
   await expect(card).not.toContainText('RAW_ENDPOINT_DETAIL');
   await card.getByRole('button', { name: 'Kaynakları gör', exact: true }).click();

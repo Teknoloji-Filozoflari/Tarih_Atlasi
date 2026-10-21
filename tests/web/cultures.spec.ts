@@ -1,5 +1,5 @@
 import { tool } from './menu';
-import { expect, test } from '@playwright/test';
+import { expect, test } from './fixtures';
 
 test('haritasız kültür listesi eksik pilotu ve çağdaş taban uyarısını açıklar', async ({
   page,

@@ -1,5 +1,5 @@
 import { tool } from './menu';
-import { expect, test } from '@playwright/test';
+import { expect, test } from './fixtures';
 
 test('siyasi kayıt klavye listesi, kaynak kartı, açık kamera odağı ve desteksiz yıl', async ({
   page,

@@ -31,30 +31,32 @@ export function LayersDrawer({
   return (
     <View style={s.stack}>
       <AppText muted>{t('atlas.layers.help')}</AppText>
-      {layers.map((layer) => (
-        <View
-          key={layer.id}
-          style={[
-            s.row,
-            { justifyContent: 'space-between', minHeight: theme.layout.minTouchTarget },
-          ]}
-        >
-          <View style={[s.row, { flex: 1 }]}>
-            <AppText accessible={false} style={{ color: layer.color }}>
-              {layer.symbol}
-            </AppText>
-            <AppText style={{ flex: 1 }}>{t(layer.label)}</AppText>
+      <View style={s.stack} testID="historical-layer-controls">
+        {layers.map((layer) => (
+          <View
+            key={layer.id}
+            style={[
+              s.row,
+              { justifyContent: 'space-between', minHeight: theme.layout.minTouchTarget },
+            ]}
+          >
+            <View style={[s.row, { flex: 1 }]}>
+              <AppText accessible={false} style={{ color: layer.color }}>
+                {layer.symbol}
+              </AppText>
+              <AppText style={{ flex: 1 }}>{t(layer.label)}</AppText>
+            </View>
+            <Switch
+              accessibilityLabel={t(layer.label)}
+              hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
+              disabled={disabled}
+              value={visibility[layer.id]}
+              onValueChange={() => onToggle(layer.id)}
+              trackColor={{ true: theme.colors.accent, false: theme.colors.border }}
+            />
           </View>
-          <Switch
-            accessibilityLabel={t(layer.label)}
-            hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
-            disabled={disabled}
-            value={visibility[layer.id]}
-            onValueChange={() => onToggle(layer.id)}
-            trackColor={{ true: theme.colors.accent, false: theme.colors.border }}
-          />
-        </View>
-      ))}
+        ))}
+      </View>
       <AppText variant="small" muted>
         {t('atlas.layers.distinction')}
       </AppText>

@@ -11,6 +11,7 @@ import type { PlaceLayerState } from './modern-city-markers.ts';
 import type { PlacesProvider } from '../../places/repository.ts';
 import { theme } from '../../theme/tokens.ts';
 import type * as MapLibre from 'maplibre-gl';
+import { dataErrorCode } from '../../data/error-code.ts';
 import { t } from '../../i18n/index.ts';
 import {
   DEMO_ID,
@@ -299,8 +300,9 @@ export function mountRenderer(
             firstFeature?.properties.coverageMode ?? 'no supported historical geography',
           catalogVersion: PILOT_VERSION,
         });
-      } catch {
+      } catch (error) {
         if (!scope.disposed && !signal.aborted && revision === viewRevision) {
+          console.warn('[atlas.renderer.data]', dataErrorCode(error));
           lastViewSignature = '';
           if (callbacks.dataError) callbacks.dataError(inputRevision);
           else fail('assets');

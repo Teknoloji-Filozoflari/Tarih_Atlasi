@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test';
+import { expect, test } from './fixtures';
 import { searchCatalog } from './menu';
 
 test('Atatürk birth action explicitly selects 1881 and enables the approximate location without lifetime spreading', async ({

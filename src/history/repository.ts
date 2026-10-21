@@ -200,13 +200,17 @@ export function createHistoryRepository(input: HistoryManifest, read: HistoryRea
       const value = await record(row.id, signal);
       return value ? link(value) : null;
     },
-    async *enginesAt(year: number, kind: 'person' | 'event' | 'geometry', signal?: AbortSignal) {
+    async *enginesAt(
+      year: number,
+      kind: 'person' | 'event' | 'geometry' | 'all',
+      signal?: AbortSignal,
+    ) {
       const indices = [
         ...new Set(
           manifest.rows
             .filter(
               (r) =>
-                (kind === 'geometry' ? r.geometry : r.kind === kind) &&
+                (kind === 'geometry' ? r.geometry : kind === 'all' || r.kind === kind) &&
                 (kind === 'geometry' && r.geometryYear !== null
                   ? r.geometryYear === year
                   : r.activeStart !== null &&

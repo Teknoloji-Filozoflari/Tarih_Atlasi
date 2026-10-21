@@ -1,5 +1,5 @@
 import { timelineTools, tool } from './menu';
-import { expect, test } from '@playwright/test';
+import { expect, test } from './fixtures';
 const preferenceKey = 'tarihatlasi.preferences.v1';
 test.beforeEach(async ({ page }) => {
   // Exercise accessible fallback UI; these scenarios are not GPU acceptance.
@@ -17,7 +17,15 @@ test('six independent layers, filters and label density persist across reload; a
 }) => {
   await page.goto('/');
   await page.getByRole('button', { name: 'Katmanlar', exact: true }).click();
-  const switches = page.getByRole('switch');
+  const switches = page.getByTestId('historical-layer-controls').getByRole('switch');
+  await expect(switches).toHaveCount(6);
+  const cities = page.getByRole('switch', {
+    name: 'Güncel şehirler ve idari birimler',
+    exact: true,
+  });
+  await expect(cities).toBeChecked();
+  await cities.click();
+  await expect(cities).not.toBeChecked();
   await expect(switches).toHaveCount(6);
   for (const name of ['Devlet', 'Kültür', 'Kişi', 'Savaş', 'Olay', 'Tarihî yer / isimler']) {
     const control = page.getByRole('switch', { name, exact: true });
@@ -37,12 +45,13 @@ test('six independent layers, filters and label density persist across reload; a
     .toBe(true);
   await page.reload();
   await page.getByRole('button', { name: 'Katmanlar', exact: true }).click();
+  await expect(cities).not.toBeChecked();
   await expect(
     page.getByRole('switch', { name: 'Tarihî yer / isimler', exact: true }),
   ).not.toBeChecked();
   await expect(
     page.getByRole('button', { name: 'Olay türü: Antlaşma', exact: true }),
-  ).toHaveAttribute('aria-selected', 'true');
+  ).toHaveAttribute('aria-pressed', 'true');
   await expect(page.getByTestId('legend-panel')).toContainText('Siyasi egemenlik değildir');
   await page.getByRole('button', { name: 'Harita lisansları ve atıflar', exact: true }).click();
   await expect(page.getByText(/Natural Earth/u).first()).toBeVisible();
@@ -53,8 +62,12 @@ test('settings preserve selected year, use reduced motion, and reset only prefer
   await page.goto('/');
   await timelineTools(page);
   await page
-    .getByTestId('timeline-bar')
+    .getByTestId('timeline-tools')
     .getByRole('button', { name: 'Başlangıca git', exact: true })
+    .click();
+  await page
+    .getByTestId('timeline-tools-dialog')
+    .getByRole('button', { name: 'Paneli kapat', exact: true })
     .click();
   await tool(page, 'Ayarlar ve gizlilik');
   await page.getByRole('button', { name: 'Hareketi azalt', exact: true }).click();
@@ -69,7 +82,7 @@ test('settings preserve selected year, use reduced motion, and reset only prefer
     .click();
   await expect(
     page.getByRole('button', { name: 'Hareket: sistem tercihi', exact: true }),
-  ).toHaveAttribute('aria-selected', 'true');
+  ).toHaveAttribute('aria-pressed', 'true');
   await page.getByRole('button', { name: 'Paneli kapat', exact: true }).click();
   await expect(
     page.getByTestId('timeline-bar').getByRole('button', { name: 'MÖ 2000', exact: true }),

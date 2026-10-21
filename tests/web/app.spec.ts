@@ -1,5 +1,5 @@
 import { tool } from './menu';
-import { expect, test } from '@playwright/test';
+import { expect, test } from './fixtures';
 
 test('kaynaklı 1867 pilotu gerçek haritada çizilir; yıl ve devlet görünürlüğü bağımsızdır', async ({
   page,

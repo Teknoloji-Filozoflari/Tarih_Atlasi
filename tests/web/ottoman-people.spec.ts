@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test';
+import { expect, test } from './fixtures';
 import { searchCatalog } from './menu';
 
 test('Selim II opens a sourced birth-year card and selects 1524 explicitly', async ({ page }) => {

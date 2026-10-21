@@ -7,6 +7,35 @@ export function withHistoryTimeline(
   base: TimelineEngine,
   archive: HistoryRepository,
 ): TimelineEngine {
+  // Frame assembly asks for identities, people and events concurrently. Read each
+  // matching archive pack once, instead of thrashing the eight-pack LRU three times.
+  // Only the latest year's projected hits are retained; raw catalog limits stay intact.
+  async function collectYear(year: number) {
+    const entities: Awaited<ReturnType<TimelineEngine['getEntitiesAtYear']>> = [];
+    const persons: Awaited<ReturnType<TimelineEngine['getPersonsAtYear']>> = [];
+    const events: Awaited<ReturnType<TimelineEngine['getEventsAtYear']>> = [];
+    for await (const { engine } of archive.enginesAt(year, 'all')) {
+      const [e, p, v] = await Promise.all([
+        engine.getEntitiesAtYear(year),
+        engine.getPersonsAtYear(year),
+        engine.getEventsAtYear(year),
+      ]);
+      entities.push(...e);
+      persons.push(...p);
+      events.push(...v);
+    }
+    return { entities, persons, events };
+  }
+  let latest: { year: number; result: ReturnType<typeof collectYear> } | null = null;
+  function yearContents(year: number) {
+    if (latest?.year === year) return latest.result;
+    const result = collectYear(year);
+    latest = { year, result };
+    void result.catch(() => {
+      if (latest?.result === result) latest = null;
+    });
+    return result;
+  }
   async function snapshots(options: CoverageOptions = {}) {
     const groups = new Map(
       (await base.getAvailableSnapshots(options)).map((s) => [s.year, new Set(s.recordIds)]),
@@ -74,27 +103,21 @@ export function withHistoryTimeline(
   return {
     ...base,
     async getEntitiesAtYear(year) {
-      const extra = [];
-      for (const kind of ['person', 'event'] as const)
-        for await (const { engine } of archive.enginesAt(year, kind))
-          extra.push(...(await engine.getEntitiesAtYear(year)));
+      const [baseEntities, extra] = await Promise.all([
+        base.getEntitiesAtYear(year),
+        yearContents(year),
+      ]);
       return [
-        ...new Map(
-          [...(await base.getEntitiesAtYear(year)), ...extra].map((h) => [h.record.id, h]),
-        ).values(),
+        ...new Map([...baseEntities, ...extra.entities].map((h) => [h.record.id, h])).values(),
       ];
     },
     async getPersonsAtYear(year) {
-      const result = [...(await base.getPersonsAtYear(year))];
-      for await (const { engine } of archive.enginesAt(year, 'person'))
-        result.push(...(await engine.getPersonsAtYear(year)));
-      return result;
+      const [persons, extra] = await Promise.all([base.getPersonsAtYear(year), yearContents(year)]);
+      return [...persons, ...extra.persons];
     },
     async getEventsAtYear(year) {
-      const result = [...(await base.getEventsAtYear(year))];
-      for await (const { engine } of archive.enginesAt(year, 'event'))
-        result.push(...(await engine.getEventsAtYear(year)));
-      return result;
+      const [events, extra] = await Promise.all([base.getEventsAtYear(year), yearContents(year)]);
+      return [...events, ...extra.events];
     },
     async matchesFilters(record, year, filters) {
       if (archive.rowFor(record.id)) return matchesHistoricalFilters(record, filters, year, false);
@@ -103,6 +126,7 @@ export function withHistoryTimeline(
     getDataCoverage: coverage,
     getAvailableSnapshots: snapshots,
     clearCache() {
+      latest = null;
       base.clearCache();
       archive.clear();
     },

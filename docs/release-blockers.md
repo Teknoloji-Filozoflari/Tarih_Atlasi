@@ -1,5 +1,16 @@
 # Yayın engelleri — güncel kalite kapısı
 
+## 21 Ekim 2026 — Release CI gerçek tarayıcı sonucu
+
+**NO-GO sürer.** Kaynak push ve 06fa7efb format düzeltmesi doğrulandı. Son
+Release job'ında npm check ve web export PASS; browser E2E 43 FAIL / 41 PASS.
+Docker/paket/Release adımları çalışmadı. Yerel Action/kart/ortak arşiv okuma ve
+test akışı düzeltmeleri 417+5 unit kontrolünden geçer; yeni gerçek browser
+sonucu alınmadığı için 43 hata çözülmüş sayılmaz. Yıl-renderer eşleşmesi,
+ilk ülke/şehir etiketleri ve kişisel not silme kabulü açık kalır. Android CI
+ayrıca runner shutdown sırasında iptal oldu; fiziksel cihaz kabulü yoktur.
+[Hata kanıtı, uygulanan değişiklikler ve kalan doğrulama](reports/release-e2e-ci.md).
+
 ## 21 Ekim 2026 — GitHub / Docker hazırlığı
 
 **Kararlı ürün yayını NO-GO sürer.** Kaynak yayınına uygun temizleme, README,

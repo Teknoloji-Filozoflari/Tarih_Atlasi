@@ -1,4 +1,4 @@
-import { expect, test, type Page } from '@playwright/test';
+import { expect, test, type Page } from './fixtures';
 import { tool, searchCatalog } from './menu';
 async function year(page: Page, value: string) {
   await page
@@ -17,7 +17,7 @@ test('A: unsupported 2026 is honest, 1453 reconstructs polities and 1867 retains
   await expect(host).toHaveAttribute('data-historical-year', '2024');
   await year(page, 'MS 2000');
   await expect(host).toHaveAttribute('data-historical-year', '2000');
-  await expect(host).toHaveAttribute('data-historical-count', '193');
+  await expect(host).toHaveAttribute('data-historical-count', '196');
   await year(page, 'MS 2026');
   await expect(host).toHaveAttribute('data-historical-count', '0');
   await expect(page.getByTestId('historical-coverage')).toHaveText('Veri yok');
@@ -65,14 +65,19 @@ test('E: 390px keyboard search, layers, nonmodal details and rotation do not ove
   await page
     .getByRole('button', { name: 'Kaynaklı coğrafyaya odaklan — Hastings Muharebesi' })
     .click();
-  await expect(page.getByRole('button', { name: 'Ayrıntıyı genişlet' })).toBeVisible();
-  await page.getByRole('button', { name: 'Ayrıntıyı genişlet' }).click();
-  await page.getByRole('button', { name: 'Ayrıntıyı küçült' }).click();
+  const details = page
+    .getByTestId('entity-sheet')
+    .getByRole('button', { name: 'Ayrıntıları göster', exact: true });
+  await expect(details).toHaveAttribute('aria-pressed', 'false');
+  await details.click();
+  await expect(details).toHaveAttribute('aria-pressed', 'true');
+  await details.click();
+  await expect(details).toHaveAttribute('aria-pressed', 'false');
   await page.setViewportSize({ width: 844, height: 390 });
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   await page.keyboard.press('Escape');
   await page.getByRole('button', { name: 'Katmanlar', exact: true }).click();
-  await expect(page.getByRole('switch')).toHaveCount(6);
+  await expect(page.getByTestId('historical-layer-controls').getByRole('switch')).toHaveCount(6);
 });
 test('legacy flat preference cannot restore 2D and independently saved layers survive', async ({
   page,
@@ -111,7 +116,7 @@ test('C: nearest source preview is an explicit choice and keeps requested/source
   await tool(page, 'En yakın kaynak yılını önizle');
   await expect(host).toHaveAttribute('data-historical-source-year', '2024');
   await expect(host).toHaveAttribute('data-historical-year', '2025');
-  await expect(host).toHaveAttribute('data-historical-count', '186');
+  await expect(host).toHaveAttribute('data-historical-count', '189');
   await expect(page.getByTestId('snapshot-preview-label')).toContainText('MS 2024');
   await tool(page, 'Kaynak yılı önizlemesini kapat');
   await expect(host).toHaveAttribute('data-historical-count', '0');
@@ -141,7 +146,7 @@ test('G: reviewed country discovery opens its source card and never extends bord
   await year(page, 'MS 2000');
   const host = page.getByTestId('globe-canvas-host');
   await expect(host).toHaveAttribute('data-historical-year', '2000', { timeout: 25000 });
-  await expect(host).toHaveAttribute('data-historical-count', '193');
+  await expect(host).toHaveAttribute('data-historical-count', '196');
   await tool(page, 'Bu yılın siyasi kayıtları');
   await expect(page.getByRole('button', { name: 'İspanya', exact: true })).toHaveCount(1);
   await page.getByRole('button', { name: 'Türkiye', exact: true }).click();

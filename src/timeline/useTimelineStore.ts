@@ -6,6 +6,7 @@ import { timelineFrameLoader } from './frame';
 import { createTimelineStore } from './store';
 import type { Layer } from './engine';
 import { useReducedMotion } from '../atlas/useReducedMotion';
+import { dataErrorCode } from '../data/error-code';
 export function useTimelineStore(
   maxYear: number,
   layers: readonly Layer[],
@@ -17,10 +18,15 @@ export function useTimelineStore(
   const [store] = useState(() =>
     createTimelineStore(Math.min(2024, maxYear), maxYear, async (year, options) => {
       if (!pilotTimeline) throw new Error('Pilot rejected');
-      const frame = await timelineFrameLoader(pilotTimeline)(year, options);
-      const { ensureApplicationData } = await import('../data/application-runtime');
-      const { status } = await ensureApplicationData(frame.coverage, options.signal);
-      return { ...frame, dataStatus: status };
+      try {
+        const frame = await timelineFrameLoader(pilotTimeline)(year, options);
+        const { ensureApplicationData } = await import('../data/application-runtime');
+        const { status } = await ensureApplicationData(frame.coverage, options.signal);
+        return { ...frame, dataStatus: status };
+      } catch (error) {
+        if (!options.signal.aborted) console.warn('[atlas.timeline]', dataErrorCode(error));
+        throw error;
+      }
     }),
   );
   const state = useSyncExternalStore(store.subscribe, store.getSnapshot, store.getSnapshot);

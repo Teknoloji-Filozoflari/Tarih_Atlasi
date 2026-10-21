@@ -1,5 +1,5 @@
 import { tool, searchCatalog } from './menu';
-import { expect, test } from '@playwright/test';
+import { expect, test } from './fixtures';
 
 test('harita olmasa da kişi aranır; yaşam dönemi konum kanıtı diye gösterilmez', async ({
   page,

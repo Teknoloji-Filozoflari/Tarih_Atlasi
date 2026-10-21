@@ -1,4 +1,4 @@
-import { expect, test, type Page } from '@playwright/test';
+import { expect, test, type Page } from './fixtures';
 import { searchCatalog } from './menu';
 async function year(page: Page, value: string) {
   await page

@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test';
+import { expect, test } from './fixtures';
 import { tool } from './menu';
 const sizes = [
   { width: 1280, height: 720 },

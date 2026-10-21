@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test';
+import { expect, test } from './fixtures';
 import { tool } from './menu';
 
 test('globe-only keeps year, camera and one renderer through layer changes', async ({

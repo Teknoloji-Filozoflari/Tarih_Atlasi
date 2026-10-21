@@ -37,7 +37,7 @@ export function Action({
   return (
     <Pressable
       ref={ref}
-      {...(Platform.OS === 'web' ? { title: label } : {})}
+      {...(Platform.OS === 'web' ? { title: label, 'aria-pressed': selected } : {})}
       onHoverIn={() => setHovered(true)}
       onHoverOut={() => setHovered(false)}
       onFocus={() => setFocused(true)}

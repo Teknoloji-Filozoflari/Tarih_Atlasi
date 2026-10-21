@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test';
+import { expect, test } from './fixtures';
 test('country name opens a QID-resolved external article while globe/year state stays in the app', async ({
   page,
   context,
@@ -97,7 +97,7 @@ test('compact date tools jump, preserve scale and open year entry without stacki
   await expect(tools).toContainText('MS 2024');
   await tools.getByRole('button', { name: '10 yıl/adım', exact: true }).click();
   await expect(tools.getByRole('button', { name: '10 yıl/adım', exact: true })).toHaveAttribute(
-    'aria-selected',
+    'aria-pressed',
     'true',
   );
   await tools.getByRole('button', { name: 'Yıl seç', exact: true }).click();

@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test';
+import { expect, test } from './fixtures';
 import { placesManifest } from '../../src/places/generated/catalog';
 test('modern country/place catalog exposes real installed coverage or an explicit missing-package state', async ({
   page,

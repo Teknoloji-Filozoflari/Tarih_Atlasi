@@ -5,7 +5,9 @@ export default defineConfig({
   fullyParallel: true,
   forbidOnly: Boolean(process.env.CI),
   retries: process.env.CI ? 1 : 0,
-  workers: process.env.CI ? 2 : undefined,
+  // Real globe tests compete for software GPU/CPU on hosted runners.
+  // Keep every scenario and assertion; use one browser worker for repeatability.
+  workers: process.env.CI ? 1 : undefined,
   use: { baseURL: 'http://127.0.0.1:8081', trace: 'retain-on-failure' },
   projects: [
     {

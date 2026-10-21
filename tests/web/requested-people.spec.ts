@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test';
+import { expect, test } from './fixtures';
 import { searchCatalog } from './menu';
 test('new sourced birth is selectable while unknown death remains unknown', async ({ page }) => {
   await page.goto('/');
@@ -22,14 +22,25 @@ test('unresolved request stays searchable without fake biography, coordinate or 
   page,
 }) => {
   await page.goto('/');
-  await searchCatalog(page, 'Hannah Arendt');
+  await searchCatalog(page, 'Rod Laver');
   const pending = page.getByTestId('pending-people');
-  await expect(pending).toContainText('Hannah Arendt');
+  await expect(pending).toContainText('Rod Laver');
   await expect(pending).toContainText('henüz yayımlanmadı');
   await expect(pending.getByRole('button', { name: 'Wikipedia’da aç', exact: true })).toHaveCount(
     0,
   );
   await expect(page.getByTestId('person-card')).toHaveCount(0);
+});
+test('Hannah Arendt is now a published sourced profile rather than an unresolved request', async ({
+  page,
+}) => {
+  await page.goto('/');
+  await searchCatalog(page, 'Hannah Arendt');
+  await expect(page.getByTestId('pending-people')).toHaveCount(0);
+  await page.getByRole('button', { name: 'Hannah Arendt', exact: true }).click();
+  const card = page.getByTestId('person-card');
+  await expect(card).toContainText('Hannah Arendt');
+  await expect(card.getByRole('button', { name: 'Wikipedia’da aç', exact: true })).toBeVisible();
 });
 test('music groups have no person birth card while explicit individual members remain discoverable requests', async ({
   page,

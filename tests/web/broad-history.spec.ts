@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test';
+import { expect, test } from './fixtures';
 import { searchCatalog } from './menu';
 
 test('expanded Nobel scientist is searchable with a short card and source-qualified birth-year action', async ({
