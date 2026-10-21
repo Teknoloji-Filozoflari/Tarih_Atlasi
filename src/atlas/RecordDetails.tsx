@@ -9,7 +9,7 @@ export function RecordDetails({ children }: PropsWithChildren) {
   return (
     <View style={s.stack}>
       <Action
-        label={t('record.details')}
+        label={t('record.sourceDetails')}
         symbol={open ? '−' : '+'}
         selected={open}
         onPress={() => setOpen(!open)}

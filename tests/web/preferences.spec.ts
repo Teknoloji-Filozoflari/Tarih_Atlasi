@@ -53,7 +53,10 @@ test('six independent layers, filters and label density persist across reload; a
     page.getByRole('button', { name: 'Olay türü: Antlaşma', exact: true }),
   ).toHaveAttribute('aria-pressed', 'true');
   await expect(page.getByTestId('legend-panel')).toContainText('Siyasi egemenlik değildir');
-  await page.getByRole('button', { name: 'Harita lisansları ve atıflar', exact: true }).click();
+  await page
+    .getByTestId('entity-sheet')
+    .getByRole('button', { name: 'Harita lisansları ve atıflar', exact: true })
+    .click();
   await expect(page.getByText(/Natural Earth/u).first()).toBeVisible();
 });
 test('settings preserve selected year, use reduced motion, and reset only preferences', async ({

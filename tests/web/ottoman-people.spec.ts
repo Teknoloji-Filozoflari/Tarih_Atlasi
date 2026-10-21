@@ -6,7 +6,10 @@ test('Selim II opens a sourced birth-year card and selects 1524 explicitly', asy
   await searchCatalog(page, 'II. Selim');
   await page.getByRole('button', { name: 'II. Selim', exact: true }).click();
   const card = page.getByTestId('person-card');
-  await page.getByRole('button', { name: 'Ayrıntıları göster', exact: true }).first().click();
+  await page
+    .getByRole('button', { name: 'Kartın ek bilgilerini göster', exact: true })
+    .first()
+    .click();
   await expect(card).toContainText('1524');
   await card
     .getByRole('button', {
@@ -27,7 +30,10 @@ test('disputed Suleiman chronology cannot offer an exact birth-year map action',
   await searchCatalog(page, 'I. Süleyman');
   await page.getByRole('button', { name: 'I. Süleyman', exact: true }).click();
   const card = page.getByTestId('person-card');
-  await page.getByRole('button', { name: 'Ayrıntıları göster', exact: true }).first().click();
+  await page
+    .getByRole('button', { name: 'Kartın ek bilgilerini göster', exact: true })
+    .first()
+    .click();
   await expect(card).toContainText('1496');
   await expect(
     card.getByRole('button', {

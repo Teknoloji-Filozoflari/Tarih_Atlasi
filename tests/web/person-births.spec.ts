@@ -11,7 +11,10 @@ test('Atatürk birth action explicitly selects 1881 and enables the approximate 
     .first()
     .click();
   const card = page.getByTestId('person-card');
-  await page.getByRole('button', { name: 'Ayrıntıları göster', exact: true }).first().click();
+  await page
+    .getByRole('button', { name: 'Kartın ek bilgilerini göster', exact: true })
+    .first()
+    .click();
   await expect(card).toContainText('1881');
   await expect(card).toContainText('Selanik');
   await expect(page.getByTestId('globe-canvas-host')).toHaveAttribute(
@@ -36,7 +39,10 @@ test('traditional birth dates remain readable biographies without a manufactured
   await searchCatalog(page, 'Musa');
   await page.getByRole('button', { name: 'Hz. Musa', exact: true }).click();
   const card = page.getByTestId('person-card');
-  await page.getByRole('button', { name: 'Ayrıntıları göster', exact: true }).first().click();
+  await page
+    .getByRole('button', { name: 'Kartın ek bilgilerini göster', exact: true })
+    .first()
+    .click();
   await expect(card).toContainText('Bilinmiyor');
   await expect(card.getByRole('button', { name: /Doğum yılına git/ })).toHaveCount(0);
   await expect(card.getByRole('button', { name: 'Wikipedia’da aç', exact: true })).toBeVisible();

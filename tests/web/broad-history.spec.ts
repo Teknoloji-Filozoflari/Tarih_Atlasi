@@ -17,7 +17,10 @@ test('expanded Nobel scientist is searchable with a short card and source-qualif
     'data-historical-year',
     '2024',
   );
-  await page.getByRole('button', { name: 'Ayrıntıları göster', exact: true }).first().click();
+  await page
+    .getByRole('button', { name: 'Kartın ek bilgilerini göster', exact: true })
+    .first()
+    .click();
   await card
     .getByRole('button', { name: 'Doğum yılına git ve yaklaşık konumu aç · MS 1918', exact: true })
     .click();

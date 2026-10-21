@@ -276,7 +276,9 @@ export function AtlasScreen() {
   const candidateLabels = Object.fromEntries(
     territories.map((record) => [
       record.id,
-      record.names.find((name) => name.language === 'tr')?.value ?? record.names[0]!.value,
+      shortCountryName(
+        record.names.find((name) => name.language === 'tr')?.value ?? record.names[0]!.value,
+      ),
     ]),
   );
   useFocusEffect(
@@ -491,7 +493,7 @@ export function AtlasScreen() {
       headerAction={
         recordDetailsAvailable ? (
           <Action
-            label={t('record.details')}
+            label={t('record.cardDetails')}
             symbol="ⓘ"
             iconOnly
             selected={cardDetails}

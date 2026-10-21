@@ -75,6 +75,35 @@ kesildi. Nedeni logdan kesin belirlenemedi; Android derlemesi başarılı sayıl
 645.992.949 byte hash kontrolü tamamlandı. Bu, browser veya Docker kabulü değildir.
 Komut logları ve kaynak sorgu örnekleri [kanıt klasöründedir](release-e2e-ci/).
 Gönderilecek commit ilerleme kaydında raporlanır.
+
+## En son uzak tekrar: run 39645152356
+
+[Release workflow run](https://github.com/Teknoloji-Filozoflari/Tarih_Atlasi/actions/runs/39645152356)
+bae95731 commit'inde npm run check, web export ve Chromium kurulumu PASS
+oldu. Gerçek kullanıcı akışlarında 17 FAIL / 69 PASS; arşiv, Docker ve Release
+adımları bu nedenle SKIPPED. preview-failure-diagnostics küçük artifact'i
+hata durumunu kaydetti. Bu run'da ülke ve şehir marker sınıf adetleri henüz
+tanıya dahil edilmedi; yeni yerel değişiklik bunları ve harita zoom düzeyini
+ekliyor.
+
+**Yeni kodda IMPLEMENTED:** ülke seçme listesindeki Türkçe görünen ad aynı
+kısa ülke adı kuralından geçiyor; kaynak adı/kimliği değişmiyor. Bilgi kartının
+genişletme düğmesi ile kaynak/kanıt ayrıntısı artık ayrı erişilebilir ad
+kullanıyor. Atatürk’ün yaklaşık doğum noktası zoom 3 ile açıldığı, şehirler
+zoom 4’te başladığı için örtüşme testi yalnız bu akışta kontrollü yakınlaştırma
+yapıyor. Timeline E2E, yükleme ready durumunu ve istenen yılın gerçekten
+uygulanmasını bekliyor. İki aynı adlı atıf kontrolü testi panel kapsamında
+seçiliyor; iki erişim noktası da korunuyor.
+
+**Yerel:** lint, native/web typecheck, web export PASS; browser senaryo listesi
+86. npm run check 415/417 yerel ana testte, kurulumdaki eksik Expo
+bundledNativeModules.json ve geçici ETL test kopyasının prettier
+çözememesi nedeniyle durdu. Başarısız beklenti kaldırılmadı. Gerçek tarayıcı
+başlatma bu ortamda EPERM yüzünden mümkün olmadı; Android/Docker test edilmedi.
+Ülke/şehir etiketlerinin neden GitHub runner'da kaybolduğu henüz kanıtlanmış
+değil. Tanı eki artık kamera zoom'u ile DOM marker sınıflarının adet ve görünürlük
+durumunu yazacak. Değişiklikler gönderilmedi; run 39645152356 taslak Release
+oluşturmadı.
 Kod MIT; mevcut veri/tile/medya lisans sicili değişmedi. Kararlı yayın NO-GO
 devam eder. Yeni ürün fazı başlatılmadı; tarayıcı testi atlanarak Release üretilmedi.
 

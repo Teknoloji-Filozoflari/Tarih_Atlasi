@@ -34,7 +34,10 @@ test('konumsuz antlaşma offline yıl listesinde açılır; savaş anahtarından
     .getByRole('button', { name: '§ Vestfalya Barışı' })
     .click();
   const card = page.getByTestId('event-card');
-  await page.getByRole('button', { name: 'Ayrıntıları göster', exact: true }).first().click();
+  await page
+    .getByRole('button', { name: 'Kartın ek bilgilerini göster', exact: true })
+    .first()
+    .click();
   await expect(card).toContainText('24.10.MS 1648');
   await expect(card).toContainText('haritada nokta üretilmedi');
   await expect(
@@ -55,7 +58,10 @@ test('gerçek muharebe noktası kaynak kartına gider; yıl ve savaş filtresi g
   await expect(host).toHaveAttribute('data-historical-count', '1');
   await page.getByRole('button', { name: 'Olay kaydını seç: Hastings Muharebesi' }).click();
   const card = page.getByTestId('event-card');
-  await page.getByRole('button', { name: 'Ayrıntıları göster', exact: true }).first().click();
+  await page
+    .getByRole('button', { name: 'Kartın ek bilgilerini göster', exact: true })
+    .first()
+    .click();
   await expect(card).toContainText('Yaklaşık referans noktası');
   await expect(card).toContainText('Yıl hassasiyeti');
   await card.getByRole('button', { name: 'Kaynakları gör', exact: true }).click();
@@ -89,10 +95,13 @@ test('çok yıllı MÖ savaş ve alternatif tarihli modern süreç geometri olma
   await page
     .getByRole('button', { name: '✦ Almanya’nın yeniden birleşmesi — süreç kaydı' })
     .click();
-  await page.getByRole('button', { name: 'Ayrıntıları göster', exact: true }).first().click();
+  await page
+    .getByRole('button', { name: 'Kartın ek bilgilerini göster', exact: true })
+    .first()
+    .click();
   await page
     .getByTestId('event-card')
-    .getByRole('button', { name: 'Ayrıntıları göster', exact: true })
+    .getByRole('button', { name: 'Kaynak ve kanıt ayrıntılarını göster', exact: true })
     .click();
   await expect(page.getByTestId('event-card')).toContainText('Alternatif kaynak tarihi');
   await expect(page.getByTestId('event-card')).toContainText('15.3.MS 1991');

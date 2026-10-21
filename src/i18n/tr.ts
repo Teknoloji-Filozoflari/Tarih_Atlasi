@@ -733,6 +733,8 @@ export const tr = {
   'privacy.modernCities':
     'Güncel şehir referansları uygulamayla gelir; şehirleri görmek konum izni veya canlı arama isteği gerektirmez. Şehir katmanı tercihi cihazda tutulur. Kaynak makalesi yalnız sen açmayı seçersen harici hizmete bağlanır.',
   'record.details': 'Ayrıntıları göster',
+  'record.cardDetails': 'Kartın ek bilgilerini göster',
+  'record.sourceDetails': 'Kaynak ve kanıt ayrıntılarını göster',
   'cities.layer': 'Güncel şehirler ve idari birimler',
   'cities.scope':
     'Büyük yerleşimler zoom 4, ilçe düzeyindeki kayıtlar zoom 6, küçük yerleşimler ve daha alt birimler zoom 8 ile görünür. Güncel referanstır; seçili tarih için varlık veya ad kanıtı değildir.',

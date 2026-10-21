@@ -45,7 +45,10 @@ test('requested person is found locally with short sourced information and no fa
     .first()
     .click();
   const card = page.getByTestId('person-card');
-  await page.getByRole('button', { name: 'Ayrıntıları göster', exact: true }).first().click();
+  await page
+    .getByRole('button', { name: 'Kartın ek bilgilerini göster', exact: true })
+    .first()
+    .click();
   await expect(card).toContainText('kütleçekimi');
   await expect(card).toContainText('gösterilebilir kişi konumu yok');
   await expect(card.getByRole('button', { name: 'Wikipedia’da aç', exact: true })).toBeVisible();
@@ -64,7 +67,10 @@ test('Ottoman battle is selectable only in its supported year and keeps source p
   );
   await page.locator('.atlas-event-marker').first().click();
   const card = page.getByTestId('event-card');
-  await page.getByRole('button', { name: 'Ayrıntıları göster', exact: true }).first().click();
+  await page
+    .getByRole('button', { name: 'Kartın ek bilgilerini göster', exact: true })
+    .first()
+    .click();
   await expect(card).toContainText('İstanbul’un Fethi');
   await expect(card).toContainText('Yaklaşık referans noktası');
   await expect(card.getByTestId('record-details')).toHaveCount(0);

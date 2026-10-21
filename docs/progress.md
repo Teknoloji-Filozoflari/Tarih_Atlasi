@@ -1,5 +1,31 @@
 # Tarih Atlası — İlerleme kaydı
 
+**21 Ekim 2026 — Release tarayıcı tekrarı: PARTIAL; 17/86 senaryo hatası kaldı.**
+
+Uzak Release run 39645152356 (commit bae95731) kalite kapısı ve web export
+PASS; gerçek kullanıcı akışlarında 17 FAIL / 69 PASS oldu, yayın adımları
+çalışmadı. Sende ülke adları ve şehirlerin göründüğü bilgisi alındı. Kod
+incelemesinde ülke listesinin kısa ad kuralını atladığı doğrulandı ve hizalandı.
+Kartın dış “ek bilgi” kontrolü ile iç kaynak ayrıntısı artık ayrı erişilebilir
+ad taşır. Atatürk nokta odağı zoom 3’te kalır; şehir katmanı zoom 4 istediği
+için örtüşme E2E’si bir kontrollü yakınlaştırma ekler. E2E yıl yardımcıları
+yükleme tamamlanmasını ve gerçekten istenen yılı bekler.
+
+Ülke etiketi ve açılış şehir rozeti CI’da hâlâ eksik raporlanıyor. Tanı eki artık
+başlangıç kamera yakınlığını ve ülke/şehir/kişi/olay işaretçilerinin toplam ve
+görünür adetlerini içeriyor; GitHub’da yeni çalıştırma olmadan neden
+doğrulanamaz. Gerçek browser bu çalışma ortamında Chromium’un sandbox başlatma
+çağrısındaki EPERM engeline takılıyor. Sende görünmeleri bu uzak runner farkını
+tek başına açıklamıyor.
+
+**Yerel doğrulama:** lint ve native/web strict typecheck PASS; web export 4
+route ve 16.102 şehir paketi/645.992.949 byte PASS; 86 browser senaryosu
+listeleniyor. npm run check yerel kopyada 415/417 ana testte durdu: Expo
+kurulumundaki bundledNativeModules.json yok ve geçici ETL fixture’ı prettier
+paketini çözemiyor. Bu iki kurulum/test-fixture hatası test beklentileri
+gevşetilerek gizlenmedi. Android ve Docker bu tur test edilmedi. Değişiklikler
+henüz GitHub’a gönderilmedi; Release yok ve NO-GO sürüyor.
+
 **21 Ekim 2026 — Release tarayıcı hataları: PARTIAL; hedefli düzeltmeler IMPLEMENTED.**
 
 06fa7efb ile format engeli kapandı; uzak npm check ve web export PASS.

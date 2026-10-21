@@ -246,6 +246,7 @@ export function mountRenderer(
       const revision = ++viewRevision;
       const inputRevision = requestedRevision;
       const requestedYear = historicalView.year;
+      container.dataset.historicalStatus = 'loading';
       try {
         const source = map.getSource('historical') as MapLibre.GeoJSONSource | undefined;
         if (!source) throw new Error('Missing historical source');
@@ -292,6 +293,7 @@ export function mountRenderer(
         if (firstFeature)
           container.dataset.historicalSourceYear = String(firstFeature.properties.sourceYear);
         container.dataset.historicalPreview = String(firstFeature?.properties.preview ?? false);
+        container.dataset.historicalStatus = 'ready';
         callbacks.catalogApplied?.({
           revision: inputRevision,
           year: requestedYear,
@@ -303,6 +305,7 @@ export function mountRenderer(
       } catch (error) {
         if (!scope.disposed && !signal.aborted && revision === viewRevision) {
           console.warn('[atlas.renderer.data]', dataErrorCode(error));
+          container.dataset.historicalStatus = 'error';
           lastViewSignature = '';
           if (callbacks.dataError) callbacks.dataError(inputRevision);
           else fail('assets');
@@ -427,6 +430,7 @@ export function mountRenderer(
         bearing: wrap(map.getBearing()),
         pitch: map.getPitch(),
       };
+      container.dataset.cameraZoom = camera.zoom.toFixed(2);
       const cameraKey = JSON.stringify(camera);
       if (isCamera(camera) && cameraKey !== lastCamera) {
         lastCamera = cameraKey;
@@ -535,6 +539,8 @@ export function mountRenderer(
       delete container.dataset.historicalYear;
       delete container.dataset.historicalSourceYear;
       delete container.dataset.historicalPreview;
+      delete container.dataset.historicalStatus;
+      delete container.dataset.cameraZoom;
     });
     return {
       dispose: () => scope.dispose(),

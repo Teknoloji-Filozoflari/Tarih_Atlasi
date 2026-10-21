@@ -22,7 +22,10 @@ async function personCard(page: Page) {
   await page.goto('/');
   await searchCatalog(page, 'Gogh');
   await page.getByRole('button', { name: 'Vincent van Gogh', exact: true }).click();
-  await page.getByRole('button', { name: 'Ayrıntıları göster', exact: true }).first().click();
+  await page
+    .getByRole('button', { name: 'Kartın ek bilgilerini göster', exact: true })
+    .first()
+    .click();
   return page.getByTestId('person-card');
 }
 test('Türkçe sitelink güvenli sekmede açılır; çevrimdışı kaynak ve belirsizlik paneli yılı korur', async ({
@@ -66,7 +69,10 @@ test('incelenmemiş dil bağlantısı yok diye sunulmaz; antlaşma Wikidata fall
   await tool(page, 'Bu yılın savaş ve olayları');
   await page.getByRole('button', { name: '§ Vestfalya Barışı' }).click();
   const card = page.getByTestId('event-card');
-  await page.getByRole('button', { name: 'Ayrıntıları göster', exact: true }).first().click();
+  await page
+    .getByRole('button', { name: 'Kartın ek bilgilerini göster', exact: true })
+    .first()
+    .click();
   await expect(card.getByRole('button', { name: 'Wikipedia’da aç', exact: true })).toBeVisible();
   await expect(card.getByTestId('source-details')).toHaveCount(0);
   await card.getByRole('button', { name: 'Kaynakları gör', exact: true }).click();

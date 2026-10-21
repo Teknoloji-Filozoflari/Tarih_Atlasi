@@ -19,8 +19,13 @@ test('harita olmasa da kişi aranır; yaşam dönemi konum kanıtı diye göster
   );
   await page.getByRole('button', { name: 'Vincent van Gogh', exact: true }).click();
   const card = page.getByTestId('person-card');
-  await page.getByRole('button', { name: 'Ayrıntıları göster', exact: true }).first().click();
-  await card.getByRole('button', { name: 'Ayrıntıları göster', exact: true }).click();
+  await page
+    .getByRole('button', { name: 'Kartın ek bilgilerini göster', exact: true })
+    .first()
+    .click();
+  await card
+    .getByRole('button', { name: 'Kaynak ve kanıt ayrıntılarını göster', exact: true })
+    .click();
   await expect(card).toContainText('Yaşam aralığı bir yerde bulunulduğunun kanıtı değildir.');
   await expect(card).toContainText(
     'Bu yıl ve etkin kanıt filtresi için gösterilebilir kişi konumu yok.',
@@ -49,7 +54,10 @@ test('incelemedeki kişi konumu yaklaşık tercihle dahi çizilmez; profil ve ka
   await tool(page, 'Kişi kataloğu');
   await page.getByRole('button', { name: 'Vincent van Gogh', exact: true }).click();
   const card = page.getByTestId('person-card');
-  await page.getByRole('button', { name: 'Ayrıntıları göster', exact: true }).first().click();
+  await page
+    .getByRole('button', { name: 'Kartın ek bilgilerini göster', exact: true })
+    .first()
+    .click();
   await expect(card).toContainText('Bu konum incelemeye alındı');
   await card.getByRole('button', { name: 'Kaynakları gör', exact: true }).click();
   await expect(card.getByTestId('source-details')).toContainText('Wikidata');

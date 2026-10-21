@@ -7,6 +7,18 @@ async function year(page: Page, value: string) {
     .click();
   await page.getByRole('textbox', { name: 'Yıl numarası' }).fill(value);
   await page.getByRole('button', { name: 'Yılı uygula' }).click();
+  await expect(page.getByTestId('globe-canvas-host')).toHaveAttribute(
+    'data-historical-status',
+    'ready',
+    { timeout: 30000 },
+  );
+  const match = /^(MÖ|MS) (\d+)$/u.exec(value)!;
+  const expectedYear = match[1] === 'MÖ' ? 1 - Number(match[2]) : Number(match[2]);
+  await expect(page.getByTestId('globe-canvas-host')).toHaveAttribute(
+    'data-historical-year',
+    String(expectedYear),
+    { timeout: 30000 },
+  );
 }
 test('A: unsupported 2026 is honest, 1453 reconstructs polities and 1867 retains treaty source', async ({
   page,
@@ -67,7 +79,7 @@ test('E: 390px keyboard search, layers, nonmodal details and rotation do not ove
     .click();
   const details = page
     .getByTestId('entity-sheet')
-    .getByRole('button', { name: 'Ayrıntıları göster', exact: true });
+    .getByRole('button', { name: 'Kartın ek bilgilerini göster', exact: true });
   await expect(details).toHaveAttribute('aria-pressed', 'false');
   await details.click();
   await expect(details).toHaveAttribute('aria-pressed', 'true');
@@ -114,6 +126,7 @@ test('C: nearest source preview is an explicit choice and keeps requested/source
   await year(page, 'MS 2025');
   await expect(host).toHaveAttribute('data-historical-count', '0');
   await tool(page, 'En yakın kaynak yılını önizle');
+  await expect(host).toHaveAttribute('data-historical-status', 'ready', { timeout: 30000 });
   await expect(host).toHaveAttribute('data-historical-source-year', '2024');
   await expect(host).toHaveAttribute('data-historical-year', '2025');
   await expect(host).toHaveAttribute('data-historical-count', '189');

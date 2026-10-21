@@ -5,7 +5,10 @@ test('new sourced birth is selectable while unknown death remains unknown', asyn
   await searchCatalog(page, 'Lionel Messi');
   await page.getByRole('button', { name: 'Lionel Messi', exact: true }).click();
   const card = page.getByTestId('person-card');
-  await page.getByRole('button', { name: 'Ayrıntıları göster', exact: true }).first().click();
+  await page
+    .getByRole('button', { name: 'Kartın ek bilgilerini göster', exact: true })
+    .first()
+    .click();
   await expect(card).toContainText('Rosario');
   await expect(card).toContainText('Ölüm bilinmiyor');
   await card

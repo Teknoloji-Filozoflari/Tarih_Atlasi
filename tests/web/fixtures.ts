@@ -40,6 +40,27 @@ export const test = base.extend<{ atlasDiagnostics: void }>({
               timeline: document.querySelector('[data-testid="timeline-bar"]')?.textContent,
               coverage: document.querySelector('[data-testid="historical-coverage"]')?.textContent,
               markers: document.querySelectorAll('.maplibregl-marker').length,
+              markerClasses: Object.fromEntries(
+                [
+                  'atlas-country-label',
+                  'atlas-modern-city',
+                  'atlas-person-marker',
+                  'atlas-event-marker',
+                ].map((name) => [name, document.querySelectorAll(`.${name}`).length]),
+              ),
+              visibleMarkerClasses: Object.fromEntries(
+                [
+                  'atlas-country-label',
+                  'atlas-modern-city',
+                  'atlas-person-marker',
+                  'atlas-event-marker',
+                ].map((name) => [
+                  name,
+                  [...document.querySelectorAll<HTMLElement>(`.${name}`)].filter(
+                    (node) => getComputedStyle(node).visibility !== 'hidden',
+                  ).length,
+                ]),
+              ),
             };
           })
           .catch(() => null);

@@ -40,13 +40,18 @@ test('person card opens compact with verified Wikipedia link and reveals origina
   await expect(card).toContainText('1881');
   await expect(card.getByRole('button', { name: 'Wikipedia’da aç', exact: true })).toBeVisible();
   await expect(card.getByRole('button', { name: /Doğum yılına git/ })).toHaveCount(0);
-  await page.getByRole('button', { name: 'Ayrıntıları göster', exact: true }).click();
+  await page.getByRole('button', { name: 'Kartın ek bilgilerini göster', exact: true }).click();
   await card
     .getByRole('button', { name: 'Doğum yılına git ve yaklaşık konumu aç · MS 1881', exact: true })
     .click();
   await expect(page.getByTestId('globe-canvas-host')).toHaveAttribute(
     'data-historical-year',
     '1881',
+    { timeout: 30000 },
+  );
+  await expect(page.getByTestId('globe-canvas-host')).toHaveAttribute(
+    'data-historical-status',
+    'ready',
     { timeout: 30000 },
   );
 });
@@ -65,7 +70,10 @@ test('Atatürk remains selectable over current-city labels and replaces an open 
     .getByRole('button', { name: /Mustafa Kemal Atatürk/ })
     .first()
     .click();
-  await page.getByRole('button', { name: 'Ayrıntıları göster', exact: true }).first().click();
+  await page
+    .getByRole('button', { name: 'Kartın ek bilgilerini göster', exact: true })
+    .first()
+    .click();
   await page
     .getByTestId('person-card')
     .getByRole('button', { name: 'Doğum yılına git ve yaklaşık konumu aç · MS 1881', exact: true })
@@ -75,8 +83,15 @@ test('Atatürk remains selectable over current-city labels and replaces an open 
     '1881',
     { timeout: 30000 },
   );
+  await expect(page.getByTestId('globe-canvas-host')).toHaveAttribute(
+    'data-historical-status',
+    'ready',
+    { timeout: 30000 },
+  );
   const close = page.getByRole('button', { name: 'Paneli kapat', exact: true });
   await close.click();
+  // Point focus intentionally opens at zoom 3; cities start at zoom 4.
+  await page.getByRole('button', { name: 'Yakınlaştır', exact: true }).click();
   const person = page.locator('.atlas-person-marker').filter({ hasText: /Mustafa Kemal Atatürk/ });
   await expect(person).toBeVisible();
   await page.locator('.atlas-modern-city:visible').first().click();
