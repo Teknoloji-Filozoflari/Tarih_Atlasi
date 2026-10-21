@@ -1,4 +1,14 @@
 import { expect, test } from '@playwright/test';
+test.beforeEach(async ({ page }) => {
+  page.on('pageerror', (error) => console.error('BROWSER_ERROR', error.message));
+  page.on('requestfailed', (request) =>
+    console.error('BROWSER_REQUEST_FAILED', request.url(), request.failure()?.errorText),
+  );
+  page.on('response', (response) => {
+    if (response.status() >= 400)
+      console.error('BROWSER_HTTP_ERROR', response.status(), response.url());
+  });
+});
 test('country name opens a QID-resolved external article while globe/year state stays in the app', async ({
   page,
   context,
@@ -97,7 +107,7 @@ test('compact date tools jump, preserve scale and open year entry without stacki
   await expect(tools).toContainText('MS 2024');
   await tools.getByRole('button', { name: '10 yıl/adım', exact: true }).click();
   await expect(tools.getByRole('button', { name: '10 yıl/adım', exact: true })).toHaveAttribute(
-    'aria-selected',
+    'aria-pressed',
     'true',
   );
   await tools.getByRole('button', { name: 'Yıl seç', exact: true }).click();

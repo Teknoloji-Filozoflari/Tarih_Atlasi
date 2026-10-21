@@ -16,19 +16,21 @@ test('new sourced birth is selectable while unknown death remains unknown', asyn
     '1987',
     { timeout: 30000 },
   );
-  await expect(card.getByRole('button', { name: 'Wikipedia’da aç', exact: true })).toBeVisible();
+  await expect(
+    card.getByRole('button', { name: /^Wikipedia’da aç(?: \(TR\)| \(EN\))?$/u }),
+  ).toBeVisible();
 });
 test('unresolved request stays searchable without fake biography, coordinate or guessed Wikipedia link', async ({
   page,
 }) => {
   await page.goto('/');
-  await searchCatalog(page, 'Hannah Arendt');
+  await searchCatalog(page, 'A. J. Ayer');
   const pending = page.getByTestId('pending-people');
-  await expect(pending).toContainText('Hannah Arendt');
+  await expect(pending).toContainText('A. J. Ayer');
   await expect(pending).toContainText('henüz yayımlanmadı');
-  await expect(pending.getByRole('button', { name: 'Wikipedia’da aç', exact: true })).toHaveCount(
-    0,
-  );
+  await expect(
+    pending.getByRole('button', { name: /^Wikipedia’da aç(?: \(TR\)| \(EN\))?$/u }),
+  ).toHaveCount(0);
   await expect(page.getByTestId('person-card')).toHaveCount(0);
 });
 test('music groups have no person birth card while explicit individual members remain discoverable requests', async ({

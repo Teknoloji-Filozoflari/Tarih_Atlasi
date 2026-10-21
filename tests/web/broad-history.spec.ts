@@ -12,7 +12,9 @@ test('expanded Nobel scientist is searchable with a short card and source-qualif
     .click();
   const card = page.getByTestId('person-card');
   await expect(card).toContainText('1918');
-  await expect(card.getByRole('button', { name: 'Wikipedia’da aç', exact: true })).toBeVisible();
+  await expect(
+    card.getByRole('button', { name: /^Wikipedia’da aç(?: \(TR\)| \(EN\))?$/u }),
+  ).toBeVisible();
   await expect(page.getByTestId('globe-canvas-host')).toHaveAttribute(
     'data-historical-year',
     '2024',
@@ -39,7 +41,9 @@ test('expanded battle is discoverable from the same local search without requiri
     .click();
   const card = page.getByTestId('event-card');
   await expect(card).toContainText('1815');
-  await expect(card.getByRole('button', { name: 'Wikipedia’da aç', exact: true })).toBeVisible();
+  await expect(
+    card.getByRole('button', { name: /^Wikipedia’da aç(?: \(TR\)| \(EN\))?$/u }),
+  ).toBeVisible();
   await expect(page.getByTestId('globe-canvas-host')).toHaveAttribute(
     'data-historical-year',
     '2024',

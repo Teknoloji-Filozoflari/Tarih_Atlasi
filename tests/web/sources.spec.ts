@@ -30,7 +30,10 @@ test('Türkçe sitelink güvenli sekmede açılır; çevrimdışı kaynak ve bel
 }) => {
   await safeTabCapture(page);
   const card = await personCard(page);
-  const yearBefore = await page.getByTestId('timeline-bar').textContent();
+  const yearBefore = await page
+    .getByTestId('timeline-bar')
+    .getByRole('button', { name: /^(MS|MÖ) /u })
+    .getAttribute('aria-label');
   await page.context().setOffline(true);
   await card.getByRole('button', { name: 'Kaynakları gör', exact: true }).click();
   const sources = card.getByTestId('source-details');
@@ -46,7 +49,12 @@ test('Türkçe sitelink güvenli sekmede açılır; çevrimdışı kaynak ve bel
     .poll(() => page.evaluate(() => Reflect.get(window, '__externalCaptures')))
     .toEqual([['https://tr.wikipedia.org/wiki/Vincent_van_Gogh', '_blank', 'noopener,noreferrer']]);
   await expect(sources).toBeVisible();
-  expect(await page.getByTestId('timeline-bar').textContent()).toBe(yearBefore);
+  expect(
+    await page
+      .getByTestId('timeline-bar')
+      .getByRole('button', { name: /^(MS|MÖ) /u })
+      .getAttribute('aria-label'),
+  ).toBe(yearBefore);
   await expect(card.getByRole('img')).toHaveCount(0);
 });
 test('incelenmemiş dil bağlantısı yok diye sunulmaz; antlaşma Wikidata fallback kullanır', async ({
@@ -64,7 +72,9 @@ test('incelenmemiş dil bağlantısı yok diye sunulmaz; antlaşma Wikidata fall
   await page.getByRole('button', { name: '§ Vestfalya Barışı' }).click();
   const card = page.getByTestId('event-card');
   await page.getByRole('button', { name: 'Ayrıntıları göster', exact: true }).first().click();
-  await expect(card.getByRole('button', { name: 'Wikipedia’da aç', exact: true })).toBeVisible();
+  await expect(
+    card.getByRole('button', { name: /^Wikipedia’da aç(?: \(TR\)| \(EN\))?$/u }),
+  ).toBeVisible();
   await expect(card.getByTestId('source-details')).toHaveCount(0);
   await card.getByRole('button', { name: 'Kaynakları gör', exact: true }).click();
   await expect(card).toContainText('sitelink doğrulanmadı');

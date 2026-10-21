@@ -23,7 +23,9 @@ test('Turkey opening exposes a separately labelled current city card while histo
     .click();
   const card = page.getByTestId('modern-city-card');
   await expect(card).toContainText('tarih çizelgesinden bağımsız');
-  await expect(card.getByRole('button', { name: 'Wikipedia’da aç', exact: true })).toBeVisible();
+  await expect(
+    card.getByRole('button', { name: /^Wikipedia’da aç(?: \(TR\)| \(EN\))?$/u }),
+  ).toBeVisible();
   await expect(card.getByTestId('record-details')).toHaveCount(0);
   await expect(page.getByTestId('globe-canvas-host')).toHaveAttribute(
     'data-historical-year',
@@ -48,7 +50,9 @@ test('requested person is found locally with short sourced information and no fa
   await page.getByRole('button', { name: 'Ayrıntıları göster', exact: true }).first().click();
   await expect(card).toContainText('kütleçekimi');
   await expect(card).toContainText('gösterilebilir kişi konumu yok');
-  await expect(card.getByRole('button', { name: 'Wikipedia’da aç', exact: true })).toBeVisible();
+  await expect(
+    card.getByRole('button', { name: /^Wikipedia’da aç(?: \(TR\)| \(EN\))?$/u }),
+  ).toBeVisible();
   await expect(card.getByTestId('record-details')).toHaveCount(0);
   await expect(page.locator('.atlas-person-marker')).toHaveCount(0);
 });

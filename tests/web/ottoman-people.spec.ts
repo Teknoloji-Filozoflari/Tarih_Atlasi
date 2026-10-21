@@ -34,5 +34,7 @@ test('disputed Suleiman chronology cannot offer an exact birth-year map action',
       name: /Doğum yılına git ve yaklaşık konumu aç/u,
     }),
   ).toHaveCount(0);
-  await expect(card.getByRole('button', { name: 'Wikipedia’da aç', exact: true })).toBeVisible();
+  await expect(
+    card.getByRole('button', { name: /^Wikipedia’da aç(?: \(TR\)| \(EN\))?$/u }),
+  ).toBeVisible();
 });

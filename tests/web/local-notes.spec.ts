@@ -38,7 +38,9 @@ test('person card opens compact with verified Wikipedia link and reveals origina
     .click();
   const card = page.getByTestId('person-card');
   await expect(card).toContainText('1881');
-  await expect(card.getByRole('button', { name: 'Wikipedia’da aç', exact: true })).toBeVisible();
+  await expect(
+    card.getByRole('button', { name: /^Wikipedia’da aç(?: \(TR\)| \(EN\))?$/u }),
+  ).toBeVisible();
   await expect(card.getByRole('button', { name: /Doğum yılına git/ })).toHaveCount(0);
   await page.getByRole('button', { name: 'Ayrıntıları göster', exact: true }).click();
   await card
@@ -84,7 +86,9 @@ test('Atatürk remains selectable over current-city labels and replaces an open 
   await person.click();
   await expect(page.getByTestId('person-card')).toContainText('Mustafa Kemal Atatürk');
   await expect(
-    page.getByTestId('person-card').getByRole('button', { name: 'Wikipedia’da aç', exact: true }),
+    page
+      .getByTestId('person-card')
+      .getByRole('button', { name: /^Wikipedia’da aç(?: \(TR\)| \(EN\))?$/u }),
   ).toBeVisible();
   await expect(page.getByTestId('modern-city-card')).toHaveCount(0);
   expect(errors).toEqual([]);

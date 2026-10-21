@@ -1,3 +1,4 @@
+import { privacyPolicy } from '../../src/privacy/policy';
 import { tool, searchCatalog } from './menu';
 import { expect, test } from '@playwright/test';
 
@@ -19,7 +20,7 @@ test('privacy policy is accessible and distinguishes local storage, external sit
   await tool(page, 'Ayarlar ve gizlilik');
   const policy = page.getByTestId('privacy-policy');
   await expect(policy).toContainText('Gizlilik politikası');
-  await expect(policy).toContainText('2026-10-18');
+  await expect(policy).toContainText(privacyPolicy.version);
   await expect(policy).toContainText('uygulama GPS istemez');
   await expect(policy).toContainText('sunucuya yedekleme yoktur');
   await expect(policy).toContainText('henüz belirlenmemiştir');

@@ -8,7 +8,7 @@ const developerActions = [
   'Pilotun kaynak ve kapsamı',
 ];
 export async function tool(page: Page, label: string) {
-  const button = page.getByRole('button', { name: label, exact: true });
+  const button = page.getByRole('button', { name: label, exact: true }).last();
   if (await button.isVisible()) {
     await button.click();
     return;

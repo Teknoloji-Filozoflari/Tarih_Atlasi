@@ -44,7 +44,7 @@ export function Action({
       onBlur={() => setFocused(false)}
       accessibilityRole="button"
       accessibilityLabel={label}
-      accessibilityState={{ selected, disabled }}
+      accessibilityState={{ disabled }}
       aria-pressed={selected}
       disabled={disabled}
       onPress={onPress}

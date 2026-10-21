@@ -18,7 +18,7 @@ test('six independent layers, filters and label density persist across reload; a
   await page.goto('/');
   await page.getByRole('button', { name: 'Katmanlar', exact: true }).click();
   const switches = page.getByRole('switch');
-  await expect(switches).toHaveCount(6);
+  await expect(switches).toHaveCount(7);
   for (const name of ['Devlet', 'Kültür', 'Kişi', 'Savaş', 'Olay', 'Tarihî yer / isimler']) {
     const control = page.getByRole('switch', { name, exact: true });
     await expect(control).toBeEnabled();
@@ -42,7 +42,7 @@ test('six independent layers, filters and label density persist across reload; a
   ).not.toBeChecked();
   await expect(
     page.getByRole('button', { name: 'Olay türü: Antlaşma', exact: true }),
-  ).toHaveAttribute('aria-selected', 'true');
+  ).toHaveAttribute('aria-pressed', 'true');
   await expect(page.getByTestId('legend-panel')).toContainText('Siyasi egemenlik değildir');
   await page.getByRole('button', { name: 'Harita lisansları ve atıflar', exact: true }).click();
   await expect(page.getByText(/Natural Earth/u).first()).toBeVisible();
@@ -53,7 +53,7 @@ test('settings preserve selected year, use reduced motion, and reset only prefer
   await page.goto('/');
   await timelineTools(page);
   await page
-    .getByTestId('timeline-bar')
+    .getByTestId('timeline-tools')
     .getByRole('button', { name: 'Başlangıca git', exact: true })
     .click();
   await tool(page, 'Ayarlar ve gizlilik');
@@ -69,7 +69,7 @@ test('settings preserve selected year, use reduced motion, and reset only prefer
     .click();
   await expect(
     page.getByRole('button', { name: 'Hareket: sistem tercihi', exact: true }),
-  ).toHaveAttribute('aria-selected', 'true');
+  ).toHaveAttribute('aria-pressed', 'true');
   await page.getByRole('button', { name: 'Paneli kapat', exact: true }).click();
   await expect(
     page.getByTestId('timeline-bar').getByRole('button', { name: 'MÖ 2000', exact: true }),

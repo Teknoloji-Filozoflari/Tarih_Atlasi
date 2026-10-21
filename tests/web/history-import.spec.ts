@@ -8,7 +8,9 @@ test('downloaded Nobel profile opens a short sourced card without changing year 
   await page.getByRole('button', { name: 'Aziz Sancar', exact: true }).first().click();
   const card = page.getByTestId('person-card');
   await expect(card).toContainText('Aziz Sancar');
-  await expect(card.getByRole('button', { name: 'Wikipedia’da aç', exact: true })).toBeVisible();
+  await expect(
+    card.getByRole('button', { name: /^Wikipedia’da aç(?: \(TR\)| \(EN\))?$/u }),
+  ).toBeVisible();
   await expect(page.getByTestId('globe-canvas-host')).toHaveAttribute(
     'data-historical-year',
     '2024',

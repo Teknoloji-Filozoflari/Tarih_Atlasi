@@ -40,8 +40,10 @@ test('konumsuz antlaşma offline yıl listesinde açılır; savaş anahtarından
   await expect(
     card.getByRole('button', { name: 'Kaynaklı olay geometrisine odaklan' }),
   ).toHaveCount(0);
-  await expect(card.getByRole('button', { name: 'Wikipedia’da aç', exact: true })).toBeVisible();
-  await card.getByRole('button', { name: 'Wikipedia’da aç', exact: true }).click();
+  await expect(
+    card.getByRole('button', { name: /^Wikipedia’da aç(?: \(TR\)| \(EN\))?$/u }),
+  ).toBeVisible();
+  await card.getByRole('button', { name: /^Wikipedia’da aç(?: \(TR\)| \(EN\))?$/u }).click();
   await expect(card.getByRole('alert').filter({ hasText: 'Bağlantı açılamadı' })).toBeVisible();
 });
 

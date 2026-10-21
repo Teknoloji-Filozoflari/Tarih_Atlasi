@@ -1343,3 +1343,7 @@ Android/geri/TalkBack/resize/context/PSS/FPS/latency/uçak modu ölçülmedi.
 Sonraki iş önkoşulları: gerçek web/Android olay akışı ve kaynak üst zinciri/
 takvim/alternatif anlam incelemesi; önceki açık riskler kapanmış sayılmadı.
 Faz 12'ye otomatik geçilmedi.
+
+## 21 Ekim 2026 — Teknik önizleme Release onarımı
+
+Kullanıcı hazır web/Docker paketleri ve teknik önizleme yayını istedi. İlk yayın koşusunda lint, strict tip, birim/veri ve export kontrolleri geçti; production browser 40 PASS / 44 FAIL nedeniyle paketler üretilmedi. Erişilebilir toggle durumu ve eski test seçicileri düzeltme dalında güncelleniyor; tarayıcı ağ hataları tanı için kaydediliyor. GitHub yazma bağlantısı yeniden doğrulandı. Yeni tam CI, gerçek browser, Docker smoke ve indirme hash kabulü henüz tamamlanmadı; kararlı yayın veya Android cihaz doğrulaması iddiası yok.

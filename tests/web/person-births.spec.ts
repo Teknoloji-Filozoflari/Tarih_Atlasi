@@ -27,7 +27,9 @@ test('Atatürk birth action explicitly selects 1881 and enables the approximate 
     { timeout: 30000 },
   );
   await expect(card).toContainText('yaklaşık');
-  await expect(card.getByRole('button', { name: 'Wikipedia’da aç', exact: true })).toBeVisible();
+  await expect(
+    card.getByRole('button', { name: /^Wikipedia’da aç(?: \(TR\)| \(EN\))?$/u }),
+  ).toBeVisible();
 });
 test('traditional birth dates remain readable biographies without a manufactured birth-year action', async ({
   page,
@@ -39,7 +41,9 @@ test('traditional birth dates remain readable biographies without a manufactured
   await page.getByRole('button', { name: 'Ayrıntıları göster', exact: true }).first().click();
   await expect(card).toContainText('Bilinmiyor');
   await expect(card.getByRole('button', { name: /Doğum yılına git/ })).toHaveCount(0);
-  await expect(card.getByRole('button', { name: 'Wikipedia’da aç', exact: true })).toBeVisible();
+  await expect(
+    card.getByRole('button', { name: /^Wikipedia’da aç(?: \(TR\)| \(EN\))?$/u }),
+  ).toBeVisible();
 });
 test('pending source revision is reported separately from historical knowledge and never gains a fabricated point', async ({
   page,
@@ -49,7 +53,9 @@ test('pending source revision is reported separately from historical knowledge a
   const pending = page.getByTestId('pending-people');
   await expect(pending).toContainText('James Watt');
   await expect(pending).toContainText('kaynak revizyonu incelemesi tamamlanmadı');
-  await expect(pending.getByRole('button', { name: 'Wikipedia’da aç', exact: true })).toBeVisible();
+  await expect(
+    pending.getByRole('button', { name: /^Wikipedia’da aç(?: \(TR\)| \(EN\))?$/u }),
+  ).toBeVisible();
   await expect(page.getByTestId('globe-canvas-host')).toHaveAttribute(
     'data-historical-year',
     '2024',
