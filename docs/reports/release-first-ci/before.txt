@@ -1,0 +1,3 @@
+.publish/repository/src/atlas/YearSlider.web.tsx(8,8): error TS2882: Cannot find module or type declarations for side-effect import of './year-slider.css'.
+.publish/repository/src/map/globe/GlobeView.tsx(4,8): error TS2882: Cannot find module or type declarations for side-effect import of 'maplibre-gl/dist/maplibre-gl.css'.
+.publish/repository/src/map/globe/GlobeView.tsx(5,8): error TS2882: Cannot find module or type declarations for side-effect import of './markers.css'.

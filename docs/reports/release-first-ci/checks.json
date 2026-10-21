@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-21",
+  "remoteInitialCommit": "0129efebf28af8455a4d58060b8e0717bc449258",
+  "remoteRunId": 39544262326,
+  "remoteFreshNpmCi": "PASS",
+  "remoteUnit": "PASS",
+  "remoteInitialQuality": "FAIL: TS2882, three CSS imports",
+  "localBeforeWebWithoutTrackedReference": {
+    "exitCode": 2,
+    "diagnostics": "TS2882 x3"
+  },
+  "localAfterNative": {
+    "exitCode": 0,
+    "scope": "snapshot without generated Expo env/types"
+  },
+  "localAfterWeb": {
+    "exitCode": 0,
+    "scope": "snapshot without generated Expo env/types"
+  },
+  "targetedEslint": "PASS",
+  "targetedPrettier": "PASS",
+  "newUnitRun": "NOT RUN; declaration-only fix validated with actual compiler configs",
+  "releasesBeforeFix": 0,
+  "releaseWorkflow": "manual; draft prerelease on success",
+  "physicalAndroid": "UNVERIFIED ON DEVICE",
+  "upload": "BLOCKED: GitHub integration write API returned HTTP 403",
+  "newRemoteCi": "NOT RUN"
+}

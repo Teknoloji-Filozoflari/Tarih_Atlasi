@@ -1,5 +1,22 @@
 # Tarih Atlası — İlerleme kaydı
 
+**21 Ekim 2026 — İlk GitHub CI / Releases takibi: CSS düzeltmesi yerelde IMPLEMENTED; gönderim 403 nedeniyle BLOCKED; Release henüz yok.**
+
+Kullanıcının push işlemi doğrulandı (0129efeb). GitHub'da Node 24.22.0 + npm
+12.2.0 temiz kurulum ve 414 ana test başarılı. Kalite işi, üretilmiş expo-env.d.ts
+olmadan web CSS importlarını çözemediği için TS2882 ile durdu. Expo'nun kendi
+asset/CSS bildirimleri src/types/expo.d.ts üzerinden kalıcı olarak referanslandı.
+Üretilmiş dosyalar bulunmayan snapshot'ta hata yeniden üretildi; düzeltmeyle native
+ve web strict typecheck, hedefli lint ve formatter geçti. Veri/lisans/dependency
+ve ürün davranışı değişmedi; yeni faz başlatılmadı.
+
+Release akışı workflow_dispatch ile manueldir; push yalnız altyapı kontrollerini
+başlatmıştır. Mevcut Releases listesi boş; release-preview çalıştırması yok.
+Actions → Teknik önizleme paketleri → Run workflow (main, 0.1.0-preview.1)
+kontrolleri geçerse taslak önizleme hazırlar. Taslak herkese görünmez; mevcut
+NO-GO ve cihaz/ağ/güvenlik kabul kayıtları devam eder.
+[CI kaydı ve yeniden üretim](reports/release-first-ci.md).
+
 **21 Ekim 2026 — GitHub / Docker yayın hazırlığı: IMPLEMENTED; uzak yükleme ve container kabulü BLOCKED.**
 
 README tanıtım/kurulum odaklı yeniden yazıldı; özgün SVG banner, katkı ve geliştirme
