@@ -8,14 +8,7 @@ const getSnapshot = () => true;
 const getServerSnapshot = () => false;
 
 export default function AtlasRoute() {
-  const mounted = useSyncExternalStore(
-    subscribe,
-    getSnapshot,
-    getServerSnapshot,
-  );
+  const mounted = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
 
-  return Platform.OS !== 'web' || mounted
-    ? <AtlasScreen />
-    : <LoadingState />;
+  return Platform.OS !== 'web' || mounted ? <AtlasScreen /> : <LoadingState />;
 }
-
