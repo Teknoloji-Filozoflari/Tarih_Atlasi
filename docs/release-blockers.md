@@ -1,5 +1,14 @@
 # Yayın engelleri — güncel kalite kapısı
 
+## 22 Ekim 2026 — Son Release çalışmasının durumu
+
+Son uzak run 39664079314: ae2b990d üzerinde npm check/web export PASS,
+83 E2E PASS / 3 FAIL. Paket/Docker/Release adımları çalışmadı. İlk kamera
+hazırlığı ve ülke/şehir kaynak testi düzeltmeleri yerelde uygulandı; yeni
+gerçek tarayıcı sonucu beklenir. Kararlı yayın NO-GO devam eder. Taslak teknik
+önizleme de bütün web ve Docker kapıları geçmeden oluşturulmaz.
+[Güncel nedenler ve doğrulama sınırları](reports/release-camera-readiness.md).
+
 ## 21 Ekim 2026 — Release CI gerçek tarayıcı sonucu
 
 **NO-GO sürer.** Kaynak push ve 06fa7efb format düzeltmesi doğrulandı. Son

@@ -17,13 +17,24 @@ test('Turkey opening exposes a separately labelled current city card while histo
     '2024',
     { timeout: 30000 },
   );
+  await expect(page.getByTestId('globe-canvas-host')).toHaveAttribute(
+    'data-historical-status',
+    'ready',
+    { timeout: 30000 },
+  );
   await expect(page.getByText('⌖ Güncel yerleşimler', { exact: true })).toBeVisible();
   await page
     .getByRole('button', { name: 'Güncel şehir bilgisini aç: Ankara', exact: true })
     .click();
   const card = page.getByTestId('modern-city-card');
   await expect(card).toContainText('tarih çizelgesinden bağımsız');
-  await expect(card.getByRole('button', { name: 'Wikipedia’da aç', exact: true })).toBeVisible();
+  // The installed world catalog is GeoNames, not the older three-city Wikidata pilot.
+  // Do not invent a Wikipedia identity for a row without a reviewed QID mapping.
+  await expect(
+    card.getByRole('button', { name: 'GeoNames kaydını aç', exact: true }),
+  ).toBeVisible();
+  await expect(card.getByRole('button', { name: 'Wikipedia’da aç', exact: true })).toHaveCount(0);
+  await expect(card).toContainText('Ankara');
   await expect(card.getByTestId('record-details')).toHaveCount(0);
   await expect(page.getByTestId('globe-canvas-host')).toHaveAttribute(
     'data-historical-year',

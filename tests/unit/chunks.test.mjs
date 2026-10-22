@@ -137,7 +137,11 @@ test('cache enforces byte/count LRU across reopens and removes corrupt body befo
   assert.ok((await store.list()).reduce((n, i) => n + i.bytes, 0) <= 30000);
   assert.ok(cache.stats().memoryEntries <= 1);
   assert.ok(cache.stats().evictions >= 1);
+  // Keep corruption injection inside the quota: an overfull test store may
+  // legitimately evict BROKEN before validation, depending on timestamp ties.
+  for (const item of await store.list()) await store.remove(item.key);
   await store.write(entry.sha256, 'BROKEN');
+  assert.equal((await store.list()).length, 1);
   const next = createChunkCache(store, limits),
     loader = createChunkLoader(chunkManifest, next, null, bundledChunk);
   const result = await loader.load(entry, signal());

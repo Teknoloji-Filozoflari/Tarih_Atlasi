@@ -423,6 +423,9 @@ export function mountRenderer(
     map.getCanvas().setAttribute('aria-label', t('globe.canvas'));
     let lastCamera = '';
     const emitCamera = () => {
+      // Resize can emit moveend before load. The host resets transient state on ready;
+      // an early notification must not consume the first usable camera update.
+      if (!initialized || scope.disposed) return;
       const center = map.getCenter();
       const camera = {
         center: { lng: wrap(center.lng), lat: center.lat },
@@ -510,6 +513,7 @@ export function mountRenderer(
         scope.add(() => marker.remove());
         marker.setLngLat([0, 0]).addTo(map);
         container.dataset.projection = 'globe';
+        lastCamera = '';
         callbacks.ready();
         emitCamera();
         void refreshHistory();
@@ -683,12 +687,16 @@ export function mountRenderer(
             }
             if (command.payload.camera) {
               const camera = command.payload.camera;
+              // Explicit restore is an acknowledgement even at identical coordinates.
+              // A pre-ready event may have been intentionally ignored by the host.
+              lastCamera = '';
               map.jumpTo({
                 center: [camera.center.lng, camera.center.lat],
                 zoom: camera.zoom,
                 bearing: camera.bearing,
                 pitch: camera.pitch,
               });
+              emitCamera();
             } else if (command.payload.focusPilot)
               map.jumpTo({
                 center: [PILOT_CAMERA.center.lng, PILOT_CAMERA.center.lat],

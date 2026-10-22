@@ -111,6 +111,14 @@ Docker HTTP smoke başarısızsa taslak oluşturulmaz. Başarıda SHA256 listesi
 **draft + prerelease** hazırlanır; kararlı sürüm otomatik yayımlanmaz. Güncel
 NO-GO kaydı kullanıcıya gösterilir; Android APK bu akışın parçası değildir.
 
+Release workflow dosyasının main üzerindeki güncellemesi de yeni commit'te
+otomatik çalışma başlatır; sıradan ürün push'ları Release üretmez. Önce ilk
+açılış/ülke/şehir kaynak kontrolleri, sonra bütün üretim E2E akışları çalışır.
+Actions çalışmasının Summary alanındaki tablo hangi kapının hata verdiğini
+gösterir. Bir test hatası varsa aşağıdaki Release oluşturma adımı SKIPPED olur.
+Eski run'ı Re-run yapmak yeni commit'i kullanmaz. Sürüm zaten varsa workflow
+onun üzerine yazmaz.
+
 Resmi kaynaklar: [çok aşamalı Docker derlemesi](https://docs.docker.com/build/building/multi-stage/),
 [docker load](https://docs.docker.com/reference/cli/docker/image/load/),
 [Compose up / --wait](https://docs.docker.com/reference/cli/docker/compose/up/),

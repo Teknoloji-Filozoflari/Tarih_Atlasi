@@ -50,6 +50,8 @@ function harness(
     errors: [],
     dataErrors: [],
     ready: 0,
+    cameras: [],
+    initializationEvents: [],
     selected: 0,
     modernCities: [],
     placesStatus: [],
@@ -229,8 +231,12 @@ function harness(
       ...(dataErrors ? { dataError: (revision) => calls.dataErrors.push(revision) } : {}),
       ready() {
         calls.ready++;
+        calls.initializationEvents.push('ready');
       },
-      camera() {},
+      camera(value) {
+        calls.cameras.push(value);
+        calls.initializationEvents.push('camera');
+      },
       modernCitySelected(id) {
         calls.modernCities.push(id);
       },
@@ -256,6 +262,39 @@ function harness(
   t.after(instance.dispose);
   return { instance, map, calls, elements, container };
 }
+
+test('camera is acknowledged after readiness and same-position restoration without repeating year-only changes', (t) => {
+  const { map, instance, calls } = harness(t);
+  calls.zoom = 4;
+  map.emit('moveend');
+  assert.equal(calls.cameras.length, 0, 'pre-load resize must not publish an unready camera');
+  map.emit('load');
+  assert.deepEqual(calls.initializationEvents, ['ready', 'camera']);
+  assert.equal(calls.cameras[0].zoom, 4);
+  map.emit('moveend');
+  assert.equal(calls.cameras.length, 1, 'ordinary unchanged movement stays coalesced');
+  instance.command({
+    type: 'catalog.view',
+    payload: {
+      year: 2024,
+      polity: false,
+      culture: false,
+      focusPilot: false,
+      camera: calls.cameras[0],
+    },
+  });
+  assert.equal(calls.cameras.length, 2, 'explicit restoration acknowledges even the same position');
+  assert.deepEqual(calls.cameras[1], calls.cameras[0]);
+  instance.command({
+    type: 'catalog.view',
+    payload: { year: 2000, polity: false, culture: false, focusPilot: false },
+  });
+  map.emit('moveend');
+  assert.equal(calls.cameras.length, 2, 'a year change never republishes or moves the camera');
+  instance.dispose();
+  map.emit('moveend');
+  assert.equal(calls.cameras.length, 2);
+});
 
 test('fresh camera and reset focus Turkey; explicit camera restoration takes precedence', (t) => {
   const { map, instance, calls } = harness(t);

@@ -1,6 +1,11 @@
 name: Teknik önizleme paketleri
 
 on:
+  # A reviewed release-workflow update on main starts a fresh run at that commit.
+  # Ordinary product commits still use the explicit manual entry point.
+  push:
+    branches: [main]
+    paths: ['.github/workflows/release-preview.yml']
   workflow_dispatch:
     inputs:
       version:
@@ -24,7 +29,7 @@ jobs:
     env:
       EXPO_NO_TELEMETRY: '1'
       EXPO_OFFLINE: '1'
-      ATLAS_RELEASE_VERSION: ${{ inputs.version }}
+      ATLAS_RELEASE_VERSION: ${{ inputs.version || '0.1.0-preview.1' }}
       ATLAS_RELEASE_REVISION: ${{ github.sha }}
     steps:
       - uses: actions/checkout@v7.0.1
@@ -51,12 +56,20 @@ jobs:
           fi
       - run: npm ci
       - run: npm run check
+        id: checks
       - run: npm run web:export
+        id: web
       - run: npx playwright install --with-deps chromium
+      - name: İlk açılış ve kaynak bağlantısı ön kontrolü
+        id: opening
+        run: npm run test:web:production -- --grep 'country name opens|Turkey opening' --max-failures=1
       - name: Gerçek web kullanıcı akışları
+        id: browser
         run: npm run test:web:production
       - run: npm run release:stage && npm run release:verify
+        id: stage
       - name: Docker imajını oluştur ve içeriğini doğrula
+        id: docker
         run: |
           docker build --platform linux/amd64 -f docker/Dockerfile.release \
             --build-arg VERSION="$ATLAS_RELEASE_VERSION" \
@@ -68,6 +81,7 @@ jobs:
           node scripts/distribution/smoke.mjs
           docker stop atlas-release
       - name: İndirilebilir paketler ve SHA256
+        id: archives
         run: |
           mkdir -p .release/out .release/docker
           tar -C .release/web -czf ".release/out/tarih-atlasi-web-$ATLAS_RELEASE_VERSION.tar.gz" .
@@ -78,6 +92,7 @@ jobs:
           cd .release/out
           sha256sum *.tar.gz > SHA256SUMS
       - name: Taslak önizleme Release oluştur
+        id: release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -85,6 +100,35 @@ jobs:
             --target "$ATLAS_RELEASE_REVISION" --draft --prerelease \
             --title "Tarih Atlası $ATLAS_RELEASE_VERSION — Teknik önizleme" \
             --notes-file docs/release-notes-preview.md
+      - name: Yayın sonucunu açıkla
+        if: always()
+        env:
+          ATLAS_RELEASE_STEPS: ${{ toJSON(steps) }}
+        run: |
+          node --input-type=module <<'JS'
+          import { appendFileSync } from 'node:fs';
+          const steps = JSON.parse(process.env.ATLAS_RELEASE_STEPS);
+          const gates = [
+            ['checks', 'Kod / veri / lisans kontrolleri'],
+            ['web', 'Web derlemesi'],
+            ['opening', 'İlk açılış / ülke bağlantısı / şehir kaynağı'],
+            ['browser', 'Gerçek tarayıcı kullanıcı akışları'],
+            ['stage', 'Dağıtım içeriği ve hash kontrolü'],
+            ['docker', 'Docker build / doğrulama / HTTP smoke'],
+            ['archives', 'İndirilebilir arşivler ve SHA256'],
+            ['release', 'Taslak teknik önizleme Release'],
+          ];
+          const rows = gates.map(([id, name]) => `| ${name} | ${steps[id]?.outcome ?? 'not started'} |`);
+          const failed = gates.filter(([id]) => steps[id]?.outcome === 'failure').map(([, name]) => name);
+          const result = steps.release?.outcome === 'success'
+            ? 'Taslak teknik önizleme hazır. Taslak, depo yöneticisinin Releases ekranında görünür; henüz herkese açık değildir.'
+            : `Release oluşturulmadı. Başarısız kapı: ${failed.join(', ') || 'kurulum / sürüm kontrolü; job loguna bakın'}.`;
+          appendFileSync(process.env.GITHUB_STEP_SUMMARY,
+            `## Tarih Atlası yayın sonucu\n\n${result}\n\n` +
+            `Commit: ${process.env.ATLAS_RELEASE_REVISION}\n\n` +
+            `| Kapı | Sonuç |\n| --- | --- |\n${rows.join('\n')}\n\n` +
+            'Başarısız testler atlanarak paket yayımlanmaz. Ayrıntılar bu çalışmanın job logunda ve küçük hata tanıları artifactindedir.\n');
+          JS
       - name: Test kanıtları
         if: always()
         uses: actions/upload-artifact@v7

@@ -1,5 +1,25 @@
 # Tarih Atlası — İlerleme kaydı
 
+**22 Ekim 2026 — Release ilk açılış nedenleri: IMPLEMENTED; uzak kabul bekleniyor.**
+
+Son uzak run 39664079314, ae2b990d: kod/veri/lisans check ve web export PASS;
+83 E2E PASS / 3 FAIL, paket/Docker/Release SKIPPED; Releases listesi boş.
+Renderer load öncesi kamera bildirimi ve aynı konumu geri yükleme onayı
+regresyonla yeniden üretilip düzeltildi (önce 1 FAIL, sonra 24/24 PASS).
+Ülke testi gerçek katman readiness'ini bekler. Kurulu GeoNames şehir satırı
+eşleşmesiz Wikipedia beklentisi yerine kendi doğrulanmış kaynağıyla sınanır.
+Bir cache testinin kota dışı bozuk gövde enjeksiyonu deterministik hale getirildi;
+17 cache testi PASS. Tarih/geometri/lisans ve bağımlılıklar değiştirilmedi.
+
+Web export, şehir hashleri, release:stage ve release:verify PASS. Yeni browser
+strict TS PASS. Yerel Chromium EPERM ile BLOCKED; Docker ve Android bu tur
+NOT TESTED / UNVERIFIED ON DEVICE. Tam yerel npm run check PASS: 418 ana + 5
+worker, lint, native/web strict typecheck, veri/lisans/hash ve formatter.
+Workflow değişikliği main'e ulaştığında yeni run otomatik başlar; ilk açılış
+ön kontrolünden sonra tüm 86 E2E zorunludur. Summary her kapıyı açıklar.
+Henüz yeni Release veya başarılı uzak kabul iddiası yoktur; kararlı NO-GO sürer.
+[Nedenler ve kanıt](reports/release-camera-readiness.md).
+
 **21 Ekim 2026 — Release tarayıcı tekrarı: PARTIAL; 17/86 senaryo hatası kaldı.**
 
 Uzak Release run 39645152356 (commit bae95731) kalite kapısı ve web export

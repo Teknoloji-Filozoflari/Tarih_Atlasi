@@ -46,7 +46,9 @@ test('country name opens a QID-resolved external article while globe/year state 
   const host = page.getByTestId('globe-canvas-host');
   await expect(host).toHaveAttribute('data-projection', 'globe', { timeout: 30000 });
   await expect(host).toHaveAttribute('data-historical-year', '2024', { timeout: 30000 });
-  const name = page.locator('.atlas-country-label').first();
+  await expect(host).toHaveAttribute('data-historical-status', 'ready', { timeout: 30000 });
+  await expect(host).toHaveAttribute('data-historical-count', '189');
+  const name = page.locator('.atlas-country-label:visible').first();
   await expect(name).toBeVisible();
   const popup = context.waitForEvent('page');
   await name.click();
