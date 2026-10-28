@@ -1,5 +1,12 @@
 # Tarih Atlası — İlerleme kaydı
 
+**28 Ekim 2026 — CI android/webServer kapısı: PARTIAL (PR #2 dalında).**
+
+`quality-and-web` üretim E2E PASS iken `test:web` Expo `webServer` 120s timeout’a
+düştü; `android-bundle` izole job’da Metro ~8dk sonra exit 143 (SIGTERM/OOM).
+Düzeltme: CI `webServer` timeout 480s; android `--max-workers 1`, 6G swap,
+Node heap 4096; job timeout 60/30. Sonuç uzak run’a bağlı; yeşil iddiası yok.
+
 **28 Ekim 2026 — Dürüst katman yardım metinleri: IMPLEMENTED (TA-3).**
 
 `atlas.layers.help` artık “Devlet’te tek antlaşma kesiti; diğer katmanlar boş”

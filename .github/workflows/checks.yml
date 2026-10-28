@@ -26,7 +26,7 @@ jobs:
 
   quality-and-web:
     runs-on: ubuntu-24.04
-    timeout-minutes: 45
+    timeout-minutes: 60
     env:
       EXPO_NO_TELEMETRY: '1'
     steps:
@@ -54,10 +54,11 @@ jobs:
 
   android-bundle:
     runs-on: ubuntu-24.04
-    timeout-minutes: 25
+    timeout-minutes: 30
     env:
       EXPO_NO_TELEMETRY: '1'
-      NODE_OPTIONS: '--max-old-space-size=6144'
+      # Keep Node heap below GH 7GiB so Metro + OS page cache still fit.
+      NODE_OPTIONS: '--max-old-space-size=4096'
     steps:
       - uses: actions/checkout@v7.0.1
       - uses: actions/setup-node@v7.1.0
@@ -66,5 +67,12 @@ jobs:
           cache: npm
       - run: npm install --global npm@12.2.0
       - run: npm ci
-      # Fresh job: avoid sharing RSS with npm run check / web:export (OOM on GH runners).
+      - name: Swap for Metro android export
+        run: |
+          sudo fallocate -l 6G /swapfile
+          sudo chmod 600 /swapfile
+          sudo mkswap /swapfile
+          sudo swapon /swapfile
+          free -h
+      # Fresh job + swap: same-job check/web:export previously OOM-killed Metro (exit 143).
       - run: npm run android:bundle

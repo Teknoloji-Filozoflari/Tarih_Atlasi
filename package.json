@@ -15,7 +15,7 @@
     "web": "expo start --web",
     "android": "expo run:android",
     "android:device": "expo run:android --device",
-    "android:bundle": "expo export --platform android --output-dir dist-android",
+    "android:bundle": "expo export --platform android --output-dir dist-android --max-workers 1",
     "web:export": "expo export --platform web && node scripts/places/export-web.mjs",
     "lint": "eslint . --max-warnings 0",
     "typecheck": "tsc --noEmit && tsc --noEmit -p tsconfig.web.json",
