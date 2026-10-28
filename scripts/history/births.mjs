@@ -3,40 +3,7 @@ import { createHash } from 'node:crypto';
 import { sourceCoordinate } from '../people/build.mjs';
 import { reviewedInputsFor } from '../../src/people/policy.ts';
 import { active, extent } from './normalize.mjs';
-const cities = new Set([
-  'London',
-  'Paris',
-  'Berlin',
-  'New York City',
-  'New York',
-  'Stockholm',
-  'Vienna',
-  'Copenhagen',
-  'Warsaw',
-  'Budapest',
-  'Istanbul',
-  'Ankara',
-  'Athens',
-  'Prague',
-  'Tokyo',
-  'Kyoto',
-  'Boston',
-  'Cambridge',
-  'Oxford',
-  'Zürich',
-  'Geneva',
-  'Moscow',
-  'Saint Petersburg',
-  'Oslo',
-  'Lisbon',
-  'Rome',
-  'Florence',
-  'Madrid',
-  'Barcelona',
-  'Brussels',
-  'Hamburg',
-  'Munich',
-]);
+import { birthCityAllowlist as cities } from './birth-city-allowlist.mjs';
 export async function reviewedCities() {
   const found = new Map();
   for (const [directory, version] of [

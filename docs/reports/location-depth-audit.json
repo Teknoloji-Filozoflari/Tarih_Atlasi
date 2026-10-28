@@ -1,0 +1,1024 @@
+{
+  "generatedAt": "2026-10-28T16:40:51.035Z",
+  "mode": "read-only-pilot",
+  "productionMutated": false,
+  "culturePolygons": {
+    "status": "BLOCKED",
+    "productionCount": 0,
+    "reason": "No verified cultural-area source with redistributable geometry+rights chain passed review (D-PLACE NC; Pleiades points≠areas; OHM object licenses; Historical Basemaps blocked)."
+  },
+  "historyGeometry": {
+    "total": 4053,
+    "withGeometry": 81,
+    "withoutGeometry": 3972,
+    "byKind": {
+      "person": {
+        "withGeometry": 46,
+        "withoutGeometry": 2923
+      },
+      "event": {
+        "withGeometry": 35,
+        "withoutGeometry": 1049
+      }
+    }
+  },
+  "coverage": {
+    "totalPeopleProfiles": 3203,
+    "totalEvents": 1120,
+    "historyArchivePeople": 2969,
+    "historyArchiveEvents": 1084,
+    "historyPeopleWithMapGeometry": 46,
+    "historyEventsWithMapGeometry": 35,
+    "documentedAppAnnualBirthPoints": 193,
+    "historyBirthPointsInArchive": 46,
+    "historyBattlePointsInArchive": 35,
+    "ratios": {
+      "historyPeopleLocated": 0.0155,
+      "historyEventsLocated": 0.0323,
+      "appPeopleLocatedApprox": 0.0603
+    },
+    "notes": [
+      "Person map points are birth-year timed-presence only; living in a year is not location evidence.",
+      "Event map points are battle P625 with references + precision gates; wars/treaties get no invented centroid.",
+      "Culture polygons remain 0 / BLOCKED — political polygons must not be relabeled as culture."
+    ]
+  },
+  "places": {
+    "reviewedPlaces": 182,
+    "allowlistSize": 32,
+    "byClassification": {
+      "allowlisted": 12,
+      "excluded-non-settlement": 16,
+      "settlement-candidate": 149,
+      "missing-coordinate": 5
+    },
+    "settlementCandidates": [
+      {
+        "qid": "Q1010100",
+        "name": "Klushino",
+        "revision": "2518269904",
+        "reviewDirectory": "expanded-raw"
+      },
+      {
+        "qid": "Q1022",
+        "name": "Stuttgart",
+        "revision": "2550423669",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q1025448",
+        "name": "Leiyang",
+        "revision": "2526542313",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q1026616",
+        "name": "Jhang",
+        "revision": "2500664885",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q1086543",
+        "name": "Woodbine",
+        "revision": "2461513269",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q122744",
+        "name": "Maida Vale",
+        "revision": "2528768057",
+        "reviewDirectory": "expanded-raw"
+      },
+      {
+        "qid": "Q1231836",
+        "name": "Steventon",
+        "revision": "2488092329",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q1231883",
+        "name": "Walworth",
+        "revision": "2528351368",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q129259",
+        "name": "Niš",
+        "revision": "2532329334",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q1324444",
+        "name": "Thagaste",
+        "revision": "2516739080",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q13375",
+        "name": "Pisa",
+        "revision": "2555226100",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q134287",
+        "name": "Tarsus",
+        "revision": "2538137622",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q1348",
+        "name": "Kolkata",
+        "revision": "2556280439",
+        "reviewDirectory": "global-raw"
+      },
+      {
+        "qid": "Q13580795",
+        "name": "Samos",
+        "revision": "2485121816",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q1368969",
+        "name": "Leytonstone",
+        "revision": "2517745614",
+        "reviewDirectory": "expanded-raw"
+      },
+      {
+        "qid": "Q1449",
+        "name": "Genoa",
+        "revision": "2544634056",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q146246",
+        "name": "Franciaf",
+        "revision": "2549165232",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q147089",
+        "name": "Manisa",
+        "revision": "2540142874",
+        "reviewDirectory": "ottoman-raw"
+      },
+      {
+        "qid": "Q15030884",
+        "name": "Newington Butts",
+        "revision": "2420123811",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q1509463",
+        "name": "Vaishali",
+        "revision": "2536208042",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q1533",
+        "name": "Caracas",
+        "revision": "2545882056",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q154184",
+        "name": "Anchiano",
+        "revision": "2517338986",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q1587996",
+        "name": "Umurbey",
+        "revision": "2522637215",
+        "reviewDirectory": "expanded-raw"
+      },
+      {
+        "qid": "Q1645063",
+        "name": "Milan",
+        "revision": "2497035276",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q168668",
+        "name": "Dobrich",
+        "revision": "2551867628",
+        "reviewDirectory": "ottoman-raw"
+      },
+      {
+        "qid": "Q16869",
+        "name": "Constantinople",
+        "revision": "2549478073",
+        "reviewDirectory": "ottoman-raw"
+      },
+      {
+        "qid": "Q170532",
+        "name": "Amasya",
+        "revision": "2552031144",
+        "reviewDirectory": "ottoman-raw"
+      },
+      {
+        "qid": "Q1707",
+        "name": "Kiel",
+        "revision": "2539707346",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q17151",
+        "name": "Thessaloniki",
+        "revision": "2553150315",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q1720",
+        "name": "Mainz",
+        "revision": "2550420128",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q1757",
+        "name": "Helsinki",
+        "revision": "2555665259",
+        "reviewDirectory": "expanded-raw"
+      },
+      {
+        "qid": "Q1775820",
+        "name": "Kasımpaşa",
+        "revision": "2528964192",
+        "reviewDirectory": "expanded-raw"
+      },
+      {
+        "qid": "Q1794",
+        "name": "Frankfurt",
+        "revision": "2550411186",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q1799",
+        "name": "Wrocław",
+        "revision": "2556914691",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q182159",
+        "name": "Balkh",
+        "revision": "2528712754",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q1825419",
+        "name": "Wrington",
+        "revision": "2486515692",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q182647",
+        "name": "Khwarazm",
+        "revision": "2552977280",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q18419",
+        "name": "Brooklyn",
+        "revision": "2547089169",
+        "reviewDirectory": "expanded-raw"
+      },
+      {
+        "qid": "Q18424",
+        "name": "Queens",
+        "revision": "2547093208",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q187027",
+        "name": "Kos",
+        "revision": "2555307206",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q1891",
+        "name": "Bologna",
+        "revision": "2555092388",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q189288",
+        "name": "Stratford-upon-Avon",
+        "revision": "2525354567",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q192541",
+        "name": "Ctesiphon",
+        "revision": "2528424056",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q193306",
+        "name": "Falaise",
+        "revision": "2526350426",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q19583",
+        "name": "Gori",
+        "revision": "2532331040",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q205586",
+        "name": "Dole",
+        "revision": "2526909348",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q206687",
+        "name": "Nelson",
+        "revision": "2533161451",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q2068087",
+        "name": "Delüün Boldog",
+        "revision": "2477136138",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q207754",
+        "name": "Tiruchirappalli",
+        "revision": "2532470914",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q2079",
+        "name": "Leipzig",
+        "revision": "2549187309",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q210287",
+        "name": "Qufu",
+        "revision": "2528780446",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q213679",
+        "name": "Pella",
+        "revision": "2532363463",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q2222874",
+        "name": "Zanzibar City",
+        "revision": "2532331767",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q2247131",
+        "name": "Bollington",
+        "revision": "2459240105",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q23154",
+        "name": "Bristol",
+        "revision": "2555593355",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q23360",
+        "name": "Cumberland",
+        "revision": "2538659587",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q23436",
+        "name": "Edinburgh",
+        "revision": "2557210489",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q23556",
+        "name": "Atlanta",
+        "revision": "2539498040",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q2412935",
+        "name": "The Mount",
+        "revision": "2420123755",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q24826",
+        "name": "Liverpool",
+        "revision": "2558240239",
+        "reviewDirectory": "global-raw"
+      },
+      {
+        "qid": "Q25444",
+        "name": "Funchal",
+        "revision": "2537672409",
+        "reviewDirectory": "expanded-raw"
+      },
+      {
+        "qid": "Q2559543",
+        "name": "Charlton",
+        "revision": "2486617232",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q2711986",
+        "name": "Hynčice",
+        "revision": "2483641153",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q272968",
+        "name": "Velia",
+        "revision": "2522089546",
+        "reviewDirectory": "expanded-raw"
+      },
+      {
+        "qid": "Q2999",
+        "name": "Würzburg",
+        "revision": "2550436112",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q3012",
+        "name": "Ulm",
+        "revision": "2550428227",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q3057926",
+        "name": "Trellech",
+        "revision": null,
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q31356",
+        "name": "Mingora",
+        "revision": "2466395197",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q3138",
+        "name": "Trier",
+        "revision": "2550417667",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q3181502",
+        "name": "John Fitzgerald Kennedy National Historic Site",
+        "revision": "2507064905",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q320299",
+        "name": "Descartes",
+        "revision": "2526732834",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q324489",
+        "name": "Trujillo",
+        "revision": "2513487191",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q33486",
+        "name": "Hartford",
+        "revision": "2553735088",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q34713",
+        "name": "Salzburg",
+        "revision": "2553147356",
+        "reviewDirectory": "expanded-raw"
+      },
+      {
+        "qid": "Q34739",
+        "name": "Dayton",
+        "revision": "2530087024",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q3607380",
+        "name": "Akragas",
+        "revision": "2516927432",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q367211",
+        "name": "Smiljan",
+        "revision": "2540987094",
+        "reviewDirectory": "expanded-raw"
+      },
+      {
+        "qid": "Q375314",
+        "name": "Folkestone",
+        "revision": "2454786885",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q380130",
+        "name": "Nyeri",
+        "revision": "2420069333",
+        "reviewDirectory": "global-raw"
+      },
+      {
+        "qid": "Q38234",
+        "name": "Nagasaki",
+        "revision": "2530487314",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q384",
+        "name": "Skopje",
+        "revision": "2557483951",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q3926",
+        "name": "Pretoria",
+        "revision": "2506596407",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q393087",
+        "name": "Żelazowa Wola",
+        "revision": "2518166903",
+        "reviewDirectory": "expanded-raw"
+      },
+      {
+        "qid": "Q40104",
+        "name": "Ajaccio",
+        "revision": "2535737225",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q40738",
+        "name": "Bursa",
+        "revision": "2555061844",
+        "reviewDirectory": "ottoman-raw"
+      },
+      {
+        "qid": "Q4120832",
+        "name": "Königsberg",
+        "revision": "2550191436",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q4179352",
+        "name": "Shadwell",
+        "revision": "2497690269",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q426534",
+        "name": "Taktser",
+        "revision": null,
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q43196",
+        "name": "Cincinnati",
+        "revision": "2532756074",
+        "reviewDirectory": "expanded-raw"
+      },
+      {
+        "qid": "Q43387",
+        "name": "Edirne",
+        "revision": "2557642883",
+        "reviewDirectory": "expanded-raw"
+      },
+      {
+        "qid": "Q45301",
+        "name": "Trabzon",
+        "revision": "2555595754",
+        "reviewDirectory": "expanded-raw"
+      },
+      {
+        "qid": "Q4700601",
+        "name": "Popowo",
+        "revision": "2512681620",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q47554",
+        "name": "Toruń",
+        "revision": "2552694774",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q47611",
+        "name": "Ephesus",
+        "revision": "2555485600",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q484870",
+        "name": "Eisleben",
+        "revision": "2539739865",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q485708",
+        "name": "Duluth",
+        "revision": "2530088140",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q486577",
+        "name": "Lennep",
+        "revision": "2517984834",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q487921",
+        "name": "Calw",
+        "revision": "2516731841",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q490441",
+        "name": "Concord",
+        "revision": "2497800439",
+        "reviewDirectory": "expanded-raw"
+      },
+      {
+        "qid": "Q491484",
+        "name": "Ponte da Barca",
+        "revision": "2530493030",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q492796",
+        "name": "Wapakoneta",
+        "revision": "2530088530",
+        "reviewDirectory": "expanded-raw"
+      },
+      {
+        "qid": "Q49831",
+        "name": "Noyon",
+        "revision": "2506036431",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q504759",
+        "name": "Chu",
+        "revision": "2515870856",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q505147",
+        "name": "Weil der Stadt",
+        "revision": "2539723380",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q5083",
+        "name": "Seattle",
+        "revision": "2556520753",
+        "reviewDirectory": "expanded-raw"
+      },
+      {
+        "qid": "Q52069",
+        "name": "Caprese Michelangelo",
+        "revision": "2527316515",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q52535",
+        "name": "Rosario",
+        "revision": "2550536136",
+        "reviewDirectory": "expanded-raw"
+      },
+      {
+        "qid": "Q529879",
+        "name": "Röcken",
+        "revision": "2518390209",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q537803",
+        "name": "Florida",
+        "revision": "2480554118",
+        "reviewDirectory": "expanded-raw"
+      },
+      {
+        "qid": "Q550842",
+        "name": "Holzhausen an der Haide",
+        "revision": "2384229289",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q55854",
+        "name": "Yapeyú",
+        "revision": "2516856033",
+        "reviewDirectory": "global-raw"
+      },
+      {
+        "qid": "Q5627",
+        "name": "Ulyanovsk",
+        "revision": "2532334520",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q569107",
+        "name": "Anshan Persia",
+        "revision": "2469170711",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q5776",
+        "name": "Bethlehem",
+        "revision": "2555311008",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q5806",
+        "name": "Mecca",
+        "revision": "2550396135",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q5818",
+        "name": "Córdoba",
+        "revision": "2536554497",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q584443",
+        "name": "Berkeley",
+        "revision": "2421499677",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q586",
+        "name": "Bonn",
+        "revision": "2550410068",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q609698",
+        "name": "Lorain",
+        "revision": "2447291796",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q62",
+        "name": "San Francisco",
+        "revision": "2556596404",
+        "reviewDirectory": "expanded-raw"
+      },
+      {
+        "qid": "Q624492",
+        "name": "Aracataca",
+        "revision": "2530498627",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q636188",
+        "name": "Ray",
+        "revision": "2532334880",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q6419912",
+        "name": "Porbandar",
+        "revision": "2493713015",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q643907",
+        "name": "Flores",
+        "revision": "2506723378",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q65",
+        "name": "Los Angeles",
+        "revision": "2555424668",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q6501000",
+        "name": "Chang'an",
+        "revision": "2492132470",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q654019",
+        "name": "Příbor",
+        "revision": "2537638983",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q668384",
+        "name": "Medellín",
+        "revision": "2536525195",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q681427",
+        "name": "Tus",
+        "revision": "2522091729",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q685640",
+        "name": "Huntingdon",
+        "revision": "2480695349",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q688485",
+        "name": "Châtillon-sur-Marne",
+        "revision": "2499343843",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q690",
+        "name": "Delft",
+        "revision": "2534916196",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q691685",
+        "name": "Kirkcaldy",
+        "revision": "2520020554",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q6936880",
+        "name": "Munsieville",
+        "revision": null,
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q7070",
+        "name": "Eisenach",
+        "revision": "2526212365",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q728412",
+        "name": "Sabaneta",
+        "revision": "2451012044",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q739428",
+        "name": "Milton",
+        "revision": "2530501637",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q768506",
+        "name": "Söğüt",
+        "revision": "2550085813",
+        "reviewDirectory": "expanded-raw"
+      },
+      {
+        "qid": "Q771345",
+        "name": "Helwan",
+        "revision": "2532336289",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q78",
+        "name": "Basel",
+        "revision": "2555023105",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q80484",
+        "name": "Patna",
+        "revision": "2524867511",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q838542",
+        "name": "Shaoshan",
+        "revision": "2478550432",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q841957",
+        "name": "Cormeilles-en-Parisis",
+        "revision": "2519102821",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q846127",
+        "name": "Stageira",
+        "revision": "2551277307",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q85",
+        "name": "Cairo",
+        "revision": "2558525825",
+        "reviewDirectory": "broad-raw"
+      },
+      {
+        "qid": "Q9213",
+        "name": "Lumbini",
+        "revision": "2517003746",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q932648",
+        "name": "Didymoteicho",
+        "revision": "2539145648",
+        "reviewDirectory": "ottoman-raw"
+      },
+      {
+        "qid": "Q9365159",
+        "name": "Freta Street",
+        "revision": "2353751826",
+        "reviewDirectory": "raw"
+      },
+      {
+        "qid": "Q988522",
+        "name": "Privolnoye",
+        "revision": "2521805081",
+        "reviewDirectory": "raw"
+      }
+    ],
+    "excludedNonSettlement": [
+      {
+        "qid": "Q100276507",
+        "name": "St. Mary's Hospital"
+      },
+      {
+        "qid": "Q106766784",
+        "name": "castle of the counts of Aquino"
+      },
+      {
+        "qid": "Q113363481",
+        "name": "Sinking Spring Farm"
+      },
+      {
+        "qid": "Q1146583",
+        "name": "Hedingham Castle"
+      },
+      {
+        "qid": "Q1198112",
+        "name": "Youxi County"
+      },
+      {
+        "qid": "Q170495",
+        "name": "Topkapı Palace"
+      },
+      {
+        "qid": "Q18023391",
+        "name": "Lindener Marktplatz 2, Hannover"
+      },
+      {
+        "qid": "Q2348968",
+        "name": "Birth house of Benedict XVI"
+      },
+      {
+        "qid": "Q273225",
+        "name": "Çırağan Palace"
+      },
+      {
+        "qid": "Q3316008",
+        "name": "Woolsthorpe Manor"
+      },
+      {
+        "qid": "Q360607",
+        "name": "Adolf Hitler's birth house"
+      },
+      {
+        "qid": "Q494413",
+        "name": "Westmoreland County"
+      },
+      {
+        "qid": "Q5885537",
+        "name": "Holy Father John Paul II Family Home in Wadowice"
+      },
+      {
+        "qid": "Q6092391",
+        "name": "Edirne Palace"
+      },
+      {
+        "qid": "Q6366688",
+        "name": "Kapiolani Medical Center for Women and Children"
+      },
+      {
+        "qid": "Q97354861",
+        "name": "Jamaica Hospital Medical Center"
+      }
+    ]
+  },
+  "safeNextSteps": [
+    "Human-review settlement-candidate QIDs; add only city-scale names to birth-city-allowlist after confirming P625 revision hash.",
+    "Re-run history:prepare only after allowlist+pin updates; do not invent coordinates.",
+    "Battle expansion: only additional P625 statements that already pass normalize.mjs gates (single Earth point, refs, precision, no qualifiers).",
+    "Culture: remain empty until a licensed cultural-distribution dataset with explicit area geometry is reviewed end-to-end."
+  ]
+}
