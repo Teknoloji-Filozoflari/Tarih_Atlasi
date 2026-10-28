@@ -1,5 +1,17 @@
 # Tarih Atlası — İlerleme kaydı
 
+**28 Ekim 2026 — Dürüst katman yardım metinleri: IMPLEMENTED (TA-3).**
+
+`atlas.layers.help` artık “Devlet’te tek antlaşma kesiti; diğer katmanlar boş”
+demiyor. Metin güncel katalog kapsamına hizalandı: kaynaklı siyasi
+rekonstrüksiyonlar + antlaşma kesiti (eksik dünya yılları), kaynaklı kişi ve
+savaş/olay kataloğu (çoğu konumsuz; harita yalnız kaynaklı konum), kültür alanı
+yok, güncel şehirler tarihî kanıt değil. `atlas.attribution.status` kişi/olay
+kapsamını da söylüyor; kullanılmayan `atlas.search.empty` arama boş durumuyla
+eşlendi. Sayı uydurulmadı. Siyasi stil / büyük UI cilası dokunulmadı.
+Birim testi: katman yardım/atıf metinlerinin eski “boş katman” iddiasını
+taşımaması. Web/Android UI bu turda tarayıcıda yeniden doğrulanmadı.
+
 **28 Ekim 2026 — TA-2 siyasi ülke/poligon görünümü: IMPLEMENTED; kaynak boşlukları BLOCKED.**
 
 Pastel açık atlas dolgusu kaldırıldı. Koyu sinematik taban (okyanus/kara) +
