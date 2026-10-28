@@ -1,0 +1,8 @@
+npm notice run tarih-atlasi@0.1.0 release:verify
+npm notice run node scripts/distribution/verify.mjs .release/web
+{
+  "status": "PASS",
+  "version": "0.1.0-preview.1",
+  "files": 18474,
+  "bytes": 890120304
+}
