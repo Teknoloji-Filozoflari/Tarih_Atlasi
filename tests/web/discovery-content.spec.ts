@@ -22,6 +22,13 @@ test('Turkey opening exposes a separately labelled current city card while histo
     'ready',
     { timeout: 30000 },
   );
+  // Globe-first home keeps zoom below city LOD; regional zoom reveals markers.
+  await expect(page.getByTestId('globe-canvas-host')).toHaveAttribute(
+    'data-camera-zoom',
+    /^(0|1)\.\d{2}$/,
+  );
+  for (let step = 0; step < 4; step++)
+    await page.getByRole('button', { name: 'Yakınlaştır', exact: true }).click();
   await expect(page.getByText('⌖ Güncel yerleşimler', { exact: true })).toBeVisible();
   await page
     .getByRole('button', { name: 'Güncel şehir bilgisini aç: Ankara', exact: true })
