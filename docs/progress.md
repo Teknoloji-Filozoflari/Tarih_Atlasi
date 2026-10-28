@@ -1,11 +1,14 @@
 # Tarih Atlası — İlerleme kaydı
 
-**28 Ekim 2026 — CI android/webServer kapısı: PARTIAL (PR #2 dalında).**
+**28 Ekim 2026 — CI android/webServer kapısı: BLOCKED (PR #2; merge yok).**
 
-`quality-and-web` üretim E2E PASS iken `test:web` Expo `webServer` 120s timeout’a
-düştü; `android-bundle` izole job’da Metro ~8dk sonra exit 143 (SIGTERM/OOM).
-Düzeltme: CI `webServer` timeout 480s; android `--max-workers 1`, 6G swap,
-Node heap 4096; job timeout 60/30. Sonuç uzak run’a bağlı; yeşil iddiası yok.
+İki turda da quality kırmızı. Tur1 (`6857bb4e`): production E2E PASS; `test:web`
+Expo webServer 120s timeout; android Metro exit 143. Tur2 (`3361022f`): `test:web`
+480s’te hâlâ Expo URL yok; android `fallocate /swapfile` → Text file busy, export
+atlanmadı. unit + check + web:export + production E2E yeşil; kapı yine fail.
+Quality kırmızıyken merge edilmedi. #3–#6 aynı kapıya takılır. Ortak workflow
+fix’i main’e ayrı PR olarak önerildi (Expo CI’da `web:preview`; android swap path /
+release-only).
 
 **28 Ekim 2026 — Dürüst katman yardım metinleri: IMPLEMENTED (TA-3).**
 
