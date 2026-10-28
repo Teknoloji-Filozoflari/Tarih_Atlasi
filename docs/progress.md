@@ -1,5 +1,21 @@
 # Tarih Atlası — İlerleme kaydı
 
+**28 Ekim 2026 — TA-2 siyasi ülke/poligon görünümü: IMPLEMENTED; kaynak boşlukları BLOCKED.**
+
+Pastel açık atlas dolgusu kaldırıldı. Koyu sinematik taban (okyanus/kara) +
+kimlik hash’inden mat mücevher ülke renkleri + açık etiketler. Beyaz seam’lerin
+kökü açık kara sızıntısıydı; koyu underlay ve sınır opaklığıyla görünür çatlaklar
+büyük ölçüde giderildi. Geometri/tarih uydurulmadı. Suriye NE, Cabinda, Batı Sahra
+ve diğer kaynak eksikleri dürüst boş/kısmi kaldı. Yaklaşık sınır işareti korundu,
+koyu temada daha sessiz dash/opaklık.
+
+**PASS:** 418 ana unit; native/web strict TS; hedefli ESLint/Prettier; web export
+(4 rota + 16.102 şehir paketi). Playwright ile before/after screenshot alındı.
+**BLOCKED / PARTIAL:** Kaynaksız eksik poligon tamamlama yok; Android
+UNVERIFIED ON DEVICE; tam `npm run check` / 86 E2E bu turda yeniden koşulmadı.
+Plan: depo dışı Context `docs/siyasi-harita-yeniden.md`. Kanıt görseller:
+`media/siyasi-once-*.png`, `media/siyasi-sonra-*.png`.
+
 **22 Ekim 2026 — Release ilk açılış nedenleri: IMPLEMENTED; uzak kabul bekleniyor.**
 
 Son uzak run 39664079314, ae2b990d: kod/veri/lisans check ve web export PASS;
