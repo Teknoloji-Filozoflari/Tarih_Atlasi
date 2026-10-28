@@ -135,7 +135,7 @@ test('fiziksel tabanda siyasi yazı/tile yok; kesin/yaklaşık/kültürel çizgi
   );
   assert.deepEqual(
     style.layers.find((layer) => layer.id === 'polity-approximate').paint['line-dasharray'],
-    [3, 2],
+    [2, 2],
   );
   assert.deepEqual(
     style.layers.find((layer) => layer.id === 'culture-uncertain').paint['line-dasharray'],

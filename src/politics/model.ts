@@ -97,10 +97,12 @@ export function polityColor(entityId: string) {
     hash = Math.imul(hash, 16777619) >>> 0;
   }
   // Identity, not year, result order or geometry: split islands and adjacent
-  // snapshots keep their color. Light atlas colors preserve dark small-label contrast.
+  // snapshots keep their color. Dark jewel fills pair with light small-label contrast.
   const color = theme.politicalMap.color;
   const hue = hash % 360;
-  const lightness = color.minimumLightness + ((hash >>> 16) % color.lightnessSteps);
+  let lightness = color.minimumLightness + ((hash >>> 16) % color.lightnessSteps);
+  if (hue >= color.coolHueStart && hue <= color.coolHueEnd)
+    lightness = Math.min(color.maximumLightness, lightness + color.coolLightnessBoost);
   return `hsl(${hue}, ${color.saturation}%, ${lightness}%)`;
 }
 export function politicalAppearance(

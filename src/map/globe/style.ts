@@ -56,6 +56,8 @@ export function physicalStyle(land: LandCollection, detail?: PhysicalDetail): St
             theme.politicalMap.fillOpacity.selected,
             ['coalesce', ['get', 'fillOpacity'], theme.politicalMap.fillOpacity.normal],
           ],
+          // Dark land underlay hides residual hairlines; antialias keeps coast edges soft.
+          'fill-antialias': true,
         },
       },
       // Keep physical water visible above country color, below political borders.
@@ -89,7 +91,8 @@ export function physicalStyle(land: LandCollection, detail?: PhysicalDetail): St
         paint: {
           'line-color': theme.politicalMap.border,
           'line-opacity': theme.politicalMap.borderOpacity,
-          'line-width': ['interpolate', ['linear'], ['zoom'], 0, 0.65, 3, 0.9, 6, 1.2],
+          // Slightly wider borders cover antialias hairlines without inventing edges.
+          'line-width': ['interpolate', ['linear'], ['zoom'], 0, 0.9, 3, 1.15, 6, 1.55],
         },
       },
       {
@@ -103,9 +106,10 @@ export function physicalStyle(land: LandCollection, detail?: PhysicalDetail): St
         ],
         paint: {
           'line-color': theme.politicalMap.border,
-          'line-opacity': theme.politicalMap.borderOpacity,
-          'line-width': ['interpolate', ['linear'], ['zoom'], 0, 0.65, 3, 0.9, 6, 1.2],
-          'line-dasharray': [3, 2],
+          // Most Cliopatria rows are approximate; keep the mark quiet on dark fills.
+          'line-opacity': theme.politicalMap.approximateBorderOpacity,
+          'line-width': ['interpolate', ['linear'], ['zoom'], 0, 0.7, 3, 0.95, 6, 1.25],
+          'line-dasharray': [2, 2],
         },
       },
       ...(['disputed', 'shared', 'vassal'] as const).map((kind) => ({
@@ -119,7 +123,7 @@ export function physicalStyle(land: LandCollection, detail?: PhysicalDetail): St
         ] as FilterSpecification,
         paint: {
           'line-color': theme.politicalMap.border,
-          'line-opacity': theme.politicalMap.borderOpacity,
+          'line-opacity': theme.politicalMap.approximateBorderOpacity,
           'line-width': [
             'interpolate',
             ['linear'],
@@ -129,7 +133,7 @@ export function physicalStyle(land: LandCollection, detail?: PhysicalDetail): St
             3,
             1.1,
             6,
-            1.5,
+            1.4,
           ] as ExpressionSpecification,
           'line-dasharray':
             kind === 'disputed' ? [1, 2] : kind === 'shared' ? [5, 2, 1, 2] : [4, 3],
