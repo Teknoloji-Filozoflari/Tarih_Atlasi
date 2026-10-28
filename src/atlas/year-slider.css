@@ -12,38 +12,48 @@
   border-radius: 8px;
 }
 .atlas-year-range::-webkit-slider-runnable-track {
-  height: 6px;
+  height: 10px;
   border-radius: 8px;
-  background: linear-gradient(
-    to right,
-    var(--atlas-slider-accent) 0%,
-    var(--atlas-slider-accent) var(--atlas-slider-progress),
-    var(--atlas-slider-track) var(--atlas-slider-progress),
-    var(--atlas-slider-track) 100%
-  );
+  background-image:
+    linear-gradient(
+      to right,
+      var(--atlas-slider-accent) 0%,
+      var(--atlas-slider-accent) var(--atlas-slider-progress),
+      transparent var(--atlas-slider-progress)
+    ),
+    linear-gradient(
+      to right,
+      transparent 0%,
+      transparent var(--atlas-slider-band-start),
+      var(--atlas-slider-band) var(--atlas-slider-band-start),
+      var(--atlas-slider-band) var(--atlas-slider-band-end),
+      transparent var(--atlas-slider-band-end)
+    ),
+    linear-gradient(to right, var(--atlas-slider-track), var(--atlas-slider-track));
 }
 .atlas-year-range::-webkit-slider-thumb {
   appearance: none;
   -webkit-appearance: none;
-  width: 24px;
-  height: 24px;
-  margin-top: -9px;
+  width: 26px;
+  height: 26px;
+  margin-top: -8px;
   border-radius: 50%;
   border: 2px solid var(--atlas-slider-focus);
   background: var(--atlas-slider-accent);
+  box-shadow: 0 0 0 1px rgba(11, 17, 24, 0.45);
 }
 .atlas-year-range::-moz-range-track {
-  height: 6px;
+  height: 10px;
   border-radius: 8px;
   background: var(--atlas-slider-track);
 }
 .atlas-year-range::-moz-range-progress {
-  height: 6px;
+  height: 10px;
   background: var(--atlas-slider-accent);
 }
 .atlas-year-range::-moz-range-thumb {
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
   border-radius: 50%;
   border: 2px solid var(--atlas-slider-focus);
   background: var(--atlas-slider-accent);

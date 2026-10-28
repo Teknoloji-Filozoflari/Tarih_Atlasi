@@ -10,6 +10,8 @@ export function YearSlider(props: YearSliderProps) {
   const [width, setWidth] = useState(1);
   const measuredWidth = useRef(1);
   const left = useRef(0);
+  const rail = Math.max(0, width - 24);
+  const highlight = props.highlight;
   return (
     <View
       onStartShouldSetResponder={() => true}
@@ -73,15 +75,30 @@ export function YearSlider(props: YearSliderProps) {
       }}
     >
       <View pointerEvents="none" style={styles.track} />
+      {highlight && (
+        <View
+          pointerEvents="none"
+          testID="timeline-period-band"
+          style={[
+            styles.band,
+            {
+              left: 12 + Math.max(0, Math.min(1, highlight.startFraction)) * rail,
+              width: Math.max(
+                2,
+                (Math.max(0, Math.min(1, highlight.endFraction)) -
+                  Math.max(0, Math.min(1, highlight.startFraction))) *
+                  rail,
+              ),
+            },
+          ]}
+        />
+      )}
       <View
         pointerEvents="none"
         style={[
           styles.progress,
           {
-            width: Math.max(
-              0,
-              yearFraction(props.year, props.minYear, props.maxYear) * (width - 24),
-            ),
+            width: Math.max(0, yearFraction(props.year, props.minYear, props.maxYear) * rail),
           },
         ]}
       />
@@ -92,10 +109,7 @@ export function YearSlider(props: YearSliderProps) {
           {
             left: Math.max(
               0,
-              Math.min(
-                width - 24,
-                yearFraction(props.year, props.minYear, props.maxYear) * (width - 24),
-              ),
+              Math.min(rail, yearFraction(props.year, props.minYear, props.maxYear) * rail),
             ),
           },
         ]}
@@ -109,22 +123,28 @@ const styles = StyleSheet.create({
     position: 'absolute',
     left: 12,
     right: 12,
-    height: 6,
+    height: 10,
     backgroundColor: theme.colors.border,
+    borderRadius: theme.radius.sm,
+  },
+  band: {
+    position: 'absolute',
+    height: 10,
+    backgroundColor: 'rgba(228, 194, 139, 0.35)',
     borderRadius: theme.radius.sm,
   },
   progress: {
     position: 'absolute',
     left: 12,
-    height: 6,
+    height: 10,
     backgroundColor: theme.colors.accent,
     borderRadius: theme.radius.sm,
   },
   thumb: {
     position: 'absolute',
-    width: 24,
-    height: 24,
-    borderRadius: 12,
+    width: 26,
+    height: 26,
+    borderRadius: 13,
     backgroundColor: theme.colors.accent,
     borderWidth: 2,
     borderColor: theme.colors.text,

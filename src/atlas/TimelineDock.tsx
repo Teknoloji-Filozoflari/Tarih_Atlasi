@@ -8,7 +8,7 @@ export function TimelineDock({ children }: PropsWithChildren) {
       testID="timeline-dock"
       accessibilityLabel={t('atlas.year.title')}
       style={{
-        backgroundColor: theme.colors.surface,
+        backgroundColor: 'rgba(18, 29, 40, 0.94)',
         borderTopWidth: 1,
         borderColor: theme.colors.border,
       }}

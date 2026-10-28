@@ -34,10 +34,16 @@ export function TimelineRuler({
   );
 }
 const styles = StyleSheet.create({
-  root: { height: 32, marginHorizontal: 12, position: 'relative' },
+  root: { height: 28, marginHorizontal: 12, position: 'relative' },
   tick: { position: 'absolute', top: 0 },
-  line: { height: 5, width: 1, backgroundColor: theme.colors.muted },
-  label: { width: 90, position: 'absolute', top: 7, fontVariant: ['tabular-nums'] },
+  line: { height: 6, width: 1, backgroundColor: theme.colors.muted },
+  label: {
+    width: 90,
+    position: 'absolute',
+    top: 7,
+    fontVariant: ['tabular-nums'],
+    color: theme.colors.muted,
+  },
   first: { left: 0, textAlign: 'left' },
   last: { right: 0, textAlign: 'right' },
   middle: { left: -45, textAlign: 'center' },
