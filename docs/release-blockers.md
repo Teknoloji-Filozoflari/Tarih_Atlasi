@@ -1,5 +1,28 @@
 # Yayın engelleri — güncel kalite kapısı
 
+## 28 Ekim 2026 — Yayın kapıları temizliği (TA-7)
+
+**Kararlı ürün yayını NO-GO sürer.** Bu turda kapatılabilen kapılar yeşile çekildi;
+Docker imajı, Android cihaz, Expo major güvenlik düzeltmeleri ve yayın host
+politikası hâlâ açık. UI PR’larına dokunulmadı; `main` @ `780f71db` tabanı.
+
+| Kapı | Bu ortam | Not |
+| --- | --- | --- |
+| `npm run check` parçaları (lint, native/web TS, 419 unit, 5 worker) | **PASS** | Tam `npm run check` veri/lisans/hash zinciri ayrıca önceki yeşil kayıtlarla uyumlu; bu turda lint+typecheck+unit+worker ölçüldü |
+| `npm run web:export` | **PASS** | 4 route; 16.102 şehir paketi / 645.992.949 byte |
+| Production E2E (`test:web:production`) | **PASS** | **86/86** (önceki uzak 83 PASS / 3 FAIL kalıntısı bu commit’te yeniden üretilmedi) |
+| `release:stage` + `release:verify` | **PASS** | 18.474 dosya / 890.120.304 byte |
+| Docker’suz web paket HTTP/CSP smoke (`release:smoke-web`) | **PASS** | Gerçek `Content-Security-Policy` (sha256, no `unsafe-eval`), `/healthz`, 404, POST 405 |
+| Docker Engine imaj build/run/container smoke | **BLOCKED** | `docker` binary yok; workflow Docker adımı bu ortamda koşulamaz |
+| `npm audit` | **PARTIAL** | Ağ erişimiyle alındı: güvenli `npm audit fix` sonrası **11** açık (5 low / 3 moderate / 3 high). `node-forge` 1.4.2’ye çıktı. Kalan high’lar Expo 57→54 force downgrade ister; uygulanmadı |
+| SEC-RAW-DOM / native file-origin CSP | **BLOCKED** | Expo ham WebView parse sırası ve native file-origin deneyi yok |
+| ANDROID | **UNVERIFIED ON DEVICE** | APK/cihaz smoke yok; performans iddiası yok |
+| A11Y / PRIVACY-HOST / CI uzak yeşil Release | **BLOCKED / OPEN** | TalkBack, hosting politikası ve taslak Release bu turda üretilmedi |
+| DATA-* / WIKI-LIVE / LICENSE-TRANSITIVE | önceki durum | Bu tur içerik veya lisans kapsamı genişletmedi |
+
+Kanıt: [reports/release-gates-2026-10-28/](reports/release-gates-2026-10-28/),
+ürün store raporu `docs/yayin-kapilari.md`. Faz 17 başlatılmadı.
+
 ## 22 Ekim 2026 — Son Release çalışmasının durumu
 
 Son uzak run 39664079314: ae2b990d üzerinde npm check/web export PASS,
@@ -157,13 +180,13 @@ Faz 17 başlatılmadı. [Komut kanıtları ve kabul matrisi](reports/phase-16.md
 | --- | --- | --- | --- |
 | SEC-RAW-DOM | Yüksek / BLOCKED | Expo'nun kurulu ham taşıması uygulamanın 4KiB şemasından önce JSON.parse ve framework dispatch çalıştırıyor | İncelenmiş sürüm/yama veya kontrollü taşıma kararı; parse öncesi byte/depth/schema sınırı, bozuk/büyük mesaj ve native action adversarial testleri; Android debug/release |
 | SEC-WORKER-DYNAMIC | KOD DÜZELTİLDİ / runtime PARTIAL | Opsiyonel eval fallback AST ile kapatıldı;5worker testi, hash/NOTICE ve doğrudan sink0 taraması PASS | Gerçek worker/CSP/GPU deneyi açık. unsafe-eval ile kapatma yok |
-| SEC-ORIGIN-CSP | Yüksek / BLOCKED | File bootstrap dosyası tam olarak pinlenmiyor; gerçek yayın CSP/worker/origin kanıtı yok | Tek bootstrap URI/session bağı, redirect/frame/worker olumsuz testleri; seçilen hostta gerçek response header ve native file-origin deneyi |
-| SEC-DEPS | Yüksek / BLOCKED | Güncel npm audit EAI_AGAIN; önceki 29 etkilenen paket kaydı/dört GHSA açık | Ağ erişimli tam audit; runtime/CLI yolları ve uyumlu düzeltme/azaltım incelemesi; lock + regresyon + export. Force downgrade uygulanmadı |
+| SEC-ORIGIN-CSP | Yüksek / PARTIAL | Staged web sunucusunda gerçek CSP response header kanıtı var (sha256, no unsafe-eval). File bootstrap pin / native file-origin / redirect-frame olumsuz testleri yok | Tek bootstrap URI/session bağı; native file-origin deneyi; seçilen public hostta header tekrarı |
+| SEC-DEPS | Yüksek / PARTIAL | Audit alındı; güvenli fix ile node-forge/uuid yolu kapandı (15→11). Kalan 3 high Expo major force ister | Breaking olmayan uyumlu güncelleme veya bilinçli kabul kaydı; force downgrade yok |
+| WEB-E2E | Yüksek / PASS (bu ortam) | Production 86/86 PASS; Chromium bu VM’de çalıştı. Uzak Release runner tekrarı henüz yok | Aynı lock ile CI/Release job yeşili; görsel baseline insan incelemesi ayrı |
 | DATA-SOURCE | Yüksek / BLOCKED | Wikidata pilotları özgün API yanıtı yerine açık etiketli editöryal çıkarım; bütün statement referansları bağımsız doğrulanmadı | Sabit revizyonların özgün yanıtlarını hash ile arşivle; statement/ref/takvim/anlam incelemesini kayda geçir. Ulaşılmayanı doğrulanmış sayma |
 | DATA-PERSON | Kritik yanlış konum / RENDER MITIGATION PASS; içerik BLOCKED | Van Gogh konum iddiası bağımsız incelemede desteklenmedi | İki kayıt coğrafyadan askıda; yaklaşık/nearest/cache/arama odak yolları testle kapalı. Geri açmak için doğrudan kaynaklı zaman–yer kanıtı ve yeni inceleme sürümü gerekli |
 | DATA-POLYGONS | Ürün kapsamı / PARTIAL | Dünya siyasi rekonstrüksiyonları mevcut; etkin12951çizilebilir kaynak satırı/428askıda.2010'da180çizilebilir/11askı; Fransa kısmi. Çad2024ayrı kaydı ve kültür pilotu açık | Kaynak/kimlik/dönem/topoloji boşluklarını ayrı incele; bütün dünya tamlığı iddia etme. Gerçek web/Android seçme ve ayrı lisanslı kültür pilotu gerekli |
 | WIKI-LIVE | Entegrasyon / NOT TESTED | Şemalı canlı sitelink istemcisi ve sentetik transport testleri PASS; gerçek API CORS/pop-up/referrer/native dönüş kanıtı yok | Ağ erişimli web ve fiziksel Android'de TR/EN/missing/timeout/429; gerçek hosting connect-src ve güvenli harici sekme testi |
-| WEB-E2E | Yüksek / BLOCKED | Yeni4senaryo yalnız listelendi; Chromium sandbox EPERM, gerçek koşu/görsel çıktı yok | Gerçek browser koşusu ve insan incelemeli görsel baseline; GPU/context, tarih, seçim, kaynak, link, cache/offline ve klavye |
 | ANDROID | Kritik platform kabulü / UNVERIFIED ON DEVICE | Java/adb/SDK yok; native build/gerçek cihaz smoke yapılmadı | APK debug/release; fiziksel cihaz/GPU/WebView sürümü ile touch/pinch/rotation/back/offline/reopen/external browser dönüşü ve ölçümler |
 | A11Y | Yüksek / BLOCKED | TalkBack, gerçek focus sırası, büyük yazı ve görsel kontrast incelemesi yok | [Erişilebilirlik matrisi](accessibility-audit.md) gerçek platformlarda tamamlanmalı |
 | LICENSE-TRANSITIVE | Yüksek / BLOCKED | 873lockgirdisi/781kök lisans dosyalı; tüm release/native transitif NOTICE yükümlülükleri incelenmedi | Dağıtılan web/APK dosyalarıyla eşleşen lisans/NOTICE paketi; metadata veya kök dosya yokluğunu izin/ihlâl kanıtı saymadan kapsamlı incele |

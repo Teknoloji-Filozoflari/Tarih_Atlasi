@@ -91,6 +91,8 @@
     "release:assets": "npm run globe:check && npm run basemap:check && npm run physical:check && npm run pilot:check && npm run sitelinks:check && npm run chunks:check && npm run world:check && npm run world:review:check && npm run polities:identities:check && npm run places:check && npm run people:check && npm run people:expanded:check && npm run people:ottoman:check && npm run people:global:check && npm run people:broad:check && npm run history:check",
     "release:stage": "node scripts/distribution/stage.mjs",
     "release:verify": "node scripts/distribution/verify.mjs .release/web",
+    "release:smoke": "node scripts/distribution/smoke.mjs",
+    "release:smoke-web": "node scripts/distribution/smoke-web.mjs",
     "release:source": "node scripts/distribution/source.mjs",
     "web:serve": "node scripts/distribution/server.mjs",
     "release:pack": "node scripts/distribution/archive.mjs"
