@@ -55,6 +55,8 @@ import { EntityCard } from './EntityCard';
 import { EntitySheet } from './EntitySheet';
 import { GlobeViewport } from './GlobeViewport';
 import { LayersDrawer } from './LayersDrawer';
+import { FloatingLayersPanel } from './FloatingLayersPanel';
+import { PeriodChips } from './PeriodChips';
 import { LoadingState } from './LoadingState';
 import { MapControls } from './MapControls';
 import { TimelineBar, yearLabel } from './TimelineBar';
@@ -1182,10 +1184,24 @@ export function AtlasScreen() {
                   onAttribution={() => open('attribution')}
                 />
               </View>
+              {!pickingNote && (
+                <FloatingLayersPanel
+                  visibility={visibility}
+                  onToggle={toggle}
+                  onOpenFull={() => open('layers')}
+                  compact={!wide}
+                />
+              )}
               {nonmodalDetail && panelContent}
             </View>
           </View>
           <TimelineDock>
+            <PeriodChips
+              year={selectedYear}
+              maxYear={time.maxYear}
+              onSelectYear={(value) => store.selectYear(value, false)}
+              reducedMotion={time.reducedMotion}
+            />
             {hiddenBirths && (
               <Action
                 label={t('births.hiddenAtYear')}
