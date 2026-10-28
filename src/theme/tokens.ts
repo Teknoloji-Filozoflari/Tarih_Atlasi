@@ -57,6 +57,21 @@ export const theme = {
     war: '#FFB4AB',
     event: '#E4C28B',
   },
+  /** Küre dışı sahne: saf CSS/canvas; gece Earth / city-lights yok. */
+  scene: {
+    spaceDeep: '#060A0F',
+    spaceMid: '#0B1118',
+    spaceLift: '#101821',
+    star: 'rgba(237, 243, 247, 0.78)',
+    starDim: 'rgba(175, 189, 202, 0.4)',
+    glowSand: 'rgba(228, 194, 139, 0.14)',
+    glowInk: 'rgba(156, 181, 202, 0.1)',
+    starCount: 168,
+    starSeed: 0x7a71a501,
+    atmosphereBlendFar: 0.52,
+    atmosphereBlendMid: 0.32,
+    atmosphereBlendNear: 0,
+  },
   spacing: { xs: 4, sm: 8, md: 16, lg: 24, xl: 32, xxl: 48 },
   radius: { sm: 8, md: 16, lg: 24 },
   typography: {

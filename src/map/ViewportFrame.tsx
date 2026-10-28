@@ -71,6 +71,6 @@ const styles = StyleSheet.create({
     flex: 1,
     minHeight: 160,
     overflow: 'hidden',
-    backgroundColor: theme.colors.background,
+    backgroundColor: theme.scene.spaceDeep,
   },
 });
