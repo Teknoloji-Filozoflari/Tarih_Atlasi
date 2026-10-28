@@ -1,5 +1,19 @@
 # Tarih Atlası — İlerleme kaydı
 
+**28 Ekim 2026 — TA-8 kaynaklı veri derinliği: PLAN + salt-okunur pilot; kültür BLOCKED.**
+
+Kültür polygon üretimi hâlâ **0 / BLOCKED** (D-PLACE NC; Pleiades nokta≠alan;
+OHM nesne lisansı; Historical Basemaps redistribüsyon engelli; Cliopatria siyasi).
+Konum oranları (uydurma yok): ~3.203 kişide ~193 yıllık doğum noktası (~%6);
+history arşivinde 46/2.969 kişi ve 35/1.084 olay geometrili. Bu tur üretim
+katalog/geometri/tarih değiştirilmedi. Doğum-şehir allowlist ayrı modüle alındı
+(davranış aynı). `npm run history:location-depth` salt-okunur aday/kapsam raporu
+yazar; settlement-candidate otomatik onay değildir. Plan:
+[veri-derinlik.md](veri-derinlik.md), rapor:
+[location-depth-audit.json](reports/location-depth-audit.json).
+Unit: `tests/unit/location-depth-audit.test.mjs`. UI/stil PR’larına karışılmadı.
+Tam `npm run check` / E2E / Android bu dilimde koşulmadı. Yayın NO-GO sürer.
+
 **22 Ekim 2026 — Release ilk açılış nedenleri: IMPLEMENTED; uzak kabul bekleniyor.**
 
 Son uzak run 39664079314, ae2b990d: kod/veri/lisans check ve web export PASS;
