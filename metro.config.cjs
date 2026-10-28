@@ -10,6 +10,10 @@ config.resolver.blockList = [
   ...(Array.isArray(previousBlocks) ? previousBlocks : previousBlocks ? [previousBlocks] : []),
   /[/\\]data[/\\]staging[/\\]/,
 ];
+// Hosted CI runners (~7GiB) OOM under default Metro parallelism during android export.
+if (process.env.CI === '1') {
+  config.maxWorkers = 2;
+}
 const enhance = config.server.enhanceMiddleware;
 config.server.enhanceMiddleware = (middleware, server) =>
   createPlacesMiddleware(__dirname, enhance ? enhance(middleware, server) : middleware);

@@ -27,8 +27,10 @@ export default defineConfig({
     },
   ],
   webServer: {
+    // CI and explicit production runs serve the static export. Expo `start --web`
+    // does not become ready on GitHub-hosted runners (multi-minute URL timeout).
     command:
-      process.env.ATLAS_TEST_PRODUCTION === '1'
+      process.env.ATLAS_TEST_PRODUCTION === '1' || process.env.CI
         ? 'npm run web:preview'
         : 'npm run web -- --host localhost --port 8081',
     url: 'http://127.0.0.1:8081',
@@ -37,3 +39,4 @@ export default defineConfig({
     env: { CI: '1', EXPO_NO_TELEMETRY: '1' },
   },
 });
+

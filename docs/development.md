@@ -83,6 +83,11 @@ npx playwright install chromium
 npm run test:web:production
 ```
 
+CI (`Altyapı kontrolleri`) Expo `start --web` kullanmaz; `web:export` sonrası
+`ATLAS_TEST_PRODUCTION=1` ile tam `npm run test:web` (`web:preview`) koşar.
+Android JS export ayrı job’da ek swap + sınırlı Metro worker ile hard gate’tir.
+Yerelde geliştirme sunucusu için `npm run test:web` (CI unset) hâlâ Expo web’i açar.
+
 Kaynak/lisans kapıları offline çalışabilir; yeni ham edinim internete ihtiyaç duyar.
 `history:collect`, `places:download`, `data:download` gibi komutlar ilk kurulum için
 zorunlu değildir. İndirilen dosyalar `data/staging/` altında kalır; inceleme ve

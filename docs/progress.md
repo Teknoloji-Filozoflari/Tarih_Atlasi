@@ -1,5 +1,16 @@
 # Tarih Atlası — İlerleme kaydı
 
+**28 Ekim 2026 — TA-10 CI quality unblock: IMPLEMENTED (uzak yeşil bekleniyor).**
+
+Altyapı kontrollerinde Expo `start --web` Playwright webServer yolu kaldırıldı;
+CI `ATLAS_TEST_PRODUCTION=1` + `web:preview` ile tam `test:web` koşar.
+`android:bundle` ayrı job’a alındı: benzersiz `/mnt/atlas-swap-$RUN_ID` (GH
+`/swapfile` Text file busy kaçınılıyor), `NODE_OPTIONS=4096`, Metro
+`maxWorkers=2` (yalnız `CI=1`). `continue-on-error` yok. Concurrency PR
+numarasında birleşir. Özellik PR’larına gömülü CI denemesi değil; ayrı workflow
+PR. Yerel browser EPERM nedeniyle E2E bu ortamda koşulmadı; uzak run sonucu
+bekleniyor.
+
 **28 Ekim 2026 — TA-2 siyasi ülke/poligon görünümü: IMPLEMENTED; kaynak boşlukları BLOCKED.**
 
 Pastel açık atlas dolgusu kaldırıldı. Koyu sinematik taban (okyanus/kara) +
