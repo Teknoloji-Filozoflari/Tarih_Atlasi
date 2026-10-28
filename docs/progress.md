@@ -1,5 +1,19 @@
 # Tarih Atlası — İlerleme kaydı
 
+**28 Ekim 2026 — TA-6 Sahne atmosferi: IMPLEMENTED (web); Android UNVERIFIED.**
+
+Küre dışı sahne: saf CSS mürekkep gradient + deterministik canvas yıldız alanı
+(kendi MIT kodumuz; üçüncü parti uzay/gece Earth asset yok). MapLibre `sky`
+`atmosphere-blend` ile hafif küre halo; kum/mürekkep token glow. Reduced-motion
+yıldız drift’ini kapatır. Kara/deniz/siyasi boyalar değişmedi. Dal
+`cursor/sahne-atmosfer-eac8` (main @ 780f71db); açık PR #1–#4’e karışılmadı.
+
+**Doğrulama:** native/web strict TS PASS; ilgili unit + lint/prettier PASS;
+`web:export` PASS (4 rota, 16102 şehir). Playwright ile uzak/açılış/reduced/
+mobil ekran kanıtı alındı. Android cihaz **UNVERIFIED**. Tam `npm run check` ve
+86 E2E bu turda koşulmadı. Yayın NO-GO sürer.
+Plan: store `docs/sahne-atmosfer.md`.
+
 **22 Ekim 2026 — Release ilk açılış nedenleri: IMPLEMENTED; uzak kabul bekleniyor.**
 
 Son uzak run 39664079314, ae2b990d: kod/veri/lisans check ve web export PASS;

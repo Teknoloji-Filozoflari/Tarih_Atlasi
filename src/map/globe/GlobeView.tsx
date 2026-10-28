@@ -3,6 +3,7 @@ import { count, localMetrics, profilingEnabled } from '../../performance/metrics
 import { useEffect, useRef, useState } from 'react';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import './markers.css';
+import './scene-atmosphere.css';
 import { theme } from '../../theme/tokens';
 import { t } from '../../i18n/index';
 import {
@@ -18,6 +19,7 @@ import { mountRenderer } from './renderer';
 import { resourceScope } from './lifecycle';
 import { PILOT_VERSION } from '../../data/pilot-contract';
 import { placesRepository } from '../../places/runtime';
+import { createStarField, paintStarField, sceneCssVariables } from './scene-atmosphere';
 
 export interface GlobeViewProps {
   sessionId: string;
@@ -31,7 +33,10 @@ export function GlobeView({
   placesProvider = placesRepository,
 }: GlobeViewProps & { placesProvider?: typeof placesRepository }) {
   count('globe.reactRender');
+  const scene = useRef<HTMLElement>(null);
   const container = useRef<HTMLDivElement>(null);
+  const starsCanvas = useRef<HTMLCanvasElement>(null);
+  const stars = useRef(createStarField());
   const renderer = useRef<ReturnType<typeof mountRenderer> | null>(null);
   const callback = useRef(onEvent);
   useEffect(() => {
@@ -42,6 +47,20 @@ export function GlobeView({
   const appliedRoads = useRef<boolean | null>(null);
   const seen = useRef<string | null>(null);
   const eventSequence = useRef(0);
+
+  useEffect(() => {
+    const root = scene.current;
+    const canvas = starsCanvas.current;
+    if (!root || !canvas) return;
+    const paint = () => {
+      const rect = root.getBoundingClientRect();
+      paintStarField(canvas, stars.current, rect.width || 1, rect.height || 1);
+    };
+    paint();
+    const observer = new ResizeObserver(paint);
+    observer.observe(root);
+    return () => observer.disconnect();
+  }, []);
 
   useEffect(() => {
     const scope = resourceScope();
@@ -234,28 +253,31 @@ export function GlobeView({
   const failed = status !== 'loading' && status !== 'ready';
   return (
     <section
+      ref={scene}
+      className="atlas-scene-root"
       aria-label={t('globe.title')}
+      data-testid="globe-scene"
       style={{
-        position: 'relative',
-        width: '100%',
-        height: '100%',
-        minHeight: 0,
-        background: theme.colors.background,
+        ...sceneCssVariables(),
         color: theme.colors.text,
         fontFamily: 'system-ui',
       }}
     >
-      <div
-        ref={container}
-        data-testid="globe-canvas-host"
-        style={{ position: 'absolute', inset: 0, touchAction: 'none' }}
+      <canvas
+        ref={starsCanvas}
+        className="atlas-scene-stars atlas-scene-stars--drift"
+        aria-hidden
+        data-testid="globe-scene-stars"
       />
+      <div className="atlas-scene-glow" aria-hidden data-testid="globe-scene-glow" />
+      <div ref={container} className="atlas-scene-map" data-testid="globe-canvas-host" />
       {status !== 'ready' && (
         <div
           role={failed ? 'alert' : 'status'}
           style={{
             position: 'absolute',
             inset: 0,
+            zIndex: 2,
             padding: 24,
             paddingTop: 80,
             display: 'flex',

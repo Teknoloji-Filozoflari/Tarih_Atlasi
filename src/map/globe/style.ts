@@ -2,11 +2,13 @@ import { theme } from '../../theme/tokens.ts';
 import type { StyleSpecification, FilterSpecification, ExpressionSpecification } from 'maplibre-gl';
 import type { LandCollection } from './land.ts';
 import type { PhysicalDetail } from './physical-detail.ts';
+import { sceneSkySpecification } from './scene-atmosphere.ts';
 
 export function physicalStyle(land: LandCollection, detail?: PhysicalDetail): StyleSpecification {
   const style: StyleSpecification = {
     version: 8,
     projection: { type: 'globe' },
+    sky: sceneSkySpecification(),
     // Fiziksel taban yazısız; siyasi kaynak ve yerel DOM etiketleri ayrı katmandır.
     sources: {
       land: { type: 'geojson', data: land },
