@@ -23,4 +23,5 @@ Docker yok. Taban: `main` @ `780f71db`. UI PR’ları #1–#5 dokunulmadı.
 - SEC-DEPS kalan Expo-major high’lar — force downgrade uygulanmadı
 - Native file-origin CSP, A11Y TalkBack, PRIVACY-HOST, uzak Release taslağı
 
-Ham loglar: [release-gates-2026-10-28/](release-gates-2026-10-28/).
+Ham çıktılar: [release-gates-2026-10-28/](release-gates-2026-10-28/)
+(`e2e-production.txt`, `smoke-web.txt`, `npm-audit*.json`).
