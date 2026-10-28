@@ -17,6 +17,7 @@ import { TimelineRuler } from './TimelineRuler';
 import { PlaybackControls } from './PlaybackControls';
 import { EntitySheet } from './EntitySheet';
 import { yearLabel } from './yearLabel';
+import { activePeriodId, periodHighlight } from './periodWindows';
 export { yearLabel };
 export function TimelineBar({
   year,
@@ -62,6 +63,12 @@ export function TimelineBar({
   if (outside) setAnchor(year);
   const bounds = outside ? sliderWindow(year, maxYear, scale) : window;
   const ticks = snapshotMarkers(snapshots, bounds.minYear, bounds.maxYear, compact ? 24 : 64);
+  const highlight = periodHighlight(
+    activePeriodId(year, maxYear),
+    maxYear,
+    bounds.minYear,
+    bounds.maxYear,
+  );
   const changeScale = (next: TimelineScale) => {
     onInteract();
     setAnchor(year);
@@ -136,7 +143,9 @@ export function TimelineBar({
           onStart={onInteract}
           onChange={(value) => onSelect(value, true)}
           onEnd={onRelease}
+          highlight={highlight}
         />
+        <TimelineRuler minYear={bounds.minYear} maxYear={bounds.maxYear} compact={compact} />
       </View>
       {expanded && (
         <EntitySheet
@@ -304,7 +313,13 @@ const styles = StyleSheet.create({
   yearText: { color: theme.colors.accent, fontVariant: ['tabular-nums'] },
   focused: { borderColor: theme.colors.focus },
   pressed: { backgroundColor: theme.colors.hover },
-  rail: { flexGrow: 1, flexBasis: 0, minWidth: 140, minHeight: theme.layout.minTouchTarget },
+  rail: {
+    flexGrow: 1,
+    flexBasis: 0,
+    minWidth: 140,
+    minHeight: theme.layout.minTouchTarget,
+    gap: theme.spacing.xs,
+  },
   options: { gap: theme.spacing.md },
   currentYear: {
     flexDirection: 'row',

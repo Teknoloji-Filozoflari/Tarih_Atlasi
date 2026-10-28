@@ -43,3 +43,4 @@ import './unit/broad-history.test.mjs';
 import './unit/history-import.test.mjs';
 import './unit/distribution.test.mjs';
 import './unit/release-regressions.test.mjs';
+import './unit/ui-panel-timeline.test.mjs';

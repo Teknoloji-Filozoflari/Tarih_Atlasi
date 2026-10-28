@@ -31,13 +31,19 @@ export function ViewportFrame({
       )}
       {showModernCities && host.camera && host.camera.zoom >= 4 && (
         <View
+          testID="modern-cities-badge"
           style={{
             position: 'absolute',
             left: theme.spacing.sm,
-            top: theme.spacing.sm,
-            backgroundColor: theme.colors.surface,
+            // Keep clear of the floating layers rail (top-left).
+            bottom: theme.spacing.sm,
+            maxWidth: 260,
+            backgroundColor: 'rgba(18, 29, 40, 0.88)',
             padding: theme.spacing.xs,
             borderRadius: theme.radius.sm,
+            borderWidth: 1,
+            borderColor: theme.colors.border,
+            zIndex: 1,
           }}
         >
           <AppText variant="label">{t('cities.badge')}</AppText>
