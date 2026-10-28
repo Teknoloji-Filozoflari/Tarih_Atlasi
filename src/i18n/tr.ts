@@ -460,11 +460,10 @@ export const tr = {
   'atlas.search.placeholder': 'Devlet, kültür, kişi, savaş veya olay ara…',
   'atlas.search.submit': 'Ara',
   'atlas.search.title': 'Arama sonuçları',
-  'atlas.search.empty':
-    'Katalog araması henüz etkin değil. Kaynaklı örneği pilot düğmesinden inceleyebilirsiniz.',
+  'atlas.search.empty': 'Bu aramada desteklenen katalog kaydı yok.',
   'atlas.layers': 'Katmanlar',
   'atlas.layers.help':
-    'Katman görünürlüğünü bağımsız seçin. Devlet katmanında tek bir antlaşma kesiti pilotu vardır; diğer katmanlar henüz boş.',
+    'Katman görünürlüğünü bağımsız seçin. Devlet: seçili yıllarda kaynaklı siyasi rekonstrüksiyonlar ve bir antlaşma kesiti; her yıl ve bölge eksiksiz değildir. Kişi ile savaş/olay: kaynaklı katalog vardır; çoğu konumsuzdur, haritada yalnız kaynaklı konum gösterilir. Kültür alanı doğrulanmış değildir. Güncel şehirler tarihî varlık kanıtı değildir.',
   'atlas.layers.distinction':
     'Kültürel bölgeler siyasi sınırları ifade etmez. İşaretler renk, biçim ve adla ayrılır.',
   'atlas.layer.state': 'Devlet',
@@ -490,7 +489,7 @@ export const tr = {
   'atlas.demo.source':
     'Yalnız teknik seçim deneyi; tarihî kaynak veya Wikipedia bağlantısı yoktur.',
   'atlas.attribution.status':
-    'Dünya siyasi kaynak rekonstrüksiyonları, bir antlaşma sınır kesiti ve sınırlı olay kayıtları. Fiziksel taban geçmiş kara ve suların rekonstrüksiyonu değildir.',
+    'Dünya siyasi kaynak rekonstrüksiyonları, bir antlaşma sınır kesiti, kaynaklı kişi ve olay kayıtları. Kültür alanı yok. Fiziksel taban geçmiş kara ve suların rekonstrüksiyonu değildir.',
   'atlas.attribution.missing':
     'Bu derlemenin harita varlıkları ve tam bildirimleri henüz hazırlanmadı.',
   'atlas.map.help': 'Haritayı sürükleyin, yakınlaştırın. Bilgi için bir sınır veya işaret seçin.',

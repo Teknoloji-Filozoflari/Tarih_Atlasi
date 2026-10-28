@@ -58,3 +58,18 @@ test('katman işaretleri panel zemini üzerinde 4.5:1 kontrastı korur', () => {
       layer.id,
     );
 });
+test('katman yardım ve atıf kapsam metinleri güncel katalogla dürüst kalır', () => {
+  const help = tr['atlas.layers.help'];
+  const status = tr['atlas.attribution.status'];
+  assert.doesNotMatch(help, /diğer katmanlar henüz boş|tek bir antlaşma kesiti pilotu/);
+  assert.match(help, /siyasi rekonstrüksiyon/);
+  assert.match(help, /Kişi/);
+  assert.match(help, /savaş\/olay|olay/);
+  assert.match(help, /Kültür alanı doğrulanmış değildir/);
+  assert.match(help, /konumsuz/);
+  assert.match(help, /Güncel şehirler/);
+  assert.doesNotMatch(help, /\d[\d.\s]*kişi|\d[\d.\s]*olay/);
+  assert.match(status, /kişi ve olay/);
+  assert.match(status, /Kültür alanı yok/);
+  assert.equal(tr['atlas.search.empty'], tr['search.empty']);
+});
