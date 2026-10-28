@@ -161,7 +161,12 @@ test('campaigns stay in the war layer and broad wars/location-less battles never
   );
 });
 test('modern city references have no historical validity and exact source revisions; bridge accepts reviewed IDs only', () => {
-  assert.deepEqual(INITIAL_CAMERA, { center: { lng: 35, lat: 39 }, zoom: 4, bearing: 0, pitch: 0 });
+  assert.deepEqual(INITIAL_CAMERA, {
+    center: { lng: 35, lat: 39 },
+    zoom: 1.4,
+    bearing: 0,
+    pitch: 0,
+  });
   assert.equal(MODERN_CITY_MIN_ZOOM, 4);
   assert.equal(modernCities.length, 6);
   assert.ok(preparedPilot.records.every((r) => !r.id.startsWith('modern-city:')));

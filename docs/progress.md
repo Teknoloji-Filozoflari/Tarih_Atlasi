@@ -1,5 +1,21 @@
 # Tarih Atlası — İlerleme kaydı
 
+**28 Ekim 2026 — TA-4 Küre-öncelikli açılış kamerası: IMPLEMENTED (web görsel kanıt).**
+
+İlk açılış `INITIAL_CAMERA` zoom4 bölgesel çerçeveden zoom1.4 küre-okunur
+eve çekildi (35°D 39°K; kamera tercihi, ülke/başkent iddiası değil). Paylaşım
+URL / yer imi `cameraRequest` ve `catalog.view.camera` override’ı aynı öncelikle
+duruyor; reset de yeni eve döner. Reduced-motion’a ek animasyon yok (anında
+uzak çerçeve). Siyasi stil, katman metinleri ve panel/timeline cilasına
+dokunulmadı; veri uydurulmadı.
+
+**Yerel doğrulama:** typecheck/lint PASS; hedefli unit (globe + discovery-content)
+PASS; `web:export` PASS; Playwright açılış `data-camera-zoom=1.40` ve paylaşım
+`?year=2024&lat=39&lon=35&zoom=4` uygulanınca zoom4 override PASS. Before/after
+görseller store media’da. Tam `npm run check` / 86 E2E / Android cihaz bu turda
+koşulmadı / UNVERIFIED ON DEVICE. Yayın NO-GO sürer. Güncel şehir LOD hâlâ
+zoom≥4; açılış rozet E2E’si yakına alıp Ankara kartını doğrular.
+
 **22 Ekim 2026 — Release ilk açılış nedenleri: IMPLEMENTED; uzak kabul bekleniyor.**
 
 Son uzak run 39664079314, ae2b990d: kod/veri/lisans check ve web export PASS;

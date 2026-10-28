@@ -113,7 +113,8 @@ gerçek cihaz ölçümü zorunlu; bu ortamda EAI_AGAIN nedeniyle dataset yok.
 
 ## 18 Ekim 2026 — Türkiye kamerası ve tarihî/güncel keşif ayrımı
 
-Tek MapLibre globe/web+tekExpoDOM sürer. INITIAL_CAMERA35D39K/zoom4; açık
+Tek MapLibre globe/web+tekExpoDOM sürer. INITIAL_CAMERA35D39K/zoom1.4
+(küre-okunur ev; eski zoom4 bölgesel açılış küreyi gizliyordu); açık
 SavedView/cameraRequest daha öncelikli. Güncel şehirler HistoricalPlace ve
 historicalFeatures dışında altı kayıtlık yerel modernCitySnapshot modülüdür.
 city.selected version1 zarfı yalnız incelenmiş ID kabul eder; URL/geometri yok.
