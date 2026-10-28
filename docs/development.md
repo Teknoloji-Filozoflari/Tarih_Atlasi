@@ -84,11 +84,11 @@ npm run test:web:production
 ```
 
 CI (`Altyapı kontrolleri`) Expo `start --web` kullanmaz; `web:export` sonrası
-`ATLAS_TEST_PRODUCTION=1` ile tam `npm run test:web` (`web:preview`) koşar.
-Android job, GH runner Metro OOM’unu önlemek için 16 102 GeoNames `.atlas`
-`require` grafiğini stub’lar (Hermes/JS hard gate); tam `npm run android:bundle`
-yerel veya daha büyük runner doğrulamasıdır — `continue-on-error` yok.
-Yerelde geliştirme sunucusu için `npm run test:web` (CI unset) hâlâ Expo web’i açar.
+`npm run test:web:production` (`web:preview`) koşar. Production’da `__DEV__`
+kapalı olduğundan Geliştirici araçları / bridge tanıları içeren tam `test:web`
+CI kapısı değildir (yerel Expo). Android job GeoNames `.atlas` require grafiğini
+stub’lar (Hermes/JS hard gate); tam `android:bundle` yerel/larger runner’dır —
+`continue-on-error` yok.
 
 Kaynak/lisans kapıları offline çalışabilir; yeni ham edinim internete ihtiyaç duyar.
 `history:collect`, `places:download`, `data:download` gibi komutlar ilk kurulum için
