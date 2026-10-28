@@ -39,4 +39,3 @@ export default defineConfig({
     env: { CI: '1', EXPO_NO_TELEMETRY: '1' },
   },
 });
-

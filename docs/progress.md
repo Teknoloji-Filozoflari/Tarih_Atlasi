@@ -1,15 +1,12 @@
 # Tarih Atlası — İlerleme kaydı
 
-**28 Ekim 2026 — TA-10 CI quality unblock: IMPLEMENTED (uzak yeşil bekleniyor).**
+**28 Ekim 2026 — TA-10 CI quality unblock: iterasyon 2 (uzak yeşil bekleniyor).**
 
-Altyapı kontrollerinde Expo `start --web` Playwright webServer yolu kaldırıldı;
-CI `ATLAS_TEST_PRODUCTION=1` + `web:preview` ile tam `test:web` koşar.
-`android:bundle` ayrı job’a alındı: benzersiz `/mnt/atlas-swap-$RUN_ID` (GH
-`/swapfile` Text file busy kaçınılıyor), `NODE_OPTIONS=4096`, Metro
-`maxWorkers=2` (yalnız `CI=1`). `continue-on-error` yok. Concurrency PR
-numarasında birleşir. Özellik PR’larına gömülü CI denemesi değil; ayrı workflow
-PR. Yerel browser EPERM nedeniyle E2E bu ortamda koşulmadı; uzak run sonucu
-bekleniyor.
+Tur1 (`2f951033`): `format:check` playwright trailing newline FAIL; android
+Metro ~12dk sonra SIGKILL — `metro.config` `CI === '1'` GHA `CI=true` ile
+eşleşmedi, maxWorkers uygulanmadı. Tur2: prettier; `CI` truthy → maxWorkers 1;
+`expo export --max-workers 1`; heap 6144; concurrency `head_ref||ref_name`.
+Expo webServer hâlâ CI’da yok (`web:preview`). continue-on-error yok.
 
 **28 Ekim 2026 — TA-2 siyasi ülke/poligon görünümü: IMPLEMENTED; kaynak boşlukları BLOCKED.**
 
