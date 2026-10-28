@@ -1,12 +1,13 @@
 # Tarih Atlası — İlerleme kaydı
 
-**28 Ekim 2026 — TA-10 CI quality unblock: iterasyon 2 (uzak yeşil bekleniyor).**
+**28 Ekim 2026 — TA-10 CI quality unblock: iterasyon 3 (android places-light).**
 
-Tur1 (`2f951033`): `format:check` playwright trailing newline FAIL; android
-Metro ~12dk sonra SIGKILL — `metro.config` `CI === '1'` GHA `CI=true` ile
-eşleşmedi, maxWorkers uygulanmadı. Tur2: prettier; `CI` truthy → maxWorkers 1;
-`expo export --max-workers 1`; heap 6144; concurrency `head_ref||ref_name`.
-Expo webServer hâlâ CI’da yok (`web:preview`). continue-on-error yok.
+Tur2 (`89a057df`): prettier/check + web:export PASS; android yine exit 137
+(~2dk, 16102×`.atlas` require / ~657MiB Metro asset grafiği). Tur3: CI android
+job `scripts/ci/place-assets-stub.ts` ile places require stub → Hermes/JS hard
+gate; tam places android bundle yerel/larger-runner. Workflow yalnız
+`pull_request` + `push`∈main (çift koşu yok). Expo CI’da hâlâ `web:preview`.
+continue-on-error yok.
 
 **28 Ekim 2026 — TA-2 siyasi ülke/poligon görünümü: IMPLEMENTED; kaynak boşlukları BLOCKED.**
 
