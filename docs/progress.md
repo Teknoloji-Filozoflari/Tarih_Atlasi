@@ -1,5 +1,27 @@
 # Tarih Atlası — İlerleme kaydı
 
+**28 Ekim 2026 — CI android/webServer kapısı: BLOCKED (PR #2; merge yok).**
+
+İki turda da quality kırmızı. Tur1 (`6857bb4e`): production E2E PASS; `test:web`
+Expo webServer 120s timeout; android Metro exit 143. Tur2 (`3361022f`): `test:web`
+480s’te hâlâ Expo URL yok; android `fallocate /swapfile` → Text file busy, export
+atlanmadı. unit + check + web:export + production E2E yeşil; kapı yine fail.
+Quality kırmızıyken merge edilmedi. #3–#6 aynı kapıya takılır. Ortak workflow
+fix’i main’e ayrı PR olarak önerildi (Expo CI’da `web:preview`; android swap path /
+release-only).
+
+**28 Ekim 2026 — Dürüst katman yardım metinleri: IMPLEMENTED (TA-3).**
+
+`atlas.layers.help` artık “Devlet’te tek antlaşma kesiti; diğer katmanlar boş”
+demiyor. Metin güncel katalog kapsamına hizalandı: kaynaklı siyasi
+rekonstrüksiyonlar + antlaşma kesiti (eksik dünya yılları), kaynaklı kişi ve
+savaş/olay kataloğu (çoğu konumsuz; harita yalnız kaynaklı konum), kültür alanı
+yok, güncel şehirler tarihî kanıt değil. `atlas.attribution.status` kişi/olay
+kapsamını da söylüyor; kullanılmayan `atlas.search.empty` arama boş durumuyla
+eşlendi. Sayı uydurulmadı. Siyasi stil / büyük UI cilası dokunulmadı.
+Birim testi: katman yardım/atıf metinlerinin eski “boş katman” iddiasını
+taşımaması. Web/Android UI bu turda tarayıcıda yeniden doğrulanmadı.
+
 **28 Ekim 2026 — TA-2 siyasi ülke/poligon görünümü: IMPLEMENTED; kaynak boşlukları BLOCKED.**
 
 Pastel açık atlas dolgusu kaldırıldı. Koyu sinematik taban (okyanus/kara) +

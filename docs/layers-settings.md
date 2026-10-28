@@ -5,6 +5,13 @@ tercihte de görünmez; profil/kaynaklar erişilebilir. Ayarlar ve Hakkında'ya
 [gizlilik politikası](privacy-policy.md) eklendi. [Faz16](reports/phase-16.md).
 Aşağıdaki model/filtre davranışı değişmedi; eski kişi geometri örneği askıdadır.
 
+**TA-3 (28 Ekim 2026):** `atlas.layers.help` ve `atlas.attribution.status` güncel
+katalog kapsamına hizalandı. Yardım metni artık diğer katmanları “boş” saymaz;
+Devlet’te kaynaklı dünya siyasi rekonstrüksiyonları + antlaşma kesiti, kişi ve
+savaş/olayda kaynaklı (çoğu konumsuz) katalog, kültür alanında doğrulanmış veri
+yokluğu ve güncel şehirlerin tarihî kanıt olmadığı açıkça belirtilir. Sayı
+uydurulmaz.
+
 Katmanlar panelinde Devlet, Kültür, Kişi, Savaş, Olay ve Tarihî yer / isimler ayrı
 anahtarlardır. İlk beşinin geometrisi bağımsızdır. Ad etiketleri ilgili siyasi/
 kültürel katmanın da açık olmasını ister; etiketleri kapatmak geometriyi kapatmaz.

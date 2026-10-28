@@ -33,7 +33,8 @@ export default defineConfig({
         : 'npm run web -- --host localhost --port 8081',
     url: 'http://127.0.0.1:8081',
     reuseExistingServer: !process.env.CI,
-    timeout: 120_000,
+    // Expo web cold start on GH runners after export/E2E often exceeds 2 minutes.
+    timeout: process.env.CI ? 480_000 : 120_000,
     env: { CI: '1', EXPO_NO_TELEMETRY: '1' },
   },
 });
