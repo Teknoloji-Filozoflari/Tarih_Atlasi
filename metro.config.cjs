@@ -10,6 +10,11 @@ config.resolver.blockList = [
   ...(Array.isArray(previousBlocks) ? previousBlocks : previousBlocks ? [previousBlocks] : []),
   /[/\\]data[/\\]staging[/\\]/,
 ];
+// Hosted CI runners OOM under default Metro parallelism during android export.
+// GitHub Actions sets CI=true (not CI=1); treat any truthy CI like the rest of the repo.
+if (process.env.CI) {
+  config.maxWorkers = 1;
+}
 const enhance = config.server.enhanceMiddleware;
 config.server.enhanceMiddleware = (middleware, server) =>
   createPlacesMiddleware(__dirname, enhance ? enhance(middleware, server) : middleware);

@@ -1,5 +1,13 @@
 # Tarih Atlası — İlerleme kaydı
 
+**28 Ekim 2026 — TA-10 CI quality unblock: iterasyon 4 (production E2E gate).**
+
+Tur3 (`42b260ee`): unit+android PASS; quality E2E FAIL — tam `test:web`
+production’da Geliştirici araçları / `__DEV__` tanıları bekliyor (108 pass,
+dev-only suite kırmızı). Tur4: CI `test:web:production` (önceden uzak yeşil
+olan kapı); Expo-dev suite yerel. Android places-light + web:preview sürer.
+continue-on-error yok.
+
 **28 Ekim 2026 — TA-2 siyasi ülke/poligon görünümü: IMPLEMENTED; kaynak boşlukları BLOCKED.**
 
 Pastel açık atlas dolgusu kaldırıldı. Koyu sinematik taban (okyanus/kara) +
