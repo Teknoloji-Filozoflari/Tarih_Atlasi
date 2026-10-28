@@ -104,6 +104,14 @@ docker build -f docker/Dockerfile.release -t tarih-atlasi:0.1.0-preview.1 .relea
 docker run --rm --read-only tarih-atlasi:0.1.0-preview.1 node scripts/verify.mjs
 ```
 
+Docker Engine yokken staged web paketinin HTTP/CSP smoke’u ayrı koşulabilir;
+bu, imaj build/run kabulünün yerine geçmez:
+
+```sh
+npm run release:stage && npm run release:verify
+npm run release:smoke-web
+```
+
 Release otomasyonu [workflow](../.github/workflows/release-preview.yml) içindedir.
 Actions → **Teknik önizleme paketleri** → Run workflow. Lint, strict typecheck,
 test, veri kapıları, web export, gerçek browser akışları, paket doğrulaması ve

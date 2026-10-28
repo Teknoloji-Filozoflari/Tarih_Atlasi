@@ -13,6 +13,7 @@ import {
   startExportServer,
 } from '../../scripts/distribution/server.mjs';
 import { verifyRelease } from '../../scripts/distribution/verify.mjs';
+import { smokeBase } from '../../scripts/distribution/smoke.mjs';
 
 async function fixture(t) {
   const root = await mkdtemp(join(tmpdir(), 'atlas-distribution-'));
@@ -116,6 +117,13 @@ test('release verification rejects corrupted, missing and extra files without ac
   await rm(join(root, 'dist/index.html'));
   await assert.rejects(verifyRelease(root));
 });
+test('release HTTP smoke base is restricted to loopback origins', () => {
+  assert.equal(smokeBase('http://127.0.0.1:18081/'), 'http://127.0.0.1:18081');
+  assert.throws(() => smokeBase('http://example.com'), /loopback/u);
+  assert.throws(() => smokeBase('http://127.0.0.1.evil.test'), /loopback/u);
+  assert.throws(() => smokeBase('file:///workspace/.release/web'), /loopback/u);
+});
+
 test('release verification rejects traversal and symlinks, even for valid-looking manifest entries', async (t) => {
   const root = await fixture(t);
   await writeFile(

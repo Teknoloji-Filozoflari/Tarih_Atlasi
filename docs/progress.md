@@ -1,5 +1,16 @@
 # Tarih Atlası — İlerleme kaydı
 
+**28 Ekim 2026 — TA-7 yayın kapıları: PARTIAL; kararlı NO-GO sürer.**
+
+Kalan E2E / paket smoke / blocker taraması `main` tabanında yapıldı; açık UI
+PR’larına karışılmadı. Production web E2E **86/86 PASS**. `release:stage` /
+`release:verify` PASS. Docker Engine olmadığı için container smoke **BLOCKED**;
+yerine `release:smoke-web` ile staged paketin HTTP/CSP smoke’u **PASS**
+(gerçek CSP header, healthz, 404, POST 405). Güvenli `npm audit fix` ile
+`node-forge` 1.4.2; audit 15→11. Expo major force uygulanmadı. Android
+**UNVERIFIED ON DEVICE**. Faz 17 yok.
+[Kanıt](reports/release-gates-2026-10-28/), store raporu `yayin-kapilari.md`.
+
 **22 Ekim 2026 — Release ilk açılış nedenleri: IMPLEMENTED; uzak kabul bekleniyor.**
 
 Son uzak run 39664079314, ae2b990d: kod/veri/lisans check ve web export PASS;
