@@ -20,9 +20,10 @@ export interface CameraState {
   pitch: number;
 }
 export const INITIAL_CAMERA: CameraState = {
-  // A view preference, never a historical country/settlement coordinate.
+  // Globe-readable home framing; never a historical country/settlement coordinate.
+  // Share/bookmark cameraRequest overrides this; regional zoom 4 hid the 3D globe.
   center: { lng: 35, lat: 39 },
-  zoom: 4,
+  zoom: 1.4,
   bearing: 0,
   pitch: 0,
 };

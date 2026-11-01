@@ -21,6 +21,7 @@ const envelope = (type, payload) => ({
 });
 test('kamera sözleşmesi kutupları kabul eder; sonlu ve sınırlı değerler ister', () => {
   assert.ok(isCamera(INITIAL_CAMERA));
+  assert.ok(INITIAL_CAMERA.zoom < 2);
   assert.ok(isCamera({ ...INITIAL_CAMERA, center: { lng: 180, lat: -90 } }));
   for (const camera of [
     { ...INITIAL_CAMERA, zoom: NaN },
