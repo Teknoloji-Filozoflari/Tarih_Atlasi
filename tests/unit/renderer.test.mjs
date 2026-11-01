@@ -299,7 +299,7 @@ test('camera is acknowledged after readiness and same-position restoration witho
 test('fresh camera and reset focus Turkey; explicit camera restoration takes precedence', (t) => {
   const { map, instance, calls } = harness(t);
   assert.deepEqual(map.options.center, [35, 39]);
-  assert.equal(map.options.zoom, 4);
+  assert.equal(map.options.zoom, 1.4);
   map.emit('load');
   const camera = { center: { lng: 12, lat: 48 }, zoom: 6, bearing: 15, pitch: 10 };
   instance.command({
@@ -308,7 +308,7 @@ test('fresh camera and reset focus Turkey; explicit camera restoration takes pre
   });
   assert.deepEqual(calls.jumpCameras.at(-1), { center: [12, 48], zoom: 6, bearing: 15, pitch: 10 });
   instance.command({ type: 'camera.reset', payload: {} });
-  assert.deepEqual(calls.jumpCameras.at(-1), { center: [35, 39], zoom: 4, bearing: 0, pitch: 0 });
+  assert.deepEqual(calls.jumpCameras.at(-1), { center: [35, 39], zoom: 1.4, bearing: 0, pitch: 0 });
 });
 
 test('modern city markers survive empty historical years, respect their independent toggle, covered state and disposal', async (t) => {
