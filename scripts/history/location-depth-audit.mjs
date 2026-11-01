@@ -7,13 +7,7 @@ import { fileURLToPath } from 'node:url';
 import { join } from 'node:path';
 import { birthCityAllowlist, BIRTH_CITY_ALLOWLIST } from './birth-city-allowlist.mjs';
 
-const REVIEW_DIRS = [
-  'raw',
-  'expanded-raw',
-  'ottoman-raw',
-  'global-raw',
-  'broad-raw',
-];
+const REVIEW_DIRS = ['raw', 'expanded-raw', 'ottoman-raw', 'global-raw', 'broad-raw'];
 
 /** Place names that are not city-scale settlements for birth-year points. */
 const NON_SETTLEMENT =
@@ -39,8 +33,7 @@ export function parseHistoryManifestGeometry(source) {
   const byKind = Object.create(null);
   let total = 0;
   let withGeometry = 0;
-  const re =
-    /\{\s*id:\s*'([^']+)'[\s\S]*?kind:\s*'([^']+)'[\s\S]*?geometry:\s*(true|false)/g;
+  const re = /\{\s*id:\s*'([^']+)'[\s\S]*?kind:\s*'([^']+)'[\s\S]*?geometry:\s*(true|false)/g;
   for (const match of source.matchAll(re)) {
     const kind = match[2];
     const geo = match[3] === 'true';
