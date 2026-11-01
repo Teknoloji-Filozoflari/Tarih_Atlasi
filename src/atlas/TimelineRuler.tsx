@@ -7,14 +7,17 @@ export function TimelineRuler({
   minYear,
   maxYear,
   compact,
+  testID,
 }: {
   minYear: number;
   maxYear: number;
   compact: boolean;
+  /** Primary rail only — tools sheet reuses the ruler without duplicating this id. */
+  testID?: string;
 }) {
   const ticks = timelineRuler(minYear, maxYear, compact);
   return (
-    <View style={styles.root} pointerEvents="none" accessible={false} testID="timeline-ruler">
+    <View style={styles.root} pointerEvents="none" accessible={false} testID={testID}>
       {ticks.map(({ year, fraction }, i) => (
         <View key={year} style={[styles.tick, { left: `${fraction * 100}%` }]}>
           <View style={styles.line} />

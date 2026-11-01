@@ -1184,7 +1184,7 @@ export function AtlasScreen() {
                   onAttribution={() => open('attribution')}
                 />
               </View>
-              {!pickingNote && (
+              {!pickingNote && !nonmodalDetail && (
                 <FloatingLayersPanel
                   visibility={visibility}
                   onToggle={toggle}

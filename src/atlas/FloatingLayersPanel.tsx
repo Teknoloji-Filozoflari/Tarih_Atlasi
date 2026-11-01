@@ -19,9 +19,36 @@ export function FloatingLayersPanel({
   compact: boolean;
 }) {
   const active = layers.reduce((n, layer) => n + (visibility[layer.id] ? 1 : 0), 0);
+  // Narrow: one chip into the full drawer — a full toggle rail covers map markers/cards.
+  if (compact) {
+    return (
+      <View
+        style={[styles.root, styles.compact]}
+        testID="floating-layers-panel"
+        accessibilityRole="toolbar"
+        accessibilityLabel={t('atlas.layers')}
+      >
+        <Pressable
+          accessibilityRole="button"
+          accessibilityLabel={t('layers.panel.openFull')}
+          onPress={onOpenFull}
+          style={({ pressed }) => [styles.compactLaunch, pressed && styles.pressed]}
+        >
+          <AppText variant="label" style={styles.title}>
+            {t('atlas.layers')}
+          </AppText>
+          <View style={styles.badge} accessible={false}>
+            <AppText variant="label" style={styles.badgeText}>
+              {active}
+            </AppText>
+          </View>
+        </Pressable>
+      </View>
+    );
+  }
   return (
     <View
-      style={[styles.root, compact && styles.compact]}
+      style={styles.root}
       testID="floating-layers-panel"
       accessibilityRole="toolbar"
       accessibilityLabel={t('atlas.layers')}
@@ -65,15 +92,13 @@ export function FloatingLayersPanel({
               <AppText accessible={false} style={{ color: on ? layer.color : theme.colors.muted }}>
                 {layer.symbol}
               </AppText>
-              {!compact && (
-                <AppText
-                  variant="label"
-                  numberOfLines={1}
-                  style={{ color: on ? theme.colors.text : theme.colors.muted }}
-                >
-                  {t(layer.label)}
-                </AppText>
-              )}
+              <AppText
+                variant="label"
+                numberOfLines={1}
+                style={{ color: on ? theme.colors.text : theme.colors.muted }}
+              >
+                {t(layer.label)}
+              </AppText>
             </Pressable>
           );
         })}
@@ -111,7 +136,14 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(18, 29, 40, 0.88)',
     zIndex: 2,
   },
-  compact: { width: 112 },
+  compact: { width: 'auto', maxWidth: '50%', padding: theme.spacing.xs },
+  compactLaunch: {
+    minHeight: theme.layout.minTouchTarget,
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: theme.spacing.xs,
+    paddingHorizontal: theme.spacing.xs,
+  },
   header: {
     flexDirection: 'row',
     alignItems: 'center',

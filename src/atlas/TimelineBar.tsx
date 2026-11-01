@@ -145,7 +145,12 @@ export function TimelineBar({
           onEnd={onRelease}
           highlight={highlight}
         />
-        <TimelineRuler minYear={bounds.minYear} maxYear={bounds.maxYear} compact={compact} />
+        <TimelineRuler
+          minYear={bounds.minYear}
+          maxYear={bounds.maxYear}
+          compact={compact}
+          testID="timeline-ruler"
+        />
       </View>
       {expanded && (
         <EntitySheet
