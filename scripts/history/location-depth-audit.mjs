@@ -2,9 +2,9 @@
  * TA-8 location-depth pilot: read-only coverage + candidate report.
  * Does not invent coordinates/dates, does not write production catalogs.
  */
-import { readFile, readdir, writeFile, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
-import { dirname, join } from 'node:path';
+import { join } from 'node:path';
 import { birthCityAllowlist, BIRTH_CITY_ALLOWLIST } from './birth-city-allowlist.mjs';
 
 const REVIEW_DIRS = [
