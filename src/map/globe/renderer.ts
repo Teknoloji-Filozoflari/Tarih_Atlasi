@@ -91,11 +91,14 @@ export function mountRenderer(
   const syncReducedMotion = () => {
     const value = reducedMotion ? 'true' : 'false';
     container.dataset.reducedMotion = value;
+    // Node unit harness has no HTMLElement; never touch that global.
     const root =
       typeof container.closest === 'function'
         ? container.closest('.atlas-scene-root')
         : null;
-    if (root instanceof HTMLElement) root.dataset.reducedMotion = value;
+    if (root && typeof root === 'object' && 'dataset' in root) {
+      (root as { dataset: DOMStringMap }).dataset.reducedMotion = value;
+    }
   };
   syncReducedMotion();
   let selectedId: string | null = null;
