@@ -115,6 +115,10 @@ test('picking a personal point is not interrupted by modern city markers', async
   await expect(page.getByTestId('globe-canvas-host')).toHaveAttribute('data-projection', 'globe', {
     timeout: 30000,
   });
+  // Globe-first home (zoom 1.4) is below city LOD (zoom ≥ 4); zoom in so markers exist.
+  for (let step = 0; step < 4; step++)
+    await page.getByRole('button', { name: 'Yakınlaştır', exact: true }).click();
+  await expect(page.locator('.atlas-modern-city:visible').first()).toBeVisible({ timeout: 30000 });
   await tool(page, 'Haritada nokta belirle ve kayıt ekle');
   await expect(page.getByRole('button', { name: 'Bu noktayı kullan', exact: true })).toBeVisible();
   await page.locator('.atlas-modern-city:visible').first().click();
