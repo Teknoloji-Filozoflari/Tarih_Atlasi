@@ -26,6 +26,7 @@ import type { LandCollection } from './land.ts';
 import type { PhysicalDetail } from './physical-detail.ts';
 import { resourceScope } from './lifecycle.ts';
 import { physicalStyle } from './style.ts';
+import { sceneAtmosphereEffectsEnabled, sceneSkySpecification } from './scene-atmosphere.ts';
 import {
   historicalFeatures,
   type HistoricalView,
@@ -87,6 +88,17 @@ export function mountRenderer(
   let lastViewSignature = '';
   let visibleIds = new Set<string>();
   let reducedMotion = true;
+  const syncReducedMotion = () => {
+    const value = reducedMotion ? 'true' : 'false';
+    container.dataset.reducedMotion = value;
+    // Node unit harness has no HTMLElement; never touch that global.
+    const root =
+      typeof container.closest === 'function' ? container.closest('.atlas-scene-root') : null;
+    if (root && typeof root === 'object' && 'dataset' in root) {
+      (root as { dataset: DOMStringMap }).dataset.reducedMotion = value;
+    }
+  };
+  syncReducedMotion();
   let selectedId: string | null = null;
   let currentFeatures: RenderFeatureCollection['features'] = [];
   const hitSelection = createHitSelection(PILOT_VERSION);
@@ -513,6 +525,14 @@ export function mountRenderer(
         scope.add(() => marker.remove());
         marker.setLngLat([0, 0]).addTo(map);
         container.dataset.projection = 'globe';
+        if (sceneAtmosphereEffectsEnabled()) {
+          try {
+            map.setSky?.(sceneSkySpecification());
+          } catch {
+            /* sky deneysel; küre çalışmaya devam eder */
+          }
+        }
+        syncReducedMotion();
         lastCamera = '';
         callbacks.ready();
         emitCamera();
@@ -634,6 +654,7 @@ export function mountRenderer(
           if (command.payload.retryData) cities.retry();
           cities.refresh();
           reducedMotion = command.payload.reducedMotion ?? true;
+          syncReducedMotion();
           if (command.payload.retryData) lastViewSignature = '';
           if (
             (command.payload.revision ?? 0) !== requestedRevision ||

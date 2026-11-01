@@ -1,6 +1,7 @@
 // Direct imports preserve named tests in environments restricting child-process IPC.
 import './unit/foundation.test.mjs';
 import './unit/globe.test.mjs';
+import './unit/scene-atmosphere.test.mjs';
 import './unit/atlas.test.mjs';
 import './unit/renderer.test.mjs';
 import './unit/domain.test.mjs';
