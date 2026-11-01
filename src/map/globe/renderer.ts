@@ -26,7 +26,7 @@ import type { LandCollection } from './land.ts';
 import type { PhysicalDetail } from './physical-detail.ts';
 import { resourceScope } from './lifecycle.ts';
 import { physicalStyle } from './style.ts';
-import { sceneSkySpecification } from './scene-atmosphere.ts';
+import { sceneAtmosphereEffectsEnabled, sceneSkySpecification } from './scene-atmosphere.ts';
 import {
   historicalFeatures,
   type HistoricalView,
@@ -525,10 +525,12 @@ export function mountRenderer(
         scope.add(() => marker.remove());
         marker.setLngLat([0, 0]).addTo(map);
         container.dataset.projection = 'globe';
-        try {
-          map.setSky?.(sceneSkySpecification());
-        } catch {
-          /* sky deneysel; küre çalışmaya devam eder */
+        if (sceneAtmosphereEffectsEnabled()) {
+          try {
+            map.setSky?.(sceneSkySpecification());
+          } catch {
+            /* sky deneysel; küre çalışmaya devam eder */
+          }
         }
         syncReducedMotion();
         lastCamera = '';

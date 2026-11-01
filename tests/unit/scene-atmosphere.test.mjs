@@ -4,6 +4,7 @@ import { test } from 'node:test';
 import { physicalStyle, assertHistoricalMapStyle } from '../../src/map/globe/style.ts';
 import {
   createStarField,
+  sceneAtmosphereEffectsEnabled,
   sceneCssVariables,
   sceneSkySpecification,
 } from '../../src/map/globe/scene-atmosphere.ts';
@@ -36,7 +37,9 @@ test('physical style keeps map paints and adds mild sky atmosphere', () => {
     style.layers.find((layer) => layer.id === 'physical-land')?.paint['fill-color'],
     theme.colors.land,
   );
+  assert.equal(sceneAtmosphereEffectsEnabled(), true);
   const sky = style.sky ?? sceneSkySpecification();
+  assert.ok(style.sky, 'node/unit has no webdriver — sky stays on the style');
   assert.ok(Array.isArray(sky['atmosphere-blend']));
   assert.equal(sky['atmosphere-blend'][4], theme.scene.atmosphereBlendFar);
   assert.equal(sky['atmosphere-blend'][8], theme.scene.atmosphereBlendNear);

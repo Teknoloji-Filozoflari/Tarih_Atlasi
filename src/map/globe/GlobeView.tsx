@@ -19,7 +19,12 @@ import { mountRenderer } from './renderer';
 import { resourceScope } from './lifecycle';
 import { PILOT_VERSION } from '../../data/pilot-contract';
 import { placesRepository } from '../../places/runtime';
-import { createStarField, paintStarField, sceneCssVariables } from './scene-atmosphere';
+import {
+  createStarField,
+  paintStarField,
+  sceneAtmosphereEffectsEnabled,
+  sceneCssVariables,
+} from './scene-atmosphere';
 
 export interface GlobeViewProps {
   sessionId: string;
@@ -265,7 +270,11 @@ export function GlobeView({
     >
       <canvas
         ref={starsCanvas}
-        className="atlas-scene-stars atlas-scene-stars--drift"
+        className={
+          sceneAtmosphereEffectsEnabled()
+            ? 'atlas-scene-stars atlas-scene-stars--drift'
+            : 'atlas-scene-stars'
+        }
         aria-hidden
         data-testid="globe-scene-stars"
       />

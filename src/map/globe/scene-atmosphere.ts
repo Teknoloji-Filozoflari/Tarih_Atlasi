@@ -87,3 +87,13 @@ export function sceneCssVariables(): Record<string, string> {
     '--atlas-scene-fallback': colors.background,
   };
 }
+
+/**
+ * MapLibre sky + CSS star drift over WebGL stalls CI GPUs (ReadPixels) and can
+ * leave historicalStatus stuck on "loading" in Playwright. Keep CSS/canvas
+ * static atmosphere; enable animated/sky effects only for real browsers.
+ */
+export function sceneAtmosphereEffectsEnabled(): boolean {
+  if (typeof navigator === 'undefined') return true;
+  return !(navigator as Navigator & { webdriver?: boolean }).webdriver;
+}
