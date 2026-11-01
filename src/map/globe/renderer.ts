@@ -93,9 +93,7 @@ export function mountRenderer(
     container.dataset.reducedMotion = value;
     // Node unit harness has no HTMLElement; never touch that global.
     const root =
-      typeof container.closest === 'function'
-        ? container.closest('.atlas-scene-root')
-        : null;
+      typeof container.closest === 'function' ? container.closest('.atlas-scene-root') : null;
     if (root && typeof root === 'object' && 'dataset' in root) {
       (root as { dataset: DOMStringMap }).dataset.reducedMotion = value;
     }
