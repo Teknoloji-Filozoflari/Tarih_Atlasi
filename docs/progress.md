@@ -1,5 +1,16 @@
 # Tarih Atlası — İlerleme kaydı
 
+**28 Ekim 2026 — TA-5 sol katman paneli + dönem çipleri + timeline cilası: IMPLEMENTED (web).**
+
+Sol yüzen kompakt katman rayı (ikon + gerçek katalog sayaçları; kültür 0 dürüst),
+ürün dokümanı dönem pencereleri → `requestedYear`, scrubber kalınlaştırıldı,
+MÖ/MS cetvel her zaman görünür, seçili dönem bandı. Playback/scale motoru ve
+LayersDrawer switch’leri korundu; katman yardım metni (#2), siyasi stil (#1) ve
+açılış kamerası (#3) dokunulmadı. Token’lar kum/mürekkep; mor neon yok.
+Plan: agent store `docs/ui-panel-timeline.md`. Kanıt: `media/ui-ta5-*.png`.
+Yerel: typecheck PASS; lint PASS; 4 yeni unit PASS; web export PASS.
+Android cihaz **UNVERIFIED ON DEVICE**. Tam 86 E2E bu turda koşulmadı.
+
 **28 Ekim 2026 — TA-4 Küre-öncelikli açılış kamerası: IMPLEMENTED (web görsel kanıt).**
 
 İlk açılış `INITIAL_CAMERA` zoom4 bölgesel çerçeveden zoom1.4 küre-okunur
