@@ -1,0 +1,4 @@
+npm notice run tarih-atlasi@0.1.0 release:smoke-web
+npm notice run node scripts/distribution/smoke-web.mjs
+PASS: HTTP readiness, actual HTML, CSP, 404 and method policy. GPU/device performance not measured.
+PASS: docker-free staged web package smoke. Container image build/run remains a separate gate.

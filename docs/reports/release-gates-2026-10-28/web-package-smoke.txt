@@ -1,0 +1,1 @@
+PASS: container HTTP readiness, actual HTML, CSP, 404 and method policy. GPU/device performance not measured.
