@@ -86,6 +86,7 @@
     "people:broad:check": "node scripts/people/broad.mjs --check",
     "history:collect": "node scripts/history/collect.mjs",
     "history:audit": "node scripts/history/import.mjs --audit",
+    "history:location-depth": "node scripts/history/location-depth-audit.mjs --write-report",
     "history:prepare": "node scripts/history/import.mjs && node scripts/people/requests.mjs && prettier --write src/history/generated/assets.ts src/history/generated/dom.ts",
     "history:check": "node scripts/history/check.mjs",
     "release:assets": "npm run globe:check && npm run basemap:check && npm run physical:check && npm run pilot:check && npm run sitelinks:check && npm run chunks:check && npm run world:check && npm run world:review:check && npm run polities:identities:check && npm run places:check && npm run people:check && npm run people:expanded:check && npm run people:ottoman:check && npm run people:global:check && npm run people:broad:check && npm run history:check",

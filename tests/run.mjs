@@ -42,6 +42,7 @@ import './unit/local-notes.test.mjs';
 import './unit/map-card-regression.test.mjs';
 import './unit/broad-history.test.mjs';
 import './unit/history-import.test.mjs';
+import './unit/location-depth-audit.test.mjs';
 import './unit/distribution.test.mjs';
 import './unit/release-regressions.test.mjs';
 import './unit/ui-panel-timeline.test.mjs';
